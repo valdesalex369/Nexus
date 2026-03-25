@@ -4,6 +4,21 @@ const telegram = require('../telegram');
 
 const router = Router();
 
+// GET /api/agents/approvals/pending — must be before /:name to avoid route collision
+router.get('/approvals/pending', (req, res) => {
+  const pending = [];
+  for (const [id, entry] of telegram.pendingApprovals) {
+    pending.push({
+      id,
+      agent: entry.agent,
+      action: entry.action,
+      details: entry.details,
+      createdAt: entry.createdAt,
+    });
+  }
+  res.json(pending);
+});
+
 // GET /api/agents — list all agents and their status
 router.get('/', (req, res) => {
   const list = Object.values(agents).map((a) => a.toJSON());
@@ -17,12 +32,12 @@ router.get('/:name', (req, res) => {
   res.json({ ...agent.toJSON(), history: agent.history.slice(-10) });
 });
 
-// POST /api/agents/:name/run — execute an agent (no approval gate)
+// POST /api/agents/:name/run — execute an agent (notifications fire, no approval gate)
 router.post('/:name/run', async (req, res) => {
   const agent = agents[req.params.name];
   if (!agent) return res.status(404).json({ error: 'Agent not found' });
 
-  const { message, topic, platform, niche } = req.body;
+  const { message, topic, platform, niche, content } = req.body;
 
   try {
     let result;
@@ -36,6 +51,9 @@ router.post('/:name/run', async (req, res) => {
       case 'market':
         result = await agent.analyze(platform || 'twitter', niche || 'general');
         break;
+      case 'prediction':
+        result = await agent.predict(content || message, platform || 'twitter');
+        break;
       default:
         result = await agent.run(message);
     }
@@ -46,11 +64,12 @@ router.post('/:name/run', async (req, res) => {
 });
 
 // POST /api/agents/:name/run-with-approval — execute with Telegram approval gate
+// Agent BLOCKS until you /approve or /deny in Telegram
 router.post('/:name/run-with-approval', async (req, res) => {
   const agent = agents[req.params.name];
   if (!agent) return res.status(404).json({ error: 'Agent not found' });
 
-  const { message, topic, platform, niche, budget } = req.body;
+  const { message, topic, platform, niche, budget, content, campaign, platforms } = req.body;
 
   try {
     let result;
@@ -64,6 +83,13 @@ router.post('/:name/run-with-approval', async (req, res) => {
       case 'market':
         result = await agent.analyzePaid(platform || 'twitter', niche || 'general', budget || 0);
         break;
+      case 'prediction':
+        result = await agent.forecastWithApproval(
+          campaign || message,
+          platforms || [platform || 'twitter'],
+          budget || 0
+        );
+        break;
       default:
         result = await agent.run(message);
     }
@@ -71,21 +97,6 @@ router.post('/:name/run-with-approval', async (req, res) => {
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
-});
-
-// GET /api/agents/approvals/pending — list pending Telegram approvals
-router.get('/approvals/pending', (req, res) => {
-  const pending = [];
-  for (const [id, entry] of telegram.pendingApprovals) {
-    pending.push({
-      id,
-      agent: entry.agent,
-      action: entry.action,
-      details: entry.details,
-      createdAt: entry.createdAt,
-    });
-  }
-  res.json(pending);
 });
 
 module.exports = router;

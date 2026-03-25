@@ -18,21 +18,21 @@ Return analysis as JSON: { "platform": "...", "trends": [...], "recommendation":
   }
 
   /**
-   * Run a paid analysis (e.g. ad spend recommendation) — requires approval.
+   * Paid analysis with budget — requires approval since it involves money.
    */
   async analyzePaid(platform, niche, budget) {
-    const approved = await this.requestApproval(
-      `Paid market analysis`,
+    const { approved, reason } = await this.requestApproval(
+      `Paid market analysis ($${budget})`,
       `Platform: ${platform}\nNiche: ${niche}\nBudget: $${budget}`
     );
 
     if (!approved) {
-      return { approved: false, result: null };
+      return { approved: false, reason, result: null };
     }
 
     const prompt = `Analyze ${platform} for the ${niche} niche with an ad budget of $${budget}. Suggest how to allocate the budget and expected ROI.`;
     const result = await this.run(prompt);
-    return { approved: true, result };
+    return { approved: true, reason, result };
   }
 }
 

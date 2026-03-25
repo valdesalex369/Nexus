@@ -25,13 +25,20 @@ app.get('/api/health', (req, res) => {
   res.json({
     status: 'ok',
     telegram: telegram.enabled,
+    pendingApprovals: telegram.pendingApprovals.size,
     timestamp: new Date().toISOString(),
   });
 });
 
-// Start Telegram bot
+// Start Telegram conductor
 telegram.init();
 
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
   console.log(`Nexus API running on http://localhost:${PORT}`);
+
+  // Send a real Telegram message on boot to confirm the bot works
+  const sent = await telegram.sendStartupTest();
+  if (sent) {
+    console.log('[Nexus] Telegram conductor active — you will be pinged for all agent activity');
+  }
 });

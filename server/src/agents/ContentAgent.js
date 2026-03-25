@@ -19,17 +19,18 @@ Return the content as JSON: { "platform": "...", "content": "...", "hashtags": [
   }
 
   /**
-   * Generate content and request approval before marking it ready to publish.
+   * Generate content then require approval before it can be published.
+   * Never posts publicly without human sign-off.
    */
   async createAndApprove(topic, platform) {
     const content = await this.createPost(topic, platform);
 
-    const approved = await this.requestApproval(
+    const { approved, reason } = await this.requestApproval(
       `Publish to ${platform}`,
       `Topic: ${topic}\n\nGenerated content:\n${content}`
     );
 
-    return { content, approved, platform };
+    return { content, approved, reason, platform };
   }
 }
 
