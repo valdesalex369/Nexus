@@ -8,6 +8,7 @@ const telegram = require('./telegram');
 const agentsRouter = require('./routes/agents');
 const postsRouter = require('./routes/posts');
 const platformsRouter = require('./routes/platforms');
+const seoRouter = require('./routes/seo');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -19,6 +20,7 @@ app.use(express.json());
 app.use('/api/agents', agentsRouter);
 app.use('/api/posts', postsRouter);
 app.use('/api/platforms', platformsRouter);
+app.use('/api/seo', seoRouter);
 
 // Health check
 app.get('/api/health', (req, res) => {

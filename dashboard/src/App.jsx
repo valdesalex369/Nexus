@@ -4,6 +4,7 @@ import Dashboard from './pages/Dashboard';
 import Agents from './pages/Agents';
 import Posts from './pages/Posts';
 import Settings from './pages/Settings';
+import SEO from './pages/SEO';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/agents" element={<Agents />} />
           <Route path="/posts" element={<Posts />} />
+          <Route path="/seo" element={<SEO />} />
           <Route path="/settings" element={<Settings />} />
         </Route>
       </Routes>

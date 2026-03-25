@@ -54,6 +54,9 @@ router.post('/:name/run', async (req, res) => {
       case 'prediction':
         result = await agent.predict(content || message, platform || 'twitter');
         break;
+      case 'seo':
+        result = await agent.audit(content || message, req.body.url);
+        break;
       default:
         result = await agent.run(message);
     }
@@ -89,6 +92,9 @@ router.post('/:name/run-with-approval', async (req, res) => {
           platforms || [platform || 'twitter'],
           budget || 0
         );
+        break;
+      case 'seo':
+        result = await agent.optimizeAndApprove(content || message, platform || 'general');
         break;
       default:
         result = await agent.run(message);
