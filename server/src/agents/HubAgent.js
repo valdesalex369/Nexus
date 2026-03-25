@@ -16,6 +16,20 @@ Be concise and structured in your responses. Return JSON when possible.`
     const prompt = `Break this goal into subtasks and assign each to either ContentAgent or MarketAgent:\n\nGoal: ${goal}`;
     return this.run(prompt);
   }
+
+  /**
+   * Plan and request approval before delegating to other agents.
+   */
+  async planAndApprove(goal) {
+    const plan = await this.plan(goal);
+
+    const approved = await this.requestApproval(
+      'Execute multi-agent plan',
+      `Goal: ${goal}\n\nPlan:\n${plan}`
+    );
+
+    return { plan, approved };
+  }
 }
 
 module.exports = HubAgent;

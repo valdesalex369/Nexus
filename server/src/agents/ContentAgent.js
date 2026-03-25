@@ -17,6 +17,20 @@ Return the content as JSON: { "platform": "...", "content": "...", "hashtags": [
     const prompt = `Write a ${platform} post about: ${topic}`;
     return this.run(prompt);
   }
+
+  /**
+   * Generate content and request approval before marking it ready to publish.
+   */
+  async createAndApprove(topic, platform) {
+    const content = await this.createPost(topic, platform);
+
+    const approved = await this.requestApproval(
+      `Publish to ${platform}`,
+      `Topic: ${topic}\n\nGenerated content:\n${content}`
+    );
+
+    return { content, approved, platform };
+  }
 }
 
 module.exports = ContentAgent;

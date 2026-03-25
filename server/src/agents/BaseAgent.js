@@ -1,4 +1,5 @@
 const Anthropic = require('@anthropic-ai/sdk');
+const telegram = require('../telegram');
 
 const client = new Anthropic({
   apiKey: process.env.ANTHROPIC_API_KEY,
@@ -16,6 +17,10 @@ class BaseAgent {
 
   async run(userMessage) {
     this.status = 'running';
+
+    // 1. Notify task start
+    await telegram.notifyTaskStart(this.name, userMessage);
+
     try {
       const response = await client.messages.create({
         model: 'claude-sonnet-4-20250514',
@@ -28,11 +33,27 @@ class BaseAgent {
       this.lastRun = new Date().toISOString();
       this.status = 'idle';
       this.history.push({ input: userMessage, output: result, timestamp: this.lastRun });
+
+      // 2. Notify task complete
+      await telegram.notifyTaskComplete(this.name, userMessage, result);
+
       return result;
     } catch (err) {
       this.status = 'error';
+
+      // 3. Alert on error
+      await telegram.notifyError(this.name, userMessage, err.message);
+
       throw err;
     }
+  }
+
+  /**
+   * Request approval before a sensitive action (spending money, posting publicly).
+   * Returns true if approved, false if denied/timed out.
+   */
+  async requestApproval(action, details) {
+    return telegram.requestApproval(this.name, action, details);
   }
 
   toJSON() {
