@@ -1,69 +1,71 @@
-# Nexus
+# NEXUS
 AI Agents and Social Media Automation
 
-## Agent Teams
+A TypeScript multi-agent platform for autonomous trading intelligence, content automation, and social media engagement.
 
-Nexus supports **agent teams** — groups of cooperating AI agents that can run in parallel, sequentially, or as a pipeline where each agent's output feeds into the next.
-
-### Quick Start
-
-```python
-import asyncio
-from nexus.agents.social import ContentCreatorAgent, SchedulerAgent, ModeratorAgent
-from nexus.teams.team import AgentTeam
-
-async def main():
-    team = AgentTeam("my-team")
-    team.add(ContentCreatorAgent())
-    team.add(SchedulerAgent())
-    team.add(ModeratorAgent())
-
-    # Run all agents in parallel
-    results = await team.run_all({"topic": "AI", "platforms": ["twitter"]})
-
-    # Or run as a pipeline (output of one feeds into the next)
-    output = await team.run_pipeline(initial_input={"topic": "AI", "platforms": ["twitter"]})
-
-asyncio.run(main())
-```
-
-### Built-in Agents
-
-| Agent | Role | Description |
-|-------|------|-------------|
-| `ContentCreatorAgent` | Content Creator | Generates social media posts |
-| `SchedulerAgent` | Scheduler | Schedules posts for optimal engagement |
-| `AnalyticsAgent` | Analyst | Tracks engagement metrics |
-| `ModeratorAgent` | Moderator | Reviews content for policy compliance |
-
-### Custom Agents
-
-```python
-from nexus.agents.base import Agent, AgentRole
-
-class MyAgent(Agent):
-    def __init__(self):
-        super().__init__(name="my-agent", role=AgentRole.CUSTOM)
-
-    async def execute(self, context):
-        # Your logic here
-        return {"result": "done"}
-```
-
-### Configuration
-
-Set via environment variables:
-
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `NEXUS_TEAMS_ENABLED` | `true` | Enable/disable agent teams |
-| `NEXUS_MAX_AGENTS_PER_TEAM` | `10` | Max agents per team |
-| `NEXUS_MESSAGE_TIMEOUT` | `30` | Message delivery timeout (seconds) |
-| `NEXUS_PARALLEL_EXECUTION` | `true` | Allow parallel agent execution |
-| `NEXUS_LOG_LEVEL` | `INFO` | Logging level |
-
-### Run the Demo
+## Quick Start
 
 ```bash
-python -m nexus.main
+# Install dependencies
+npm install
+
+# Copy environment config
+cp .env.example .env
+# Edit .env with your API keys
+
+# Type check
+npx tsc --noEmit
+
+# Run a single test cycle
+npx ts-node agents/HubAgent.ts
+
+# Start 24/7 automation
+npx ts-node scripts/runner.ts
+
+# Start API server (localhost:3001)
+npx ts-node server/index.ts
 ```
+
+## Architecture
+
+**5-Layer System:**
+
+| Layer | Purpose | Component |
+|-------|---------|-----------|
+| Specialization | 5 swarm agents vote with dissent penalty | MiroFish |
+| Synthesis | 4-5 sources combined with learned weights | PredictionAgent |
+| Learning | Nightly recalibration from outcomes | AutoResolutionLoop |
+| Orchestration | 10-step pipeline, graceful degradation | HubAgent |
+| Delivery | Telegram /approve /deny conductor | Telegram module |
+
+## Agents
+
+| Agent | Role | Status |
+|-------|------|--------|
+| HubAgent | Central orchestrator | Ready |
+| MarketAgent | CoinGecko price/OHLCV | Ready |
+| OnChainAgent | Etherscan whale tracking | Ready |
+| PredictionAgent | Weighted prediction synthesis | Ready |
+| ContentAgent | X thread writer + daily digest | Ready |
+| FearGreedAgent | Sentiment signal (5th source) | Ready |
+| CompetitorAgent | @CW8900 @lookonchain patterns | Ready |
+| TwitterEngagementAgent | Monitor mentions + draft replies | Ready |
+
+## Schedules (runner.ts)
+
+| Frequency | Task |
+|-----------|------|
+| Every 15 min | HubAgent.runCycle() |
+| Every 30 min | TwitterEngagementAgent |
+| Daily 8am | CompetitorAgent |
+| Daily 2am | AutoResolutionLoop (recalibration) |
+
+## API Endpoints
+
+| Method | Path | Description |
+|--------|------|-------------|
+| GET | /api/status | System health check |
+| GET | /api/memory | Full NexusMemory state |
+| GET | /api/memory/weights | Prediction source weights |
+| GET | /api/predictions?limit=20 | Recent predictions |
+| POST | /api/cycle | Trigger manual cycle |
