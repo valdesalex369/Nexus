@@ -7,6 +7,7 @@
 
 import fs from "fs";
 import path from "path";
+import { sanitizeOutput } from "../security";
 import type { NexusMemoryState, PredictionOutput } from "../types";
 
 const MEMORY_FILE = path.resolve(__dirname, "../../data/nexus-memory.json");
@@ -55,7 +56,10 @@ export class NexusMemory {
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir, { recursive: true });
     }
-    fs.writeFileSync(MEMORY_FILE, JSON.stringify(this.state, null, 2));
+    // SecurityLayer: sanitize the entire JSON blob before persisting
+    // so secrets never end up in nexus-memory.json
+    const raw = JSON.stringify(this.state, null, 2);
+    fs.writeFileSync(MEMORY_FILE, sanitizeOutput(raw));
   }
 
   // --- Getters ---
@@ -106,7 +110,8 @@ export class NexusMemory {
   }
 
   addInsight(insight: string): void {
-    this.state.learnedInsights.push(insight);
+    // SecurityLayer: sanitize insights before storing
+    this.state.learnedInsights.push(sanitizeOutput(insight));
     // Keep last 100 insights
     if (this.state.learnedInsights.length > 100) {
       this.state.learnedInsights = this.state.learnedInsights.slice(-100);

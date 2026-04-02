@@ -19,6 +19,7 @@
 
 import { NexusMemory } from "../shared/memory/NexusMemory";
 import { sendMessage } from "../shared/telegram";
+import { installEnvMonitor, sanitizeOutput, DataBoundary } from "../shared/security";
 import type { AgentContext, AgentResult, PredictionOutput } from "../shared/types";
 
 import { MarketAgent } from "./MarketAgent";
@@ -44,8 +45,25 @@ export class HubAgent {
   private engagementAgent = new TwitterEngagementAgent();
   private mirofish = new MiroFishSwarm();
 
+  // DataBoundary instances per agent — enforce read permissions
+  private boundaries = {
+    market: new DataBoundary("MarketAgent", "market"),
+    onchain: new DataBoundary("OnChainAgent", "onchain"),
+    prediction: new DataBoundary("PredictionAgent", "prediction"),
+    content: new DataBoundary("ContentAgent", "content"),
+    engagement: new DataBoundary("TwitterEngagementAgent", "engagement"),
+    sentiment: new DataBoundary("FearGreedAgent", "sentiment"),
+    competitor: new DataBoundary("CompetitorAgent", "competitor"),
+  };
+
   constructor() {
     this.memory = new NexusMemory();
+
+    // SecurityLayer: install env access monitor AFTER config has loaded.
+    // Any subsequent reads of sensitive env vars will trigger a warning + Telegram alert.
+    installEnvMonitor((msg) => {
+      sendMessage(`🔐 *Security Alert*\n${sanitizeOutput(msg)}`);
+    });
   }
 
   /**
@@ -72,7 +90,13 @@ export class HubAgent {
     console.log("[Hub] Step 1: Memory loaded");
 
     // --- Steps 2-5: Gather data in parallel (graceful degradation) ---
+    // SecurityLayer: verify each agent's DataBoundary before execution
     console.log("[Hub] Steps 2-5: Gathering data in parallel...");
+    this.boundaries.market.canRead("market");
+    this.boundaries.onchain.canRead("onchain");
+    this.boundaries.sentiment.canRead("market");
+    this.boundaries.competitor.canRead("market");
+
     const [marketResult, onChainResult, fearGreedResult, competitorResult] =
       await Promise.allSettled([
         this.marketAgent.run(ctx),
@@ -129,6 +153,15 @@ export class HubAgent {
     if (prediction) {
       const summary = this.buildTelegramSummary(prediction, results);
       await sendMessage(summary);
+    }
+
+    // SecurityLayer: check for DataBoundary violations during this cycle
+    const violations = Object.values(this.boundaries)
+      .flatMap((b) => b.getViolations());
+    if (violations.length > 0) {
+      const alert = `🔐 *Security Violations (Cycle #${this.cycleCount})*\n${violations.join("\n")}`;
+      console.warn(alert);
+      await sendMessage(alert);
     }
 
     const totalMs = Date.now() - cycleStart;

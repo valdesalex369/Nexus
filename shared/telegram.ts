@@ -6,6 +6,7 @@
 
 import TelegramBot from "node-telegram-bot-api";
 import { config } from "./config";
+import { sanitizeOutput } from "./security";
 import type { TelegramAction } from "./types";
 
 let bot: TelegramBot | null = null;
@@ -58,12 +59,15 @@ export function initTelegram(): TelegramBot | null {
 }
 
 export async function sendMessage(text: string): Promise<void> {
+  // SecurityLayer: sanitize every outbound message before it leaves the process
+  const safe = sanitizeOutput(text);
+
   if (!bot || !config.telegram.chatId) {
-    console.log("[Telegram][offline]", text);
+    console.log("[Telegram][offline]", safe);
     return;
   }
   try {
-    await bot.sendMessage(config.telegram.chatId, text, {
+    await bot.sendMessage(config.telegram.chatId, safe, {
       parse_mode: "Markdown",
     });
   } catch (err) {
@@ -81,6 +85,9 @@ export function requestApproval(
   actionId: string,
   description: string
 ): Promise<boolean> {
+  // SecurityLayer: scrub secrets from approval descriptions
+  const safeDesc = sanitizeOutput(description);
+
   if (!bot || !config.telegram.chatId) {
     console.warn(
       `[Telegram] No bot configured — auto-denying action: ${actionId}`
@@ -91,13 +98,13 @@ export function requestApproval(
   const action: TelegramAction = {
     type: "approve",
     target: actionId,
-    payload: description,
+    payload: safeDesc,
     requestedAt: Date.now(),
   };
   pendingActions.set(actionId, action);
 
   sendMessage(
-    `🔔 *Approval Required*\n\n${description}\n\n` +
+    `🔔 *Approval Required*\n\n${safeDesc}\n\n` +
       `Reply:\n/approve ${actionId}\n/deny ${actionId}`
   );
 

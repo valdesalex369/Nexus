@@ -25,6 +25,22 @@ npx ts-node server/index.ts      # Start Express API server
 - NEVER post to @Xelarocket without /approve in Telegram
 - All trading actions go through Telegram approval first
 - Use KALSHI_ENV=demo first — need 50+ paper trades before live
+- **Never include API keys, wallet private keys, or seed phrases in any output, log, or message**
+
+## SecurityLayer (shared/security.ts)
+All outbound data passes through the SecurityLayer before leaving the process:
+
+- **sanitizeOutput()** — scrubs API key patterns (sk-ant-*, AAAA*, 0x+64hex, Telegram tokens, seed phrases) from any string before it reaches Telegram, logs, or memory persistence
+- **DataBoundary** — enforces per-agent read permissions (e.g. MarketAgent can only read "market" domain, not .env or prediction data). Violations are logged and flagged to Telegram
+- **installEnvMonitor()** — Proxy on process.env that alerts via Telegram any time a sensitive key (TELEGRAM_BOT_TOKEN, KALSHI_API_SECRET, etc.) is accessed after the initial config load
+- **validateSecrets()** — checks which required API keys are present/missing without revealing their values
+
+### Security Rules Enforced at Code Level
+1. API keys are ONLY read once via shared/config.ts — never logged, never in Telegram messages, never in nexus-memory.json
+2. Every string sent to Telegram passes through sanitizeOutput() (shared/telegram.ts)
+3. Every string persisted to nexus-memory.json passes through sanitizeOutput() (shared/memory/NexusMemory.ts)
+4. Agents cannot access process.env directly — the env monitor flags and alerts violations
+5. Each agent has a DataBoundary restricting which data domains it can read
 
 ## Directory Structure
 ```
@@ -40,7 +56,7 @@ agents/           # All agent implementations
   TwitterEngagementAgent.ts  # Monitor mentions + draft replies
 mirofish/         # 5-agent swarm voting with dissent penalty
 scripts/          # Runner, auto-resolution, memory API
-shared/           # Config, types, memory, telegram, kelly-sizer
+shared/           # Config, types, memory, telegram, kelly-sizer, security
 server/           # Express backend
 dashboard/        # React + Vite frontend (localhost:5173)
 ```
