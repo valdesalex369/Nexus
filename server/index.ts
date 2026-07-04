@@ -13,11 +13,13 @@ import express from "express";
 import path from "path";
 import { NexusMemory } from "../shared/memory/NexusMemory";
 import { HubAgent } from "../agents/HubAgent";
+import { HermesAgent } from "../hermes/agents/HermesAgent";
 import { config } from "../shared/config";
 
 const app = express();
 const memory = new NexusMemory();
 const hub = new HubAgent();
+const hermes = new HermesAgent();
 const PORT = config.server.port;
 
 app.use(express.json());
@@ -58,6 +60,27 @@ app.post("/api/cycle", async (_req, res) => {
   try {
     const result = await hub.runCycle();
     res.json({ success: true, cycle: result.cycle, prediction: result.prediction });
+  } catch (err) {
+    const message = err instanceof Error ? err.message : String(err);
+    res.status(500).json({ success: false, error: message });
+  }
+});
+
+// --- HERMES Intelligence Routes ---
+
+app.post("/api/hermes/cycle", async (_req, res) => {
+  try {
+    const briefing = await hermes.runCycle();
+    res.json({
+      success: true,
+      headline: briefing.headline,
+      regime: briefing.marketRegime,
+      threatLevel: briefing.overallThreatlevel,
+      signalCounts: briefing.signalCounts,
+      positions: briefing.topPositions,
+      criticalCount: briefing.criticalAlerts.length,
+      actionRequired: briefing.actionRequired,
+    });
   } catch (err) {
     const message = err instanceof Error ? err.message : String(err);
     res.status(500).json({ success: false, error: message });

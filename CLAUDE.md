@@ -44,7 +44,7 @@ All outbound data passes through the SecurityLayer before leaving the process:
 
 ## Directory Structure
 ```
-agents/           # All agent implementations
+agents/           # NEXUS trading agents
   HubAgent.ts     # Central orchestrator (10-step pipeline)
   BaseAgent.ts    # Abstract base class
   MarketAgent.ts  # CoinGecko price/OHLCV
@@ -54,14 +54,29 @@ agents/           # All agent implementations
   FearGreedAgent.ts   # Sentiment as prediction source
   CompetitorAgent.ts  # @CW8900 @lookonchain patterns
   TwitterEngagementAgent.ts  # Monitor mentions + draft replies
-mirofish/         # 5-agent swarm voting with dissent penalty
+hermes/           # HERMES strategic intelligence system
+  agents/
+    HermesAgent.ts       # Central intelligence orchestrator
+    GeopoliticalAgent.ts # Sanctions, policy, central banks
+    AlphaScanner.ts      # Statistical arbitrage, edge detection
+    IndustryRadar.ts     # Sector shifts, disruption, emergence
+    DevIntelAgent.ts     # GitHub trends, tech stack monitoring
+    SmartMoneyAgent.ts   # Whale flows, VC funding, institutional
+    StrategistAgent.ts   # Position synthesis (the Upgrade core)
+  mirofish/
+    hermes-swarm.ts      # 5 strategic voting agents
+  workflows/
+    n8n-hermes.json      # N8N workflow export
+  shared/
+    hermes-types.ts      # Full HERMES type system
+mirofish/         # NEXUS trading swarm (5-agent dissent penalty)
 scripts/          # Runner, auto-resolution, memory API
 shared/           # Config, types, memory, telegram, kelly-sizer, security
-server/           # Express backend
+server/           # Express backend (serves both NEXUS + HERMES APIs)
 dashboard/        # React + Vite frontend (localhost:5173)
 ```
 
-## Agent Pipeline (HubAgent.runCycle)
+## NEXUS Pipeline (HubAgent.runCycle)
 1. Load memory (NexusMemory)
 2. MarketAgent → CoinGecko price data
 3. OnChainAgent → Etherscan whale tracking
@@ -74,3 +89,37 @@ dashboard/        # React + Vite frontend (localhost:5173)
 10. Telegram delivery → Send summary
 
 Steps 2-5 run in parallel. If any agent fails, pipeline continues with fallback data.
+
+## HERMES Intelligence System
+Strategic intelligence augmentation — the second brain.
+
+### HERMES Pipeline (HermesAgent.runCycle)
+1. GeopoliticalAgent → sanctions, trade policy, central banks, tariffs
+2. AlphaScanner → stat arb, sentiment divergence, correlation breaks
+3. IndustryRadar → AI, energy, semiconductors, crypto, defense, biotech
+4. DevIntelAgent → GitHub trending, emerging tools, tech stack shifts
+5. SmartMoneyAgent → whale wallets, VC funding, institutional flows
+6. HermesSwarm → 5-agent strategic voting (macro, contrarian, risk, scout, timeline)
+7. StrategistAgent → synthesize positions: build/learn/allocate/hedge/avoid/exit
+8. Telegram briefing delivery
+
+Steps 1-5 run in parallel. Each agent has graceful degradation.
+
+### HERMES MiroFish Swarm Agents
+| Agent | Strategy | Focus |
+|-------|----------|-------|
+| MacroThinker | Systemic, long-term structural | Geopolitical + industry shifts |
+| Contrarian | Fades consensus, finds crowded trades | Sentiment extremes |
+| RiskAssessor | Quantifies downside, tail risks | Critical + high threat signals |
+| OpportunityScout | Asymmetric bets, high-upside | DevIntel + alpha + smart money |
+| TimelineAnalyst | Urgency and sequencing | Decaying alpha, critical timing |
+
+### HERMES Commands
+```bash
+npx ts-node hermes/agents/HermesAgent.ts   # Test single intelligence cycle
+POST /api/hermes/cycle                      # Trigger via API
+```
+
+### N8N Integration
+Import `hermes/workflows/n8n-hermes.json` into N8N for automated scheduling.
+The workflow runs every 4 hours and triggers all 5 intelligence agents.

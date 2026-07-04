@@ -13,14 +13,16 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "ignoreDeprecations": "5.0"
   },
   "include": [
     "agents/**/*.ts",
     "mirofish/**/*.ts",
     "scripts/**/*.ts",
     "shared/**/*.ts",
-    "server/**/*.ts"
+    "server/**/*.ts",
+    "hermes/**/*.ts"
   ],
   "exclude": ["node_modules", "dist", "dashboard"]
 }
