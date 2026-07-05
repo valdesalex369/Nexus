@@ -61,6 +61,12 @@ export const config = {
   wallet: {
     address: env("WALLET_ADDRESS"),
   },
+  hermes: {
+    newsApiKey: env("NEWSAPI_KEY"),
+    githubToken: env("GITHUB_TOKEN"),
+    cycleMs: envInt("HERMES_CYCLE_MS", 4 * 60 * 60 * 1000),   // 4h
+    cron: env("HERMES_CRON", "0 */4 * * *"),                   // every 4h
+  },
 
   // --- Timing (ms) ---
   intervals: {

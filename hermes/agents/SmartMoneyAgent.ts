@@ -112,7 +112,7 @@ export class SmartMoneyAgent {
   private async scanVCFunding(): Promise<SmartMoneySignal[]> {
     // VC funding data typically comes from Crunchbase, PitchBook, or news APIs.
     // Using news-based detection as a lightweight alternative.
-    const apiKey = process.env.NEWSAPI_KEY;
+    const apiKey = config.hermes.newsApiKey;
     if (!apiKey) return [];
 
     try {

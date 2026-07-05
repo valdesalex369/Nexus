@@ -9,6 +9,7 @@
  */
 
 import axios from "axios";
+import { config } from "../../shared/config";
 import type {
   GeopoliticalSignal,
   GeoEventType,
@@ -66,7 +67,7 @@ export class GeopoliticalAgent {
   private async fetchHeadlines(): Promise<Array<{ title: string; description: string; source: string; url: string; publishedAt: string }>> {
     // Primary: NewsAPI for geopolitical headlines
     // Falls back to empty array if no API key configured
-    const apiKey = process.env.NEWSAPI_KEY;
+    const apiKey = config.hermes.newsApiKey;
     if (!apiKey) {
       console.warn(`[${this.name}] No NEWSAPI_KEY — using fallback scan`);
       return this.fallbackHeadlines();

@@ -4,6 +4,7 @@
  * Schedules:
  *  Every 15 min:  HubAgent.runCycle()
  *  Every 30 min:  TwitterEngagementAgent
+ *  Every 4h:      HermesAgent.runCycle() — strategic intelligence briefing
  *  Every 6h:      FearGreedAgent (via HubAgent)
  *  Every 8am:     CompetitorAgent (via HubAgent)
  *  Every 2am:     AutoResolutionLoop — recalibrate weights
@@ -11,11 +12,13 @@
 
 import { CronJob } from "cron";
 import { HubAgent } from "../agents/HubAgent";
+import { HermesAgent } from "../hermes/agents/HermesAgent";
 import { initTelegram, sendMessage } from "../shared/telegram";
 import { config } from "../shared/config";
 import type { AgentContext } from "../shared/types";
 
 const hub = new HubAgent();
+const hermes = new HermesAgent();
 
 function makeCtx(): AgentContext {
   return {
@@ -41,6 +44,16 @@ const engagementCycle = new CronJob("*/30 * * * *", async () => {
     await hub.runEngagement(makeCtx());
   } catch (err) {
     console.error("[Runner] Engagement cycle error:", err);
+  }
+});
+
+// --- HERMES intelligence cycle: every 4h ---
+const hermesCycle = new CronJob(config.hermes.cron, async () => {
+  try {
+    await hermes.runCycle();
+  } catch (err) {
+    console.error("[Runner] HERMES cycle error:", err);
+    await sendMessage(`⚠️ HERMES intelligence cycle failed: ${err}`);
   }
 });
 
@@ -83,19 +96,24 @@ async function start(): Promise<void> {
 
   mainCycle.start();
   engagementCycle.start();
+  hermesCycle.start();
   recalibrationCycle.start();
 
   console.log("Schedules active:");
   console.log("  Main cycle:    every 15 min");
   console.log("  Engagement:    every 30 min");
+  console.log("  HERMES:        every 4h");
   console.log("  Recalibration: 2am daily");
   console.log("");
 
-  await sendMessage("🚀 *NEXUS Runner started* — all schedules active");
+  await sendMessage("🚀 *NEXUS Runner started* — all schedules active (NEXUS + HERMES)");
 
-  // Run first cycle immediately
-  console.log("Running initial cycle...\n");
+  // Run first cycles immediately
+  console.log("Running initial NEXUS cycle...\n");
   await hub.runCycle();
+
+  console.log("Running initial HERMES cycle...\n");
+  await hermes.runCycle();
 }
 
 start().catch((err) => {

@@ -9,6 +9,7 @@
  */
 
 import axios from "axios";
+import { config } from "../../shared/config";
 import type {
   DevIntelSignal,
   DevSignalType,
@@ -92,7 +93,7 @@ export class DevIntelAgent {
         },
         headers: {
           Accept: "application/vnd.github.v3+json",
-          ...(process.env.GITHUB_TOKEN ? { Authorization: `token ${process.env.GITHUB_TOKEN}` } : {}),
+          ...(config.hermes.githubToken ? { Authorization: `token ${config.hermes.githubToken}` } : {}),
         },
         timeout: 15_000,
       });

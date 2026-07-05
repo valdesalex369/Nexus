@@ -6,6 +6,7 @@
  */
 
 import axios from "axios";
+import { config } from "../../shared/config";
 import type {
   IndustrySignal,
   IndustryShiftType,
@@ -84,7 +85,7 @@ export class IndustryRadar {
   }
 
   private async fetchIndustryNews(): Promise<Array<{ title: string; description: string; source: string; url: string }>> {
-    const apiKey = process.env.NEWSAPI_KEY;
+    const apiKey = config.hermes.newsApiKey;
     if (!apiKey) {
       console.warn(`[${this.name}] No NEWSAPI_KEY — skipping live industry scan`);
       return [];
