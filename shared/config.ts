@@ -66,6 +66,12 @@ export const config = {
     githubToken: env("GITHUB_TOKEN"),
     cycleMs: envInt("HERMES_CYCLE_MS", 4 * 60 * 60 * 1000),   // 4h
     cron: env("HERMES_CRON", "0 */4 * * *"),                   // every 4h
+    // WorldMonitor — primary world-event source (public tier needs no key)
+    worldMonitorBase: env("WORLDMONITOR_API_BASE", "https://api.worldmonitor.app"),
+    worldMonitorKey: env("WORLDMONITOR_KEY"),
+    worldMonitorEventsPath: env("WORLDMONITOR_EVENTS_PATH"),
+    // GDELT DOC 2.0 — secondary source + tone timelines (no key)
+    gdeltBase: env("GDELT_DOC_URL", "https://api.gdeltproject.org/api/v2/doc/doc"),
   },
 
   // --- Timing (ms) ---

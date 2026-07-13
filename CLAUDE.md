@@ -65,6 +65,9 @@ hermes/           # HERMES strategic intelligence system
     StrategistAgent.ts   # Position synthesis (the Upgrade core)
   mirofish/
     hermes-swarm.ts      # 5 strategic voting agents
+  sources/
+    worldmonitor.ts      # WorldMonitor client (structured world events)
+    gdelt.ts             # GDELT DOC 2.0 client (headlines + tone, throttled)
   workflows/
     n8n-hermes.json      # N8N workflow export
   shared/
@@ -120,6 +123,20 @@ npx ts-node hermes/agents/HermesAgent.ts   # Test single intelligence cycle
 POST /api/hermes/cycle                      # Trigger via API
 ```
 
+### World-Event Data Chain (GeopoliticalAgent)
+Graceful degradation across three tiers — each failure falls through:
+1. **WorldMonitor** (`hermes/sources/worldmonitor.ts`) — api.worldmonitor.app, free public API, no key. Pre-scored/geolocated/deduplicated events from 500+ feeds incl. ACLED + UCDP. Endpoint path is probed from candidates; pin `WORLDMONITOR_EVENTS_PATH` after verifying the OpenAPI spec (github.com/koala73/worldmonitor).
+2. **GDELT DOC 2.0** (`hermes/sources/gdelt.ts`) — free, no key, 65 languages. Throttled to 1 req/5.5s (GDELT blocks IPs that exceed 1/5s). Also feeds AlphaScanner's news-tone divergence detector via TimelineTone.
+3. **NewsAPI** — needs NEWSAPI_KEY, keyword classification.
+
+Both source clients cache per-cycle and degrade to empty arrays — never remove the throttle or caching.
+
 ### N8N Integration
 Import `hermes/workflows/n8n-hermes.json` into N8N for automated scheduling.
 The workflow runs every 4 hours and triggers all 5 intelligence agents.
+
+## The Organization (TEAM.md)
+The repo is organized like a company — see `TEAM.md` for the full org chart:
+- **Runtime agents** (NEXUS trading desk + HERMES intelligence division) do the 24/7 work
+- **Claude subagents** (`.claude/agents/`): nexus-builder (engineering), signal-architect (quant R&D), alpha-researcher (research), security-guardian (security), pipeline-doctor (SRE)
+- **Skills** (`.claude/skills/`): run-cycle, ship, new-agent, security-audit, intel-brief — the standard operating procedures. Use `ship` gates before every push; use `new-agent` checklist when adding agents.

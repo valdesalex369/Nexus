@@ -10,6 +10,7 @@
 
 import axios from "axios";
 import { config } from "../../shared/config";
+import { fetchToneTimeline } from "../sources/gdelt";
 import type {
   AlphaSignal,
   AlphaType,
@@ -46,6 +47,7 @@ export class AlphaScanner {
     signals.push(...this.detectVolatilityRegime(prices));
     signals.push(...this.detectCorrelationBreak(prices));
     signals.push(...this.detectMispricing(prices));
+    signals.push(...(await this.detectNewsToneDivergence(prices)));
 
     console.log(`[${this.name}] Found ${signals.length} alpha signals`);
     return signals;
@@ -197,6 +199,64 @@ export class AlphaScanner {
           direction: p.change24h > 0 ? "opportunity" : "threat",
         }));
       }
+    }
+
+    return signals;
+  }
+
+  // --- News-Tone vs Price Divergence (GDELT) ---
+  // Global news tone across 65 languages vs BTC price action. Tone leads
+  // retail sentiment surveys; a wide gap between narrative and price is
+  // the same accumulation/distribution tell as Fear&Greed divergence but
+  // sourced from what the world's press is actually writing.
+  private async detectNewsToneDivergence(prices: PricePoint[]): Promise<AlphaSignal[]> {
+    const btc = prices.find((p) => p.symbol === "BTC");
+    if (!btc) return [];
+
+    const timeline = await fetchToneTimeline(
+      '(bitcoin OR cryptocurrency OR crypto) sourcelang:english',
+      "3d"
+    );
+    if (timeline.length < 8) return []; // too thin to trend
+
+    // recent = last quarter of the window, prior = the rest
+    const cut = Math.floor(timeline.length * 0.75);
+    const avg = (pts: typeof timeline) =>
+      pts.reduce((s, p) => s + p.tone, 0) / Math.max(pts.length, 1);
+    const priorTone = avg(timeline.slice(0, cut));
+    const recentTone = avg(timeline.slice(cut));
+    const toneShift = recentTone - priorTone;
+
+    const signals: AlphaSignal[] = [];
+
+    // Press turning negative while price holds/rises = wall-of-worry accumulation
+    if (toneShift < -1.5 && btc.change24h > 1) {
+      signals.push(this.makeSignal({
+        title: "News-Tone Divergence: Darkening Press + Rising Price",
+        summary: `Global crypto news tone fell ${Math.abs(toneShift).toFixed(1)} pts (GDELT, 65 languages) while BTC gained ${btc.change24h.toFixed(1)}% in 24h. Price absorbing bad news is an accumulation tell.`,
+        alphaType: "sentiment-diverge",
+        asset: "BTC",
+        edgePercent: Math.min(Math.abs(toneShift), 6),
+        timeHorizon: "days",
+        decayRate: 0.1,
+        confidence: 0.6,
+        direction: "opportunity",
+      }));
+    }
+
+    // Press euphoric while price stalls/drops = distribution into good news
+    if (toneShift > 1.5 && btc.change24h < -1) {
+      signals.push(this.makeSignal({
+        title: "News-Tone Divergence: Euphoric Press + Falling Price",
+        summary: `Global crypto news tone rose ${toneShift.toFixed(1)} pts (GDELT) while BTC dropped ${Math.abs(btc.change24h).toFixed(1)}% in 24h. Price rejecting good news suggests distribution.`,
+        alphaType: "sentiment-diverge",
+        asset: "BTC",
+        edgePercent: Math.min(toneShift, 6),
+        timeHorizon: "days",
+        decayRate: 0.15,
+        confidence: 0.6,
+        direction: "threat",
+      }));
     }
 
     return signals;

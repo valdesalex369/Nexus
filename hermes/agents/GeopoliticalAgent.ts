@@ -4,18 +4,40 @@
  * Tracks: sanctions, trade policy, energy policy, central bank moves,
  * regulatory shifts, elections, tariffs, technology bans.
  *
- * Data sources: news APIs, government feeds, central bank calendars.
- * Each event is classified by type, threat level, affected sectors, and time horizon.
+ * Source chain (graceful degradation at every tier):
+ *  1. WorldMonitor  — structured, pre-scored, geolocated events (free, no key)
+ *  2. GDELT DOC 2.0 — translingual headlines, 65 languages (free, no key)
+ *  3. NewsAPI       — English business headlines (needs NEWSAPI_KEY)
+ *  4. empty         — pipeline continues on fallback
  */
 
 import axios from "axios";
 import { config } from "../../shared/config";
+import { fetchWorldEvents, WorldEvent } from "../sources/worldmonitor";
+import { fetchGdeltArticles } from "../sources/gdelt";
 import type {
   GeopoliticalSignal,
   GeoEventType,
   HermesContext,
   ThreatLevel,
 } from "../shared/hermes-types";
+
+// WorldMonitor category → GeoEventType (checked before keyword classification)
+const CATEGORY_MAP: Array<[RegExp, GeoEventType]> = [
+  [/sanction|embargo/, "sanctions"],
+  [/conflict|military|war|defen[cs]e|troop/, "military"],
+  [/central.?bank|monetary|fed|rate/, "central-bank"],
+  [/tariff|duty/, "tariff"],
+  [/trade|chokepoint|shipping|maritime/, "trade-policy"],
+  [/energy|oil|gas|opec|pipeline/, "energy-policy"],
+  [/election|vote|political/, "election"],
+  [/regulat|compliance|antitrust/, "regulation"],
+  [/treaty|accord|diplomat/, "treaty"],
+  [/tech|chip|semiconductor|export.?control|cyber/, "technology-ban"],
+];
+
+const GDELT_GEO_QUERY =
+  '(sanctions OR tariff OR "central bank" OR "federal reserve" OR "export controls" OR treaty OR embargo OR "trade war") sourcelang:english';
 
 // Keyword sets for classifying raw headlines
 const EVENT_KEYWORDS: Record<GeoEventType, string[]> = {
@@ -50,6 +72,20 @@ export class GeopoliticalAgent {
   async gather(_ctx: HermesContext): Promise<GeopoliticalSignal[]> {
     console.log(`[${this.name}] Scanning geopolitical signals...`);
 
+    // Tier 1: WorldMonitor — structured events with pre-computed
+    // geolocation, dedup, and escalation scoring
+    const events = await fetchWorldEvents();
+    if (events.length > 0) {
+      const signals = events
+        .map((e) => this.mapWorldEvent(e))
+        .filter((s): s is GeopoliticalSignal => s !== null);
+      if (signals.length > 0) {
+        console.log(`[${this.name}] ${signals.length} signals from WorldMonitor`);
+        return signals;
+      }
+    }
+
+    // Tier 2/3: headline sources (GDELT → NewsAPI) + keyword classification
     const headlines = await this.fetchHeadlines();
     const signals: GeopoliticalSignal[] = [];
 
@@ -64,9 +100,61 @@ export class GeopoliticalAgent {
     return signals;
   }
 
+  /**
+   * WorldMonitor events arrive geolocated, deduplicated, and escalation-scored,
+   * so this mapping trusts upstream values over the keyword heuristics.
+   */
+  private mapWorldEvent(event: WorldEvent): GeopoliticalSignal | null {
+    const text = `${event.category} ${event.title} ${event.summary}`.toLowerCase();
+
+    let eventType: GeoEventType | null = null;
+    for (const [pattern, type] of CATEGORY_MAP) {
+      if (pattern.test(text)) {
+        eventType = type;
+        break;
+      }
+    }
+    if (!eventType) return null;
+
+    const score = event.escalationScore;
+    const threatLevel: ThreatLevel =
+      score >= 0.8 ? "critical" : score >= 0.6 ? "high" : score >= 0.35 ? "medium" : "low";
+
+    return {
+      id: `geo-wm-${event.id}`,
+      domain: "geopolitical",
+      title: event.title,
+      summary: event.summary,
+      direction: score >= 0.5 ? "threat" : this.assessDirection(text),
+      threatLevel,
+      // corroborated "breaking" events require 5 independent origin types
+      confidence: event.corroborated ? 0.85 : Math.min(0.55 + score * 0.3, 0.8),
+      source: event.provider,
+      sourceUrl: event.url,
+      affectedSectors: SECTOR_MAP[eventType] ?? [],
+      timestamp: event.timestamp,
+      tags: [eventType, ...(SECTOR_MAP[eventType]?.slice(0, 3) ?? [])],
+      eventType,
+      countries: event.countries.length > 0 ? event.countries : this.extractCountries(text),
+      impactHorizon: score >= 0.6 ? "immediate" : this.assessHorizon(eventType),
+    };
+  }
+
   private async fetchHeadlines(): Promise<Array<{ title: string; description: string; source: string; url: string; publishedAt: string }>> {
-    // Primary: NewsAPI for geopolitical headlines
-    // Falls back to empty array if no API key configured
+    // Tier 2: GDELT — translingual, no key needed
+    const gdeltArticles = await fetchGdeltArticles(GDELT_GEO_QUERY, "24h", 50);
+    if (gdeltArticles.length > 0) {
+      console.log(`[${this.name}] ${gdeltArticles.length} headlines from GDELT`);
+      return gdeltArticles.map((a) => ({
+        title: a.title,
+        description: "",
+        source: a.domain || "GDELT",
+        url: a.url,
+        publishedAt: new Date(a.seenAt).toISOString(),
+      }));
+    }
+
+    // Tier 3: NewsAPI (needs key)
     const apiKey = config.hermes.newsApiKey;
     if (!apiKey) {
       console.warn(`[${this.name}] No NEWSAPI_KEY — using fallback scan`);

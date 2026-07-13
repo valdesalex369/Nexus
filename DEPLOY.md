@@ -28,6 +28,8 @@ Edit `.env` and fill in what you have. Everything is optional — agents degrade
 | `KALSHI_API_KEY/SECRET` | Prediction market edges — **keep `KALSHI_ENV=demo`** | kalshi.com |
 
 CoinGecko + Fear&Greed are keyless — market alpha works out of the box.
+**WorldMonitor + GDELT are also keyless** — geopolitical world-event monitoring
+works with zero keys (WorldMonitor → GDELT → NewsAPI degradation chain).
 
 **Never commit `.env`.** It's gitignored. Private keys and seed phrases never go anywhere in this system.
 
