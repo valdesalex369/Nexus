@@ -5,6 +5,7 @@
  * and produces the daily strategic briefing with actionable positions.
  */
 
+import type { Agora } from "../../shared/agora";
 import type {
   HermesContext,
   HermesBriefing,
@@ -17,11 +18,11 @@ export class StrategistAgent {
   readonly name = "StrategistAgent";
   private swarm = new HermesSwarm();
 
-  async synthesize(ctx: HermesContext): Promise<HermesBriefing> {
+  async synthesize(ctx: HermesContext, agora?: Agora): Promise<HermesBriefing> {
     console.log(`[${this.name}] Running strategic synthesis...`);
 
-    // Run HERMES swarm deliberation
-    const consensus = await this.swarm.deliberate(ctx);
+    // Run HERMES swarm deliberation (two rounds: vote, then debate)
+    const consensus = await this.swarm.deliberate(ctx, agora);
     ctx.swarmConsensus = consensus;
     ctx.positions = consensus.recommendedPositions;
 
@@ -69,10 +70,17 @@ export class StrategistAgent {
         (p) => p.urgency === "immediate" || p.urgency === "this-week"
       ),
       fullSignals: allSignals,
+      angles: ctx.angles ?? [],
+      debateSummary: this.summarizeDebate(consensus.votes.length, consensus.votes.filter((v) => v.revised).length, consensus.votes.filter((v) => v.dissent).length, agora?.size ?? 0),
     };
 
     console.log(`[${this.name}] Briefing ready: "${headline}"`);
     return briefing;
+  }
+
+  private summarizeDebate(votes: number, revised: number, dissents: number, messages: number): string {
+    if (messages === 0) return `${votes} votes, no debate transcript this cycle.`;
+    return `${votes} votes over ${messages} exchanges — ${revised} agent${revised === 1 ? "" : "s"} revised after hearing peers, ${dissents} still dissent${dissents === 1 ? "s" : ""}.`;
   }
 
   private assessRegime(signals: Signal[]): "risk-on" | "risk-off" | "transitioning" | "uncertain" {

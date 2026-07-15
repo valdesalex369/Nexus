@@ -102,9 +102,17 @@ Strategic intelligence augmentation — the second brain.
 3. IndustryRadar → AI, energy, semiconductors, crypto, defense, biotech
 4. DevIntelAgent → GitHub trending, emerging tools, tech stack shifts
 5. SmartMoneyAgent → whale wallets, VC funding, institutional flows
-6. HermesSwarm → 5-agent strategic voting (macro, contrarian, risk, scout, timeline)
-7. StrategistAgent → synthesize positions: build/learn/allocate/hedge/avoid/exit
-8. Telegram briefing delivery
+6. RoundtableAgent → cross-domain crossfire via the Agora (convergence/contradiction/lone-wolf angles)
+7. HermesSwarm → two-round debate: independent votes, then agents hear peers and revise (caution-only)
+8. StrategistAgent → synthesize positions: build/learn/allocate/hedge/avoid/exit
+9. Telegram briefing delivery (incl. "Angles You Don't See" + debate summary)
+10. Memory bridge → top angles persist to NexusMemory insights so NEXUS learns from HERMES
+
+### Inter-Agent Communication (the Agora)
+- **`shared/agora.ts`** — per-cycle deterministic message bus: observation/challenge/revision/insight
+- **`hermes/agents/RoundtableAgent.ts`** — collides signals across domains by shared subject (asset/country/sector/tech). Convergence = compound signal (+10%/domain); contradiction = blind spot; uncorroborated critical = lone wolf (verify)
+- **Swarm debate rule**: revisions only move toward caution or learning — peer pressure can never talk the swarm into more risk
+- **Demo without keys**: `npx ts-node scripts/agora-demo.ts` — synthetic signals, full transcript
 
 Steps 1-5 run in parallel. Each agent has graceful degradation.
 

@@ -178,6 +178,42 @@ export interface StrategicPosition {
 }
 
 // ---------------------------------------------------------------------------
+// AGORA — inter-agent communication
+// ---------------------------------------------------------------------------
+
+export type AgoraMessageKind =
+  | "observation"  // an agent states what it sees
+  | "challenge"    // an agent disputes another agent's read
+  | "revision"     // an agent changes its position after hearing peers
+  | "insight";     // a conclusion that emerged from the exchange
+
+export interface AgoraMessage {
+  from: string;          // agent id
+  to: string;            // agent id or "all"
+  kind: AgoraMessageKind;
+  subject: string;
+  body: string;
+  refs: string[];        // signal ids / agent ids this message is about
+  timestamp: number;
+}
+
+// An "angle" — something the conversation surfaced that no single agent saw
+export type AngleKind =
+  | "convergence"    // 2+ independent domains flag the same subject
+  | "contradiction"  // domains disagree on the same subject = blind spot
+  | "lone-wolf"      // high-threat signal with zero corroboration = verify
+  | "dissent";       // an agent still disagrees after debate = live thesis
+
+export interface Angle {
+  kind: AngleKind;
+  title: string;
+  insight: string;       // the actionable read, in plain language
+  agents: string[];      // who surfaced it
+  signalIds: string[];
+  confidence: number;    // 0-1
+}
+
+// ---------------------------------------------------------------------------
 // HERMES CONTEXT — what flows through the pipeline
 // ---------------------------------------------------------------------------
 
@@ -192,6 +228,8 @@ export interface HermesContext {
   smartMoney: SmartMoneySignal[];
   positions: StrategicPosition[];
   swarmConsensus?: HermesSwarmConsensus;
+  agora?: AgoraMessage[];  // the cycle's inter-agent conversation
+  angles?: Angle[];        // what the conversation surfaced
 }
 
 // ---------------------------------------------------------------------------
@@ -206,6 +244,8 @@ export interface HermesSwarmVote {
   confidence: number;
   dissent: boolean;
   riskAssessment: number; // 0-1
+  revised?: boolean;              // changed position during debate round
+  initialPosition?: PositionType; // what it voted before hearing peers
 }
 
 export interface HermesSwarmConsensus {
@@ -231,6 +271,8 @@ export interface HermesBriefing {
   marketRegime: "risk-on" | "risk-off" | "transitioning" | "uncertain";
   actionRequired: boolean;
   fullSignals: Signal[];
+  angles: Angle[];         // what agents talking to each other surfaced
+  debateSummary: string;   // one-line record of the swarm debate
 }
 
 // ---------------------------------------------------------------------------

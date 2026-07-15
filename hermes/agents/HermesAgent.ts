@@ -20,8 +20,11 @@ import { IndustryRadar } from "./IndustryRadar";
 import { DevIntelAgent } from "./DevIntelAgent";
 import { SmartMoneyAgent } from "./SmartMoneyAgent";
 import { StrategistAgent } from "./StrategistAgent";
+import { RoundtableAgent } from "./RoundtableAgent";
+import { Agora } from "../../shared/agora";
 import { sanitizeOutput } from "../../shared/security";
 import { sendMessage } from "../../shared/telegram";
+import { NexusMemory } from "../../shared/memory/NexusMemory";
 import type {
   HermesContext,
   HermesBriefing,
@@ -41,7 +44,9 @@ export class HermesAgent {
   private industry = new IndustryRadar();
   private devIntel = new DevIntelAgent();
   private smartMoney = new SmartMoneyAgent();
+  private roundtable = new RoundtableAgent();
   private strategist = new StrategistAgent();
+  private memory = new NexusMemory();
 
   async runCycle(): Promise<HermesBriefing> {
     this.cycleCount++;
@@ -92,13 +97,47 @@ export class HermesAgent {
     console.log(`  DevIntel:     ${ctx.devIntel.length}`);
     console.log(`  SmartMoney:   ${ctx.smartMoney.length}`);
 
-    // Step 7: Strategic synthesis (swarm + strategist)
+    // Step 6.5: The agents talk to each other.
+    // Roundtable cross-examines domains; the Agora carries the conversation
+    // into the swarm debate so votes happen WITH cross-domain context.
+    const agora = new Agora();
+    ctx.angles = this.roundtable.convene(ctx, agora);
+
+    // Step 7: Strategic synthesis (two-round swarm debate + strategist)
     console.log("[Hermes] Running strategic synthesis...");
-    const briefing = await this.strategist.synthesize(ctx);
+    const briefing = await this.strategist.synthesize(ctx, agora);
+    ctx.agora = agora.transcript();
+
+    // Persistent dissents after debate are angles too — a thesis someone
+    // still holds against the majority is exactly what you can't see alone.
+    for (const vote of ctx.swarmConsensus?.votes ?? []) {
+      if (vote.dissent && !vote.revised) {
+        briefing.angles.push({
+          kind: "dissent",
+          title: `${vote.strategy} still says ${vote.position.toUpperCase()}`,
+          insight: vote.thesis,
+          agents: [vote.agentId],
+          signalIds: [],
+          confidence: vote.confidence,
+        });
+      }
+    }
+
+    if (agora.size > 0) {
+      console.log(`[Hermes] Agora transcript (${agora.size} messages):`);
+      for (const line of agora.narrate(10)) console.log(`  ${line}`);
+    }
 
     // Step 8: Deliver briefing
     console.log("[Hermes] Delivering briefing...");
     await this.deliverBriefing(briefing);
+
+    // Step 9: Bridge — the strategy brain teaches the trading brain.
+    // Top angles persist into NexusMemory so NEXUS cycles inherit what
+    // the HERMES conversation surfaced. (NexusMemory sanitizes on write.)
+    for (const angle of briefing.angles.slice(0, 3)) {
+      this.memory.addInsight(`[HERMES ${angle.kind}] ${angle.title}: ${angle.insight}`);
+    }
 
     const elapsed = Date.now() - start;
     console.log(`\n[Hermes] Cycle #${this.cycleCount} complete in ${elapsed}ms\n`);
@@ -139,6 +178,16 @@ export class HermesAgent {
         lines.push(`  • ${alert.title}`);
       }
     }
+
+    if (briefing.angles.length > 0) {
+      lines.push("", "🔍 *Angles You Don't See*");
+      for (const angle of briefing.angles.slice(0, 4)) {
+        lines.push(`  *[${angle.kind}]* ${angle.title}`);
+        lines.push(`  ${angle.insight.slice(0, 220)}`);
+      }
+    }
+
+    lines.push("", `🗣 Debate: ${briefing.debateSummary}`);
 
     if (briefing.topPositions.length > 0) {
       lines.push("", "🎯 *Recommended Positions*");

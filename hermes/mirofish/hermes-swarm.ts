@@ -12,6 +12,7 @@
  *  5. TimelineAnalyst — when, not just what; urgency and sequencing
  */
 
+import { Agora } from "../../shared/agora";
 import type {
   HermesContext,
   HermesSwarmVote,
@@ -22,6 +23,9 @@ import type {
 } from "../shared/hermes-types";
 
 const DISSENT_PENALTY = 0.12; // per dissenting agent
+
+const AGGRESSIVE: PositionType[] = ["allocate", "build"];
+const DEFENSIVE: PositionType[] = ["hedge", "avoid", "exit"];
 
 interface SwarmAgent {
   id: string;
@@ -311,7 +315,7 @@ const SWARM_AGENTS: SwarmAgent[] = [
 ];
 
 export class HermesSwarm {
-  async deliberate(ctx: HermesContext): Promise<HermesSwarmConsensus> {
+  async deliberate(ctx: HermesContext, agora?: Agora): Promise<HermesSwarmConsensus> {
     const allSignals = [
       ...ctx.geopolitical,
       ...ctx.alpha,
@@ -320,12 +324,28 @@ export class HermesSwarm {
       ...ctx.smartMoney,
     ];
 
-    // Collect all votes from all agents
+    const room = agora ?? new Agora();
+
+    // ROUND 1 — independent votes, each posted to the Agora
     const allVotes: HermesSwarmVote[] = [];
     for (const agent of SWARM_AGENTS) {
       const votes = agent.evaluate(allSignals, ctx);
+      for (const vote of votes) {
+        room.post(
+          vote.agentId,
+          "all",
+          "observation",
+          vote.position,
+          `votes ${vote.position.toUpperCase()} (${(vote.confidence * 100).toFixed(0)}%): ${vote.thesis}`
+        );
+      }
       allVotes.push(...votes);
     }
+
+    // ROUND 2 — agents hear each other and may revise.
+    // Hard rule: debate only moves positions toward caution or learning.
+    // Peer pressure must never talk the swarm into MORE risk.
+    this.debateRound(allVotes, room);
 
     // Tally votes by position type
     const tally = new Map<PositionType, { votes: HermesSwarmVote[]; totalConf: number }>();
@@ -364,9 +384,11 @@ export class HermesSwarm {
     // Build strategic positions from majority consensus
     const recommendedPositions = this.buildPositions(majorityPosition, majorityVotes, allSignals);
 
+    const revisions = allVotes.filter((v) => v.revised).length;
     console.log(
       `[HermesSwarm] ${allVotes.length} votes | majority: ${majorityPosition} | ` +
-      `${dissentCount} dissenters | penalty: ${(dissentPenalty * 100).toFixed(0)}% | ` +
+      `${dissentCount} dissenters | ${revisions} revised in debate | ` +
+      `penalty: ${(dissentPenalty * 100).toFixed(0)}% | ` +
       `confidence: ${(overallConfidence * 100).toFixed(1)}%`
     );
 
@@ -377,6 +399,90 @@ export class HermesSwarm {
       overallConfidence,
       timestamp: Date.now(),
     };
+  }
+
+  /**
+   * The debate: each agent reacts to what peers said in round 1.
+   * All revisions are one-directional — toward caution or learning.
+   */
+  private debateRound(votes: HermesSwarmVote[], room: Agora): void {
+    const byAgent = (id: string) => votes.filter((v) => v.agentId === id);
+    const risk = byAgent("hermes-risk")[0];
+    const timeline = byAgent("hermes-timeline");
+
+    // 1. RiskAssessor challenges aggressive votes when risk is elevated;
+    //    OpportunityScout downgrades allocate → learn under high risk.
+    if (risk && risk.riskAssessment >= 0.5) {
+      for (const vote of votes) {
+        if (vote.agentId !== "hermes-risk" && AGGRESSIVE.includes(vote.position)) {
+          room.post(
+            "hermes-risk",
+            vote.agentId,
+            "challenge",
+            vote.position,
+            `challenges ${vote.agentId}'s ${vote.position.toUpperCase()}: risk score is ${(risk.riskAssessment * 100).toFixed(0)}%. What's the downside if the critical signals are right?`
+          );
+          if (vote.agentId === "hermes-scout" && vote.position === "allocate") {
+            vote.initialPosition = vote.position;
+            vote.position = "learn";
+            vote.revised = true;
+            vote.confidence = Math.max(vote.confidence - 0.05, 0.3);
+            vote.thesis += " [Revised after RiskAssessor challenge: research the edge first, deploy only if it survives scrutiny.]";
+            room.post(
+              "hermes-scout",
+              "all",
+              "revision",
+              "learn",
+              `revises ALLOCATE → LEARN. RiskAssessor's downside case stands — validate the edge before capital moves.`
+            );
+          }
+        }
+      }
+    }
+
+    // 2. TimelineAnalyst's EXIT (critical threats) cascades caution:
+    //    aggressive peers step down to hedge.
+    if (timeline.some((v) => v.position === "exit")) {
+      for (const vote of votes) {
+        if (AGGRESSIVE.includes(vote.position)) {
+          vote.initialPosition = vote.position;
+          vote.position = "hedge";
+          vote.revised = true;
+          vote.thesis += " [Revised: TimelineAnalyst flags critical time-sensitive threats — defense first.]";
+          room.post(
+            vote.agentId,
+            "all",
+            "revision",
+            "hedge",
+            `revises ${vote.initialPosition?.toUpperCase()} → HEDGE after TimelineAnalyst's critical-threat call.`
+          );
+        }
+      }
+    }
+
+    // 3. Contrarian fades uniform consensus: if every non-contrarian agent
+    //    lands aggressive, that unanimity is itself a crowded trade.
+    const nonContrarian = votes.filter((v) => v.agentId !== "hermes-contrarian");
+    const uniformAggressive =
+      nonContrarian.length >= 3 && nonContrarian.every((v) => AGGRESSIVE.includes(v.position));
+    if (uniformAggressive) {
+      for (const vote of byAgent("hermes-contrarian")) {
+        if (!DEFENSIVE.includes(vote.position)) {
+          vote.initialPosition = vote.position;
+          vote.position = "hedge";
+          vote.revised = true;
+          vote.confidence = Math.min(vote.confidence + 0.15, 0.75);
+          vote.thesis = `Every other agent is aggressive simultaneously — unanimity IS the crowded trade. ${vote.thesis}`;
+        }
+        room.post(
+          "hermes-contrarian",
+          "all",
+          "challenge",
+          "hedge",
+          `challenges the room: all peers voted aggressive at once. When everyone agrees, someone isn't thinking. Hedging the consensus.`
+        );
+      }
+    }
   }
 
   private buildPositions(

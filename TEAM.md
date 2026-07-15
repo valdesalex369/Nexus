@@ -42,8 +42,15 @@ operating procedures that tie them together.
 | Sectors | `hermes/agents/IndustryRadar.ts` | 6 industries, shift detection |
 | Dev ecosystem | `hermes/agents/DevIntelAgent.ts` | GitHub trends, paradigm shifts |
 | Smart money | `hermes/agents/SmartMoneyAgent.ts` | Whale wallets, VC funding |
-| War room | `hermes/mirofish/hermes-swarm.ts` | Macro/Contrarian/Risk/Scout/Timeline vote |
+| Moderator | `hermes/agents/RoundtableAgent.ts` | Cross-domain crossfire → angles (convergence/contradiction/lone-wolf) |
+| War room | `hermes/mirofish/hermes-swarm.ts` | Two-round debate: vote → hear peers → revise (caution-only) |
 | Strategist | `hermes/agents/StrategistAgent.ts` | Positions: build/learn/allocate/hedge/avoid/exit |
+
+**The Agora** (`shared/agora.ts`): the room where they talk — a per-cycle
+message bus carrying observations, challenges, revisions, and insights.
+The transcript ships with every briefing; top angles persist into
+NexusMemory so the trading desk inherits what the intelligence division
+figured out. Watch a live debate: `npx ts-node scripts/agora-demo.ts`.
 
 **Data supply chain** (`hermes/sources/`): `worldmonitor.ts` (structured world
 events, free, no key) and `gdelt.ts` (translingual news + tone, free, no key,
