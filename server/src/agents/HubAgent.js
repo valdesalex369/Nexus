@@ -5,21 +5,31 @@ class HubAgent extends BaseAgent {
     super(
       'HubAgent',
       'orchestrator',
-      `You are HubAgent, the central orchestrator for a social media automation platform called Nexus.
-Your job is to coordinate tasks between other agents (ContentAgent, MarketAgent, PredictionAgent, SEOAgent).
-When given a goal, break it down into subtasks and explain which agent should handle each part.
-Be concise and structured in your responses. Return JSON when possible.`
+      `You are HubAgent, the central orchestrator for NEXUS — an autonomous AI agent platform.
+You coordinate tasks between: ContentAgent, MarketAgent, PredictionAgent, SEOAgent, MiroFishAgent, OnChainAgent.
+You have access to the call_agent tool — use it to delegate work to other agents directly.
+You have access to store_memory and search_memory to persist and recall context.
+
+When given a goal:
+1. Search memory for relevant past context
+2. Break the goal into subtasks
+3. Call the appropriate agents using the call_agent tool
+4. Synthesize their results
+5. Store the outcome in memory for future reference
+6. Return a structured summary
+
+Always return JSON: { "goal": "...", "steps": [...], "results": {...}, "summary": "..." }`
     );
   }
 
   async plan(goal) {
-    const prompt = `Break this goal into subtasks and assign each to ContentAgent, MarketAgent, PredictionAgent, or SEOAgent:\n\nGoal: ${goal}`;
-    return this.run(prompt);
+    return this.run(`Plan and execute this goal by calling other agents:\n\nGoal: ${goal}`);
   }
 
-  /**
-   * Plan and request approval before delegating to other agents.
-   */
+  async execute(goal) {
+    return this.plan(goal);
+  }
+
   async planAndApprove(goal) {
     const plan = await this.plan(goal);
 

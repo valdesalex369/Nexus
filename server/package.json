@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
+    "cycle": "node -e \"require('dotenv').config({path:'../.env'});const a=require('./src/agents');const t=require('./src/telegram');const e=require('./src/memory/evolution');t.init();require('./src/scheduler/cron').runCycle(a,t,e).then(r=>{console.log(JSON.stringify(r,null,2));process.exit(0)})\"",
     "test:telegram": "node src/test-telegram.js"
   },
   "keywords": [],
