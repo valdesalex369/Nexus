@@ -16,7 +16,8 @@
     "gauntlet": "node --disable-warning=ExperimentalWarning src/cli.ts gauntlet",
     "agents": "node --disable-warning=ExperimentalWarning src/cli.ts agents",
     "intake": "node --disable-warning=ExperimentalWarning src/cli.ts intake",
-    "wayfinder": "node --disable-warning=ExperimentalWarning src/cli.ts wayfinder"
+    "wayfinder": "node --disable-warning=ExperimentalWarning src/cli.ts wayfinder",
+    "discover": "node --disable-warning=ExperimentalWarning src/cli.ts discover"
   },
   "devDependencies": {
     "@types/node": "^26.2.0",

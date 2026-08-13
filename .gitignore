@@ -8,3 +8,5 @@ data/*.db-wal
 .DS_Store
 data/intake/*
 !data/intake/README.txt
+data/knowledge.db*
+data/raw/

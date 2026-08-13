@@ -17,6 +17,9 @@ import { ROSTER } from './agents/roster.ts';
 import { Intake } from './intake/index.ts';
 import { rank, explain, type Opportunity } from './wayfinder/index.ts';
 import { readFileSync } from 'node:fs';
+import { KnowledgeStore } from './knowledge/store.ts';
+import { DiscoveryPipeline } from './discovery/pipeline.ts';
+import { defaultProviders } from './discovery/providers.ts';
 
 const [, , cmd = 'doctor', ...rest] = process.argv;
 
@@ -209,6 +212,77 @@ function wayfinder(file?: string): number {
   return 0;
 }
 
+async function discover(args: string[]): Promise<number> {
+  const flags = new Map<string, string>();
+  const positional: string[] = [];
+  for (let i = 0; i < args.length; i++) {
+    const a = args[i]!;
+    if (a.startsWith('--')) { flags.set(a.slice(2), args[i + 1] ?? ''); i++; }
+    else positional.push(a);
+  }
+  const question = positional.join(' ');
+  if (!question) {
+    console.error('usage: nexus discover "<question>" [--limit N] [--ask "<open question>"]');
+    return 2;
+  }
+
+  const ledger = new Ledger();
+  const store = new KnowledgeStore();
+  const pipe = new DiscoveryPipeline(defaultProviders(), store, ledger);
+
+  const report = await pipe.run({
+    question,
+    perProviderLimit: Number(flags.get('limit') ?? 8),
+    openQuestions: flags.has('ask') ? [flags.get('ask')!] : [],
+  });
+
+  console.log(`DISCOVERY  ${report.question}`);
+  console.log('='.repeat(70));
+  console.log(`queries      : ${report.queries.join(' | ')}`);
+  console.log(`providers    : ${report.providersLive.join(', ') || '(none live)'}`);
+  console.log(`unwired      : ${report.providersUnwired.map((u) => u.name).join(', ') || '(none)'}`);
+  console.log(`sources      : ${report.sources.length} (${report.duplicatesRemoved} duplicates removed)`);
+  console.log(`flagged      : ${report.flaggedSources}   stale: ${report.staleSources}`);
+
+  const byClass = (k: string) => report.claims.filter((c) => c.classification === k).length;
+  console.log(`claims       : ${report.claims.length} `
+    + `(OBSERVED ${byClass('OBSERVED')}, INFERRED ${byClass('INFERRED')}, UNKNOWN ${byClass('UNKNOWN')})`);
+  console.log(`contradictions: ${report.contradictions.length}`);
+  console.log(`evidence     : ${report.hasEvidence ? 'YES' : 'NO — nothing was retrieved'}`);
+  console.log(`elapsed      : ${report.elapsedMs}ms`);
+
+  if (report.unavailable.length) {
+    console.log('\nSOURCE_UNAVAILABLE');
+    for (const u of report.unavailable) {
+      console.log(`  ${u.provider.padEnd(10)} ${u.reason.slice(0, 90)}`);
+    }
+  }
+
+  const top = [...report.sources].sort((a, b) => b.reliability - a.reliability).slice(0, 12);
+  if (top.length) {
+    console.log('\nTOP SOURCES BY RELIABILITY');
+    for (const s of top) {
+      console.log(`  ${s.reliability.toFixed(2)}  ${(s.title ?? '').slice(0, 46).padEnd(46)} ${s.url ?? ''}`);
+      if (s.flags.length) console.log(`        FLAGGED: ${s.flags.join(', ')}`);
+    }
+  }
+
+  if (report.contradictions.length) {
+    console.log('\nCONTRADICTIONS');
+    for (const c of report.contradictions.slice(0, 10)) console.log(`  ${c.reason}`);
+  }
+
+  const unknowns = report.claims.filter((c) => c.classification === 'UNKNOWN');
+  if (unknowns.length) {
+    console.log('\nRECORDED UNKNOWNS (what we could not determine)');
+    for (const u of unknowns.slice(0, 10)) console.log(`  ${u.text.slice(0, 110)}`);
+  }
+
+  console.log(`\nrun id: ${report.runId}`);
+  store.close(); ledger.close();
+  return report.hasEvidence ? 0 : 1;
+}
+
 const exit = (code: number) => { process.exitCode = code; };
 
 switch (cmd) {
@@ -219,8 +293,9 @@ switch (cmd) {
   case 'agents': exit(agents()); break;
   case 'intake': exit(intake()); break;
   case 'wayfinder': exit(wayfinder(rest[0])); break;
+  case 'discover': exit(await discover(rest)); break;
   default:
     console.error(`unknown command '${cmd}'.`);
-    console.error('try: doctor | agents | intake | wayfinder | gauntlet | ledger | verify');
+    console.error('try: doctor | agents | discover | intake | wayfinder | gauntlet | ledger | verify');
     exit(2);
 }

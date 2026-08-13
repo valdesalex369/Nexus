@@ -96,6 +96,32 @@ Five contracts exist and validate. None has executed a task, because no provider
 live. The cost and time limits are guesses at what these agents will actually consume.
 **Next:** first live run should compare actual spend against `costLimitUsd` and correct.
 
+### B-013 · The wired source classes cannot answer business questions
+GitHub, npm and crates.io are technical registries. Asked "what workflows do small
+businesses find painful", they return whatever popular package matches a keyword —
+in a real run: playwright, commander, appium. The pipeline behaved correctly; the
+corpus was wrong for the question.
+**This is the binding constraint on the first real mission.** Job postings, customer
+complaints/reviews, and general web are all UNWIRED, and those are precisely the
+classes that carry demand signal. Technical registries show what has been *built*,
+never what someone is *suffering* or *paying for*.
+**Next:** wire one demand-side source before running any opportunity mission.
+
+### B-014 · Origin lookup by content hash is ambiguous
+`KnowledgeStore.originOf()` resolves by content hash. When identical derived text
+comes from two different parents, it returns whichever row was inserted first. The
+artifact rows themselves are correct — each carries its own `parentSha256` — but the
+convenience lookup can attribute text to the wrong origin.
+**Next:** walk from an artifact id rather than a content hash where provenance is
+load-bearing.
+
+### B-015 · Deterministic query derivation is weak
+Keyword extraction produced a bare `small` as a query in the first live run, which
+retrieved popular-but-irrelevant repositories. Pairing now guarantees at least two
+terms, which helped, but keyword extraction still cannot express intent. Good queries
+need a model — which means discovery quality is currently capped by having no live
+provider.
+
 ---
 
 ## Resolved

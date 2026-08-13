@@ -59,9 +59,18 @@ treating them as existing assets would be inventing information.
 | Agent roster (NOVA, KIMI, CLAUDE-ENGINEER, CRITIC, WAYFINDER) | **WORKING** | Registered and validated; `nexus agents` renders it |
 | Wayfinder opportunity scoring | **WORKING** | 10 tests incl. irreversible-catastrophe veto and novelty-is-not-opportunity |
 | Intake (untrusted-by-default ingestion) | **WORKING** | 12 tests; hostile file quarantined in a live run, path traversal refused |
+| Discovery pipeline (mission→queries→search→dedupe→rank→claims→cross-check) | **WORKING** | Live runs against real APIs; 80 sources, 434 claims in one run |
+| Source providers: GitHub, npm, crates.io | **WORKING** | Real HTTP, no credentials; verified in live runs |
+| Source providers: web, youtube, jobs, reviews, community, papers, news | **UNWIRED** | Declared with reasons; refuse to search rather than fabricate |
+| Provenance enforcement (unsourced/hallucinated claims rejected) | **WORKING** | 6 tests; rejected claims recorded as `policy.deny` in the ledger |
+| Evidence hierarchy RAW→PARSED→…→VERIFIED | **WORKING** | 10 tests; stage-skipping, backwards moves and unstored parents all refused |
+| Originals preserved (summary never overwrites source) | **WORKING** | Test derives a summary and reads the original bytes back |
+| Contradiction detection + identity-collision distinction | **WORKING** | 7 tests; false positive found in a live run and fixed |
+| Knowledge store / historical recall | **PARTIAL** | Claims stored and recallable; no historical corpus ingested yet |
+| First real mission (§X opportunity ranking) | **BLOCKED** | Engine works; demand-side sources unwired — see `MISSION_001.md` |
 | HABITUS, EVO, CODEX, STEM, AI Society, 3D Gallery | **DOES NOT EXIST** | Not present in this repository, in any form |
 
-**Test result: 69/69 passing. Typecheck: clean.**
+**Test result: 116/116 passing. Typecheck: clean.**
 
 ---
 
@@ -124,7 +133,7 @@ Ranked by how much damage the mistake would do.
 
 ```
 $ npm test
-# tests 69   # pass 69   # fail 0
+# tests 116  # pass 116  # fail 0
 
 $ npx tsc --noEmit
 (clean)
@@ -149,6 +158,12 @@ Ledger chain intact across 8 records.
 $ nexus intake          # with a deliberately hostile file present
   QUARANTINED document  fa2ec953c4ca  hostile-sample.md
                 flags: instruction-override, authority-grant
+
+$ nexus discover 'freight forwarding customs brokerage document processing automation'
+sources      : 80 (8 duplicates removed)
+claims       : 442 (OBSERVED 432, INFERRED 3, UNKNOWN 7)
+evidence     : YES
+SOURCE_UNAVAILABLE: web, youtube, jobs, reviews, community, papers, news
 
 $ nexus wayfinder -- data/opportunities.json
 #1  0.897  Automate the agency prospecting motion (...)
