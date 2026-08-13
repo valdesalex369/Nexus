@@ -12,6 +12,11 @@ import { Policy } from './policy/index.ts';
 import { Router } from './router/index.ts';
 import { Gauntlet } from './gauntlet/index.ts';
 import { CommandVerifier, ContainsVerifier } from './eval/index.ts';
+import { AgentRegistry } from './agents/registry.ts';
+import { ROSTER } from './agents/roster.ts';
+import { Intake } from './intake/index.ts';
+import { rank, explain, type Opportunity } from './wayfinder/index.ts';
+import { readFileSync } from 'node:fs';
 
 const [, , cmd = 'doctor', ...rest] = process.argv;
 
@@ -141,6 +146,69 @@ async function gauntlet(args: string[]): Promise<number> {
   return res.status === 'passed' ? 0 : 1;
 }
 
+function agents(): number {
+  const reg = new AgentRegistry();
+  reg.registerAll(ROSTER);
+  console.log('NEXUS ROSTER\n' + '='.repeat(60));
+  console.log('  id                  budget    time  max blast   escalates\n');
+  console.log(reg.describe());
+  console.log('\nAuthority only narrows: a spawned agent receives the intersection of its own');
+  console.log('contract and its parent\'s remaining grant — never more.');
+  return 0;
+}
+
+function intake(): number {
+  const ledger = new Ledger();
+  const box = new Intake(ledger);
+  const runId = Ledger.newRunId();
+  const m = box.ingestAll(runId);
+
+  console.log(`intake directory : ${box.directory}`);
+  console.log(`files ingested   : ${m.items.length}`);
+  console.log(`total bytes      : ${m.totalBytes.toLocaleString()}`);
+  console.log(`quarantined      : ${m.quarantinedCount}`);
+  if (m.items.length === 0) {
+    console.log(`\nNothing to ingest. Drop files into ${box.directory} and re-run.`);
+  }
+  for (const i of m.items) {
+    const mark = i.quarantined ? 'QUARANTINED' : 'ok         ';
+    console.log(`  ${mark} ${i.kind.padEnd(17)} ${i.sha256.slice(0, 12)} ${i.path}`);
+    if (i.flags.length) console.log(`              flags: ${i.flags.join(', ')}`);
+  }
+  if (m.quarantinedCount > 0) {
+    console.log('\nQuarantined files were still ingested, but are marked so no agent treats');
+    console.log('them as instruction. If any flag starts with "secret:", rotate that credential.');
+  }
+  console.log(`\nrun id: ${runId}`);
+  ledger.close();
+  return 0;
+}
+
+function wayfinder(file?: string): number {
+  if (!file) {
+    console.error('usage: nexus wayfinder <opportunities.json>');
+    console.error('       JSON array of Opportunity objects — see src/wayfinder/index.ts');
+    return 2;
+  }
+  const opportunities = JSON.parse(readFileSync(file, 'utf8')) as Opportunity[];
+  const ranked = rank(opportunities);
+  console.log(explain(ranked));
+
+  const ledger = new Ledger();
+  const runId = Ledger.newRunId();
+  ledger.append({
+    runId, kind: 'decision', actor: 'wayfinder', task: 'rank opportunities',
+    inputRef: file,
+    payload: ranked.map((r) => ({
+      id: r.opportunity.id, rank: r.rank, score: r.score, veto: r.veto,
+    })),
+    evidence: ranked.map((r) => ({ id: r.opportunity.id, components: r.components })),
+  });
+  console.log(`\nrecorded as run ${runId}`);
+  ledger.close();
+  return 0;
+}
+
 const exit = (code: number) => { process.exitCode = code; };
 
 switch (cmd) {
@@ -148,7 +216,11 @@ switch (cmd) {
   case 'ledger': exit(showLedger(Number(rest[0] ?? 30))); break;
   case 'verify': exit(verify()); break;
   case 'gauntlet': exit(await gauntlet(rest)); break;
+  case 'agents': exit(agents()); break;
+  case 'intake': exit(intake()); break;
+  case 'wayfinder': exit(wayfinder(rest[0])); break;
   default:
-    console.error(`unknown command '${cmd}'. try: doctor | ledger | verify | gauntlet`);
+    console.error(`unknown command '${cmd}'.`);
+    console.error('try: doctor | agents | intake | wayfinder | gauntlet | ledger | verify');
     exit(2);
 }

@@ -16,8 +16,11 @@ measurable outcome.
 | **Task Router** | Routes by capability, not provider. Adapters light up when their keys appear. |
 | **Gauntlet** | `build → critique → verify → score → revise`, bounded on five independent axes. The builder never critiques its own output. |
 | **Evaluation** | Verifiers produce real evidence — command exit codes, output — not model opinions. Subjective-only passes escalate instead of passing. |
+| **Agent Contracts** | Ten required fields, validated at load. Grants make recursion safe: authority only ever narrows. |
+| **Wayfinder** | Opportunity scoring with visible components and a hard veto on irreversible catastrophe. Novelty scores zero. |
+| **Intake** | Untrusted-by-default ingestion. Injection- and credential-shaped content is quarantined, never obeyed. |
 
-**28/28 tests passing, typecheck clean, and the whole system runs with zero API keys.**
+**69/69 tests passing, typecheck clean, and the whole system runs with zero API keys.**
 
 ## Quick start
 
@@ -49,6 +52,8 @@ light up as their keys appear, and `doctor` reports exactly which are dark and w
   are built in. The spine has zero runtime dependencies.
 
 ## Docs
+
+- [`docs/SETUP.md`](docs/SETUP.md) — **start here**: keys, data intake, and the first revenue loop
 
 - [`docs/TRUTH_AUDIT.md`](docs/TRUTH_AUDIT.md) — what exists, what doesn't, with evidence
 - [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — the shape of the system

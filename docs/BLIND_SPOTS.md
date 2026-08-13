@@ -66,6 +66,36 @@ if the next session adds more infrastructure instead of the first Real Loop, the
 becomes exactly what the directive warns against. The gate is external effect, not
 component count.
 
+### B-009 · The injection scanner is a tripwire, not a wall
+`Intake.scan()` catches the obvious phrasings — it now also catches stacked qualifiers
+("disregard all your previous rules"), which the first version missed and a test caught.
+It will not catch a competent attacker: encoding, translation, indirection through a
+linked document, or simply novel phrasing all defeat a regex.
+**What actually protects us** is architectural, not the scanner: ingested content is
+wrapped by `readAsData()` and only ever passed to models as quoted data, and the policy
+engine — not the content — decides what may happen next.
+**Risk:** treating a green scan as "this file is safe." It means "nothing obvious found."
+
+### B-010 · Wayfinder's weights are asserted, not derived
+The seven component weights (expected value 0.26, speed 0.16, …) are my judgment. They
+have no empirical basis yet because no opportunity has been executed and measured. The
+*decomposition* is honest — every component is visible and disputable — but the
+*weighting* is a guess wearing a decimal point.
+**Next:** after the first Real Loop produces an outcome, backtest the weights against
+what actually happened. Until then, treat rank order as a conversation starter.
+
+### B-011 · Opportunity inputs are estimates about Alex's business, not measurements
+`data/opportunities.json` contains numbers I estimated — probabilities, values, days to
+signal. They are informed by the agency playbook but not verified with him. This is the
+exact failure mode the agency's own first rule warns about, so it is labelled inline and
+in SETUP.md, and the file is designed to be edited and re-run.
+**Risk:** these numbers getting quoted back as if they were findings.
+
+### B-012 · The roster is untested against a live model
+Five contracts exist and validate. None has executed a task, because no provider is
+live. The cost and time limits are guesses at what these agents will actually consume.
+**Next:** first live run should compare actual spend against `costLimitUsd` and correct.
+
 ---
 
 ## Resolved

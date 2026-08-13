@@ -54,9 +54,14 @@ treating them as existing assets would be inventing information.
 | Gauntlet termination bounds (5 axes) | **WORKING** | Separate test per axis: iterations, budget, timeout, stall, pass-threshold |
 | Evaluation engine / verifiers | **WORKING** | `CommandVerifier` ran the real test suite; Gauntlet passed on "npm exited 0" |
 | CLI (`doctor`/`ledger`/`verify`/`gauntlet`) | **WORKING** | All four commands executed; output in §5 |
-| NOVA, HABITUS, EVO, KIMI, CODEX, ALPHABOT, WAYFINDER, STEM, AI Society, 3D Gallery | **DOES NOT EXIST** | Not present in this repository, in any form |
+| Agent contracts (10 required fields, validated at load) | **WORKING** | 7 tests; malformed contracts rejected, spawn cycles rejected |
+| Grants — governed recursion, authority only narrows | **WORKING** | 11 tests: tools/budget/deadline/blast-radius/depth all proven to narrow, never widen |
+| Agent roster (NOVA, KIMI, CLAUDE-ENGINEER, CRITIC, WAYFINDER) | **WORKING** | Registered and validated; `nexus agents` renders it |
+| Wayfinder opportunity scoring | **WORKING** | 10 tests incl. irreversible-catastrophe veto and novelty-is-not-opportunity |
+| Intake (untrusted-by-default ingestion) | **WORKING** | 12 tests; hostile file quarantined in a live run, path traversal refused |
+| HABITUS, EVO, CODEX, STEM, AI Society, 3D Gallery | **DOES NOT EXIST** | Not present in this repository, in any form |
 
-**Test result: 28/28 passing. Typecheck: clean.**
+**Test result: 69/69 passing. Typecheck: clean.**
 
 ---
 
@@ -119,7 +124,7 @@ Ranked by how much damage the mistake would do.
 
 ```
 $ npm test
-# tests 28   # pass 28   # fail 0
+# tests 69   # pass 69   # fail 0
 
 $ npx tsc --noEmit
 (clean)
@@ -140,6 +145,14 @@ score  : 1.00
 
 $ nexus verify
 Ledger chain intact across 8 records.
+
+$ nexus intake          # with a deliberately hostile file present
+  QUARANTINED document  fa2ec953c4ca  hostile-sample.md
+                flags: instruction-override, authority-grant
+
+$ nexus wayfinder -- data/opportunities.json
+#1  0.897  Automate the agency prospecting motion (...)
+#7  vetoed  ALPHABOT trading real capital — downside severe and hard to reverse
 ```
 
 ---
@@ -168,7 +181,7 @@ produces evidence.
 | 1 | Add API keys; run `nexus doctor` | ≥2 providers report LIVE |
 | 1 | First real Gauntlet run against a live provider | A run passes on `CommandVerifier` evidence, ledgered |
 | 2 | Verified pricing for every live provider in `NEXUS_PRICES_JSON` | `costComplete: true` on a real run |
-| 2–3 | Agent contract schema + registry (the 10 required fields) | Agents declared as data; Gauntlet consumes them |
+| ~~2–3~~ | ~~Agent contract schema + registry~~ | **DONE** — contracts, grants, roster, 18 tests |
 | 3–4 | **First Real Loop** — one narrow external workflow, end to end | External state changed, result returned, evaluation ledgered |
 | 5 | Discovery Loop v0 — scheduled, writes `discovery` events, proposes nothing it cannot verify | Ranked opportunities in the ledger |
 | 6 | Wayfinder scoring over discovery events (EV, cost, reversibility, downside) | A ranked list Alex disagrees with usefully |
