@@ -1,0 +1,25 @@
+{
+  "name": "nexus",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "NEXUS — an intelligence operating system: bounded, auditable infrastructure that turns model output into verified execution.",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "test": "node --test --disable-warning=ExperimentalWarning test/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "nexus": "node --disable-warning=ExperimentalWarning src/cli.ts",
+    "doctor": "node --disable-warning=ExperimentalWarning src/cli.ts doctor",
+    "ledger": "node --disable-warning=ExperimentalWarning src/cli.ts ledger",
+    "gauntlet": "node --disable-warning=ExperimentalWarning src/cli.ts gauntlet"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.116.0"
+  }
+}
