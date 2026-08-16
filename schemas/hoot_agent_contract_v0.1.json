@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nexus.local/schemas/hoot_agent_contract_v0.1.json",
+  "title": "Hoot L1 Agent Contract v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "agent",
+    "autonomy_level",
+    "authority_classes",
+    "allowed_capabilities",
+    "human_gates",
+    "limits",
+    "verification",
+    "logging"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "agent": {"const": "Hoot"},
+    "autonomy_level": {"const": "L1"},
+    "authority_classes": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"enum": ["REVERSIBLE_INTERNAL"]},
+      "const": ["REVERSIBLE_INTERNAL"]
+    },
+    "allowed_capabilities": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "READ_PROJECT_STATE",
+          "ANALYZE_INTERNAL_ARTIFACTS",
+          "CREATE_INTERNAL_ARTIFACT",
+          "CREATE_TEST_FIXTURE",
+          "RUN_DETERMINISTIC_CHECK",
+          "APPEND_INTERNAL_LEDGER",
+          "UPDATE_INTERNAL_DOCUMENTATION"
+        ]
+      }
+    },
+    "human_gates": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "SPEND_MONEY",
+          "CONNECT_FINANCIAL_ACCOUNT",
+          "CONNECT_WALLET",
+          "MOVE_ASSETS",
+          "PLACE_TRADE",
+          "SEND_EXTERNAL_COMMUNICATION",
+          "PUBLISH_EXTERNAL_CONTENT",
+          "CHANGE_CREDENTIALS",
+          "CHANGE_PERMISSIONS",
+          "DESTRUCTIVE_ACTION",
+          "MATERIAL_DEPLOYMENT",
+          "REPRESENT_USER_TO_THIRD_PARTY"
+        ]
+      },
+      "allOf": [
+        {"contains": {"const": "SPEND_MONEY"}},
+        {"contains": {"const": "CONNECT_FINANCIAL_ACCOUNT"}},
+        {"contains": {"const": "CONNECT_WALLET"}},
+        {"contains": {"const": "MOVE_ASSETS"}},
+        {"contains": {"const": "PLACE_TRADE"}},
+        {"contains": {"const": "SEND_EXTERNAL_COMMUNICATION"}},
+        {"contains": {"const": "PUBLISH_EXTERNAL_CONTENT"}},
+        {"contains": {"const": "CHANGE_CREDENTIALS"}},
+        {"contains": {"const": "CHANGE_PERMISSIONS"}},
+        {"contains": {"const": "DESTRUCTIVE_ACTION"}},
+        {"contains": {"const": "MATERIAL_DEPLOYMENT"}},
+        {"contains": {"const": "REPRESENT_USER_TO_THIRD_PARTY"}}
+      ]
+    },
+    "limits": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["max_steps", "max_tool_calls", "max_recursion_depth", "max_cost_usd"],
+      "properties": {
+        "max_steps": {"type": "integer", "minimum": 1, "maximum": 20},
+        "max_tool_calls": {"type": "integer", "minimum": 1, "maximum": 40},
+        "max_recursion_depth": {"type": "integer", "minimum": 0, "maximum": 2},
+        "max_cost_usd": {"type": ["number", "null"], "minimum": 0}
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["require_success_criteria", "require_evidence_for_pass", "require_post_write_readback", "unknown_telemetry_policy"],
+      "properties": {
+        "require_success_criteria": {"const": true},
+        "require_evidence_for_pass": {"const": true},
+        "require_post_write_readback": {"const": true},
+        "unknown_telemetry_policy": {"const": "PRESERVE_UNKNOWN"}
+      }
+    },
+    "logging": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["append_only", "record_denials", "record_failure_mode", "record_next_priority"],
+      "properties": {
+        "append_only": {"const": true},
+        "record_denials": {"const": true},
+        "record_failure_mode": {"const": true},
+        "record_next_priority": {"const": true}
+      }
+    }
+  }
+}
