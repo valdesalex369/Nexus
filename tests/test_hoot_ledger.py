@@ -20,13 +20,16 @@ from src.nexus.hoot_ledger import (
 def event(cycle_id: str, *, result: str = "PASS") -> dict:
     failure_mode = None if result == "PASS" else "TOOL_ERROR"
     return {
+        "schema_version": "0.1",
         "cycle_id": cycle_id,
         "timestamp": "2026-08-16T15:51:21Z",
         "agent": "Hoot",
         "objective": "Test deterministic ledger persistence",
         "selected_task": "Append one bounded test event",
+        "selection_reason": "Exercise the active append-only ledger contract.",
         "success_criteria": ["Event is persisted and verifiable"],
         "actions": ["Run ledger fixture"],
+        "tools_used": [],
         "evidence": [{"source": "test", "observation": "fixture evidence"}],
         "result": result,
         "failure_mode": failure_mode,
@@ -66,11 +69,15 @@ class HootLedgerTests(unittest.TestCase):
         verified = verify_ledger(self.path)
         self.assertEqual(verified.head_hash, head)
         self.assertEqual([x["cycle_id"] for x in verified.events], ["cycle-001"])
+        envelope = json.loads(self._lines()[0])
+        self.assertEqual(envelope["sequence"], 1)
+        self.assertEqual(set(envelope), {"sequence", "previous_hash", "event_hash", "event"})
 
     def test_second_append_links_to_first_hash(self) -> None:
         first_hash = append_event(self.path, event("cycle-001"))
         append_event(self.path, event("cycle-002"))
         second = json.loads(self._lines()[1])
+        self.assertEqual(second["sequence"], 2)
         self.assertEqual(second["previous_hash"], first_hash)
 
     def test_duplicate_cycle_id_is_rejected_without_mutation(self) -> None:
@@ -107,10 +114,18 @@ class HootLedgerTests(unittest.TestCase):
         with self.assertRaises(LedgerCorruptionError):
             verify_ledger(self.path)
 
+    def test_sequence_mutation_is_detected(self) -> None:
+        append_event(self.path, event("cycle-001"))
+        append_event(self.path, event("cycle-002"))
+        envelopes = [json.loads(line) for line in self._lines()]
+        envelopes[1]["sequence"] = 3
+        self._rewrite(envelopes)
+        with self.assertRaises(LedgerCorruptionError):
+            verify_ledger(self.path)
+
     def test_schema_invalid_incoming_event_rejected_before_write(self) -> None:
         bad = event("cycle-001")
-        bad["result"] = "PASS"
-        bad["evidence"] = []
+        del bad["selection_reason"]
         with self.assertRaises(ValueError):
             append_event(self.path, bad)
         self.assertFalse(self.path.exists())
@@ -155,8 +170,16 @@ class HootLedgerTests(unittest.TestCase):
         verified = verify_ledger(self.path)
         self.assertEqual(verified.head_hash, second)
         envelopes = [json.loads(line) for line in self._lines()]
+        self.assertEqual(envelopes[1]["sequence"], 2)
         self.assertEqual(envelopes[1]["previous_hash"], first)
         self.assertEqual(verified.events[-1]["cycle_id"], "cycle-002")
+
+    def test_extra_event_property_is_rejected(self) -> None:
+        bad = event("cycle-001")
+        bad["invented"] = "no"
+        with self.assertRaises(ValueError):
+            append_event(self.path, bad)
+        self.assertFalse(self.path.exists())
 
 
 if __name__ == "__main__":
