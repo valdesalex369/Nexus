@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass
+import re
 from typing import Any, Iterable
 
 EVALUATOR_VERSION = "0.1"
@@ -73,13 +74,43 @@ def _execution(event: dict[str, Any], reasons: list[str]) -> int:
 
 
 def _objective_signal(text: str) -> bool:
+    """Return True only for explicit verification artifacts/results.
+
+    Arbitrary digits, dates, counts, or model claims are not objective evidence.
+    Signals must describe a concrete verification mechanism or machine result.
+    """
     lowered = text.lower()
-    markers = (
-        "exit code", "passed", "failed", "0 failures", "0 errors", "sha-256",
-        "sha256", "digest", "hash", "commit", "readback", "read back",
-        "byte-for-byte", "bytes matched", "tests", "test", "verified",
+    phrase_markers = (
+        "exit code",
+        "sha-256",
+        "sha256",
+        "digest",
+        "checksum",
+        "readback",
+        "read back",
+        "byte-for-byte",
+        "bytes matched",
+        "hash matched",
+        "hash mismatch",
+        "tests passed",
+        "tests failed",
+        "test passed",
+        "test failed",
+        "verified readback",
+        "independently verified",
+        "recomputed hash",
+        "recomputed digest",
     )
-    return any(marker in lowered for marker in markers) or any(ch.isdigit() for ch in text)
+    if any(marker in lowered for marker in phrase_markers):
+        return True
+    result_patterns = (
+        r"\b\d+\s*/\s*\d+\s+tests?\s+passed\b",
+        r"\b\d+\s+tests?\s+(?:passed|failed)\b",
+        r"\b\d+\s+(?:failures?|errors?|skips?)\b",
+        r"\bexit\s+code\s*[:=]?\s*-?\d+\b",
+        r"\bsha-?256\b[^\n]*\b[0-9a-f]{16,64}\b",
+    )
+    return any(re.search(pattern, lowered) for pattern in result_patterns)
 
 
 def _verification(event: dict[str, Any], reasons: list[str]) -> int:
@@ -92,9 +123,6 @@ def _verification(event: dict[str, Any], reasons: list[str]) -> int:
             reasons.append("PASS_WITHOUT_EVIDENCE")
         return 0
 
-    # Evidence existence alone earns only a small baseline. Objective proof must
-    # dominate narrative confidence, and criteria coverage cannot inflate a
-    # narrative-only assertion into strong verification.
     score = 15
     observations = " ".join(str(item["observation"]) for item in valid)
     objective = _objective_signal(observations)
