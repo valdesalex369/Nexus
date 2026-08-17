@@ -91,16 +91,23 @@ def _verification(event: dict[str, Any], reasons: list[str]) -> int:
         if event.get("result") == "PASS":
             reasons.append("PASS_WITHOUT_EVIDENCE")
         return 0
-    score = 35
+
+    # Evidence existence alone earns only a small baseline. Objective proof must
+    # dominate narrative confidence, and criteria coverage cannot inflate a
+    # narrative-only assertion into strong verification.
+    score = 15
     observations = " ".join(str(item["observation"]) for item in valid)
-    if _objective_signal(observations):
-        score += 25
+    objective = _objective_signal(observations)
+    if objective:
+        score += 45
+
     actions = event.get("actions") if isinstance(event.get("actions"), list) else []
     action_text = " ".join(str(action).lower() for action in actions)
     if any(marker in action_text for marker in ("verify", "readback", "read back", "recompute", "inspect", "fetch")):
         score += 20
+
     criteria = event.get("success_criteria") if isinstance(event.get("success_criteria"), list) else []
-    if criteria and valid and len(valid) >= len(criteria):
+    if objective and criteria and len(valid) >= len(criteria):
         score += 20
     return _clamp(score)
 
