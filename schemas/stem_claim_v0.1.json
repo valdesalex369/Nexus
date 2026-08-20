@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nexus.local/schemas/stem_claim_v0.1.json",
+  "title": "STEM Claim Graph Record v0.1",
+  "description": "Immutable, provenance-first record for one sourced observation, claim, hypothesis, prediction, correction, or decision edge in the ULTRA INSTINCT/STEM world model.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_id",
+    "record_type",
+    "observed_at",
+    "ingested_at",
+    "subject",
+    "predicate",
+    "object",
+    "source",
+    "confidence",
+    "status",
+    "evidence",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_id": {"type": "string", "minLength": 1},
+    "record_type": {
+      "enum": ["OBSERVATION", "CLAIM", "HYPOTHESIS", "PREDICTION", "CORRECTION", "DECISION", "OUTCOME"]
+    },
+    "observed_at": {"type": "string", "format": "date-time"},
+    "ingested_at": {"type": "string", "format": "date-time"},
+    "valid_from": {"type": ["string", "null"], "format": "date-time"},
+    "valid_until": {"type": ["string", "null"], "format": "date-time"},
+    "subject": {"$ref": "#/$defs/entity_ref"},
+    "predicate": {"type": "string", "minLength": 1},
+    "object": {
+      "oneOf": [
+        {"$ref": "#/$defs/entity_ref"},
+        {"type": "string"},
+        {"type": "number"},
+        {"type": "boolean"},
+        {"type": "null"}
+      ]
+    },
+    "qualifiers": {"type": "object"},
+    "source": {"$ref": "#/$defs/source_ref"},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "status": {"enum": ["ACTIVE", "DISPUTED", "SUPERSEDED", "RETRACTED", "EXPIRED"]},
+    "evidence": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/evidence_item"}
+    },
+    "supporting_record_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1},
+      "default": []
+    },
+    "contradicting_record_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1},
+      "default": []
+    },
+    "supersedes_record_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1},
+      "default": []
+    },
+    "impact": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "horizon": {"enum": ["IMMEDIATE", "DAYS", "WEEKS", "MONTHS", "YEARS"]},
+        "magnitude": {"type": "number", "minimum": 0, "maximum": 1},
+        "direction": {"enum": ["POSITIVE", "NEGATIVE", "MIXED", "UNKNOWN"]},
+        "affected_entities": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/entity_ref"}
+        },
+        "thesis": {"type": "string"},
+        "falsifier": {"type": "string"}
+      },
+      "required": ["horizon", "magnitude", "direction"]
+    },
+    "prediction": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "target": {"type": "string", "minLength": 1},
+        "probability": {"type": "number", "minimum": 0, "maximum": 1},
+        "resolve_by": {"type": "string", "format": "date-time"},
+        "resolution_rule": {"type": "string", "minLength": 1},
+        "resolved": {"type": "boolean"},
+        "outcome": {"type": ["string", "number", "boolean", "null"]},
+        "score": {"type": ["number", "null"]}
+      },
+      "required": ["target", "probability", "resolve_by", "resolution_rule", "resolved"]
+    },
+    "agent": {"type": ["string", "null"]},
+    "model": {"type": ["string", "null"]},
+    "tags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1},
+      "default": []
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["collector", "raw_digest_sha256", "transformation_version"],
+      "properties": {
+        "collector": {"type": "string", "minLength": 1},
+        "raw_digest_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "transformation_version": {"type": "string", "minLength": 1},
+        "parent_record_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1},
+          "default": []
+        }
+      }
+    }
+  },
+  "$defs": {
+    "entity_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["entity_id", "entity_type", "name"],
+      "properties": {
+        "entity_id": {"type": "string", "minLength": 1},
+        "entity_type": {
+          "enum": ["PERSON", "ORG", "GOVERNMENT", "COUNTRY", "ASSET", "TOKEN", "SECURITY", "PRODUCT", "PROTOCOL", "EVENT", "PLACE", "DATASET", "AGENT", "PROJECT", "OTHER"]
+        },
+        "name": {"type": "string", "minLength": 1},
+        "canonical_id": {"type": ["string", "null"]}
+      }
+    },
+    "source_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "source_type", "uri", "publisher", "published_at"],
+      "properties": {
+        "source_id": {"type": "string", "minLength": 1},
+        "source_type": {"enum": ["PRIMARY", "SECONDARY", "SOCIAL", "MARKET", "ONCHAIN", "INTERNAL", "MODEL"]},
+        "uri": {"type": "string", "minLength": 1},
+        "publisher": {"type": "string", "minLength": 1},
+        "published_at": {"type": ["string", "null"], "format": "date-time"},
+        "retrieved_at": {"type": ["string", "null"], "format": "date-time"}
+      }
+    },
+    "evidence_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "observation"],
+      "properties": {
+        "kind": {"enum": ["QUOTE", "NUMBER", "DOCUMENT", "CODE", "TRANSACTION", "MARKET_PRINT", "CHAIN_EVENT", "TEST", "OTHER"]},
+        "observation": {"type": "string", "minLength": 1},
+        "locator": {"type": ["string", "null"]},
+        "digest_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"}
+      }
+    }
+  }
+}
