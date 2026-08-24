@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "NEXUS — an intelligence operating system: bounded, auditable infrastructure that turns model output into verified execution.",
+  "description": "NEXUS \\u2014 an intelligence operating system: bounded, auditable infrastructure that turns model output into verified execution.",
   "engines": {
     "node": ">=22.18.0"
   },
