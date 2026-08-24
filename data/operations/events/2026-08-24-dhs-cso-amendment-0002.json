@@ -1,0 +1,76 @@
+{
+  "kind": "opportunity",
+  "id": "ui-20260824-dhs-procurement-cso-amendment-0002",
+  "observedAt": "2026-08-24T20:53:44Z",
+  "sourceUri": "https://samclerk.com/opportunity/dept-of-homeland-security/70RDA126R00000009",
+  "sourceType": "registry-mirror",
+  "entities": [
+    "Department of Homeland Security",
+    "Office of the Chief Procurement Officer",
+    "Procurement Innovation Lab",
+    "commercial technology vendors",
+    "SAM.gov"
+  ],
+  "relations": [
+    {
+      "from": "Department of Homeland Security",
+      "relation": "broadens solicitation scope beyond AI-only solutions",
+      "to": "commercial technology vendors",
+      "confidence": 0.92
+    },
+    {
+      "from": "Department of Homeland Security",
+      "relation": "moves FY2026 consideration deadline",
+      "to": "2026-08-27T13:00:00-04:00",
+      "confidence": 0.94
+    }
+  ],
+  "confidence": 0.9,
+  "supportingEvidence": [
+    {
+      "uri": "https://samclerk.com/opportunity/dept-of-homeland-security/70RDA126R00000009",
+      "title": "SAM-derived mirror showing Amendment 0002 dated Aug. 24, 2026",
+      "observedAt": "2026-08-24T20:53:44Z",
+      "note": "Shows Amendment 0002, broadened scope, and current Aug. 27 FY2026 response deadline."
+    },
+    {
+      "uri": "https://app.govly.com/public/opportunities/16972773",
+      "title": "Independent SAM-derived mirror of DHS procurement-modernization CSO",
+      "observedAt": "2026-08-24T20:53:44Z",
+      "note": "Corroborates scope expansion beyond AI-only solutions and Aug. 27, 1:00 p.m. ET deadline."
+    }
+  ],
+  "contradictingEvidence": [
+    {
+      "uri": "https://sam.directory/opportunities/ai-technologies-for-procurement-modernization-commercial-solutions-opening-cso-70rda126r00000009/notices/ff9d55d6a268428081b54dc02f5bf2c1",
+      "title": "Stale SAM-derived mirror still showing Aug. 26 deadline and AI-only focus-area framing",
+      "observedAt": "2026-08-24T20:53:44Z",
+      "note": "Useful evidence that procurement intelligence must model notice versions and supersession instead of trusting one cached page."
+    }
+  ],
+  "falsifier": "Official SAM.gov Amendment 0002 materially differs from these mirrors, or DHS supersedes the Aug. 27 FY2026 deadline/scope again.",
+  "actionState": "DETECTED",
+  "ledgerRef": null,
+  "title": "DHS broadens procurement-modernization CSO and moves FY2026 deadline",
+  "thesis": "Version-aware procurement-change detection is a high-value Opportunity Radar primitive because amendments can change eligibility, urgency, and market size after the original notice is published.",
+  "whyNow": "The Aug. 24 amendment materially changes both scope and timing versus the original Aug. 17 notice.",
+  "score": {
+    "expectedValue": null,
+    "speedToSignal": null,
+    "feasibility": null,
+    "durability": null,
+    "competitivePosition": null,
+    "capabilityFit": null,
+    "reversibility": null,
+    "total": null,
+    "veto": "INSUFFICIENT_EVIDENCE: economics and fit are not yet defensibly scored"
+  },
+  "recommendedNextAction": "Run the amendment through the truthful Wayfinder gating path and compare it against the prior notice version; do not bid or contact DHS.",
+  "evidenceRequiredToAdvance": [
+    "official SAM.gov Amendment 0002 text or direct registry API evidence",
+    "version-diff artifact",
+    "Wayfinder result without fabricated economics",
+    "Nexus policy decision",
+    "ledger entry"
+  ]
+}
