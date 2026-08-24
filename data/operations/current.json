@@ -1,0 +1,188 @@
+{
+  "generatedAt": "2026-08-24T15:33:41Z",
+  "realityDelta": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260824-hormuz-measurement-conflict",
+      "observedAt": "2026-08-24T15:33:41Z",
+      "sourceUri": "https://www.wsj.com/business/energy-oil/u-s-says-oil-is-pouring-through-hormuz-trackers-cant-find-it-306faebd",
+      "sourceType": "secondary",
+      "entities": ["Strait of Hormuz", "U.S. Department of Energy", "commercial vessel trackers", "oil tankers"],
+      "relations": [
+        {"from": "U.S. Department of Energy", "relation": "claims throughput", "to": "Strait of Hormuz", "confidence": 0.72},
+        {"from": "commercial vessel trackers", "relation": "estimate lower throughput", "to": "Strait of Hormuz", "confidence": 0.76}
+      ],
+      "confidence": 0.72,
+      "supportingEvidence": [
+        {
+          "uri": "https://www.reuters.com/world/middle-east/iran-warns-vessels-violating-hormuz-transit-rules-fines-detention-2026-08-24/",
+          "title": "Reuters: Iran blacklists 45 tankers as Hormuz enforcement escalates",
+          "observedAt": "2026-08-24T15:33:41Z",
+          "note": "Independent reporting confirms severe ongoing transit disruption and selective enforcement."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://www.wsj.com/business/energy-oil/u-s-says-oil-is-pouring-through-hormuz-trackers-cant-find-it-306faebd",
+          "title": "WSJ: official U.S. throughput claims exceed commercial tracker estimates",
+          "observedAt": "2026-08-24T15:33:41Z",
+          "note": "The competing measurements are the signal; Nexus must not collapse them into one false point estimate."
+        }
+      ],
+      "falsifier": "Commercial tracker estimates converge with official throughput claims for a sustained period and downstream physical delivery data confirms the same recovery.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "geo": {
+        "lat": 26.5667,
+        "lon": 56.25,
+        "label": "Strait of Hormuz",
+        "precision": "chokepoint",
+        "evidence": [
+          {
+            "uri": "https://www.reuters.com/world/middle-east/iran-warns-vessels-violating-hormuz-transit-rules-fines-detention-2026-08-24/",
+            "title": "Reuters Hormuz transit report",
+            "observedAt": "2026-08-24T15:33:41Z"
+          }
+        ]
+      },
+      "title": "Hormuz throughput measurements materially disagree",
+      "summary": "Official U.S. estimates and commercial vessel-tracking estimates imply materially different oil-flow states through Hormuz.",
+      "delta": "Measurement disagreement itself is now operationally important; source methodology must be preserved rather than averaged away.",
+      "firstOrderImpacts": ["uncertain physical oil availability", "freight and insurance risk", "refinery feedstock uncertainty"],
+      "secondOrderImpacts": ["inflation uncertainty", "rate-policy uncertainty", "risk-asset regime volatility"]
+    }
+  ],
+  "opportunityRadar": [
+    {
+      "kind": "opportunity",
+      "id": "ui-20260824-gsa-acquisition-ai",
+      "observedAt": "2026-08-24T15:33:41Z",
+      "sourceUri": "https://www.gsa.gov/about-gsa/gsa-events",
+      "sourceType": "official",
+      "entities": ["GSA", "OMB", "federal acquisition workforce", "SAG", "AI procurement"],
+      "relations": [
+        {"from": "GSA", "relation": "operationalizes AI for", "to": "federal acquisition workforce", "confidence": 0.96},
+        {"from": "OMB", "relation": "co-builds", "to": "SAG", "confidence": 0.93}
+      ],
+      "confidence": 0.91,
+      "supportingEvidence": [
+        {
+          "uri": "https://www.gsa.gov/about-gsa/gsa-events",
+          "title": "GSA event: Turning AI Experiments into Acquisition Capability — Aug. 24, 2026",
+          "observedAt": "2026-08-24T15:33:41Z"
+        },
+        {
+          "uri": "https://www.gsa.gov/about-gsa/gsa-events",
+          "title": "GSA event: SAG — new AI acquisition tool for the federal workforce — Aug. 25, 2026",
+          "observedAt": "2026-08-24T15:33:41Z"
+        }
+      ],
+      "contradictingEvidence": [],
+      "falsifier": "Operational usage remains low or federal buyers show no measurable demand for externally supplied provenance, evaluation, or opportunity-intelligence layers beyond GSA/OMB internal tooling.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "title": "Federal acquisition is becoming an AI-native operating surface",
+      "thesis": "Government procurement data is a high-quality Opportunity Radar wedge because it exposes explicit buyers, needs, deadlines, policy constraints, and observable outcomes.",
+      "whyNow": "GSA is actively training acquisition personnel on operational AI use today and is presenting SAG as a government-wide acquisition AI platform tomorrow.",
+      "score": {
+        "expectedValue": 0,
+        "speedToSignal": 0,
+        "feasibility": 0,
+        "durability": 0,
+        "competitivePosition": 0,
+        "capabilityFit": 0,
+        "reversibility": 0,
+        "total": 0,
+        "veto": "NOT_RUN: Wayfinder scoring must execute before this record may advance beyond DETECTED"
+      },
+      "recommendedNextAction": "Run this event through Wayfinder and Nexus policy without submitting, contacting, or spending.",
+      "evidenceRequiredToAdvance": ["Wayfinder score with decomposition", "Nexus policy decision", "ledger entry", "one bounded research artifact"]
+    }
+  ],
+  "orbitalInsight": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260824-hormuz-measurement-conflict",
+      "observedAt": "2026-08-24T15:33:41Z",
+      "sourceUri": "https://www.wsj.com/business/energy-oil/u-s-says-oil-is-pouring-through-hormuz-trackers-cant-find-it-306faebd",
+      "sourceType": "secondary",
+      "entities": ["Strait of Hormuz", "U.S. Department of Energy", "commercial vessel trackers", "oil tankers"],
+      "relations": [
+        {"from": "U.S. Department of Energy", "relation": "claims throughput", "to": "Strait of Hormuz", "confidence": 0.72},
+        {"from": "commercial vessel trackers", "relation": "estimate lower throughput", "to": "Strait of Hormuz", "confidence": 0.76}
+      ],
+      "confidence": 0.72,
+      "supportingEvidence": [
+        {"uri": "https://www.reuters.com/world/middle-east/iran-warns-vessels-violating-hormuz-transit-rules-fines-detention-2026-08-24/", "title": "Reuters Hormuz transit report", "observedAt": "2026-08-24T15:33:41Z"}
+      ],
+      "contradictingEvidence": [
+        {"uri": "https://www.wsj.com/business/energy-oil/u-s-says-oil-is-pouring-through-hormuz-trackers-cant-find-it-306faebd", "title": "Conflicting official and tracker estimates", "observedAt": "2026-08-24T15:33:41Z"}
+      ],
+      "falsifier": "Commercial tracker estimates converge with official throughput claims for a sustained period and downstream physical delivery data confirms the same recovery.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "geo": {
+        "lat": 26.5667,
+        "lon": 56.25,
+        "label": "Strait of Hormuz",
+        "precision": "chokepoint",
+        "evidence": [{"uri": "https://www.reuters.com/world/middle-east/iran-warns-vessels-violating-hormuz-transit-rules-fines-detention-2026-08-24/", "title": "Reuters Hormuz transit report", "observedAt": "2026-08-24T15:33:41Z"}]
+      },
+      "title": "Hormuz throughput measurements materially disagree",
+      "summary": "Official U.S. estimates and commercial vessel-tracking estimates imply materially different oil-flow states through Hormuz.",
+      "delta": "Measurement disagreement itself is now operationally important; source methodology must be preserved rather than averaged away.",
+      "firstOrderImpacts": ["uncertain physical oil availability", "freight and insurance risk", "refinery feedstock uncertainty"],
+      "secondOrderImpacts": ["inflation uncertainty", "rate-policy uncertainty", "risk-asset regime volatility"]
+    }
+  ],
+  "operations": [
+    {
+      "kind": "operation",
+      "id": "op-20260824-live-snapshot",
+      "observedAt": "2026-08-24T15:33:41Z",
+      "sourceUri": "https://github.com/valdesalex369/Nexus/blob/nova/hackathon-convergence-v0/docs/HACKATHON_MISSION.md",
+      "sourceType": "internal",
+      "entities": ["Nexus", "ULTRA INSTINCT", "Wayfinder"],
+      "relations": [{"from": "ULTRA INSTINCT", "relation": "feeds", "to": "Nexus Operations Display", "confidence": 1}],
+      "confidence": 1,
+      "supportingEvidence": [{"uri": "https://github.com/valdesalex369/Nexus/blob/nova/hackathon-convergence-v0/src/operations/types.ts", "title": "Operations Display v0 shared contract", "observedAt": "2026-08-24T15:33:41Z"}],
+      "contradictingEvidence": [],
+      "falsifier": "The snapshot fails schema validation, cannot be consumed by the display, or the source evidence cannot be reproduced.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "actor": "nova",
+      "objective": "Materialize one evidence-bearing live OperationsDisplaySnapshot without mock-live telemetry.",
+      "authorityLevel": "bounded-internal",
+      "currentBottleneck": "Wayfinder scoring and ledger-backed state transition have not yet executed."
+    }
+  ],
+  "alphaHunter": [
+    {
+      "kind": "alternative-data-trial",
+      "id": "alpha-20260824-hormuz-tracker-vs-official",
+      "observedAt": "2026-08-24T15:33:41Z",
+      "sourceUri": "https://www.wsj.com/business/energy-oil/u-s-says-oil-is-pouring-through-hormuz-trackers-cant-find-it-306faebd",
+      "sourceType": "alternative-data",
+      "entities": ["Strait of Hormuz", "commercial vessel trackers", "U.S. Department of Energy"],
+      "relations": [{"from": "commercial vessel tracking", "relation": "challenges", "to": "official throughput estimate", "confidence": 0.76}],
+      "confidence": 0.66,
+      "supportingEvidence": [{"uri": "https://www.wsj.com/business/energy-oil/u-s-says-oil-is-pouring-through-hormuz-trackers-cant-find-it-306faebd", "title": "Commercial tracker estimates differ from U.S. official claims", "observedAt": "2026-08-24T15:33:41Z"}],
+      "contradictingEvidence": [{"uri": "https://www.reuters.com/world/middle-east/iran-warns-vessels-violating-hormuz-transit-rules-fines-detention-2026-08-24/", "title": "Reuters reports continuing physical disruption but does not resolve the exact flow estimate", "observedAt": "2026-08-24T15:33:41Z"}],
+      "falsifier": "Commercial tracker estimates fail to improve prediction of downstream delivered volumes, freight/insurance stress, or refined-product tightness versus official throughput claims.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "geo": {
+        "lat": 26.5667,
+        "lon": 56.25,
+        "label": "Strait of Hormuz",
+        "precision": "chokepoint",
+        "evidence": [{"uri": "https://www.reuters.com/world/middle-east/iran-warns-vessels-violating-hormuz-transit-rules-fines-detention-2026-08-24/", "title": "Reuters Hormuz transit report", "observedAt": "2026-08-24T15:33:41Z"}]
+      },
+      "hypothesis": "Commercial vessel-tracking estimates provide incremental state information over headline official throughput claims when transit becomes opaque or selectively enforced.",
+      "baselineSource": {"uri": "https://www.wsj.com/business/energy-oil/u-s-says-oil-is-pouring-through-hormuz-trackers-cant-find-it-306faebd", "title": "Official U.S. throughput claim as reported by WSJ", "observedAt": "2026-08-24T15:33:41Z"},
+      "alternativeDataSource": {"uri": "https://www.wsj.com/business/energy-oil/u-s-says-oil-is-pouring-through-hormuz-trackers-cant-find-it-306faebd", "title": "Commercial vessel-tracker estimates summarized by WSJ", "observedAt": "2026-08-24T15:33:41Z", "note": "Direct tracker feed is not yet connected; this trial must not advance until raw/first-party methodology or data access is available."},
+      "incrementalValueMetric": "Out-of-sample error versus later confirmed delivered oil/product volumes and freight/insurance stress proxies",
+      "killCondition": "Kill if direct tracker data cannot be accessed cheaply/reliably or if it does not beat the public official baseline on held-out outcomes."
+    }
+  ]
+}
