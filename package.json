@@ -4,7 +4,9 @@
   "private": true,
   "type": "module",
   "description": "NEXUS — an intelligence operating system: bounded, auditable infrastructure that turns model output into verified execution.",
-  "engines": { "node": ">=22.18.0" },
+  "engines": {
+    "node": ">=22.18.0"
+  },
   "scripts": {
     "test": "node --test --disable-warning=ExperimentalWarning test/*.test.ts",
     "typecheck": "tsc --noEmit",
