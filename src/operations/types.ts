@@ -13,6 +13,7 @@ export type SourceType =
   | 'market'
   | 'alternative-data'
   | 'secondary'
+  | 'registry-mirror'
   | 'internal';
 
 export type ActionState =
@@ -74,15 +75,19 @@ export interface RealityDelta extends OpsRecordBase {
   secondOrderImpacts: string[];
 }
 
+/**
+ * Null means "not yet defensibly scored", never zero. This is deliberate:
+ * unknown economics must remain unknown until Wayfinder has evidence.
+ */
 export interface OpportunityScoreBreakdown {
-  expectedValue: number;
-  speedToSignal: number;
-  feasibility: number;
-  durability: number;
-  competitivePosition: number;
-  capabilityFit: number;
-  reversibility: number;
-  total: number;
+  expectedValue: number | null;
+  speedToSignal: number | null;
+  feasibility: number | null;
+  durability: number | null;
+  competitivePosition: number | null;
+  capabilityFit: number | null;
+  reversibility: number | null;
+  total: number | null;
   veto: string | null;
 }
 
