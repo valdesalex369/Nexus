@@ -1,0 +1,85 @@
+{
+  "kind": "reality-delta",
+  "id": "ui-20260825-hormuz-demining-corridor",
+  "observedAt": "2026-08-25T20:02:13Z",
+  "sourceUri": "https://www.reuters.com/business/energy/oil-prices-steady-investors-weigh-impact-expanded-us-sanctions-against-iran-2026-08-25/",
+  "sourceType": "secondary",
+  "entities": [
+    "Strait of Hormuz",
+    "United States Navy",
+    "Iran",
+    "Oman",
+    "commercial shipping",
+    "oil markets"
+  ],
+  "relations": [
+    {"from": "United States Navy", "relation": "reports mine-clearing of main shipping lane", "to": "Strait of Hormuz", "confidence": 0.82},
+    {"from": "Iran", "relation": "negotiates temporary navigation framework with", "to": "Oman", "confidence": 0.86},
+    {"from": "navigation-security improvement", "relation": "reduces immediate supply-risk premium in", "to": "oil markets", "confidence": 0.79}
+  ],
+  "confidence": 0.84,
+  "supportingEvidence": [
+    {
+      "uri": "https://apnews.com/article/1a4fa2e3812c458a25a561b38dc89f09",
+      "title": "AP: Iran and Oman discuss temporary navigational corridor and mine-clearing framework",
+      "observedAt": "2026-08-25T20:02:13Z",
+      "note": "Independent reporting confirms active corridor/de-mining negotiations and continued navigational hazards."
+    },
+    {
+      "uri": "https://www.fm.gov.om/en/49722/",
+      "title": "Oman Foreign Ministry: Oman-Iran Committee on Strait of Hormuz",
+      "observedAt": "2026-08-25T20:02:13Z",
+      "note": "Primary background confirms an established bilateral mechanism for future navigation management."
+    },
+    {
+      "uri": "https://www.reuters.com/business/energy/oil-prices-steady-investors-weigh-impact-expanded-us-sanctions-against-iran-2026-08-25/",
+      "title": "Reuters: Brent and WTI fall as markets price lower near-term supply risk",
+      "observedAt": "2026-08-25T20:02:13Z",
+      "note": "Oil price reaction is consistent with lower perceived immediate disruption risk, though it does not prove physical normalization."
+    }
+  ],
+  "contradictingEvidence": [
+    {
+      "uri": "https://www.reuters.com/world/china/iran-vows-retaliate-after-us-widens-sanctions-2026-08-25/",
+      "title": "Reuters: Iran vows retaliation and tanker attack risk remains",
+      "observedAt": "2026-08-25T20:02:13Z",
+      "note": "Mine-clearing and diplomacy have not removed coercion, sanctions, selective transit, or attack risk."
+    }
+  ],
+  "falsifier": "Independent vessel throughput, freight/insurance premiums, and refined-product delivery fail to improve materially over the next several days despite claimed mine-clearing and corridor negotiations, or a new major attack/remine event reverses navigational gains.",
+  "actionState": "DETECTED",
+  "ledgerRef": null,
+  "geo": {
+    "lat": 26.5667,
+    "lon": 56.25,
+    "label": "Strait of Hormuz",
+    "precision": "chokepoint",
+    "evidence": [
+      {
+        "uri": "https://apnews.com/article/1a4fa2e3812c458a25a561b38dc89f09",
+        "title": "AP reporting on Hormuz navigation talks",
+        "observedAt": "2026-08-25T20:02:13Z"
+      }
+    ]
+  },
+  "title": "Hormuz shifts from pure disruption toward contested reopening",
+  "summary": "Reported mine-clearing of the main shipping lane and renewed Iran-Oman corridor negotiations reduce immediate navigational risk, but transit remains politically and militarily conditional rather than normalized.",
+  "delta": "Supersede the binary open/closed model with a state transition: severe disruption -> partially demined / negotiated corridor -> contested reopening. Physical throughput and freight/insurance data must confirm the transition before confidence rises further.",
+  "firstOrderImpacts": [
+    "lower near-term oil risk premium",
+    "potential improvement in tanker throughput",
+    "possible easing in freight and insurance stress"
+  ],
+  "secondOrderImpacts": [
+    "reduced energy-inflation pressure if physical flows recover",
+    "lower tail-risk premium in rates and risk assets",
+    "greater value of real-time vessel-flow validation versus political statements"
+  ],
+  "alphaHunter": {
+    "hypothesis": "Independent physical-flow data will confirm or reject the claimed reopening faster and more reliably than official political statements or oil-price reaction alone.",
+    "baseline": "Official mine-clearing / corridor statements plus Brent price reaction",
+    "alternativeData": "Independent vessel counts/throughput, freight rates, war-risk insurance, and later refined-product delivery data",
+    "incrementalValueMetric": "Forecast error for 3-7 day confirmed throughput and freight/insurance normalization versus the baseline",
+    "killCondition": "Kill the added complexity if public/low-cost physical-flow data cannot beat the baseline on held-out outcomes or arrives too late to change a decision."
+  }
+}
