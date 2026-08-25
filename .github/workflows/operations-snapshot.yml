@@ -10,6 +10,7 @@ on:
       - 'src/operations/**'
       - 'package.json'
       - 'package-lock.json'
+      - '.github/workflows/operations-snapshot.yml'
 
 permissions:
   contents: write
