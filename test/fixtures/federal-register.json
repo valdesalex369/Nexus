@@ -1,0 +1,39 @@
+{
+  "description": "Captured Federal Register API fixture for Opportunity Radar tests",
+  "count": 3,
+  "results": [
+    {
+      "title": "Regulation Crypto Assets",
+      "type": "Proposed Rule",
+      "abstract": "The Securities and Exchange Commission is proposing rules for certain investment contracts involving crypto assets.",
+      "document_number": "2026-17183",
+      "html_url": "https://www.federalregister.gov/documents/2026/08/21/2026-17183/regulation-crypto-assets",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-08-21/pdf/2026-17183.pdf",
+      "publication_date": "2026-08-21",
+      "agencies": [{ "name": "Securities and Exchange Commission", "id": 466 }],
+      "excerpts": "A background study discussed artificial intelligence tools."
+    },
+    {
+      "title": "Request for Comment on the Listing of Compute Derivatives Contracts",
+      "type": "Proposed Rule",
+      "abstract": "The Commodity Futures Trading Commission is seeking public responses to better inform its understanding and oversight of derivatives markets in compute.",
+      "document_number": "2026-17163",
+      "html_url": "https://www.federalregister.gov/documents/2026/08/21/2026-17163/request-for-comment-on-the-listing-of-compute-derivatives-contracts",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-08-21/pdf/2026-17163.pdf",
+      "publication_date": "2026-08-21",
+      "agencies": [{ "name": "Commodity Futures Trading Commission", "id": 77 }],
+      "excerpts": "Compute is the processing power used by large language models in the artificial intelligence economy."
+    },
+    {
+      "title": "Request for Comment on the Listing of Compute Derivatives Contracts",
+      "type": "Proposed Rule",
+      "abstract": "Duplicate API row used to prove document-number deduplication.",
+      "document_number": "2026-17163",
+      "html_url": "https://www.federalregister.gov/documents/2026/08/21/2026-17163/request-for-comment-on-the-listing-of-compute-derivatives-contracts",
+      "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-08-21/pdf/2026-17163.pdf",
+      "publication_date": "2026-08-21",
+      "agencies": [{ "name": "Commodity Futures Trading Commission", "id": 77 }],
+      "excerpts": "compute infrastructure"
+    }
+  ]
+}
