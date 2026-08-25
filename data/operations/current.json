@@ -1,35 +1,70 @@
 {
-  "generatedAt": "2026-08-24T15:33:41Z",
+  "generatedAt": "2026-08-25T23:55:59.809Z",
   "realityDelta": [
     {
       "kind": "reality-delta",
-      "id": "ui-20260824-hormuz-measurement-conflict",
-      "observedAt": "2026-08-24T15:33:41Z",
-      "sourceUri": "https://www.wsj.com/business/energy-oil/u-s-says-oil-is-pouring-through-hormuz-trackers-cant-find-it-306faebd",
+      "id": "ui-20260825-hormuz-demining-corridor",
+      "observedAt": "2026-08-25T20:02:13Z",
+      "sourceUri": "https://www.reuters.com/business/energy/oil-prices-steady-investors-weigh-impact-expanded-us-sanctions-against-iran-2026-08-25/",
       "sourceType": "secondary",
-      "entities": ["Strait of Hormuz", "U.S. Department of Energy", "commercial vessel trackers", "oil tankers"],
-      "relations": [
-        {"from": "U.S. Department of Energy", "relation": "claims throughput", "to": "Strait of Hormuz", "confidence": 0.72},
-        {"from": "commercial vessel trackers", "relation": "estimate lower throughput", "to": "Strait of Hormuz", "confidence": 0.76}
+      "entities": [
+        "Strait of Hormuz",
+        "United States Navy",
+        "Iran",
+        "Oman",
+        "commercial shipping",
+        "oil markets"
       ],
-      "confidence": 0.72,
+      "relations": [
+        {
+          "from": "United States Navy",
+          "relation": "reports mine-clearing of main shipping lane",
+          "to": "Strait of Hormuz",
+          "confidence": 0.82
+        },
+        {
+          "from": "Iran",
+          "relation": "negotiates temporary navigation framework with",
+          "to": "Oman",
+          "confidence": 0.86
+        },
+        {
+          "from": "navigation-security improvement",
+          "relation": "reduces immediate supply-risk premium in",
+          "to": "oil markets",
+          "confidence": 0.79
+        }
+      ],
+      "confidence": 0.84,
       "supportingEvidence": [
         {
-          "uri": "https://www.reuters.com/world/middle-east/iran-warns-vessels-violating-hormuz-transit-rules-fines-detention-2026-08-24/",
-          "title": "Reuters: Iran blacklists 45 tankers as Hormuz enforcement escalates",
-          "observedAt": "2026-08-24T15:33:41Z",
-          "note": "Independent reporting confirms severe ongoing transit disruption and selective enforcement."
+          "uri": "https://apnews.com/article/1a4fa2e3812c458a25a561b38dc89f09",
+          "title": "AP: Iran and Oman discuss temporary navigational corridor and mine-clearing framework",
+          "observedAt": "2026-08-25T20:02:13Z",
+          "note": "Independent reporting confirms active corridor/de-mining negotiations and continued navigational hazards."
+        },
+        {
+          "uri": "https://www.fm.gov.om/en/49722/",
+          "title": "Oman Foreign Ministry: Oman-Iran Committee on Strait of Hormuz",
+          "observedAt": "2026-08-25T20:02:13Z",
+          "note": "Primary background confirms an established bilateral mechanism for future navigation management."
+        },
+        {
+          "uri": "https://www.reuters.com/business/energy/oil-prices-steady-investors-weigh-impact-expanded-us-sanctions-against-iran-2026-08-25/",
+          "title": "Reuters: Brent and WTI fall as markets price lower near-term supply risk",
+          "observedAt": "2026-08-25T20:02:13Z",
+          "note": "Oil price reaction is consistent with lower perceived immediate disruption risk, though it does not prove physical normalization."
         }
       ],
       "contradictingEvidence": [
         {
-          "uri": "https://www.wsj.com/business/energy-oil/u-s-says-oil-is-pouring-through-hormuz-trackers-cant-find-it-306faebd",
-          "title": "WSJ: official U.S. throughput claims exceed commercial tracker estimates",
-          "observedAt": "2026-08-24T15:33:41Z",
-          "note": "The competing measurements are the signal; Nexus must not collapse them into one false point estimate."
+          "uri": "https://www.reuters.com/world/china/iran-vows-retaliate-after-us-widens-sanctions-2026-08-25/",
+          "title": "Reuters: Iran vows retaliation and tanker attack risk remains",
+          "observedAt": "2026-08-25T20:02:13Z",
+          "note": "Mine-clearing and diplomacy have not removed coercion, sanctions, selective transit, or attack risk."
         }
       ],
-      "falsifier": "Commercial tracker estimates converge with official throughput claims for a sustained period and downstream physical delivery data confirms the same recovery.",
+      "falsifier": "Independent vessel throughput, freight/insurance premiums, and refined-product delivery fail to improve materially over the next several days despite claimed mine-clearing and corridor negotiations, or a new major attack/remine event reverses navigational gains.",
       "actionState": "DETECTED",
       "ledgerRef": null,
       "geo": {
@@ -39,86 +74,177 @@
         "precision": "chokepoint",
         "evidence": [
           {
-            "uri": "https://www.reuters.com/world/middle-east/iran-warns-vessels-violating-hormuz-transit-rules-fines-detention-2026-08-24/",
-            "title": "Reuters Hormuz transit report",
-            "observedAt": "2026-08-24T15:33:41Z"
+            "uri": "https://apnews.com/article/1a4fa2e3812c458a25a561b38dc89f09",
+            "title": "AP reporting on Hormuz navigation talks",
+            "observedAt": "2026-08-25T20:02:13Z"
           }
         ]
       },
-      "title": "Hormuz throughput measurements materially disagree",
-      "summary": "Official U.S. estimates and commercial vessel-tracking estimates imply materially different oil-flow states through Hormuz.",
-      "delta": "Measurement disagreement itself is now operationally important; source methodology must be preserved rather than averaged away.",
-      "firstOrderImpacts": ["uncertain physical oil availability", "freight and insurance risk", "refinery feedstock uncertainty"],
-      "secondOrderImpacts": ["inflation uncertainty", "rate-policy uncertainty", "risk-asset regime volatility"]
+      "title": "Hormuz shifts from pure disruption toward contested reopening",
+      "summary": "Reported mine-clearing of the main shipping lane and renewed Iran-Oman corridor negotiations reduce immediate navigational risk, but transit remains politically and militarily conditional rather than normalized.",
+      "delta": "Supersede the binary open/closed model with a state transition: severe disruption -> partially demined / negotiated corridor -> contested reopening. Physical throughput and freight/insurance data must confirm the transition before confidence rises further.",
+      "firstOrderImpacts": [
+        "lower near-term oil risk premium",
+        "potential improvement in tanker throughput",
+        "possible easing in freight and insurance stress"
+      ],
+      "secondOrderImpacts": [
+        "reduced energy-inflation pressure if physical flows recover",
+        "lower tail-risk premium in rates and risk assets",
+        "greater value of real-time vessel-flow validation versus political statements"
+      ],
+      "alphaHunter": {
+        "hypothesis": "Independent physical-flow data will confirm or reject the claimed reopening faster and more reliably than official political statements or oil-price reaction alone.",
+        "baseline": "Official mine-clearing / corridor statements plus Brent price reaction",
+        "alternativeData": "Independent vessel counts/throughput, freight rates, war-risk insurance, and later refined-product delivery data",
+        "incrementalValueMetric": "Forecast error for 3-7 day confirmed throughput and freight/insurance normalization versus the baseline",
+        "killCondition": "Kill the added complexity if public/low-cost physical-flow data cannot beat the baseline on held-out outcomes or arrives too late to change a decision."
+      }
     }
   ],
   "opportunityRadar": [
     {
       "kind": "opportunity",
-      "id": "ui-20260824-gsa-acquisition-ai",
-      "observedAt": "2026-08-24T15:33:41Z",
-      "sourceUri": "https://www.gsa.gov/about-gsa/gsa-events",
-      "sourceType": "official",
-      "entities": ["GSA", "OMB", "federal acquisition workforce", "SAG", "AI procurement"],
-      "relations": [
-        {"from": "GSA", "relation": "operationalizes AI for", "to": "federal acquisition workforce", "confidence": 0.96},
-        {"from": "OMB", "relation": "co-builds", "to": "SAG", "confidence": 0.93}
+      "id": "ui-20260824-dhs-procurement-cso-amendment-0002",
+      "observedAt": "2026-08-24T20:53:44Z",
+      "sourceUri": "https://samclerk.com/opportunity/dept-of-homeland-security/70RDA126R00000009",
+      "sourceType": "registry-mirror",
+      "entities": [
+        "Department of Homeland Security",
+        "Office of the Chief Procurement Officer",
+        "Procurement Innovation Lab",
+        "commercial technology vendors",
+        "SAM.gov"
       ],
-      "confidence": 0.91,
-      "supportingEvidence": [
+      "relations": [
         {
-          "uri": "https://www.gsa.gov/about-gsa/gsa-events",
-          "title": "GSA event: Turning AI Experiments into Acquisition Capability — Aug. 24, 2026",
-          "observedAt": "2026-08-24T15:33:41Z"
+          "from": "Department of Homeland Security",
+          "relation": "broadens solicitation scope beyond AI-only solutions",
+          "to": "commercial technology vendors",
+          "confidence": 0.92
         },
         {
-          "uri": "https://www.gsa.gov/about-gsa/gsa-events",
-          "title": "GSA event: SAG — new AI acquisition tool for the federal workforce — Aug. 25, 2026",
-          "observedAt": "2026-08-24T15:33:41Z"
+          "from": "Department of Homeland Security",
+          "relation": "moves FY2026 consideration deadline",
+          "to": "2026-08-27T13:00:00-04:00",
+          "confidence": 0.94
         }
       ],
-      "contradictingEvidence": [],
-      "falsifier": "Operational usage remains low or federal buyers show no measurable demand for externally supplied provenance, evaluation, or opportunity-intelligence layers beyond GSA/OMB internal tooling.",
+      "confidence": 0.9,
+      "supportingEvidence": [
+        {
+          "uri": "https://samclerk.com/opportunity/dept-of-homeland-security/70RDA126R00000009",
+          "title": "SAM-derived mirror showing Amendment 0002 dated Aug. 24, 2026",
+          "observedAt": "2026-08-24T20:53:44Z",
+          "note": "Shows Amendment 0002, broadened scope, and current Aug. 27 FY2026 response deadline."
+        },
+        {
+          "uri": "https://app.govly.com/public/opportunities/16972773",
+          "title": "Independent SAM-derived mirror of DHS procurement-modernization CSO",
+          "observedAt": "2026-08-24T20:53:44Z",
+          "note": "Corroborates scope expansion beyond AI-only solutions and Aug. 27, 1:00 p.m. ET deadline."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://sam.directory/opportunities/ai-technologies-for-procurement-modernization-commercial-solutions-opening-cso-70rda126r00000009/notices/ff9d55d6a268428081b54dc02f5bf2c1",
+          "title": "Stale SAM-derived mirror still showing Aug. 26 deadline and AI-only focus-area framing",
+          "observedAt": "2026-08-24T20:53:44Z",
+          "note": "Useful evidence that procurement intelligence must model notice versions and supersession instead of trusting one cached page."
+        }
+      ],
+      "falsifier": "Official SAM.gov Amendment 0002 materially differs from these mirrors, or DHS supersedes the Aug. 27 FY2026 deadline/scope again.",
       "actionState": "DETECTED",
       "ledgerRef": null,
-      "title": "Federal acquisition is becoming an AI-native operating surface",
-      "thesis": "Government procurement data is a high-quality Opportunity Radar wedge because it exposes explicit buyers, needs, deadlines, policy constraints, and observable outcomes.",
-      "whyNow": "GSA is actively training acquisition personnel on operational AI use today and is presenting SAG as a government-wide acquisition AI platform tomorrow.",
+      "title": "DHS broadens procurement-modernization CSO and moves FY2026 deadline",
+      "thesis": "Version-aware procurement-change detection is a high-value Opportunity Radar primitive because amendments can change eligibility, urgency, and market size after the original notice is published.",
+      "whyNow": "The Aug. 24 amendment materially changes both scope and timing versus the original Aug. 17 notice.",
       "score": {
-        "expectedValue": 0,
-        "speedToSignal": 0,
-        "feasibility": 0,
-        "durability": 0,
-        "competitivePosition": 0,
-        "capabilityFit": 0,
-        "reversibility": 0,
-        "total": 0,
-        "veto": "NOT_RUN: Wayfinder scoring must execute before this record may advance beyond DETECTED"
+        "expectedValue": null,
+        "speedToSignal": null,
+        "feasibility": null,
+        "durability": null,
+        "competitivePosition": null,
+        "capabilityFit": null,
+        "reversibility": null,
+        "total": null,
+        "veto": "INSUFFICIENT_EVIDENCE: economics and fit are not yet defensibly scored"
       },
-      "recommendedNextAction": "Run this event through Wayfinder and Nexus policy without submitting, contacting, or spending.",
-      "evidenceRequiredToAdvance": ["Wayfinder score with decomposition", "Nexus policy decision", "ledger entry", "one bounded research artifact"]
+      "recommendedNextAction": "Run the amendment through the truthful Wayfinder gating path and compare it against the prior notice version; do not bid or contact DHS.",
+      "evidenceRequiredToAdvance": [
+        "official SAM.gov Amendment 0002 text or direct registry API evidence",
+        "version-diff artifact",
+        "Wayfinder result without fabricated economics",
+        "Nexus policy decision",
+        "ledger entry"
+      ]
     }
   ],
   "orbitalInsight": [
     {
       "kind": "reality-delta",
-      "id": "ui-20260824-hormuz-measurement-conflict",
-      "observedAt": "2026-08-24T15:33:41Z",
-      "sourceUri": "https://www.wsj.com/business/energy-oil/u-s-says-oil-is-pouring-through-hormuz-trackers-cant-find-it-306faebd",
+      "id": "ui-20260825-hormuz-demining-corridor",
+      "observedAt": "2026-08-25T20:02:13Z",
+      "sourceUri": "https://www.reuters.com/business/energy/oil-prices-steady-investors-weigh-impact-expanded-us-sanctions-against-iran-2026-08-25/",
       "sourceType": "secondary",
-      "entities": ["Strait of Hormuz", "U.S. Department of Energy", "commercial vessel trackers", "oil tankers"],
-      "relations": [
-        {"from": "U.S. Department of Energy", "relation": "claims throughput", "to": "Strait of Hormuz", "confidence": 0.72},
-        {"from": "commercial vessel trackers", "relation": "estimate lower throughput", "to": "Strait of Hormuz", "confidence": 0.76}
+      "entities": [
+        "Strait of Hormuz",
+        "United States Navy",
+        "Iran",
+        "Oman",
+        "commercial shipping",
+        "oil markets"
       ],
-      "confidence": 0.72,
+      "relations": [
+        {
+          "from": "United States Navy",
+          "relation": "reports mine-clearing of main shipping lane",
+          "to": "Strait of Hormuz",
+          "confidence": 0.82
+        },
+        {
+          "from": "Iran",
+          "relation": "negotiates temporary navigation framework with",
+          "to": "Oman",
+          "confidence": 0.86
+        },
+        {
+          "from": "navigation-security improvement",
+          "relation": "reduces immediate supply-risk premium in",
+          "to": "oil markets",
+          "confidence": 0.79
+        }
+      ],
+      "confidence": 0.84,
       "supportingEvidence": [
-        {"uri": "https://www.reuters.com/world/middle-east/iran-warns-vessels-violating-hormuz-transit-rules-fines-detention-2026-08-24/", "title": "Reuters Hormuz transit report", "observedAt": "2026-08-24T15:33:41Z"}
+        {
+          "uri": "https://apnews.com/article/1a4fa2e3812c458a25a561b38dc89f09",
+          "title": "AP: Iran and Oman discuss temporary navigational corridor and mine-clearing framework",
+          "observedAt": "2026-08-25T20:02:13Z",
+          "note": "Independent reporting confirms active corridor/de-mining negotiations and continued navigational hazards."
+        },
+        {
+          "uri": "https://www.fm.gov.om/en/49722/",
+          "title": "Oman Foreign Ministry: Oman-Iran Committee on Strait of Hormuz",
+          "observedAt": "2026-08-25T20:02:13Z",
+          "note": "Primary background confirms an established bilateral mechanism for future navigation management."
+        },
+        {
+          "uri": "https://www.reuters.com/business/energy/oil-prices-steady-investors-weigh-impact-expanded-us-sanctions-against-iran-2026-08-25/",
+          "title": "Reuters: Brent and WTI fall as markets price lower near-term supply risk",
+          "observedAt": "2026-08-25T20:02:13Z",
+          "note": "Oil price reaction is consistent with lower perceived immediate disruption risk, though it does not prove physical normalization."
+        }
       ],
       "contradictingEvidence": [
-        {"uri": "https://www.wsj.com/business/energy-oil/u-s-says-oil-is-pouring-through-hormuz-trackers-cant-find-it-306faebd", "title": "Conflicting official and tracker estimates", "observedAt": "2026-08-24T15:33:41Z"}
+        {
+          "uri": "https://www.reuters.com/world/china/iran-vows-retaliate-after-us-widens-sanctions-2026-08-25/",
+          "title": "Reuters: Iran vows retaliation and tanker attack risk remains",
+          "observedAt": "2026-08-25T20:02:13Z",
+          "note": "Mine-clearing and diplomacy have not removed coercion, sanctions, selective transit, or attack risk."
+        }
       ],
-      "falsifier": "Commercial tracker estimates converge with official throughput claims for a sustained period and downstream physical delivery data confirms the same recovery.",
+      "falsifier": "Independent vessel throughput, freight/insurance premiums, and refined-product delivery fail to improve materially over the next several days despite claimed mine-clearing and corridor negotiations, or a new major attack/remine event reverses navigational gains.",
       "actionState": "DETECTED",
       "ledgerRef": null,
       "geo": {
@@ -126,13 +252,34 @@
         "lon": 56.25,
         "label": "Strait of Hormuz",
         "precision": "chokepoint",
-        "evidence": [{"uri": "https://www.reuters.com/world/middle-east/iran-warns-vessels-violating-hormuz-transit-rules-fines-detention-2026-08-24/", "title": "Reuters Hormuz transit report", "observedAt": "2026-08-24T15:33:41Z"}]
+        "evidence": [
+          {
+            "uri": "https://apnews.com/article/1a4fa2e3812c458a25a561b38dc89f09",
+            "title": "AP reporting on Hormuz navigation talks",
+            "observedAt": "2026-08-25T20:02:13Z"
+          }
+        ]
       },
-      "title": "Hormuz throughput measurements materially disagree",
-      "summary": "Official U.S. estimates and commercial vessel-tracking estimates imply materially different oil-flow states through Hormuz.",
-      "delta": "Measurement disagreement itself is now operationally important; source methodology must be preserved rather than averaged away.",
-      "firstOrderImpacts": ["uncertain physical oil availability", "freight and insurance risk", "refinery feedstock uncertainty"],
-      "secondOrderImpacts": ["inflation uncertainty", "rate-policy uncertainty", "risk-asset regime volatility"]
+      "title": "Hormuz shifts from pure disruption toward contested reopening",
+      "summary": "Reported mine-clearing of the main shipping lane and renewed Iran-Oman corridor negotiations reduce immediate navigational risk, but transit remains politically and militarily conditional rather than normalized.",
+      "delta": "Supersede the binary open/closed model with a state transition: severe disruption -> partially demined / negotiated corridor -> contested reopening. Physical throughput and freight/insurance data must confirm the transition before confidence rises further.",
+      "firstOrderImpacts": [
+        "lower near-term oil risk premium",
+        "potential improvement in tanker throughput",
+        "possible easing in freight and insurance stress"
+      ],
+      "secondOrderImpacts": [
+        "reduced energy-inflation pressure if physical flows recover",
+        "lower tail-risk premium in rates and risk assets",
+        "greater value of real-time vessel-flow validation versus political statements"
+      ],
+      "alphaHunter": {
+        "hypothesis": "Independent physical-flow data will confirm or reject the claimed reopening faster and more reliably than official political statements or oil-price reaction alone.",
+        "baseline": "Official mine-clearing / corridor statements plus Brent price reaction",
+        "alternativeData": "Independent vessel counts/throughput, freight rates, war-risk insurance, and later refined-product delivery data",
+        "incrementalValueMetric": "Forecast error for 3-7 day confirmed throughput and freight/insurance normalization versus the baseline",
+        "killCondition": "Kill the added complexity if public/low-cost physical-flow data cannot beat the baseline on held-out outcomes or arrives too late to change a decision."
+      }
     }
   ],
   "operations": [
@@ -142,10 +289,27 @@
       "observedAt": "2026-08-24T15:33:41Z",
       "sourceUri": "https://github.com/valdesalex369/Nexus/blob/nova/hackathon-convergence-v0/docs/HACKATHON_MISSION.md",
       "sourceType": "internal",
-      "entities": ["Nexus", "ULTRA INSTINCT", "Wayfinder"],
-      "relations": [{"from": "ULTRA INSTINCT", "relation": "feeds", "to": "Nexus Operations Display", "confidence": 1}],
+      "entities": [
+        "Nexus",
+        "ULTRA INSTINCT",
+        "Wayfinder"
+      ],
+      "relations": [
+        {
+          "from": "ULTRA INSTINCT",
+          "relation": "feeds",
+          "to": "Nexus Operations Display",
+          "confidence": 1
+        }
+      ],
       "confidence": 1,
-      "supportingEvidence": [{"uri": "https://github.com/valdesalex369/Nexus/blob/nova/hackathon-convergence-v0/src/operations/types.ts", "title": "Operations Display v0 shared contract", "observedAt": "2026-08-24T15:33:41Z"}],
+      "supportingEvidence": [
+        {
+          "uri": "https://github.com/valdesalex369/Nexus/blob/nova/hackathon-convergence-v0/src/operations/types.ts",
+          "title": "Operations Display v0 shared contract",
+          "observedAt": "2026-08-24T15:33:41Z"
+        }
+      ],
       "contradictingEvidence": [],
       "falsifier": "The snapshot fails schema validation, cannot be consumed by the display, or the source evidence cannot be reproduced.",
       "actionState": "DETECTED",
@@ -159,16 +323,68 @@
   "alphaHunter": [
     {
       "kind": "alternative-data-trial",
-      "id": "alpha-20260824-hormuz-tracker-vs-official",
-      "observedAt": "2026-08-24T15:33:41Z",
-      "sourceUri": "https://www.wsj.com/business/energy-oil/u-s-says-oil-is-pouring-through-hormuz-trackers-cant-find-it-306faebd",
+      "id": "alpha-ui-20260825-hormuz-demining-corridor",
+      "observedAt": "2026-08-25T20:02:13Z",
+      "sourceUri": "https://www.reuters.com/business/energy/oil-prices-steady-investors-weigh-impact-expanded-us-sanctions-against-iran-2026-08-25/",
       "sourceType": "alternative-data",
-      "entities": ["Strait of Hormuz", "commercial vessel trackers", "U.S. Department of Energy"],
-      "relations": [{"from": "commercial vessel tracking", "relation": "challenges", "to": "official throughput estimate", "confidence": 0.76}],
-      "confidence": 0.66,
-      "supportingEvidence": [{"uri": "https://www.wsj.com/business/energy-oil/u-s-says-oil-is-pouring-through-hormuz-trackers-cant-find-it-306faebd", "title": "Commercial tracker estimates differ from U.S. official claims", "observedAt": "2026-08-24T15:33:41Z"}],
-      "contradictingEvidence": [{"uri": "https://www.reuters.com/world/middle-east/iran-warns-vessels-violating-hormuz-transit-rules-fines-detention-2026-08-24/", "title": "Reuters reports continuing physical disruption but does not resolve the exact flow estimate", "observedAt": "2026-08-24T15:33:41Z"}],
-      "falsifier": "Commercial tracker estimates fail to improve prediction of downstream delivered volumes, freight/insurance stress, or refined-product tightness versus official throughput claims.",
+      "entities": [
+        "Strait of Hormuz",
+        "United States Navy",
+        "Iran",
+        "Oman",
+        "commercial shipping",
+        "oil markets"
+      ],
+      "relations": [
+        {
+          "from": "United States Navy",
+          "relation": "reports mine-clearing of main shipping lane",
+          "to": "Strait of Hormuz",
+          "confidence": 0.82
+        },
+        {
+          "from": "Iran",
+          "relation": "negotiates temporary navigation framework with",
+          "to": "Oman",
+          "confidence": 0.86
+        },
+        {
+          "from": "navigation-security improvement",
+          "relation": "reduces immediate supply-risk premium in",
+          "to": "oil markets",
+          "confidence": 0.79
+        }
+      ],
+      "confidence": 0.84,
+      "supportingEvidence": [
+        {
+          "uri": "https://apnews.com/article/1a4fa2e3812c458a25a561b38dc89f09",
+          "title": "AP: Iran and Oman discuss temporary navigational corridor and mine-clearing framework",
+          "observedAt": "2026-08-25T20:02:13Z",
+          "note": "Independent reporting confirms active corridor/de-mining negotiations and continued navigational hazards."
+        },
+        {
+          "uri": "https://www.fm.gov.om/en/49722/",
+          "title": "Oman Foreign Ministry: Oman-Iran Committee on Strait of Hormuz",
+          "observedAt": "2026-08-25T20:02:13Z",
+          "note": "Primary background confirms an established bilateral mechanism for future navigation management."
+        },
+        {
+          "uri": "https://www.reuters.com/business/energy/oil-prices-steady-investors-weigh-impact-expanded-us-sanctions-against-iran-2026-08-25/",
+          "title": "Reuters: Brent and WTI fall as markets price lower near-term supply risk",
+          "observedAt": "2026-08-25T20:02:13Z",
+          "note": "Oil price reaction is consistent with lower perceived immediate disruption risk, though it does not prove physical normalization."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://www.reuters.com/world/china/iran-vows-retaliate-after-us-widens-sanctions-2026-08-25/",
+          "title": "Reuters: Iran vows retaliation and tanker attack risk remains",
+          "observedAt": "2026-08-25T20:02:13Z",
+          "note": "Mine-clearing and diplomacy have not removed coercion, sanctions, selective transit, or attack risk."
+        }
+      ],
+      "falsifier": "Independent vessel throughput, freight/insurance premiums, and refined-product delivery fail to improve materially over the next several days despite claimed mine-clearing and corridor negotiations, or a new major attack/remine event reverses navigational gains.",
       "actionState": "DETECTED",
       "ledgerRef": null,
       "geo": {
@@ -176,13 +392,29 @@
         "lon": 56.25,
         "label": "Strait of Hormuz",
         "precision": "chokepoint",
-        "evidence": [{"uri": "https://www.reuters.com/world/middle-east/iran-warns-vessels-violating-hormuz-transit-rules-fines-detention-2026-08-24/", "title": "Reuters Hormuz transit report", "observedAt": "2026-08-24T15:33:41Z"}]
+        "evidence": [
+          {
+            "uri": "https://apnews.com/article/1a4fa2e3812c458a25a561b38dc89f09",
+            "title": "AP reporting on Hormuz navigation talks",
+            "observedAt": "2026-08-25T20:02:13Z"
+          }
+        ]
       },
-      "hypothesis": "Commercial vessel-tracking estimates provide incremental state information over headline official throughput claims when transit becomes opaque or selectively enforced.",
-      "baselineSource": {"uri": "https://www.wsj.com/business/energy-oil/u-s-says-oil-is-pouring-through-hormuz-trackers-cant-find-it-306faebd", "title": "Official U.S. throughput claim as reported by WSJ", "observedAt": "2026-08-24T15:33:41Z"},
-      "alternativeDataSource": {"uri": "https://www.wsj.com/business/energy-oil/u-s-says-oil-is-pouring-through-hormuz-trackers-cant-find-it-306faebd", "title": "Commercial vessel-tracker estimates summarized by WSJ", "observedAt": "2026-08-24T15:33:41Z", "note": "Direct tracker feed is not yet connected; this trial must not advance until raw/first-party methodology or data access is available."},
-      "incrementalValueMetric": "Out-of-sample error versus later confirmed delivered oil/product volumes and freight/insurance stress proxies",
-      "killCondition": "Kill if direct tracker data cannot be accessed cheaply/reliably or if it does not beat the public official baseline on held-out outcomes."
+      "hypothesis": "Independent physical-flow data will confirm or reject the claimed reopening faster and more reliably than official political statements or oil-price reaction alone.",
+      "baselineSource": {
+        "uri": "https://www.reuters.com/business/energy/oil-prices-steady-investors-weigh-impact-expanded-us-sanctions-against-iran-2026-08-25/",
+        "title": "Official mine-clearing / corridor statements plus Brent price reaction",
+        "observedAt": "2026-08-25T20:02:13Z",
+        "note": "Baseline description from the source-backed event fixture."
+      },
+      "alternativeDataSource": {
+        "uri": "https://apnews.com/article/1a4fa2e3812c458a25a561b38dc89f09",
+        "title": "Independent vessel counts/throughput, freight rates, war-risk insurance, and later refined-product delivery data",
+        "observedAt": "2026-08-25T20:02:13Z",
+        "note": "Candidate alternative-data layer. DETECTED only until direct data access and held-out evaluation exist."
+      },
+      "incrementalValueMetric": "Forecast error for 3-7 day confirmed throughput and freight/insurance normalization versus the baseline",
+      "killCondition": "Kill the added complexity if public/low-cost physical-flow data cannot beat the baseline on held-out outcomes or arrives too late to change a decision."
     }
   ]
 }
