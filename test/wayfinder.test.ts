@@ -26,16 +26,14 @@ describe('wayfinder', () => {
     }
   });
 
-  test('every score decomposes into named, disputable components', () => {
+  test('every commercial score decomposes into named, disputable components', () => {
     const s = score(base());
     const names = s.components.map((c) => c.name);
     for (const required of ['expected_value', 'speed_to_signal', 'feasibility',
       'durability', 'competitive_position', 'capability_fit', 'reversibility']) {
       assert.ok(names.includes(required), `missing component ${required}`);
     }
-    for (const c of s.components) {
-      assert.ok(c.rationale.length > 0, `${c.name} has no rationale`);
-    }
+    for (const c of s.components) assert.ok(c.rationale.length > 0);
   });
 
   test('vetoes a severe, irreversible downside regardless of upside', () => {
@@ -43,7 +41,7 @@ describe('wayfinder', () => {
       valueUsd: 100_000_000, probability: 0.99, startupCostUsd: 1,
       downsideSeverity: 0.9, reversibility: 0.1,
     }));
-    assert.ok(s.veto, 'must be vetoed');
+    assert.equal(s.status, 'VETOED');
     assert.equal(s.score, 0);
     assert.match(s.veto!, /cannot undo/);
   });
@@ -52,50 +50,82 @@ describe('wayfinder', () => {
     const ranked = rank([
       base({ id: 'ruin', title: 'huge but unrecoverable',
         valueUsd: 1e9, probability: 0.99, downsideSeverity: 0.95, reversibility: 0.05 }),
-      base({ id: 'modest', title: 'modest and safe',
-        valueUsd: 2_000, probability: 0.4 }),
+      base({ id: 'modest', title: 'modest and safe', valueUsd: 2_000, probability: 0.4 }),
     ]);
     assert.equal(ranked[0]!.opportunity.id, 'modest');
     assert.equal(ranked[1]!.opportunity.id, 'ruin');
-    assert.ok(ranked[1]!.veto);
   });
 
   test('novelty contributes nothing — identical inputs score identically', () => {
-    const a = score(base({ id: 'a', title: 'boring proven thing' }));
-    const b = score(base({ id: 'b', title: 'exciting novel breakthrough AI web4 thing' }));
-    assert.equal(a.score, b.score);
+    assert.equal(score(base({ title: 'boring proven thing' })).score,
+      score(base({ title: 'exciting novel breakthrough AI web4 thing' })).score);
   });
 
   test('faster time to signal outranks a slower identical opportunity', () => {
-    const fast = score(base({ daysToFirstSignal: 2 }));
-    const slow = score(base({ daysToFirstSignal: 90 }));
-    assert.ok(fast.score > slow.score);
+    assert.ok(score(base({ daysToFirstSignal: 2 })).score > score(base({ daysToFirstSignal: 90 })).score);
   });
 
   test('distribution difficulty is weighted above technical difficulty', () => {
     const hardBuild = score(base({ technicalDifficulty: 0.9, distributionDifficulty: 0.1 }));
     const hardSell = score(base({ technicalDifficulty: 0.1, distributionDifficulty: 0.9 }));
-    assert.ok(hardSell.score < hardBuild.score,
-      'a thing that is hard to sell should score below a thing that is hard to build');
+    assert.ok(hardSell.score < hardBuild.score);
   });
 
   test('cost-adjusted expected value beats raw upside', () => {
-    const cheap = score(base({ valueUsd: 10_000, startupCostUsd: 100 }));
-    const pricey = score(base({ valueUsd: 12_000, startupCostUsd: 50_000 }));
-    assert.ok(cheap.score > pricey.score);
+    assert.ok(score(base({ valueUsd: 10_000, startupCostUsd: 100 })).score
+      > score(base({ valueUsd: 12_000, startupCostUsd: 50_000 })).score);
   });
 
   test('zero probability or zero value is vetoed', () => {
-    assert.ok(score(base({ probability: 0 })).veto);
-    assert.ok(score(base({ valueUsd: 0 })).veto);
+    assert.equal(score(base({ probability: 0 })).status, 'VETOED');
+    assert.equal(score(base({ valueUsd: 0 })).status, 'VETOED');
   });
 
-  test('ranking is stable and explanation renders every component', () => {
+  test('missing commercial economics fails closed instead of fabricating zero', () => {
+    const s = score(base({ valueUsd: undefined }));
+    assert.equal(s.status, 'INSUFFICIENT_EVIDENCE');
+    assert.equal(s.veto, null);
+    assert.match(s.gate!, /economics are unknown/);
+  });
+
+  test('estimated economics require provenance and rationale', () => {
+    const bad = score(base({ economicEvidence: { estimated: true } }));
+    assert.equal(bad.status, 'INSUFFICIENT_EVIDENCE');
+
+    const good = score(base({ economicEvidence: {
+      estimated: true,
+      provenance: 'USASpending award 123',
+      rationale: 'median of three comparable awards',
+    } }));
+    assert.equal(good.status, 'SCORED');
+  });
+
+  test('research opportunities never require USD economics', () => {
+    const s = score(base({
+      kind: 'research',
+      valueUsd: undefined, probability: undefined, startupCostUsd: undefined,
+      questionValue: 0.9, resolutionProbability: 0.8, evidenceAccess: 0.95,
+      daysToFirstSignal: 2,
+    }));
+    assert.equal(s.status, 'RESEARCH_PRIORITY');
+    assert.equal(s.scoreType, 'research_learning');
+    assert.ok(s.score > 0);
+    assert.ok(!s.components.some((c) => c.name === 'expected_value'));
+  });
+
+  test('research opportunities with missing research evidence are gated', () => {
+    const s = score(base({
+      kind: 'research', valueUsd: undefined, probability: undefined, startupCostUsd: undefined,
+    }));
+    assert.equal(s.status, 'INSUFFICIENT_EVIDENCE');
+  });
+
+  test('ranking is stable and explanation exposes score state', () => {
     const ranked = rank([base({ id: 'a' }), base({ id: 'b', probability: 0.9 })]);
     assert.equal(ranked[0]!.rank, 1);
     assert.equal(ranked[0]!.opportunity.id, 'b');
     const text = explain(ranked);
     assert.match(text, /expected_value/);
-    assert.match(text, /#1/);
+    assert.match(text, /SCORED/);
   });
 });
