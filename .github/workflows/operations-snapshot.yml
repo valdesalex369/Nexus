@@ -1,0 +1,57 @@
+name: Operations Snapshot
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - nova/hackathon-convergence-v0
+    paths:
+      - 'data/operations/events/**'
+      - 'src/operations/**'
+      - 'package.json'
+      - 'package-lock.json'
+
+permissions:
+  contents: write
+
+jobs:
+  compile-and-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: nova/hackathon-convergence-v0
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.18.0'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Test
+        run: npm test
+
+      - name: Compile Operations snapshot
+        run: npm run operations:compile
+
+      - name: Commit regenerated snapshot when state changed
+        shell: bash
+        run: |
+          if git diff --quiet -- data/operations/current.json; then
+            echo 'Operations snapshot already current.'
+            exit 0
+          fi
+
+          git config user.name 'nexus-operations-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/operations/current.json
+          git commit -m 'Refresh compiled Operations snapshot [skip ci]'
+          git push origin HEAD:nova/hackathon-convergence-v0
