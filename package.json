@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "NEXUS \u2014 an intelligence operating system: bounded, auditable infrastructure that turns model output into verified execution.",
+  "description": "NEXUS — an intelligence operating system: bounded, auditable infrastructure that turns model output into verified execution.",
   "engines": {
     "node": ">=22.18.0"
   },
@@ -17,7 +17,8 @@
     "agents": "node --disable-warning=ExperimentalWarning src/cli.ts agents",
     "intake": "node --disable-warning=ExperimentalWarning src/cli.ts intake",
     "wayfinder": "node --disable-warning=ExperimentalWarning src/cli.ts wayfinder",
-    "discover": "node --disable-warning=ExperimentalWarning src/cli.ts discover"
+    "discover": "node --disable-warning=ExperimentalWarning src/cli.ts discover",
+    "operations:compile": "node --disable-warning=ExperimentalWarning src/operations/compile.ts"
   },
   "devDependencies": {
     "@types/node": "^26.2.0",
