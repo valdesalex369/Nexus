@@ -134,6 +134,10 @@ export interface OperationsDisplaySnapshot {
 
 export function validateSnapshot(snapshot: OperationsDisplaySnapshot): string[] {
   const errors: string[] = [];
+  const generatedAtMs = Date.parse(snapshot.generatedAt);
+  if (!Number.isFinite(generatedAtMs)) {
+    errors.push('generatedAt must be a valid ISO timestamp');
+  }
   if (snapshot.opportunityRadar.length > 5) {
     errors.push('opportunityRadar must contain at most 5 ranked opportunities');
   }
@@ -147,12 +151,22 @@ export function validateSnapshot(snapshot: OperationsDisplaySnapshot): string[] 
     ...snapshot.operations,
     ...snapshot.alphaHunter,
   ];
+  const temporalChecked = new Set<string>();
   for (const item of all) {
     if (!item.sourceUri) errors.push(`${item.id}: sourceUri is required`);
     if (item.confidence < 0 || item.confidence > 1) errors.push(`${item.id}: confidence must be in [0,1]`);
     if (!item.falsifier.trim()) errors.push(`${item.id}: falsifier is required`);
     if (item.actionState !== 'DETECTED' && item.ledgerRef === null) {
       errors.push(`${item.id}: non-DETECTED states require a ledgerRef`);
+    }
+    if (!temporalChecked.has(item.id)) {
+      temporalChecked.add(item.id);
+      const observedAtMs = Date.parse(item.observedAt);
+      if (!Number.isFinite(observedAtMs)) {
+        errors.push(`${item.id}: observedAt must be a valid ISO timestamp`);
+      } else if (Number.isFinite(generatedAtMs) && observedAtMs > generatedAtMs) {
+        errors.push(`${item.id}: observedAt cannot be later than snapshot generatedAt`);
+      }
     }
   }
   return errors;
