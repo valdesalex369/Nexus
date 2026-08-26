@@ -1,0 +1,77 @@
+{
+  "kind": "reality-delta",
+  "id": "ui-20260826-meta-teen-safety-settlement-regulatory-contagion",
+  "observedAt": "2026-08-26T22:56:00Z",
+  "sourceUri": "https://investor.atmeta.com/investor-news/press-release-details/2026/Metas-Agreement-With-Bipartisan-Attorneys-General-Calling-on-TikTok-and-YouTube-to-Join-Us-in-Supporting-Teens/default.aspx",
+  "sourceType": "primary",
+  "entities": [
+    "Meta Platforms",
+    "Instagram",
+    "Facebook",
+    "47 U.S. states",
+    "District of Columbia",
+    "TikTok",
+    "YouTube",
+    "state attorneys general",
+    "teen users",
+    "Nexus/STEM"
+  ],
+  "relations": [
+    {"from": "Meta", "relation": "agrees to implement", "to": "default teen usage and age-assurance protections on Instagram and Facebook", "confidence": 0.99},
+    {"from": "Meta settlement", "relation": "creates conditional financial incentive for", "to": "TikTok and YouTube to adopt comparable teen safeguards", "confidence": 0.98},
+    {"from": "multistate litigation", "relation": "converts", "to": "youth-safety claims into product-design constraints", "confidence": 0.96},
+    {"from": "platform regulation", "relation": "may shift", "to": "from disclosure/content moderation toward default product-behavior rules", "confidence": 0.86},
+    {"from": "reported settlement amount", "relation": "differs across primary sources", "to": "approximately $18B in Meta materials vs $17.1B in state AG materials", "confidence": 0.99}
+  ],
+  "confidence": 0.96,
+  "supportingEvidence": [
+    {
+      "uri": "https://investor.atmeta.com/investor-news/press-release-details/2026/Metas-Agreement-With-Bipartisan-Attorneys-General-Calling-on-TikTok-and-YouTube-to-Join-Us-in-Supporting-Teens/default.aspx",
+      "title": "Meta agreement with bipartisan attorneys general",
+      "observedAt": "2026-08-26T22:56:00Z",
+      "note": "Meta says the agreement includes approximately $18 billion over ten years, with roughly $12.7 billion allocated to participating states and about $5.3 billion contingent on YouTube and TikTok adopting specified teen protections and matching payments. Meta expects roughly $10 billion of Q3 2026 legal expense while otherwise maintaining prior guidance."
+    },
+    {
+      "uri": "https://law.georgia.gov/press-releases/2026-08-26/carr-announces-largest-big-tech-settlement-history",
+      "title": "Georgia Attorney General announces multistate Meta settlement",
+      "observedAt": "2026-08-26T22:56:00Z",
+      "note": "A participating state attorney general describes a $17.1 billion multistate settlement covering 47 states, D.C. and territories and requiring broad child-safety reforms on Instagram and Facebook."
+    },
+    {
+      "uri": "https://www.reuters.com/business/meta-reaches-18-billion-settlements-over-childrens-social-media-addiction-2026-08-26/",
+      "title": "Reuters independently reports Meta teen-safety settlement",
+      "observedAt": "2026-08-26T22:56:00Z",
+      "note": "Reuters independently reports the settlement, payment structure and new teen product restrictions, while noting remaining litigation and that Meta does not admit wrongdoing."
+    }
+  ],
+  "contradictingEvidence": [
+    {
+      "uri": "https://law.georgia.gov/press-releases/2026-08-26/carr-announces-largest-big-tech-settlement-history",
+      "title": "Primary sources disagree on the headline settlement amount",
+      "observedAt": "2026-08-26T22:56:00Z",
+      "note": "State AG materials describe $17.1 billion while Meta describes approximately $18 billion with a conditional component. Nexus should preserve the discrepancy instead of choosing one headline number without reconciling definitions."
+    },
+    {
+      "uri": "https://www.reuters.com/business/meta-reaches-18-billion-settlements-over-childrens-social-media-addiction-2026-08-26/",
+      "title": "The agreement does not end all Meta youth-safety litigation",
+      "observedAt": "2026-08-26T22:56:00Z",
+      "note": "Reuters reports that some states, including Florida and New Mexico, continue separate litigation. Court approval and implementation still matter, so the settlement should not be modeled as final nationwide resolution of all youth-safety liability."
+    }
+  ],
+  "falsifier": "Downgrade the regulatory-contagion thesis if the court materially rejects or narrows the settlement, if the required teen safeguards are not implemented or have little operational effect, or if TikTok/YouTube and other large platforms do not adopt comparable default protections despite the conditional financial incentive and litigation pressure.",
+  "actionState": "DETECTED",
+  "ledgerRef": null,
+  "title": "Meta settlement turns teen-safety litigation into default product constraints and a cross-platform adoption incentive",
+  "summary": "Meta reached a major multistate settlement requiring substantial teen-safety product changes on Instagram and Facebook. Meta says roughly 30% of its approximately $18 billion payment is conditional on YouTube and TikTok adopting comparable protections and matching payments, creating an unusual mechanism for regulatory/product-design contagion across competing platforms. State AG materials describe the headline settlement as $17.1 billion, so the amount remains source-definition-sensitive rather than a single uncontested number.",
+  "delta": "Upgrade the social-platform world model from 'youth-safety risk = litigation/content-policy issue' to 'youth-safety risk = enforceable product-design and age-assurance constraint with cross-platform contagion incentives.' Preserve the source discrepancy around $17.1B versus approximately $18B. For Nexus, this is a clean case where legal action changes platform defaults and can later be outcome-graded through implemented product restrictions, teen engagement changes, and competitor adoption.",
+  "firstOrderImpacts": [
+    "Instagram and Facebook face direct changes to teen usage limits, night-mode restrictions, age assurance and related product defaults",
+    "Meta records a material Q3 2026 legal expense while maintaining prior broader guidance",
+    "TikTok and YouTube face stronger economic and litigation incentives to adopt comparable teen safeguards"
+  ],
+  "secondOrderImpacts": [
+    "U.S. social-platform regulation may increasingly target product architecture and default behavior rather than relying only on disclosure or content-moderation rules",
+    "age assurance becomes a more strategic infrastructure layer across social platforms and potentially agent-facing consumer services",
+    "Opportunity Radar can use litigation settlements as policy-to-product state transitions that are objectively observable and later calibratable"
+  ]
+}
