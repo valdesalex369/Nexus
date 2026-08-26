@@ -1,0 +1,67 @@
+{
+  "kind": "reality-delta",
+  "id": "ui-20260826-kimi-k3-us-cloud-interoperability",
+  "observedAt": "2026-08-26T08:57:00Z",
+  "sourceUri": "https://www.reuters.com/business/retail-consumer/chinas-moonshot-talks-with-microsoft-amazon-google-over-k3-revenue-sharing-2026-08-26/",
+  "sourceType": "secondary",
+  "entities": [
+    "Moonshot AI",
+    "Kimi K3",
+    "Microsoft",
+    "Amazon Web Services",
+    "Google Cloud",
+    "Fireworks AI",
+    "Nexus/STEM"
+  ],
+  "relations": [
+    {"from": "Moonshot AI", "relation": "is in early revenue-sharing talks with", "to": "Microsoft, Amazon and Google", "confidence": 0.92},
+    {"from": "Kimi K3", "relation": "is intended for hosted access through", "to": "U.S. hyperscale cloud platforms", "confidence": 0.88},
+    {"from": "Microsoft Foundry", "relation": "already exposes Kimi K3 through", "to": "Fireworks AI", "confidence": 0.98},
+    {"from": "cross-provider hosting", "relation": "reduces deployment friction but increases importance of", "to": "data custody, auditability and provider-policy routing", "confidence": 0.86}
+  ],
+  "confidence": 0.9,
+  "supportingEvidence": [
+    {
+      "uri": "https://www.reuters.com/business/retail-consumer/chinas-moonshot-talks-with-microsoft-amazon-google-over-k3-revenue-sharing-2026-08-26/",
+      "title": "Reuters: Moonshot in talks with Microsoft, Amazon and Google over K3 revenue sharing",
+      "observedAt": "2026-08-26T08:57:00Z",
+      "note": "Reuters reports early negotiations that could let U.S. hyperscalers host Kimi K3 directly under revenue-sharing arrangements; unresolved terms include revenue attribution, data access and token-usage auditing."
+    },
+    {
+      "uri": "https://www.kimi.com/blog/kimi-k3",
+      "title": "Moonshot/Kimi: Kimi K3 technical release",
+      "observedAt": "2026-08-26T08:57:00Z",
+      "note": "Primary Moonshot source confirms Kimi K3 as an open 2.8T-parameter frontier model with 1M-token context and long-horizon coding/reasoning positioning."
+    },
+    {
+      "uri": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-kimi-k3-through-fireworks-ai-on-microsoft-foundry/4540187",
+      "title": "Microsoft Foundry: Kimi K3 available through Fireworks AI",
+      "observedAt": "2026-08-26T08:57:00Z",
+      "note": "Primary Microsoft ecosystem evidence shows Kimi K3 is already deployable on Microsoft Foundry through Fireworks AI, independently confirming U.S. cloud distribution is technically and commercially feasible."
+    }
+  ],
+  "contradictingEvidence": [
+    {
+      "uri": "https://www.reuters.com/business/retail-consumer/chinas-moonshot-talks-with-microsoft-amazon-google-over-k3-revenue-sharing-2026-08-26/",
+      "title": "Reuters: talks remain early and face unresolved commercial/policy issues",
+      "observedAt": "2026-08-26T08:57:00Z",
+      "note": "No direct Moonshot, Microsoft, AWS or Google announcement confirms final direct-hosting agreements. Revenue attribution, data access, auditing and U.S. political/export-control scrutiny remain unresolved."
+    }
+  ],
+  "falsifier": "Downgrade the cross-provider interoperability thesis if the reported talks fail to produce direct hosting agreements, regulatory or trade restrictions block distribution, or enterprise users show no meaningful preference for provider-portable access to Kimi K3 versus existing third-party hosting.",
+  "actionState": "DETECTED",
+  "ledgerRef": null,
+  "title": "Kimi K3 pushes Chinese frontier intelligence toward U.S. hyperscale distribution",
+  "summary": "Moonshot is reportedly negotiating direct revenue-sharing distribution of Kimi K3 with Microsoft, AWS and Google while K3 is already technically available through Microsoft Foundry via Fireworks. This strengthens the case that model capability can cross geopolitical/provider boundaries faster than application architectures do.",
+  "delta": "Upgrade model portability and cross-provider distribution as a near-term reality, while keeping direct Moonshot-hyperscaler agreements unconfirmed. For Nexus, provider routing becomes less differentiated; custody, policy, provenance and outcome calibration become more important.",
+  "firstOrderImpacts": [
+    "lower enterprise deployment friction for Kimi K3 if direct cloud hosting closes",
+    "more pricing pressure and model choice inside U.S. cloud ecosystems",
+    "greater need to distinguish model origin from hosting provider and data-custody policy"
+  ],
+  "secondOrderImpacts": [
+    "geopolitical model boundaries may become porous at the commercial distribution layer even while export-control and security scrutiny rises",
+    "multi-model routers need separate fields for model developer, serving provider, jurisdiction, retention policy and auditability",
+    "Nexus differentiation shifts further away from simple model access toward contradiction-preserving evidence, policy-aware routing and measured outcomes"
+  ]
+}
