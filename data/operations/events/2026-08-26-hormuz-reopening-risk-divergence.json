@@ -1,14 +1,15 @@
 {
   "kind": "reality-delta",
   "id": "ui-20260826-hormuz-reopening-risk-divergence",
-  "observedAt": "2026-08-26T03:03:35Z",
-  "sourceUri": "https://www.reuters.com/world/asia-pacific/us-oil-prices-extend-losses-hopes-iran-oman-talks-strait-hormuz-2026-08-25/",
+  "observedAt": "2026-08-26T05:55:00Z",
+  "sourceUri": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
   "sourceType": "secondary",
   "entities": [
     "Strait of Hormuz",
     "Iran",
     "Oman",
     "commercial tankers",
+    "Kpler",
     "oil markets",
     "regional diplomatic missions"
   ],
@@ -16,10 +17,17 @@
     {"from": "Iran", "relation": "resumes temporary navigation-corridor talks with", "to": "Oman", "confidence": 0.91},
     {"from": "reopening optimism", "relation": "reduces near-term risk premium in", "to": "oil markets", "confidence": 0.9},
     {"from": "fresh tanker attack", "relation": "contradicts physical normalization of", "to": "Strait of Hormuz", "confidence": 0.88},
+    {"from": "Kpler preliminary tracking", "relation": "observes 5 commodity-vessel transits on Aug. 25 versus a 10-day average of 15 through", "to": "Strait of Hormuz", "confidence": 0.9},
     {"from": "United States", "relation": "begins restaffing some regional diplomatic missions, implying lower perceived near-term escalation risk around", "to": "Iran conflict", "confidence": 0.76}
   ],
-  "confidence": 0.86,
+  "confidence": 0.9,
   "supportingEvidence": [
+    {
+      "uri": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
+      "title": "Reuters/Kpler: Hormuz traffic remains far below recent average",
+      "observedAt": "2026-08-26T05:55:00Z",
+      "note": "Preliminary Kpler data show only five commodity-vessel transits on Aug. 25 versus a 10-day average of 15; Monday had four. This is direct physical-flow evidence that reopening optimism has not yet translated into normalized commercial traffic."
+    },
     {
       "uri": "https://www.reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/",
       "title": "Reuters: Iran-Oman corridor talks resume while a tanker is struck near the Strait entrance",
@@ -28,26 +36,38 @@
     },
     {
       "uri": "https://www.reuters.com/world/asia-pacific/us-oil-prices-extend-losses-hopes-iran-oman-talks-strait-hormuz-2026-08-25/",
-      "title": "Reuters: Brent extends losses on hopes of Hormuz reopening",
-      "observedAt": "2026-08-26T03:03:35Z",
-      "note": "Brent fell to about $86.80 and WTI to about $80.87 as markets priced de-escalation/reopening optimism."
+      "title": "Reuters: oil extends losses on hopes of Hormuz reopening",
+      "observedAt": "2026-08-26T05:55:00Z",
+      "note": "Brent and WTI fell again as markets priced de-escalation and reopening optimism even while observed vessel traffic remained depressed."
     },
     {
       "uri": "https://www.fm.gov.om/en/49077/",
       "title": "Oman Foreign Ministry: temporary maritime-corridor mechanism for Hormuz",
       "observedAt": "2026-08-26T03:03:35Z",
       "note": "Primary Omani background confirms an established policy and coordination mechanism for temporary corridor access and freedom of navigation."
+    },
+    {
+      "uri": "https://www.imf.org/en/data",
+      "title": "IMF PortWatch: open high-frequency maritime monitoring platform",
+      "observedAt": "2026-08-26T05:55:00Z",
+      "note": "Primary methodological support for the Alpha Hunter: PortWatch provides open AIS-derived maritime activity data that can be used as an independent, lower-cost physical-flow challenger when the relevant passage series is available."
     }
   ],
   "contradictingEvidence": [
     {
+      "uri": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
+      "title": "Reuters/Kpler: preliminary counts can miss dark vessels",
+      "observedAt": "2026-08-26T05:55:00Z",
+      "note": "Kpler warns that preliminary counts may change and some vessels can disable location transponders, so five observed transits is not identical to total physical passage."
+    },
+    {
       "uri": "https://www.reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/",
-      "title": "Reuters: diplomatic progress remains incomplete and passage remains perilous",
+      "title": "Reuters: corridor talks could still accelerate operational reopening",
       "observedAt": "2026-08-26T03:03:35Z",
-      "note": "The talks themselves could still produce an operational corridor quickly; one attack may be an isolated event rather than evidence that the broader reopening path is failing."
+      "note": "The talks could still produce an operational corridor quickly; current depressed traffic may therefore lag diplomacy rather than disprove it."
     }
   ],
-  "falsifier": "A sustained multi-day rise in independent vessel throughput, declining war-risk/freight premiums, no further maritime attacks, and restored refined-product deliveries make incident-level security data add no predictive value over the public corridor-talk and oil-price baseline.",
+  "falsifier": "A sustained multi-day rise in independent vessel throughput toward or above the recent 10-day average, declining war-risk/freight premiums, no further maritime attacks, and restored refined-product deliveries would falsify the current narrative-physical divergence and make the extra incident/flow layer add little predictive value over public corridor talks and oil-price action.",
   "actionState": "DETECTED",
   "ledgerRef": null,
   "geo": {
@@ -57,30 +77,30 @@
     "precision": "chokepoint",
     "evidence": [
       {
-        "uri": "https://www.reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/",
-        "title": "Reuters reporting on tanker strike near Oman and Hormuz corridor talks",
-        "observedAt": "2026-08-26T03:03:35Z"
+        "uri": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
+        "title": "Reuters/Kpler reporting on Aug. 25 Hormuz commodity-vessel transits",
+        "observedAt": "2026-08-26T05:55:00Z"
       }
     ]
   },
-  "title": "Hormuz reopening optimism diverges from physical security after fresh tanker strike",
-  "summary": "Markets and diplomacy are shifting toward reopening optimism, but a fresh tanker strike near the Strait entrance shows the physical-security state has not normalized. Narrative, price, and incident-level evidence are diverging.",
-  "delta": "Refine CONTESTED_REOPENING into a two-layer state: diplomatic/market de-escalation is improving, while physical maritime-security confirmation remains incomplete. Do not advance to NORMALIZING until throughput, attack frequency, freight, insurance, and product-delivery data confirm the move.",
+  "title": "Hormuz reopening optimism diverges from observed physical flow",
+  "summary": "Markets and diplomacy are shifting toward reopening optimism, but preliminary Kpler data show only five commodity-vessel transits on Aug. 25 versus a 10-day average of 15, while a fresh tanker strike near the Strait entrance keeps physical-security risk elevated. Narrative, price, and physical-flow evidence are diverging.",
+  "delta": "Upgrade the CONTESTED_REOPENING model from qualitative contradiction to quantitative physical confirmation: diplomatic/market de-escalation is improving, but observed commodity-vessel traffic remains roughly one-third of the recent 10-day average. Do not advance to NORMALIZING until throughput, attack frequency, freight, insurance, and product-delivery data confirm the move.",
   "firstOrderImpacts": [
     "continued downside pressure on oil risk premium if talks progress",
-    "persistent war-risk and freight uncertainty despite lower crude prices",
-    "greater value of incident-level maritime monitoring for validating reopening"
+    "persistent shipping and insurance caution while observed traffic remains depressed",
+    "higher decision value from direct physical-flow monitoring versus diplomatic headlines alone"
   ],
   "secondOrderImpacts": [
-    "possible divergence between crude-price optimism and shipping/insurance economics",
-    "lower energy-inflation expectations could reverse quickly if attacks continue",
-    "alternative-data value shifts toward measuring realized physical security rather than summarizing diplomatic statements"
+    "possible gap between crude-price optimism and actual Gulf logistics normalization",
+    "energy-inflation relief may be overstated if physical flows fail to recover",
+    "alternative-data value shifts toward measuring realized throughput and security rather than summarizing reopening narratives"
   ],
   "alphaHunter": {
-    "hypothesis": "Incident-level maritime security plus independent vessel/freight data will identify failed or fragile reopening states earlier than diplomatic statements and Brent price action alone.",
+    "hypothesis": "Independent vessel-flow and incident data will identify failed or fragile reopening states earlier than diplomatic statements and Brent price action alone.",
     "baseline": "Iran-Oman corridor statements plus Brent/WTI reaction",
-    "alternativeData": "UKMTO/JMIC incident events, independent vessel throughput, war-risk insurance, tanker freight, and refined-product delivery data",
+    "alternativeData": "Kpler-style vessel counts when publicly reported, IMF PortWatch where available, UKMTO/JMIC incident events, war-risk insurance, tanker freight, and refined-product delivery data",
     "incrementalValueMetric": "3-7 day forecast error for confirmed throughput/security normalization versus the public diplomatic/price baseline",
-    "killCondition": "Kill the extra data layer if it fails to improve held-out reopening-state forecasts or arrives too late to change a research decision."
+    "killCondition": "Kill the extra data layer if it fails to improve held-out reopening-state forecasts, cannot be independently replicated at acceptable cost, or arrives too late to change a research decision."
   }
 }
