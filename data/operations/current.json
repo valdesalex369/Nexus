@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-26T11:06:08.500Z",
+  "generatedAt": "2026-08-26T11:57:59.641Z",
   "realityDelta": [
     {
       "kind": "reality-delta",
       "id": "ui-20260826-webmcp-agent-native-web",
-      "observedAt": "2026-08-26T11:08:00Z",
+      "observedAt": "2026-08-26T11:05:45Z",
       "sourceUri": "https://openai.com/webmcp-challenge/",
       "sourceType": "primary",
       "entities": [
@@ -47,19 +47,19 @@
         {
           "uri": "https://openai.com/webmcp-challenge/",
           "title": "OpenAI: The WebMCP Challenge",
-          "observedAt": "2026-08-26T11:08:00Z",
+          "observedAt": "2026-08-26T11:05:45Z",
           "note": "OpenAI describes WebMCP as an experimental open standard that lets websites expose structured tools directly to agents rather than forcing agents to infer actions from human-oriented UI."
         },
         {
           "uri": "https://developer.chrome.com/docs/ai/webmcp",
           "title": "Chrome for Developers: WebMCP",
-          "observedAt": "2026-08-26T11:08:00Z",
+          "observedAt": "2026-08-26T11:05:45Z",
           "note": "Chrome documents WebMCP as a proposed web standard for structured agent actuation and says the declared-tool approach can improve reliability versus simulated UI interaction."
         },
         {
           "uri": "https://blog.cloudflare.com/webmcp/",
           "title": "Cloudflare: Give any website a WebMCP interface",
-          "observedAt": "2026-08-26T11:08:00Z",
+          "observedAt": "2026-08-26T11:05:45Z",
           "note": "Cloudflare independently ships a developer preview that can expose website capabilities to browser agents without origin changes, providing a separate implementation signal beyond OpenAI."
         }
       ],
@@ -67,13 +67,13 @@
         {
           "uri": "https://developer.chrome.com/docs/agents/security",
           "title": "Chrome: Agent security considerations for WebMCP",
-          "observedAt": "2026-08-26T11:08:00Z",
+          "observedAt": "2026-08-26T11:05:45Z",
           "note": "Chrome warns that malicious manifests and contaminated tool outputs remain prompt-injection and privilege-boundary risks. Structured tools improve actuation reliability but do not make tools trustworthy."
         },
         {
           "uri": "https://developer.chrome.com/docs/ai/webmcp",
           "title": "Chrome: WebMCP remains experimental",
-          "observedAt": "2026-08-26T11:08:00Z",
+          "observedAt": "2026-08-26T11:05:45Z",
           "note": "WebMCP is still a proposed/experimental standard; adoption, browser support and final API semantics can change substantially."
         }
       ],
