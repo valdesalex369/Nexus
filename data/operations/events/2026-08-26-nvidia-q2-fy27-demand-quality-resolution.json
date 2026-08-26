@@ -1,0 +1,74 @@
+{
+  "kind": "reality-delta",
+  "id": "ui-20260826-nvidia-q2-fy27-demand-quality-resolution",
+  "observedAt": "2026-08-26T20:20:00Z",
+  "sourceUri": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-2nd-Quarter-FY27-Financial-Results/default.aspx",
+  "sourceType": "primary",
+  "entities": [
+    "NVIDIA",
+    "hyperscalers",
+    "AI cloud providers",
+    "Vera Rubin",
+    "memory suppliers",
+    "AI infrastructure financiers",
+    "Nexus/STEM"
+  ],
+  "relations": [
+    {"from": "NVIDIA Q2 FY27 revenue", "relation": "exceeded", "to": "NVIDIA prior guidance and Wall Street expectations", "confidence": 0.99},
+    {"from": "Data Center revenue", "relation": "accelerated to", "to": "$89.0B and 117% year-over-year growth", "confidence": 0.99},
+    {"from": "NVIDIA Q3 revenue guide", "relation": "signals continued", "to": "strong AI infrastructure demand excluding China Data Center compute", "confidence": 0.96},
+    {"from": "rising memory costs and competition", "relation": "pressure", "to": "future gross margins and AI-capex economics", "confidence": 0.84},
+    {"from": "strong reported demand", "relation": "does not by itself resolve", "to": "vendor-financing and end-demand-quality concerns", "confidence": 0.92}
+  ],
+  "confidence": 0.96,
+  "supportingEvidence": [
+    {
+      "uri": "https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-second-quarter-fiscal-98x41cxh35vk.html",
+      "title": "NVIDIA official Q2 FY27 release mirrored by StockTitan",
+      "observedAt": "2026-08-26T20:20:00Z",
+      "note": "The reproduced NVIDIA release reports Q2 FY27 revenue of $96.2B, up 18% sequentially and 106% year over year; Data Center revenue of $89.0B, up 117% year over year; GAAP and non-GAAP gross margin of 75.0%; and diluted EPS of $2.46 GAAP / $2.22 non-GAAP."
+    },
+    {
+      "uri": "https://www.reuters.com/business/media-telecom/nvidia-forecasts-quarterly-revenue-above-estimates-2026-08-26/",
+      "title": "Reuters: NVIDIA forecasts Q3 revenue above estimates",
+      "observedAt": "2026-08-26T20:30:00Z",
+      "note": "Reuters independently reports a $108B Q3 revenue forecast versus roughly $104.2B consensus, while noting continued investor concern over competition, in-house hyperscaler chips, China exclusion and the sustainability of the AI buildout."
+    },
+    {
+      "uri": "https://apnews.com/article/dc8d556e709b50915cca9217a60b1991",
+      "title": "AP: strong AI chip demand drives NVIDIA Q2 beat",
+      "observedAt": "2026-08-26T20:35:00Z",
+      "note": "AP independently confirms $96.22B revenue, $89B Data Center revenue and a $108B next-quarter guide, strengthening confidence that the demand beat is not a single-source artifact."
+    }
+  ],
+  "contradictingEvidence": [
+    {
+      "uri": "https://www.reuters.com/business/media-telecom/nvidia-forecasts-quarterly-revenue-above-estimates-2026-08-26/",
+      "title": "Reuters: shares slipped despite the beat",
+      "observedAt": "2026-08-26T20:30:00Z",
+      "note": "NVIDIA shares fell about 1% in extended trading despite the revenue beat and strong guide, showing that investors are increasingly demanding evidence on margin durability, competition and demand quality rather than simply higher top-line growth."
+    },
+    {
+      "uri": "https://www.investors.com/news/technology/nvidia-stock-nvda-fiscal-q2-2027-earnings/",
+      "title": "Investor's Business Daily: margin pressure and memory costs remain a concern",
+      "observedAt": "2026-08-26T20:40:00Z",
+      "note": "Reported Q3 gross-margin guidance is below some expectations and rising memory costs are cited as a pressure point, arguing against interpreting the revenue beat as a clean all-clear for AI-infrastructure economics."
+    }
+  ],
+  "falsifier": "Downgrade the durable-demand thesis if subsequent quarters show decelerating Data Center growth, weaker utilization or customer monetization, rising cancellations, materially widening financing dependence, sustained gross-margin compression, or major hyperscalers shifting enough workload to in-house/competing silicon that NVIDIA's revenue growth and pricing power weaken despite continued announced AI capex.",
+  "actionState": "DETECTED",
+  "ledgerRef": null,
+  "title": "NVIDIA Q2 confirms exceptional AI demand, but top-line growth no longer resolves demand-quality risk",
+  "summary": "NVIDIA reported $96.2B of Q2 FY27 revenue and $89.0B of Data Center revenue, both well above expectations, and guided Q3 revenue to $108B excluding China Data Center compute. The results upgrade near-term AI infrastructure demand, while the muted after-hours reaction and margin/competition concerns preserve the distinction between capex volume and demand quality.",
+  "delta": "Supersede the pending NVIDIA-earnings checkpoint with a resolved state: near-term AI infrastructure demand is stronger than expected. Do not supersede the separate concern that vendor financing, margin pressure, memory costs, customer concentration and custom silicon can reduce the quality or durability of that demand. For Nexus, AI-capex volume and AI-demand quality remain separate state variables.",
+  "firstOrderImpacts": [
+    "stronger near-term demand expectations for GPUs, networking, memory, power and data-center infrastructure",
+    "continued support for suppliers exposed to AI factory buildout even as investors scrutinize valuation and margins",
+    "greater sensitivity of the AI complex to memory costs, gross-margin guidance and hyperscaler custom-silicon adoption"
+  ],
+  "secondOrderImpacts": [
+    "AI infrastructure analysis should decompose revenue growth into end-demand, vendor/customer financing, utilization and realized customer economics",
+    "cost-of-intelligence models should incorporate memory and system-level input costs rather than GPU pricing alone",
+    "the fact that a blowout beat produced a weak stock reaction suggests market expectations are shifting from simple growth to quality, durability and capital efficiency"
+  ]
+}
