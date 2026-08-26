@@ -1,6 +1,99 @@
 {
-  "generatedAt": "2026-08-26T08:59:39.066Z",
+  "generatedAt": "2026-08-26T11:06:08.500Z",
   "realityDelta": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260826-webmcp-agent-native-web",
+      "observedAt": "2026-08-26T11:08:00Z",
+      "sourceUri": "https://openai.com/webmcp-challenge/",
+      "sourceType": "primary",
+      "entities": [
+        "OpenAI",
+        "Google Chrome",
+        "Cloudflare",
+        "WebMCP",
+        "browser agents",
+        "web applications",
+        "Nexus/STEM"
+      ],
+      "relations": [
+        {
+          "from": "web applications",
+          "relation": "can expose structured browser-agent tools through",
+          "to": "WebMCP",
+          "confidence": 0.99
+        },
+        {
+          "from": "WebMCP",
+          "relation": "reduces dependence on",
+          "to": "DOM/screenshot-based agent actuation",
+          "confidence": 0.94
+        },
+        {
+          "from": "OpenAI + Chrome + Cloudflare",
+          "relation": "are independently supporting or implementing",
+          "to": "WebMCP-style agent-native web interfaces",
+          "confidence": 0.96
+        },
+        {
+          "from": "structured site tools",
+          "relation": "increase the importance of",
+          "to": "tool provenance, permission scope, trust policy and evaluation",
+          "confidence": 0.9
+        }
+      ],
+      "confidence": 0.96,
+      "supportingEvidence": [
+        {
+          "uri": "https://openai.com/webmcp-challenge/",
+          "title": "OpenAI: The WebMCP Challenge",
+          "observedAt": "2026-08-26T11:08:00Z",
+          "note": "OpenAI describes WebMCP as an experimental open standard that lets websites expose structured tools directly to agents rather than forcing agents to infer actions from human-oriented UI."
+        },
+        {
+          "uri": "https://developer.chrome.com/docs/ai/webmcp",
+          "title": "Chrome for Developers: WebMCP",
+          "observedAt": "2026-08-26T11:08:00Z",
+          "note": "Chrome documents WebMCP as a proposed web standard for structured agent actuation and says the declared-tool approach can improve reliability versus simulated UI interaction."
+        },
+        {
+          "uri": "https://blog.cloudflare.com/webmcp/",
+          "title": "Cloudflare: Give any website a WebMCP interface",
+          "observedAt": "2026-08-26T11:08:00Z",
+          "note": "Cloudflare independently ships a developer preview that can expose website capabilities to browser agents without origin changes, providing a separate implementation signal beyond OpenAI."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://developer.chrome.com/docs/agents/security",
+          "title": "Chrome: Agent security considerations for WebMCP",
+          "observedAt": "2026-08-26T11:08:00Z",
+          "note": "Chrome warns that malicious manifests and contaminated tool outputs remain prompt-injection and privilege-boundary risks. Structured tools improve actuation reliability but do not make tools trustworthy."
+        },
+        {
+          "uri": "https://developer.chrome.com/docs/ai/webmcp",
+          "title": "Chrome: WebMCP remains experimental",
+          "observedAt": "2026-08-26T11:08:00Z",
+          "note": "WebMCP is still a proposed/experimental standard; adoption, browser support and final API semantics can change substantially."
+        }
+      ],
+      "falsifier": "Downgrade the agent-native-web thesis if WebMCP fails to gain meaningful cross-browser/site adoption, if structured tools do not materially improve task completion versus modern browser agents, or if security/permission complexity prevents production use outside controlled demos.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "title": "WebMCP pushes the web toward explicit agent-native action contracts",
+      "summary": "OpenAI's new WebMCP challenge lands on top of existing Chrome and Cloudflare implementations, strengthening the case that websites will increasingly expose typed actions directly to agents instead of relying on brittle screenshot/DOM automation.",
+      "delta": "Upgrade agent-native web standards as an emerging interoperability layer. Downgrade browser automation itself as a durable Nexus moat. For Nexus, the higher-value layer becomes deciding which declared tool is trustworthy, permitted and outcome-worthy while preserving source and execution evidence.",
+      "firstOrderImpacts": [
+        "lower failure rates and latency for browser agents on sites that expose structured tools",
+        "new pressure on websites to publish machine-readable agent actions and permissions",
+        "less differentiation from generic browser clicking/scraping stacks"
+      ],
+      "secondOrderImpacts": [
+        "the web may evolve into a dual interface: human UI plus agent action contracts",
+        "Nexus can treat WebMCP/MCP/A2A as commodity interoperability while owning policy, provenance, contradiction handling and outcome calibration",
+        "source and tool authenticity become more important because malicious or compromised sites can expose structured but unsafe capabilities"
+      ]
+    },
     {
       "kind": "reality-delta",
       "id": "ui-20260826-kimi-k3-us-cloud-interoperability",
