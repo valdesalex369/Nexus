@@ -1,0 +1,86 @@
+{
+  "kind": "reality-delta",
+  "id": "ui-20260826-hormuz-reopening-risk-divergence",
+  "observedAt": "2026-08-26T03:03:35Z",
+  "sourceUri": "https://www.reuters.com/world/asia-pacific/us-oil-prices-extend-losses-hopes-iran-oman-talks-strait-hormuz-2026-08-25/",
+  "sourceType": "secondary",
+  "entities": [
+    "Strait of Hormuz",
+    "Iran",
+    "Oman",
+    "commercial tankers",
+    "oil markets",
+    "regional diplomatic missions"
+  ],
+  "relations": [
+    {"from": "Iran", "relation": "resumes temporary navigation-corridor talks with", "to": "Oman", "confidence": 0.91},
+    {"from": "reopening optimism", "relation": "reduces near-term risk premium in", "to": "oil markets", "confidence": 0.9},
+    {"from": "fresh tanker attack", "relation": "contradicts physical normalization of", "to": "Strait of Hormuz", "confidence": 0.88},
+    {"from": "United States", "relation": "begins restaffing some regional diplomatic missions, implying lower perceived near-term escalation risk around", "to": "Iran conflict", "confidence": 0.76}
+  ],
+  "confidence": 0.86,
+  "supportingEvidence": [
+    {
+      "uri": "https://www.reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/",
+      "title": "Reuters: Iran-Oman corridor talks resume while a tanker is struck near the Strait entrance",
+      "observedAt": "2026-08-26T03:03:35Z",
+      "note": "Reports a proposed joint temporary navigational corridor and mine clearing, while also reporting a tanker disabled by an unidentified projectile near Oman the same day."
+    },
+    {
+      "uri": "https://www.reuters.com/world/asia-pacific/us-oil-prices-extend-losses-hopes-iran-oman-talks-strait-hormuz-2026-08-25/",
+      "title": "Reuters: Brent extends losses on hopes of Hormuz reopening",
+      "observedAt": "2026-08-26T03:03:35Z",
+      "note": "Brent fell to about $86.80 and WTI to about $80.87 as markets priced de-escalation/reopening optimism."
+    },
+    {
+      "uri": "https://www.fm.gov.om/en/49077/",
+      "title": "Oman Foreign Ministry: temporary maritime-corridor mechanism for Hormuz",
+      "observedAt": "2026-08-26T03:03:35Z",
+      "note": "Primary Omani background confirms an established policy and coordination mechanism for temporary corridor access and freedom of navigation."
+    }
+  ],
+  "contradictingEvidence": [
+    {
+      "uri": "https://www.reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/",
+      "title": "Reuters: diplomatic progress remains incomplete and passage remains perilous",
+      "observedAt": "2026-08-26T03:03:35Z",
+      "note": "The talks themselves could still produce an operational corridor quickly; one attack may be an isolated event rather than evidence that the broader reopening path is failing."
+    }
+  ],
+  "falsifier": "A sustained multi-day rise in independent vessel throughput, declining war-risk/freight premiums, no further maritime attacks, and restored refined-product deliveries make incident-level security data add no predictive value over the public corridor-talk and oil-price baseline.",
+  "actionState": "DETECTED",
+  "ledgerRef": null,
+  "geo": {
+    "lat": 26.5667,
+    "lon": 56.25,
+    "label": "Strait of Hormuz / eastern entrance",
+    "precision": "chokepoint",
+    "evidence": [
+      {
+        "uri": "https://www.reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/",
+        "title": "Reuters reporting on tanker strike near Oman and Hormuz corridor talks",
+        "observedAt": "2026-08-26T03:03:35Z"
+      }
+    ]
+  },
+  "title": "Hormuz reopening optimism diverges from physical security after fresh tanker strike",
+  "summary": "Markets and diplomacy are shifting toward reopening optimism, but a fresh tanker strike near the Strait entrance shows the physical-security state has not normalized. Narrative, price, and incident-level evidence are diverging.",
+  "delta": "Refine CONTESTED_REOPENING into a two-layer state: diplomatic/market de-escalation is improving, while physical maritime-security confirmation remains incomplete. Do not advance to NORMALIZING until throughput, attack frequency, freight, insurance, and product-delivery data confirm the move.",
+  "firstOrderImpacts": [
+    "continued downside pressure on oil risk premium if talks progress",
+    "persistent war-risk and freight uncertainty despite lower crude prices",
+    "greater value of incident-level maritime monitoring for validating reopening"
+  ],
+  "secondOrderImpacts": [
+    "possible divergence between crude-price optimism and shipping/insurance economics",
+    "lower energy-inflation expectations could reverse quickly if attacks continue",
+    "alternative-data value shifts toward measuring realized physical security rather than summarizing diplomatic statements"
+  ],
+  "alphaHunter": {
+    "hypothesis": "Incident-level maritime security plus independent vessel/freight data will identify failed or fragile reopening states earlier than diplomatic statements and Brent price action alone.",
+    "baseline": "Iran-Oman corridor statements plus Brent/WTI reaction",
+    "alternativeData": "UKMTO/JMIC incident events, independent vessel throughput, war-risk insurance, tanker freight, and refined-product delivery data",
+    "incrementalValueMetric": "3-7 day forecast error for confirmed throughput/security normalization versus the public diplomatic/price baseline",
+    "killCondition": "Kill the extra data layer if it fails to improve held-out reopening-state forecasts or arrives too late to change a research decision."
+  }
+}
