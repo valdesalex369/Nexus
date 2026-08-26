@@ -1,0 +1,67 @@
+{
+  "kind": "reality-delta",
+  "id": "ui-20260826-us-pce-sticky-inflation",
+  "observedAt": "2026-08-26T12:30:00Z",
+  "sourceUri": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
+  "sourceType": "primary",
+  "entities": [
+    "U.S. Bureau of Economic Analysis",
+    "Federal Reserve",
+    "U.S. consumers",
+    "Treasury market",
+    "risk assets",
+    "AI infrastructure financing",
+    "Nexus/STEM"
+  ],
+  "relations": [
+    {"from": "July PCE inflation", "relation": "remained above", "to": "Federal Reserve 2% target", "confidence": 0.99},
+    {"from": "sticky inflation", "relation": "raises the probability of", "to": "higher-for-longer policy and rate volatility", "confidence": 0.88},
+    {"from": "higher real and nominal rates", "relation": "increase financing pressure on", "to": "capital-intensive AI infrastructure and long-duration assets", "confidence": 0.82},
+    {"from": "real PCE growth near zero in July", "relation": "shows weaker volume growth despite", "to": "nominal income and spending gains", "confidence": 0.91}
+  ],
+  "confidence": 0.95,
+  "supportingEvidence": [
+    {
+      "uri": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
+      "title": "BEA: Personal Income and Outlays, July 2026",
+      "observedAt": "2026-08-26T12:30:00Z",
+      "note": "BEA reports headline PCE prices up 0.2% month over month and 3.7% year over year in July; core PCE rose 0.2% month over month and 3.3% year over year. Real PCE was essentially flat while nominal personal income rose 0.4% and disposable personal income rose 0.5%."
+    },
+    {
+      "uri": "https://www.reuters.com/business/us-inflation-remains-sticky-july-2nd-quarter-gdp-unrevised-15-2026-08-26/",
+      "title": "Reuters: U.S. inflation remains sticky in July",
+      "observedAt": "2026-08-26T12:40:00Z",
+      "note": "Independent reporting confirms the 3.7% headline and 3.3% core PCE readings and frames them as keeping the Fed's inflation debate active ahead of Jackson Hole."
+    }
+  ],
+  "contradictingEvidence": [
+    {
+      "uri": "https://www.bls.gov/news.release/cpi.htm",
+      "title": "BLS: July CPI showed only a 0.1% monthly increase",
+      "observedAt": "2026-08-26T12:30:00Z",
+      "note": "The earlier July CPI report was softer at the monthly headline level, and energy prices declined during July. That argues against treating one sticky PCE print as proof that inflation is re-accelerating broadly."
+    },
+    {
+      "uri": "https://www.bls.gov/news.release/ppi.nr0.htm",
+      "title": "BLS: July producer prices were unchanged",
+      "observedAt": "2026-08-26T12:30:00Z",
+      "note": "Flat July PPI suggests some upstream price pressure cooled, which could limit pass-through into future consumer inflation even while current PCE remains elevated."
+    }
+  ],
+  "falsifier": "Downgrade the higher-for-longer inflation thesis if the next two inflation releases show sustained monthly core disinflation, energy normalization feeds through to lower PCE, and market-implied/Fed policy expectations move decisively away from additional tightening without a renewed inflation impulse.",
+  "actionState": "DETECTED",
+  "ledgerRef": null,
+  "title": "July PCE keeps U.S. inflation sticky while real consumption stalls",
+  "summary": "BEA's July release shows headline PCE inflation holding at 3.7% year over year and core at 3.3%, while real consumption was essentially flat. The mix preserves rate-policy pressure even as underlying real spending momentum looks softer.",
+  "delta": "Upgrade the probability of a higher-for-longer rate regime relative to a clean disinflation path, but do not upgrade to outright re-acceleration because CPI and PPI provide meaningful counterevidence. For Nexus, this strengthens the need to decompose macro shocks into inflation persistence versus real-demand weakness rather than using one risk-on/risk-off label.",
+  "firstOrderImpacts": [
+    "continued sensitivity in Treasury yields and rate-exposed equities ahead of Fed guidance",
+    "higher financing hurdle rates for capital-intensive AI infrastructure and leveraged projects",
+    "mixed pressure on crypto and other long-duration risk assets depending on whether the dominant market interpretation is tighter policy or weaker real growth"
+  ],
+  "secondOrderImpacts": [
+    "the AI-capex boom may face a tougher cost-of-capital environment even if model demand stays strong",
+    "Nexus should model inflation persistence and real-demand momentum as separate macro state variables",
+    "a falling oil risk premium from Hormuz reopening can ease future headline inflation without necessarily resolving sticky core services inflation"
+  ]
+}
