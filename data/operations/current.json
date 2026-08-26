@@ -1,6 +1,108 @@
 {
-  "generatedAt": "2026-08-26T22:13:11.288Z",
+  "generatedAt": "2026-08-26T23:00:53.446Z",
   "realityDelta": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260826-meta-teen-safety-settlement-regulatory-contagion",
+      "observedAt": "2026-08-26T22:56:00Z",
+      "sourceUri": "https://investor.atmeta.com/investor-news/press-release-details/2026/Metas-Agreement-With-Bipartisan-Attorneys-General-Calling-on-TikTok-and-YouTube-to-Join-Us-in-Supporting-Teens/default.aspx",
+      "sourceType": "primary",
+      "entities": [
+        "Meta Platforms",
+        "Instagram",
+        "Facebook",
+        "47 U.S. states",
+        "District of Columbia",
+        "TikTok",
+        "YouTube",
+        "state attorneys general",
+        "teen users",
+        "Nexus/STEM"
+      ],
+      "relations": [
+        {
+          "from": "Meta",
+          "relation": "agrees to implement",
+          "to": "default teen usage and age-assurance protections on Instagram and Facebook",
+          "confidence": 0.99
+        },
+        {
+          "from": "Meta settlement",
+          "relation": "creates conditional financial incentive for",
+          "to": "TikTok and YouTube to adopt comparable teen safeguards",
+          "confidence": 0.98
+        },
+        {
+          "from": "multistate litigation",
+          "relation": "converts",
+          "to": "youth-safety claims into product-design constraints",
+          "confidence": 0.96
+        },
+        {
+          "from": "platform regulation",
+          "relation": "may shift",
+          "to": "from disclosure/content moderation toward default product-behavior rules",
+          "confidence": 0.86
+        },
+        {
+          "from": "reported settlement amount",
+          "relation": "differs across primary sources",
+          "to": "approximately $18B in Meta materials vs $17.1B in state AG materials",
+          "confidence": 0.99
+        }
+      ],
+      "confidence": 0.96,
+      "supportingEvidence": [
+        {
+          "uri": "https://investor.atmeta.com/investor-news/press-release-details/2026/Metas-Agreement-With-Bipartisan-Attorneys-General-Calling-on-TikTok-and-YouTube-to-Join-Us-in-Supporting-Teens/default.aspx",
+          "title": "Meta agreement with bipartisan attorneys general",
+          "observedAt": "2026-08-26T22:56:00Z",
+          "note": "Meta says the agreement includes approximately $18 billion over ten years, with roughly $12.7 billion allocated to participating states and about $5.3 billion contingent on YouTube and TikTok adopting specified teen protections and matching payments. Meta expects roughly $10 billion of Q3 2026 legal expense while otherwise maintaining prior guidance."
+        },
+        {
+          "uri": "https://law.georgia.gov/press-releases/2026-08-26/carr-announces-largest-big-tech-settlement-history",
+          "title": "Georgia Attorney General announces multistate Meta settlement",
+          "observedAt": "2026-08-26T22:56:00Z",
+          "note": "A participating state attorney general describes a $17.1 billion multistate settlement covering 47 states, D.C. and territories and requiring broad child-safety reforms on Instagram and Facebook."
+        },
+        {
+          "uri": "https://www.reuters.com/business/meta-reaches-18-billion-settlements-over-childrens-social-media-addiction-2026-08-26/",
+          "title": "Reuters independently reports Meta teen-safety settlement",
+          "observedAt": "2026-08-26T22:56:00Z",
+          "note": "Reuters independently reports the settlement, payment structure and new teen product restrictions, while noting remaining litigation and that Meta does not admit wrongdoing."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://law.georgia.gov/press-releases/2026-08-26/carr-announces-largest-big-tech-settlement-history",
+          "title": "Primary sources disagree on the headline settlement amount",
+          "observedAt": "2026-08-26T22:56:00Z",
+          "note": "State AG materials describe $17.1 billion while Meta describes approximately $18 billion with a conditional component. Nexus should preserve the discrepancy instead of choosing one headline number without reconciling definitions."
+        },
+        {
+          "uri": "https://www.reuters.com/business/meta-reaches-18-billion-settlements-over-childrens-social-media-addiction-2026-08-26/",
+          "title": "The agreement does not end all Meta youth-safety litigation",
+          "observedAt": "2026-08-26T22:56:00Z",
+          "note": "Reuters reports that some states, including Florida and New Mexico, continue separate litigation. Court approval and implementation still matter, so the settlement should not be modeled as final nationwide resolution of all youth-safety liability."
+        }
+      ],
+      "falsifier": "Downgrade the regulatory-contagion thesis if the court materially rejects or narrows the settlement, if the required teen safeguards are not implemented or have little operational effect, or if TikTok/YouTube and other large platforms do not adopt comparable default protections despite the conditional financial incentive and litigation pressure.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "title": "Meta settlement turns teen-safety litigation into default product constraints and a cross-platform adoption incentive",
+      "summary": "Meta reached a major multistate settlement requiring substantial teen-safety product changes on Instagram and Facebook. Meta says roughly 30% of its approximately $18 billion payment is conditional on YouTube and TikTok adopting comparable protections and matching payments, creating an unusual mechanism for regulatory/product-design contagion across competing platforms. State AG materials describe the headline settlement as $17.1 billion, so the amount remains source-definition-sensitive rather than a single uncontested number.",
+      "delta": "Upgrade the social-platform world model from 'youth-safety risk = litigation/content-policy issue' to 'youth-safety risk = enforceable product-design and age-assurance constraint with cross-platform contagion incentives.' Preserve the source discrepancy around $17.1B versus approximately $18B. For Nexus, this is a clean case where legal action changes platform defaults and can later be outcome-graded through implemented product restrictions, teen engagement changes, and competitor adoption.",
+      "firstOrderImpacts": [
+        "Instagram and Facebook face direct changes to teen usage limits, night-mode restrictions, age assurance and related product defaults",
+        "Meta records a material Q3 2026 legal expense while maintaining prior broader guidance",
+        "TikTok and YouTube face stronger economic and litigation incentives to adopt comparable teen safeguards"
+      ],
+      "secondOrderImpacts": [
+        "U.S. social-platform regulation may increasingly target product architecture and default behavior rather than relying only on disclosure or content-moderation rules",
+        "age assurance becomes a more strategic infrastructure layer across social platforms and potentially agent-facing consumer services",
+        "Opportunity Radar can use litigation settlements as policy-to-product state transitions that are objectively observable and later calibratable"
+      ]
+    },
     {
       "kind": "reality-delta",
       "id": "ui-20260826-aws-nvidia-2m-gpu-federal-ai-factories",
@@ -925,106 +1027,6 @@
         "alternativeData": "Kpler-style vessel counts when publicly reported, IMF PortWatch where available, UKMTO/JMIC incident events, war-risk insurance, tanker freight, and refined-product delivery data",
         "incrementalValueMetric": "3-7 day forecast error for confirmed throughput/security normalization versus the public diplomatic/price baseline",
         "killCondition": "Kill the extra data layer if it fails to improve held-out reopening-state forecasts, cannot be independently replicated at acceptable cost, or arrives too late to change a research decision."
-      }
-    },
-    {
-      "kind": "reality-delta",
-      "id": "ui-20260825-hormuz-demining-corridor",
-      "observedAt": "2026-08-25T20:02:13Z",
-      "sourceUri": "https://www.reuters.com/business/energy/oil-prices-steady-investors-weigh-impact-expanded-us-sanctions-against-iran-2026-08-25/",
-      "sourceType": "secondary",
-      "entities": [
-        "Strait of Hormuz",
-        "United States Navy",
-        "Iran",
-        "Oman",
-        "commercial shipping",
-        "oil markets"
-      ],
-      "relations": [
-        {
-          "from": "United States Navy",
-          "relation": "reports mine-clearing of main shipping lane",
-          "to": "Strait of Hormuz",
-          "confidence": 0.82
-        },
-        {
-          "from": "Iran",
-          "relation": "negotiates temporary navigation framework with",
-          "to": "Oman",
-          "confidence": 0.86
-        },
-        {
-          "from": "navigation-security improvement",
-          "relation": "reduces immediate supply-risk premium in",
-          "to": "oil markets",
-          "confidence": 0.79
-        }
-      ],
-      "confidence": 0.84,
-      "supportingEvidence": [
-        {
-          "uri": "https://apnews.com/article/1a4fa2e3812c458a25a561b38dc89f09",
-          "title": "AP: Iran and Oman discuss temporary navigational corridor and mine-clearing framework",
-          "observedAt": "2026-08-25T20:02:13Z",
-          "note": "Independent reporting confirms active corridor/de-mining negotiations and continued navigational hazards."
-        },
-        {
-          "uri": "https://www.fm.gov.om/en/49722/",
-          "title": "Oman Foreign Ministry: Oman-Iran Committee on Strait of Hormuz",
-          "observedAt": "2026-08-25T20:02:13Z",
-          "note": "Primary background confirms an established bilateral mechanism for future navigation management."
-        },
-        {
-          "uri": "https://www.reuters.com/business/energy/oil-prices-steady-investors-weigh-impact-expanded-us-sanctions-against-iran-2026-08-25/",
-          "title": "Reuters: Brent and WTI fall as markets price lower near-term supply risk",
-          "observedAt": "2026-08-25T20:02:13Z",
-          "note": "Oil price reaction is consistent with lower perceived immediate disruption risk, though it does not prove physical normalization."
-        }
-      ],
-      "contradictingEvidence": [
-        {
-          "uri": "https://www.reuters.com/world/china/iran-vows-retaliate-after-us-widens-sanctions-2026-08-25/",
-          "title": "Reuters: Iran vows retaliation and tanker attack risk remains",
-          "observedAt": "2026-08-25T20:02:13Z",
-          "note": "Mine-clearing and diplomacy have not removed coercion, sanctions, selective transit, or attack risk."
-        }
-      ],
-      "falsifier": "Independent vessel throughput, freight/insurance premiums, and refined-product delivery fail to improve materially over the next several days despite claimed mine-clearing and corridor negotiations, or a new major attack/remine event reverses navigational gains.",
-      "actionState": "DETECTED",
-      "ledgerRef": null,
-      "geo": {
-        "lat": 26.5667,
-        "lon": 56.25,
-        "label": "Strait of Hormuz",
-        "precision": "chokepoint",
-        "evidence": [
-          {
-            "uri": "https://apnews.com/article/1a4fa2e3812c458a25a561b38dc89f09",
-            "title": "AP reporting on Hormuz navigation talks",
-            "observedAt": "2026-08-25T20:02:13Z"
-          }
-        ]
-      },
-      "title": "Hormuz shifts from pure disruption toward contested reopening",
-      "summary": "Reported mine-clearing of the main shipping lane and renewed Iran-Oman corridor negotiations reduce immediate navigational risk, but transit remains politically and militarily conditional rather than normalized.",
-      "delta": "Supersede the binary open/closed model with a state transition: severe disruption -> partially demined / negotiated corridor -> contested reopening. Physical throughput and freight/insurance data must confirm the transition before confidence rises further.",
-      "firstOrderImpacts": [
-        "lower near-term oil risk premium",
-        "potential improvement in tanker throughput",
-        "possible easing in freight and insurance stress"
-      ],
-      "secondOrderImpacts": [
-        "reduced energy-inflation pressure if physical flows recover",
-        "lower tail-risk premium in rates and risk assets",
-        "greater value of real-time vessel-flow validation versus political statements"
-      ],
-      "alphaHunter": {
-        "hypothesis": "Independent physical-flow data will confirm or reject the claimed reopening faster and more reliably than official political statements or oil-price reaction alone.",
-        "baseline": "Official mine-clearing / corridor statements plus Brent price reaction",
-        "alternativeData": "Independent vessel counts/throughput, freight rates, war-risk insurance, and later refined-product delivery data",
-        "incrementalValueMetric": "Forecast error for 3-7 day confirmed throughput and freight/insurance normalization versus the baseline",
-        "killCondition": "Kill the added complexity if public/low-cost physical-flow data cannot beat the baseline on held-out outcomes or arrives too late to change a decision."
       }
     }
   ],
