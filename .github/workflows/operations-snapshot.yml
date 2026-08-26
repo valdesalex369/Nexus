@@ -15,6 +15,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: operations-snapshot-nova-hackathon-convergence-v0
+  cancel-in-progress: true
+
 jobs:
   compile-and-verify:
     runs-on: ubuntu-latest
@@ -46,13 +50,53 @@ jobs:
       - name: Commit regenerated snapshot when state changed
         shell: bash
         run: |
-          if git diff --quiet -- data/operations/current.json; then
-            echo 'Operations snapshot already current.'
+          branch='nova/hackathon-convergence-v0'
+
+          sync_latest_and_recompile() {
+            git fetch origin "$branch"
+            local remote_sha
+            remote_sha="$(git rev-parse "origin/$branch")"
+            local head_sha
+            head_sha="$(git rev-parse HEAD)"
+            if [ "$remote_sha" != "$head_sha" ]; then
+              echo "Branch advanced during verification; recomputing from latest remote state."
+              git reset --hard "origin/$branch"
+              npm ci
+              npm run typecheck
+              npm test
+              npm run operations:compile
+            fi
+          }
+
+          commit_snapshot() {
+            if git diff --quiet -- data/operations/current.json; then
+              echo 'Operations snapshot already current.'
+              return 1
+            fi
+
+            git config user.name 'nexus-operations-bot'
+            git config user.email 'actions@users.noreply.github.com'
+            git add data/operations/current.json
+            git commit -m 'Refresh compiled Operations snapshot [skip ci]'
+          }
+
+          sync_latest_and_recompile
+          if ! commit_snapshot; then
             exit 0
           fi
 
-          git config user.name 'nexus-operations-bot'
-          git config user.email 'actions@users.noreply.github.com'
-          git add data/operations/current.json
-          git commit -m 'Refresh compiled Operations snapshot [skip ci]'
-          git push origin HEAD:nova/hackathon-convergence-v0
+          if git push origin HEAD:"$branch"; then
+            exit 0
+          fi
+
+          echo 'Push raced with a newer branch update; retrying once from authoritative remote state.'
+          git fetch origin "$branch"
+          git reset --hard "origin/$branch"
+          npm ci
+          npm run typecheck
+          npm test
+          npm run operations:compile
+          if ! commit_snapshot; then
+            exit 0
+          fi
+          git push origin HEAD:"$branch"
