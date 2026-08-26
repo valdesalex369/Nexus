@@ -1,7 +1,7 @@
 {
   "kind": "reality-delta",
   "id": "ui-20260826-hormuz-governance-claim-downgrade",
-  "observedAt": "2026-08-26T19:52:22Z",
+  "observedAt": "2026-08-26T15:54:03Z",
   "sourceUri": "https://www.reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/",
   "sourceType": "secondary",
   "entities": [
@@ -25,13 +25,13 @@
     {
       "uri": "https://www.reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/",
       "title": "Reuters: senior Iranian source says Hormuz agreement not finalized",
-      "observedAt": "2026-08-26T19:52:22Z",
+      "observedAt": "2026-08-26T15:54:03Z",
       "note": "Reuters reports a senior Iranian source saying no final Iran-Oman Hormuz agreement has been reached and that negotiations are continuing over the details."
     },
     {
       "uri": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
       "title": "Reuters/Kpler: physical Hormuz traffic remains depressed",
-      "observedAt": "2026-08-26T19:52:22Z",
+      "observedAt": "2026-08-26T15:54:03Z",
       "note": "Observed commodity-vessel traffic remains far below the recent average, so governance claims have not translated into operational normalization."
     }
   ],
@@ -39,7 +39,7 @@
     {
       "uri": "https://www.reuters.com/world/asia-pacific/iran-oman-reach-agreements-share-hormuz-revenues-revolutionary-guards-say-2026-08-26/",
       "title": "Reuters: IRGC spokesperson claims governance/revenue agreements were reached",
-      "observedAt": "2026-08-26T19:52:22Z",
+      "observedAt": "2026-08-26T15:54:03Z",
       "note": "The IRGC continues to say agreements were reached on shares of the Strait and revenues. The disagreement is intra-Iranian and unresolved; it should be preserved rather than averaged away."
     }
   ],
@@ -55,7 +55,7 @@
       {
         "uri": "https://www.reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/",
         "title": "Reuters report on unresolved Iran-Oman Hormuz negotiations",
-        "observedAt": "2026-08-26T19:52:22Z"
+        "observedAt": "2026-08-26T15:54:03Z"
       }
     ]
   },
