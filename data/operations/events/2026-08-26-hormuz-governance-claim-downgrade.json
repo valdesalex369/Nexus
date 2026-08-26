@@ -1,0 +1,82 @@
+{
+  "kind": "reality-delta",
+  "id": "ui-20260826-hormuz-governance-claim-downgrade",
+  "observedAt": "2026-08-26T19:52:22Z",
+  "sourceUri": "https://www.reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/",
+  "sourceType": "secondary",
+  "entities": [
+    "Iran",
+    "Oman",
+    "Islamic Revolutionary Guard Corps",
+    "Strait of Hormuz",
+    "commercial shipping",
+    "oil markets",
+    "Nexus/STEM"
+  ],
+  "relations": [
+    {"from": "senior Iranian source", "relation": "says no final agreement has been reached on", "to": "Iran-Oman Hormuz governance/revenue terms", "confidence": 0.94},
+    {"from": "IRGC spokesperson", "relation": "continues to claim agreements were reached regarding", "to": "shares of Hormuz waters and revenues", "confidence": 0.9},
+    {"from": "Omani foreign minister", "relation": "publicly expresses hope for", "to": "temporary corridor and practical arrangements to restore safe navigation", "confidence": 0.9},
+    {"from": "new Reuters source conflict", "relation": "downgrades", "to": "CLAIMED_GOVERNANCE_AGREEMENT", "confidence": 0.97},
+    {"from": "Hormuz physical state", "relation": "remains", "to": "CONTESTED_REOPENING with shipping still constrained", "confidence": 0.95}
+  ],
+  "confidence": 0.94,
+  "supportingEvidence": [
+    {
+      "uri": "https://www.reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/",
+      "title": "Reuters: senior Iranian source says Hormuz agreement not finalized",
+      "observedAt": "2026-08-26T19:52:22Z",
+      "note": "Reuters reports a senior Iranian source saying no final Iran-Oman Hormuz agreement has been reached and that negotiations are continuing over the details."
+    },
+    {
+      "uri": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
+      "title": "Reuters/Kpler: physical Hormuz traffic remains depressed",
+      "observedAt": "2026-08-26T19:52:22Z",
+      "note": "Observed commodity-vessel traffic remains far below the recent average, so governance claims have not translated into operational normalization."
+    }
+  ],
+  "contradictingEvidence": [
+    {
+      "uri": "https://www.reuters.com/world/asia-pacific/iran-oman-reach-agreements-share-hormuz-revenues-revolutionary-guards-say-2026-08-26/",
+      "title": "Reuters: IRGC spokesperson claims governance/revenue agreements were reached",
+      "observedAt": "2026-08-26T19:52:22Z",
+      "note": "The IRGC continues to say agreements were reached on shares of the Strait and revenues. The disagreement is intra-Iranian and unresolved; it should be preserved rather than averaged away."
+    }
+  ],
+  "falsifier": "Upgrade back toward PRIMARY_CONFIRMED only if Oman publishes an official confirmation of the governance/revenue terms or both governments release matching text. Keep downgraded if negotiations remain described as unfinished, terms differ materially across official sources, or physical implementation does not appear in passage rules, fees, permissions or traffic.",
+  "actionState": "DETECTED",
+  "ledgerRef": null,
+  "geo": {
+    "lat": 26.5667,
+    "lon": 56.25,
+    "label": "Strait of Hormuz",
+    "precision": "chokepoint",
+    "evidence": [
+      {
+        "uri": "https://www.reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/",
+        "title": "Reuters report on unresolved Iran-Oman Hormuz negotiations",
+        "observedAt": "2026-08-26T19:52:22Z"
+      }
+    ]
+  },
+  "title": "Senior Iranian source says Hormuz governance deal is not finalized",
+  "summary": "A senior Iranian source told Reuters that Iran and Oman are still negotiating the details of a Hormuz agreement, directly contradicting an IRGC spokesperson's earlier claim that governance and revenue-sharing agreements had already been reached. Shipping remains constrained, so the correct state is unresolved negotiations plus contested reopening, not a finalized governance accord.",
+  "delta": "Supersede the earlier CLAIMED_GOVERNANCE_AGREEMENT interpretation with DISPUTED_NEGOTIATION_STATE. Preserve both Iranian claims in the graph, downgrade confidence in finalized governance/revenue terms, and require Omani primary confirmation or observable implementation before upgrading again.",
+  "firstOrderImpacts": [
+    "reduce confidence in imminent implementation of new navigation fees, revenue-sharing or formal access rules",
+    "keep tanker, insurer and shipowner behavior anchored to physical-security and sanctions conditions rather than governance headlines",
+    "increase information value of official Omani confirmation and actual port/navigation notices"
+  ],
+  "secondOrderImpacts": [
+    "demonstrates that intra-state source disagreement can be more informative than cross-media repetition",
+    "strengthens Nexus temporal/supersession logic: authoritative-looking claims need versioned state and source lineage",
+    "reinforces the Alpha Hunter thesis that political narrative should be graded against operational telemetry"
+  ],
+  "alphaHunter": {
+    "hypothesis": "Source-conflict plus operational telemetry will classify Hormuz governance state earlier and more accurately than treating the first official-sounding statement as final truth.",
+    "baseline": "latest public political statement about an Iran-Oman Hormuz agreement",
+    "alternativeData": "source lineage by institution, Omani primary releases, vessel throughput, navigation notices, fees/tolls, permission changes, freight and war-risk insurance",
+    "incrementalValueMetric": "time-to-correct-state classification and false-finalization rate over the next 3-7 days",
+    "killCondition": "Kill the extra source-conflict layer if it does not reduce false state transitions or improve timing versus simply waiting for joint official confirmation."
+  }
+}
