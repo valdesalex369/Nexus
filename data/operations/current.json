@@ -1,6 +1,100 @@
 {
-  "generatedAt": "2026-08-26T21:10:03.391Z",
+  "generatedAt": "2026-08-26T22:13:11.288Z",
   "realityDelta": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260826-aws-nvidia-2m-gpu-federal-ai-factories",
+      "observedAt": "2026-08-26T21:05:00Z",
+      "sourceUri": "https://press.aboutamazon.com/aws/2026/8/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai",
+      "sourceType": "primary",
+      "entities": [
+        "Amazon Web Services",
+        "NVIDIA",
+        "U.S. Government",
+        "frontier AI labs",
+        "federal national-security workloads",
+        "Vera Rubin",
+        "Blackwell Ultra",
+        "Nexus/STEM"
+      ],
+      "relations": [
+        {
+          "from": "AWS",
+          "relation": "plans to deploy",
+          "to": "2 million additional NVIDIA GPUs in 2027-2028",
+          "confidence": 0.99
+        },
+        {
+          "from": "AWS and NVIDIA",
+          "relation": "plan to build",
+          "to": "U.S. Government AI factories with 100,000 GPUs on secure AWS infrastructure",
+          "confidence": 0.99
+        },
+        {
+          "from": "federal AI demand",
+          "relation": "drives",
+          "to": "classified/high-assurance hyperscale AI infrastructure",
+          "confidence": 0.93
+        },
+        {
+          "from": "announced GPU capacity",
+          "relation": "does not by itself prove",
+          "to": "future utilization or return on invested capital",
+          "confidence": 0.96
+        },
+        {
+          "from": "AWS custom silicon plus NVIDIA platform",
+          "relation": "demonstrates",
+          "to": "heterogeneous workload routing and coexisting accelerator stacks",
+          "confidence": 0.92
+        }
+      ],
+      "confidence": 0.97,
+      "supportingEvidence": [
+        {
+          "uri": "https://press.aboutamazon.com/aws/2026/8/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai",
+          "title": "AWS and NVIDIA announce 2 million additional GPUs and federal AI factories",
+          "observedAt": "2026-08-26T21:05:00Z",
+          "note": "Primary AWS/NVIDIA announcement states that AWS plans to deploy 2 million additional NVIDIA Blackwell Ultra, Rubin and Rubin Ultra GPUs in 2027-2028 and build U.S. Government AI factories including 100,000 GPUs on secure AWS infrastructure for federal and national-security workloads."
+        },
+        {
+          "uri": "https://www.reuters.com/business/media-telecom/nvidia-forecasts-quarterly-revenue-above-estimates-2026-08-26/",
+          "title": "Reuters independently reports AWS expansion and NVIDIA demand outlook",
+          "observedAt": "2026-08-26T21:35:00Z",
+          "note": "Reuters independently reports the 2 million-GPU AWS expansion while covering NVIDIA's Q2 results and continued scrutiny of AI infrastructure financing and demand quality."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx",
+          "title": "NVIDIA is simultaneously mobilizing large third-party infrastructure financing",
+          "observedAt": "2026-08-26T21:40:00Z",
+          "note": "The scale of vendor-linked and third-party financing means announced capacity should not be treated as pure evidence of independently financed end demand. Utilization and customer economics remain necessary outcome measures."
+        },
+        {
+          "uri": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx",
+          "title": "NVIDIA also provides credit support for physical AI infrastructure",
+          "observedAt": "2026-08-26T21:40:00Z",
+          "note": "NVIDIA's credit support for PORTS-Pike reinforces that physical AI capacity depends on financing and infrastructure rights as well as customer demand; planned GPU counts are not equivalent to economically productive deployed compute."
+        }
+      ],
+      "falsifier": "Downgrade the strategic-demand thesis if AWS materially reduces or delays the 2 million-GPU deployment or federal 100,000-GPU build, if disclosed utilization remains weak after deployment, or if customer monetization and workload growth fail to justify the capacity. Downgrade the government-AI implication if the federal build remains a one-off announcement without actual secure workload adoption.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "title": "AWS and NVIDIA turn AI demand into a 2M-GPU buildout, including 100K-GPU U.S. Government AI factories",
+      "summary": "AWS and NVIDIA announced plans to deploy 2 million additional NVIDIA GPUs across AWS in 2027-2028 and to build U.S. Government AI factories including 100,000 GPUs on secure AWS infrastructure. This strongly upgrades the scale of planned agentic/physical-AI and government compute capacity, while leaving utilization, financing quality and realized economic return unresolved.",
+      "delta": "Upgrade the world model from generic hyperscaler AI-capex growth to explicit multi-year capacity commitments and secure federal AI-factory buildout. Keep 'announced capacity' separate from 'utilized productive capacity': the 2 million and 100,000 GPU figures are planned deployments, not realized economic output. For Nexus, government AI infrastructure is becoming a physical compute-and-security layer, while workload routing spans both NVIDIA accelerators and AWS custom silicon rather than converging on a single hardware stack.",
+      "firstOrderImpacts": [
+        "stronger forward demand signal for GPUs, networking, memory, power, data centers and secure cloud infrastructure",
+        "material expansion of federal/national-security AI compute capacity on commercial hyperscale infrastructure",
+        "greater pressure on power, memory, networking and physical data-center supply chains through 2027-2028"
+      ],
+      "secondOrderImpacts": [
+        "government AI procurement increasingly includes infrastructure capacity, security classification and deployment rights rather than only model/software contracts",
+        "AI-demand analysis should separate announced capacity, financed capacity, deployed capacity, utilization and realized customer economics",
+        "Nexus model/compute routing should remain provider- and hardware-aware because hyperscalers are combining NVIDIA platforms with their own custom silicon rather than choosing a single compute substrate"
+      ]
+    },
     {
       "kind": "reality-delta",
       "id": "ui-20260826-nvidia-q2-fy27-demand-quality-resolution",
