@@ -1,6 +1,112 @@
 {
-  "generatedAt": "2026-08-27T18:12:11.521Z",
+  "generatedAt": "2026-08-27T20:00:25.658Z",
   "realityDelta": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260827-anthropic-nscale-45b-compute-lease-reported",
+      "observedAt": "2026-08-27T19:58:00Z",
+      "sourceUri": "https://www.reuters.com/technology/anthropic-pay-nscale-45-billion-rent-ai-computing-power-bloomberg-news-reports-2026-08-26/",
+      "sourceType": "secondary",
+      "entities": [
+        "Anthropic",
+        "Nscale",
+        "Monarch Compute Campus",
+        "NVIDIA Vera Rubin",
+        "West Virginia",
+        "AI infrastructure financing",
+        "Nexus/STEM"
+      ],
+      "relations": [
+        {
+          "from": "Anthropic",
+          "relation": "is reported to commit about $45 billion over six years to rent compute from",
+          "to": "Nscale",
+          "confidence": 0.88
+        },
+        {
+          "from": "reported Anthropic lease",
+          "relation": "would represent about 460 MW of capacity at",
+          "to": "Monarch Compute Campus",
+          "confidence": 0.86
+        },
+        {
+          "from": "Nscale",
+          "relation": "plans to deploy",
+          "to": "NVIDIA Vera Rubin infrastructure",
+          "confidence": 0.95
+        },
+        {
+          "from": "large multi-year compute commitments",
+          "relation": "increase the importance of separating",
+          "to": "contracted capacity from deployed, utilized and economically productive capacity",
+          "confidence": 0.96
+        }
+      ],
+      "confidence": 0.88,
+      "supportingEvidence": [
+        {
+          "uri": "https://www.reuters.com/technology/anthropic-pay-nscale-45-billion-rent-ai-computing-power-bloomberg-news-reports-2026-08-26/",
+          "title": "Reuters: Anthropic to rent AI computing power from Nscale for $45 billion, source says",
+          "observedAt": "2026-08-27T19:58:00Z",
+          "note": "Reuters reports, citing a person familiar with the matter, that Anthropic will spend about $45 billion over six years for roughly 460 MW of Nscale capacity in West Virginia using NVIDIA Vera Rubin systems. Anthropic declined to comment."
+        },
+        {
+          "uri": "https://www.ft.com/content/0ec76ba3-5f7f-4085-88fb-acf21954bc85",
+          "title": "Financial Times: Anthropic agrees $45bn AI data centre deal with Nscale",
+          "observedAt": "2026-08-27T19:58:00Z",
+          "note": "FT independently reports a six-year, roughly $45 billion agreement tied to about 460 MW at Nscale's West Virginia campus."
+        },
+        {
+          "uri": "https://www.nscale.com/press-releases/nscale-west-virginia-ai-factory",
+          "title": "Nscale primary source: Monarch West Virginia campus and Vera Rubin deployment plan",
+          "observedAt": "2026-08-27T19:58:00Z",
+          "note": "Nscale confirms the Monarch campus, its planned 1.35 GW Phase 1 scale and Vera Rubin deployment architecture, independently validating that the physical site and technology stack described in the reports are real."
+        },
+        {
+          "uri": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure",
+          "title": "Anthropic primary source: $50 billion U.S. AI infrastructure investment program",
+          "observedAt": "2026-08-27T19:58:00Z",
+          "note": "Anthropic previously announced a separate $50 billion U.S. data-center investment program, supporting the broader thesis that it is aggressively securing domestic compute, but this is not confirmation of the Nscale contract."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://www.reuters.com/technology/anthropic-pay-nscale-45-billion-rent-ai-computing-power-bloomberg-news-reports-2026-08-26/",
+          "title": "Reuters: Anthropic declined to comment on the reported deal",
+          "observedAt": "2026-08-27T19:58:00Z",
+          "note": "No Anthropic or Nscale primary announcement found in this cycle confirms the reported $45 billion commitment, its exact commercial structure, milestone protections or final enforceability."
+        },
+        {
+          "uri": "https://www.nscale.com/press-releases/nscale-west-virginia-ai-factory",
+          "title": "Nscale primary source: Monarch already has a separate Microsoft framework",
+          "observedAt": "2026-08-27T19:58:00Z",
+          "note": "Nscale's published Monarch plans include a separate Microsoft LOI and staged buildout beginning in late 2027, so reported future capacity should not be assumed to be immediately delivered or fully utilized."
+        }
+      ],
+      "falsifier": "Downgrade or remove the reported-commitment thesis if Anthropic or Nscale denies the deal, later primary disclosures materially change the value/capacity/term, or the Monarch capacity is delayed/cancelled. Downgrade the productive-demand interpretation if deployed capacity materially exceeds utilization or Anthropic's realized product economics fail to justify the commitment.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "title": "Reported $45B Anthropic-Nscale lease pushes frontier AI toward utility-scale compute commitments",
+      "summary": "Reuters and FT report that Anthropic is committing roughly $45 billion over six years for about 460 MW of Nscale compute in West Virginia using NVIDIA Vera Rubin systems. The physical Nscale campus is primary-confirmed, but the Anthropic contract itself remains unconfirmed by either company, so Nexus should treat this as REPORTED_COMMITMENT rather than CONFIRMED_CONTRACT.",
+      "delta": "Upgrade multi-year frontier-model compute demand and capital intensity, while preserving the source-state distinction: reported commercial commitment is not the same as primary-confirmed contract. For AI-demand-quality analysis, separate contracted capacity, financed capacity, deployed capacity, utilized capacity and productive capacity.",
+      "firstOrderImpacts": [
+        "stronger forward demand signal for Vera Rubin systems, networking, power and data-center construction if the commitment is confirmed",
+        "greater concentration of frontier-model economics in long-duration infrastructure commitments",
+        "higher sensitivity of model-company economics to power, utilization, financing terms and infrastructure delivery risk"
+      ],
+      "secondOrderImpacts": [
+        "AI infrastructure increasingly resembles utility-scale project finance rather than ordinary software hosting",
+        "Nexus should track compute commitments as staged state transitions instead of treating announced spend as productive capacity",
+        "power-site provenance and project delivery may become as important as model benchmark performance for forecasting frontier-AI economics"
+      ],
+      "alphaHunter": {
+        "hypothesis": "Tracking the transition from reported/contracted AI compute commitments to delivered and utilized capacity predicts infrastructure winners and demand durability better than headline capex announcements alone.",
+        "baseline": "reported AI capex and compute-contract headline value",
+        "alternativeData": "site energization milestones, GPU delivery timing, power capacity, utilization proxies, model/API revenue growth, financing structure and project delays",
+        "incrementalValueMetric": "6-18 month forecast accuracy for delivered compute, utilization, revenue productivity and supplier demand versus headline-capex baseline",
+        "killCondition": "Kill the added infrastructure-state layer if it fails to improve held-out forecasts of delivered/utilized capacity or if the data arrives too late to change decisions."
+      }
+    },
     {
       "kind": "reality-delta",
       "id": "ui-20260827-qatar-mediation-direct-talks-divergence",
@@ -901,108 +1007,6 @@
         "Nexus should bind actor identity, delegated capability and countersignature evidence separately from free-form message content",
         "the Agent Flight Recorder should record which authenticated principal authorized every privilege transition, not merely which message preceded it",
         "a differentiated agent-trust product may need to detect authority contamination: one agent persuading another that a peer message constitutes permission"
-      ]
-    },
-    {
-      "kind": "reality-delta",
-      "id": "ui-20260826-meta-teen-safety-settlement-regulatory-contagion",
-      "observedAt": "2026-08-26T22:56:00Z",
-      "sourceUri": "https://investor.atmeta.com/investor-news/press-release-details/2026/Metas-Agreement-With-Bipartisan-Attorneys-General-Calling-on-TikTok-and-YouTube-to-Join-Us-in-Supporting-Teens/default.aspx",
-      "sourceType": "primary",
-      "entities": [
-        "Meta Platforms",
-        "Instagram",
-        "Facebook",
-        "47 U.S. states",
-        "District of Columbia",
-        "TikTok",
-        "YouTube",
-        "state attorneys general",
-        "teen users",
-        "Nexus/STEM"
-      ],
-      "relations": [
-        {
-          "from": "Meta",
-          "relation": "agrees to implement",
-          "to": "default teen usage and age-assurance protections on Instagram and Facebook",
-          "confidence": 0.99
-        },
-        {
-          "from": "Meta settlement",
-          "relation": "creates conditional financial incentive for",
-          "to": "TikTok and YouTube to adopt comparable teen safeguards",
-          "confidence": 0.98
-        },
-        {
-          "from": "multistate litigation",
-          "relation": "converts",
-          "to": "youth-safety claims into product-design constraints",
-          "confidence": 0.96
-        },
-        {
-          "from": "platform regulation",
-          "relation": "may shift",
-          "to": "from disclosure/content moderation toward default product-behavior rules",
-          "confidence": 0.86
-        },
-        {
-          "from": "reported settlement amount",
-          "relation": "differs across primary sources",
-          "to": "approximately $18B in Meta materials vs $17.1B in state AG materials",
-          "confidence": 0.99
-        }
-      ],
-      "confidence": 0.96,
-      "supportingEvidence": [
-        {
-          "uri": "https://investor.atmeta.com/investor-news/press-release-details/2026/Metas-Agreement-With-Bipartisan-Attorneys-General-Calling-on-TikTok-and-YouTube-to-Join-Us-in-Supporting-Teens/default.aspx",
-          "title": "Meta agreement with bipartisan attorneys general",
-          "observedAt": "2026-08-26T22:56:00Z",
-          "note": "Meta says the agreement includes approximately $18 billion over ten years, with roughly $12.7 billion allocated to participating states and about $5.3 billion contingent on YouTube and TikTok adopting specified teen protections and matching payments. Meta expects roughly $10 billion of Q3 2026 legal expense while otherwise maintaining prior guidance."
-        },
-        {
-          "uri": "https://law.georgia.gov/press-releases/2026-08-26/carr-announces-largest-big-tech-settlement-history",
-          "title": "Georgia Attorney General announces multistate Meta settlement",
-          "observedAt": "2026-08-26T22:56:00Z",
-          "note": "A participating state attorney general describes a $17.1 billion multistate settlement covering 47 states, D.C. and territories and requiring broad child-safety reforms on Instagram and Facebook."
-        },
-        {
-          "uri": "https://www.reuters.com/business/meta-reaches-18-billion-settlements-over-childrens-social-media-addiction-2026-08-26/",
-          "title": "Reuters independently reports Meta teen-safety settlement",
-          "observedAt": "2026-08-26T22:56:00Z",
-          "note": "Reuters independently reports the settlement, payment structure and new teen product restrictions, while noting remaining litigation and that Meta does not admit wrongdoing."
-        }
-      ],
-      "contradictingEvidence": [
-        {
-          "uri": "https://law.georgia.gov/press-releases/2026-08-26/carr-announces-largest-big-tech-settlement-history",
-          "title": "Primary sources disagree on the headline settlement amount",
-          "observedAt": "2026-08-26T22:56:00Z",
-          "note": "State AG materials describe $17.1 billion while Meta describes approximately $18 billion with a conditional component. Nexus should preserve the discrepancy instead of choosing one headline number without reconciling definitions."
-        },
-        {
-          "uri": "https://www.reuters.com/business/meta-reaches-18-billion-settlements-over-childrens-social-media-addiction-2026-08-26/",
-          "title": "The agreement does not end all Meta youth-safety litigation",
-          "observedAt": "2026-08-26T22:56:00Z",
-          "note": "Reuters reports that some states, including Florida and New Mexico, continue separate litigation. Court approval and implementation still matter, so the settlement should not be modeled as final nationwide resolution of all youth-safety liability."
-        }
-      ],
-      "falsifier": "Downgrade the regulatory-contagion thesis if the court materially rejects or narrows the settlement, if the required teen safeguards are not implemented or have little operational effect, or if TikTok/YouTube and other large platforms do not adopt comparable default protections despite the conditional financial incentive and litigation pressure.",
-      "actionState": "DETECTED",
-      "ledgerRef": null,
-      "title": "Meta settlement turns teen-safety litigation into default product constraints and a cross-platform adoption incentive",
-      "summary": "Meta reached a major multistate settlement requiring substantial teen-safety product changes on Instagram and Facebook. Meta says roughly 30% of its approximately $18 billion payment is conditional on YouTube and TikTok adopting comparable protections and matching payments, creating an unusual mechanism for regulatory/product-design contagion across competing platforms. State AG materials describe the headline settlement as $17.1 billion, so the amount remains source-definition-sensitive rather than a single uncontested number.",
-      "delta": "Upgrade the social-platform world model from 'youth-safety risk = litigation/content-policy issue' to 'youth-safety risk = enforceable product-design and age-assurance constraint with cross-platform contagion incentives.' Preserve the source discrepancy around $17.1B versus approximately $18B. For Nexus, this is a clean case where legal action changes platform defaults and can later be outcome-graded through implemented product restrictions, teen engagement changes, and competitor adoption.",
-      "firstOrderImpacts": [
-        "Instagram and Facebook face direct changes to teen usage limits, night-mode restrictions, age assurance and related product defaults",
-        "Meta records a material Q3 2026 legal expense while maintaining prior broader guidance",
-        "TikTok and YouTube face stronger economic and litigation incentives to adopt comparable teen safeguards"
-      ],
-      "secondOrderImpacts": [
-        "U.S. social-platform regulation may increasingly target product architecture and default behavior rather than relying only on disclosure or content-moderation rules",
-        "age assurance becomes a more strategic infrastructure layer across social platforms and potentially agent-facing consumer services",
-        "Opportunity Radar can use litigation settlements as policy-to-product state transitions that are objectively observable and later calibratable"
       ]
     }
   ],
