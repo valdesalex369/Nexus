@@ -1,6 +1,124 @@
 {
-  "generatedAt": "2026-08-27T04:11:47.658Z",
+  "generatedAt": "2026-08-27T06:55:30.799Z",
   "realityDelta": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260827-hormuz-traffic-recovery-momentum",
+      "observedAt": "2026-08-27T06:53:00Z",
+      "sourceUri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+      "sourceType": "secondary",
+      "entities": [
+        "Strait of Hormuz",
+        "Iran",
+        "Oman",
+        "commercial shipping",
+        "Kpler",
+        "International Maritime Organization"
+      ],
+      "relations": [
+        {
+          "from": "Kpler-tracked commodity-vessel traffic",
+          "relation": "rose on Wednesday to",
+          "to": "10 Hormuz transits versus 8 Tuesday",
+          "confidence": 0.96
+        },
+        {
+          "from": "Wednesday Hormuz commodity-vessel traffic",
+          "relation": "remains below",
+          "to": "recent 10-day moving average of about 15",
+          "confidence": 0.96
+        },
+        {
+          "from": "short-term vessel momentum",
+          "relation": "suggests",
+          "to": "directional recovery without normalization",
+          "confidence": 0.87
+        },
+        {
+          "from": "Iran-Oman negotiations",
+          "relation": "continue around",
+          "to": "navigation management and revenue details",
+          "confidence": 0.9
+        },
+        {
+          "from": "AIS-based commercial tracking",
+          "relation": "can undercount",
+          "to": "dark vessels with transponders disabled",
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9,
+      "supportingEvidence": [
+        {
+          "uri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+          "title": "Reuters: Shipping traffic through Strait of Hormuz rises slightly",
+          "observedAt": "2026-08-27T06:53:00Z",
+          "note": "Reuters reports Kpler tracked 10 commodity-vessel transits Wednesday, up from eight Tuesday, still below the roughly 15-vessel 10-day average."
+        },
+        {
+          "uri": "https://www.fm.gov.om/en/49077/",
+          "title": "Oman: temporary maritime corridor coordinated with IMO",
+          "observedAt": "2026-08-27T06:53:00Z",
+          "note": "Primary Omani material confirms a real navigation-restoration mechanism exists and emphasizes freedom of navigation without transit fees."
+        },
+        {
+          "uri": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+          "title": "IMO: confirmed Middle East maritime incidents",
+          "observedAt": "2026-08-27T06:53:00Z",
+          "note": "IMO continues to list recent vessel damage in and near Hormuz, showing physical-security risk has not disappeared merely because traffic is rising."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+          "title": "Reuters/Kpler: traffic remains below recent average and AIS coverage is incomplete",
+          "observedAt": "2026-08-27T06:53:00Z",
+          "note": "The same report says traffic remains below the recent moving average and acknowledges that transponder-off vessels can be missed."
+        },
+        {
+          "uri": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+          "title": "IMO: recent confirmed vessel damage remains part of the operating environment",
+          "observedAt": "2026-08-27T06:53:00Z",
+          "note": "Recent confirmed maritime incidents mean a higher vessel count is not equivalent to restored physical security."
+        }
+      ],
+      "falsifier": "Upgrade toward NORMALIZING only if several consecutive days of independent vessel and oil-flow data move materially toward pre-war baselines while maritime incidents, tanker freight and war-risk insurance also normalize. Downgrade the recovery-momentum thesis if traffic falls back toward crisis lows or renewed attacks reverse the increase.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "geo": {
+        "lat": 26.5667,
+        "lon": 56.25,
+        "label": "Strait of Hormuz",
+        "precision": "chokepoint",
+        "evidence": [
+          {
+            "uri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+            "title": "Reuters/Kpler Hormuz traffic update",
+            "observedAt": "2026-08-27T06:53:00Z"
+          }
+        ]
+      },
+      "title": "Hormuz traffic shows recovery momentum but remains below recent norms",
+      "summary": "Kpler-tracked commodity-vessel traffic through Hormuz rose to 10 transits Wednesday from eight Tuesday, but remains below the roughly 15-vessel recent moving average. The data justify a momentum upgrade, not a normalization call, because AIS coverage is incomplete and physical-security risk remains present.",
+      "delta": "Supersede the static severe-impairment interpretation with a two-speed state: short-term traffic momentum is improving, while absolute normalization remains unproven. Keep the pre-war physical baseline as the main normalization yardstick and the recent moving average as a momentum indicator only.",
+      "firstOrderImpacts": [
+        "incrementally higher probability of near-term shipping recovery",
+        "continued downward pressure on geopolitical crude risk premium if traffic keeps improving",
+        "continued caution for tanker operators and insurers while security risk remains unresolved"
+      ],
+      "secondOrderImpacts": [
+        "oil prices may normalize faster than freight, insurance and refined-product logistics",
+        "short-term momentum and absolute normalization should remain separate Orbital Insight variables",
+        "alternative-data value depends on whether vessel/security telemetry improves recovery classification beyond diplomatic headlines and oil prices"
+      ],
+      "alphaHunter": {
+        "hypothesis": "Combining pre-war absolute-flow baselines with daily vessel momentum and maritime-security telemetry will classify Hormuz recovery earlier and more accurately than diplomacy headlines or Brent/WTI alone.",
+        "baseline": "diplomatic reopening headlines and crude-price reaction",
+        "alternativeData": "daily Kpler/IMO/PortWatch-compatible vessel activity, absolute oil-flow estimates, maritime incidents, tanker freight, war-risk insurance and refined-product deliveries",
+        "incrementalValueMetric": "3-7 day classification accuracy for SEVERE_IMPAIRMENT / CONTESTED_REOPENING / NORMALIZING and lead time versus the public-headline baseline",
+        "killCondition": "Kill the added telemetry layer if it does not improve held-out recovery classification or arrives too late to change a decision."
+      }
+    },
     {
       "kind": "reality-delta",
       "id": "ui-20260827-qatar-mediation-hormuz-prewar-baseline",
@@ -911,99 +1029,6 @@
         "incrementalValueMetric": "time-to-correct-classification of CLAIMED_AGREEMENT versus IMPLEMENTED_GOVERNANCE, plus 3-7 day forecast error for physical-flow normalization",
         "killCondition": "Kill the governance-implementation layer if no public/low-cost operational telemetry can distinguish rhetoric from implementation earlier or more accurately than official statements plus vessel counts."
       }
-    },
-    {
-      "kind": "reality-delta",
-      "id": "ui-20260826-webmcp-agent-native-web",
-      "observedAt": "2026-08-26T11:05:45Z",
-      "sourceUri": "https://openai.com/webmcp-challenge/",
-      "sourceType": "primary",
-      "entities": [
-        "OpenAI",
-        "Google Chrome",
-        "Cloudflare",
-        "WebMCP",
-        "browser agents",
-        "web applications",
-        "Nexus/STEM"
-      ],
-      "relations": [
-        {
-          "from": "web applications",
-          "relation": "can expose structured browser-agent tools through",
-          "to": "WebMCP",
-          "confidence": 0.99
-        },
-        {
-          "from": "WebMCP",
-          "relation": "reduces dependence on",
-          "to": "DOM/screenshot-based agent actuation",
-          "confidence": 0.94
-        },
-        {
-          "from": "OpenAI + Chrome + Cloudflare",
-          "relation": "are independently supporting or implementing",
-          "to": "WebMCP-style agent-native web interfaces",
-          "confidence": 0.96
-        },
-        {
-          "from": "structured site tools",
-          "relation": "increase the importance of",
-          "to": "tool provenance, permission scope, trust policy and evaluation",
-          "confidence": 0.9
-        }
-      ],
-      "confidence": 0.96,
-      "supportingEvidence": [
-        {
-          "uri": "https://openai.com/webmcp-challenge/",
-          "title": "OpenAI: The WebMCP Challenge",
-          "observedAt": "2026-08-26T11:05:45Z",
-          "note": "OpenAI describes WebMCP as an experimental open standard that lets websites expose structured tools directly to agents rather than forcing agents to infer actions from human-oriented UI."
-        },
-        {
-          "uri": "https://developer.chrome.com/docs/ai/webmcp",
-          "title": "Chrome for Developers: WebMCP",
-          "observedAt": "2026-08-26T11:05:45Z",
-          "note": "Chrome documents WebMCP as a proposed web standard for structured agent actuation and says the declared-tool approach can improve reliability versus simulated UI interaction."
-        },
-        {
-          "uri": "https://blog.cloudflare.com/webmcp/",
-          "title": "Cloudflare: Give any website a WebMCP interface",
-          "observedAt": "2026-08-26T11:05:45Z",
-          "note": "Cloudflare independently ships a developer preview that can expose website capabilities to browser agents without origin changes, providing a separate implementation signal beyond OpenAI."
-        }
-      ],
-      "contradictingEvidence": [
-        {
-          "uri": "https://developer.chrome.com/docs/agents/security",
-          "title": "Chrome: Agent security considerations for WebMCP",
-          "observedAt": "2026-08-26T11:05:45Z",
-          "note": "Chrome warns that malicious manifests and contaminated tool outputs remain prompt-injection and privilege-boundary risks. Structured tools improve actuation reliability but do not make tools trustworthy."
-        },
-        {
-          "uri": "https://developer.chrome.com/docs/ai/webmcp",
-          "title": "Chrome: WebMCP remains experimental",
-          "observedAt": "2026-08-26T11:05:45Z",
-          "note": "WebMCP is still a proposed/experimental standard; adoption, browser support and final API semantics can change substantially."
-        }
-      ],
-      "falsifier": "Downgrade the agent-native-web thesis if WebMCP fails to gain meaningful cross-browser/site adoption, if structured tools do not materially improve task completion versus modern browser agents, or if security/permission complexity prevents production use outside controlled demos.",
-      "actionState": "DETECTED",
-      "ledgerRef": null,
-      "title": "WebMCP pushes the web toward explicit agent-native action contracts",
-      "summary": "OpenAI's new WebMCP challenge lands on top of existing Chrome and Cloudflare implementations, strengthening the case that websites will increasingly expose typed actions directly to agents instead of relying on brittle screenshot/DOM automation.",
-      "delta": "Upgrade agent-native web standards as an emerging interoperability layer. Downgrade browser automation itself as a durable Nexus moat. For Nexus, the higher-value layer becomes deciding which declared tool is trustworthy, permitted and outcome-worthy while preserving source and execution evidence.",
-      "firstOrderImpacts": [
-        "lower failure rates and latency for browser agents on sites that expose structured tools",
-        "new pressure on websites to publish machine-readable agent actions and permissions",
-        "less differentiation from generic browser clicking/scraping stacks"
-      ],
-      "secondOrderImpacts": [
-        "the web may evolve into a dual interface: human UI plus agent action contracts",
-        "Nexus can treat WebMCP/MCP/A2A as commodity interoperability while owning policy, provenance, contradiction handling and outcome calibration",
-        "source and tool authenticity become more important because malicious or compromised sites can expose structured but unsafe capabilities"
-      ]
     }
   ],
   "opportunityRadar": [
@@ -1085,6 +1110,124 @@
     }
   ],
   "orbitalInsight": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260827-hormuz-traffic-recovery-momentum",
+      "observedAt": "2026-08-27T06:53:00Z",
+      "sourceUri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+      "sourceType": "secondary",
+      "entities": [
+        "Strait of Hormuz",
+        "Iran",
+        "Oman",
+        "commercial shipping",
+        "Kpler",
+        "International Maritime Organization"
+      ],
+      "relations": [
+        {
+          "from": "Kpler-tracked commodity-vessel traffic",
+          "relation": "rose on Wednesday to",
+          "to": "10 Hormuz transits versus 8 Tuesday",
+          "confidence": 0.96
+        },
+        {
+          "from": "Wednesday Hormuz commodity-vessel traffic",
+          "relation": "remains below",
+          "to": "recent 10-day moving average of about 15",
+          "confidence": 0.96
+        },
+        {
+          "from": "short-term vessel momentum",
+          "relation": "suggests",
+          "to": "directional recovery without normalization",
+          "confidence": 0.87
+        },
+        {
+          "from": "Iran-Oman negotiations",
+          "relation": "continue around",
+          "to": "navigation management and revenue details",
+          "confidence": 0.9
+        },
+        {
+          "from": "AIS-based commercial tracking",
+          "relation": "can undercount",
+          "to": "dark vessels with transponders disabled",
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9,
+      "supportingEvidence": [
+        {
+          "uri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+          "title": "Reuters: Shipping traffic through Strait of Hormuz rises slightly",
+          "observedAt": "2026-08-27T06:53:00Z",
+          "note": "Reuters reports Kpler tracked 10 commodity-vessel transits Wednesday, up from eight Tuesday, still below the roughly 15-vessel 10-day average."
+        },
+        {
+          "uri": "https://www.fm.gov.om/en/49077/",
+          "title": "Oman: temporary maritime corridor coordinated with IMO",
+          "observedAt": "2026-08-27T06:53:00Z",
+          "note": "Primary Omani material confirms a real navigation-restoration mechanism exists and emphasizes freedom of navigation without transit fees."
+        },
+        {
+          "uri": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+          "title": "IMO: confirmed Middle East maritime incidents",
+          "observedAt": "2026-08-27T06:53:00Z",
+          "note": "IMO continues to list recent vessel damage in and near Hormuz, showing physical-security risk has not disappeared merely because traffic is rising."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+          "title": "Reuters/Kpler: traffic remains below recent average and AIS coverage is incomplete",
+          "observedAt": "2026-08-27T06:53:00Z",
+          "note": "The same report says traffic remains below the recent moving average and acknowledges that transponder-off vessels can be missed."
+        },
+        {
+          "uri": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+          "title": "IMO: recent confirmed vessel damage remains part of the operating environment",
+          "observedAt": "2026-08-27T06:53:00Z",
+          "note": "Recent confirmed maritime incidents mean a higher vessel count is not equivalent to restored physical security."
+        }
+      ],
+      "falsifier": "Upgrade toward NORMALIZING only if several consecutive days of independent vessel and oil-flow data move materially toward pre-war baselines while maritime incidents, tanker freight and war-risk insurance also normalize. Downgrade the recovery-momentum thesis if traffic falls back toward crisis lows or renewed attacks reverse the increase.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "geo": {
+        "lat": 26.5667,
+        "lon": 56.25,
+        "label": "Strait of Hormuz",
+        "precision": "chokepoint",
+        "evidence": [
+          {
+            "uri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+            "title": "Reuters/Kpler Hormuz traffic update",
+            "observedAt": "2026-08-27T06:53:00Z"
+          }
+        ]
+      },
+      "title": "Hormuz traffic shows recovery momentum but remains below recent norms",
+      "summary": "Kpler-tracked commodity-vessel traffic through Hormuz rose to 10 transits Wednesday from eight Tuesday, but remains below the roughly 15-vessel recent moving average. The data justify a momentum upgrade, not a normalization call, because AIS coverage is incomplete and physical-security risk remains present.",
+      "delta": "Supersede the static severe-impairment interpretation with a two-speed state: short-term traffic momentum is improving, while absolute normalization remains unproven. Keep the pre-war physical baseline as the main normalization yardstick and the recent moving average as a momentum indicator only.",
+      "firstOrderImpacts": [
+        "incrementally higher probability of near-term shipping recovery",
+        "continued downward pressure on geopolitical crude risk premium if traffic keeps improving",
+        "continued caution for tanker operators and insurers while security risk remains unresolved"
+      ],
+      "secondOrderImpacts": [
+        "oil prices may normalize faster than freight, insurance and refined-product logistics",
+        "short-term momentum and absolute normalization should remain separate Orbital Insight variables",
+        "alternative-data value depends on whether vessel/security telemetry improves recovery classification beyond diplomatic headlines and oil prices"
+      ],
+      "alphaHunter": {
+        "hypothesis": "Combining pre-war absolute-flow baselines with daily vessel momentum and maritime-security telemetry will classify Hormuz recovery earlier and more accurately than diplomacy headlines or Brent/WTI alone.",
+        "baseline": "diplomatic reopening headlines and crude-price reaction",
+        "alternativeData": "daily Kpler/IMO/PortWatch-compatible vessel activity, absolute oil-flow estimates, maritime incidents, tanker freight, war-risk insurance and refined-product deliveries",
+        "incrementalValueMetric": "3-7 day classification accuracy for SEVERE_IMPAIRMENT / CONTESTED_REOPENING / NORMALIZING and lead time versus the public-headline baseline",
+        "killCondition": "Kill the added telemetry layer if it does not improve held-out recovery classification or arrives too late to change a decision."
+      }
+    },
     {
       "kind": "reality-delta",
       "id": "ui-20260827-qatar-mediation-hormuz-prewar-baseline",
@@ -1812,6 +1955,119 @@
   "alphaHunter": [
     {
       "kind": "alternative-data-trial",
+      "id": "alpha-ui-20260827-hormuz-traffic-recovery-momentum",
+      "observedAt": "2026-08-27T06:53:00Z",
+      "sourceUri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+      "sourceType": "alternative-data",
+      "entities": [
+        "Strait of Hormuz",
+        "Iran",
+        "Oman",
+        "commercial shipping",
+        "Kpler",
+        "International Maritime Organization"
+      ],
+      "relations": [
+        {
+          "from": "Kpler-tracked commodity-vessel traffic",
+          "relation": "rose on Wednesday to",
+          "to": "10 Hormuz transits versus 8 Tuesday",
+          "confidence": 0.96
+        },
+        {
+          "from": "Wednesday Hormuz commodity-vessel traffic",
+          "relation": "remains below",
+          "to": "recent 10-day moving average of about 15",
+          "confidence": 0.96
+        },
+        {
+          "from": "short-term vessel momentum",
+          "relation": "suggests",
+          "to": "directional recovery without normalization",
+          "confidence": 0.87
+        },
+        {
+          "from": "Iran-Oman negotiations",
+          "relation": "continue around",
+          "to": "navigation management and revenue details",
+          "confidence": 0.9
+        },
+        {
+          "from": "AIS-based commercial tracking",
+          "relation": "can undercount",
+          "to": "dark vessels with transponders disabled",
+          "confidence": 0.95
+        }
+      ],
+      "confidence": 0.9,
+      "supportingEvidence": [
+        {
+          "uri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+          "title": "Reuters: Shipping traffic through Strait of Hormuz rises slightly",
+          "observedAt": "2026-08-27T06:53:00Z",
+          "note": "Reuters reports Kpler tracked 10 commodity-vessel transits Wednesday, up from eight Tuesday, still below the roughly 15-vessel 10-day average."
+        },
+        {
+          "uri": "https://www.fm.gov.om/en/49077/",
+          "title": "Oman: temporary maritime corridor coordinated with IMO",
+          "observedAt": "2026-08-27T06:53:00Z",
+          "note": "Primary Omani material confirms a real navigation-restoration mechanism exists and emphasizes freedom of navigation without transit fees."
+        },
+        {
+          "uri": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+          "title": "IMO: confirmed Middle East maritime incidents",
+          "observedAt": "2026-08-27T06:53:00Z",
+          "note": "IMO continues to list recent vessel damage in and near Hormuz, showing physical-security risk has not disappeared merely because traffic is rising."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+          "title": "Reuters/Kpler: traffic remains below recent average and AIS coverage is incomplete",
+          "observedAt": "2026-08-27T06:53:00Z",
+          "note": "The same report says traffic remains below the recent moving average and acknowledges that transponder-off vessels can be missed."
+        },
+        {
+          "uri": "https://www.imo.org/en/mediacentre/hottopics/pages/middle-east-highlighted-incidents.aspx",
+          "title": "IMO: recent confirmed vessel damage remains part of the operating environment",
+          "observedAt": "2026-08-27T06:53:00Z",
+          "note": "Recent confirmed maritime incidents mean a higher vessel count is not equivalent to restored physical security."
+        }
+      ],
+      "falsifier": "Upgrade toward NORMALIZING only if several consecutive days of independent vessel and oil-flow data move materially toward pre-war baselines while maritime incidents, tanker freight and war-risk insurance also normalize. Downgrade the recovery-momentum thesis if traffic falls back toward crisis lows or renewed attacks reverse the increase.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "geo": {
+        "lat": 26.5667,
+        "lon": 56.25,
+        "label": "Strait of Hormuz",
+        "precision": "chokepoint",
+        "evidence": [
+          {
+            "uri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+            "title": "Reuters/Kpler Hormuz traffic update",
+            "observedAt": "2026-08-27T06:53:00Z"
+          }
+        ]
+      },
+      "hypothesis": "Combining pre-war absolute-flow baselines with daily vessel momentum and maritime-security telemetry will classify Hormuz recovery earlier and more accurately than diplomacy headlines or Brent/WTI alone.",
+      "baselineSource": {
+        "uri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+        "title": "diplomatic reopening headlines and crude-price reaction",
+        "observedAt": "2026-08-27T06:53:00Z",
+        "note": "Baseline description from the source-backed event fixture."
+      },
+      "alternativeDataSource": {
+        "uri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+        "title": "daily Kpler/IMO/PortWatch-compatible vessel activity, absolute oil-flow estimates, maritime incidents, tanker freight, war-risk insurance and refined-product deliveries",
+        "observedAt": "2026-08-27T06:53:00Z",
+        "note": "Candidate alternative-data layer. DETECTED only until direct data access and held-out evaluation exist."
+      },
+      "incrementalValueMetric": "3-7 day classification accuracy for SEVERE_IMPAIRMENT / CONTESTED_REOPENING / NORMALIZING and lead time versus the public-headline baseline",
+      "killCondition": "Kill the added telemetry layer if it does not improve held-out recovery classification or arrives too late to change a decision."
+    },
+    {
+      "kind": "alternative-data-trial",
       "id": "alpha-ui-20260827-qatar-mediation-hormuz-prewar-baseline",
       "observedAt": "2026-08-27T04:09:00Z",
       "sourceUri": "https://www.reuters.com/world/middle-east/qatar-pm-visit-tehran-pursue-mediation-efforts-2026-08-26/",
@@ -2243,132 +2499,6 @@
       },
       "incrementalValueMetric": "3-7 day difference in charter activity, route changes and risk-premium movement for listed/adjacent vessels versus a matched unlisted cohort, plus forecast error relative to the aggregate baseline",
       "killCondition": "Kill the graph-expansion hypothesis if blacklist adjacency fails to produce measurable out-of-sample differences in chartering, routing, freight or insurance after controlling for vessel class and Gulf exposure."
-    },
-    {
-      "kind": "alternative-data-trial",
-      "id": "alpha-ui-20260826-hormuz-reopening-risk-divergence",
-      "observedAt": "2026-08-26T05:55:00Z",
-      "sourceUri": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
-      "sourceType": "alternative-data",
-      "entities": [
-        "Strait of Hormuz",
-        "Iran",
-        "Oman",
-        "commercial tankers",
-        "Kpler",
-        "oil markets",
-        "regional diplomatic missions"
-      ],
-      "relations": [
-        {
-          "from": "Iran",
-          "relation": "resumes temporary navigation-corridor talks with",
-          "to": "Oman",
-          "confidence": 0.91
-        },
-        {
-          "from": "reopening optimism",
-          "relation": "reduces near-term risk premium in",
-          "to": "oil markets",
-          "confidence": 0.9
-        },
-        {
-          "from": "fresh tanker attack",
-          "relation": "contradicts physical normalization of",
-          "to": "Strait of Hormuz",
-          "confidence": 0.88
-        },
-        {
-          "from": "Kpler preliminary tracking",
-          "relation": "observes 5 commodity-vessel transits on Aug. 25 versus a 10-day average of 15 through",
-          "to": "Strait of Hormuz",
-          "confidence": 0.9
-        },
-        {
-          "from": "United States",
-          "relation": "begins restaffing some regional diplomatic missions, implying lower perceived near-term escalation risk around",
-          "to": "Iran conflict",
-          "confidence": 0.76
-        }
-      ],
-      "confidence": 0.9,
-      "supportingEvidence": [
-        {
-          "uri": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
-          "title": "Reuters/Kpler: Hormuz traffic remains far below recent average",
-          "observedAt": "2026-08-26T05:55:00Z",
-          "note": "Preliminary Kpler data show only five commodity-vessel transits on Aug. 25 versus a 10-day average of 15; Monday had four. This is direct physical-flow evidence that reopening optimism has not yet translated into normalized commercial traffic."
-        },
-        {
-          "uri": "https://www.reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/",
-          "title": "Reuters: Iran-Oman corridor talks resume while a tanker is struck near the Strait entrance",
-          "observedAt": "2026-08-26T03:03:35Z",
-          "note": "Reports a proposed joint temporary navigational corridor and mine clearing, while also reporting a tanker disabled by an unidentified projectile near Oman the same day."
-        },
-        {
-          "uri": "https://www.reuters.com/world/asia-pacific/us-oil-prices-extend-losses-hopes-iran-oman-talks-strait-hormuz-2026-08-25/",
-          "title": "Reuters: oil extends losses on hopes of Hormuz reopening",
-          "observedAt": "2026-08-26T05:55:00Z",
-          "note": "Brent and WTI fell again as markets priced de-escalation and reopening optimism even while observed vessel traffic remained depressed."
-        },
-        {
-          "uri": "https://www.fm.gov.om/en/49077/",
-          "title": "Oman Foreign Ministry: temporary maritime-corridor mechanism for Hormuz",
-          "observedAt": "2026-08-26T03:03:35Z",
-          "note": "Primary Omani background confirms an established policy and coordination mechanism for temporary corridor access and freedom of navigation."
-        },
-        {
-          "uri": "https://www.imf.org/en/data",
-          "title": "IMF PortWatch: open high-frequency maritime monitoring platform",
-          "observedAt": "2026-08-26T05:55:00Z",
-          "note": "Primary methodological support for the Alpha Hunter: PortWatch provides open AIS-derived maritime activity data that can be used as an independent, lower-cost physical-flow challenger when the relevant passage series is available."
-        }
-      ],
-      "contradictingEvidence": [
-        {
-          "uri": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
-          "title": "Reuters/Kpler: preliminary counts can miss dark vessels",
-          "observedAt": "2026-08-26T05:55:00Z",
-          "note": "Kpler warns that preliminary counts may change and some vessels can disable location transponders, so five observed transits is not identical to total physical passage."
-        },
-        {
-          "uri": "https://www.reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/",
-          "title": "Reuters: corridor talks could still accelerate operational reopening",
-          "observedAt": "2026-08-26T03:03:35Z",
-          "note": "The talks could still produce an operational corridor quickly; current depressed traffic may therefore lag diplomacy rather than disprove it."
-        }
-      ],
-      "falsifier": "A sustained multi-day rise in independent vessel throughput toward or above the recent 10-day average, declining war-risk/freight premiums, no further maritime attacks, and restored refined-product deliveries would falsify the current narrative-physical divergence and make the extra incident/flow layer add little predictive value over public corridor talks and oil-price action.",
-      "actionState": "DETECTED",
-      "ledgerRef": null,
-      "geo": {
-        "lat": 26.5667,
-        "lon": 56.25,
-        "label": "Strait of Hormuz / eastern entrance",
-        "precision": "chokepoint",
-        "evidence": [
-          {
-            "uri": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
-            "title": "Reuters/Kpler reporting on Aug. 25 Hormuz commodity-vessel transits",
-            "observedAt": "2026-08-26T05:55:00Z"
-          }
-        ]
-      },
-      "hypothesis": "Independent vessel-flow and incident data will identify failed or fragile reopening states earlier than diplomatic statements and Brent price action alone.",
-      "baselineSource": {
-        "uri": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
-        "title": "Iran-Oman corridor statements plus Brent/WTI reaction",
-        "observedAt": "2026-08-26T05:55:00Z",
-        "note": "Baseline description from the source-backed event fixture."
-      },
-      "alternativeDataSource": {
-        "uri": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
-        "title": "Kpler-style vessel counts when publicly reported, IMF PortWatch where available, UKMTO/JMIC incident events, war-risk insurance, tanker freight, and refined-product delivery data",
-        "observedAt": "2026-08-26T05:55:00Z",
-        "note": "Candidate alternative-data layer. DETECTED only until direct data access and held-out evaluation exist."
-      },
-      "incrementalValueMetric": "3-7 day forecast error for confirmed throughput/security normalization versus the public diplomatic/price baseline",
-      "killCondition": "Kill the extra data layer if it fails to improve held-out reopening-state forecasts, cannot be independently replicated at acceptable cost, or arrives too late to change a research decision."
     }
   ]
 }
