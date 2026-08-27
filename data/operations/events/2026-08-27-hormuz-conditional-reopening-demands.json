@@ -1,0 +1,100 @@
+{
+  "kind": "reality-delta",
+  "id": "ui-20260827-hormuz-conditional-reopening-demands",
+  "observedAt": "2026-08-27T22:07:51Z",
+  "sourceUri": "https://www.reuters.com/world/middle-east/irans-security-chief-denies-allegations-iranian-plot-assassinate-trumps-son-al-2026-08-27/",
+  "sourceType": "secondary",
+  "entities": [
+    "Iran",
+    "Mohsen Rezaei",
+    "Supreme National Security Council of Iran",
+    "Qatar",
+    "Oman",
+    "United States",
+    "Strait of Hormuz",
+    "commercial shipping"
+  ],
+  "relations": [
+    {"from": "Iran", "relation": "is formulating conditions for reopening", "to": "Strait of Hormuz", "confidence": 0.92},
+    {"from": "Mohsen Rezaei", "relation": "links passage through a central channel to U.S. actions including ending the war, lifting the port blockade, compensation and sanctions relief", "to": "United States", "confidence": 0.9},
+    {"from": "Qatar", "relation": "continues mediation and discusses an interim shipping-corridor and mine-clearing framework with", "to": "Iran", "confidence": 0.98},
+    {"from": "Iran-Oman framework", "relation": "remains under discussion rather than primary-confirmed as a final governance agreement for", "to": "Strait of Hormuz", "confidence": 0.95},
+    {"from": "conditional reopening demands", "relation": "raise the gap between diplomatic process and operational normalization of", "to": "Strait of Hormuz", "confidence": 0.91}
+  ],
+  "confidence": 0.92,
+  "supportingEvidence": [
+    {
+      "uri": "https://www.reuters.com/world/middle-east/irans-security-chief-denies-allegations-iranian-plot-assassinate-trumps-son-al-2026-08-27/",
+      "title": "Reuters: Iran sets conditions for reopening Strait of Hormuz",
+      "observedAt": "2026-08-27T22:07:51Z",
+      "note": "Reuters reports Mohsen Rezaei saying Iran is formulating conditions for reopening Hormuz, including ending the regional war, lifting what Iran calls the blockade of its ports, compensation for losses and sanctions relief."
+    },
+    {
+      "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-secretary-of-iran%27s-supreme-national-security-council",
+      "title": "Qatar Ministry of Foreign Affairs: Qatar PM meets Iran Supreme National Security Council secretary",
+      "observedAt": "2026-08-27T22:07:51Z",
+      "note": "Primary Qatari source confirms the meeting with Mohsen Rezaei focused on regional escalation and de-escalation efforts, independently confirming the negotiating channel but not the specific Iranian conditions."
+    },
+    {
+      "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+      "title": "Qatar Ministry of Foreign Affairs: interim Hormuz corridor and mine-clearing framework remains under discussion",
+      "observedAt": "2026-08-27T22:07:51Z",
+      "note": "Primary Qatari source confirms ongoing discussion of a temporary joint shipping corridor and mine-clearing project, not a finalized unconditional reopening."
+    }
+  ],
+  "contradictingEvidence": [
+    {
+      "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+      "title": "Qatar readout does not confirm Iran's reported reopening demands as agreed terms",
+      "observedAt": "2026-08-27T22:07:51Z",
+      "note": "Qatar's primary readout describes an interim corridor and mine-clearing framework but does not say the U.S. accepted Iran's reported conditions or that a final reopening agreement exists."
+    },
+    {
+      "uri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+      "title": "Reuters: shipping traffic has risen slightly despite unresolved standoff",
+      "observedAt": "2026-08-27T22:07:51Z",
+      "note": "Physical traffic is showing some improvement even without a final political settlement, so passage may recover incrementally before the full reported Iranian demand set is resolved."
+    }
+  ],
+  "falsifier": "Downgrade the conditional-reopening thesis if Iran or a controlling primary source retracts or materially narrows the reported conditions, if the U.S./Iran/Oman/Qatar publish an unconditional operational reopening framework, or if sustained commercial traffic and downstream deliveries normalize without the reported conditions being met.",
+  "actionState": "DETECTED",
+  "ledgerRef": null,
+  "geo": {
+    "lat": 26.5667,
+    "lon": 56.25,
+    "label": "Strait of Hormuz",
+    "precision": "chokepoint",
+    "evidence": [
+      {
+        "uri": "https://www.reuters.com/world/middle-east/irans-security-chief-denies-allegations-iranian-plot-assassinate-trumps-son-al-2026-08-27/",
+        "title": "Reuters report on Iranian reopening conditions",
+        "observedAt": "2026-08-27T22:07:51Z"
+      },
+      {
+        "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+        "title": "Qatar primary readout on interim Hormuz framework",
+        "observedAt": "2026-08-27T22:07:51Z"
+      }
+    ]
+  },
+  "title": "Iran shifts Hormuz reopening from mediation-only to explicit conditionality",
+  "summary": "Iran is now reportedly formulating explicit conditions for reopening Hormuz, while Qatar's primary readouts confirm an active interim corridor and mine-clearing negotiation channel but do not confirm those demands as accepted or a final agreement. The state is therefore CONDITIONAL_REOPENING_DEMANDS + MEDIATION_ACTIVE, not NORMALIZING.",
+  "delta": "Supersede the simpler MEDIATION_ACTIVE + DIRECT_TALKS_ABSENT state with CONDITIONAL_REOPENING_DEMANDS + MEDIATION_ACTIVE + FRAMEWORK_UNRESOLVED. Preserve prior traffic-recovery evidence separately: incremental physical passage can improve even while the political conditions remain unresolved.",
+  "firstOrderImpacts": [
+    "lower probability of an immediate unconditional Hormuz normalization",
+    "continued oil, freight and insurance sensitivity to whether Iranian conditions are narrowed or accepted",
+    "higher value of separating mediator activity from negotiated terms and operational passage"
+  ],
+  "secondOrderImpacts": [
+    "market pricing may oscillate as each condition is treated as independently negotiable rather than as a binary peace/no-peace state",
+    "commercial shipping can partially recover before political settlement, creating a divergence between legal-political state and physical flow",
+    "Orbital Insight should track demand-set evolution, mediator confirmation and physical throughput as separate state variables"
+  ],
+  "alphaHunter": {
+    "hypothesis": "A structured conditionality graph that tracks which Iranian reopening demands are accepted, rejected or bypassed will classify Hormuz normalization earlier and more accurately than generic 'talks progressing' headlines or crude-price reaction alone.",
+    "baseline": "headline sentiment about mediation/reopening plus Brent/WTI reaction",
+    "alternativeData": "condition-by-condition diplomatic state, Qatar/Oman primary readouts, vessel throughput, war-risk insurance, freight, maritime incidents and downstream import arrivals",
+    "incrementalValueMetric": "3-7 day classification accuracy and lead time for PARTIAL_PASSAGE / CONDITIONAL_REOPENING / NORMALIZING versus the simple headline-price baseline",
+    "killCondition": "Kill the conditionality layer if physical traffic and downstream deliveries normalize independently of the reported conditions or if condition tracking does not improve held-out state classification versus public headlines and price."
+  }
+}
