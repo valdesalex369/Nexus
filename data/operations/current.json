@@ -1,6 +1,106 @@
 {
-  "generatedAt": "2026-08-27T10:57:04.768Z",
+  "generatedAt": "2026-08-27T13:09:58.400Z",
   "realityDelta": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260827-treasury-fed-price-of-money-divergence",
+      "observedAt": "2026-08-27T13:05:00Z",
+      "sourceUri": "https://www.reuters.com/business/finance/bessent-warsh-diverge-who-should-set-price-money-2026-08-27/",
+      "sourceType": "primary-mirror",
+      "entities": [
+        "U.S. Department of the Treasury",
+        "Secretary Scott Bessent",
+        "Federal Reserve",
+        "Chair Kevin Warsh",
+        "U.S. Treasury market",
+        "U.S. dollar",
+        "AI infrastructure borrowers",
+        "Nexus/STEM"
+      ],
+      "relations": [
+        {
+          "from": "Treasury long-end liquidity buybacks",
+          "relation": "seek to support",
+          "to": "long-dated Treasury market liquidity",
+          "confidence": 0.99
+        },
+        {
+          "from": "larger Treasury buybacks",
+          "relation": "can damp or distort",
+          "to": "market-clearing long-term yield signals",
+          "confidence": 0.74
+        },
+        {
+          "from": "Federal Reserve monetary-policy mandate",
+          "relation": "assigns monetary policy authority to",
+          "to": "the FOMC",
+          "confidence": 0.99
+        },
+        {
+          "from": "Treasury market intervention versus Fed market-price preference",
+          "relation": "creates",
+          "to": "policy-governance divergence over the price of money",
+          "confidence": 0.87
+        },
+        {
+          "from": "policy-governance divergence",
+          "relation": "raises uncertainty around",
+          "to": "long-end yields, dollar pricing, and financing conditions",
+          "confidence": 0.82
+        }
+      ],
+      "confidence": 0.89,
+      "supportingEvidence": [
+        {
+          "uri": "https://home.treasury.gov/news/press-releases/sb0607/",
+          "title": "U.S. Treasury: Increased Sizes of Nominal Long-End Liquidity Support Buybacks",
+          "observedAt": "2026-08-27T13:05:00Z",
+          "note": "Treasury says long-end liquidity-support buybacks will at least double from a $2 billion maximum to at least $4 billion per operation beginning September 9, 2026, explicitly to provide greater liquidity support in longer-dated nominal sectors."
+        },
+        {
+          "uri": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+          "title": "Federal Reserve: Federal Open Market Committee mandate and tools",
+          "observedAt": "2026-08-27T13:05:00Z",
+          "note": "The Federal Reserve states that the Federal Reserve Act assigns responsibility for setting monetary policy to the Federal Reserve/FOMC and that changes in the federal funds rate propagate into longer-term rates and broader financial conditions."
+        },
+        {
+          "uri": "https://www.reuters.com/business/finance/bessent-warsh-diverge-who-should-set-price-money-2026-08-27/",
+          "title": "Reuters: Bessent, Warsh diverge on who should set the price of money",
+          "observedAt": "2026-08-27T13:05:00Z",
+          "note": "Reuters reports that Treasury's more interventionist approach to long-end market functioning sits in tension with Chair Warsh's preference for greater market price discovery, while investors question whether fiscal deficits rather than liquidity dysfunction are the dominant cause of high yields."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://home.treasury.gov/news/press-releases/sb0607/",
+          "title": "Treasury frames the buybacks as liquidity support, not yield targeting",
+          "observedAt": "2026-08-27T13:05:00Z",
+          "note": "Treasury's stated purpose is market liquidity support, not an explicit long-term yield target. The existence of larger buybacks therefore does not by itself prove fiscal authorities are overriding monetary policy."
+        },
+        {
+          "uri": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+          "title": "The Fed retains formal monetary-policy authority",
+          "observedAt": "2026-08-27T13:05:00Z",
+          "note": "Formal monetary-policy authority remains with the Federal Reserve/FOMC, so the current divergence may be a difference in market-function philosophy rather than an institutional power conflict."
+        }
+      ],
+      "falsifier": "Downgrade the policy-governance divergence thesis if Treasury's larger buybacks have little measurable effect on long-end yields or the dollar beyond ordinary liquidity improvements, or if Fed/Treasury communications converge on a consistent framework that clearly separates liquidity support from monetary-policy signaling.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "title": "Treasury and Fed diverge over how much policymakers should shape the price of money",
+      "summary": "Treasury is doubling long-end liquidity-support buybacks while the Federal Reserve retains formal monetary-policy authority and Chair Warsh is reported to favor more market price discovery. The divergence raises uncertainty over how much long-term yields should reflect fiscal risk versus policy efforts to smooth market conditions.",
+      "delta": "Add a distinct policy-governance state between fiscal debt-management intervention and monetary-policy price discovery. Do not interpret larger Treasury buybacks as equivalent to a Fed rate cut or yield-curve control; instead track whether the interventions measurably change long-end yields, dollar pricing, term premium, or financing conditions beyond liquidity effects.",
+      "firstOrderImpacts": [
+        "greater uncertainty around long-duration Treasury yields and the U.S. dollar ahead of Jackson Hole",
+        "possible compression of long-end yields if buybacks materially improve liquidity or alter market expectations",
+        "higher sensitivity for mortgage rates, long-duration equities, crypto, and capital-intensive AI/data-center financing"
+      ],
+      "secondOrderImpacts": [
+        "ULTRA INSTINCT should separate market-liquidity intervention from monetary-policy stance instead of collapsing both into a single rates signal",
+        "a persistent Treasury-versus-Fed divergence could make term premium and fiscal-risk pricing more important than the policy rate alone",
+        "Alternative-Data Alpha Hunter can test intervention-effectiveness by comparing announced buyback operations with intraday Treasury liquidity, term-premium proxies, dollar moves, and later financing conditions"
+      ]
+    },
     {
       "kind": "reality-delta",
       "id": "ui-20260827-gsa-anthropic-deadline-conflicted-state",
@@ -890,113 +990,6 @@
         "cost-of-intelligence models should incorporate memory and system-level input costs rather than GPU pricing alone",
         "the fact that a blowout beat produced a weak stock reaction suggests market expectations are shifting from simple growth to quality, durability and capital efficiency"
       ]
-    },
-    {
-      "kind": "reality-delta",
-      "id": "ui-20260826-hormuz-governance-claim-downgrade",
-      "observedAt": "2026-08-26T15:54:03Z",
-      "sourceUri": "https://www.reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/",
-      "sourceType": "secondary",
-      "entities": [
-        "Iran",
-        "Oman",
-        "Islamic Revolutionary Guard Corps",
-        "Strait of Hormuz",
-        "commercial shipping",
-        "oil markets",
-        "Nexus/STEM"
-      ],
-      "relations": [
-        {
-          "from": "senior Iranian source",
-          "relation": "says no final agreement has been reached on",
-          "to": "Iran-Oman Hormuz governance/revenue terms",
-          "confidence": 0.94
-        },
-        {
-          "from": "IRGC spokesperson",
-          "relation": "continues to claim agreements were reached regarding",
-          "to": "shares of Hormuz waters and revenues",
-          "confidence": 0.9
-        },
-        {
-          "from": "Omani foreign minister",
-          "relation": "publicly expresses hope for",
-          "to": "temporary corridor and practical arrangements to restore safe navigation",
-          "confidence": 0.9
-        },
-        {
-          "from": "new Reuters source conflict",
-          "relation": "downgrades",
-          "to": "CLAIMED_GOVERNANCE_AGREEMENT",
-          "confidence": 0.97
-        },
-        {
-          "from": "Hormuz physical state",
-          "relation": "remains",
-          "to": "CONTESTED_REOPENING with shipping still constrained",
-          "confidence": 0.95
-        }
-      ],
-      "confidence": 0.94,
-      "supportingEvidence": [
-        {
-          "uri": "https://www.reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/",
-          "title": "Reuters: senior Iranian source says Hormuz agreement not finalized",
-          "observedAt": "2026-08-26T15:54:03Z",
-          "note": "Reuters reports a senior Iranian source saying no final Iran-Oman Hormuz agreement has been reached and that negotiations are continuing over the details."
-        },
-        {
-          "uri": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
-          "title": "Reuters/Kpler: physical Hormuz traffic remains depressed",
-          "observedAt": "2026-08-26T15:54:03Z",
-          "note": "Observed commodity-vessel traffic remains far below the recent average, so governance claims have not translated into operational normalization."
-        }
-      ],
-      "contradictingEvidence": [
-        {
-          "uri": "https://www.reuters.com/world/asia-pacific/iran-oman-reach-agreements-share-hormuz-revenues-revolutionary-guards-say-2026-08-26/",
-          "title": "Reuters: IRGC spokesperson claims governance/revenue agreements were reached",
-          "observedAt": "2026-08-26T15:54:03Z",
-          "note": "The IRGC continues to say agreements were reached on shares of the Strait and revenues. The disagreement is intra-Iranian and unresolved; it should be preserved rather than averaged away."
-        }
-      ],
-      "falsifier": "Upgrade back toward PRIMARY_CONFIRMED only if Oman publishes an official confirmation of the governance/revenue terms or both governments release matching text. Keep downgraded if negotiations remain described as unfinished, terms differ materially across official sources, or physical implementation does not appear in passage rules, fees, permissions or traffic.",
-      "actionState": "DETECTED",
-      "ledgerRef": null,
-      "geo": {
-        "lat": 26.5667,
-        "lon": 56.25,
-        "label": "Strait of Hormuz",
-        "precision": "chokepoint",
-        "evidence": [
-          {
-            "uri": "https://www.reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/",
-            "title": "Reuters report on unresolved Iran-Oman Hormuz negotiations",
-            "observedAt": "2026-08-26T15:54:03Z"
-          }
-        ]
-      },
-      "title": "Senior Iranian source says Hormuz governance deal is not finalized",
-      "summary": "A senior Iranian source told Reuters that Iran and Oman are still negotiating the details of a Hormuz agreement, directly contradicting an IRGC spokesperson's earlier claim that governance and revenue-sharing agreements had already been reached. Shipping remains constrained, so the correct state is unresolved negotiations plus contested reopening, not a finalized governance accord.",
-      "delta": "Supersede the earlier CLAIMED_GOVERNANCE_AGREEMENT interpretation with DISPUTED_NEGOTIATION_STATE. Preserve both Iranian claims in the graph, downgrade confidence in finalized governance/revenue terms, and require Omani primary confirmation or observable implementation before upgrading again.",
-      "firstOrderImpacts": [
-        "reduce confidence in imminent implementation of new navigation fees, revenue-sharing or formal access rules",
-        "keep tanker, insurer and shipowner behavior anchored to physical-security and sanctions conditions rather than governance headlines",
-        "increase information value of official Omani confirmation and actual port/navigation notices"
-      ],
-      "secondOrderImpacts": [
-        "demonstrates that intra-state source disagreement can be more informative than cross-media repetition",
-        "strengthens Nexus temporal/supersession logic: authoritative-looking claims need versioned state and source lineage",
-        "reinforces the Alpha Hunter thesis that political narrative should be graded against operational telemetry"
-      ],
-      "alphaHunter": {
-        "hypothesis": "Source-conflict plus operational telemetry will classify Hormuz governance state earlier and more accurately than treating the first official-sounding statement as final truth.",
-        "baseline": "latest public political statement about an Iran-Oman Hormuz agreement",
-        "alternativeData": "source lineage by institution, Omani primary releases, vessel throughput, navigation notices, fees/tolls, permission changes, freight and war-risk insurance",
-        "incrementalValueMetric": "time-to-correct-state classification and false-finalization rate over the next 3-7 days",
-        "killCondition": "Kill the extra source-conflict layer if it does not reduce false state transitions or improve timing versus simply waiting for joint official confirmation."
-      }
     }
   ],
   "opportunityRadar": [
