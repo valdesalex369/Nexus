@@ -1,0 +1,70 @@
+{
+  "kind": "reality-delta",
+  "id": "ui-20260827-nvidia-fy28-supply-constrained-demand-guidance",
+  "observedAt": "2026-08-27T01:55:00Z",
+  "sourceUri": "https://www.reuters.com/business/nvidia-bounce-shows-wall-streets-ai-obsession-is-far-over-2026-08-26/",
+  "sourceType": "corroborated",
+  "entities": [
+    "NVIDIA",
+    "hyperscalers",
+    "AI labs",
+    "NeoClouds",
+    "enterprises",
+    "sovereign AI customers",
+    "Vera Rubin",
+    "memory suppliers",
+    "Nexus/STEM"
+  ],
+  "relations": [
+    {"from": "NVIDIA", "relation": "preliminarily expects", "to": "approximately 70% fiscal 2028 revenue growth", "confidence": 0.96},
+    {"from": "NVIDIA demand", "relation": "is described as", "to": "supply constrained through at least fiscal 2028", "confidence": 0.95},
+    {"from": "AI demand base", "relation": "extends beyond", "to": "hyperscalers into NeoCloud, enterprise and sovereign customers", "confidence": 0.92},
+    {"from": "extreme memory pricing", "relation": "pressures", "to": "gross margins despite stronger revenue growth", "confidence": 0.94},
+    {"from": "NVIDIA-linked infrastructure financing", "relation": "remains a caveat for", "to": "interpreting capacity growth as fully independent end demand", "confidence": 0.82}
+  ],
+  "confidence": 0.95,
+  "supportingEvidence": [
+    {
+      "uri": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+      "title": "NVIDIA Q2 FY27 financial results",
+      "observedAt": "2026-08-27T01:55:00Z",
+      "note": "NVIDIA reported $96.2B Q2 revenue, $89.0B Data Center revenue and $108B Q3 guidance, establishing the unusually strong near-term base from which the longer-range outlook is being made."
+    },
+    {
+      "uri": "https://www.reuters.com/business/nvidia-bounce-shows-wall-streets-ai-obsession-is-far-over-2026-08-26/",
+      "title": "Reuters: NVIDIA stock rebounds after call as long-range AI demand outlook strengthens",
+      "observedAt": "2026-08-27T01:55:00Z",
+      "note": "Reuters reports that NVIDIA expects approximately 70% fiscal 2028 revenue growth and that the after-hours stock reaction reversed from an initial decline to a material gain as investors absorbed the longer-range outlook."
+    }
+  ],
+  "contradictingEvidence": [
+    {
+      "uri": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+      "title": "NVIDIA guides lower gross margin as costs rise",
+      "observedAt": "2026-08-27T01:55:00Z",
+      "note": "NVIDIA guides Q3 gross margin to about 74%, below Q2's 75%, so accelerating revenue does not imply frictionless economics."
+    },
+    {
+      "uri": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx",
+      "title": "NVIDIA is simultaneously helping mobilize large AI infrastructure financing pools",
+      "observedAt": "2026-08-27T01:55:00Z",
+      "note": "Large third-party financing programs mean announced infrastructure demand should still be separated from independently financed and economically productive end use."
+    }
+  ],
+  "falsifier": "Downgrade the stronger long-horizon AI-demand thesis if NVIDIA materially cuts the fiscal 2028 growth outlook, supply ceases to be the binding constraint, hyperscaler/enterprise utilization or monetization weakens, or gross-margin and financing pressures rise enough that revenue growth no longer translates into attractive returns on deployed AI capacity.",
+  "actionState": "DETECTED",
+  "ledgerRef": null,
+  "title": "NVIDIA's call extends the AI-demand upgrade into FY2028 but keeps margin and financing quality unresolved",
+  "summary": "After an already exceptional Q2 print, NVIDIA's earnings call added a materially stronger long-range signal: management expects roughly 70% fiscal 2028 revenue growth and says supply remains the bottleneck. The demand picture appears broader than hyperscalers alone, but extreme memory costs and ecosystem financing mean revenue growth still should not be equated with productive capacity or clean returns.",
+  "delta": "Upgrade the AI infrastructure world model from 'near-term demand beat' to 'multi-year demand outlook is materially stronger and still supply constrained.' Keep a separate unresolved state for demand quality: utilization, customer monetization, margins and financing independence must still be observed rather than inferred from GPU sales alone.",
+  "firstOrderImpacts": [
+    "stronger forward demand expectations for GPUs, networking, HBM/memory, power and data-center infrastructure",
+    "higher probability that Vera Rubin capacity remains constrained into fiscal 2028",
+    "continued pressure on memory supply and AI infrastructure gross margins"
+  ],
+  "secondOrderImpacts": [
+    "ULTRA INSTINCT should distinguish announced demand, supply-constrained bookings and realized productive utilization as separate states",
+    "AI infrastructure beneficiaries may broaden beyond GPU vendors toward memory, networking, power and construction while returns remain financing-sensitive",
+    "Nexus model economics should judge compute by verified useful output and customer economics, not by capacity purchased alone"
+  ]
+}
