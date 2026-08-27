@@ -1,6 +1,113 @@
 {
-  "generatedAt": "2026-08-27T13:09:58.400Z",
+  "generatedAt": "2026-08-27T15:05:02.801Z",
   "realityDelta": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260827-hormuz-asia-import-reality-check",
+      "observedAt": "2026-08-27T15:00:00Z",
+      "sourceUri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
+      "sourceType": "secondary",
+      "entities": [
+        "Strait of Hormuz",
+        "Middle East crude exports",
+        "Asia crude imports",
+        "India crude imports",
+        "Kpler",
+        "U.S. Department of Energy",
+        "Chris Wright"
+      ],
+      "relations": [
+        {
+          "from": "Kpler",
+          "relation": "estimates August crude exports via Hormuz near 2.3 million b/d versus 15.82 million b/d pre-conflict",
+          "to": "Strait of Hormuz",
+          "confidence": 0.94
+        },
+        {
+          "from": "Asia crude imports",
+          "relation": "remain about 14% below pre-conflict average",
+          "to": "pre-conflict demand-side arrival baseline",
+          "confidence": 0.95
+        },
+        {
+          "from": "India Middle East crude arrivals",
+          "relation": "remain near half of pre-conflict average",
+          "to": "physical downstream confirmation",
+          "confidence": 0.94
+        },
+        {
+          "from": "U.S. Energy Secretary public claim",
+          "relation": "implies materially stronger Middle East export recovery than observed by",
+          "to": "Kpler and downstream Asian arrivals",
+          "confidence": 0.91
+        }
+      ],
+      "confidence": 0.94,
+      "supportingEvidence": [
+        {
+          "uri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
+          "title": "Reuters Open Interest: Asia crude imports remain well below pre-conflict levels",
+          "observedAt": "2026-08-27T15:00:00Z",
+          "note": "Reuters cites Kpler estimates of 23.12 million b/d of Asian crude arrivals in August versus 26.91 million b/d pre-conflict; Kpler tracked only 2.3 million b/d of August crude exports through Hormuz versus 15.82 million b/d in the three months before the war."
+        },
+        {
+          "uri": "https://www.reuters.com/business/energy/oil-prices-extend-losses-expectations-talks-ease-middle-east-supply-woes-2026-08-27/",
+          "title": "Reuters: oil prices rise as negotiations stall and flows remain restricted",
+          "observedAt": "2026-08-27T15:00:00Z",
+          "note": "Reuters reports that restricted flows and lack of diplomatic progress are pushing traders to reassess earlier reopening optimism."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
+          "title": "Reuters: delivery lag can delay downstream confirmation",
+          "observedAt": "2026-08-27T15:00:00Z",
+          "note": "The same analysis notes that if Middle East exports accelerated only in early August, some cargoes may not arrive in Japan, South Korea or China until September, so August import data may understate a very recent recovery."
+        },
+        {
+          "uri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+          "title": "Reuters: visible vessel traffic improved modestly to 10 transits Wednesday",
+          "observedAt": "2026-08-27T15:00:00Z",
+          "note": "Short-term vessel counts show positive momentum even though absolute throughput and downstream arrivals remain far below pre-conflict levels."
+        }
+      ],
+      "falsifier": "Downgrade the measurement-conflict thesis if September Asian crude arrivals materially rebound toward pre-conflict levels, Kpler-observed Hormuz exports converge upward with official U.S. recovery claims, and freight/insurance/product-market indicators normalize consistently with those higher flows.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "geo": {
+        "lat": 26.5667,
+        "lon": 56.25,
+        "label": "Strait of Hormuz",
+        "precision": "chokepoint",
+        "evidence": [
+          {
+            "uri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
+            "title": "Kpler export and Asian import estimates via Reuters",
+            "observedAt": "2026-08-27T15:00:00Z"
+          }
+        ]
+      },
+      "title": "Asian crude arrivals remain far below pre-war levels, challenging headline Hormuz recovery claims",
+      "summary": "Kpler estimates August crude exports through Hormuz at roughly 2.3 million b/d versus 15.82 million b/d before the conflict, while Asian crude imports are about 14% below the pre-conflict average and Indian arrivals from the Middle East are near half their prior level. This sharply strengthens the case for downstream-arrival data as a reality check on official recovery claims.",
+      "delta": "Upgrade the Hormuz measurement-conflict model from vessel-count disagreement to a three-layer physical reality check: chokepoint exports, downstream Asian arrivals, and official claims. Keep short-term vessel recovery as momentum, not normalization. Preserve delivery-lag uncertainty because September arrivals may reveal a more recent recovery not yet visible in August data.",
+      "firstOrderImpacts": [
+        "continued uncertainty about actual Gulf crude availability despite diplomatic reopening narratives",
+        "higher value of Asian port-arrival data for validating claimed export recovery",
+        "potential persistence of freight, refinery and product-market stress even if crude prices price in de-escalation"
+      ],
+      "secondOrderImpacts": [
+        "ULTRA INSTINCT can use destination-arrival data as an independent downstream truth layer when source-side measurements disagree",
+        "measurement-method provenance becomes economically important because official statements, AIS/satellite tracking and port arrivals can imply very different recovery states",
+        "a persistent gap between market pricing and delivered physical barrels may create a measurable narrative-versus-reality signal"
+      ],
+      "alphaHunter": {
+        "hypothesis": "Combining Hormuz export tracking with destination-port arrivals will classify physical normalization more accurately than official throughput claims, vessel counts or oil-price reaction alone.",
+        "baseline": "official flow claims, diplomatic headlines, visible daily vessel counts and Brent/WTI reaction",
+        "alternativeData": "Kpler satellite/AIS export estimates, Asian and Indian crude-arrival data, destination timing, refinery intake, freight and war-risk insurance",
+        "incrementalValueMetric": "3-14 day held-out forecast accuracy for delivered crude normalization, refinery availability and later official flow revisions",
+        "killCondition": "Kill the downstream-arrival layer if it fails to improve held-out recovery classification versus the simpler baseline after adjusting for voyage-time lags, or if data latency makes it non-actionable."
+      }
+    },
     {
       "kind": "reality-delta",
       "id": "ui-20260827-treasury-fed-price-of-money-divergence",
@@ -891,105 +998,6 @@
         "AI-demand analysis should separate announced capacity, financed capacity, deployed capacity, utilization and realized customer economics",
         "Nexus model/compute routing should remain provider- and hardware-aware because hyperscalers are combining NVIDIA platforms with their own custom silicon rather than choosing a single compute substrate"
       ]
-    },
-    {
-      "kind": "reality-delta",
-      "id": "ui-20260826-nvidia-q2-fy27-demand-quality-resolution",
-      "observedAt": "2026-08-26T20:20:00Z",
-      "sourceUri": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-2nd-Quarter-FY27-Financial-Results/default.aspx",
-      "sourceType": "primary",
-      "entities": [
-        "NVIDIA",
-        "hyperscalers",
-        "AI cloud providers",
-        "Vera Rubin",
-        "memory suppliers",
-        "AI infrastructure financiers",
-        "Nexus/STEM"
-      ],
-      "relations": [
-        {
-          "from": "NVIDIA Q2 FY27 revenue",
-          "relation": "exceeded",
-          "to": "NVIDIA prior guidance and Wall Street expectations",
-          "confidence": 0.99
-        },
-        {
-          "from": "Data Center revenue",
-          "relation": "accelerated to",
-          "to": "$89.0B and 117% year-over-year growth",
-          "confidence": 0.99
-        },
-        {
-          "from": "NVIDIA Q3 revenue guide",
-          "relation": "signals continued",
-          "to": "strong AI infrastructure demand excluding China Data Center compute",
-          "confidence": 0.96
-        },
-        {
-          "from": "rising memory costs and competition",
-          "relation": "pressure",
-          "to": "future gross margins and AI-capex economics",
-          "confidence": 0.84
-        },
-        {
-          "from": "strong reported demand",
-          "relation": "does not by itself resolve",
-          "to": "vendor-financing and end-demand-quality concerns",
-          "confidence": 0.92
-        }
-      ],
-      "confidence": 0.96,
-      "supportingEvidence": [
-        {
-          "uri": "https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-second-quarter-fiscal-98x41cxh35vk.html",
-          "title": "NVIDIA official Q2 FY27 release mirrored by StockTitan",
-          "observedAt": "2026-08-26T20:20:00Z",
-          "note": "The reproduced NVIDIA release reports Q2 FY27 revenue of $96.2B, up 18% sequentially and 106% year over year; Data Center revenue of $89.0B, up 117% year over year; GAAP and non-GAAP gross margin of 75.0%; and diluted EPS of $2.46 GAAP / $2.22 non-GAAP."
-        },
-        {
-          "uri": "https://www.reuters.com/business/media-telecom/nvidia-forecasts-quarterly-revenue-above-estimates-2026-08-26/",
-          "title": "Reuters: NVIDIA forecasts Q3 revenue above estimates",
-          "observedAt": "2026-08-26T20:30:00Z",
-          "note": "Reuters independently reports a $108B Q3 revenue forecast versus roughly $104.2B consensus, while noting continued investor concern over competition, in-house hyperscaler chips, China exclusion and the sustainability of the AI buildout."
-        },
-        {
-          "uri": "https://apnews.com/article/dc8d556e709b50915cca9217a60b1991",
-          "title": "AP: strong AI chip demand drives NVIDIA Q2 beat",
-          "observedAt": "2026-08-26T20:35:00Z",
-          "note": "AP independently confirms $96.22B revenue, $89B Data Center revenue and a $108B next-quarter guide, strengthening confidence that the demand beat is not a single-source artifact."
-        }
-      ],
-      "contradictingEvidence": [
-        {
-          "uri": "https://www.reuters.com/business/media-telecom/nvidia-forecasts-quarterly-revenue-above-estimates-2026-08-26/",
-          "title": "Reuters: shares slipped despite the beat",
-          "observedAt": "2026-08-26T20:30:00Z",
-          "note": "NVIDIA shares fell about 1% in extended trading despite the revenue beat and strong guide, showing that investors are increasingly demanding evidence on margin durability, competition and demand quality rather than simply higher top-line growth."
-        },
-        {
-          "uri": "https://www.investors.com/news/technology/nvidia-stock-nvda-fiscal-q2-2027-earnings/",
-          "title": "Investor's Business Daily: margin pressure and memory costs remain a concern",
-          "observedAt": "2026-08-26T20:40:00Z",
-          "note": "Reported Q3 gross-margin guidance is below some expectations and rising memory costs are cited as a pressure point, arguing against interpreting the revenue beat as a clean all-clear for AI-infrastructure economics."
-        }
-      ],
-      "falsifier": "Downgrade the durable-demand thesis if subsequent quarters show decelerating Data Center growth, weaker utilization or customer monetization, rising cancellations, materially widening financing dependence, sustained gross-margin compression, or major hyperscalers shifting enough workload to in-house/competing silicon that NVIDIA's revenue growth and pricing power weaken despite continued announced AI capex.",
-      "actionState": "DETECTED",
-      "ledgerRef": null,
-      "title": "NVIDIA Q2 confirms exceptional AI demand, but top-line growth no longer resolves demand-quality risk",
-      "summary": "NVIDIA reported $96.2B of Q2 FY27 revenue and $89.0B of Data Center revenue, both well above expectations, and guided Q3 revenue to $108B excluding China Data Center compute. The results upgrade near-term AI infrastructure demand, while the muted after-hours reaction and margin/competition concerns preserve the distinction between capex volume and demand quality.",
-      "delta": "Supersede the pending NVIDIA-earnings checkpoint with a resolved state: near-term AI infrastructure demand is stronger than expected. Do not supersede the separate concern that vendor financing, margin pressure, memory costs, customer concentration and custom silicon can reduce the quality or durability of that demand. For Nexus, AI-capex volume and AI-demand quality remain separate state variables.",
-      "firstOrderImpacts": [
-        "stronger near-term demand expectations for GPUs, networking, memory, power and data-center infrastructure",
-        "continued support for suppliers exposed to AI factory buildout even as investors scrutinize valuation and margins",
-        "greater sensitivity of the AI complex to memory costs, gross-margin guidance and hyperscaler custom-silicon adoption"
-      ],
-      "secondOrderImpacts": [
-        "AI infrastructure analysis should decompose revenue growth into end-demand, vendor/customer financing, utilization and realized customer economics",
-        "cost-of-intelligence models should incorporate memory and system-level input costs rather than GPU pricing alone",
-        "the fact that a blowout beat produced a weak stock reaction suggests market expectations are shifting from simple growth to quality, durability and capital efficiency"
-      ]
     }
   ],
   "opportunityRadar": [
@@ -1071,6 +1079,113 @@
     }
   ],
   "orbitalInsight": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260827-hormuz-asia-import-reality-check",
+      "observedAt": "2026-08-27T15:00:00Z",
+      "sourceUri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
+      "sourceType": "secondary",
+      "entities": [
+        "Strait of Hormuz",
+        "Middle East crude exports",
+        "Asia crude imports",
+        "India crude imports",
+        "Kpler",
+        "U.S. Department of Energy",
+        "Chris Wright"
+      ],
+      "relations": [
+        {
+          "from": "Kpler",
+          "relation": "estimates August crude exports via Hormuz near 2.3 million b/d versus 15.82 million b/d pre-conflict",
+          "to": "Strait of Hormuz",
+          "confidence": 0.94
+        },
+        {
+          "from": "Asia crude imports",
+          "relation": "remain about 14% below pre-conflict average",
+          "to": "pre-conflict demand-side arrival baseline",
+          "confidence": 0.95
+        },
+        {
+          "from": "India Middle East crude arrivals",
+          "relation": "remain near half of pre-conflict average",
+          "to": "physical downstream confirmation",
+          "confidence": 0.94
+        },
+        {
+          "from": "U.S. Energy Secretary public claim",
+          "relation": "implies materially stronger Middle East export recovery than observed by",
+          "to": "Kpler and downstream Asian arrivals",
+          "confidence": 0.91
+        }
+      ],
+      "confidence": 0.94,
+      "supportingEvidence": [
+        {
+          "uri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
+          "title": "Reuters Open Interest: Asia crude imports remain well below pre-conflict levels",
+          "observedAt": "2026-08-27T15:00:00Z",
+          "note": "Reuters cites Kpler estimates of 23.12 million b/d of Asian crude arrivals in August versus 26.91 million b/d pre-conflict; Kpler tracked only 2.3 million b/d of August crude exports through Hormuz versus 15.82 million b/d in the three months before the war."
+        },
+        {
+          "uri": "https://www.reuters.com/business/energy/oil-prices-extend-losses-expectations-talks-ease-middle-east-supply-woes-2026-08-27/",
+          "title": "Reuters: oil prices rise as negotiations stall and flows remain restricted",
+          "observedAt": "2026-08-27T15:00:00Z",
+          "note": "Reuters reports that restricted flows and lack of diplomatic progress are pushing traders to reassess earlier reopening optimism."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
+          "title": "Reuters: delivery lag can delay downstream confirmation",
+          "observedAt": "2026-08-27T15:00:00Z",
+          "note": "The same analysis notes that if Middle East exports accelerated only in early August, some cargoes may not arrive in Japan, South Korea or China until September, so August import data may understate a very recent recovery."
+        },
+        {
+          "uri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+          "title": "Reuters: visible vessel traffic improved modestly to 10 transits Wednesday",
+          "observedAt": "2026-08-27T15:00:00Z",
+          "note": "Short-term vessel counts show positive momentum even though absolute throughput and downstream arrivals remain far below pre-conflict levels."
+        }
+      ],
+      "falsifier": "Downgrade the measurement-conflict thesis if September Asian crude arrivals materially rebound toward pre-conflict levels, Kpler-observed Hormuz exports converge upward with official U.S. recovery claims, and freight/insurance/product-market indicators normalize consistently with those higher flows.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "geo": {
+        "lat": 26.5667,
+        "lon": 56.25,
+        "label": "Strait of Hormuz",
+        "precision": "chokepoint",
+        "evidence": [
+          {
+            "uri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
+            "title": "Kpler export and Asian import estimates via Reuters",
+            "observedAt": "2026-08-27T15:00:00Z"
+          }
+        ]
+      },
+      "title": "Asian crude arrivals remain far below pre-war levels, challenging headline Hormuz recovery claims",
+      "summary": "Kpler estimates August crude exports through Hormuz at roughly 2.3 million b/d versus 15.82 million b/d before the conflict, while Asian crude imports are about 14% below the pre-conflict average and Indian arrivals from the Middle East are near half their prior level. This sharply strengthens the case for downstream-arrival data as a reality check on official recovery claims.",
+      "delta": "Upgrade the Hormuz measurement-conflict model from vessel-count disagreement to a three-layer physical reality check: chokepoint exports, downstream Asian arrivals, and official claims. Keep short-term vessel recovery as momentum, not normalization. Preserve delivery-lag uncertainty because September arrivals may reveal a more recent recovery not yet visible in August data.",
+      "firstOrderImpacts": [
+        "continued uncertainty about actual Gulf crude availability despite diplomatic reopening narratives",
+        "higher value of Asian port-arrival data for validating claimed export recovery",
+        "potential persistence of freight, refinery and product-market stress even if crude prices price in de-escalation"
+      ],
+      "secondOrderImpacts": [
+        "ULTRA INSTINCT can use destination-arrival data as an independent downstream truth layer when source-side measurements disagree",
+        "measurement-method provenance becomes economically important because official statements, AIS/satellite tracking and port arrivals can imply very different recovery states",
+        "a persistent gap between market pricing and delivered physical barrels may create a measurable narrative-versus-reality signal"
+      ],
+      "alphaHunter": {
+        "hypothesis": "Combining Hormuz export tracking with destination-port arrivals will classify physical normalization more accurately than official throughput claims, vessel counts or oil-price reaction alone.",
+        "baseline": "official flow claims, diplomatic headlines, visible daily vessel counts and Brent/WTI reaction",
+        "alternativeData": "Kpler satellite/AIS export estimates, Asian and Indian crude-arrival data, destination timing, refinery intake, freight and war-risk insurance",
+        "incrementalValueMetric": "3-14 day held-out forecast accuracy for delivered crude normalization, refinery availability and later official flow revisions",
+        "killCondition": "Kill the downstream-arrival layer if it fails to improve held-out recovery classification versus the simpler baseline after adjusting for voyage-time lags, or if data latency makes it non-actionable."
+      }
+    },
     {
       "kind": "reality-delta",
       "id": "ui-20260827-hormuz-traffic-recovery-momentum",
@@ -1916,6 +2031,108 @@
   "alphaHunter": [
     {
       "kind": "alternative-data-trial",
+      "id": "alpha-ui-20260827-hormuz-asia-import-reality-check",
+      "observedAt": "2026-08-27T15:00:00Z",
+      "sourceUri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
+      "sourceType": "alternative-data",
+      "entities": [
+        "Strait of Hormuz",
+        "Middle East crude exports",
+        "Asia crude imports",
+        "India crude imports",
+        "Kpler",
+        "U.S. Department of Energy",
+        "Chris Wright"
+      ],
+      "relations": [
+        {
+          "from": "Kpler",
+          "relation": "estimates August crude exports via Hormuz near 2.3 million b/d versus 15.82 million b/d pre-conflict",
+          "to": "Strait of Hormuz",
+          "confidence": 0.94
+        },
+        {
+          "from": "Asia crude imports",
+          "relation": "remain about 14% below pre-conflict average",
+          "to": "pre-conflict demand-side arrival baseline",
+          "confidence": 0.95
+        },
+        {
+          "from": "India Middle East crude arrivals",
+          "relation": "remain near half of pre-conflict average",
+          "to": "physical downstream confirmation",
+          "confidence": 0.94
+        },
+        {
+          "from": "U.S. Energy Secretary public claim",
+          "relation": "implies materially stronger Middle East export recovery than observed by",
+          "to": "Kpler and downstream Asian arrivals",
+          "confidence": 0.91
+        }
+      ],
+      "confidence": 0.94,
+      "supportingEvidence": [
+        {
+          "uri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
+          "title": "Reuters Open Interest: Asia crude imports remain well below pre-conflict levels",
+          "observedAt": "2026-08-27T15:00:00Z",
+          "note": "Reuters cites Kpler estimates of 23.12 million b/d of Asian crude arrivals in August versus 26.91 million b/d pre-conflict; Kpler tracked only 2.3 million b/d of August crude exports through Hormuz versus 15.82 million b/d in the three months before the war."
+        },
+        {
+          "uri": "https://www.reuters.com/business/energy/oil-prices-extend-losses-expectations-talks-ease-middle-east-supply-woes-2026-08-27/",
+          "title": "Reuters: oil prices rise as negotiations stall and flows remain restricted",
+          "observedAt": "2026-08-27T15:00:00Z",
+          "note": "Reuters reports that restricted flows and lack of diplomatic progress are pushing traders to reassess earlier reopening optimism."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
+          "title": "Reuters: delivery lag can delay downstream confirmation",
+          "observedAt": "2026-08-27T15:00:00Z",
+          "note": "The same analysis notes that if Middle East exports accelerated only in early August, some cargoes may not arrive in Japan, South Korea or China until September, so August import data may understate a very recent recovery."
+        },
+        {
+          "uri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+          "title": "Reuters: visible vessel traffic improved modestly to 10 transits Wednesday",
+          "observedAt": "2026-08-27T15:00:00Z",
+          "note": "Short-term vessel counts show positive momentum even though absolute throughput and downstream arrivals remain far below pre-conflict levels."
+        }
+      ],
+      "falsifier": "Downgrade the measurement-conflict thesis if September Asian crude arrivals materially rebound toward pre-conflict levels, Kpler-observed Hormuz exports converge upward with official U.S. recovery claims, and freight/insurance/product-market indicators normalize consistently with those higher flows.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "geo": {
+        "lat": 26.5667,
+        "lon": 56.25,
+        "label": "Strait of Hormuz",
+        "precision": "chokepoint",
+        "evidence": [
+          {
+            "uri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
+            "title": "Kpler export and Asian import estimates via Reuters",
+            "observedAt": "2026-08-27T15:00:00Z"
+          }
+        ]
+      },
+      "hypothesis": "Combining Hormuz export tracking with destination-port arrivals will classify physical normalization more accurately than official throughput claims, vessel counts or oil-price reaction alone.",
+      "baselineSource": {
+        "uri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
+        "title": "official flow claims, diplomatic headlines, visible daily vessel counts and Brent/WTI reaction",
+        "observedAt": "2026-08-27T15:00:00Z",
+        "note": "Baseline description from the source-backed event fixture."
+      },
+      "alternativeDataSource": {
+        "uri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
+        "title": "Kpler satellite/AIS export estimates, Asian and Indian crude-arrival data, destination timing, refinery intake, freight and war-risk insurance",
+        "observedAt": "2026-08-27T15:00:00Z",
+        "note": "Candidate alternative-data layer. DETECTED only until direct data access and held-out evaluation exist."
+      },
+      "incrementalValueMetric": "3-14 day held-out forecast accuracy for delivered crude normalization, refinery availability and later official flow revisions",
+      "killCondition": "Kill the downstream-arrival layer if it fails to improve held-out recovery classification versus the simpler baseline after adjusting for voyage-time lags, or if data latency makes it non-actionable."
+    },
+    {
+      "kind": "alternative-data-trial",
       "id": "alpha-ui-20260827-hormuz-traffic-recovery-momentum",
       "observedAt": "2026-08-27T06:53:00Z",
       "sourceUri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
@@ -2351,115 +2568,6 @@
       },
       "incrementalValueMetric": "time-to-correct-classification of CLAIMED_AGREEMENT versus IMPLEMENTED_GOVERNANCE, plus 3-7 day forecast error for physical-flow normalization",
       "killCondition": "Kill the governance-implementation layer if no public/low-cost operational telemetry can distinguish rhetoric from implementation earlier or more accurately than official statements plus vessel counts."
-    },
-    {
-      "kind": "alternative-data-trial",
-      "id": "alpha-ui-20260826-hormuz-blacklist-behavioral-contagion",
-      "observedAt": "2026-08-26T07:06:00Z",
-      "sourceUri": "https://www.reuters.com/business/energy/some-oil-companies-avoid-ships-iran-blacklist-sources-say-2026-08-26/",
-      "sourceType": "alternative-data",
-      "entities": [
-        "Persian Gulf Strait Authority",
-        "Iran",
-        "Indian oil refiners",
-        "global energy major",
-        "blacklisted tankers",
-        "ship-to-ship transfer counterparties",
-        "Kpler",
-        "Strait of Hormuz"
-      ],
-      "relations": [
-        {
-          "from": "Persian Gulf Strait Authority",
-          "relation": "blacklists and threatens penalties against",
-          "to": "45 vessels",
-          "confidence": 0.95
-        },
-        {
-          "from": "blacklist contagion rule",
-          "relation": "extends designation risk to",
-          "to": "ship-to-ship counterparties",
-          "confidence": 0.94
-        },
-        {
-          "from": "at least three Indian refiners and one global energy major",
-          "relation": "plan to avoid",
-          "to": "blacklisted vessels",
-          "confidence": 0.9
-        },
-        {
-          "from": "blacklist enforcement risk",
-          "relation": "raises due-diligence, freight and insurance pressure for",
-          "to": "Gulf shipping networks",
-          "confidence": 0.83
-        }
-      ],
-      "confidence": 0.91,
-      "supportingEvidence": [
-        {
-          "uri": "https://www.reuters.com/business/energy/some-oil-companies-avoid-ships-iran-blacklist-sources-say-2026-08-26/",
-          "title": "Reuters: refiners and energy major plan to avoid Iran-blacklisted vessels",
-          "observedAt": "2026-08-26T07:06:00Z",
-          "note": "Four sources with direct knowledge say at least three Indian refiners and one global energy major plan to stop using blacklisted vessels, including for ship-to-ship transfers. This is observed counterparty behavior rather than only policy rhetoric."
-        },
-        {
-          "uri": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2869183-iran-s-pgsa-blacklist-deepens-hormuz-shipping-concerns",
-          "title": "Argus Media: PGSA blacklist raises freight-market concerns",
-          "observedAt": "2026-08-26T07:06:00Z",
-          "note": "Independent freight-market reporting says the PGSA rule can propagate risk beyond the originally listed ships through STS and transshipment links, potentially reducing willing counterparties."
-        },
-        {
-          "uri": "https://www.tasnimnews.ir/ar/news/2026/08/25/3680069/",
-          "title": "Tasnim: PGSA blacklist and STS-contagion warning",
-          "observedAt": "2026-08-26T07:06:00Z",
-          "note": "Iranian reporting reproduces the authority's warning that vessels conducting ship-to-ship operations with listed ships may themselves risk being blacklisted."
-        }
-      ],
-      "contradictingEvidence": [
-        {
-          "uri": "https://www.reuters.com/business/energy/some-oil-companies-avoid-ships-iran-blacklist-sources-say-2026-08-26/",
-          "title": "Reuters: likely substitution rather than complete trade stoppage",
-          "observedAt": "2026-08-26T07:06:00Z",
-          "note": "Industry participants expect operators to shift toward alternative vessels or routes rather than halt Gulf crude trade entirely; the blacklist may reroute flows more than reduce aggregate supply."
-        },
-        {
-          "uri": "https://www.reuters.com/world/asia-pacific/us-oil-prices-extend-losses-hopes-iran-oman-talks-strait-hormuz-2026-08-25/",
-          "title": "Reuters: oil markets still price reopening optimism",
-          "observedAt": "2026-08-26T07:06:00Z",
-          "note": "Crude prices are declining on Iran-Oman reopening talks, implying the market currently expects logistical substitution and diplomacy to outweigh at least part of the blacklist risk."
-        }
-      ],
-      "falsifier": "Downgrade the behavioral-contagion thesis if blacklisted vessels and their STS counterparties continue receiving comparable chartering activity to matched non-listed vessels, no measurable route/ownership/AIS changes occur, and freight or insurance premia do not differentiate despite the blacklist.",
-      "actionState": "DETECTED",
-      "ledgerRef": null,
-      "geo": {
-        "lat": 26.5667,
-        "lon": 56.25,
-        "label": "Strait of Hormuz / Gulf of Oman STS network",
-        "precision": "chokepoint",
-        "evidence": [
-          {
-            "uri": "https://www.reuters.com/business/energy/some-oil-companies-avoid-ships-iran-blacklist-sources-say-2026-08-26/",
-            "title": "Reuters reporting on charterer/refiner response to Hormuz blacklist",
-            "observedAt": "2026-08-26T07:06:00Z"
-          }
-        ]
-      },
-      "hypothesis": "Blacklist-network adjacency will predict charter avoidance, route changes and risk-premium differentiation earlier than aggregate Hormuz traffic or oil-price headlines alone.",
-      "baselineSource": {
-        "uri": "https://www.reuters.com/business/energy/some-oil-companies-avoid-ships-iran-blacklist-sources-say-2026-08-26/",
-        "title": "PGSA blacklist announcement plus aggregate Hormuz vessel counts and Brent price action",
-        "observedAt": "2026-08-26T07:06:00Z",
-        "note": "Baseline description from the source-backed event fixture."
-      },
-      "alternativeDataSource": {
-        "uri": "https://www.reuters.com/business/energy/some-oil-companies-avoid-ships-iran-blacklist-sources-say-2026-08-26/",
-        "title": "vessel identity/ownership, STS counterparty graph, chartering changes, AIS-dark behavior, freight differentials and war-risk insurance for listed versus matched unlisted vessels",
-        "observedAt": "2026-08-26T07:06:00Z",
-        "note": "Candidate alternative-data layer. DETECTED only until direct data access and held-out evaluation exist."
-      },
-      "incrementalValueMetric": "3-7 day difference in charter activity, route changes and risk-premium movement for listed/adjacent vessels versus a matched unlisted cohort, plus forecast error relative to the aggregate baseline",
-      "killCondition": "Kill the graph-expansion hypothesis if blacklist adjacency fails to produce measurable out-of-sample differences in chartering, routing, freight or insurance after controlling for vessel class and Gulf exposure."
     }
   ]
 }
