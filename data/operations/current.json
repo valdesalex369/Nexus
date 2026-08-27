@@ -1,6 +1,125 @@
 {
-  "generatedAt": "2026-08-27T01:59:33.581Z",
+  "generatedAt": "2026-08-27T04:11:47.658Z",
   "realityDelta": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260827-qatar-mediation-hormuz-prewar-baseline",
+      "observedAt": "2026-08-27T04:09:00Z",
+      "sourceUri": "https://www.reuters.com/world/middle-east/qatar-pm-visit-tehran-pursue-mediation-efforts-2026-08-26/",
+      "sourceType": "secondary",
+      "entities": [
+        "Qatar",
+        "Iran",
+        "United States",
+        "Oman",
+        "Strait of Hormuz",
+        "commercial oil shipping",
+        "Qatar Ministry of Foreign Affairs"
+      ],
+      "relations": [
+        {
+          "from": "Qatar prime minister",
+          "relation": "travels to Tehran to relaunch mediation between",
+          "to": "Iran and United States",
+          "confidence": 0.95
+        },
+        {
+          "from": "Qatar",
+          "relation": "supports restoration of freedom of navigation through",
+          "to": "Strait of Hormuz",
+          "confidence": 0.98
+        },
+        {
+          "from": "ship-tracking data",
+          "relation": "estimates Monday Hormuz oil flows near 5 million b/d versus roughly 20 million b/d before the war through",
+          "to": "Strait of Hormuz",
+          "confidence": 0.93
+        },
+        {
+          "from": "Iran-Oman negotiations",
+          "relation": "remain unfinished over control and revenues of",
+          "to": "Strait of Hormuz",
+          "confidence": 0.94
+        },
+        {
+          "from": "oil markets",
+          "relation": "price increased probability of de-escalation while physical flows remain around one-quarter of pre-war baseline through",
+          "to": "Strait of Hormuz",
+          "confidence": 0.9
+        }
+      ],
+      "confidence": 0.93,
+      "supportingEvidence": [
+        {
+          "uri": "https://www.reuters.com/world/middle-east/qatar-pm-visit-tehran-pursue-mediation-efforts-2026-08-26/",
+          "title": "Reuters: Qatar PM heads to Tehran as Hormuz flows remain at a three-month low",
+          "observedAt": "2026-08-27T04:09:00Z",
+          "note": "Reuters reports Qatar's prime minister will visit Tehran to relaunch diplomacy and cites ship-tracking data showing about 5 million b/d of Hormuz oil flow on Monday versus roughly 20 million b/d before the war."
+        },
+        {
+          "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/25/phone-call-between-prime-minister-and-minister-of-foreign-affairs--iranian-foreign-minister",
+          "title": "Qatar Ministry of Foreign Affairs: support for temporary corridor, mine clearing and freedom of navigation",
+          "observedAt": "2026-08-27T04:09:00Z",
+          "note": "Primary Qatari source confirms support for Iran-Oman corridor and mine-clearing talks and explicitly calls for freedom of maritime navigation."
+        },
+        {
+          "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/25/prime-minister-and-minister-of-foreign-affairs--oman%27s-foreign-minister-hold-phone-conversation",
+          "title": "Qatar Ministry of Foreign Affairs: phased Hormuz framework remains under discussion",
+          "observedAt": "2026-08-27T04:09:00Z",
+          "note": "Primary Qatari source confirms ongoing Oman-Iran discussions on a phased temporary navigation route and joint demining project rather than a completed normalization state."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://www.reuters.com/business/energy/oil-prices-extend-losses-expectations-talks-ease-middle-east-supply-woes-2026-08-27/",
+          "title": "Reuters: oil prices continue falling as markets price reopening hopes",
+          "observedAt": "2026-08-27T04:09:00Z",
+          "note": "Brent and WTI continued multi-day declines, showing that market pricing is moving toward de-escalation even though observed physical flow remains deeply impaired."
+        },
+        {
+          "uri": "https://www.reuters.com/world/middle-east/qatar-pm-visit-tehran-pursue-mediation-efforts-2026-08-26/",
+          "title": "Reuters: Iran retains military leverage and negotiations remain unresolved",
+          "observedAt": "2026-08-27T04:09:00Z",
+          "note": "The same report says Iran retains missile/drone capability, 70 maritime incidents have been recorded since the war began, and no final Iran-Oman agreement exists yet."
+        }
+      ],
+      "falsifier": "Downgrade the current narrative-physical divergence if independent Hormuz oil flow rises and holds near the pre-war ~20 million b/d baseline, maritime incidents fall materially, freight/war-risk insurance normalizes, and Iran/Oman/Qatar publish compatible navigation terms that are operationally observed.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "geo": {
+        "lat": 26.5667,
+        "lon": 56.25,
+        "label": "Strait of Hormuz",
+        "precision": "chokepoint",
+        "evidence": [
+          {
+            "uri": "https://www.reuters.com/world/middle-east/qatar-pm-visit-tehran-pursue-mediation-efforts-2026-08-26/",
+            "title": "Reuters ship-tracking estimate and Qatar mediation report",
+            "observedAt": "2026-08-27T04:09:00Z"
+          }
+        ]
+      },
+      "title": "Qatar mediation begins while Hormuz oil flow remains near one-quarter of pre-war baseline",
+      "summary": "Qatar's prime minister is heading to Tehran to relaunch mediation and push freedom of navigation, while Reuters cites ship-tracking data showing roughly 5 million b/d through Hormuz versus about 20 million b/d before the war. Diplomatic de-escalation is advancing faster than physical normalization.",
+      "delta": "Replace the recent-crisis moving average as the main normalization yardstick with the pre-war physical baseline. Treat current flows near 5 million b/d versus ~20 million b/d pre-war as severe residual impairment. Qatar's active mediation raises reopening probability but does not justify NORMALIZING until physical flow and security data confirm it.",
+      "firstOrderImpacts": [
+        "continued downside pressure on crude risk premium if Qatar mediation gains traction",
+        "persistent physical supply and shipping constraints while Hormuz oil flow remains near one-quarter of pre-war levels",
+        "higher value of pre-war baseline comparisons over crisis-period moving averages"
+      ],
+      "secondOrderImpacts": [
+        "market prices may normalize materially ahead of physical throughput",
+        "freight, insurance and refined-product stress can remain elevated even as crude prices fall",
+        "Orbital Insight should distinguish absolute recovery from short-term momentum to avoid false normalization signals"
+      ],
+      "alphaHunter": {
+        "hypothesis": "A pre-war absolute-flow baseline plus maritime-security telemetry will classify Hormuz normalization more accurately than crisis-period moving averages or oil-price reaction alone.",
+        "baseline": "diplomatic headlines, Brent/WTI reaction and recent crisis-period traffic averages",
+        "alternativeData": "absolute oil-flow estimates versus pre-war baseline, vessel counts, IMF PortWatch where available, maritime incident data, tanker freight, war-risk insurance and refined-product deliveries",
+        "incrementalValueMetric": "3-7 day classification accuracy for SEVERE_IMPAIRMENT / CONTESTED_REOPENING / NORMALIZING using later physical-flow and logistics evidence",
+        "killCondition": "Kill the added baseline/security layer if it does not improve held-out normalization classification versus a simple public-headline and oil-price baseline or if the physical data arrive too late to affect decisions."
+      }
+    },
     {
       "kind": "reality-delta",
       "id": "ui-20260827-nvidia-fy28-supply-constrained-demand-guidance",
@@ -885,93 +1004,6 @@
         "Nexus can treat WebMCP/MCP/A2A as commodity interoperability while owning policy, provenance, contradiction handling and outcome calibration",
         "source and tool authenticity become more important because malicious or compromised sites can expose structured but unsafe capabilities"
       ]
-    },
-    {
-      "kind": "reality-delta",
-      "id": "ui-20260826-kimi-k3-us-cloud-interoperability",
-      "observedAt": "2026-08-26T08:57:00Z",
-      "sourceUri": "https://www.reuters.com/business/retail-consumer/chinas-moonshot-talks-with-microsoft-amazon-google-over-k3-revenue-sharing-2026-08-26/",
-      "sourceType": "secondary",
-      "entities": [
-        "Moonshot AI",
-        "Kimi K3",
-        "Microsoft",
-        "Amazon Web Services",
-        "Google Cloud",
-        "Fireworks AI",
-        "Nexus/STEM"
-      ],
-      "relations": [
-        {
-          "from": "Moonshot AI",
-          "relation": "is in early revenue-sharing talks with",
-          "to": "Microsoft, Amazon and Google",
-          "confidence": 0.92
-        },
-        {
-          "from": "Kimi K3",
-          "relation": "is intended for hosted access through",
-          "to": "U.S. hyperscale cloud platforms",
-          "confidence": 0.88
-        },
-        {
-          "from": "Microsoft Foundry",
-          "relation": "already exposes Kimi K3 through",
-          "to": "Fireworks AI",
-          "confidence": 0.98
-        },
-        {
-          "from": "cross-provider hosting",
-          "relation": "reduces deployment friction but increases importance of",
-          "to": "data custody, auditability and provider-policy routing",
-          "confidence": 0.86
-        }
-      ],
-      "confidence": 0.9,
-      "supportingEvidence": [
-        {
-          "uri": "https://www.reuters.com/business/retail-consumer/chinas-moonshot-talks-with-microsoft-amazon-google-over-k3-revenue-sharing-2026-08-26/",
-          "title": "Reuters: Moonshot in talks with Microsoft, Amazon and Google over K3 revenue sharing",
-          "observedAt": "2026-08-26T08:57:00Z",
-          "note": "Reuters reports early negotiations that could let U.S. hyperscalers host Kimi K3 directly under revenue-sharing arrangements; unresolved terms include revenue attribution, data access and token-usage auditing."
-        },
-        {
-          "uri": "https://www.kimi.com/blog/kimi-k3",
-          "title": "Moonshot/Kimi: Kimi K3 technical release",
-          "observedAt": "2026-08-26T08:57:00Z",
-          "note": "Primary Moonshot source confirms Kimi K3 as an open 2.8T-parameter frontier model with 1M-token context and long-horizon coding/reasoning positioning."
-        },
-        {
-          "uri": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-kimi-k3-through-fireworks-ai-on-microsoft-foundry/4540187",
-          "title": "Microsoft Foundry: Kimi K3 available through Fireworks AI",
-          "observedAt": "2026-08-26T08:57:00Z",
-          "note": "Primary Microsoft ecosystem evidence shows Kimi K3 is already deployable on Microsoft Foundry through Fireworks AI, independently confirming U.S. cloud distribution is technically and commercially feasible."
-        }
-      ],
-      "contradictingEvidence": [
-        {
-          "uri": "https://www.reuters.com/business/retail-consumer/chinas-moonshot-talks-with-microsoft-amazon-google-over-k3-revenue-sharing-2026-08-26/",
-          "title": "Reuters: talks remain early and face unresolved commercial/policy issues",
-          "observedAt": "2026-08-26T08:57:00Z",
-          "note": "No direct Moonshot, Microsoft, AWS or Google announcement confirms final direct-hosting agreements. Revenue attribution, data access, auditing and U.S. political/export-control scrutiny remain unresolved."
-        }
-      ],
-      "falsifier": "Downgrade the cross-provider interoperability thesis if the reported talks fail to produce direct hosting agreements, regulatory or trade restrictions block distribution, or enterprise users show no meaningful preference for provider-portable access to Kimi K3 versus existing third-party hosting.",
-      "actionState": "DETECTED",
-      "ledgerRef": null,
-      "title": "Kimi K3 pushes Chinese frontier intelligence toward U.S. hyperscale distribution",
-      "summary": "Moonshot is reportedly negotiating direct revenue-sharing distribution of Kimi K3 with Microsoft, AWS and Google while K3 is already technically available through Microsoft Foundry via Fireworks. This strengthens the case that model capability can cross geopolitical/provider boundaries faster than application architectures do.",
-      "delta": "Upgrade model portability and cross-provider distribution as a near-term reality, while keeping direct Moonshot-hyperscaler agreements unconfirmed. For Nexus, provider routing becomes less differentiated; custody, policy, provenance and outcome calibration become more important.",
-      "firstOrderImpacts": [
-        "lower enterprise deployment friction for Kimi K3 if direct cloud hosting closes",
-        "more pricing pressure and model choice inside U.S. cloud ecosystems",
-        "greater need to distinguish model origin from hosting provider and data-custody policy"
-      ],
-      "secondOrderImpacts": [
-        "geopolitical model boundaries may become porous at the commercial distribution layer even while export-control and security scrutiny rises",
-        "multi-model routers need separate fields for model developer, serving provider, jurisdiction, retention policy and auditability",
-        "Nexus differentiation shifts further away from simple model access toward contradiction-preserving evidence, policy-aware routing and measured outcomes"
-      ]
     }
   ],
   "opportunityRadar": [
@@ -1053,6 +1085,125 @@
     }
   ],
   "orbitalInsight": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260827-qatar-mediation-hormuz-prewar-baseline",
+      "observedAt": "2026-08-27T04:09:00Z",
+      "sourceUri": "https://www.reuters.com/world/middle-east/qatar-pm-visit-tehran-pursue-mediation-efforts-2026-08-26/",
+      "sourceType": "secondary",
+      "entities": [
+        "Qatar",
+        "Iran",
+        "United States",
+        "Oman",
+        "Strait of Hormuz",
+        "commercial oil shipping",
+        "Qatar Ministry of Foreign Affairs"
+      ],
+      "relations": [
+        {
+          "from": "Qatar prime minister",
+          "relation": "travels to Tehran to relaunch mediation between",
+          "to": "Iran and United States",
+          "confidence": 0.95
+        },
+        {
+          "from": "Qatar",
+          "relation": "supports restoration of freedom of navigation through",
+          "to": "Strait of Hormuz",
+          "confidence": 0.98
+        },
+        {
+          "from": "ship-tracking data",
+          "relation": "estimates Monday Hormuz oil flows near 5 million b/d versus roughly 20 million b/d before the war through",
+          "to": "Strait of Hormuz",
+          "confidence": 0.93
+        },
+        {
+          "from": "Iran-Oman negotiations",
+          "relation": "remain unfinished over control and revenues of",
+          "to": "Strait of Hormuz",
+          "confidence": 0.94
+        },
+        {
+          "from": "oil markets",
+          "relation": "price increased probability of de-escalation while physical flows remain around one-quarter of pre-war baseline through",
+          "to": "Strait of Hormuz",
+          "confidence": 0.9
+        }
+      ],
+      "confidence": 0.93,
+      "supportingEvidence": [
+        {
+          "uri": "https://www.reuters.com/world/middle-east/qatar-pm-visit-tehran-pursue-mediation-efforts-2026-08-26/",
+          "title": "Reuters: Qatar PM heads to Tehran as Hormuz flows remain at a three-month low",
+          "observedAt": "2026-08-27T04:09:00Z",
+          "note": "Reuters reports Qatar's prime minister will visit Tehran to relaunch diplomacy and cites ship-tracking data showing about 5 million b/d of Hormuz oil flow on Monday versus roughly 20 million b/d before the war."
+        },
+        {
+          "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/25/phone-call-between-prime-minister-and-minister-of-foreign-affairs--iranian-foreign-minister",
+          "title": "Qatar Ministry of Foreign Affairs: support for temporary corridor, mine clearing and freedom of navigation",
+          "observedAt": "2026-08-27T04:09:00Z",
+          "note": "Primary Qatari source confirms support for Iran-Oman corridor and mine-clearing talks and explicitly calls for freedom of maritime navigation."
+        },
+        {
+          "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/25/prime-minister-and-minister-of-foreign-affairs--oman%27s-foreign-minister-hold-phone-conversation",
+          "title": "Qatar Ministry of Foreign Affairs: phased Hormuz framework remains under discussion",
+          "observedAt": "2026-08-27T04:09:00Z",
+          "note": "Primary Qatari source confirms ongoing Oman-Iran discussions on a phased temporary navigation route and joint demining project rather than a completed normalization state."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://www.reuters.com/business/energy/oil-prices-extend-losses-expectations-talks-ease-middle-east-supply-woes-2026-08-27/",
+          "title": "Reuters: oil prices continue falling as markets price reopening hopes",
+          "observedAt": "2026-08-27T04:09:00Z",
+          "note": "Brent and WTI continued multi-day declines, showing that market pricing is moving toward de-escalation even though observed physical flow remains deeply impaired."
+        },
+        {
+          "uri": "https://www.reuters.com/world/middle-east/qatar-pm-visit-tehran-pursue-mediation-efforts-2026-08-26/",
+          "title": "Reuters: Iran retains military leverage and negotiations remain unresolved",
+          "observedAt": "2026-08-27T04:09:00Z",
+          "note": "The same report says Iran retains missile/drone capability, 70 maritime incidents have been recorded since the war began, and no final Iran-Oman agreement exists yet."
+        }
+      ],
+      "falsifier": "Downgrade the current narrative-physical divergence if independent Hormuz oil flow rises and holds near the pre-war ~20 million b/d baseline, maritime incidents fall materially, freight/war-risk insurance normalizes, and Iran/Oman/Qatar publish compatible navigation terms that are operationally observed.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "geo": {
+        "lat": 26.5667,
+        "lon": 56.25,
+        "label": "Strait of Hormuz",
+        "precision": "chokepoint",
+        "evidence": [
+          {
+            "uri": "https://www.reuters.com/world/middle-east/qatar-pm-visit-tehran-pursue-mediation-efforts-2026-08-26/",
+            "title": "Reuters ship-tracking estimate and Qatar mediation report",
+            "observedAt": "2026-08-27T04:09:00Z"
+          }
+        ]
+      },
+      "title": "Qatar mediation begins while Hormuz oil flow remains near one-quarter of pre-war baseline",
+      "summary": "Qatar's prime minister is heading to Tehran to relaunch mediation and push freedom of navigation, while Reuters cites ship-tracking data showing roughly 5 million b/d through Hormuz versus about 20 million b/d before the war. Diplomatic de-escalation is advancing faster than physical normalization.",
+      "delta": "Replace the recent-crisis moving average as the main normalization yardstick with the pre-war physical baseline. Treat current flows near 5 million b/d versus ~20 million b/d pre-war as severe residual impairment. Qatar's active mediation raises reopening probability but does not justify NORMALIZING until physical flow and security data confirm it.",
+      "firstOrderImpacts": [
+        "continued downside pressure on crude risk premium if Qatar mediation gains traction",
+        "persistent physical supply and shipping constraints while Hormuz oil flow remains near one-quarter of pre-war levels",
+        "higher value of pre-war baseline comparisons over crisis-period moving averages"
+      ],
+      "secondOrderImpacts": [
+        "market prices may normalize materially ahead of physical throughput",
+        "freight, insurance and refined-product stress can remain elevated even as crude prices fall",
+        "Orbital Insight should distinguish absolute recovery from short-term momentum to avoid false normalization signals"
+      ],
+      "alphaHunter": {
+        "hypothesis": "A pre-war absolute-flow baseline plus maritime-security telemetry will classify Hormuz normalization more accurately than crisis-period moving averages or oil-price reaction alone.",
+        "baseline": "diplomatic headlines, Brent/WTI reaction and recent crisis-period traffic averages",
+        "alternativeData": "absolute oil-flow estimates versus pre-war baseline, vessel counts, IMF PortWatch where available, maritime incident data, tanker freight, war-risk insurance and refined-product deliveries",
+        "incrementalValueMetric": "3-7 day classification accuracy for SEVERE_IMPAIRMENT / CONTESTED_REOPENING / NORMALIZING using later physical-flow and logistics evidence",
+        "killCondition": "Kill the added baseline/security layer if it does not improve held-out normalization classification versus a simple public-headline and oil-price baseline or if the physical data arrive too late to affect decisions."
+      }
+    },
     {
       "kind": "reality-delta",
       "id": "ui-20260826-hormuz-governance-claim-downgrade",
@@ -1661,6 +1812,120 @@
   "alphaHunter": [
     {
       "kind": "alternative-data-trial",
+      "id": "alpha-ui-20260827-qatar-mediation-hormuz-prewar-baseline",
+      "observedAt": "2026-08-27T04:09:00Z",
+      "sourceUri": "https://www.reuters.com/world/middle-east/qatar-pm-visit-tehran-pursue-mediation-efforts-2026-08-26/",
+      "sourceType": "alternative-data",
+      "entities": [
+        "Qatar",
+        "Iran",
+        "United States",
+        "Oman",
+        "Strait of Hormuz",
+        "commercial oil shipping",
+        "Qatar Ministry of Foreign Affairs"
+      ],
+      "relations": [
+        {
+          "from": "Qatar prime minister",
+          "relation": "travels to Tehran to relaunch mediation between",
+          "to": "Iran and United States",
+          "confidence": 0.95
+        },
+        {
+          "from": "Qatar",
+          "relation": "supports restoration of freedom of navigation through",
+          "to": "Strait of Hormuz",
+          "confidence": 0.98
+        },
+        {
+          "from": "ship-tracking data",
+          "relation": "estimates Monday Hormuz oil flows near 5 million b/d versus roughly 20 million b/d before the war through",
+          "to": "Strait of Hormuz",
+          "confidence": 0.93
+        },
+        {
+          "from": "Iran-Oman negotiations",
+          "relation": "remain unfinished over control and revenues of",
+          "to": "Strait of Hormuz",
+          "confidence": 0.94
+        },
+        {
+          "from": "oil markets",
+          "relation": "price increased probability of de-escalation while physical flows remain around one-quarter of pre-war baseline through",
+          "to": "Strait of Hormuz",
+          "confidence": 0.9
+        }
+      ],
+      "confidence": 0.93,
+      "supportingEvidence": [
+        {
+          "uri": "https://www.reuters.com/world/middle-east/qatar-pm-visit-tehran-pursue-mediation-efforts-2026-08-26/",
+          "title": "Reuters: Qatar PM heads to Tehran as Hormuz flows remain at a three-month low",
+          "observedAt": "2026-08-27T04:09:00Z",
+          "note": "Reuters reports Qatar's prime minister will visit Tehran to relaunch diplomacy and cites ship-tracking data showing about 5 million b/d of Hormuz oil flow on Monday versus roughly 20 million b/d before the war."
+        },
+        {
+          "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/25/phone-call-between-prime-minister-and-minister-of-foreign-affairs--iranian-foreign-minister",
+          "title": "Qatar Ministry of Foreign Affairs: support for temporary corridor, mine clearing and freedom of navigation",
+          "observedAt": "2026-08-27T04:09:00Z",
+          "note": "Primary Qatari source confirms support for Iran-Oman corridor and mine-clearing talks and explicitly calls for freedom of maritime navigation."
+        },
+        {
+          "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/25/prime-minister-and-minister-of-foreign-affairs--oman%27s-foreign-minister-hold-phone-conversation",
+          "title": "Qatar Ministry of Foreign Affairs: phased Hormuz framework remains under discussion",
+          "observedAt": "2026-08-27T04:09:00Z",
+          "note": "Primary Qatari source confirms ongoing Oman-Iran discussions on a phased temporary navigation route and joint demining project rather than a completed normalization state."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://www.reuters.com/business/energy/oil-prices-extend-losses-expectations-talks-ease-middle-east-supply-woes-2026-08-27/",
+          "title": "Reuters: oil prices continue falling as markets price reopening hopes",
+          "observedAt": "2026-08-27T04:09:00Z",
+          "note": "Brent and WTI continued multi-day declines, showing that market pricing is moving toward de-escalation even though observed physical flow remains deeply impaired."
+        },
+        {
+          "uri": "https://www.reuters.com/world/middle-east/qatar-pm-visit-tehran-pursue-mediation-efforts-2026-08-26/",
+          "title": "Reuters: Iran retains military leverage and negotiations remain unresolved",
+          "observedAt": "2026-08-27T04:09:00Z",
+          "note": "The same report says Iran retains missile/drone capability, 70 maritime incidents have been recorded since the war began, and no final Iran-Oman agreement exists yet."
+        }
+      ],
+      "falsifier": "Downgrade the current narrative-physical divergence if independent Hormuz oil flow rises and holds near the pre-war ~20 million b/d baseline, maritime incidents fall materially, freight/war-risk insurance normalizes, and Iran/Oman/Qatar publish compatible navigation terms that are operationally observed.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "geo": {
+        "lat": 26.5667,
+        "lon": 56.25,
+        "label": "Strait of Hormuz",
+        "precision": "chokepoint",
+        "evidence": [
+          {
+            "uri": "https://www.reuters.com/world/middle-east/qatar-pm-visit-tehran-pursue-mediation-efforts-2026-08-26/",
+            "title": "Reuters ship-tracking estimate and Qatar mediation report",
+            "observedAt": "2026-08-27T04:09:00Z"
+          }
+        ]
+      },
+      "hypothesis": "A pre-war absolute-flow baseline plus maritime-security telemetry will classify Hormuz normalization more accurately than crisis-period moving averages or oil-price reaction alone.",
+      "baselineSource": {
+        "uri": "https://www.reuters.com/world/middle-east/qatar-pm-visit-tehran-pursue-mediation-efforts-2026-08-26/",
+        "title": "diplomatic headlines, Brent/WTI reaction and recent crisis-period traffic averages",
+        "observedAt": "2026-08-27T04:09:00Z",
+        "note": "Baseline description from the source-backed event fixture."
+      },
+      "alternativeDataSource": {
+        "uri": "https://www.reuters.com/world/middle-east/qatar-pm-visit-tehran-pursue-mediation-efforts-2026-08-26/",
+        "title": "absolute oil-flow estimates versus pre-war baseline, vessel counts, IMF PortWatch where available, maritime incident data, tanker freight, war-risk insurance and refined-product deliveries",
+        "observedAt": "2026-08-27T04:09:00Z",
+        "note": "Candidate alternative-data layer. DETECTED only until direct data access and held-out evaluation exist."
+      },
+      "incrementalValueMetric": "3-7 day classification accuracy for SEVERE_IMPAIRMENT / CONTESTED_REOPENING / NORMALIZING using later physical-flow and logistics evidence",
+      "killCondition": "Kill the added baseline/security layer if it does not improve held-out normalization classification versus a simple public-headline and oil-price baseline or if the physical data arrive too late to affect decisions."
+    },
+    {
+      "kind": "alternative-data-trial",
       "id": "alpha-ui-20260826-hormuz-governance-claim-downgrade",
       "observedAt": "2026-08-26T15:54:03Z",
       "sourceUri": "https://www.reuters.com/world/china/iran-oman-discuss-temporary-hormuz-corridor-impasse-with-us-drags-2026-08-25/",
@@ -2104,101 +2369,6 @@
       },
       "incrementalValueMetric": "3-7 day forecast error for confirmed throughput/security normalization versus the public diplomatic/price baseline",
       "killCondition": "Kill the extra data layer if it fails to improve held-out reopening-state forecasts, cannot be independently replicated at acceptable cost, or arrives too late to change a research decision."
-    },
-    {
-      "kind": "alternative-data-trial",
-      "id": "alpha-ui-20260825-hormuz-demining-corridor",
-      "observedAt": "2026-08-25T20:02:13Z",
-      "sourceUri": "https://www.reuters.com/business/energy/oil-prices-steady-investors-weigh-impact-expanded-us-sanctions-against-iran-2026-08-25/",
-      "sourceType": "alternative-data",
-      "entities": [
-        "Strait of Hormuz",
-        "United States Navy",
-        "Iran",
-        "Oman",
-        "commercial shipping",
-        "oil markets"
-      ],
-      "relations": [
-        {
-          "from": "United States Navy",
-          "relation": "reports mine-clearing of main shipping lane",
-          "to": "Strait of Hormuz",
-          "confidence": 0.82
-        },
-        {
-          "from": "Iran",
-          "relation": "negotiates temporary navigation framework with",
-          "to": "Oman",
-          "confidence": 0.86
-        },
-        {
-          "from": "navigation-security improvement",
-          "relation": "reduces immediate supply-risk premium in",
-          "to": "oil markets",
-          "confidence": 0.79
-        }
-      ],
-      "confidence": 0.84,
-      "supportingEvidence": [
-        {
-          "uri": "https://apnews.com/article/1a4fa2e3812c458a25a561b38dc89f09",
-          "title": "AP: Iran and Oman discuss temporary navigational corridor and mine-clearing framework",
-          "observedAt": "2026-08-25T20:02:13Z",
-          "note": "Independent reporting confirms active corridor/de-mining negotiations and continued navigational hazards."
-        },
-        {
-          "uri": "https://www.fm.gov.om/en/49722/",
-          "title": "Oman Foreign Ministry: Oman-Iran Committee on Strait of Hormuz",
-          "observedAt": "2026-08-25T20:02:13Z",
-          "note": "Primary background confirms an established bilateral mechanism for future navigation management."
-        },
-        {
-          "uri": "https://www.reuters.com/business/energy/oil-prices-steady-investors-weigh-impact-expanded-us-sanctions-against-iran-2026-08-25/",
-          "title": "Reuters: Brent and WTI fall as markets price lower near-term supply risk",
-          "observedAt": "2026-08-25T20:02:13Z",
-          "note": "Oil price reaction is consistent with lower perceived immediate disruption risk, though it does not prove physical normalization."
-        }
-      ],
-      "contradictingEvidence": [
-        {
-          "uri": "https://www.reuters.com/world/china/iran-vows-retaliate-after-us-widens-sanctions-2026-08-25/",
-          "title": "Reuters: Iran vows retaliation and tanker attack risk remains",
-          "observedAt": "2026-08-25T20:02:13Z",
-          "note": "Mine-clearing and diplomacy have not removed coercion, sanctions, selective transit, or attack risk."
-        }
-      ],
-      "falsifier": "Independent vessel throughput, freight/insurance premiums, and refined-product delivery fail to improve materially over the next several days despite claimed mine-clearing and corridor negotiations, or a new major attack/remine event reverses navigational gains.",
-      "actionState": "DETECTED",
-      "ledgerRef": null,
-      "geo": {
-        "lat": 26.5667,
-        "lon": 56.25,
-        "label": "Strait of Hormuz",
-        "precision": "chokepoint",
-        "evidence": [
-          {
-            "uri": "https://apnews.com/article/1a4fa2e3812c458a25a561b38dc89f09",
-            "title": "AP reporting on Hormuz navigation talks",
-            "observedAt": "2026-08-25T20:02:13Z"
-          }
-        ]
-      },
-      "hypothesis": "Independent physical-flow data will confirm or reject the claimed reopening faster and more reliably than official political statements or oil-price reaction alone.",
-      "baselineSource": {
-        "uri": "https://www.reuters.com/business/energy/oil-prices-steady-investors-weigh-impact-expanded-us-sanctions-against-iran-2026-08-25/",
-        "title": "Official mine-clearing / corridor statements plus Brent price reaction",
-        "observedAt": "2026-08-25T20:02:13Z",
-        "note": "Baseline description from the source-backed event fixture."
-      },
-      "alternativeDataSource": {
-        "uri": "https://apnews.com/article/1a4fa2e3812c458a25a561b38dc89f09",
-        "title": "Independent vessel counts/throughput, freight rates, war-risk insurance, and later refined-product delivery data",
-        "observedAt": "2026-08-25T20:02:13Z",
-        "note": "Candidate alternative-data layer. DETECTED only until direct data access and held-out evaluation exist."
-      },
-      "incrementalValueMetric": "Forecast error for 3-7 day confirmed throughput and freight/insurance normalization versus the baseline",
-      "killCondition": "Kill the added complexity if public/low-cost physical-flow data cannot beat the baseline on held-out outcomes or arrives too late to change a decision."
     }
   ]
 }
