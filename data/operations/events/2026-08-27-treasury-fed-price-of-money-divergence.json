@@ -1,0 +1,75 @@
+{
+  "kind": "reality-delta",
+  "id": "ui-20260827-treasury-fed-price-of-money-divergence",
+  "observedAt": "2026-08-27T13:05:00Z",
+  "sourceUri": "https://www.reuters.com/business/finance/bessent-warsh-diverge-who-should-set-price-money-2026-08-27/",
+  "sourceType": "primary-mirror",
+  "entities": [
+    "U.S. Department of the Treasury",
+    "Secretary Scott Bessent",
+    "Federal Reserve",
+    "Chair Kevin Warsh",
+    "U.S. Treasury market",
+    "U.S. dollar",
+    "AI infrastructure borrowers",
+    "Nexus/STEM"
+  ],
+  "relations": [
+    {"from": "Treasury long-end liquidity buybacks", "relation": "seek to support", "to": "long-dated Treasury market liquidity", "confidence": 0.99},
+    {"from": "larger Treasury buybacks", "relation": "can damp or distort", "to": "market-clearing long-term yield signals", "confidence": 0.74},
+    {"from": "Federal Reserve monetary-policy mandate", "relation": "assigns monetary policy authority to", "to": "the FOMC", "confidence": 0.99},
+    {"from": "Treasury market intervention versus Fed market-price preference", "relation": "creates", "to": "policy-governance divergence over the price of money", "confidence": 0.87},
+    {"from": "policy-governance divergence", "relation": "raises uncertainty around", "to": "long-end yields, dollar pricing, and financing conditions", "confidence": 0.82}
+  ],
+  "confidence": 0.89,
+  "supportingEvidence": [
+    {
+      "uri": "https://home.treasury.gov/news/press-releases/sb0607/",
+      "title": "U.S. Treasury: Increased Sizes of Nominal Long-End Liquidity Support Buybacks",
+      "observedAt": "2026-08-27T13:05:00Z",
+      "note": "Treasury says long-end liquidity-support buybacks will at least double from a $2 billion maximum to at least $4 billion per operation beginning September 9, 2026, explicitly to provide greater liquidity support in longer-dated nominal sectors."
+    },
+    {
+      "uri": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+      "title": "Federal Reserve: Federal Open Market Committee mandate and tools",
+      "observedAt": "2026-08-27T13:05:00Z",
+      "note": "The Federal Reserve states that the Federal Reserve Act assigns responsibility for setting monetary policy to the Federal Reserve/FOMC and that changes in the federal funds rate propagate into longer-term rates and broader financial conditions."
+    },
+    {
+      "uri": "https://www.reuters.com/business/finance/bessent-warsh-diverge-who-should-set-price-money-2026-08-27/",
+      "title": "Reuters: Bessent, Warsh diverge on who should set the price of money",
+      "observedAt": "2026-08-27T13:05:00Z",
+      "note": "Reuters reports that Treasury's more interventionist approach to long-end market functioning sits in tension with Chair Warsh's preference for greater market price discovery, while investors question whether fiscal deficits rather than liquidity dysfunction are the dominant cause of high yields."
+    }
+  ],
+  "contradictingEvidence": [
+    {
+      "uri": "https://home.treasury.gov/news/press-releases/sb0607/",
+      "title": "Treasury frames the buybacks as liquidity support, not yield targeting",
+      "observedAt": "2026-08-27T13:05:00Z",
+      "note": "Treasury's stated purpose is market liquidity support, not an explicit long-term yield target. The existence of larger buybacks therefore does not by itself prove fiscal authorities are overriding monetary policy."
+    },
+    {
+      "uri": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+      "title": "The Fed retains formal monetary-policy authority",
+      "observedAt": "2026-08-27T13:05:00Z",
+      "note": "Formal monetary-policy authority remains with the Federal Reserve/FOMC, so the current divergence may be a difference in market-function philosophy rather than an institutional power conflict."
+    }
+  ],
+  "falsifier": "Downgrade the policy-governance divergence thesis if Treasury's larger buybacks have little measurable effect on long-end yields or the dollar beyond ordinary liquidity improvements, or if Fed/Treasury communications converge on a consistent framework that clearly separates liquidity support from monetary-policy signaling.",
+  "actionState": "DETECTED",
+  "ledgerRef": null,
+  "title": "Treasury and Fed diverge over how much policymakers should shape the price of money",
+  "summary": "Treasury is doubling long-end liquidity-support buybacks while the Federal Reserve retains formal monetary-policy authority and Chair Warsh is reported to favor more market price discovery. The divergence raises uncertainty over how much long-term yields should reflect fiscal risk versus policy efforts to smooth market conditions.",
+  "delta": "Add a distinct policy-governance state between fiscal debt-management intervention and monetary-policy price discovery. Do not interpret larger Treasury buybacks as equivalent to a Fed rate cut or yield-curve control; instead track whether the interventions measurably change long-end yields, dollar pricing, term premium, or financing conditions beyond liquidity effects.",
+  "firstOrderImpacts": [
+    "greater uncertainty around long-duration Treasury yields and the U.S. dollar ahead of Jackson Hole",
+    "possible compression of long-end yields if buybacks materially improve liquidity or alter market expectations",
+    "higher sensitivity for mortgage rates, long-duration equities, crypto, and capital-intensive AI/data-center financing"
+  ],
+  "secondOrderImpacts": [
+    "ULTRA INSTINCT should separate market-liquidity intervention from monetary-policy stance instead of collapsing both into a single rates signal",
+    "a persistent Treasury-versus-Fed divergence could make term premium and fiscal-risk pricing more important than the policy rate alone",
+    "Alternative-Data Alpha Hunter can test intervention-effectiveness by comparing announced buyback operations with intraday Treasury liquidity, term-premium proxies, dollar moves, and later financing conditions"
+  ]
+}
