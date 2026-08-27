@@ -1,0 +1,71 @@
+{
+  "kind": "reality-delta",
+  "id": "ui-20260827-qatar-mediation-direct-talks-divergence",
+  "observedAt": "2026-08-27T18:05:23Z",
+  "sourceUri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+  "sourceType": "primary",
+  "entities": ["Qatar", "Iran", "United States", "Oman", "Strait of Hormuz", "White House"],
+  "relations": [
+    {"from": "Qatar", "relation": "actively mediates and seeks conditions for dialogue between", "to": "Iran and United States", "confidence": 0.98},
+    {"from": "Qatar and Iran", "relation": "discuss proposed temporary shipping corridor and joint mine clearing in", "to": "Strait of Hormuz", "confidence": 0.99},
+    {"from": "White House", "relation": "says no direct negotiations are currently happening between", "to": "United States and Iran", "confidence": 0.95},
+    {"from": "mediation activity", "relation": "does not yet equal", "to": "direct bilateral negotiation state", "confidence": 0.99}
+  ],
+  "confidence": 0.95,
+  "supportingEvidence": [
+    {
+      "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+      "title": "Qatar Ministry of Foreign Affairs: Qatar PM meets Iranian foreign minister in Tehran",
+      "observedAt": "2026-08-27T18:05:23Z",
+      "note": "Primary Qatari source says the meeting focused on de-escalation and creating conditions for dialogue, and confirms ongoing discussion of a temporary Hormuz corridor and joint mine clearing."
+    },
+    {
+      "uri": "https://www.reuters.com/business/energy/oil-prices-extend-losses-expectations-talks-ease-middle-east-supply-woes-2026-08-27/",
+      "title": "Reuters: oil reverses higher after White House says no U.S.-Iran talks are happening",
+      "observedAt": "2026-08-27T18:05:23Z",
+      "note": "Reuters reports the White House said no U.S.-Iran negotiations are underway, despite Qatar's mediation effort; oil rose as markets reduced the probability of near-term diplomatic normalization."
+    }
+  ],
+  "contradictingEvidence": [
+    {
+      "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+      "title": "Qatar primary source confirms active mediation and a dialogue-enabling effort",
+      "observedAt": "2026-08-27T18:05:23Z",
+      "note": "Active mediation means diplomatic channels are not closed; the White House statement should therefore be interpreted as absence of direct U.S.-Iran negotiations, not absence of diplomacy."
+    }
+  ],
+  "falsifier": "Upgrade from MEDIATION_ACTIVE / DIRECT_TALKS_ABSENT if the White House, U.S. State Department, Iranian Foreign Ministry, or Qatar publishes primary evidence that direct U.S.-Iran negotiations have begun. Downgrade the mediation channel if Qatar or Iran says the initiative has stalled or the Hormuz corridor framework is abandoned.",
+  "actionState": "DETECTED",
+  "ledgerRef": null,
+  "geo": {
+    "lat": 26.5667,
+    "lon": 56.25,
+    "label": "Strait of Hormuz",
+    "precision": "chokepoint",
+    "evidence": [{
+      "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+      "title": "Qatar mediation and Hormuz framework discussion",
+      "observedAt": "2026-08-27T18:05:23Z"
+    }]
+  },
+  "title": "Qatar mediation stays active while White House says direct U.S.-Iran talks are not underway",
+  "summary": "Qatar's prime minister is actively mediating in Tehran and discussing the temporary Hormuz corridor, but the White House says no direct U.S.-Iran negotiations are happening. Treat mediation and direct talks as separate state variables.",
+  "delta": "Supersede any graph edge equating active Qatar mediation with direct U.S.-Iran negotiation. Current state: MEDIATION_ACTIVE + DIRECT_TALKS_ABSENT + HORMUZ_FRAMEWORK_UNRESOLVED.",
+  "firstOrderImpacts": [
+    "lower confidence in immediate diplomatic normalization of Hormuz",
+    "higher short-term oil risk premium relative to a direct-talks scenario",
+    "continued value of Qatar/Oman mediation as a leading indicator rather than confirmation"
+  ],
+  "secondOrderImpacts": [
+    "market prices may overreact if mediator activity is misread as bilateral agreement",
+    "Nexus should model mediation, direct talks, agreement, and implementation as distinct geopolitical states",
+    "diplomatic-state classification can be tested against later vessel flow and energy-market outcomes"
+  ],
+  "alphaHunter": {
+    "hypothesis": "Separating mediator activity from confirmed direct talks will classify Hormuz de-escalation more accurately than headline sentiment alone.",
+    "baseline": "news sentiment around diplomacy and oil-price reaction",
+    "alternativeData": "primary mediator statements, White House/State Department confirmation, Iranian Foreign Ministry confirmation, vessel flow, maritime incidents and freight/war-risk insurance",
+    "incrementalValueMetric": "3-7 day classification accuracy for MEDIATION_ACTIVE / DIRECT_TALKS / AGREEMENT / IMPLEMENTATION and forecast error for physical-flow normalization",
+    "killCondition": "Kill the extra diplomatic-state layer if it does not improve held-out normalization forecasts versus simple headline sentiment and oil-price reaction."
+  }
+}
