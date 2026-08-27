@@ -1,6 +1,94 @@
 {
-  "generatedAt": "2026-08-27T06:55:30.799Z",
+  "generatedAt": "2026-08-27T08:02:45.764Z",
   "realityDelta": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260827-us-bulk-power-national-emergency-ai-load-security",
+      "observedAt": "2026-08-27T08:00:16Z",
+      "sourceUri": "https://www.whitehouse.gov/presidential-actions/2026/08/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system/",
+      "sourceType": "primary",
+      "entities": [
+        "United States",
+        "White House",
+        "Department of Energy",
+        "bulk-power system",
+        "data centers",
+        "artificial intelligence infrastructure",
+        "foreign-produced grid equipment",
+        "Covered Foreign Entities"
+      ],
+      "relations": [
+        {
+          "from": "White House",
+          "relation": "declares national emergency over foreign supply risk to",
+          "to": "United States bulk-power system",
+          "confidence": 0.99
+        },
+        {
+          "from": "advanced manufacturing, data centers, AI and defense production",
+          "relation": "increase dependence on abundant and reliable",
+          "to": "electricity",
+          "confidence": 0.99
+        },
+        {
+          "from": "foreign-produced bulk-power equipment and associated software/services",
+          "relation": "may be prohibited or conditioned when posing security or supply-chain risk to",
+          "to": "United States bulk-power system",
+          "confidence": 0.98
+        },
+        {
+          "from": "Department of Energy",
+          "relation": "may require isolation, monitoring, securing, disconnection, replacement or removal of risky installed",
+          "to": "foreign grid equipment",
+          "confidence": 0.98
+        },
+        {
+          "from": "AI infrastructure expansion",
+          "relation": "raises strategic value of secure domestic grid equipment, power capacity and supply-chain visibility",
+          "to": "United States",
+          "confidence": 0.93
+        }
+      ],
+      "confidence": 0.97,
+      "supportingEvidence": [
+        {
+          "uri": "https://www.whitehouse.gov/presidential-actions/2026/08/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system/",
+          "title": "White House Executive Order 14420: Declaring a National Emergency to Secure the United States Bulk-Power System",
+          "observedAt": "2026-08-27T08:00:16Z",
+          "note": "Primary source declares the emergency, explicitly cites rapid growth of data centers and artificial intelligence as magnifying dependence on reliable electricity, and authorizes restrictions and mitigation for risky foreign-produced bulk-power equipment, software, services and remote-access capabilities."
+        },
+        {
+          "uri": "https://www.reuters.com/legal/government/trump-signs-order-banning-some-foreign-equipment-us-energy-grid-2026-08-26/",
+          "title": "Reuters: Trump signs order banning some foreign equipment from U.S. energy grid",
+          "observedAt": "2026-08-27T08:00:16Z",
+          "note": "Independent reporting corroborates the executive action and describes the focus on foreign-manufactured grid equipment and cybersecurity/operational risk."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://www.whitehouse.gov/presidential-actions/2026/08/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system/",
+          "title": "Executive order requires case-specific risk determinations and reliability considerations",
+          "observedAt": "2026-08-27T08:00:16Z",
+          "note": "The order is not a blanket ban on all foreign grid equipment. DOE must make risk determinations, may use mitigation, and must consider reliability, replacement availability and continuity before isolation or removal."
+        }
+      ],
+      "falsifier": "Downgrade the thesis that this materially changes AI/grid infrastructure economics if DOE implementation remains narrow, few transactions or installed assets are restricted, replacement requirements do not affect procurement or lead times, and secure domestic grid supply does not become a binding constraint for data-center or AI infrastructure expansion.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "title": "U.S. declares bulk-power security emergency as AI and data-center electricity dependence rises",
+      "summary": "Executive Order 14420 declares a national emergency over foreign supply and cyber risks in the U.S. bulk-power system. The White House explicitly ties the higher consequence of grid disruption to rapid growth in data centers, artificial intelligence, advanced manufacturing and defense production, while authorizing DOE to restrict or mitigate risky foreign-produced equipment and associated digital capabilities.",
+      "delta": "Add grid-security and equipment-origin risk as a first-class dependency of the AI infrastructure graph. Supersede the simpler model in which AI compute capacity depends mainly on GPUs, data centers and aggregate power availability: secure grid hardware, software, remote-access provenance and replacement lead times can now change project risk and procurement economics.",
+      "firstOrderImpacts": [
+        "higher compliance and procurement scrutiny for foreign-produced transformers, inverters, control systems, software, firmware and remote-access services used in the bulk-power system",
+        "potential replacement, isolation or mitigation costs for risky installed equipment",
+        "greater strategic value for trusted domestic or allied grid-equipment supply chains as AI/data-center electricity demand rises"
+      ],
+      "secondOrderImpacts": [
+        "AI data-center expansion may become constrained not only by megawatts but by the security provenance and replacement lead time of grid equipment",
+        "grid-equipment manufacturers, cybersecurity vendors and supply-chain intelligence become more economically connected to the AI infrastructure buildout",
+        "Orbital/Operations intelligence can join data-center locations, transmission constraints, equipment origin and policy restrictions to identify infrastructure bottlenecks earlier"
+      ]
+    },
     {
       "kind": "reality-delta",
       "id": "ui-20260827-hormuz-traffic-recovery-momentum",
@@ -915,120 +1003,6 @@
         "Nexus should model inflation persistence and real-demand momentum as separate macro state variables",
         "a falling oil risk premium from Hormuz reopening can ease future headline inflation without necessarily resolving sticky core services inflation"
       ]
-    },
-    {
-      "kind": "reality-delta",
-      "id": "ui-20260826-hormuz-governance-revenue-agreement-claim",
-      "observedAt": "2026-08-26T12:14:00Z",
-      "sourceUri": "https://www.reuters.com/world/asia-pacific/iran-oman-reach-agreements-share-hormuz-revenues-revolutionary-guards-say-2026-08-26/",
-      "sourceType": "secondary",
-      "entities": [
-        "Iran",
-        "Oman",
-        "Islamic Revolutionary Guard Corps",
-        "Strait of Hormuz",
-        "commercial shipping",
-        "Kpler",
-        "oil markets",
-        "Nexus/STEM"
-      ],
-      "relations": [
-        {
-          "from": "IRGC spokesperson",
-          "relation": "claims Iran and Oman reached agreements on",
-          "to": "their share of the Strait of Hormuz and its revenues",
-          "confidence": 0.88
-        },
-        {
-          "from": "Iran-Oman negotiations",
-          "relation": "appear to be moving from temporary-corridor mechanics toward",
-          "to": "governance and revenue-allocation terms",
-          "confidence": 0.82
-        },
-        {
-          "from": "claimed governance agreement",
-          "relation": "does not yet imply",
-          "to": "physical shipping normalization",
-          "confidence": 0.94
-        },
-        {
-          "from": "Kpler preliminary tracking",
-          "relation": "still observes only 5 commodity-vessel transits on Aug. 25 versus a 10-day average of 15 through",
-          "to": "Strait of Hormuz",
-          "confidence": 0.9
-        }
-      ],
-      "confidence": 0.82,
-      "supportingEvidence": [
-        {
-          "uri": "https://www.reuters.com/world/asia-pacific/iran-oman-reach-agreements-share-hormuz-revenues-revolutionary-guards-say-2026-08-26/",
-          "title": "Reuters: IRGC says Iran and Oman reached Hormuz share and revenue agreements",
-          "observedAt": "2026-08-26T12:14:00Z",
-          "note": "Reuters reports an IRGC spokesperson, citing semi-official Tasnim, said Iran and Oman reached agreements concerning their share of the Strait of Hormuz and its revenues. The spokesperson also said U.S. interference had delayed negotiations."
-        },
-        {
-          "uri": "https://www.fm.gov.om/en/49077/",
-          "title": "Oman Foreign Ministry: established Hormuz navigation coordination background",
-          "observedAt": "2026-08-26T12:14:00Z",
-          "note": "Primary Omani background confirms that Oman has been engaged in formal navigation-management and temporary-corridor coordination around Hormuz. It supports the existence of the negotiating channel, but does not independently confirm the newly reported revenue/share terms."
-        },
-        {
-          "uri": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
-          "title": "Reuters/Kpler: physical Hormuz traffic remains depressed",
-          "observedAt": "2026-08-26T12:14:00Z",
-          "note": "Only five commodity vessels transited on Aug. 25 versus a 10-day average of 15, so any governance agreement has not yet translated into normal observed commercial flow."
-        }
-      ],
-      "contradictingEvidence": [
-        {
-          "uri": "https://www.reuters.com/world/asia-pacific/iran-oman-reach-agreements-share-hormuz-revenues-revolutionary-guards-say-2026-08-26/",
-          "title": "Reuters: current agreement claim is one-sided",
-          "observedAt": "2026-08-26T12:14:00Z",
-          "note": "The fresh share/revenue agreement is currently attributed to an Iranian Revolutionary Guards spokesperson through Tasnim. No matching Omani primary announcement was found in this cycle, so exact terms and implementation status remain unconfirmed."
-        },
-        {
-          "uri": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
-          "title": "Reuters/Kpler: throughput has not normalized",
-          "observedAt": "2026-08-26T12:14:00Z",
-          "note": "Observed commodity-vessel traffic remains roughly one-third of the recent average, which contradicts any interpretation that a governance agreement by itself means operational reopening."
-        }
-      ],
-      "falsifier": "Downgrade or supersede this claim if Oman publicly denies the reported share/revenue agreement, if subsequent official texts show the terms remain unresolved, or if no observable implementation appears in navigation rules, fees/revenues, vessel permissions or commercial flows. Upgrade only after Omani primary confirmation and measurable operational effects.",
-      "actionState": "DETECTED",
-      "ledgerRef": null,
-      "geo": {
-        "lat": 26.5667,
-        "lon": 56.25,
-        "label": "Strait of Hormuz",
-        "precision": "chokepoint",
-        "evidence": [
-          {
-            "uri": "https://www.reuters.com/world/asia-pacific/iran-oman-reach-agreements-share-hormuz-revenues-revolutionary-guards-say-2026-08-26/",
-            "title": "Reuters report on claimed Iran-Oman Hormuz share/revenue agreement",
-            "observedAt": "2026-08-26T12:14:00Z"
-          }
-        ]
-      },
-      "title": "Iran claims Hormuz talks reached governance and revenue-sharing terms",
-      "summary": "An IRGC spokesperson says Iran and Oman reached agreements over their share of the Strait of Hormuz and its revenues. This would move the negotiation from temporary passage toward chokepoint governance, but Oman has not yet independently confirmed the new terms and observed commercial traffic remains severely depressed.",
-      "delta": "Upgrade the Hormuz state from corridor-only negotiations to CLAIMED_GOVERNANCE_AGREEMENT, but keep operational status at CONTESTED_REOPENING. Preserve the source asymmetry: political/governance terms may be advancing faster than physical shipping recovery and remain pending Omani confirmation.",
-      "firstOrderImpacts": [
-        "potential clarification or change in navigation authority, fees, revenue allocation and vessel-access rules if the agreement is confirmed",
-        "continued shipping and insurance caution because physical throughput remains weak despite political progress",
-        "greater sensitivity of Gulf shipping contracts and routing to implementation details rather than diplomatic headlines alone"
-      ],
-      "secondOrderImpacts": [
-        "a confirmed revenue-sharing framework would turn chokepoint control into a measurable economic-rights layer for the Orbital Insight graph",
-        "shipping intelligence should track governance claims separately from physical flow and commercial compliance",
-        "the broader Nexus resource-access-rights thesis gains a live geopolitical case where control, permission and revenue may be jointly negotiated"
-      ],
-      "alphaHunter": {
-        "hypothesis": "Implementation telemetry will reveal whether the claimed Hormuz governance agreement is real before political narratives converge.",
-        "baseline": "public Iran/Oman diplomatic statements and crude-price reaction",
-        "alternativeData": "independent vessel throughput, permission/blacklist changes, port notices, tanker freight and war-risk insurance, evidence of toll/revenue collection, and refined-product delivery data",
-        "incrementalValueMetric": "time-to-correct-classification of CLAIMED_AGREEMENT versus IMPLEMENTED_GOVERNANCE, plus 3-7 day forecast error for physical-flow normalization",
-        "killCondition": "Kill the governance-implementation layer if no public/low-cost operational telemetry can distinguish rhetoric from implementation earlier or more accurately than official statements plus vessel counts."
-      }
     }
   ],
   "opportunityRadar": [
