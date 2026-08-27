@@ -1,0 +1,87 @@
+{
+  "kind": "reality-delta",
+  "id": "ui-20260827-hormuz-asia-import-reality-check",
+  "observedAt": "2026-08-27T15:00:00Z",
+  "sourceUri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
+  "sourceType": "secondary",
+  "entities": [
+    "Strait of Hormuz",
+    "Middle East crude exports",
+    "Asia crude imports",
+    "India crude imports",
+    "Kpler",
+    "U.S. Department of Energy",
+    "Chris Wright"
+  ],
+  "relations": [
+    {"from": "Kpler", "relation": "estimates August crude exports via Hormuz near 2.3 million b/d versus 15.82 million b/d pre-conflict", "to": "Strait of Hormuz", "confidence": 0.94},
+    {"from": "Asia crude imports", "relation": "remain about 14% below pre-conflict average", "to": "pre-conflict demand-side arrival baseline", "confidence": 0.95},
+    {"from": "India Middle East crude arrivals", "relation": "remain near half of pre-conflict average", "to": "physical downstream confirmation", "confidence": 0.94},
+    {"from": "U.S. Energy Secretary public claim", "relation": "implies materially stronger Middle East export recovery than observed by", "to": "Kpler and downstream Asian arrivals", "confidence": 0.91}
+  ],
+  "confidence": 0.94,
+  "supportingEvidence": [
+    {
+      "uri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
+      "title": "Reuters Open Interest: Asia crude imports remain well below pre-conflict levels",
+      "observedAt": "2026-08-27T15:00:00Z",
+      "note": "Reuters cites Kpler estimates of 23.12 million b/d of Asian crude arrivals in August versus 26.91 million b/d pre-conflict; Kpler tracked only 2.3 million b/d of August crude exports through Hormuz versus 15.82 million b/d in the three months before the war."
+    },
+    {
+      "uri": "https://www.reuters.com/business/energy/oil-prices-extend-losses-expectations-talks-ease-middle-east-supply-woes-2026-08-27/",
+      "title": "Reuters: oil prices rise as negotiations stall and flows remain restricted",
+      "observedAt": "2026-08-27T15:00:00Z",
+      "note": "Reuters reports that restricted flows and lack of diplomatic progress are pushing traders to reassess earlier reopening optimism."
+    }
+  ],
+  "contradictingEvidence": [
+    {
+      "uri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
+      "title": "Reuters: delivery lag can delay downstream confirmation",
+      "observedAt": "2026-08-27T15:00:00Z",
+      "note": "The same analysis notes that if Middle East exports accelerated only in early August, some cargoes may not arrive in Japan, South Korea or China until September, so August import data may understate a very recent recovery."
+    },
+    {
+      "uri": "https://www.reuters.com/world/middle-east/shipping-traffic-through-strait-hormuz-rises-slightly-data-shows-2026-08-27/",
+      "title": "Reuters: visible vessel traffic improved modestly to 10 transits Wednesday",
+      "observedAt": "2026-08-27T15:00:00Z",
+      "note": "Short-term vessel counts show positive momentum even though absolute throughput and downstream arrivals remain far below pre-conflict levels."
+    }
+  ],
+  "falsifier": "Downgrade the measurement-conflict thesis if September Asian crude arrivals materially rebound toward pre-conflict levels, Kpler-observed Hormuz exports converge upward with official U.S. recovery claims, and freight/insurance/product-market indicators normalize consistently with those higher flows.",
+  "actionState": "DETECTED",
+  "ledgerRef": null,
+  "geo": {
+    "lat": 26.5667,
+    "lon": 56.25,
+    "label": "Strait of Hormuz",
+    "precision": "chokepoint",
+    "evidence": [
+      {
+        "uri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
+        "title": "Kpler export and Asian import estimates via Reuters",
+        "observedAt": "2026-08-27T15:00:00Z"
+      }
+    ]
+  },
+  "title": "Asian crude arrivals remain far below pre-war levels, challenging headline Hormuz recovery claims",
+  "summary": "Kpler estimates August crude exports through Hormuz at roughly 2.3 million b/d versus 15.82 million b/d before the conflict, while Asian crude imports are about 14% below the pre-conflict average and Indian arrivals from the Middle East are near half their prior level. This sharply strengthens the case for downstream-arrival data as a reality check on official recovery claims.",
+  "delta": "Upgrade the Hormuz measurement-conflict model from vessel-count disagreement to a three-layer physical reality check: chokepoint exports, downstream Asian arrivals, and official claims. Keep short-term vessel recovery as momentum, not normalization. Preserve delivery-lag uncertainty because September arrivals may reveal a more recent recovery not yet visible in August data.",
+  "firstOrderImpacts": [
+    "continued uncertainty about actual Gulf crude availability despite diplomatic reopening narratives",
+    "higher value of Asian port-arrival data for validating claimed export recovery",
+    "potential persistence of freight, refinery and product-market stress even if crude prices price in de-escalation"
+  ],
+  "secondOrderImpacts": [
+    "ULTRA INSTINCT can use destination-arrival data as an independent downstream truth layer when source-side measurements disagree",
+    "measurement-method provenance becomes economically important because official statements, AIS/satellite tracking and port arrivals can imply very different recovery states",
+    "a persistent gap between market pricing and delivered physical barrels may create a measurable narrative-versus-reality signal"
+  ],
+  "alphaHunter": {
+    "hypothesis": "Combining Hormuz export tracking with destination-port arrivals will classify physical normalization more accurately than official throughput claims, vessel counts or oil-price reaction alone.",
+    "baseline": "official flow claims, diplomatic headlines, visible daily vessel counts and Brent/WTI reaction",
+    "alternativeData": "Kpler satellite/AIS export estimates, Asian and Indian crude-arrival data, destination timing, refinery intake, freight and war-risk insurance",
+    "incrementalValueMetric": "3-14 day held-out forecast accuracy for delivered crude normalization, refinery availability and later official flow revisions",
+    "killCondition": "Kill the downstream-arrival layer if it fails to improve held-out recovery classification versus the simpler baseline after adjusting for voyage-time lags, or if data latency makes it non-actionable."
+  }
+}
