@@ -1,6 +1,106 @@
 {
-  "generatedAt": "2026-08-27T15:05:02.801Z",
+  "generatedAt": "2026-08-27T18:12:11.521Z",
   "realityDelta": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260827-qatar-mediation-direct-talks-divergence",
+      "observedAt": "2026-08-27T18:05:23Z",
+      "sourceUri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+      "sourceType": "primary",
+      "entities": [
+        "Qatar",
+        "Iran",
+        "United States",
+        "Oman",
+        "Strait of Hormuz",
+        "White House"
+      ],
+      "relations": [
+        {
+          "from": "Qatar",
+          "relation": "actively mediates and seeks conditions for dialogue between",
+          "to": "Iran and United States",
+          "confidence": 0.98
+        },
+        {
+          "from": "Qatar and Iran",
+          "relation": "discuss proposed temporary shipping corridor and joint mine clearing in",
+          "to": "Strait of Hormuz",
+          "confidence": 0.99
+        },
+        {
+          "from": "White House",
+          "relation": "says no direct negotiations are currently happening between",
+          "to": "United States and Iran",
+          "confidence": 0.95
+        },
+        {
+          "from": "mediation activity",
+          "relation": "does not yet equal",
+          "to": "direct bilateral negotiation state",
+          "confidence": 0.99
+        }
+      ],
+      "confidence": 0.95,
+      "supportingEvidence": [
+        {
+          "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+          "title": "Qatar Ministry of Foreign Affairs: Qatar PM meets Iranian foreign minister in Tehran",
+          "observedAt": "2026-08-27T18:05:23Z",
+          "note": "Primary Qatari source says the meeting focused on de-escalation and creating conditions for dialogue, and confirms ongoing discussion of a temporary Hormuz corridor and joint mine clearing."
+        },
+        {
+          "uri": "https://www.reuters.com/business/energy/oil-prices-extend-losses-expectations-talks-ease-middle-east-supply-woes-2026-08-27/",
+          "title": "Reuters: oil reverses higher after White House says no U.S.-Iran talks are happening",
+          "observedAt": "2026-08-27T18:05:23Z",
+          "note": "Reuters reports the White House said no U.S.-Iran negotiations are underway, despite Qatar's mediation effort; oil rose as markets reduced the probability of near-term diplomatic normalization."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+          "title": "Qatar primary source confirms active mediation and a dialogue-enabling effort",
+          "observedAt": "2026-08-27T18:05:23Z",
+          "note": "Active mediation means diplomatic channels are not closed; the White House statement should therefore be interpreted as absence of direct U.S.-Iran negotiations, not absence of diplomacy."
+        }
+      ],
+      "falsifier": "Upgrade from MEDIATION_ACTIVE / DIRECT_TALKS_ABSENT if the White House, U.S. State Department, Iranian Foreign Ministry, or Qatar publishes primary evidence that direct U.S.-Iran negotiations have begun. Downgrade the mediation channel if Qatar or Iran says the initiative has stalled or the Hormuz corridor framework is abandoned.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "geo": {
+        "lat": 26.5667,
+        "lon": 56.25,
+        "label": "Strait of Hormuz",
+        "precision": "chokepoint",
+        "evidence": [
+          {
+            "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+            "title": "Qatar mediation and Hormuz framework discussion",
+            "observedAt": "2026-08-27T18:05:23Z"
+          }
+        ]
+      },
+      "title": "Qatar mediation stays active while White House says direct U.S.-Iran talks are not underway",
+      "summary": "Qatar's prime minister is actively mediating in Tehran and discussing the temporary Hormuz corridor, but the White House says no direct U.S.-Iran negotiations are happening. Treat mediation and direct talks as separate state variables.",
+      "delta": "Supersede any graph edge equating active Qatar mediation with direct U.S.-Iran negotiation. Current state: MEDIATION_ACTIVE + DIRECT_TALKS_ABSENT + HORMUZ_FRAMEWORK_UNRESOLVED.",
+      "firstOrderImpacts": [
+        "lower confidence in immediate diplomatic normalization of Hormuz",
+        "higher short-term oil risk premium relative to a direct-talks scenario",
+        "continued value of Qatar/Oman mediation as a leading indicator rather than confirmation"
+      ],
+      "secondOrderImpacts": [
+        "market prices may overreact if mediator activity is misread as bilateral agreement",
+        "Nexus should model mediation, direct talks, agreement, and implementation as distinct geopolitical states",
+        "diplomatic-state classification can be tested against later vessel flow and energy-market outcomes"
+      ],
+      "alphaHunter": {
+        "hypothesis": "Separating mediator activity from confirmed direct talks will classify Hormuz de-escalation more accurately than headline sentiment alone.",
+        "baseline": "news sentiment around diplomacy and oil-price reaction",
+        "alternativeData": "primary mediator statements, White House/State Department confirmation, Iranian Foreign Ministry confirmation, vessel flow, maritime incidents and freight/war-risk insurance",
+        "incrementalValueMetric": "3-7 day classification accuracy for MEDIATION_ACTIVE / DIRECT_TALKS / AGREEMENT / IMPLEMENTATION and forecast error for physical-flow normalization",
+        "killCondition": "Kill the extra diplomatic-state layer if it does not improve held-out normalization forecasts versus simple headline sentiment and oil-price reaction."
+      }
+    },
     {
       "kind": "reality-delta",
       "id": "ui-20260827-hormuz-asia-import-reality-check",
@@ -904,100 +1004,6 @@
         "age assurance becomes a more strategic infrastructure layer across social platforms and potentially agent-facing consumer services",
         "Opportunity Radar can use litigation settlements as policy-to-product state transitions that are objectively observable and later calibratable"
       ]
-    },
-    {
-      "kind": "reality-delta",
-      "id": "ui-20260826-aws-nvidia-2m-gpu-federal-ai-factories",
-      "observedAt": "2026-08-26T21:05:00Z",
-      "sourceUri": "https://press.aboutamazon.com/aws/2026/8/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai",
-      "sourceType": "primary",
-      "entities": [
-        "Amazon Web Services",
-        "NVIDIA",
-        "U.S. Government",
-        "frontier AI labs",
-        "federal national-security workloads",
-        "Vera Rubin",
-        "Blackwell Ultra",
-        "Nexus/STEM"
-      ],
-      "relations": [
-        {
-          "from": "AWS",
-          "relation": "plans to deploy",
-          "to": "2 million additional NVIDIA GPUs in 2027-2028",
-          "confidence": 0.99
-        },
-        {
-          "from": "AWS and NVIDIA",
-          "relation": "plan to build",
-          "to": "U.S. Government AI factories with 100,000 GPUs on secure AWS infrastructure",
-          "confidence": 0.99
-        },
-        {
-          "from": "federal AI demand",
-          "relation": "drives",
-          "to": "classified/high-assurance hyperscale AI infrastructure",
-          "confidence": 0.93
-        },
-        {
-          "from": "announced GPU capacity",
-          "relation": "does not by itself prove",
-          "to": "future utilization or return on invested capital",
-          "confidence": 0.96
-        },
-        {
-          "from": "AWS custom silicon plus NVIDIA platform",
-          "relation": "demonstrates",
-          "to": "heterogeneous workload routing and coexisting accelerator stacks",
-          "confidence": 0.92
-        }
-      ],
-      "confidence": 0.97,
-      "supportingEvidence": [
-        {
-          "uri": "https://press.aboutamazon.com/aws/2026/8/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai",
-          "title": "AWS and NVIDIA announce 2 million additional GPUs and federal AI factories",
-          "observedAt": "2026-08-26T21:05:00Z",
-          "note": "Primary AWS/NVIDIA announcement states that AWS plans to deploy 2 million additional NVIDIA Blackwell Ultra, Rubin and Rubin Ultra GPUs in 2027-2028 and build U.S. Government AI factories including 100,000 GPUs on secure AWS infrastructure for federal and national-security workloads."
-        },
-        {
-          "uri": "https://www.reuters.com/business/media-telecom/nvidia-forecasts-quarterly-revenue-above-estimates-2026-08-26/",
-          "title": "Reuters independently reports AWS expansion and NVIDIA demand outlook",
-          "observedAt": "2026-08-26T21:35:00Z",
-          "note": "Reuters independently reports the 2 million-GPU AWS expansion while covering NVIDIA's Q2 results and continued scrutiny of AI infrastructure financing and demand quality."
-        }
-      ],
-      "contradictingEvidence": [
-        {
-          "uri": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx",
-          "title": "NVIDIA is simultaneously mobilizing large third-party infrastructure financing",
-          "observedAt": "2026-08-26T21:40:00Z",
-          "note": "The scale of vendor-linked and third-party financing means announced capacity should not be treated as pure evidence of independently financed end demand. Utilization and customer economics remain necessary outcome measures."
-        },
-        {
-          "uri": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx",
-          "title": "NVIDIA also provides credit support for physical AI infrastructure",
-          "observedAt": "2026-08-26T21:40:00Z",
-          "note": "NVIDIA's credit support for PORTS-Pike reinforces that physical AI capacity depends on financing and infrastructure rights as well as customer demand; planned GPU counts are not equivalent to economically productive deployed compute."
-        }
-      ],
-      "falsifier": "Downgrade the strategic-demand thesis if AWS materially reduces or delays the 2 million-GPU deployment or federal 100,000-GPU build, if disclosed utilization remains weak after deployment, or if customer monetization and workload growth fail to justify the capacity. Downgrade the government-AI implication if the federal build remains a one-off announcement without actual secure workload adoption.",
-      "actionState": "DETECTED",
-      "ledgerRef": null,
-      "title": "AWS and NVIDIA turn AI demand into a 2M-GPU buildout, including 100K-GPU U.S. Government AI factories",
-      "summary": "AWS and NVIDIA announced plans to deploy 2 million additional NVIDIA GPUs across AWS in 2027-2028 and to build U.S. Government AI factories including 100,000 GPUs on secure AWS infrastructure. This strongly upgrades the scale of planned agentic/physical-AI and government compute capacity, while leaving utilization, financing quality and realized economic return unresolved.",
-      "delta": "Upgrade the world model from generic hyperscaler AI-capex growth to explicit multi-year capacity commitments and secure federal AI-factory buildout. Keep 'announced capacity' separate from 'utilized productive capacity': the 2 million and 100,000 GPU figures are planned deployments, not realized economic output. For Nexus, government AI infrastructure is becoming a physical compute-and-security layer, while workload routing spans both NVIDIA accelerators and AWS custom silicon rather than converging on a single hardware stack.",
-      "firstOrderImpacts": [
-        "stronger forward demand signal for GPUs, networking, memory, power, data centers and secure cloud infrastructure",
-        "material expansion of federal/national-security AI compute capacity on commercial hyperscale infrastructure",
-        "greater pressure on power, memory, networking and physical data-center supply chains through 2027-2028"
-      ],
-      "secondOrderImpacts": [
-        "government AI procurement increasingly includes infrastructure capacity, security classification and deployment rights rather than only model/software contracts",
-        "AI-demand analysis should separate announced capacity, financed capacity, deployed capacity, utilization and realized customer economics",
-        "Nexus model/compute routing should remain provider- and hardware-aware because hyperscalers are combining NVIDIA platforms with their own custom silicon rather than choosing a single compute substrate"
-      ]
     }
   ],
   "opportunityRadar": [
@@ -1079,6 +1085,106 @@
     }
   ],
   "orbitalInsight": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260827-qatar-mediation-direct-talks-divergence",
+      "observedAt": "2026-08-27T18:05:23Z",
+      "sourceUri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+      "sourceType": "primary",
+      "entities": [
+        "Qatar",
+        "Iran",
+        "United States",
+        "Oman",
+        "Strait of Hormuz",
+        "White House"
+      ],
+      "relations": [
+        {
+          "from": "Qatar",
+          "relation": "actively mediates and seeks conditions for dialogue between",
+          "to": "Iran and United States",
+          "confidence": 0.98
+        },
+        {
+          "from": "Qatar and Iran",
+          "relation": "discuss proposed temporary shipping corridor and joint mine clearing in",
+          "to": "Strait of Hormuz",
+          "confidence": 0.99
+        },
+        {
+          "from": "White House",
+          "relation": "says no direct negotiations are currently happening between",
+          "to": "United States and Iran",
+          "confidence": 0.95
+        },
+        {
+          "from": "mediation activity",
+          "relation": "does not yet equal",
+          "to": "direct bilateral negotiation state",
+          "confidence": 0.99
+        }
+      ],
+      "confidence": 0.95,
+      "supportingEvidence": [
+        {
+          "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+          "title": "Qatar Ministry of Foreign Affairs: Qatar PM meets Iranian foreign minister in Tehran",
+          "observedAt": "2026-08-27T18:05:23Z",
+          "note": "Primary Qatari source says the meeting focused on de-escalation and creating conditions for dialogue, and confirms ongoing discussion of a temporary Hormuz corridor and joint mine clearing."
+        },
+        {
+          "uri": "https://www.reuters.com/business/energy/oil-prices-extend-losses-expectations-talks-ease-middle-east-supply-woes-2026-08-27/",
+          "title": "Reuters: oil reverses higher after White House says no U.S.-Iran talks are happening",
+          "observedAt": "2026-08-27T18:05:23Z",
+          "note": "Reuters reports the White House said no U.S.-Iran negotiations are underway, despite Qatar's mediation effort; oil rose as markets reduced the probability of near-term diplomatic normalization."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+          "title": "Qatar primary source confirms active mediation and a dialogue-enabling effort",
+          "observedAt": "2026-08-27T18:05:23Z",
+          "note": "Active mediation means diplomatic channels are not closed; the White House statement should therefore be interpreted as absence of direct U.S.-Iran negotiations, not absence of diplomacy."
+        }
+      ],
+      "falsifier": "Upgrade from MEDIATION_ACTIVE / DIRECT_TALKS_ABSENT if the White House, U.S. State Department, Iranian Foreign Ministry, or Qatar publishes primary evidence that direct U.S.-Iran negotiations have begun. Downgrade the mediation channel if Qatar or Iran says the initiative has stalled or the Hormuz corridor framework is abandoned.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "geo": {
+        "lat": 26.5667,
+        "lon": 56.25,
+        "label": "Strait of Hormuz",
+        "precision": "chokepoint",
+        "evidence": [
+          {
+            "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+            "title": "Qatar mediation and Hormuz framework discussion",
+            "observedAt": "2026-08-27T18:05:23Z"
+          }
+        ]
+      },
+      "title": "Qatar mediation stays active while White House says direct U.S.-Iran talks are not underway",
+      "summary": "Qatar's prime minister is actively mediating in Tehran and discussing the temporary Hormuz corridor, but the White House says no direct U.S.-Iran negotiations are happening. Treat mediation and direct talks as separate state variables.",
+      "delta": "Supersede any graph edge equating active Qatar mediation with direct U.S.-Iran negotiation. Current state: MEDIATION_ACTIVE + DIRECT_TALKS_ABSENT + HORMUZ_FRAMEWORK_UNRESOLVED.",
+      "firstOrderImpacts": [
+        "lower confidence in immediate diplomatic normalization of Hormuz",
+        "higher short-term oil risk premium relative to a direct-talks scenario",
+        "continued value of Qatar/Oman mediation as a leading indicator rather than confirmation"
+      ],
+      "secondOrderImpacts": [
+        "market prices may overreact if mediator activity is misread as bilateral agreement",
+        "Nexus should model mediation, direct talks, agreement, and implementation as distinct geopolitical states",
+        "diplomatic-state classification can be tested against later vessel flow and energy-market outcomes"
+      ],
+      "alphaHunter": {
+        "hypothesis": "Separating mediator activity from confirmed direct talks will classify Hormuz de-escalation more accurately than headline sentiment alone.",
+        "baseline": "news sentiment around diplomacy and oil-price reaction",
+        "alternativeData": "primary mediator statements, White House/State Department confirmation, Iranian Foreign Ministry confirmation, vessel flow, maritime incidents and freight/war-risk insurance",
+        "incrementalValueMetric": "3-7 day classification accuracy for MEDIATION_ACTIVE / DIRECT_TALKS / AGREEMENT / IMPLEMENTATION and forecast error for physical-flow normalization",
+        "killCondition": "Kill the extra diplomatic-state layer if it does not improve held-out normalization forecasts versus simple headline sentiment and oil-price reaction."
+      }
+    },
     {
       "kind": "reality-delta",
       "id": "ui-20260827-hormuz-asia-import-reality-check",
@@ -2031,6 +2137,101 @@
   "alphaHunter": [
     {
       "kind": "alternative-data-trial",
+      "id": "alpha-ui-20260827-qatar-mediation-direct-talks-divergence",
+      "observedAt": "2026-08-27T18:05:23Z",
+      "sourceUri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+      "sourceType": "alternative-data",
+      "entities": [
+        "Qatar",
+        "Iran",
+        "United States",
+        "Oman",
+        "Strait of Hormuz",
+        "White House"
+      ],
+      "relations": [
+        {
+          "from": "Qatar",
+          "relation": "actively mediates and seeks conditions for dialogue between",
+          "to": "Iran and United States",
+          "confidence": 0.98
+        },
+        {
+          "from": "Qatar and Iran",
+          "relation": "discuss proposed temporary shipping corridor and joint mine clearing in",
+          "to": "Strait of Hormuz",
+          "confidence": 0.99
+        },
+        {
+          "from": "White House",
+          "relation": "says no direct negotiations are currently happening between",
+          "to": "United States and Iran",
+          "confidence": 0.95
+        },
+        {
+          "from": "mediation activity",
+          "relation": "does not yet equal",
+          "to": "direct bilateral negotiation state",
+          "confidence": 0.99
+        }
+      ],
+      "confidence": 0.95,
+      "supportingEvidence": [
+        {
+          "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+          "title": "Qatar Ministry of Foreign Affairs: Qatar PM meets Iranian foreign minister in Tehran",
+          "observedAt": "2026-08-27T18:05:23Z",
+          "note": "Primary Qatari source says the meeting focused on de-escalation and creating conditions for dialogue, and confirms ongoing discussion of a temporary Hormuz corridor and joint mine clearing."
+        },
+        {
+          "uri": "https://www.reuters.com/business/energy/oil-prices-extend-losses-expectations-talks-ease-middle-east-supply-woes-2026-08-27/",
+          "title": "Reuters: oil reverses higher after White House says no U.S.-Iran talks are happening",
+          "observedAt": "2026-08-27T18:05:23Z",
+          "note": "Reuters reports the White House said no U.S.-Iran negotiations are underway, despite Qatar's mediation effort; oil rose as markets reduced the probability of near-term diplomatic normalization."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+          "title": "Qatar primary source confirms active mediation and a dialogue-enabling effort",
+          "observedAt": "2026-08-27T18:05:23Z",
+          "note": "Active mediation means diplomatic channels are not closed; the White House statement should therefore be interpreted as absence of direct U.S.-Iran negotiations, not absence of diplomacy."
+        }
+      ],
+      "falsifier": "Upgrade from MEDIATION_ACTIVE / DIRECT_TALKS_ABSENT if the White House, U.S. State Department, Iranian Foreign Ministry, or Qatar publishes primary evidence that direct U.S.-Iran negotiations have begun. Downgrade the mediation channel if Qatar or Iran says the initiative has stalled or the Hormuz corridor framework is abandoned.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "geo": {
+        "lat": 26.5667,
+        "lon": 56.25,
+        "label": "Strait of Hormuz",
+        "precision": "chokepoint",
+        "evidence": [
+          {
+            "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+            "title": "Qatar mediation and Hormuz framework discussion",
+            "observedAt": "2026-08-27T18:05:23Z"
+          }
+        ]
+      },
+      "hypothesis": "Separating mediator activity from confirmed direct talks will classify Hormuz de-escalation more accurately than headline sentiment alone.",
+      "baselineSource": {
+        "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+        "title": "news sentiment around diplomacy and oil-price reaction",
+        "observedAt": "2026-08-27T18:05:23Z",
+        "note": "Baseline description from the source-backed event fixture."
+      },
+      "alternativeDataSource": {
+        "uri": "https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/2026/08/27/prime-minister-and-minister-of-foreign-affairs-meets-iran-foreign-minister",
+        "title": "primary mediator statements, White House/State Department confirmation, Iranian Foreign Ministry confirmation, vessel flow, maritime incidents and freight/war-risk insurance",
+        "observedAt": "2026-08-27T18:05:23Z",
+        "note": "Candidate alternative-data layer. DETECTED only until direct data access and held-out evaluation exist."
+      },
+      "incrementalValueMetric": "3-7 day classification accuracy for MEDIATION_ACTIVE / DIRECT_TALKS / AGREEMENT / IMPLEMENTATION and forecast error for physical-flow normalization",
+      "killCondition": "Kill the extra diplomatic-state layer if it does not improve held-out normalization forecasts versus simple headline sentiment and oil-price reaction."
+    },
+    {
+      "kind": "alternative-data-trial",
       "id": "alpha-ui-20260827-hormuz-asia-import-reality-check",
       "observedAt": "2026-08-27T15:00:00Z",
       "sourceUri": "https://www.reuters.com/commentary/reuters-open-interest/asias-crude-oil-imports-stay-soft-august-challenging-us-hormuz-claims-2026-08-27/",
@@ -2459,115 +2660,6 @@
       },
       "incrementalValueMetric": "time-to-correct-state classification and false-finalization rate over the next 3-7 days",
       "killCondition": "Kill the extra source-conflict layer if it does not reduce false state transitions or improve timing versus simply waiting for joint official confirmation."
-    },
-    {
-      "kind": "alternative-data-trial",
-      "id": "alpha-ui-20260826-hormuz-governance-revenue-agreement-claim",
-      "observedAt": "2026-08-26T12:14:00Z",
-      "sourceUri": "https://www.reuters.com/world/asia-pacific/iran-oman-reach-agreements-share-hormuz-revenues-revolutionary-guards-say-2026-08-26/",
-      "sourceType": "alternative-data",
-      "entities": [
-        "Iran",
-        "Oman",
-        "Islamic Revolutionary Guard Corps",
-        "Strait of Hormuz",
-        "commercial shipping",
-        "Kpler",
-        "oil markets",
-        "Nexus/STEM"
-      ],
-      "relations": [
-        {
-          "from": "IRGC spokesperson",
-          "relation": "claims Iran and Oman reached agreements on",
-          "to": "their share of the Strait of Hormuz and its revenues",
-          "confidence": 0.88
-        },
-        {
-          "from": "Iran-Oman negotiations",
-          "relation": "appear to be moving from temporary-corridor mechanics toward",
-          "to": "governance and revenue-allocation terms",
-          "confidence": 0.82
-        },
-        {
-          "from": "claimed governance agreement",
-          "relation": "does not yet imply",
-          "to": "physical shipping normalization",
-          "confidence": 0.94
-        },
-        {
-          "from": "Kpler preliminary tracking",
-          "relation": "still observes only 5 commodity-vessel transits on Aug. 25 versus a 10-day average of 15 through",
-          "to": "Strait of Hormuz",
-          "confidence": 0.9
-        }
-      ],
-      "confidence": 0.82,
-      "supportingEvidence": [
-        {
-          "uri": "https://www.reuters.com/world/asia-pacific/iran-oman-reach-agreements-share-hormuz-revenues-revolutionary-guards-say-2026-08-26/",
-          "title": "Reuters: IRGC says Iran and Oman reached Hormuz share and revenue agreements",
-          "observedAt": "2026-08-26T12:14:00Z",
-          "note": "Reuters reports an IRGC spokesperson, citing semi-official Tasnim, said Iran and Oman reached agreements concerning their share of the Strait of Hormuz and its revenues. The spokesperson also said U.S. interference had delayed negotiations."
-        },
-        {
-          "uri": "https://www.fm.gov.om/en/49077/",
-          "title": "Oman Foreign Ministry: established Hormuz navigation coordination background",
-          "observedAt": "2026-08-26T12:14:00Z",
-          "note": "Primary Omani background confirms that Oman has been engaged in formal navigation-management and temporary-corridor coordination around Hormuz. It supports the existence of the negotiating channel, but does not independently confirm the newly reported revenue/share terms."
-        },
-        {
-          "uri": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
-          "title": "Reuters/Kpler: physical Hormuz traffic remains depressed",
-          "observedAt": "2026-08-26T12:14:00Z",
-          "note": "Only five commodity vessels transited on Aug. 25 versus a 10-day average of 15, so any governance agreement has not yet translated into normal observed commercial flow."
-        }
-      ],
-      "contradictingEvidence": [
-        {
-          "uri": "https://www.reuters.com/world/asia-pacific/iran-oman-reach-agreements-share-hormuz-revenues-revolutionary-guards-say-2026-08-26/",
-          "title": "Reuters: current agreement claim is one-sided",
-          "observedAt": "2026-08-26T12:14:00Z",
-          "note": "The fresh share/revenue agreement is currently attributed to an Iranian Revolutionary Guards spokesperson through Tasnim. No matching Omani primary announcement was found in this cycle, so exact terms and implementation status remain unconfirmed."
-        },
-        {
-          "uri": "https://www.reuters.com/business/energy/gulf-ship-traffic-via-strait-hormuz-hovers-below-10-day-average-data-shows-2026-08-26/",
-          "title": "Reuters/Kpler: throughput has not normalized",
-          "observedAt": "2026-08-26T12:14:00Z",
-          "note": "Observed commodity-vessel traffic remains roughly one-third of the recent average, which contradicts any interpretation that a governance agreement by itself means operational reopening."
-        }
-      ],
-      "falsifier": "Downgrade or supersede this claim if Oman publicly denies the reported share/revenue agreement, if subsequent official texts show the terms remain unresolved, or if no observable implementation appears in navigation rules, fees/revenues, vessel permissions or commercial flows. Upgrade only after Omani primary confirmation and measurable operational effects.",
-      "actionState": "DETECTED",
-      "ledgerRef": null,
-      "geo": {
-        "lat": 26.5667,
-        "lon": 56.25,
-        "label": "Strait of Hormuz",
-        "precision": "chokepoint",
-        "evidence": [
-          {
-            "uri": "https://www.reuters.com/world/asia-pacific/iran-oman-reach-agreements-share-hormuz-revenues-revolutionary-guards-say-2026-08-26/",
-            "title": "Reuters report on claimed Iran-Oman Hormuz share/revenue agreement",
-            "observedAt": "2026-08-26T12:14:00Z"
-          }
-        ]
-      },
-      "hypothesis": "Implementation telemetry will reveal whether the claimed Hormuz governance agreement is real before political narratives converge.",
-      "baselineSource": {
-        "uri": "https://www.reuters.com/world/asia-pacific/iran-oman-reach-agreements-share-hormuz-revenues-revolutionary-guards-say-2026-08-26/",
-        "title": "public Iran/Oman diplomatic statements and crude-price reaction",
-        "observedAt": "2026-08-26T12:14:00Z",
-        "note": "Baseline description from the source-backed event fixture."
-      },
-      "alternativeDataSource": {
-        "uri": "https://www.reuters.com/world/asia-pacific/iran-oman-reach-agreements-share-hormuz-revenues-revolutionary-guards-say-2026-08-26/",
-        "title": "independent vessel throughput, permission/blacklist changes, port notices, tanker freight and war-risk insurance, evidence of toll/revenue collection, and refined-product delivery data",
-        "observedAt": "2026-08-26T12:14:00Z",
-        "note": "Candidate alternative-data layer. DETECTED only until direct data access and held-out evaluation exist."
-      },
-      "incrementalValueMetric": "time-to-correct-classification of CLAIMED_AGREEMENT versus IMPLEMENTED_GOVERNANCE, plus 3-7 day forecast error for physical-flow normalization",
-      "killCondition": "Kill the governance-implementation layer if no public/low-cost operational telemetry can distinguish rhetoric from implementation earlier or more accurately than official statements plus vessel counts."
     }
   ]
 }
