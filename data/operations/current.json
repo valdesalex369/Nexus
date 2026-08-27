@@ -1,6 +1,87 @@
 {
-  "generatedAt": "2026-08-27T08:02:45.764Z",
+  "generatedAt": "2026-08-27T10:57:04.768Z",
   "realityDelta": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260827-gsa-anthropic-deadline-conflicted-state",
+      "observedAt": "2026-08-27T10:55:00Z",
+      "sourceUri": "https://www.gsa.gov/artificial-intelligence",
+      "sourceType": "primary",
+      "entities": [
+        "U.S. General Services Administration",
+        "Anthropic",
+        "Claude",
+        "USAi",
+        "Multiple Award Schedule",
+        "U.S. District Court for the Northern District of California",
+        "Nexus/STEM"
+      ],
+      "relations": [
+        {
+          "from": "GSA AI page",
+          "relation": "states system integrations with Anthropic will be removed by",
+          "to": "2026-08-27",
+          "confidence": 0.99
+        },
+        {
+          "from": "GSA April 3 injunction statement",
+          "relation": "states Anthropic integrations and schedule availability were restored to",
+          "to": "pre-February-27 status quo",
+          "confidence": 0.99
+        },
+        {
+          "from": "current GSA newsroom",
+          "relation": "does not yet provide a newer primary implementation release resolving",
+          "to": "the August 27 operational state",
+          "confidence": 0.9
+        },
+        {
+          "from": "deadline reached without reconciled primary state",
+          "relation": "creates",
+          "to": "temporal policy-state ambiguity for federal users and procurement systems",
+          "confidence": 0.94
+        }
+      ],
+      "confidence": 0.96,
+      "supportingEvidence": [
+        {
+          "uri": "https://www.gsa.gov/artificial-intelligence",
+          "title": "GSA Artificial intelligence page",
+          "observedAt": "2026-08-27T10:55:00Z",
+          "note": "Current GSA AI page still displays an alert that GSA will remove system integrations with Anthropic by Aug. 27, 2026."
+        },
+        {
+          "uri": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-issues-statement-on-anthropic-preliminary-injunction-04032026",
+          "title": "GSA statement on Anthropic preliminary injunction",
+          "observedAt": "2026-08-27T10:55:00Z",
+          "note": "GSA said on Apr. 3 that a federal preliminary injunction paused implementation of the removal directive and that Anthropic integrations, GSA Chat access, external-facing services and Multiple Award Schedule availability would be restored to the prior status quo."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://www.gsa.gov/artificial-intelligence",
+          "title": "Current GSA AI alert conflicts with April injunction-era status statement",
+          "observedAt": "2026-08-27T10:55:00Z",
+          "note": "The removal date has arrived, but the GSA AI page's dated alert and GSA's April injunction statement describe incompatible operational trajectories unless a newer legal or implementation event supersedes one of them. No such newer primary release was found in GSA's current newsroom during this cycle."
+        }
+      ],
+      "falsifier": "Resolve this conflicted state when GSA, the court, or another authoritative federal source publishes a newer controlling statement confirming that Anthropic integrations were actually removed, delayed, restored, or otherwise modified after Aug. 27, 2026. Downgrade the importance of this primitive if delayed/stale federal pages rarely change operational decisions or can be resolved reliably without temporal supersession logic.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "title": "GSA Anthropic removal deadline arrives with authoritative state still conflicted",
+      "summary": "On Aug. 27 the current GSA AI page still says Anthropic integrations will be removed by today, while GSA's April injunction statement says removal was paused and Anthropic access restored. With no newer primary implementation notice found in the current GSA newsroom, Nexus should classify the operational state as conflicted rather than infer removal or continued availability.",
+      "delta": "Upgrade temporal supersession and effective-date reasoning as a core government-intelligence primitive. The deadline itself is now an event: authoritative pages can remain mutually inconsistent at the moment an operational change is supposed to occur.",
+      "firstOrderImpacts": [
+        "federal users and contractors cannot safely infer Claude availability from one GSA page alone",
+        "procurement and migration decisions require a current controlling source rather than cached or isolated guidance",
+        "Opportunity Radar should surface implementation uncertainty when effective dates arrive without reconciled authoritative state"
+      ],
+      "secondOrderImpacts": [
+        "Nexus can differentiate by modeling policy state as a time-versioned graph instead of a static fact",
+        "the same primitive generalizes to sanctions, tariffs, procurement amendments, court injunctions and regulatory effective dates",
+        "real-time operations should trigger a resolution watch when a future-dated policy event reaches its effective date without an authoritative superseding record"
+      ]
+    },
     {
       "kind": "reality-delta",
       "id": "ui-20260827-us-bulk-power-national-emergency-ai-load-security",
@@ -916,93 +997,6 @@
         "incrementalValueMetric": "time-to-correct-state classification and false-finalization rate over the next 3-7 days",
         "killCondition": "Kill the extra source-conflict layer if it does not reduce false state transitions or improve timing versus simply waiting for joint official confirmation."
       }
-    },
-    {
-      "kind": "reality-delta",
-      "id": "ui-20260826-us-pce-sticky-inflation",
-      "observedAt": "2026-08-26T12:30:00Z",
-      "sourceUri": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
-      "sourceType": "primary",
-      "entities": [
-        "U.S. Bureau of Economic Analysis",
-        "Federal Reserve",
-        "U.S. consumers",
-        "Treasury market",
-        "risk assets",
-        "AI infrastructure financing",
-        "Nexus/STEM"
-      ],
-      "relations": [
-        {
-          "from": "July PCE inflation",
-          "relation": "remained above",
-          "to": "Federal Reserve 2% target",
-          "confidence": 0.99
-        },
-        {
-          "from": "sticky inflation",
-          "relation": "raises the probability of",
-          "to": "higher-for-longer policy and rate volatility",
-          "confidence": 0.88
-        },
-        {
-          "from": "higher real and nominal rates",
-          "relation": "increase financing pressure on",
-          "to": "capital-intensive AI infrastructure and long-duration assets",
-          "confidence": 0.82
-        },
-        {
-          "from": "real PCE growth near zero in July",
-          "relation": "shows weaker volume growth despite",
-          "to": "nominal income and spending gains",
-          "confidence": 0.91
-        }
-      ],
-      "confidence": 0.95,
-      "supportingEvidence": [
-        {
-          "uri": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
-          "title": "BEA: Personal Income and Outlays, July 2026",
-          "observedAt": "2026-08-26T12:30:00Z",
-          "note": "BEA reports headline PCE prices up 0.2% month over month and 3.7% year over year in July; core PCE rose 0.2% month over month and 3.3% year over year. Real PCE was essentially flat while nominal personal income rose 0.4% and disposable personal income rose 0.5%."
-        },
-        {
-          "uri": "https://www.reuters.com/business/us-inflation-remains-sticky-july-2nd-quarter-gdp-unrevised-15-2026-08-26/",
-          "title": "Reuters: U.S. inflation remains sticky in July",
-          "observedAt": "2026-08-26T12:40:00Z",
-          "note": "Independent reporting confirms the 3.7% headline and 3.3% core PCE readings and frames them as keeping the Fed's inflation debate active ahead of Jackson Hole."
-        }
-      ],
-      "contradictingEvidence": [
-        {
-          "uri": "https://www.bls.gov/news.release/cpi.htm",
-          "title": "BLS: July CPI showed only a 0.1% monthly increase",
-          "observedAt": "2026-08-26T12:30:00Z",
-          "note": "The earlier July CPI report was softer at the monthly headline level, and energy prices declined during July. That argues against treating one sticky PCE print as proof that inflation is re-accelerating broadly."
-        },
-        {
-          "uri": "https://www.bls.gov/news.release/ppi.nr0.htm",
-          "title": "BLS: July producer prices were unchanged",
-          "observedAt": "2026-08-26T12:30:00Z",
-          "note": "Flat July PPI suggests some upstream price pressure cooled, which could limit pass-through into future consumer inflation even while current PCE remains elevated."
-        }
-      ],
-      "falsifier": "Downgrade the higher-for-longer inflation thesis if the next two inflation releases show sustained monthly core disinflation, energy normalization feeds through to lower PCE, and market-implied/Fed policy expectations move decisively away from additional tightening without a renewed inflation impulse.",
-      "actionState": "DETECTED",
-      "ledgerRef": null,
-      "title": "July PCE keeps U.S. inflation sticky while real consumption stalls",
-      "summary": "BEA's July release shows headline PCE inflation holding at 3.7% year over year and core at 3.3%, while real consumption was essentially flat. The mix preserves rate-policy pressure even as underlying real spending momentum looks softer.",
-      "delta": "Upgrade the probability of a higher-for-longer rate regime relative to a clean disinflation path, but do not upgrade to outright re-acceleration because CPI and PPI provide meaningful counterevidence. For Nexus, this strengthens the need to decompose macro shocks into inflation persistence versus real-demand weakness rather than using one risk-on/risk-off label.",
-      "firstOrderImpacts": [
-        "continued sensitivity in Treasury yields and rate-exposed equities ahead of Fed guidance",
-        "higher financing hurdle rates for capital-intensive AI infrastructure and leveraged projects",
-        "mixed pressure on crypto and other long-duration risk assets depending on whether the dominant market interpretation is tighter policy or weaker real growth"
-      ],
-      "secondOrderImpacts": [
-        "the AI-capex boom may face a tougher cost-of-capital environment even if model demand stays strong",
-        "Nexus should model inflation persistence and real-demand momentum as separate macro state variables",
-        "a falling oil risk premium from Hormuz reopening can ease future headline inflation without necessarily resolving sticky core services inflation"
-      ]
     }
   ],
   "opportunityRadar": [
