@@ -1,0 +1,61 @@
+{
+  "kind": "reality-delta",
+  "id": "ui-20260827-gsa-anthropic-deadline-conflicted-state",
+  "observedAt": "2026-08-27T10:55:00Z",
+  "sourceUri": "https://www.gsa.gov/artificial-intelligence",
+  "sourceType": "primary",
+  "entities": [
+    "U.S. General Services Administration",
+    "Anthropic",
+    "Claude",
+    "USAi",
+    "Multiple Award Schedule",
+    "U.S. District Court for the Northern District of California",
+    "Nexus/STEM"
+  ],
+  "relations": [
+    {"from": "GSA AI page", "relation": "states system integrations with Anthropic will be removed by", "to": "2026-08-27", "confidence": 0.99},
+    {"from": "GSA April 3 injunction statement", "relation": "states Anthropic integrations and schedule availability were restored to", "to": "pre-February-27 status quo", "confidence": 0.99},
+    {"from": "current GSA newsroom", "relation": "does not yet provide a newer primary implementation release resolving", "to": "the August 27 operational state", "confidence": 0.9},
+    {"from": "deadline reached without reconciled primary state", "relation": "creates", "to": "temporal policy-state ambiguity for federal users and procurement systems", "confidence": 0.94}
+  ],
+  "confidence": 0.96,
+  "supportingEvidence": [
+    {
+      "uri": "https://www.gsa.gov/artificial-intelligence",
+      "title": "GSA Artificial intelligence page",
+      "observedAt": "2026-08-27T10:55:00Z",
+      "note": "Current GSA AI page still displays an alert that GSA will remove system integrations with Anthropic by Aug. 27, 2026."
+    },
+    {
+      "uri": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-issues-statement-on-anthropic-preliminary-injunction-04032026",
+      "title": "GSA statement on Anthropic preliminary injunction",
+      "observedAt": "2026-08-27T10:55:00Z",
+      "note": "GSA said on Apr. 3 that a federal preliminary injunction paused implementation of the removal directive and that Anthropic integrations, GSA Chat access, external-facing services and Multiple Award Schedule availability would be restored to the prior status quo."
+    }
+  ],
+  "contradictingEvidence": [
+    {
+      "uri": "https://www.gsa.gov/artificial-intelligence",
+      "title": "Current GSA AI alert conflicts with April injunction-era status statement",
+      "observedAt": "2026-08-27T10:55:00Z",
+      "note": "The removal date has arrived, but the GSA AI page's dated alert and GSA's April injunction statement describe incompatible operational trajectories unless a newer legal or implementation event supersedes one of them. No such newer primary release was found in GSA's current newsroom during this cycle."
+    }
+  ],
+  "falsifier": "Resolve this conflicted state when GSA, the court, or another authoritative federal source publishes a newer controlling statement confirming that Anthropic integrations were actually removed, delayed, restored, or otherwise modified after Aug. 27, 2026. Downgrade the importance of this primitive if delayed/stale federal pages rarely change operational decisions or can be resolved reliably without temporal supersession logic.",
+  "actionState": "DETECTED",
+  "ledgerRef": null,
+  "title": "GSA Anthropic removal deadline arrives with authoritative state still conflicted",
+  "summary": "On Aug. 27 the current GSA AI page still says Anthropic integrations will be removed by today, while GSA's April injunction statement says removal was paused and Anthropic access restored. With no newer primary implementation notice found in the current GSA newsroom, Nexus should classify the operational state as conflicted rather than infer removal or continued availability.",
+  "delta": "Upgrade temporal supersession and effective-date reasoning as a core government-intelligence primitive. The deadline itself is now an event: authoritative pages can remain mutually inconsistent at the moment an operational change is supposed to occur.",
+  "firstOrderImpacts": [
+    "federal users and contractors cannot safely infer Claude availability from one GSA page alone",
+    "procurement and migration decisions require a current controlling source rather than cached or isolated guidance",
+    "Opportunity Radar should surface implementation uncertainty when effective dates arrive without reconciled authoritative state"
+  ],
+  "secondOrderImpacts": [
+    "Nexus can differentiate by modeling policy state as a time-versioned graph instead of a static fact",
+    "the same primitive generalizes to sanctions, tariffs, procurement amendments, court injunctions and regulatory effective dates",
+    "real-time operations should trigger a resolution watch when a future-dated policy event reaches its effective date without an authoritative superseding record"
+  ]
+}
