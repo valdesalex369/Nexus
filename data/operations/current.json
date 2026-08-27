@@ -1,6 +1,101 @@
 {
-  "generatedAt": "2026-08-27T00:12:23.019Z",
+  "generatedAt": "2026-08-27T01:59:33.581Z",
   "realityDelta": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260827-nvidia-fy28-supply-constrained-demand-guidance",
+      "observedAt": "2026-08-27T01:55:00Z",
+      "sourceUri": "https://www.reuters.com/business/nvidia-bounce-shows-wall-streets-ai-obsession-is-far-over-2026-08-26/",
+      "sourceType": "corroborated",
+      "entities": [
+        "NVIDIA",
+        "hyperscalers",
+        "AI labs",
+        "NeoClouds",
+        "enterprises",
+        "sovereign AI customers",
+        "Vera Rubin",
+        "memory suppliers",
+        "Nexus/STEM"
+      ],
+      "relations": [
+        {
+          "from": "NVIDIA",
+          "relation": "preliminarily expects",
+          "to": "approximately 70% fiscal 2028 revenue growth",
+          "confidence": 0.96
+        },
+        {
+          "from": "NVIDIA demand",
+          "relation": "is described as",
+          "to": "supply constrained through at least fiscal 2028",
+          "confidence": 0.95
+        },
+        {
+          "from": "AI demand base",
+          "relation": "extends beyond",
+          "to": "hyperscalers into NeoCloud, enterprise and sovereign customers",
+          "confidence": 0.92
+        },
+        {
+          "from": "extreme memory pricing",
+          "relation": "pressures",
+          "to": "gross margins despite stronger revenue growth",
+          "confidence": 0.94
+        },
+        {
+          "from": "NVIDIA-linked infrastructure financing",
+          "relation": "remains a caveat for",
+          "to": "interpreting capacity growth as fully independent end demand",
+          "confidence": 0.82
+        }
+      ],
+      "confidence": 0.95,
+      "supportingEvidence": [
+        {
+          "uri": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+          "title": "NVIDIA Q2 FY27 financial results",
+          "observedAt": "2026-08-27T01:55:00Z",
+          "note": "NVIDIA reported $96.2B Q2 revenue, $89.0B Data Center revenue and $108B Q3 guidance, establishing the unusually strong near-term base from which the longer-range outlook is being made."
+        },
+        {
+          "uri": "https://www.reuters.com/business/nvidia-bounce-shows-wall-streets-ai-obsession-is-far-over-2026-08-26/",
+          "title": "Reuters: NVIDIA stock rebounds after call as long-range AI demand outlook strengthens",
+          "observedAt": "2026-08-27T01:55:00Z",
+          "note": "Reuters reports that NVIDIA expects approximately 70% fiscal 2028 revenue growth and that the after-hours stock reaction reversed from an initial decline to a material gain as investors absorbed the longer-range outlook."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+          "title": "NVIDIA guides lower gross margin as costs rise",
+          "observedAt": "2026-08-27T01:55:00Z",
+          "note": "NVIDIA guides Q3 gross margin to about 74%, below Q2's 75%, so accelerating revenue does not imply frictionless economics."
+        },
+        {
+          "uri": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx",
+          "title": "NVIDIA is simultaneously helping mobilize large AI infrastructure financing pools",
+          "observedAt": "2026-08-27T01:55:00Z",
+          "note": "Large third-party financing programs mean announced infrastructure demand should still be separated from independently financed and economically productive end use."
+        }
+      ],
+      "falsifier": "Downgrade the stronger long-horizon AI-demand thesis if NVIDIA materially cuts the fiscal 2028 growth outlook, supply ceases to be the binding constraint, hyperscaler/enterprise utilization or monetization weakens, or gross-margin and financing pressures rise enough that revenue growth no longer translates into attractive returns on deployed AI capacity.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "title": "NVIDIA's call extends the AI-demand upgrade into FY2028 but keeps margin and financing quality unresolved",
+      "summary": "After an already exceptional Q2 print, NVIDIA's earnings call added a materially stronger long-range signal: management expects roughly 70% fiscal 2028 revenue growth and says supply remains the bottleneck. The demand picture appears broader than hyperscalers alone, but extreme memory costs and ecosystem financing mean revenue growth still should not be equated with productive capacity or clean returns.",
+      "delta": "Upgrade the AI infrastructure world model from 'near-term demand beat' to 'multi-year demand outlook is materially stronger and still supply constrained.' Keep a separate unresolved state for demand quality: utilization, customer monetization, margins and financing independence must still be observed rather than inferred from GPU sales alone.",
+      "firstOrderImpacts": [
+        "stronger forward demand expectations for GPUs, networking, HBM/memory, power and data-center infrastructure",
+        "higher probability that Vera Rubin capacity remains constrained into fiscal 2028",
+        "continued pressure on memory supply and AI infrastructure gross margins"
+      ],
+      "secondOrderImpacts": [
+        "ULTRA INSTINCT should distinguish announced demand, supply-constrained bookings and realized productive utilization as separate states",
+        "AI infrastructure beneficiaries may broaden beyond GPU vendors toward memory, networking, power and construction while returns remain financing-sensitive",
+        "Nexus model economics should judge compute by verified useful output and customer economics, not by capacity purchased alone"
+      ]
+    },
     {
       "kind": "reality-delta",
       "id": "ui-20260827-openai-hf-agent-coordination-authority-risk",
@@ -877,120 +972,6 @@
         "multi-model routers need separate fields for model developer, serving provider, jurisdiction, retention policy and auditability",
         "Nexus differentiation shifts further away from simple model access toward contradiction-preserving evidence, policy-aware routing and measured outcomes"
       ]
-    },
-    {
-      "kind": "reality-delta",
-      "id": "ui-20260826-hormuz-blacklist-behavioral-contagion",
-      "observedAt": "2026-08-26T07:06:00Z",
-      "sourceUri": "https://www.reuters.com/business/energy/some-oil-companies-avoid-ships-iran-blacklist-sources-say-2026-08-26/",
-      "sourceType": "secondary",
-      "entities": [
-        "Persian Gulf Strait Authority",
-        "Iran",
-        "Indian oil refiners",
-        "global energy major",
-        "blacklisted tankers",
-        "ship-to-ship transfer counterparties",
-        "Kpler",
-        "Strait of Hormuz"
-      ],
-      "relations": [
-        {
-          "from": "Persian Gulf Strait Authority",
-          "relation": "blacklists and threatens penalties against",
-          "to": "45 vessels",
-          "confidence": 0.95
-        },
-        {
-          "from": "blacklist contagion rule",
-          "relation": "extends designation risk to",
-          "to": "ship-to-ship counterparties",
-          "confidence": 0.94
-        },
-        {
-          "from": "at least three Indian refiners and one global energy major",
-          "relation": "plan to avoid",
-          "to": "blacklisted vessels",
-          "confidence": 0.9
-        },
-        {
-          "from": "blacklist enforcement risk",
-          "relation": "raises due-diligence, freight and insurance pressure for",
-          "to": "Gulf shipping networks",
-          "confidence": 0.83
-        }
-      ],
-      "confidence": 0.91,
-      "supportingEvidence": [
-        {
-          "uri": "https://www.reuters.com/business/energy/some-oil-companies-avoid-ships-iran-blacklist-sources-say-2026-08-26/",
-          "title": "Reuters: refiners and energy major plan to avoid Iran-blacklisted vessels",
-          "observedAt": "2026-08-26T07:06:00Z",
-          "note": "Four sources with direct knowledge say at least three Indian refiners and one global energy major plan to stop using blacklisted vessels, including for ship-to-ship transfers. This is observed counterparty behavior rather than only policy rhetoric."
-        },
-        {
-          "uri": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2869183-iran-s-pgsa-blacklist-deepens-hormuz-shipping-concerns",
-          "title": "Argus Media: PGSA blacklist raises freight-market concerns",
-          "observedAt": "2026-08-26T07:06:00Z",
-          "note": "Independent freight-market reporting says the PGSA rule can propagate risk beyond the originally listed ships through STS and transshipment links, potentially reducing willing counterparties."
-        },
-        {
-          "uri": "https://www.tasnimnews.ir/ar/news/2026/08/25/3680069/",
-          "title": "Tasnim: PGSA blacklist and STS-contagion warning",
-          "observedAt": "2026-08-26T07:06:00Z",
-          "note": "Iranian reporting reproduces the authority's warning that vessels conducting ship-to-ship operations with listed ships may themselves risk being blacklisted."
-        }
-      ],
-      "contradictingEvidence": [
-        {
-          "uri": "https://www.reuters.com/business/energy/some-oil-companies-avoid-ships-iran-blacklist-sources-say-2026-08-26/",
-          "title": "Reuters: likely substitution rather than complete trade stoppage",
-          "observedAt": "2026-08-26T07:06:00Z",
-          "note": "Industry participants expect operators to shift toward alternative vessels or routes rather than halt Gulf crude trade entirely; the blacklist may reroute flows more than reduce aggregate supply."
-        },
-        {
-          "uri": "https://www.reuters.com/world/asia-pacific/us-oil-prices-extend-losses-hopes-iran-oman-talks-strait-hormuz-2026-08-25/",
-          "title": "Reuters: oil markets still price reopening optimism",
-          "observedAt": "2026-08-26T07:06:00Z",
-          "note": "Crude prices are declining on Iran-Oman reopening talks, implying the market currently expects logistical substitution and diplomacy to outweigh at least part of the blacklist risk."
-        }
-      ],
-      "falsifier": "Downgrade the behavioral-contagion thesis if blacklisted vessels and their STS counterparties continue receiving comparable chartering activity to matched non-listed vessels, no measurable route/ownership/AIS changes occur, and freight or insurance premia do not differentiate despite the blacklist.",
-      "actionState": "DETECTED",
-      "ledgerRef": null,
-      "geo": {
-        "lat": 26.5667,
-        "lon": 56.25,
-        "label": "Strait of Hormuz / Gulf of Oman STS network",
-        "precision": "chokepoint",
-        "evidence": [
-          {
-            "uri": "https://www.reuters.com/business/energy/some-oil-companies-avoid-ships-iran-blacklist-sources-say-2026-08-26/",
-            "title": "Reuters reporting on charterer/refiner response to Hormuz blacklist",
-            "observedAt": "2026-08-26T07:06:00Z"
-          }
-        ]
-      },
-      "title": "Iran's Hormuz blacklist begins changing real chartering behavior",
-      "summary": "Iran's vessel blacklist has moved from a threat into observable counterparty behavior: multiple refiners and a global energy major plan to avoid listed ships and STS interactions with them, validating network-contagion risk while leaving aggregate supply effects uncertain.",
-      "delta": "Upgrade the Hormuz permission-regime model from announced blacklist risk to observed behavioral propagation. Keep aggregate supply impact unresolved: the first effect is counterparty substitution, due diligence and routing changes, not proven net supply loss.",
-      "firstOrderImpacts": [
-        "reduced charter demand for listed vessels",
-        "greater due-diligence and counterparty screening around STS transfers",
-        "possible redistribution of freight and insurance premia toward exposed vessel networks"
-      ],
-      "secondOrderImpacts": [
-        "network effects may propagate sanctions-like behavior without formal legal sanctions from the buyers' home jurisdictions",
-        "vessel ownership, STS counterparties and AIS behavior become higher-value predictors than simple throughput counts",
-        "market-wide oil supply may remain resilient if substitution is fast, creating a divergence between network stress and headline crude prices"
-      ],
-      "alphaHunter": {
-        "hypothesis": "Blacklist-network adjacency will predict charter avoidance, route changes and risk-premium differentiation earlier than aggregate Hormuz traffic or oil-price headlines alone.",
-        "baseline": "PGSA blacklist announcement plus aggregate Hormuz vessel counts and Brent price action",
-        "alternativeData": "vessel identity/ownership, STS counterparty graph, chartering changes, AIS-dark behavior, freight differentials and war-risk insurance for listed versus matched unlisted vessels",
-        "incrementalValueMetric": "3-7 day difference in charter activity, route changes and risk-premium movement for listed/adjacent vessels versus a matched unlisted cohort, plus forecast error relative to the aggregate baseline",
-        "killCondition": "Kill the graph-expansion hypothesis if blacklist adjacency fails to produce measurable out-of-sample differences in chartering, routing, freight or insurance after controlling for vessel class and Gulf exposure."
-      }
     }
   ],
   "opportunityRadar": [
