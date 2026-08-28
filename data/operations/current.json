@@ -1,6 +1,87 @@
 {
-  "generatedAt": "2026-08-27T22:09:44.587Z",
+  "generatedAt": "2026-08-28T00:05:24.418Z",
   "realityDelta": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260828-anthropic-matx-chip-vertical-integration",
+      "observedAt": "2026-08-28T00:03:44Z",
+      "sourceUri": "https://www.reuters.com/business/finance/anthropic-planned-then-abandoned-7-billion-purchase-matx-sources-say-2026-08-27/",
+      "sourceType": "secondary",
+      "entities": [
+        "Anthropic",
+        "MatX",
+        "NVIDIA",
+        "Google",
+        "AI chip startups",
+        "custom silicon"
+      ],
+      "relations": [
+        {
+          "from": "Anthropic",
+          "relation": "reportedly discussed acquiring for roughly $7B",
+          "to": "MatX",
+          "confidence": 0.86
+        },
+        {
+          "from": "Anthropic",
+          "relation": "reportedly shifted from acquisition talks toward partnership discussions with",
+          "to": "MatX",
+          "confidence": 0.84
+        },
+        {
+          "from": "Anthropic",
+          "relation": "is expanding in-house silicon capability to reduce dependence on external accelerators including",
+          "to": "NVIDIA",
+          "confidence": 0.9
+        },
+        {
+          "from": "Anthropic",
+          "relation": "is evaluating multiple chip-design approaches rather than locking into one acquisition path",
+          "to": "AI chip startups",
+          "confidence": 0.88
+        }
+      ],
+      "confidence": 0.86,
+      "supportingEvidence": [
+        {
+          "uri": "https://www.reuters.com/business/finance/anthropic-planned-then-abandoned-7-billion-purchase-matx-sources-say-2026-08-27/",
+          "title": "Reuters: Anthropic planned, then abandoned roughly $7B MatX acquisition",
+          "observedAt": "2026-08-28T00:03:44Z",
+          "note": "Reuters reports, citing people briefed on the matter, that Anthropic discussed buying MatX for roughly $7B, that the acquisition talks are no longer active, and that discussions evolved toward a possible partnership. Reuters also reports Anthropic is expanding an in-house silicon team and meeting multiple chip startups."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://www.reuters.com/business/finance/anthropic-planned-then-abandoned-7-billion-purchase-matx-sources-say-2026-08-27/",
+          "title": "Neither Anthropic nor MatX confirmed the acquisition talks",
+          "observedAt": "2026-08-28T00:03:44Z",
+          "note": "Anthropic declined to comment on the MatX deal talks and MatX did not respond. Reuters could not determine why the acquisition talks ended, so the exact economics and strategic rationale remain unconfirmed."
+        }
+      ],
+      "falsifier": "Downgrade the vertical-integration thesis if Anthropic publicly says it is not pursuing meaningful custom-silicon development, if its chip-startup discussions do not lead to partnerships/acquisitions or deployed silicon, or if multi-provider rented compute remains economically superior enough that in-house silicon does not improve cost, latency, supply security, or gross margins.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "title": "Anthropic tests—but does not commit to—vertical integration into custom AI silicon",
+      "summary": "Reuters reports Anthropic considered a roughly $7B acquisition of chip startup MatX, abandoned the acquisition path, and shifted toward partnership discussions while continuing to evaluate multiple chip startups and expand an internal silicon team. The evidence supports a frontier-lab vertical-integration experiment, not a confirmed acquisition strategy.",
+      "delta": "Upgrade custom silicon from a distant infrastructure option to an active strategic path for frontier model labs, but downgrade the assumption that full acquisition/vertical ownership is obviously economical. Preserve the state as REPORTED_STRATEGIC_EXPLORATION rather than CONFIRMED_TRANSACTION.",
+      "firstOrderImpacts": [
+        "frontier labs may seek lower inference/training cost and stronger supply control through custom silicon",
+        "chip startups become strategic partnership/acquisition targets for model developers",
+        "NVIDIA dependence may be reduced at the margin but remains substantial in the near term"
+      ],
+      "secondOrderImpacts": [
+        "AI competition may increasingly span model quality, cloud contracts, custom silicon, power, and capital structure rather than model benchmarks alone",
+        "large model labs may use partnerships instead of acquisitions when hardware ownership does not justify integration cost or execution risk",
+        "Nexus should track build-versus-buy decisions as evidence about the real economics of AI infrastructure"
+      ],
+      "alphaHunter": {
+        "hypothesis": "Frontier-lab custom-silicon moves that progress from exploration to deployed production will predict improved unit economics or supply resilience before those benefits are fully visible in reported margins.",
+        "baseline": "public model revenue/growth and aggregate GPU-capex announcements",
+        "alternativeData": "silicon-team hiring, chip-startup partnerships/acquisition talks, foundry/tapeout milestones, direct accelerator purchases, cloud mix, gross-margin trends and compute-cost disclosures",
+        "incrementalValueMetric": "lead time and forecast improvement for future compute-cost intensity, gross margin and provider concentration versus the baseline",
+        "killCondition": "Kill the custom-silicon alpha layer if these signals do not improve held-out forecasts of compute economics or if frontier labs continue to rely overwhelmingly on rented third-party accelerators without measurable penalty."
+      }
+    },
     {
       "kind": "reality-delta",
       "id": "ui-20260827-hormuz-conditional-reopening-demands",
@@ -944,101 +1025,6 @@
         "incrementalValueMetric": "3-7 day classification accuracy for SEVERE_IMPAIRMENT / CONTESTED_REOPENING / NORMALIZING using later physical-flow and logistics evidence",
         "killCondition": "Kill the added baseline/security layer if it does not improve held-out normalization classification versus a simple public-headline and oil-price baseline or if the physical data arrive too late to affect decisions."
       }
-    },
-    {
-      "kind": "reality-delta",
-      "id": "ui-20260827-nvidia-fy28-supply-constrained-demand-guidance",
-      "observedAt": "2026-08-27T01:55:00Z",
-      "sourceUri": "https://www.reuters.com/business/nvidia-bounce-shows-wall-streets-ai-obsession-is-far-over-2026-08-26/",
-      "sourceType": "corroborated",
-      "entities": [
-        "NVIDIA",
-        "hyperscalers",
-        "AI labs",
-        "NeoClouds",
-        "enterprises",
-        "sovereign AI customers",
-        "Vera Rubin",
-        "memory suppliers",
-        "Nexus/STEM"
-      ],
-      "relations": [
-        {
-          "from": "NVIDIA",
-          "relation": "preliminarily expects",
-          "to": "approximately 70% fiscal 2028 revenue growth",
-          "confidence": 0.96
-        },
-        {
-          "from": "NVIDIA demand",
-          "relation": "is described as",
-          "to": "supply constrained through at least fiscal 2028",
-          "confidence": 0.95
-        },
-        {
-          "from": "AI demand base",
-          "relation": "extends beyond",
-          "to": "hyperscalers into NeoCloud, enterprise and sovereign customers",
-          "confidence": 0.92
-        },
-        {
-          "from": "extreme memory pricing",
-          "relation": "pressures",
-          "to": "gross margins despite stronger revenue growth",
-          "confidence": 0.94
-        },
-        {
-          "from": "NVIDIA-linked infrastructure financing",
-          "relation": "remains a caveat for",
-          "to": "interpreting capacity growth as fully independent end demand",
-          "confidence": 0.82
-        }
-      ],
-      "confidence": 0.95,
-      "supportingEvidence": [
-        {
-          "uri": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
-          "title": "NVIDIA Q2 FY27 financial results",
-          "observedAt": "2026-08-27T01:55:00Z",
-          "note": "NVIDIA reported $96.2B Q2 revenue, $89.0B Data Center revenue and $108B Q3 guidance, establishing the unusually strong near-term base from which the longer-range outlook is being made."
-        },
-        {
-          "uri": "https://www.reuters.com/business/nvidia-bounce-shows-wall-streets-ai-obsession-is-far-over-2026-08-26/",
-          "title": "Reuters: NVIDIA stock rebounds after call as long-range AI demand outlook strengthens",
-          "observedAt": "2026-08-27T01:55:00Z",
-          "note": "Reuters reports that NVIDIA expects approximately 70% fiscal 2028 revenue growth and that the after-hours stock reaction reversed from an initial decline to a material gain as investors absorbed the longer-range outlook."
-        }
-      ],
-      "contradictingEvidence": [
-        {
-          "uri": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
-          "title": "NVIDIA guides lower gross margin as costs rise",
-          "observedAt": "2026-08-27T01:55:00Z",
-          "note": "NVIDIA guides Q3 gross margin to about 74%, below Q2's 75%, so accelerating revenue does not imply frictionless economics."
-        },
-        {
-          "uri": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx",
-          "title": "NVIDIA is simultaneously helping mobilize large AI infrastructure financing pools",
-          "observedAt": "2026-08-27T01:55:00Z",
-          "note": "Large third-party financing programs mean announced infrastructure demand should still be separated from independently financed and economically productive end use."
-        }
-      ],
-      "falsifier": "Downgrade the stronger long-horizon AI-demand thesis if NVIDIA materially cuts the fiscal 2028 growth outlook, supply ceases to be the binding constraint, hyperscaler/enterprise utilization or monetization weakens, or gross-margin and financing pressures rise enough that revenue growth no longer translates into attractive returns on deployed AI capacity.",
-      "actionState": "DETECTED",
-      "ledgerRef": null,
-      "title": "NVIDIA's call extends the AI-demand upgrade into FY2028 but keeps margin and financing quality unresolved",
-      "summary": "After an already exceptional Q2 print, NVIDIA's earnings call added a materially stronger long-range signal: management expects roughly 70% fiscal 2028 revenue growth and says supply remains the bottleneck. The demand picture appears broader than hyperscalers alone, but extreme memory costs and ecosystem financing mean revenue growth still should not be equated with productive capacity or clean returns.",
-      "delta": "Upgrade the AI infrastructure world model from 'near-term demand beat' to 'multi-year demand outlook is materially stronger and still supply constrained.' Keep a separate unresolved state for demand quality: utilization, customer monetization, margins and financing independence must still be observed rather than inferred from GPU sales alone.",
-      "firstOrderImpacts": [
-        "stronger forward demand expectations for GPUs, networking, HBM/memory, power and data-center infrastructure",
-        "higher probability that Vera Rubin capacity remains constrained into fiscal 2028",
-        "continued pressure on memory supply and AI infrastructure gross margins"
-      ],
-      "secondOrderImpacts": [
-        "ULTRA INSTINCT should distinguish announced demand, supply-constrained bookings and realized productive utilization as separate states",
-        "AI infrastructure beneficiaries may broaden beyond GPU vendors toward memory, networking, power and construction while returns remain financing-sensitive",
-        "Nexus model economics should judge compute by verified useful output and customer economics, not by capacity purchased alone"
-      ]
     }
   ],
   "opportunityRadar": [
