@@ -1,0 +1,73 @@
+{
+  "kind": "reality-delta",
+  "id": "ui-20260828-anthropic-pentagon-blacklist-ruling",
+  "observedAt": "2026-08-28T02:55:00Z",
+  "sourceUri": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/",
+  "sourceType": "secondary",
+  "entities": [
+    "Anthropic",
+    "U.S. Department of Defense",
+    "U.S. District Court for the Northern District of California",
+    "U.S. General Services Administration",
+    "Claude",
+    "federal AI procurement",
+    "Nexus/STEM"
+  ],
+  "relations": [
+    {"from": "U.S. District Court", "relation": "ruled unlawful and blocked", "to": "Pentagon supply-chain-risk blacklisting of Anthropic", "confidence": 0.98},
+    {"from": "court ruling", "relation": "materially weakens", "to": "the legal basis for treating Anthropic as a national-security supply-chain risk", "confidence": 0.97},
+    {"from": "GSA April 3 injunction statement", "relation": "had already restored", "to": "Anthropic integrations and procurement availability to prior status quo", "confidence": 0.99},
+    {"from": "separate pending litigation", "relation": "may still affect", "to": "civilian federal procurement status", "confidence": 0.9}
+  ],
+  "confidence": 0.95,
+  "supportingEvidence": [
+    {
+      "uri": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/",
+      "title": "Reuters: U.S. judge blocks Pentagon's Anthropic blacklisting",
+      "observedAt": "2026-08-28T02:55:00Z",
+      "note": "Reuters reports U.S. District Judge Rita Lin ruled the Pentagon's supply-chain-risk designation unlawful, finding First Amendment retaliation, due-process violations, and statutory defects."
+    },
+    {
+      "uri": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-issues-statement-on-anthropic-preliminary-injunction-04032026",
+      "title": "GSA statement on Anthropic preliminary injunction",
+      "observedAt": "2026-08-28T02:55:00Z",
+      "note": "GSA said in April that the earlier injunction paused implementation of the federal removal directive and restored Anthropic integrations, GSA Chat access, external services, and Multiple Award Schedule availability to the prior status quo."
+    },
+    {
+      "uri": "https://www.anthropic.com/news/where-stand-department-war",
+      "title": "Anthropic: where things stand with the Department of War",
+      "observedAt": "2026-08-28T02:55:00Z",
+      "note": "Anthropic's earlier primary statement confirms the Pentagon formally designated the company a supply-chain risk and that Anthropic intended to challenge the designation in court."
+    }
+  ],
+  "contradictingEvidence": [
+    {
+      "uri": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/",
+      "title": "Civilian procurement status is not fully resolved by this ruling alone",
+      "observedAt": "2026-08-28T02:55:00Z",
+      "note": "Reuters reports Anthropic has separate litigation over another designation that could affect civilian government contracts. The ruling materially changes the Pentagon blacklisting state but should not be generalized into 'all federal restrictions removed' without a controlling GSA/court update."
+    },
+    {
+      "uri": "https://www.gsa.gov/artificial-intelligence",
+      "title": "GSA's public AI page may still carry stale removal language",
+      "observedAt": "2026-08-28T02:55:00Z",
+      "note": "A stale or lagging agency page can remain inconsistent with a newer legal ruling, so operational availability should be confirmed from controlling implementation evidence rather than page text alone."
+    }
+  ],
+  "falsifier": "Downgrade this interpretation if the ruling is stayed or reversed on appeal, a newer controlling federal order lawfully reinstates the supply-chain-risk designation, or GSA/civilian procurement restrictions remain independently effective under a legally distinct authority. Upgrade to FEDERAL_ACCESS_RESTORED only after controlling implementation evidence confirms actual operational availability across the affected civilian procurement surfaces.",
+  "actionState": "DETECTED",
+  "ledgerRef": null,
+  "title": "Federal court materially weakens Anthropic blacklisting while civilian procurement status remains partly unresolved",
+  "summary": "A federal judge ruled the Pentagon's Anthropic supply-chain-risk blacklisting unlawful, materially improving Anthropic's legal position and superseding the prior assumption that the Aug. 27 federal removal deadline could be interpreted without a controlling legal update. The ruling does not by itself prove that every civilian federal procurement restriction is gone, because separate litigation and implementation state remain relevant.",
+  "delta": "Supersede GSA_ANTHROPIC_DEADLINE_CONFLICTED as the highest-level legal state with PENTAGON_BLACKLISTING_UNLAWFUL + CIVILIAN_PROCUREMENT_STATUS_PARTLY_UNRESOLVED. Preserve the prior conflicted event as historical evidence. Upgrade legal-supersession tracking: court rulings can invalidate an agency policy trajectory without immediately updating every operational surface.",
+  "firstOrderImpacts": [
+    "Anthropic's legal and reputational position in U.S. national-security procurement materially improves",
+    "federal users and contractors should not treat the Pentagon supply-chain-risk designation as currently valid without newer controlling authority",
+    "GSA and other civilian procurement systems may need to reconcile implementation state with the new ruling"
+  ],
+  "secondOrderImpacts": [
+    "government AI procurement increasingly requires a legal-state graph that distinguishes agency policy, injunction, final ruling, appeal, and implementation",
+    "Nexus can create value by detecting when operational government pages lag controlling legal authority",
+    "AI vendors' safety-policy disputes with government buyers can become procurement and constitutional-law variables, not merely product-policy disagreements"
+  ]
+}
