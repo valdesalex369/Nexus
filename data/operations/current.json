@@ -1,6 +1,100 @@
 {
-  "generatedAt": "2026-08-28T02:55:46.836Z",
+  "generatedAt": "2026-08-28T04:06:35.364Z",
   "realityDelta": [
+    {
+      "kind": "reality-delta",
+      "id": "ui-20260828-hormuz-traffic-momentum-reversal",
+      "observedAt": "2026-08-28T04:04:00Z",
+      "sourceUri": "https://www.reuters.com/business/energy/shipping-traffic-via-strait-hormuz-slips-below-10-day-average-data-shows-2026-08-28/",
+      "sourceType": "secondary",
+      "entities": [
+        "Strait of Hormuz",
+        "Iran",
+        "Oman",
+        "Qatar",
+        "commercial shipping",
+        "Kpler",
+        "International Maritime Organization",
+        "Nexus/STEM"
+      ],
+      "relations": [
+        {
+          "from": "Thursday visible commodity-vessel traffic",
+          "relation": "fell to",
+          "to": "7 transits from 17 on Wednesday",
+          "confidence": 0.96
+        },
+        {
+          "from": "7 Thursday transits",
+          "relation": "remained below",
+          "to": "the recent 10-day average",
+          "confidence": 0.95
+        },
+        {
+          "from": "daily traffic momentum",
+          "relation": "weakened despite",
+          "to": "intensifying diplomatic reopening efforts",
+          "confidence": 0.9
+        },
+        {
+          "from": "IMO maritime-security record",
+          "relation": "supports",
+          "to": "continued residual physical-security risk around Hormuz",
+          "confidence": 0.94
+        }
+      ],
+      "confidence": 0.91,
+      "supportingEvidence": [
+        {
+          "uri": "https://www.reuters.com/business/energy/shipping-traffic-via-strait-hormuz-slips-below-10-day-average-data-shows-2026-08-28/",
+          "title": "Reuters: Hormuz shipping traffic falls below recent average",
+          "observedAt": "2026-08-28T04:04:00Z",
+          "note": "Reuters reports seven commodity-vessel transits on Thursday, down from 17 Wednesday and below the recent 10-day average, using commercial vessel-tracking data."
+        },
+        {
+          "uri": "https://www.reuters.com/world/middle-east/iran-war-diplomacy-turns-toward-reopening-strait-hormuz-2026-08-28/",
+          "title": "Reuters: diplomacy intensifies around conditional Hormuz reopening",
+          "observedAt": "2026-08-28T04:04:00Z",
+          "note": "Diplomatic efforts to reopen the Strait are intensifying while Iran prepares conditions and an Iran-Oman corridor remains under discussion, creating a useful contrast with still-weak physical traffic."
+        },
+        {
+          "uri": "https://www.imo.org/en/mediacentre/pressbriefings/pages/imo-secretary-general-condemns-new-attacks-on-ships-in-strait-of-hormuz.aspx",
+          "title": "IMO: attacks keep maritime-security risk elevated",
+          "observedAt": "2026-08-28T04:04:00Z",
+          "note": "IMO's primary safety statements document repeated attacks and continuing danger to commercial shipping in and around the Strait, supporting the residual-security-risk interpretation independently of market commentary."
+        }
+      ],
+      "contradictingEvidence": [
+        {
+          "uri": "https://www.reuters.com/world/middle-east/iran-war-diplomacy-turns-toward-reopening-strait-hormuz-2026-08-28/",
+          "title": "Diplomatic reopening efforts are intensifying",
+          "observedAt": "2026-08-28T04:04:00Z",
+          "note": "A one-day traffic drop can be noisy and does not prove reopening has failed. Mediation, corridor planning, demining and conditionality negotiations remain active."
+        },
+        {
+          "uri": "https://www.reuters.com/business/energy/shipping-traffic-via-strait-hormuz-slips-below-10-day-average-data-shows-2026-08-28/",
+          "title": "AIS and daily transit counts are imperfect",
+          "observedAt": "2026-08-28T04:04:00Z",
+          "note": "Commercial vessel-tracking data can miss dark or misclassified traffic, and a single-day decline can reverse quickly; treat this as a momentum warning, not a structural-collapse call."
+        }
+      ],
+      "falsifier": "Downgrade the momentum-reversal interpretation if the next several days show sustained vessel and oil-flow recovery toward pre-conflict norms, maritime incidents subside, and freight/war-risk insurance and downstream Asian arrivals normalize. Treat this event as noise if the 7-transit day is immediately followed by durable recovery and adds no forecasting value beyond the existing diplomacy-plus-price baseline.",
+      "actionState": "DETECTED",
+      "ledgerRef": null,
+      "title": "Hormuz traffic momentum reverses sharply while reopening diplomacy intensifies",
+      "summary": "Visible commodity-vessel traffic through Hormuz fell to seven transits Thursday from 17 Wednesday and remained below the recent average even as diplomatic work on conditional reopening intensified. This does not prove the reopening process failed; it strengthens the existing narrative-versus-physical-state divergence and argues against declaring normalization from diplomacy or one strong traffic day.",
+      "delta": "Supersede POSITIVE_TRAFFIC_MOMENTUM as the current short-term physical-flow label with MOMENTUM_REVERSAL_SIGNAL + SEVERE_RESIDUAL_IMPAIRMENT, while preserving CONDITIONAL_REOPENING_DEMANDS + MEDIATION_ACTIVE + FRAMEWORK_UNRESOLVED as the diplomatic state. Do not reinterpret one day as a structural reversal.",
+      "firstOrderImpacts": [
+        "reduce confidence that the recent improvement in visible vessel traffic represented durable normalization",
+        "keep freight, war-risk insurance and Gulf-delivery risk elevated despite diplomatic optimism",
+        "increase the value of multi-day physical-flow confirmation before changing the operational state"
+      ],
+      "secondOrderImpacts": [
+        "Orbital Insight should separate absolute baseline, daily momentum and diplomatic state instead of collapsing them into one reopening score",
+        "Alternative-Data Alpha Hunter can test whether vessel-flow reversals plus incident telemetry lead crude, freight or insurance repricing",
+        "downstream destination arrivals remain a stronger confirmation layer than source-side political claims alone"
+      ]
+    },
     {
       "kind": "reality-delta",
       "id": "ui-20260828-anthropic-pentagon-blacklist-ruling",
@@ -892,87 +986,6 @@
         "ULTRA INSTINCT should separate market-liquidity intervention from monetary-policy stance instead of collapsing both into a single rates signal",
         "a persistent Treasury-versus-Fed divergence could make term premium and fiscal-risk pricing more important than the policy rate alone",
         "Alternative-Data Alpha Hunter can test intervention-effectiveness by comparing announced buyback operations with intraday Treasury liquidity, term-premium proxies, dollar moves, and later financing conditions"
-      ]
-    },
-    {
-      "kind": "reality-delta",
-      "id": "ui-20260827-gsa-anthropic-deadline-conflicted-state",
-      "observedAt": "2026-08-27T10:55:00Z",
-      "sourceUri": "https://www.gsa.gov/artificial-intelligence",
-      "sourceType": "primary",
-      "entities": [
-        "U.S. General Services Administration",
-        "Anthropic",
-        "Claude",
-        "USAi",
-        "Multiple Award Schedule",
-        "U.S. District Court for the Northern District of California",
-        "Nexus/STEM"
-      ],
-      "relations": [
-        {
-          "from": "GSA AI page",
-          "relation": "states system integrations with Anthropic will be removed by",
-          "to": "2026-08-27",
-          "confidence": 0.99
-        },
-        {
-          "from": "GSA April 3 injunction statement",
-          "relation": "states Anthropic integrations and schedule availability were restored to",
-          "to": "pre-February-27 status quo",
-          "confidence": 0.99
-        },
-        {
-          "from": "current GSA newsroom",
-          "relation": "does not yet provide a newer primary implementation release resolving",
-          "to": "the August 27 operational state",
-          "confidence": 0.9
-        },
-        {
-          "from": "deadline reached without reconciled primary state",
-          "relation": "creates",
-          "to": "temporal policy-state ambiguity for federal users and procurement systems",
-          "confidence": 0.94
-        }
-      ],
-      "confidence": 0.96,
-      "supportingEvidence": [
-        {
-          "uri": "https://www.gsa.gov/artificial-intelligence",
-          "title": "GSA Artificial intelligence page",
-          "observedAt": "2026-08-27T10:55:00Z",
-          "note": "Current GSA AI page still displays an alert that GSA will remove system integrations with Anthropic by Aug. 27, 2026."
-        },
-        {
-          "uri": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-issues-statement-on-anthropic-preliminary-injunction-04032026",
-          "title": "GSA statement on Anthropic preliminary injunction",
-          "observedAt": "2026-08-27T10:55:00Z",
-          "note": "GSA said on Apr. 3 that a federal preliminary injunction paused implementation of the removal directive and that Anthropic integrations, GSA Chat access, external-facing services and Multiple Award Schedule availability would be restored to the prior status quo."
-        }
-      ],
-      "contradictingEvidence": [
-        {
-          "uri": "https://www.gsa.gov/artificial-intelligence",
-          "title": "Current GSA AI alert conflicts with April injunction-era status statement",
-          "observedAt": "2026-08-27T10:55:00Z",
-          "note": "The removal date has arrived, but the GSA AI page's dated alert and GSA's April injunction statement describe incompatible operational trajectories unless a newer legal or implementation event supersedes one of them. No such newer primary release was found in GSA's current newsroom during this cycle."
-        }
-      ],
-      "falsifier": "Resolve this conflicted state when GSA, the court, or another authoritative federal source publishes a newer controlling statement confirming that Anthropic integrations were actually removed, delayed, restored, or otherwise modified after Aug. 27, 2026. Downgrade the importance of this primitive if delayed/stale federal pages rarely change operational decisions or can be resolved reliably without temporal supersession logic.",
-      "actionState": "DETECTED",
-      "ledgerRef": null,
-      "title": "GSA Anthropic removal deadline arrives with authoritative state still conflicted",
-      "summary": "On Aug. 27 the current GSA AI page still says Anthropic integrations will be removed by today, while GSA's April injunction statement says removal was paused and Anthropic access restored. With no newer primary implementation notice found in the current GSA newsroom, Nexus should classify the operational state as conflicted rather than infer removal or continued availability.",
-      "delta": "Upgrade temporal supersession and effective-date reasoning as a core government-intelligence primitive. The deadline itself is now an event: authoritative pages can remain mutually inconsistent at the moment an operational change is supposed to occur.",
-      "firstOrderImpacts": [
-        "federal users and contractors cannot safely infer Claude availability from one GSA page alone",
-        "procurement and migration decisions require a current controlling source rather than cached or isolated guidance",
-        "Opportunity Radar should surface implementation uncertainty when effective dates arrive without reconciled authoritative state"
-      ],
-      "secondOrderImpacts": [
-        "Nexus can differentiate by modeling policy state as a time-versioned graph instead of a static fact",
-        "the same primitive generalizes to sanctions, tariffs, procurement amendments, court injunctions and regulatory effective dates",
-        "real-time operations should trigger a resolution watch when a future-dated policy event reaches its effective date without an authoritative superseding record"
       ]
     }
   ],
