@@ -1,0 +1,67 @@
+{
+  "kind": "reality-delta",
+  "id": "ui-20260828-anthropic-model-hardware-standard-physical-agents",
+  "observedAt": "2026-08-28T01:02:30Z",
+  "sourceUri": "https://modelhardwarestandard.com/",
+  "sourceType": "primary",
+  "entities": [
+    "Anthropic",
+    "Model Hardware Standard",
+    "HHMI Janelia Research Campus",
+    "scientific laboratories",
+    "advanced manufacturing",
+    "physical AI agents"
+  ],
+  "relations": [
+    {"from": "Anthropic", "relation": "opened a research preview of", "to": "Model Hardware Standard", "confidence": 0.99},
+    {"from": "Model Hardware Standard", "relation": "standardizes agent control of programmable equipment used by", "to": "scientific laboratories", "confidence": 0.98},
+    {"from": "Model Hardware Standard", "relation": "extends agent interoperability from software tools into", "to": "advanced manufacturing", "confidence": 0.96},
+    {"from": "Anthropic", "relation": "developed the standard initially with", "to": "HHMI Janelia Research Campus", "confidence": 0.99}
+  ],
+  "confidence": 0.97,
+  "supportingEvidence": [
+    {
+      "uri": "https://modelhardwarestandard.com/",
+      "title": "Model Hardware Standard research preview",
+      "observedAt": "2026-08-28T01:02:30Z",
+      "note": "The official MHS site says Anthropic and HHMI Janelia developed a shared specification for AI agents to safely operate physical equipment in scientific research and advanced manufacturing, with a limited research preview now open and open sourcing planned later."
+    },
+    {
+      "uri": "https://www.reuters.com/technology/anthropic-unveils-new-framework-allowing-ai-agents-operate-physical-devices-2026-08-27/",
+      "title": "Reuters: Anthropic unveils framework for AI agents to operate physical devices",
+      "observedAt": "2026-08-28T01:02:30Z",
+      "note": "Reuters independently reports that MHS enables agents to control laboratory and industrial devices such as microscopes, robotic arms and other programmable equipment."
+    }
+  ],
+  "contradictingEvidence": [
+    {
+      "uri": "https://modelhardwarestandard.com/",
+      "title": "MHS is still a limited research preview",
+      "observedAt": "2026-08-28T01:02:30Z",
+      "note": "The standard is not yet broadly open source or generally deployed. Its real-world safety, reliability, adoption rate and economic impact remain unproven outside early partner environments."
+    }
+  ],
+  "falsifier": "Downgrade the thesis if MHS fails to achieve meaningful adoption beyond preview partners, does not materially reduce integration time or error rates, or if safety/reliability constraints keep autonomous physical-device operation from production scientific and manufacturing workflows.",
+  "actionState": "DETECTED",
+  "ledgerRef": null,
+  "title": "Anthropic pushes agent interoperability from software into physical equipment",
+  "summary": "Anthropic opened a research preview of the Model Hardware Standard, a model-agnostic interface intended to let AI agents safely operate programmable scientific and manufacturing hardware. This extends the agent interoperability stack from data/software tools into physical-world actuation, but remains early-stage and unproven at production scale.",
+  "delta": "Upgrade physical-agent interoperability from bespoke integration to an emerging standards layer. Downgrade any assumption that browser/MCP software action is the final agent interface boundary; the physical-device layer is beginning to standardize too.",
+  "firstOrderImpacts": [
+    "labs and manufacturers may reduce bespoke integration work required to connect AI agents to instruments",
+    "physical AI workflows gain a more portable interface layer independent of one model vendor",
+    "safety and permission semantics around device actuation become a first-class systems problem"
+  ],
+  "secondOrderImpacts": [
+    "agent infrastructure may converge on a stack spanning MCP/WebMCP for software and MHS-like standards for physical devices",
+    "Nexus authority, provenance and identity controls become more valuable as agents move from information actions into physical-world actions",
+    "scientific discovery and manufacturing automation could generate new alternative-data streams from instrument-level telemetry and experiment outcomes"
+  ],
+  "alphaHunter": {
+    "hypothesis": "Early adoption of standardized physical-agent interfaces will predict faster experiment throughput or lower integration cost before those gains are fully reflected in company productivity metrics.",
+    "baseline": "public AI-lab/manufacturing automation announcements and conventional software-agent adoption",
+    "alternativeData": "MHS-compatible device counts, partner additions, instrument integration times, autonomous experiment duration, hardware-error recovery rates and production deployment milestones",
+    "incrementalValueMetric": "lead time and forecast improvement for experiment throughput, integration cost and automation adoption versus the baseline",
+    "killCondition": "Kill this alpha layer if MHS-like adoption remains confined to demos or if the telemetry does not improve forecasts of scientific/manufacturing productivity beyond ordinary product announcements."
+  }
+}
