@@ -1,0 +1,74 @@
+{
+  "kind": "reality-delta",
+  "id": "ui-20260828-kioxia-sandisk-ai-memory-capacity",
+  "observedAt": "2026-08-28T01:55:18Z",
+  "sourceUri": "https://www.kioxia.com/en-jp/about/news/2026/20260827-3.html",
+  "sourceType": "primary",
+  "entities": [
+    "Kioxia",
+    "Sandisk",
+    "Japan",
+    "Yokkaichi Plant",
+    "Kitakami Plant",
+    "NAND flash memory",
+    "AI infrastructure"
+  ],
+  "relations": [
+    {"from": "Kioxia and Sandisk", "relation": "announced more than $31B of planned investment through 2032 in", "to": "Japan", "confidence": 0.99},
+    {"from": "planned investment", "relation": "targets multi-year expansion of advanced", "to": "NAND flash memory", "confidence": 0.98},
+    {"from": "AI infrastructure", "relation": "is cited as a major demand driver for higher-capacity, higher-performance storage supplied by", "to": "Kioxia and Sandisk", "confidence": 0.96},
+    {"from": "investment plan", "relation": "remains contingent on continued", "to": "government support", "confidence": 0.99}
+  ],
+  "confidence": 0.97,
+  "supportingEvidence": [
+    {
+      "uri": "https://www.kioxia.com/en-jp/about/news/2026/20260827-3.html",
+      "title": "Kioxia and Sandisk to invest over $31 billion in Japan",
+      "observedAt": "2026-08-28T01:55:18Z",
+      "note": "Primary joint announcement says the companies anticipate more than $31B (about 5 trillion yen) of investment in Japan through 2032, contingent on government support, to expand Yokkaichi/Kitakami infrastructure and support strong AI/data-driven demand for flash memory."
+    },
+    {
+      "uri": "https://www.reuters.com/world/asia-pacific/kioxia-sandisk-invest-over-31-billion-japan-amid-ai-boom-2026-08-27/",
+      "title": "Reuters: Kioxia and Sandisk plan more than $31B Japan investment amid AI boom",
+      "observedAt": "2026-08-28T01:55:18Z",
+      "note": "Reuters independently reports the same investment scale and government-support dependency, tying it to rising AI-related memory demand."
+    },
+    {
+      "uri": "https://www.sandisk.com/company/newsroom/press-releases/2026/2026-07-02-kioxia-sandisk-begin-production-10th-gen-3d-flash-memory-kitakami",
+      "title": "Sandisk: 10th-generation 3D flash production already underway at Kitakami",
+      "observedAt": "2026-08-28T01:55:18Z",
+      "note": "Earlier primary evidence confirms the partners are already scaling advanced flash production at Kitakami, so the new plan extends an operating manufacturing base rather than describing a greenfield concept only."
+    }
+  ],
+  "contradictingEvidence": [
+    {
+      "uri": "https://www.kioxia.com/en-jp/about/news/2026/20260827-3.html",
+      "title": "Investment remains contingent and long-dated",
+      "observedAt": "2026-08-28T01:55:18Z",
+      "note": "The companies explicitly condition the plan on government support and spread investment through 2032. Announced capital does not equal completed fabs, delivered bit growth, utilization, pricing power, or attractive returns."
+    }
+  ],
+  "falsifier": "Downgrade the thesis if government support is materially reduced, planned Yokkaichi/Kitakami expansions are delayed or cut, NAND oversupply destroys pricing despite AI demand, or realized capacity/utilization fails to improve AI-storage availability and economics versus the pre-announcement baseline.",
+  "actionState": "DETECTED",
+  "ledgerRef": null,
+  "title": "AI infrastructure bottleneck expands from GPUs and power into persistent memory capacity",
+  "summary": "Kioxia and Sandisk announced more than $31B of planned Japan investment through 2032 to expand advanced NAND flash supply, explicitly citing AI and data-driven demand. The event strengthens the thesis that AI infrastructure constraints are broadening beyond accelerators into storage/memory, but the investment is contingent on government support and does not yet prove future utilization or returns.",
+  "delta": "Upgrade NAND/storage capacity from a secondary AI-infrastructure input to a strategic capacity variable. Preserve the distinction between announced investment, completed capacity, utilized capacity, and economically productive capacity.",
+  "firstOrderImpacts": [
+    "stronger forward capital spending on advanced NAND manufacturing in Japan",
+    "potentially improved long-run flash-memory supply for AI and data-intensive workloads",
+    "greater strategic importance of U.S.-Japan semiconductor collaboration and industrial support"
+  ],
+  "secondOrderImpacts": [
+    "AI infrastructure analysis should track memory/storage constraints alongside GPUs, networking, power and cooling",
+    "large sovereign/industrial-policy support packages may increasingly shape where AI supply-chain capacity is built",
+    "if storage capacity lags accelerator deployment, data movement and persistence can become a hidden bottleneck in agentic and physical-AI systems"
+  ],
+  "alphaHunter": {
+    "hypothesis": "Memory-capacity expansion signals will improve forecasts of AI infrastructure bottlenecks and storage pricing before those constraints are obvious in hyperscaler capex or GPU-demand headlines.",
+    "baseline": "GPU shipments, hyperscaler capex guidance and broad semiconductor indices",
+    "alternativeData": "NAND fab construction milestones, wafer starts, bit growth, equipment orders, Japanese subsidy approvals, enterprise SSD pricing, inventory days and AI-storage deployment announcements",
+    "incrementalValueMetric": "lead time and forecast improvement for enterprise SSD/NAND pricing, AI storage shortages and infrastructure deployment delays versus the baseline",
+    "killCondition": "Kill this alpha layer if memory-specific signals do not improve held-out forecasts of storage pricing, shortages or AI deployment bottlenecks beyond ordinary semiconductor and capex indicators."
+  }
+}
