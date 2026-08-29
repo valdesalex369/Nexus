@@ -19,6 +19,8 @@ export interface OpenAICompatConfig {
   name: string;
   apiKeyEnv: string;
   baseUrlEnv: string;
+  /** Optional operator override for the provider's model id. */
+  modelEnv?: string;
   defaultBaseUrl: string;
   capabilities: readonly Capability[];
   modelByCapability: Partial<Record<Capability, string>>;
@@ -27,7 +29,7 @@ export interface OpenAICompatConfig {
 
 /**
  * Operator-supplied pricing, e.g.
- *   NEXUS_PRICES_JSON='{"kimi-k2":{"inputPerMTok":0.6,"outputPerMTok":2.5,"source":"moonshot docs 2026-08"}}'
+ *   NEXUS_PRICES_JSON='{"kimi-k3":{"inputPerMTok":3,"outputPerMTok":15,"source":"Kimi API docs 2026-08"}}'
  */
 function loadOperatorPrices(): Record<string, Price> {
   const raw = process.env.NEXUS_PRICES_JSON;
@@ -67,6 +69,8 @@ export class OpenAICompatAdapter implements Adapter {
   }
 
   modelFor(capability: Capability): string {
+    const override = this.cfg.modelEnv ? process.env[this.cfg.modelEnv]?.trim() : undefined;
+    if (override) return override;
     return this.cfg.modelByCapability[capability] ?? this.cfg.fallbackModel;
   }
 
@@ -116,15 +120,22 @@ export class OpenAICompatAdapter implements Adapter {
   }
 }
 
-/** KIMI — long-horizon research and document intelligence. */
+/**
+ * KIMI — long-horizon research and document intelligence.
+ *
+ * The general Kimi API exposes K3 as `kimi-k3`. Kimi Code membership keys may
+ * instead use the coding endpoint plus model id `k3`; operators can select that
+ * pair with MOONSHOT_BASE_URL + MOONSHOT_MODEL without changing source code.
+ */
 export const moonshot = new OpenAICompatAdapter({
   name: 'moonshot',
   apiKeyEnv: 'MOONSHOT_API_KEY',
   baseUrlEnv: 'MOONSHOT_BASE_URL',
+  modelEnv: 'MOONSHOT_MODEL',
   defaultBaseUrl: 'https://api.moonshot.ai/v1',
   capabilities: ['research.long', 'strategy', 'critique'],
-  modelByCapability: { 'research.long': 'kimi-k2-0711-preview' },
-  fallbackModel: 'kimi-k2-0711-preview',
+  modelByCapability: { 'research.long': 'kimi-k3' },
+  fallbackModel: 'kimi-k3',
 });
 
 /** NOVA's default substrate — strategic reasoning and adversarial critique. */
