@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.1",
+  "updated_at": "2026-09-07T16:50:00Z",
+  "agent": "Hoot/Nova Ops Runner",
+  "active": {
+    "id": "market-scout-issue-9-verification",
+    "objective": "Verify and close the next concrete implementation gap for Nexus issue #9 without crossing any credential, trading, publishing, or external-action gate.",
+    "source": "https://github.com/valdesalex369/Nexus/issues/9",
+    "status": "ACTIVE",
+    "success": [
+      "Inspect branch nova/market-scout-v0 and issue #9 for actual new implementation evidence",
+      "Classify evidence as CLAIMED, COMMIT_CONFIRMED, TEST_CONFIRMED, or LIVE_CONFIRMED",
+      "If a safe reversible repo/test/review gap is actionable, complete exactly one bounded fix and verify it",
+      "If blocked on secrets/runtime access, record the minimum human gate and do not manufacture work"
+    ]
+  },
+  "ready": [
+    {
+      "id": "esa-packet-commit-verification",
+      "objective": "Independently verify whether the ESA A/C outreach packet branch/commit is visible and whether the reported tests are reproducible or evidenced in-repo.",
+      "status": "READY"
+    },
+    {
+      "id": "bus-stale-handoff-cleanup",
+      "objective": "Inspect ultra-instinct-bus for one stale, duplicated, or answered handoff and close or clarify it if safe.",
+      "status": "READY"
+    },
+    {
+      "id": "repo-test-gap",
+      "objective": "Find one existing test/review/CI gap in Nexus that can be closed reversibly without creating new architecture.",
+      "status": "READY"
+    }
+  ],
+  "blocked": [],
+  "done": [],
+  "rules": {
+    "one_primary_task_per_cycle": true,
+    "prefer_verified_external_value_over_activity": true,
+    "no_new_agents_or_repos": true,
+    "no_trading_or_asset_movement": true,
+    "no_external_messages_or_publishing": true,
+    "no_credentials_or_permission_changes": true,
+    "no_repo_visibility_changes": true,
+    "notify_only_on_material_completion_or_real_human_gate": true
+  }
+}
