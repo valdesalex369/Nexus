@@ -88,6 +88,22 @@ describe('wayfinder', () => {
     assert.match(s.gate!, /economics are unknown/);
   });
 
+  test('missing commercial operating evidence also fails closed', () => {
+    const s = score(base({ technicalDifficulty: undefined }));
+    assert.equal(s.status, 'INSUFFICIENT_EVIDENCE');
+    assert.match(s.gate!, /operating inputs are incomplete/);
+  });
+
+  test('known ruin risk remains vetoed even when economics are missing', () => {
+    const s = score(base({
+      valueUsd: undefined,
+      downsideSeverity: 0.9,
+      reversibility: 0.1,
+    }));
+    assert.equal(s.status, 'VETOED');
+    assert.match(s.veto!, /cannot undo/);
+  });
+
   test('estimated economics require provenance and rationale', () => {
     const bad = score(base({ economicEvidence: { estimated: true } }));
     assert.equal(bad.status, 'INSUFFICIENT_EVIDENCE');
@@ -118,6 +134,13 @@ describe('wayfinder', () => {
       kind: 'research', valueUsd: undefined, probability: undefined, startupCostUsd: undefined,
     }));
     assert.equal(s.status, 'INSUFFICIENT_EVIDENCE');
+  });
+
+  test('a bare research lead is gated without placeholder numbers', () => {
+    const s = score({ id: 'lead', title: 'source-backed lead', source: 'official', kind: 'research' });
+    assert.equal(s.status, 'INSUFFICIENT_EVIDENCE');
+    assert.equal(s.scoreType, 'none');
+    assert.equal(s.gate?.startsWith('INSUFFICIENT_EVIDENCE'), true);
   });
 
   test('ranking is stable and explanation exposes score state', () => {

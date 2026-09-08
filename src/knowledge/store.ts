@@ -216,6 +216,31 @@ export class KnowledgeStore {
       JSON.stringify(s.reliabilitySignals), JSON.stringify(s.flags));
   }
 
+  source(id: string): Source | null {
+    const r = this.db.prepare('SELECT * FROM sources WHERE id = ?').get(id) as
+      Record<string, unknown> | undefined;
+    if (!r) return null;
+    return {
+      id: r.id as string,
+      kind: r.kind as Source['kind'],
+      provider: r.provider as string,
+      url: (r.url as string) ?? undefined,
+      path: (r.path as string) ?? undefined,
+      title: (r.title as string) ?? undefined,
+      author: (r.author as string) ?? undefined,
+      retrievedAt: r.retrieved_at as string,
+      publishedAt: (r.published_at as string) ?? undefined,
+      sha256: r.sha256 as string,
+      reliability: r.reliability as number,
+      reliabilitySignals: JSON.parse(r.signals as string) as string[],
+      flags: JSON.parse(r.flags as string) as string[],
+    };
+  }
+
+  sources(ids: string[]): Source[] {
+    return ids.map((id) => this.source(id)).filter((source): source is Source => source !== null);
+  }
+
   putClaim(c: Claim, runId?: string): void {
     this.db.prepare(`INSERT OR REPLACE INTO claims
       (id, text, classification, subject, predicate, value, provenance,

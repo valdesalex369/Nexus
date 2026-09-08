@@ -18,7 +18,8 @@
     "intake": "node --disable-warning=ExperimentalWarning src/cli.ts intake",
     "wayfinder": "node --disable-warning=ExperimentalWarning src/cli.ts wayfinder",
     "discover": "node --disable-warning=ExperimentalWarning src/cli.ts discover",
-    "operations:compile": "node --disable-warning=ExperimentalWarning src/operations/compile.ts"
+    "operations:compile": "node --disable-warning=ExperimentalWarning src/operations/compile.ts",
+    "operations:live": "node --disable-warning=ExperimentalWarning src/operations/live-cli.ts"
   },
   "devDependencies": {
     "@types/node": "^26.2.0",

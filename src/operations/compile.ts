@@ -23,7 +23,9 @@ type EventRecord = RawRealityDelta | OpportunityRecord;
 
 const ROOT = process.cwd();
 const EVENTS_DIR = path.join(ROOT, 'data', 'operations', 'events');
-const SNAPSHOT_PATH = path.join(ROOT, 'data', 'operations', 'current.json');
+// Runtime verification exclusively owns current.json. Fixture compilation has a
+// separate target so CI can never replace ledger-bound live state with STATIC data.
+export const COMPILED_OPERATIONS_SNAPSHOT_PATH = path.join(ROOT, 'data', 'operations', 'compiled.json');
 
 function byNewest<T extends { observedAt: string }>(a: T, b: T): number {
   return Date.parse(b.observedAt) - Date.parse(a.observedAt);
@@ -80,7 +82,7 @@ async function readEvents(): Promise<EventRecord[]> {
 
 async function readExistingOperations(): Promise<OperationRecord[]> {
   try {
-    const raw = await readFile(SNAPSHOT_PATH, 'utf8');
+    const raw = await readFile(COMPILED_OPERATIONS_SNAPSHOT_PATH, 'utf8');
     const snapshot = JSON.parse(raw) as Partial<OperationsDisplaySnapshot>;
     return Array.isArray(snapshot.operations) ? snapshot.operations : [];
   } catch {
@@ -112,8 +114,8 @@ export async function compileOperationsSnapshot(now = new Date()): Promise<Opera
 
 async function main(): Promise<void> {
   const snapshot = await compileOperationsSnapshot();
-  await writeFile(SNAPSHOT_PATH, `${JSON.stringify(snapshot, null, 2)}\n`, 'utf8');
-  process.stdout.write(`wrote ${SNAPSHOT_PATH} from ${snapshot.realityDelta.length + snapshot.opportunityRadar.length} event fixture(s)\n`);
+  await writeFile(COMPILED_OPERATIONS_SNAPSHOT_PATH, `${JSON.stringify(snapshot, null, 2)}\n`, 'utf8');
+  process.stdout.write(`wrote ${COMPILED_OPERATIONS_SNAPSHOT_PATH} from ${snapshot.realityDelta.length + snapshot.opportunityRadar.length} event fixture(s)\n`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

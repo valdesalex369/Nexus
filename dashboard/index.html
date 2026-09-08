@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEXUS — Verified Operations</title>
+  <style>
+    :root { color-scheme:dark; --bg:#050706; --panel:#0a0e0c; --line:#26312b; --muted:#94a39b; --text:#edf6f0; --signal:#78f0ae; --warn:#ffc861; --danger:#ff7d7d; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; color:var(--text); background:linear-gradient(rgba(120,240,174,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(120,240,174,.025) 1px,transparent 1px),radial-gradient(circle at 10% 0,#102319 0,var(--bg) 34%); background-size:32px 32px,32px 32px,auto; font-family:Inter,ui-sans-serif,system-ui,sans-serif; }
+    main { width:min(1440px,calc(100% - 32px)); margin:auto; padding:26px 0 48px; }
+    header { display:flex; align-items:end; justify-content:space-between; gap:20px; margin-bottom:22px; }
+    .eyebrow,.label { color:var(--signal); font:600 11px/1.4 ui-monospace,monospace; letter-spacing:.13em; text-transform:uppercase; }
+    h1 { margin:5px 0 0; font:600 clamp(26px,5vw,52px)/1 ui-monospace,monospace; letter-spacing:-.06em; }
+    h2 { margin:0; font:600 14px/1.2 ui-monospace,monospace; text-transform:uppercase; letter-spacing:.08em; }
+    h3 { margin:0 0 8px; font-size:18px; line-height:1.25; }
+    p { color:#cad5cf; line-height:1.55; }
+    a { color:var(--signal); overflow-wrap:anywhere; }
+    code { font-family:ui-monospace,monospace; color:#dce9e2; overflow-wrap:anywhere; }
+    .mode { padding:8px 11px; border:1px solid var(--signal); color:var(--signal); background:rgba(120,240,174,.06); font:700 12px ui-monospace,monospace; }
+    .mode.fixture { color:var(--warn); border-color:var(--warn); }
+    .runtime { margin-bottom:14px; }
+    .runtime-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; }
+    .providers { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
+    .provider { min-width:190px; flex:1; padding:10px; border:1px solid #1b241f; background:#080b09; }
+    .provider strong,.provider span { display:block; }
+    .provider strong { margin:4px 0; font:700 12px ui-monospace,monospace; }
+    .provider span { color:var(--muted); font-size:12px; line-height:1.4; }
+    .provider .disconnected { color:var(--danger); }
+    .provider .configured_unverified { color:var(--warn); }
+    .provider .connected { color:var(--signal); }
+    .provider .deterministic_fallback { color:var(--muted); }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .panel { min-width:0; border:1px solid var(--line); background:rgba(10,14,12,.94); box-shadow:0 18px 60px rgba(0,0,0,.22); }
+    .panel-head { display:flex; justify-content:space-between; padding:14px 16px; border-bottom:1px solid var(--line); }
+    .panel-body { padding:18px; }
+    .meta { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin-top:16px; }
+    .datum { min-width:0; padding:11px; border:1px solid #1b241f; background:#080b09; }
+    .datum strong { display:block; margin-top:5px; font:600 13px/1.45 ui-monospace,monospace; overflow-wrap:anywhere; }
+    .links { display:flex; flex-wrap:wrap; gap:8px 16px; margin-top:14px; }
+    .status { display:inline-flex; padding:7px 10px; font:700 12px ui-monospace,monospace; border:1px solid currentColor; color:var(--signal); }
+    .status.human_gate,.status.detected { color:var(--warn); }
+    .status.failed { color:var(--danger); }
+    .evidence-row { padding:10px 0; border-top:1px solid #18201c; }
+    .evidence-row:first-child { border-top:0; }
+    .claim-class { display:inline-block; min-width:92px; color:var(--signal); font:700 11px ui-monospace,monospace; }
+    .warning { border-left:3px solid var(--warn); background:rgba(255,200,97,.06); padding:10px 12px; color:#f2dfb9; margin-top:12px; }
+    .ledger { margin-top:15px; padding-top:13px; border-top:1px solid var(--line); }
+    .error { max-width:700px; margin:80px auto; border:1px solid var(--danger); padding:20px; color:#ffd4d4; background:#1a0c0c; }
+    @media(max-width:900px){.grid{grid-template-columns:1fr}.runtime-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:620px){main{width:calc(100% - 20px)}header{align-items:start;flex-direction:column}.meta,.runtime-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div><div class="eyebrow">Nexus trust / execution layer</div><h1>VERIFIED OPERATIONS</h1></div>
+      <div id="mode" class="mode">LOADING LEDGER-VERIFIED STATE</div>
+    </header>
+    <div id="runtime" aria-live="polite"></div>
+    <div id="app" class="grid" aria-live="polite"></div>
+  </main>
+  <script>
+    const el=(tag,cls,text)=>{const node=document.createElement(tag);if(cls)node.className=cls;if(text!==undefined)node.textContent=String(text);return node};
+    const panel=(number,title)=>{const root=el('section','panel'),head=el('div','panel-head'),body=el('div','panel-body');head.append(el('h2','',title),el('span','label',String(number).padStart(2,'0')));root.append(head,body);return{root,body}};
+    const datum=(label,value)=>{const node=el('div','datum');node.append(el('span','label',label),el('strong','',value));return node};
+    const link=(text,href)=>{const node=el('a','',text);try{const url=new URL(href);if(['https:','http:'].includes(url.protocol)){node.href=url.href;node.target='_blank';node.rel='noreferrer'}}catch{}return node};
+    const time=(value)=>value?new Date(value).toLocaleString():'NOT YET';
+
+    function runtimePanel(health){
+      const runtime=health.runtime,root=el('section','panel runtime'),head=el('div','panel-head'),body=el('div','panel-body');
+      head.append(el('h2','','Runtime / Watch Loop'),el('span','label',runtime?.state||'NO RUNTIME STATUS'));
+      root.append(head,body);
+      if(!runtime){body.append(el('div','warning','This server has no live-loop heartbeat attached.'));return root}
+      const grid=el('div','runtime-grid');
+      grid.append(
+        datum('Watch cadence',runtime.intervalMinutes+' MINUTES'),
+        datum('Last success',time(runtime.lastSuccessAt)),
+        datum('Next cycle',time(runtime.nextCycleAt)),
+        datum('Verified cycles',runtime.successfulCycles+' / '+runtime.cycleCount)
+      );
+      body.append(grid);
+      if(runtime.lastError)body.append(el('div','warning','LAST CYCLE ERROR — '+runtime.lastError));
+      const connected=(runtime.providers||[]).some(provider=>provider.state==='CONNECTED');
+      body.append(el('div',connected?'status':'warning',connected
+        ? 'AI SOCIETY READY — a model connection is verified; autonomous external actions remain disabled.'
+        : 'AI SOCIETY OFF — deterministic watch only; no model inference is running.'));
+      const providers=el('div','providers');
+      for(const provider of runtime.providers||[]){
+        const item=el('div','provider');
+        const name=provider.name==='moonshot'?'KIMI / MOONSHOT':provider.name.toUpperCase();
+        item.append(el('span','label',name),el('strong',provider.state.toLowerCase(),provider.state),el('span','',provider.reason));
+        providers.append(item);
+      }
+      body.append(providers);
+      return root;
+    }
+
+    function realityPanel(state){
+      const panelState=panel(1,'Reality Delta'),item=state.realityDelta[0],verification=state.verification;
+      panelState.body.append(el('div','label',verification.deltaStatus),el('h3','',item.title),el('p','',item.summary),el('p','',item.delta));
+      const meta=el('div','meta');meta.append(datum('Observed',item.observedAt),datum('Confidence',item.confidence.toFixed(2)),datum('Raw SHA-256',verification.sourceSha256.slice(0,16)+'…'));panelState.body.append(meta);
+      const links=el('div','links');for(const evidence of item.supportingEvidence)links.append(link(evidence.title||'Evidence',evidence.uri));panelState.body.append(links);
+      return panelState.root;
+    }
+
+    function opportunityPanel(state){
+      const panelState=panel(2,'Opportunity Radar'),item=state.opportunityRadar[0],score=item.score;
+      panelState.body.append(el('h3','',item.title),el('div','label',score.status||'UNKNOWN'));
+      panelState.body.append(el('p','',score.total===null?'Commercial/research score withheld: required evidence is missing.':'Evidence-backed score: '+score.total.toFixed(3)));
+      if(score.gate)panelState.body.append(el('div','warning',score.gate));
+      for(const component of score.components||[]){const row=el('div','evidence-row');row.append(el('code','',component.name+' · '+component.value.toFixed(3)),el('p','',component.rationale));panelState.body.append(row)}
+      panelState.body.append(el('p','',item.recommendedNextAction));
+      return panelState.root;
+    }
+
+    function evidencePanel(state){
+      const panelState=panel(3,'Evidence Graph'),graph=state.evidenceGraph;
+      for(const source of graph.sources){if(source.flags?.length)panelState.body.append(el('div','warning','UNTRUSTED SOURCE FLAGS — '+source.flags.join(', ')))}
+      for(const claim of graph.claims){const row=el('div','evidence-row');row.append(el('span','claim-class',claim.classification),el('span','',claim.text),el('div','label','provenance · '+claim.provenance.join(', ')));panelState.body.append(row)}
+      if(graph.contradictions.length===0)panelState.body.append(el('div','warning','No contradiction found in the available evidence; this is not corroboration.'));
+      for(const contradiction of graph.contradictions)panelState.body.append(el('div','warning',contradiction.kind+' — '+contradiction.reason));
+      for(const uncertainty of graph.uncertainties)panelState.body.append(el('div','warning',uncertainty.kind+' — '+uncertainty.statement));
+      return panelState.root;
+    }
+
+    function operationsPanel(state){
+      const panelState=panel(4,'Operations'),operation=state.operations[0],verification=state.verification;
+      panelState.body.append(el('div','status '+operation.actionState.toLowerCase(),operation.actionState),el('h3','',operation.objective),el('p','',operation.resultSummary||''),el('div','warning',operation.currentBottleneck));
+      const meta=el('div','meta');meta.append(datum('Authority',operation.authorityLevel),datum('Run ID',verification.runId),datum('Ledger events',verification.ledgerLength));panelState.body.append(meta);
+      const ledger=el('div','ledger');ledger.append(el('div','label','Canonical ledger · independently verified by server'),el('code','',verification.ledgerHead));panelState.body.append(ledger);
+      return panelState.root;
+    }
+
+    let rendered=false;
+    async function refresh(){
+      const mode=document.querySelector('#mode'),app=document.querySelector('#app'),runtime=document.querySelector('#runtime');
+      try{
+        const [healthResponse,stateResponse]=await Promise.all([
+          fetch('/health',{cache:'no-store'}),
+          fetch('/api/operations/current',{cache:'no-store'})
+        ]);
+        const health=await healthResponse.json();
+        runtime.replaceChildren(runtimePanel(health));
+        if(!healthResponse.ok||!stateResponse.ok)throw new Error('Ledger-verified Operations state is unavailable.');
+        const state=await stateResponse.json();
+        if(state.verification?.schemaVersion!=='nexus.operations-verification.v0'||!state.evidenceGraph)throw new Error('Unsupported Operations state.');
+        mode.className='mode';
+        mode.textContent=state.verification.dataMode==='LIVE'?'LIVE · PUBLIC SOURCE':'FIXTURE · REPLAY ONLY';
+        if(state.verification.dataMode!=='LIVE')mode.classList.add('fixture');
+        app.className='grid';
+        app.replaceChildren(realityPanel(state),opportunityPanel(state),evidencePanel(state),operationsPanel(state));
+        rendered=true;
+      }catch(error){
+        mode.textContent='RUNTIME READ ERROR · RETAINING LAST VERIFIED VIEW';
+        mode.className='mode fixture';
+        if(!rendered){app.className='';app.replaceChildren(el('div','error',error.message))}
+      }
+    }
+    void refresh();
+    setInterval(()=>void refresh(),15000);
+  </script>
+</body>
+</html>

@@ -4,9 +4,11 @@ data/*.db-journal
 data/*.db-wal
 .env
 .env.local
+.nexus-runtime/
 *.log
 .DS_Store
 data/intake/*
 !data/intake/README.txt
 data/knowledge.db*
 data/raw/
+data/operations/briefs/
