@@ -11,7 +11,7 @@
  */
 import { DatabaseSync } from 'node:sqlite';
 import { createHash, randomUUID } from 'node:crypto';
-import { mkdirSync } from 'node:fs';
+import { existsSync, mkdirSync } from 'node:fs';
 import { dirname } from 'node:path';
 
 export type EventKind =
@@ -55,6 +55,11 @@ export interface LedgerEvent extends Omit<EventInput, 'payload' | 'evidence' | '
 
 const GENESIS = '0'.repeat(64);
 
+export interface LedgerOptions {
+  /** Open an existing ledger without creating directories, files, tables, or WAL state. */
+  readOnly?: boolean;
+}
+
 interface Row {
   id: number; ts: string; run_id: string; parent_id: number | null; kind: string;
   actor: string; model: string | null; task: string | null; input_ref: string | null;
@@ -65,12 +70,22 @@ interface Row {
 
 export class Ledger {
   private db: DatabaseSync;
+  private readonly readOnly: boolean;
 
-  constructor(path = process.env.NEXUS_DB || './data/nexus.db') {
-    if (path !== ':memory:') mkdirSync(dirname(path), { recursive: true });
-    this.db = new DatabaseSync(path);
-    this.db.exec('PRAGMA journal_mode = WAL');
-    this.migrate();
+  constructor(path = process.env.NEXUS_DB || './data/nexus.db', options: LedgerOptions = {}) {
+    this.readOnly = options.readOnly ?? false;
+    if (this.readOnly && path === ':memory:') {
+      throw new Error('read-only ledger requires an existing file');
+    }
+    if (path !== ':memory:') {
+      if (this.readOnly && !existsSync(path)) throw new Error('ledger does not exist');
+      if (!this.readOnly) mkdirSync(dirname(path), { recursive: true });
+    }
+    this.db = new DatabaseSync(path, this.readOnly ? { readOnly: true } : {});
+    if (!this.readOnly) {
+      this.db.exec('PRAGMA journal_mode = WAL');
+      this.migrate();
+    }
   }
 
   private migrate(): void {
@@ -127,6 +142,7 @@ export class Ledger {
   }
 
   append(e: EventInput): LedgerEvent {
+    if (this.readOnly) throw new Error('ledger is open read-only');
     const ts = new Date().toISOString();
     const prevHash = this.lastHash();
     const tools = e.tools ?? [];

@@ -1,5 +1,8 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
+import { existsSync, mkdtempSync, readFileSync, statSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 import { Ledger } from '../src/ledger/index.ts';
 
 describe('ledger', () => {
@@ -66,5 +69,37 @@ describe('ledger', () => {
     assert.equal(v.ok, false);
     assert.equal(v.ok === false && v.brokenAtId, 1);
     l.close();
+  });
+
+  test('opens an existing ledger without writes and refuses append in read-only mode', () => {
+    const root = mkdtempSync(join(tmpdir(), 'nexus-ledger-readonly-'));
+    const path = join(root, 'ledger.db');
+    const writer = new Ledger(path);
+    writer.append({ runId: Ledger.newRunId(), kind: 'result', actor: 'test' });
+    writer.close();
+    const beforeBytes = readFileSync(path);
+    const beforeStat = statSync(path);
+
+    const reader = new Ledger(path, { readOnly: true });
+    assert.deepEqual(reader.verifyChain(), { ok: true, length: 1 });
+    assert.equal(reader.recent(1).length, 1);
+    assert.throws(
+      () => reader.append({ runId: Ledger.newRunId(), kind: 'action', actor: 'blocked' }),
+      /read-only/,
+    );
+    reader.close();
+
+    assert.deepEqual(readFileSync(path), beforeBytes);
+    assert.equal(statSync(path).size, beforeStat.size);
+    assert.equal(statSync(path).mtimeMs, beforeStat.mtimeMs);
+  });
+
+  test('read-only open fails without creating a missing ledger or parent directory', () => {
+    const root = mkdtempSync(join(tmpdir(), 'nexus-ledger-missing-'));
+    const parent = join(root, 'must-not-exist');
+    const path = join(parent, 'ledger.db');
+    assert.throws(() => new Ledger(path, { readOnly: true }), /does not exist/);
+    assert.equal(existsSync(path), false);
+    assert.equal(existsSync(parent), false);
   });
 });

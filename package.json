@@ -19,13 +19,18 @@
     "wayfinder": "node --disable-warning=ExperimentalWarning src/cli.ts wayfinder",
     "discover": "node --disable-warning=ExperimentalWarning src/cli.ts discover",
     "operations:compile": "node --disable-warning=ExperimentalWarning src/operations/compile.ts",
-    "operations:live": "node --disable-warning=ExperimentalWarning src/operations/live-cli.ts"
+    "operations:live": "node --disable-warning=ExperimentalWarning src/operations/live-cli.ts",
+    "mcp:operations": "node --disable-warning=ExperimentalWarning src/mcp/server.ts",
+    "test:mcp": "node --test --disable-warning=ExperimentalWarning test/mcp.test.ts"
   },
   "devDependencies": {
+    "@modelcontextprotocol/client": "^2.0.0",
     "@types/node": "^26.2.0",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.116.0"
+    "@anthropic-ai/sdk": "^0.116.0",
+    "@modelcontextprotocol/server": "^2.0.0",
+    "zod": "^4.5.4"
   }
 }

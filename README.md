@@ -19,8 +19,10 @@ measurable outcome.
 | **Agent Contracts** | Ten required fields, validated at load. Grants make recursion safe: authority only ever narrows. |
 | **Wayfinder** | Opportunity scoring with visible components and a hard veto on irreversible catastrophe. Novelty scores zero. |
 | **Intake** | Untrusted-by-default ingestion. Injection- and credential-shaped content is quarantined, never obeyed. |
+| **Operations Loop** | Public Federal Register source → normalized claims → provenance/contradictions → fail-closed opportunity score → human gate → ledger → local UI. |
+| **Operations MCP** | Three local stdio tools expose only ledger-verified state; no model, wallet, trading, or external-action surface. |
 
-**69/69 tests passing, typecheck clean, and the whole system runs with zero API keys.**
+The deterministic test suite and typecheck run with zero API keys.
 
 ## Quick start
 
@@ -34,6 +36,10 @@ npm run gauntlet -- "make the suite pass" --verify-cmd "npm test"
 
 npm run nexus -- ledger  # what happened
 npm run nexus -- verify  # prove the record wasn't altered
+
+# Produce a local verified snapshot, then expose it to an MCP host
+npm run operations:live -- --once --fixture test/fixtures/federal-register.json
+npm run mcp:operations
 ```
 
 Copy `.env.example` to `.env` and add keys. Nothing is required to boot — providers
@@ -54,6 +60,7 @@ light up as their keys appear, and `doctor` reports exactly which are dark and w
 ## Docs
 
 - [`docs/SETUP.md`](docs/SETUP.md) — **start here**: keys, data intake, and the first revenue loop
+- [`docs/MCP_OPERATIONS.md`](docs/MCP_OPERATIONS.md) — local read-only MCP and safe operator modes
 
 - [`docs/TRUTH_AUDIT.md`](docs/TRUTH_AUDIT.md) — what exists, what doesn't, with evidence
 - [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — the shape of the system
@@ -61,6 +68,6 @@ light up as their keys appear, and `doctor` reports exactly which are dark and w
 
 ## Status
 
-The spine is built and verified. **No adapter has run against a live API yet** — that
-is the next step, and the highest-leverage missing piece is a second provider key, not
-another component. See the 7-day sequence in the Truth Audit.
+The Operations loop has completed a real Federal Register cycle and a deterministic
+fixture cycle. Model providers, wallet observation, wallet signing, and trading remain
+disconnected or unimplemented; their absence is reported rather than simulated.

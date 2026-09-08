@@ -2,8 +2,11 @@ node_modules/
 data/*.db
 data/*.db-journal
 data/*.db-wal
-.env
-.env.local
+.env*
+!.env.example
+.envrc
+*.pem
+*.key
 .nexus-runtime/
 *.log
 .DS_Store

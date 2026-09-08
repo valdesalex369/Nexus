@@ -1,5 +1,5 @@
 import { createServer, type Server, type ServerResponse } from 'node:http';
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readFileSync, statSync } from 'node:fs';
 import { Ledger } from '../ledger/index.ts';
 import type { OperationsDisplaySnapshot } from './types.ts';
 import { verifyOperationsSnapshot } from './verification.ts';
@@ -38,6 +38,7 @@ export interface OperationsRuntimeStatus {
 export interface OperationsServerOptions {
   snapshotPath?: string;
   ledgerPath?: string;
+  maxSnapshotBytes?: number;
   dashboardPath?: string;
   host?: string;
   port?: number;
@@ -47,9 +48,13 @@ export interface OperationsServerOptions {
 export function readVerifiedOperationsState(options: OperationsServerOptions = {}): OperationsDisplaySnapshot {
   const snapshotPath = options.snapshotPath ?? './data/operations/current.json';
   const ledgerPath = options.ledgerPath ?? process.env.NEXUS_DB ?? './data/nexus.db';
+  const maxSnapshotBytes = options.maxSnapshotBytes ?? 5 * 1024 * 1024;
+  const snapshotStat = statSync(snapshotPath);
+  if (!snapshotStat.isFile()) throw new Error('Operations snapshot is not a file');
+  if (snapshotStat.size > maxSnapshotBytes) throw new Error('Operations snapshot exceeds the read limit');
   const snapshot = JSON.parse(readFileSync(snapshotPath, 'utf8')) as OperationsDisplaySnapshot;
   if (!existsSync(ledgerPath)) throw new Error('Operations ledger does not exist');
-  const ledger = new Ledger(ledgerPath);
+  const ledger = new Ledger(ledgerPath, { readOnly: true });
   try {
     const errors = verifyOperationsSnapshot(snapshot, ledger);
     if (errors.length > 0) throw new Error(`Operations state is not ledger-verified: ${errors.join('; ')}`);
