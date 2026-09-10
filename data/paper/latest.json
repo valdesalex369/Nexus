@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-10T20:54:05.887674+00:00",
+  "at": "2026-09-10T23:12:16.098569+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77229.0,
-      "changePct": -1.2235283244546369,
+      "price": 76691.0,
+      "changePct": -1.8629630981178658,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2461.8,
-      "changePct": -0.15556706214607474,
+      "price": 2440.25,
+      "changePct": -0.7701701671830125,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 100.0,
-      "changePct": -2.3220925887927923,
+      "price": 99.02,
+      "changePct": -2.329118416359472,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 715.14,
-      "changePct": -2.4470186492708015,
+      "price": 710.36,
+      "changePct": -1.4718266654902612,
       "source": "CoinGecko"
     }
   ],
@@ -37,11 +37,6 @@
       "url": "https://dexscreener.com/solana/2yhzubbvxodaetxmhkrjhvahvkdibyxn3abhq9sspump",
       "tokenAddress": "2YhZUBBVxoDAEtXMhkRjHvAHvkDibyxN3ABHQ9Sspump",
       "description": "The Black Cat ($CAT) is a community-driven meme coin built for those who move differently. Quiet, patient, and always wa"
-    },
-    {
-      "url": "https://dexscreener.com/solana/9n43xu8wv4klwnh1uqdprvvgpyu4zts2byl7k9ijpump",
-      "tokenAddress": "9n43xu8Wv4kLwnh1UqDPrvVgPYU4ZTS2ByL7k9iJpump",
-      "description": "Greatest Meme Ever"
     },
     {
       "url": "https://dexscreener.com/solana/3wrmlkqn1nxfejwuncq5bqddnqhj6kadwjbfraufpump",
@@ -67,6 +62,11 @@
       "url": "https://dexscreener.com/solana/9gmyvdxbrub4bawsmog7msm5ex8ccbggobnu72fupump",
       "tokenAddress": "9gMyvDXBRUb4BaWSmoG7msm5eX8cCBggoBnU72Fupump",
       "description": "If you sell, you\u2019ll miss the rainbow ride. \ud83c\udf08\ud83d\ude80 Diamond hands only."
+    },
+    {
+      "url": "https://dexscreener.com/solana/7mcgymzq3fov6oerdttmaybn2u9lzrrsys1mbhjixzfr",
+      "tokenAddress": "7MCgYMzq3fov6oERdtTMAYbN2U9LZrrSYS1MBhjixZFr",
+      "description": "$POLLY is a community-run meme coin bringing the OG pink vibes to Solana via StonkFun. \n\nAs $PENGU\u2019s better half, Polly "
     }
   ],
   "fearGreed": {
