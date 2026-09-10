@@ -1,0 +1,207 @@
+{
+  "name": "HERMES Intelligence Pipeline",
+  "nodes": [
+    {
+      "id": "trigger-schedule",
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "position": [100, 300],
+      "parameters": {
+        "rule": {
+          "interval": [{ "field": "hours", "hoursInterval": 4 }]
+        }
+      }
+    },
+    {
+      "id": "geopolitical-scan",
+      "name": "Geopolitical Scanner",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [400, 100],
+      "parameters": {
+        "url": "https://newsapi.org/v2/top-headlines",
+        "method": "GET",
+        "queryParameters": {
+          "parameters": [
+            { "name": "category", "value": "business" },
+            { "name": "language", "value": "en" },
+            { "name": "pageSize", "value": "30" },
+            { "name": "apiKey", "value": "={{ $env.NEWSAPI_KEY }}" }
+          ]
+        },
+        "options": { "timeout": 15000 }
+      }
+    },
+    {
+      "id": "alpha-scan",
+      "name": "Alpha Scanner (CoinGecko)",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [400, 250],
+      "parameters": {
+        "url": "https://api.coingecko.com/api/v3/coins/markets",
+        "method": "GET",
+        "queryParameters": {
+          "parameters": [
+            { "name": "vs_currency", "value": "usd" },
+            { "name": "ids", "value": "bitcoin,ethereum,solana,avalanche-2,chainlink" },
+            { "name": "price_change_percentage", "value": "24h,7d" }
+          ]
+        },
+        "options": { "timeout": 15000 }
+      }
+    },
+    {
+      "id": "fear-greed",
+      "name": "Fear & Greed Index",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [400, 400],
+      "parameters": {
+        "url": "https://api.alternative.me/fng/",
+        "method": "GET",
+        "queryParameters": {
+          "parameters": [{ "name": "limit", "value": "2" }]
+        },
+        "options": { "timeout": 10000 }
+      }
+    },
+    {
+      "id": "github-trending",
+      "name": "GitHub Trending Scan",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [400, 550],
+      "parameters": {
+        "url": "https://api.github.com/search/repositories",
+        "method": "GET",
+        "queryParameters": {
+          "parameters": [
+            { "name": "q", "value": "ai agent framework stars:>500" },
+            { "name": "sort", "value": "stars" },
+            { "name": "order", "value": "desc" },
+            { "name": "per_page", "value": "10" }
+          ]
+        },
+        "options": { "timeout": 15000 }
+      }
+    },
+    {
+      "id": "whale-tracker",
+      "name": "Whale Wallet Tracker",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [400, 700],
+      "parameters": {
+        "url": "https://api.etherscan.io/api",
+        "method": "GET",
+        "queryParameters": {
+          "parameters": [
+            { "name": "module", "value": "account" },
+            { "name": "action", "value": "txlist" },
+            { "name": "address", "value": "0x28C6c06298d514Db089934071355E5743bf21d60" },
+            { "name": "page", "value": "1" },
+            { "name": "offset", "value": "10" },
+            { "name": "sort", "value": "desc" },
+            { "name": "apikey", "value": "={{ $env.ETHERSCAN_API_KEY }}" }
+          ]
+        },
+        "options": { "timeout": 10000 }
+      }
+    },
+    {
+      "id": "signal-aggregator",
+      "name": "Aggregate & Classify Signals",
+      "type": "n8n-nodes-base.code",
+      "position": [750, 400],
+      "parameters": {
+        "jsCode": "// Aggregate all incoming signals into a unified format\nconst geo = $('Geopolitical Scanner').first().json;\nconst alpha = $('Alpha Scanner (CoinGecko)').first().json;\nconst fg = $('Fear & Greed Index').first().json;\nconst github = $('GitHub Trending Scan').first().json;\nconst whale = $('Whale Wallet Tracker').first().json;\n\nconst signals = [];\nconst timestamp = Date.now();\n\n// Classify and emit signals\nsignals.push({\n  domain: 'market-alpha',\n  data: alpha,\n  fearGreed: fg?.data?.[0]?.value || 50,\n  timestamp\n});\n\nsignals.push({\n  domain: 'dev-intel',\n  repos: github?.items?.slice(0, 5) || [],\n  timestamp\n});\n\nsignals.push({\n  domain: 'smart-money',\n  transactions: whale?.result?.slice(0, 5) || [],\n  timestamp\n});\n\nreturn [{ json: { signals, totalCount: signals.length, timestamp } }];"
+      }
+    },
+    {
+      "id": "hermes-api",
+      "name": "HERMES Strategic Analysis",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [1050, 400],
+      "parameters": {
+        "url": "http://localhost:3001/api/hermes/cycle",
+        "method": "POST",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            { "name": "signals", "value": "={{ JSON.stringify($json.signals) }}" }
+          ]
+        },
+        "options": { "timeout": 60000 }
+      }
+    },
+    {
+      "id": "telegram-briefing",
+      "name": "Send Telegram Briefing",
+      "type": "n8n-nodes-base.telegram",
+      "position": [1350, 300],
+      "parameters": {
+        "chatId": "={{ $env.TELEGRAM_CHAT_ID }}",
+        "text": "={{ $json.briefing || 'HERMES cycle complete — check API for details.' }}",
+        "additionalFields": { "parse_mode": "Markdown" }
+      },
+      "credentials": {
+        "telegramApi": { "id": "telegram-bot", "name": "NEXUS Bot" }
+      }
+    },
+    {
+      "id": "critical-alert",
+      "name": "Critical Alert Filter",
+      "type": "n8n-nodes-base.if",
+      "position": [1350, 500],
+      "parameters": {
+        "conditions": {
+          "number": [
+            {
+              "value1": "={{ $json.criticalCount || 0 }}",
+              "operation": "largerEqual",
+              "value2": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "urgent-telegram",
+      "name": "Urgent Alert (Critical)",
+      "type": "n8n-nodes-base.telegram",
+      "position": [1650, 500],
+      "parameters": {
+        "chatId": "={{ $env.TELEGRAM_CHAT_ID }}",
+        "text": "🚨 *HERMES CRITICAL ALERT*\n\n{{ $json.criticalAlerts }}",
+        "additionalFields": { "parse_mode": "Markdown" }
+      },
+      "credentials": {
+        "telegramApi": { "id": "telegram-bot", "name": "NEXUS Bot" }
+      }
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          { "node": "Geopolitical Scanner", "type": "main", "index": 0 },
+          { "node": "Alpha Scanner (CoinGecko)", "type": "main", "index": 0 },
+          { "node": "Fear & Greed Index", "type": "main", "index": 0 },
+          { "node": "GitHub Trending Scan", "type": "main", "index": 0 },
+          { "node": "Whale Wallet Tracker", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "Geopolitical Scanner": { "main": [[{ "node": "Aggregate & Classify Signals", "type": "main", "index": 0 }]] },
+    "Alpha Scanner (CoinGecko)": { "main": [[{ "node": "Aggregate & Classify Signals", "type": "main", "index": 0 }]] },
+    "Fear & Greed Index": { "main": [[{ "node": "Aggregate & Classify Signals", "type": "main", "index": 0 }]] },
+    "GitHub Trending Scan": { "main": [[{ "node": "Aggregate & Classify Signals", "type": "main", "index": 0 }]] },
+    "Whale Wallet Tracker": { "main": [[{ "node": "Aggregate & Classify Signals", "type": "main", "index": 0 }]] },
+    "Aggregate & Classify Signals": { "main": [[{ "node": "HERMES Strategic Analysis", "type": "main", "index": 0 }]] },
+    "HERMES Strategic Analysis": {
+      "main": [
+        [
+          { "node": "Send Telegram Briefing", "type": "main", "index": 0 },
+          { "node": "Critical Alert Filter", "type": "main", "index": 0 }
+        ]
+      ]
+    },
+    "Critical Alert Filter": { "main": [[{ "node": "Urgent Alert (Critical)", "type": "main", "index": 0 }]] }
+  }
+}
