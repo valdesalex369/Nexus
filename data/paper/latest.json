@@ -1,38 +1,33 @@
 {
-  "at": "2026-09-10T05:21:13.492859+00:00",
+  "at": "2026-09-10T10:03:27.020832+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 78365.0,
-      "changePct": -1.1886795815953561,
+      "price": 77943.0,
+      "changePct": -1.3299846572057172,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2477.86,
-      "changePct": -1.1904128060775925,
+      "price": 2467.05,
+      "changePct": -0.9771181411639102,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.91,
-      "changePct": -2.549810607353763,
+      "price": 101.04,
+      "changePct": -2.4650070983676136,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 721.94,
-      "changePct": -4.22647179385448,
+      "price": 717.14,
+      "changePct": -4.564076850805768,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/hqsxsxd2bhpa8v21twtjv6tbkr8yyh3b8rkgs1bspump",
-      "tokenAddress": "HQSXsxD2BhpA8v21TwTjv6Tbkr8yYH3B8RkGS1Bspump",
-      "description": "$STONKSZN is leading every stonks token into the crypto market."
-    },
     {
       "url": "https://dexscreener.com/solana/wyydotxkrwy4vmrwxhs1vb4rkyvc6xofaj2hmjqpump",
       "tokenAddress": "WyydotXKrWY4vmRwxHS1vb4rkyvC6XofAJ2HMJqpump",
@@ -49,14 +44,14 @@
       "description": "Greatest Meme Ever"
     },
     {
-      "url": "https://dexscreener.com/solana/ckgdzzmpqvgfv3mxjtklywuzneaby5chmrsxnf9zpump",
-      "tokenAddress": "CKgdzzmPQvGFV3MXJTKLYWuZNeaBy5cHMrSXnF9Zpump",
-      "description": "Pumpfun memes flipping every stock-paired token on Stonk. Stonk coins are USELESS!"
-    },
-    {
       "url": "https://dexscreener.com/solana/bnfatjxuy6gtjytgutkraa1vrgce6gmzwv4287trpump",
       "tokenAddress": "BnFAtjxuY6gTJyTgUtKrAa1VRGcE6GMzWv4287TRpump",
       "description": "S&P 500 brings Wall Street energy, market madness, and unstoppable meme power straight to Solana."
+    },
+    {
+      "url": "https://dexscreener.com/solana/ckgdzzmpqvgfv3mxjtklywuzneaby5chmrsxnf9zpump",
+      "tokenAddress": "CKgdzzmPQvGFV3MXJTKLYWuZNeaBy5cHMrSXnF9Zpump",
+      "description": "Pumpfun memes flipping every stock-paired token on Stonk. Stonk coins are USELESS!"
     },
     {
       "url": "https://dexscreener.com/solana/7gja6fhvuj9uglplpmco6axh5r4hiunqbawenx4rpump",
@@ -64,9 +59,14 @@
       "description": "Space Cat Index. Cats quoted in rockets."
     },
     {
-      "url": "https://dexscreener.com/solana/3hyoqkfyqyg1hpxfkvqn5q1sqt7lqmihf7c4unbdpump",
-      "tokenAddress": "3hyoQKfyQyg1HpxFkvqn5q1Sqt7LqmihF7c4UNBdpump",
-      "description": "memes are useless"
+      "url": "https://dexscreener.com/solana/zzjkh1hlbvsfjxwlfe6h4jnbcnrj4eteukrw42pn2tc",
+      "tokenAddress": "zzjkh1hLbvsFJXWLfE6h4JNbcnRj4eteuKRw42PN2tC",
+      "description": "Official mascot of Stonk\nPaired with $STONK"
+    },
+    {
+      "url": "https://dexscreener.com/solana/9xcp3es48mccofbwbm9ig18wng8cmcivqzkh1vsjpump",
+      "tokenAddress": "9XCP3Es48MccofbwBM9ig18WnG8CMcivqzKH1VSJpump",
+      "description": "NVDA \u2014 the viral Neko powering memes, digital assets, and green-candle energy."
     }
   ],
   "fearGreed": {
