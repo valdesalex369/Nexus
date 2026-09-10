@@ -1,33 +1,43 @@
 {
-  "at": "2026-09-10T10:03:27.020832+00:00",
+  "at": "2026-09-10T14:28:46.460248+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77943.0,
-      "changePct": -1.3299846572057172,
+      "price": 77199.0,
+      "changePct": -2.3809020499432187,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2467.05,
-      "changePct": -0.9771181411639102,
+      "price": 2438.57,
+      "changePct": -2.673296280655658,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.04,
-      "changePct": -2.4650070983676136,
+      "price": 99.93,
+      "changePct": -3.7374599319639414,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 717.14,
-      "changePct": -4.564076850805768,
+      "price": 708.92,
+      "changePct": -4.782568041799057,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/gyhpvwni3ucwizy9bm4tztmw3ptsgxm5rryvl8ecpump",
+      "tokenAddress": "GYHPVwni3ucwizy9BM4TzTMw3PtSgxm5RRYvL8Ecpump",
+      "description": "Solana is evolving into Stock Solana, where stocks, memes, and crypto unite."
+    },
+    {
+      "url": "https://dexscreener.com/solana/2yhzubbvxodaetxmhkrjhvahvkdibyxn3abhq9sspump",
+      "tokenAddress": "2YhZUBBVxoDAEtXMhkRjHvAHvkDibyxN3ABHQ9Sspump",
+      "description": "The Black Cat ($CAT) is a community-driven meme coin built for those who move differently. Quiet, patient, and always wa"
+    },
     {
       "url": "https://dexscreener.com/solana/wyydotxkrwy4vmrwxhs1vb4rkyvc6xofaj2hmjqpump",
       "tokenAddress": "WyydotXKrWY4vmRwxHS1vb4rkyvC6XofAJ2HMJqpump",
@@ -49,24 +59,14 @@
       "description": "S&P 500 brings Wall Street energy, market madness, and unstoppable meme power straight to Solana."
     },
     {
-      "url": "https://dexscreener.com/solana/ckgdzzmpqvgfv3mxjtklywuzneaby5chmrsxnf9zpump",
-      "tokenAddress": "CKgdzzmPQvGFV3MXJTKLYWuZNeaBy5cHMrSXnF9Zpump",
-      "description": "Pumpfun memes flipping every stock-paired token on Stonk. Stonk coins are USELESS!"
-    },
-    {
-      "url": "https://dexscreener.com/solana/7gja6fhvuj9uglplpmco6axh5r4hiunqbawenx4rpump",
-      "tokenAddress": "7gJA6fhVUJ9UgLPLpmCo6aXH5R4hiUNQbaWEnx4Rpump",
-      "description": "Space Cat Index. Cats quoted in rockets."
+      "url": "https://dexscreener.com/solana/2hyqb2xqcbb5w3gqoze3ecdae43hx4m4ugzeaapkpump",
+      "tokenAddress": "2hYQb2XQCbB5W3GqozE3eCDae43hX4m4UGzeaaPkpump",
+      "description": "The cat that grabbed the baton and ran straight onto Solana."
     },
     {
       "url": "https://dexscreener.com/solana/zzjkh1hlbvsfjxwlfe6h4jnbcnrj4eteukrw42pn2tc",
       "tokenAddress": "zzjkh1hLbvsFJXWLfE6h4JNbcnRj4eteuKRw42PN2tC",
       "description": "Official mascot of Stonk\nPaired with $STONK"
-    },
-    {
-      "url": "https://dexscreener.com/solana/9xcp3es48mccofbwbm9ig18wng8cmcivqzkh1vsjpump",
-      "tokenAddress": "9XCP3Es48MccofbwBM9ig18WnG8CMcivqzKH1VSJpump",
-      "description": "NVDA \u2014 the viral Neko powering memes, digital assets, and green-candle energy."
     }
   ],
   "fearGreed": {
