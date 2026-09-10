@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-10T14:28:46.460248+00:00",
+  "at": "2026-09-10T17:54:13.450785+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77199.0,
-      "changePct": -2.3809020499432187,
+      "price": 77379.0,
+      "changePct": -1.7000729280120592,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2438.57,
-      "changePct": -2.673296280655658,
+      "price": 2467.74,
+      "changePct": -0.9485614821368168,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 99.93,
-      "changePct": -3.7374599319639414,
+      "price": 100.15,
+      "changePct": -3.1800685863725233,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 708.92,
-      "changePct": -4.782568041799057,
+      "price": 712.78,
+      "changePct": -3.8157865014915235,
       "source": "CoinGecko"
     }
   ],
@@ -64,9 +64,9 @@
       "description": "The cat that grabbed the baton and ran straight onto Solana."
     },
     {
-      "url": "https://dexscreener.com/solana/zzjkh1hlbvsfjxwlfe6h4jnbcnrj4eteukrw42pn2tc",
-      "tokenAddress": "zzjkh1hLbvsFJXWLfE6h4JNbcnRj4eteuKRw42PN2tC",
-      "description": "Official mascot of Stonk\nPaired with $STONK"
+      "url": "https://dexscreener.com/solana/3wrmlkqn1nxfejwuncq5bqddnqhj6kadwjbfraufpump",
+      "tokenAddress": "3wRMLKQN1NXfEJWUnCq5BqdDNQhj6kADWJBfRAufpump",
+      "description": "Two balls. One chain. Zero dignity. \ud83d\udfe1\ud83d\udfe1\n$TESTICLE \u2014 hanging around on Solana."
     }
   ],
   "fearGreed": {
