@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-10T00:16:50.599979+00:00",
+  "at": "2026-09-10T05:21:13.492859+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 78280.0,
-      "changePct": -0.4679267042025415,
+      "price": 78365.0,
+      "changePct": -1.1886795815953561,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2468.37,
-      "changePct": -0.9298571159113809,
+      "price": 2477.86,
+      "changePct": -1.1904128060775925,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.44,
-      "changePct": -2.1627806906223412,
+      "price": 101.91,
+      "changePct": -2.549810607353763,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 722.77,
-      "changePct": -4.247553416406958,
+      "price": 721.94,
+      "changePct": -4.22647179385448,
       "source": "CoinGecko"
     }
   ],
@@ -54,6 +54,11 @@
       "description": "Pumpfun memes flipping every stock-paired token on Stonk. Stonk coins are USELESS!"
     },
     {
+      "url": "https://dexscreener.com/solana/bnfatjxuy6gtjytgutkraa1vrgce6gmzwv4287trpump",
+      "tokenAddress": "BnFAtjxuY6gTJyTgUtKrAa1VRGcE6GMzWv4287TRpump",
+      "description": "S&P 500 brings Wall Street energy, market madness, and unstoppable meme power straight to Solana."
+    },
+    {
       "url": "https://dexscreener.com/solana/7gja6fhvuj9uglplpmco6axh5r4hiunqbawenx4rpump",
       "tokenAddress": "7gJA6fhVUJ9UgLPLpmCo6aXH5R4hiUNQbaWEnx4Rpump",
       "description": "Space Cat Index. Cats quoted in rockets."
@@ -62,11 +67,6 @@
       "url": "https://dexscreener.com/solana/3hyoqkfyqyg1hpxfkvqn5q1sqt7lqmihf7c4unbdpump",
       "tokenAddress": "3hyoQKfyQyg1HpxFkvqn5q1Sqt7LqmihF7c4UNBdpump",
       "description": "memes are useless"
-    },
-    {
-      "url": "https://dexscreener.com/solana/ukgvgmqwwrbtmvu4wmwdnyguxnydfscnz8fuvvxpump",
-      "tokenAddress": "uKGvgmqwwRbtMVu4WmwDNYGuXnYdfScNZ8FUVvXpump",
-      "description": "Live crypto markets on Solana \u2014 trending by 24h volume, plus fresh pump fun migrations."
     }
   ],
   "fearGreed": {
