@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-10T17:54:13.450785+00:00",
+  "at": "2026-09-10T20:54:05.887674+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77379.0,
-      "changePct": -1.7000729280120592,
+      "price": 77229.0,
+      "changePct": -1.2235283244546369,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2467.74,
-      "changePct": -0.9485614821368168,
+      "price": 2461.8,
+      "changePct": -0.15556706214607474,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 100.15,
-      "changePct": -3.1800685863725233,
+      "price": 100.0,
+      "changePct": -2.3220925887927923,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 712.78,
-      "changePct": -3.8157865014915235,
+      "price": 715.14,
+      "changePct": -2.4470186492708015,
       "source": "CoinGecko"
     }
   ],
@@ -39,19 +39,19 @@
       "description": "The Black Cat ($CAT) is a community-driven meme coin built for those who move differently. Quiet, patient, and always wa"
     },
     {
-      "url": "https://dexscreener.com/solana/wyydotxkrwy4vmrwxhs1vb4rkyvc6xofaj2hmjqpump",
-      "tokenAddress": "WyydotXKrWY4vmRwxHS1vb4rkyvC6XofAJ2HMJqpump",
-      "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/etut5bmsabaqzmwcujdj4bp9azhk2xw7fpp6vlygpump",
-      "tokenAddress": "ETuT5bmSAbAqzmwcUjdJ4Bp9AzHk2Xw7fpp6vLyGpump",
-      "description": "LAPTOP CAT KEEPS CLICKING"
-    },
-    {
       "url": "https://dexscreener.com/solana/9n43xu8wv4klwnh1uqdprvvgpyu4zts2byl7k9ijpump",
       "tokenAddress": "9n43xu8Wv4kLwnh1UqDPrvVgPYU4ZTS2ByL7k9iJpump",
       "description": "Greatest Meme Ever"
+    },
+    {
+      "url": "https://dexscreener.com/solana/3wrmlkqn1nxfejwuncq5bqddnqhj6kadwjbfraufpump",
+      "tokenAddress": "3wRMLKQN1NXfEJWUnCq5BqdDNQhj6kADWJBfRAufpump",
+      "description": "Two balls. One chain. Zero dignity. \ud83d\udfe1\ud83d\udfe1\n$TESTICLE \u2014 hanging around on Solana."
+    },
+    {
+      "url": "https://dexscreener.com/solana/8wvqtvonmayct1cknfzthabayprlygxbvjttpcqppump",
+      "tokenAddress": "8wvqTVoNmaYCT1CKNfZThABayprLYgXBvJTtpCqppump",
+      "description": "GOOG, not Google, it's Get On, Or Gay. Just get on!"
     },
     {
       "url": "https://dexscreener.com/solana/bnfatjxuy6gtjytgutkraa1vrgce6gmzwv4287trpump",
@@ -64,9 +64,9 @@
       "description": "The cat that grabbed the baton and ran straight onto Solana."
     },
     {
-      "url": "https://dexscreener.com/solana/3wrmlkqn1nxfejwuncq5bqddnqhj6kadwjbfraufpump",
-      "tokenAddress": "3wRMLKQN1NXfEJWUnCq5BqdDNQhj6kADWJBfRAufpump",
-      "description": "Two balls. One chain. Zero dignity. \ud83d\udfe1\ud83d\udfe1\n$TESTICLE \u2014 hanging around on Solana."
+      "url": "https://dexscreener.com/solana/9gmyvdxbrub4bawsmog7msm5ex8ccbggobnu72fupump",
+      "tokenAddress": "9gMyvDXBRUb4BaWSmoG7msm5eX8cCBggoBnU72Fupump",
+      "description": "If you sell, you\u2019ll miss the rainbow ride. \ud83c\udf08\ud83d\ude80 Diamond hands only."
     }
   ],
   "fearGreed": {
