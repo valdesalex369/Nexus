@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-10T23:12:16.098569+00:00",
+  "at": "2026-09-11T01:10:21.358475+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76691.0,
-      "changePct": -1.8629630981178658,
+      "price": 76945.0,
+      "changePct": -1.8787805774777635,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2440.25,
-      "changePct": -0.7701701671830125,
+      "price": 2458.45,
+      "changePct": -0.7477673687007522,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 99.02,
-      "changePct": -2.329118416359472,
+      "price": 99.42,
+      "changePct": -2.217378419275576,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 710.36,
-      "changePct": -1.4718266654902612,
+      "price": 714.22,
+      "changePct": -1.3846461207748093,
       "source": "CoinGecko"
     }
   ],
@@ -37,6 +37,11 @@
       "url": "https://dexscreener.com/solana/2yhzubbvxodaetxmhkrjhvahvkdibyxn3abhq9sspump",
       "tokenAddress": "2YhZUBBVxoDAEtXMhkRjHvAHvkDibyxN3ABHQ9Sspump",
       "description": "The Black Cat ($CAT) is a community-driven meme coin built for those who move differently. Quiet, patient, and always wa"
+    },
+    {
+      "url": "https://dexscreener.com/solana/epefnzxqyibxppski8sncc8w4corn1ujbf9g91fqpump",
+      "tokenAddress": "EpEfnZxQyiBXppSKi8sncc8w4corn1UJbF9G91fQpump",
+      "description": "PEPENOM is the villain of the Pepeverse, a Solana universe of Pepe characters that share one rule: every wallet public, "
     },
     {
       "url": "https://dexscreener.com/solana/3wrmlkqn1nxfejwuncq5bqddnqhj6kadwjbfraufpump",
@@ -54,11 +59,6 @@
       "description": "S&P 500 brings Wall Street energy, market madness, and unstoppable meme power straight to Solana."
     },
     {
-      "url": "https://dexscreener.com/solana/2hyqb2xqcbb5w3gqoze3ecdae43hx4m4ugzeaapkpump",
-      "tokenAddress": "2hYQb2XQCbB5W3GqozE3eCDae43hX4m4UGzeaaPkpump",
-      "description": "The cat that grabbed the baton and ran straight onto Solana."
-    },
-    {
       "url": "https://dexscreener.com/solana/9gmyvdxbrub4bawsmog7msm5ex8ccbggobnu72fupump",
       "tokenAddress": "9gMyvDXBRUb4BaWSmoG7msm5eX8cCBggoBnU72Fupump",
       "description": "If you sell, you\u2019ll miss the rainbow ride. \ud83c\udf08\ud83d\ude80 Diamond hands only."
@@ -70,7 +70,7 @@
     }
   ],
   "fearGreed": {
-    "value": 69,
+    "value": 56,
     "label": "Greed"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
