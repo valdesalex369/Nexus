@@ -1,47 +1,42 @@
 {
-  "at": "2026-09-11T11:25:49.775494+00:00",
+  "at": "2026-09-11T15:13:53.621564+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76791.0,
-      "changePct": -1.5293949175990733,
+      "price": 78566.0,
+      "changePct": 1.6231721175943088,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2454.29,
-      "changePct": -0.5031939808643375,
+      "price": 2604.1,
+      "changePct": 6.664278678370971,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 98.79,
-      "changePct": -2.506180063763323,
+      "price": 102.95,
+      "changePct": 2.948566023422714,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 710.95,
-      "changePct": -0.9824123089886597,
+      "price": 731.06,
+      "changePct": 3.001798888126069,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/gyhpvwni3ucwizy9bm4tztmw3ptsgxm5rryvl8ecpump",
-      "tokenAddress": "GYHPVwni3ucwizy9BM4TzTMw3PtSgxm5RRYvL8Ecpump",
-      "description": "Solana is evolving into Stock Solana, where stocks, memes, and crypto unite."
-    },
     {
       "url": "https://dexscreener.com/solana/epefnzxqyibxppski8sncc8w4corn1ujbf9g91fqpump",
       "tokenAddress": "EpEfnZxQyiBXppSKi8sncc8w4corn1UJbF9G91fQpump",
       "description": "PEPENOM is the villain of the Pepeverse, a Solana universe of Pepe characters that share one rule: every wallet public, "
     },
     {
-      "url": "https://dexscreener.com/solana/2yhzubbvxodaetxmhkrjhvahvkdibyxn3abhq9sspump",
-      "tokenAddress": "2YhZUBBVxoDAEtXMhkRjHvAHvkDibyxN3ABHQ9Sspump",
-      "description": "The Black Cat ($CAT) is a community-driven meme coin built for those who move differently. Quiet, patient, and always wa"
+      "url": "https://dexscreener.com/solana/3c8njback1utnuquthmj12uqdzmrwkx3hk5fbt7vpump",
+      "tokenAddress": "3C8NJBaCK1uTnuquThMj12UQdzmrwkx3hk5fbT7Vpump",
+      "description": "\ud83d\udd25 Too hot to quit. Too smug to lose.\nEMBER CHUMP is bringing maximum confidence and zero apologies to Solana.\n$EMBERCHUM"
     },
     {
       "url": "https://dexscreener.com/solana/3wrmlkqn1nxfejwuncq5bqddnqhj6kadwjbfraufpump",
@@ -51,12 +46,17 @@
     {
       "url": "https://dexscreener.com/solana/7mcgymzq3fov6oerdttmaybn2u9lzrrsys1mbhjixzfr",
       "tokenAddress": "7MCgYMzq3fov6oERdtTMAYbN2U9LZrrSYS1MBhjixZFr",
-      "description": "$POLLY is a community-run meme coin bringing the OG pink vibes to Solana via StonkFun. \n\nAs $PENGU\u2019s better half, Polly "
+      "description": "Buy $POLLY and earn $PENGU.\n\n$POLLY is a community-run meme coin bringing the pink vibes to across the meta via StonkFun"
     },
     {
       "url": "https://dexscreener.com/solana/9gmyvdxbrub4bawsmog7msm5ex8ccbggobnu72fupump",
       "tokenAddress": "9gMyvDXBRUb4BaWSmoG7msm5eX8cCBggoBnU72Fupump",
       "description": "If you sell, you\u2019ll miss the rainbow ride. \ud83c\udf08\ud83d\ude80 Diamond hands only."
+    },
+    {
+      "url": "https://dexscreener.com/solana/cgwai8wwecte6xmbgqsaxeqf7zldhfrj3hdtv1nupump",
+      "tokenAddress": "CGwAi8WwEcte6XmbgqSAXEQF7ZLdHfrj3HDtv1NUpump",
+      "description": "Wall Street got dogs\nMemecoins got stock pairs\n\nAnd somewhere along the way nobody could tell which market they were tra"
     },
     {
       "url": "https://dexscreener.com/solana/2izjtroxjk2recodt5v1nqfolowupmx6iztgy15fpump",
@@ -73,7 +73,7 @@
     "value": 56,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
