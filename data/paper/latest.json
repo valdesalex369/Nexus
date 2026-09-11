@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-11T06:02:51.193244+00:00",
+  "at": "2026-09-11T11:25:49.775494+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77202.0,
-      "changePct": -1.6416236266281181,
+      "price": 76791.0,
+      "changePct": -1.5293949175990733,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2467.08,
-      "changePct": -0.5496718749895324,
+      "price": 2454.29,
+      "changePct": -0.5031939808643375,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 99.83,
-      "changePct": -2.118400857080109,
+      "price": 98.79,
+      "changePct": -2.506180063763323,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 716.33,
-      "changePct": -0.8901729665435775,
+      "price": 710.95,
+      "changePct": -0.9824123089886597,
       "source": "CoinGecko"
     }
   ],
@@ -34,14 +34,14 @@
       "description": "Solana is evolving into Stock Solana, where stocks, memes, and crypto unite."
     },
     {
-      "url": "https://dexscreener.com/solana/2yhzubbvxodaetxmhkrjhvahvkdibyxn3abhq9sspump",
-      "tokenAddress": "2YhZUBBVxoDAEtXMhkRjHvAHvkDibyxN3ABHQ9Sspump",
-      "description": "The Black Cat ($CAT) is a community-driven meme coin built for those who move differently. Quiet, patient, and always wa"
-    },
-    {
       "url": "https://dexscreener.com/solana/epefnzxqyibxppski8sncc8w4corn1ujbf9g91fqpump",
       "tokenAddress": "EpEfnZxQyiBXppSKi8sncc8w4corn1UJbF9G91fQpump",
       "description": "PEPENOM is the villain of the Pepeverse, a Solana universe of Pepe characters that share one rule: every wallet public, "
+    },
+    {
+      "url": "https://dexscreener.com/solana/2yhzubbvxodaetxmhkrjhvahvkdibyxn3abhq9sspump",
+      "tokenAddress": "2YhZUBBVxoDAEtXMhkRjHvAHvkDibyxN3ABHQ9Sspump",
+      "description": "The Black Cat ($CAT) is a community-driven meme coin built for those who move differently. Quiet, patient, and always wa"
     },
     {
       "url": "https://dexscreener.com/solana/3wrmlkqn1nxfejwuncq5bqddnqhj6kadwjbfraufpump",
@@ -59,14 +59,14 @@
       "description": "If you sell, you\u2019ll miss the rainbow ride. \ud83c\udf08\ud83d\ude80 Diamond hands only."
     },
     {
-      "url": "https://dexscreener.com/solana/9xcp3es48mccofbwbm9ig18wng8cmcivqzkh1vsjpump",
-      "tokenAddress": "9XCP3Es48MccofbwBM9ig18WnG8CMcivqzKH1VSJpump",
-      "description": "NVDA \u2014 the viral Neko powering memes, digital assets, and green-candle energy."
+      "url": "https://dexscreener.com/solana/2izjtroxjk2recodt5v1nqfolowupmx6iztgy15fpump",
+      "tokenAddress": "2izJtroxJk2rECoDt5V1NQfoLowupMx6iZtGy15fpump",
+      "description": "Computer coin doesn\u2019t need your money.\n\nNever buy a coin just because of FOMO.\n\nJust look at $LAPTOP\u2014the result of Biden"
     },
     {
-      "url": "https://dexscreener.com/solana/gxmc2pm1fa8bzt4ubkoquddsvbvndrbqskaprzsupump",
-      "tokenAddress": "GXMC2PM1FA8BZT4uBKoquDdSVBVNdRBQsKAPrzSupump",
-      "description": "$ASSDAQ - World's Best Asset."
+      "url": "https://dexscreener.com/solana/hehns9r3d8w4ls12fjecuenfpntabqvhtqqc7yyxpump",
+      "tokenAddress": "HEhns9R3D8W4Ls12fjECUEnfPntABqvhTQqc7YYxpump",
+      "description": "THE GORILLA STAYS ANONYMOUS\nNobody knows who he is. Nobody knows what is underneath the bag.\nA gorilla appeared, refused"
     }
   ],
   "fearGreed": {
