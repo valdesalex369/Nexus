@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-11T18:38:32.839930+00:00",
+  "at": "2026-09-11T21:20:45.494483+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77212.0,
-      "changePct": 0.15563316586928988,
+      "price": 77379.0,
+      "changePct": 0.24900686574013567,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2543.31,
-      "changePct": 3.392522840923102,
+      "price": 2538.67,
+      "changePct": 3.2282243409049283,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.4,
-      "changePct": 2.0409995761832187,
+      "price": 102.9,
+      "changePct": 2.983791198979682,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 724.5,
-      "changePct": 1.8115059665931514,
+      "price": 726.91,
+      "changePct": 1.8189278956291621,
       "source": "CoinGecko"
     }
   ],
@@ -32,6 +32,11 @@
       "url": "https://dexscreener.com/solana/bgu4tfdlpv1jejgxvgsbzklsrxgazcsqci1vebawjvcm",
       "tokenAddress": "BGU4TfDLpV1JeJGXVgSbZkLSRxgAzcsQci1vEbaWJVcm",
       "description": "Where speculative markets meet productive capital. Paired with $NVDA."
+    },
+    {
+      "url": "https://dexscreener.com/solana/flk6fkan26m1ft4ucguwy3uhbmzlkceu8kmtyd2zpump",
+      "tokenAddress": "FLk6FKAN26m1FT4ucguwy3uHBMzLKcEu8KMTYD2Zpump",
+      "description": "Stunk is built different\u2014buying dips, chasing green candles, and sending Solana memes straight to the moon!"
     },
     {
       "url": "https://dexscreener.com/solana/2rbedkhkgcfj7nyeqbgwsparreazsean6d8ghqlzpump",
@@ -49,6 +54,11 @@
       "description": "\ud83d\udd25 Too hot to quit. Too smug to lose.\nEMBER CHUMP is bringing maximum confidence and zero apologies to Solana.\n$EMBERCHUM"
     },
     {
+      "url": "https://dexscreener.com/solana/j2x88a37smfunpehnjhtr1czcx8yrvukx3nnw8zupump",
+      "tokenAddress": "J2X88a37smFUnpehNJHtR1CZcx8yRVUkx3nNW8zupump",
+      "description": "XRP Cat brings feline energy to the fast-moving world of the XRP Ledger."
+    },
+    {
       "url": "https://dexscreener.com/solana/aacbdbi8dibvwisjtg2xkkqeshdcsifsvyqzrkpdpump",
       "tokenAddress": "AaCBdbi8DiBvWiSjTG2xkkqeshDCSifsvYqZrkpDpump",
       "description": "Other stonks point upward. This one picks up a toolbox."
@@ -57,16 +67,6 @@
       "url": "https://dexscreener.com/solana/cgwai8wwecte6xmbgqsaxeqf7zldhfrj3hdtv1nupump",
       "tokenAddress": "CGwAi8WwEcte6XmbgqSAXEQF7ZLdHfrj3HDtv1NUpump",
       "description": "Wall Street got dogs\nMemecoins got stock pairs\n\nAnd somewhere along the way nobody could tell which market they were tra"
-    },
-    {
-      "url": "https://dexscreener.com/solana/2izjtroxjk2recodt5v1nqfolowupmx6iztgy15fpump",
-      "tokenAddress": "2izJtroxJk2rECoDt5V1NQfoLowupMx6iZtGy15fpump",
-      "description": "Computer coin doesn\u2019t need your money.\n\nNever buy a coin just because of FOMO.\n\nJust look at $LAPTOP\u2014the result of Biden"
-    },
-    {
-      "url": "https://dexscreener.com/solana/8zp8dhqotgngxhxdqfhppwraijwt7fkgyporq4fhpump",
-      "tokenAddress": "8zP8DhqoTGNGXHXdQfHPPWrAijWt7FkgyporQ4FHpump",
-      "description": "The crowd is roaring, the gold is falling, and TrumpCat is ready to FIGHT. \ud83d\udc31\u270a"
     }
   ],
   "fearGreed": {
