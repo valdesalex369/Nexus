@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-11T01:10:21.358475+00:00",
+  "at": "2026-09-11T06:02:51.193244+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76945.0,
-      "changePct": -1.8787805774777635,
+      "price": 77202.0,
+      "changePct": -1.6416236266281181,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2458.45,
-      "changePct": -0.7477673687007522,
+      "price": 2467.08,
+      "changePct": -0.5496718749895324,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 99.42,
-      "changePct": -2.217378419275576,
+      "price": 99.83,
+      "changePct": -2.118400857080109,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 714.22,
-      "changePct": -1.3846461207748093,
+      "price": 716.33,
+      "changePct": -0.8901729665435775,
       "source": "CoinGecko"
     }
   ],
@@ -49,14 +49,9 @@
       "description": "Two balls. One chain. Zero dignity. \ud83d\udfe1\ud83d\udfe1\n$TESTICLE \u2014 hanging around on Solana."
     },
     {
-      "url": "https://dexscreener.com/solana/8wvqtvonmayct1cknfzthabayprlygxbvjttpcqppump",
-      "tokenAddress": "8wvqTVoNmaYCT1CKNfZThABayprLYgXBvJTtpCqppump",
-      "description": "GOOG, not Google, it's Get On, Or Gay. Just get on!"
-    },
-    {
-      "url": "https://dexscreener.com/solana/bnfatjxuy6gtjytgutkraa1vrgce6gmzwv4287trpump",
-      "tokenAddress": "BnFAtjxuY6gTJyTgUtKrAa1VRGcE6GMzWv4287TRpump",
-      "description": "S&P 500 brings Wall Street energy, market madness, and unstoppable meme power straight to Solana."
+      "url": "https://dexscreener.com/solana/7mcgymzq3fov6oerdttmaybn2u9lzrrsys1mbhjixzfr",
+      "tokenAddress": "7MCgYMzq3fov6oERdtTMAYbN2U9LZrrSYS1MBhjixZFr",
+      "description": "$POLLY is a community-run meme coin bringing the OG pink vibes to Solana via StonkFun. \n\nAs $PENGU\u2019s better half, Polly "
     },
     {
       "url": "https://dexscreener.com/solana/9gmyvdxbrub4bawsmog7msm5ex8ccbggobnu72fupump",
@@ -64,9 +59,14 @@
       "description": "If you sell, you\u2019ll miss the rainbow ride. \ud83c\udf08\ud83d\ude80 Diamond hands only."
     },
     {
-      "url": "https://dexscreener.com/solana/7mcgymzq3fov6oerdttmaybn2u9lzrrsys1mbhjixzfr",
-      "tokenAddress": "7MCgYMzq3fov6oERdtTMAYbN2U9LZrrSYS1MBhjixZFr",
-      "description": "$POLLY is a community-run meme coin bringing the OG pink vibes to Solana via StonkFun. \n\nAs $PENGU\u2019s better half, Polly "
+      "url": "https://dexscreener.com/solana/9xcp3es48mccofbwbm9ig18wng8cmcivqzkh1vsjpump",
+      "tokenAddress": "9XCP3Es48MccofbwBM9ig18WnG8CMcivqzKH1VSJpump",
+      "description": "NVDA \u2014 the viral Neko powering memes, digital assets, and green-candle energy."
+    },
+    {
+      "url": "https://dexscreener.com/solana/gxmc2pm1fa8bzt4ubkoquddsvbvndrbqskaprzsupump",
+      "tokenAddress": "GXMC2PM1FA8BZT4uBKoquDdSVBVNdRBQsKAPrzSupump",
+      "description": "$ASSDAQ - World's Best Asset."
     }
   ],
   "fearGreed": {
