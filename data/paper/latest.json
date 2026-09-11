@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-11T21:20:45.494483+00:00",
+  "at": "2026-09-11T23:32:42.524122+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77379.0,
-      "changePct": 0.24900686574013567,
+      "price": 77173.0,
+      "changePct": 0.5677009162861372,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2538.67,
-      "changePct": 3.2282243409049283,
+      "price": 2511.93,
+      "changePct": 2.807888416913577,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 102.9,
-      "changePct": 2.983791198979682,
+      "price": 102.25,
+      "changePct": 3.234126507729487,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 726.91,
-      "changePct": 1.8189278956291621,
+      "price": 725.25,
+      "changePct": 2.069597324114061,
       "source": "CoinGecko"
     }
   ],
@@ -54,6 +54,11 @@
       "description": "\ud83d\udd25 Too hot to quit. Too smug to lose.\nEMBER CHUMP is bringing maximum confidence and zero apologies to Solana.\n$EMBERCHUM"
     },
     {
+      "url": "https://dexscreener.com/solana/2frda5f353vxls2peljnqqhqtmhrjjunaxmwwplkpump",
+      "tokenAddress": "2fRDA5f353VXLs2PeLJNqqHqTMhrjJunAXmWWpLkpump",
+      "description": ""
+    },
+    {
       "url": "https://dexscreener.com/solana/j2x88a37smfunpehnjhtr1czcx8yrvukx3nnw8zupump",
       "tokenAddress": "J2X88a37smFUnpehNJHtR1CZcx8yRVUkx3nNW8zupump",
       "description": "XRP Cat brings feline energy to the fast-moving world of the XRP Ledger."
@@ -62,11 +67,6 @@
       "url": "https://dexscreener.com/solana/aacbdbi8dibvwisjtg2xkkqeshdcsifsvyqzrkpdpump",
       "tokenAddress": "AaCBdbi8DiBvWiSjTG2xkkqeshDCSifsvYqZrkpDpump",
       "description": "Other stonks point upward. This one picks up a toolbox."
-    },
-    {
-      "url": "https://dexscreener.com/solana/cgwai8wwecte6xmbgqsaxeqf7zldhfrj3hdtv1nupump",
-      "tokenAddress": "CGwAi8WwEcte6XmbgqSAXEQF7ZLdHfrj3HDtv1NUpump",
-      "description": "Wall Street got dogs\nMemecoins got stock pairs\n\nAnd somewhere along the way nobody could tell which market they were tra"
     }
   ],
   "fearGreed": {
