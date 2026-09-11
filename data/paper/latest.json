@@ -1,33 +1,43 @@
 {
-  "at": "2026-09-11T15:13:53.621564+00:00",
+  "at": "2026-09-11T18:38:32.839930+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 78566.0,
-      "changePct": 1.6231721175943088,
+      "price": 77212.0,
+      "changePct": 0.15563316586928988,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2604.1,
-      "changePct": 6.664278678370971,
+      "price": 2543.31,
+      "changePct": 3.392522840923102,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 102.95,
-      "changePct": 2.948566023422714,
+      "price": 101.4,
+      "changePct": 2.0409995761832187,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 731.06,
-      "changePct": 3.001798888126069,
+      "price": 724.5,
+      "changePct": 1.8115059665931514,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/bgu4tfdlpv1jejgxvgsbzklsrxgazcsqci1vebawjvcm",
+      "tokenAddress": "BGU4TfDLpV1JeJGXVgSbZkLSRxgAzcsQci1vEbaWJVcm",
+      "description": "Where speculative markets meet productive capital. Paired with $NVDA."
+    },
+    {
+      "url": "https://dexscreener.com/solana/2rbedkhkgcfj7nyeqbgwsparreazsean6d8ghqlzpump",
+      "tokenAddress": "2RbedkHKGCfJ7NyeQBGWSParreAzSeAn6D8GHqLzpump",
+      "description": "I started with packages. \ud83d\udce6\n\nThen I've found SOLANAAA !\n\nNow I'm delivering the next big thing.\n\njust an average $DELIVER"
+    },
     {
       "url": "https://dexscreener.com/solana/epefnzxqyibxppski8sncc8w4corn1ujbf9g91fqpump",
       "tokenAddress": "EpEfnZxQyiBXppSKi8sncc8w4corn1UJbF9G91fQpump",
@@ -39,19 +49,9 @@
       "description": "\ud83d\udd25 Too hot to quit. Too smug to lose.\nEMBER CHUMP is bringing maximum confidence and zero apologies to Solana.\n$EMBERCHUM"
     },
     {
-      "url": "https://dexscreener.com/solana/3wrmlkqn1nxfejwuncq5bqddnqhj6kadwjbfraufpump",
-      "tokenAddress": "3wRMLKQN1NXfEJWUnCq5BqdDNQhj6kADWJBfRAufpump",
-      "description": "Two balls. One chain. Zero dignity. \ud83d\udfe1\ud83d\udfe1\n$TESTICLE \u2014 hanging around on Solana."
-    },
-    {
-      "url": "https://dexscreener.com/solana/7mcgymzq3fov6oerdttmaybn2u9lzrrsys1mbhjixzfr",
-      "tokenAddress": "7MCgYMzq3fov6oERdtTMAYbN2U9LZrrSYS1MBhjixZFr",
-      "description": "Buy $POLLY and earn $PENGU.\n\n$POLLY is a community-run meme coin bringing the pink vibes to across the meta via StonkFun"
-    },
-    {
-      "url": "https://dexscreener.com/solana/9gmyvdxbrub4bawsmog7msm5ex8ccbggobnu72fupump",
-      "tokenAddress": "9gMyvDXBRUb4BaWSmoG7msm5eX8cCBggoBnU72Fupump",
-      "description": "If you sell, you\u2019ll miss the rainbow ride. \ud83c\udf08\ud83d\ude80 Diamond hands only."
+      "url": "https://dexscreener.com/solana/aacbdbi8dibvwisjtg2xkkqeshdcsifsvyqzrkpdpump",
+      "tokenAddress": "AaCBdbi8DiBvWiSjTG2xkkqeshDCSifsvYqZrkpDpump",
+      "description": "Other stonks point upward. This one picks up a toolbox."
     },
     {
       "url": "https://dexscreener.com/solana/cgwai8wwecte6xmbgqsaxeqf7zldhfrj3hdtv1nupump",
@@ -64,9 +64,9 @@
       "description": "Computer coin doesn\u2019t need your money.\n\nNever buy a coin just because of FOMO.\n\nJust look at $LAPTOP\u2014the result of Biden"
     },
     {
-      "url": "https://dexscreener.com/solana/hehns9r3d8w4ls12fjecuenfpntabqvhtqqc7yyxpump",
-      "tokenAddress": "HEhns9R3D8W4Ls12fjECUEnfPntABqvhTQqc7YYxpump",
-      "description": "THE GORILLA STAYS ANONYMOUS\nNobody knows who he is. Nobody knows what is underneath the bag.\nA gorilla appeared, refused"
+      "url": "https://dexscreener.com/solana/8zp8dhqotgngxhxdqfhppwraijwt7fkgyporq4fhpump",
+      "tokenAddress": "8zP8DhqoTGNGXHXdQfHPPWrAijWt7FkgyporQ4FHpump",
+      "description": "The crowd is roaring, the gold is falling, and TrumpCat is ready to FIGHT. \ud83d\udc31\u270a"
     }
   ],
   "fearGreed": {
