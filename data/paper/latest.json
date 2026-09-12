@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-12T01:35:29.407525+00:00",
+  "at": "2026-09-12T06:31:59.927986+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77308.0,
-      "changePct": 0.8050214956899526,
+      "price": 77240.0,
+      "changePct": 0.022718173587917896,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2513.91,
-      "changePct": 2.719376712055382,
+      "price": 2512.7,
+      "changePct": 1.9405035406484539,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 102.07,
-      "changePct": 3.347934302564541,
+      "price": 101.73,
+      "changePct": 2.078759092835332,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 729.06,
-      "changePct": 2.5156893796848943,
+      "price": 731.86,
+      "changePct": 2.3810077071170777,
       "source": "CoinGecko"
     }
   ],
