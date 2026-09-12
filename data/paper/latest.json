@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-12T21:41:30.763163+00:00",
+  "at": "2026-09-12T23:26:34.029574+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77227.0,
-      "changePct": -0.18456148889774626,
+      "price": 77240.0,
+      "changePct": 0.11989979589036644,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2524.46,
-      "changePct": -0.4810551002600798,
+      "price": 2523.69,
+      "changePct": 0.4712634707479767,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.56,
-      "changePct": -1.0502420585505101,
+      "price": 101.69,
+      "changePct": -0.4513207173476124,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 726.81,
-      "changePct": 0.022168126000279485,
+      "price": 726.85,
+      "changePct": 0.27855428038533286,
       "source": "CoinGecko"
     }
   ],
@@ -39,14 +39,14 @@
       "description": "Satu Wallet \u2014 the all-in-one self-custody crypto super app. Swap, earn, predict, and track your portfolio across 50+ blo"
     },
     {
-      "url": "https://dexscreener.com/solana/bgu4tfdlpv1jejgxvgsbzklsrxgazcsqci1vebawjvcm",
-      "tokenAddress": "BGU4TfDLpV1JeJGXVgSbZkLSRxgAzcsQci1vEbaWJVcm",
-      "description": "Where speculative markets meet productive capital. Paired with $NVDA."
-    },
-    {
       "url": "https://dexscreener.com/solana/flk6fkan26m1ft4ucguwy3uhbmzlkceu8kmtyd2zpump",
       "tokenAddress": "FLk6FKAN26m1FT4ucguwy3uHBMzLKcEu8KMTYD2Zpump",
       "description": "Stunk is built different\u2014buying dips, chasing green candles, and sending Solana memes straight to the moon!"
+    },
+    {
+      "url": "https://dexscreener.com/solana/bgu4tfdlpv1jejgxvgsbzklsrxgazcsqci1vebawjvcm",
+      "tokenAddress": "BGU4TfDLpV1JeJGXVgSbZkLSRxgAzcsQci1vEbaWJVcm",
+      "description": "Where speculative markets meet productive capital. Paired with $NVDA."
     },
     {
       "url": "https://dexscreener.com/solana/84uusmjpydeacsr8fxobvck2hwzs94c6ba8kk4jnpump",
@@ -59,21 +59,21 @@
       "description": "Official mascot of Stonk\nPaired with $STONK"
     },
     {
-      "url": "https://dexscreener.com/solana/apikwmrgm6xpupi6ggr9mcltzxszvnhqaqjdkgpgpump",
-      "tokenAddress": "ApikwMrgm6XPupi6ggR9mCLTzXSzvnHqAQjdKgpgpump",
-      "description": "Cat baton is coming for billions and is going to bring back pumpfun in the process."
-    },
-    {
       "url": "https://dexscreener.com/solana/66abzvkuclmwvy2jeu5cjaycusz7ycpobdfxxwv9pump",
       "tokenAddress": "66aBzVKucLmWvY2JEU5CjAYcUSz7YcpoBDfXXWV9pump",
       "description": "stonk fun was originally named stonkbaton."
+    },
+    {
+      "url": "https://dexscreener.com/solana/apikwmrgm6xpupi6ggr9mcltzxszvnhqaqjdkgpgpump",
+      "tokenAddress": "ApikwMrgm6XPupi6ggR9mCLTzXSzvnHqAQjdKgpgpump",
+      "description": "Cat baton is coming for billions and is going to bring back pumpfun in the process."
     }
   ],
   "fearGreed": {
     "value": 63,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
