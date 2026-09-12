@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-12T19:39:30.529909+00:00",
+  "at": "2026-09-12T21:41:30.763163+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77119.0,
-      "changePct": -0.1535410751266586,
+      "price": 77227.0,
+      "changePct": -0.18456148889774626,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2518.63,
-      "changePct": -1.063899561270401,
+      "price": 2524.46,
+      "changePct": -0.4810551002600798,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.46,
-      "changePct": -0.20714409484576807,
+      "price": 101.56,
+      "changePct": -1.0502420585505101,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 725.52,
-      "changePct": 0.14615388285580774,
+      "price": 726.81,
+      "changePct": 0.022168126000279485,
       "source": "CoinGecko"
     }
   ],
@@ -64,9 +64,9 @@
       "description": "Cat baton is coming for billions and is going to bring back pumpfun in the process."
     },
     {
-      "url": "https://dexscreener.com/solana/3urpncv9wapjwmayubspjwwkgn9wfjuwcrs3rmbdpair",
-      "tokenAddress": "3URpNcV9wAPjwMAyuBsPjwwkGN9wFJuwcRs3RMbdpair",
-      "description": "Pair your coin with any RWA or crypto token. Your coin. Their favourite pair."
+      "url": "https://dexscreener.com/solana/66abzvkuclmwvy2jeu5cjaycusz7ycpobdfxxwv9pump",
+      "tokenAddress": "66aBzVKucLmWvY2JEU5CjAYcUSz7YcpoBDfXXWV9pump",
+      "description": "stonk fun was originally named stonkbaton."
     }
   ],
   "fearGreed": {
