@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-12T14:24:18.760831+00:00",
+  "at": "2026-09-12T17:26:45.576284+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77371.0,
-      "changePct": -2.1035891866944736,
+      "price": 77259.0,
+      "changePct": -0.7435749347526849,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2541.07,
-      "changePct": -2.6590514317453784,
+      "price": 2526.87,
+      "changePct": -1.9414689214063858,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.98,
-      "changePct": -1.6554117624878735,
+      "price": 101.99,
+      "changePct": -0.30082617745711,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 735.84,
-      "changePct": 0.3028278504833104,
+      "price": 731.08,
+      "changePct": 0.14782621639971613,
       "source": "CoinGecko"
     }
   ],
@@ -39,9 +39,9 @@
       "description": "Stunk is built different\u2014buying dips, chasing green candles, and sending Solana memes straight to the moon!"
     },
     {
-      "url": "https://dexscreener.com/solana/2rbedkhkgcfj7nyeqbgwsparreazsean6d8ghqlzpump",
-      "tokenAddress": "2RbedkHKGCfJ7NyeQBGWSParreAzSeAn6D8GHqLzpump",
-      "description": "I started with packages. \ud83d\udce6\n\nThen I've found SOLANAAA !\n\nNow I'm delivering the next big thing.\n\njust an average $DELIVER"
+      "url": "https://dexscreener.com/solana/cmxsstkthrvlyvcdpzpockjyt5ampg6p3c88yppbfmpx",
+      "tokenAddress": "CmXSStKTHrVLyvCDPzPoCkjYt5aMpG6p3c88yPpbfmpx",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/ewnszw86xhj91nvxpjdzd3g1sqhhj7q8eqy6deukpump",
@@ -54,19 +54,19 @@
       "description": "XRP Cat brings feline energy to the fast-moving world of the XRP Ledger."
     },
     {
-      "url": "https://dexscreener.com/solana/zzjkh1hlbvsfjxwlfe6h4jnbcnrj4eteukrw42pn2tc",
-      "tokenAddress": "zzjkh1hLbvsFJXWLfE6h4JNbcnRj4eteuKRw42PN2tC",
-      "description": "Official mascot of Stonk\nPaired with $STONK"
+      "url": "https://dexscreener.com/solana/apikwmrgm6xpupi6ggr9mcltzxszvnhqaqjdkgpgpump",
+      "tokenAddress": "ApikwMrgm6XPupi6ggR9mCLTzXSzvnHqAQjdKgpgpump",
+      "description": "Cat baton is coming for billions and is going to bring back pumpfun in the process."
     },
     {
-      "url": "https://dexscreener.com/solana/3c8njback1utnuquthmj12uqdzmrwkx3hk5fbt7vpump",
-      "tokenAddress": "3C8NJBaCK1uTnuquThMj12UQdzmrwkx3hk5fbT7Vpump",
-      "description": "\ud83d\udd25 Too hot to quit. Too smug to lose.\nEMBER CHUMP is bringing maximum confidence and zero apologies to Solana.\n$EMBERCHUM"
+      "url": "https://dexscreener.com/solana/3urpncv9wapjwmayubspjwwkgn9wfjuwcrs3rmbdpair",
+      "tokenAddress": "3URpNcV9wAPjwMAyuBsPjwwkGN9wFJuwcRs3RMbdpair",
+      "description": "Pair your coin with any RWA or crypto token. Your coin. Their favourite pair."
     },
     {
-      "url": "https://dexscreener.com/solana/aacbdbi8dibvwisjtg2xkkqeshdcsifsvyqzrkpdpump",
-      "tokenAddress": "AaCBdbi8DiBvWiSjTG2xkkqeshDCSifsvYqZrkpDpump",
-      "description": "Other stonks point upward. This one picks up a toolbox."
+      "url": "https://dexscreener.com/solana/2frda5f353vxls2peljnqqhqtmhrjjunaxmwwplkpump",
+      "tokenAddress": "2fRDA5f353VXLs2PeLJNqqHqTMhrjJunAXmWWpLkpump",
+      "description": ""
     }
   ],
   "fearGreed": {
