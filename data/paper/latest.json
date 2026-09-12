@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-12T11:16:43.919526+00:00",
+  "at": "2026-09-12T14:24:18.760831+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77311.0,
-      "changePct": 0.7035294223899144,
+      "price": 77371.0,
+      "changePct": -2.1035891866944736,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2531.92,
-      "changePct": 3.1920493632523375,
+      "price": 2541.07,
+      "changePct": -2.6590514317453784,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 102.07,
-      "changePct": 3.430066826669525,
+      "price": 101.98,
+      "changePct": -1.6554117624878735,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 736.82,
-      "changePct": 3.6769902985000678,
+      "price": 735.84,
+      "changePct": 0.3028278504833104,
       "source": "CoinGecko"
     }
   ],
@@ -49,16 +49,6 @@
       "description": "Satu Wallet \u2014 the all-in-one self-custody crypto super app. Swap, earn, predict, and track your portfolio across 50+ blo"
     },
     {
-      "url": "https://dexscreener.com/solana/3c8njback1utnuquthmj12uqdzmrwkx3hk5fbt7vpump",
-      "tokenAddress": "3C8NJBaCK1uTnuquThMj12UQdzmrwkx3hk5fbT7Vpump",
-      "description": "\ud83d\udd25 Too hot to quit. Too smug to lose.\nEMBER CHUMP is bringing maximum confidence and zero apologies to Solana.\n$EMBERCHUM"
-    },
-    {
-      "url": "https://dexscreener.com/solana/2frda5f353vxls2peljnqqhqtmhrjjunaxmwwplkpump",
-      "tokenAddress": "2fRDA5f353VXLs2PeLJNqqHqTMhrjJunAXmWWpLkpump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/j2x88a37smfunpehnjhtr1czcx8yrvukx3nnw8zupump",
       "tokenAddress": "J2X88a37smFUnpehNJHtR1CZcx8yRVUkx3nNW8zupump",
       "description": "XRP Cat brings feline energy to the fast-moving world of the XRP Ledger."
@@ -67,13 +57,23 @@
       "url": "https://dexscreener.com/solana/zzjkh1hlbvsfjxwlfe6h4jnbcnrj4eteukrw42pn2tc",
       "tokenAddress": "zzjkh1hLbvsFJXWLfE6h4JNbcnRj4eteuKRw42PN2tC",
       "description": "Official mascot of Stonk\nPaired with $STONK"
+    },
+    {
+      "url": "https://dexscreener.com/solana/3c8njback1utnuquthmj12uqdzmrwkx3hk5fbt7vpump",
+      "tokenAddress": "3C8NJBaCK1uTnuquThMj12UQdzmrwkx3hk5fbT7Vpump",
+      "description": "\ud83d\udd25 Too hot to quit. Too smug to lose.\nEMBER CHUMP is bringing maximum confidence and zero apologies to Solana.\n$EMBERCHUM"
+    },
+    {
+      "url": "https://dexscreener.com/solana/aacbdbi8dibvwisjtg2xkkqeshdcsifsvyqzrkpdpump",
+      "tokenAddress": "AaCBdbi8DiBvWiSjTG2xkkqeshDCSifsvYqZrkpDpump",
+      "description": "Other stonks point upward. This one picks up a toolbox."
     }
   ],
   "fearGreed": {
     "value": 63,
     "label": "Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
