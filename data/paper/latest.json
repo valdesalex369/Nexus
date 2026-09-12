@@ -1,43 +1,33 @@
 {
-  "at": "2026-09-12T17:26:45.576284+00:00",
+  "at": "2026-09-12T19:39:30.529909+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77259.0,
-      "changePct": -0.7435749347526849,
+      "price": 77119.0,
+      "changePct": -0.1535410751266586,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2526.87,
-      "changePct": -1.9414689214063858,
+      "price": 2518.63,
+      "changePct": -1.063899561270401,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.99,
-      "changePct": -0.30082617745711,
+      "price": 101.46,
+      "changePct": -0.20714409484576807,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 731.08,
-      "changePct": 0.14782621639971613,
+      "price": 725.52,
+      "changePct": 0.14615388285580774,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/bgu4tfdlpv1jejgxvgsbzklsrxgazcsqci1vebawjvcm",
-      "tokenAddress": "BGU4TfDLpV1JeJGXVgSbZkLSRxgAzcsQci1vEbaWJVcm",
-      "description": "Where speculative markets meet productive capital. Paired with $NVDA."
-    },
-    {
-      "url": "https://dexscreener.com/solana/flk6fkan26m1ft4ucguwy3uhbmzlkceu8kmtyd2zpump",
-      "tokenAddress": "FLk6FKAN26m1FT4ucguwy3uHBMzLKcEu8KMTYD2Zpump",
-      "description": "Stunk is built different\u2014buying dips, chasing green candles, and sending Solana memes straight to the moon!"
-    },
     {
       "url": "https://dexscreener.com/solana/cmxsstkthrvlyvcdpzpockjyt5ampg6p3c88yppbfmpx",
       "tokenAddress": "CmXSStKTHrVLyvCDPzPoCkjYt5aMpG6p3c88yPpbfmpx",
@@ -49,9 +39,24 @@
       "description": "Satu Wallet \u2014 the all-in-one self-custody crypto super app. Swap, earn, predict, and track your portfolio across 50+ blo"
     },
     {
-      "url": "https://dexscreener.com/solana/j2x88a37smfunpehnjhtr1czcx8yrvukx3nnw8zupump",
-      "tokenAddress": "J2X88a37smFUnpehNJHtR1CZcx8yRVUkx3nNW8zupump",
-      "description": "XRP Cat brings feline energy to the fast-moving world of the XRP Ledger."
+      "url": "https://dexscreener.com/solana/bgu4tfdlpv1jejgxvgsbzklsrxgazcsqci1vebawjvcm",
+      "tokenAddress": "BGU4TfDLpV1JeJGXVgSbZkLSRxgAzcsQci1vEbaWJVcm",
+      "description": "Where speculative markets meet productive capital. Paired with $NVDA."
+    },
+    {
+      "url": "https://dexscreener.com/solana/flk6fkan26m1ft4ucguwy3uhbmzlkceu8kmtyd2zpump",
+      "tokenAddress": "FLk6FKAN26m1FT4ucguwy3uHBMzLKcEu8KMTYD2Zpump",
+      "description": "Stunk is built different\u2014buying dips, chasing green candles, and sending Solana memes straight to the moon!"
+    },
+    {
+      "url": "https://dexscreener.com/solana/84uusmjpydeacsr8fxobvck2hwzs94c6ba8kk4jnpump",
+      "tokenAddress": "84uuSMjPYDEAcsr8FXoBvCK2HwZS94c6BA8kk4jNpump",
+      "description": "Turn on the hype\u2014$FAUCAT is making waves and the flow has only just begun. \ud83d\udc31\ud83d\udeb0\ud83d\udca6"
+    },
+    {
+      "url": "https://dexscreener.com/solana/zzjkh1hlbvsfjxwlfe6h4jnbcnrj4eteukrw42pn2tc",
+      "tokenAddress": "zzjkh1hLbvsFJXWLfE6h4JNbcnRj4eteuKRw42PN2tC",
+      "description": "Official mascot of Stonk\nPaired with $STONK"
     },
     {
       "url": "https://dexscreener.com/solana/apikwmrgm6xpupi6ggr9mcltzxszvnhqaqjdkgpgpump",
@@ -62,11 +67,6 @@
       "url": "https://dexscreener.com/solana/3urpncv9wapjwmayubspjwwkgn9wfjuwcrs3rmbdpair",
       "tokenAddress": "3URpNcV9wAPjwMAyuBsPjwwkGN9wFJuwcRs3RMbdpair",
       "description": "Pair your coin with any RWA or crypto token. Your coin. Their favourite pair."
-    },
-    {
-      "url": "https://dexscreener.com/solana/2frda5f353vxls2peljnqqhqtmhrjjunaxmwwplkpump",
-      "tokenAddress": "2fRDA5f353VXLs2PeLJNqqHqTMhrjJunAXmWWpLkpump",
-      "description": ""
     }
   ],
   "fearGreed": {
