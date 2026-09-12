@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-11T23:32:42.524122+00:00",
+  "at": "2026-09-12T01:35:29.407525+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77173.0,
-      "changePct": 0.5677009162861372,
+      "price": 77308.0,
+      "changePct": 0.8050214956899526,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2511.93,
-      "changePct": 2.807888416913577,
+      "price": 2513.91,
+      "changePct": 2.719376712055382,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 102.25,
-      "changePct": 3.234126507729487,
+      "price": 102.07,
+      "changePct": 3.347934302564541,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 725.25,
-      "changePct": 2.069597324114061,
+      "price": 729.06,
+      "changePct": 2.5156893796848943,
       "source": "CoinGecko"
     }
   ],
@@ -44,9 +44,9 @@
       "description": "I started with packages. \ud83d\udce6\n\nThen I've found SOLANAAA !\n\nNow I'm delivering the next big thing.\n\njust an average $DELIVER"
     },
     {
-      "url": "https://dexscreener.com/solana/epefnzxqyibxppski8sncc8w4corn1ujbf9g91fqpump",
-      "tokenAddress": "EpEfnZxQyiBXppSKi8sncc8w4corn1UJbF9G91fQpump",
-      "description": "PEPENOM is the villain of the Pepeverse, a Solana universe of Pepe characters that share one rule: every wallet public, "
+      "url": "https://dexscreener.com/solana/ewnszw86xhj91nvxpjdzd3g1sqhhj7q8eqy6deukpump",
+      "tokenAddress": "EWnSZW86xhJ91nvxPjdZD3g1SqhHj7q8eqY6DEUKpump",
+      "description": "Satu Wallet \u2014 the all-in-one self-custody crypto super app. Swap, earn, predict, and track your portfolio across 50+ blo"
     },
     {
       "url": "https://dexscreener.com/solana/3c8njback1utnuquthmj12uqdzmrwkx3hk5fbt7vpump",
@@ -64,13 +64,13 @@
       "description": "XRP Cat brings feline energy to the fast-moving world of the XRP Ledger."
     },
     {
-      "url": "https://dexscreener.com/solana/aacbdbi8dibvwisjtg2xkkqeshdcsifsvyqzrkpdpump",
-      "tokenAddress": "AaCBdbi8DiBvWiSjTG2xkkqeshDCSifsvYqZrkpDpump",
-      "description": "Other stonks point upward. This one picks up a toolbox."
+      "url": "https://dexscreener.com/solana/zzjkh1hlbvsfjxwlfe6h4jnbcnrj4eteukrw42pn2tc",
+      "tokenAddress": "zzjkh1hLbvsFJXWLfE6h4JNbcnRj4eteuKRw42PN2tC",
+      "description": "Official mascot of Stonk\nPaired with $STONK"
     }
   ],
   "fearGreed": {
-    "value": 56,
+    "value": 63,
     "label": "Greed"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
