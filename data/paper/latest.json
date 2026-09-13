@@ -1,47 +1,47 @@
 {
-  "at": "2026-09-13T01:26:36.535335+00:00",
+  "at": "2026-09-13T06:47:30.014918+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77311.0,
-      "changePct": -0.0026333014070733553,
-      "source": "CoinGecko"
+      "price": 77261.97,
+      "changePct": -0.09,
+      "source": "Binance"
     },
     {
       "symbol": "ETH",
-      "price": 2526.1,
-      "changePct": 0.44210875018950113,
-      "source": "CoinGecko"
-    },
-    {
-      "symbol": "SOL",
-      "price": 102.09,
-      "changePct": 0.023935840076151935,
-      "source": "CoinGecko"
+      "price": 2517.73,
+      "changePct": -0.098,
+      "source": "Binance"
     },
     {
       "symbol": "BNB",
-      "price": 729.47,
-      "changePct": 0.009989973069509769,
-      "source": "CoinGecko"
+      "price": 723.55,
+      "changePct": -1.222,
+      "source": "Binance"
+    },
+    {
+      "symbol": "SOL",
+      "price": 101.36,
+      "changePct": -0.442,
+      "source": "Binance"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/cmxsstkthrvlyvcdpzpockjyt5ampg6p3c88yppbfmpx",
-      "tokenAddress": "CmXSStKTHrVLyvCDPzPoCkjYt5aMpG6p3c88yPpbfmpx",
-      "description": ""
-    },
     {
       "url": "https://dexscreener.com/solana/flk6fkan26m1ft4ucguwy3uhbmzlkceu8kmtyd2zpump",
       "tokenAddress": "FLk6FKAN26m1FT4ucguwy3uHBMzLKcEu8KMTYD2Zpump",
       "description": "Stunk is built different\u2014buying dips, chasing green candles, and sending Solana memes straight to the moon!"
     },
     {
-      "url": "https://dexscreener.com/solana/bgu4tfdlpv1jejgxvgsbzklsrxgazcsqci1vebawjvcm",
-      "tokenAddress": "BGU4TfDLpV1JeJGXVgSbZkLSRxgAzcsQci1vEbaWJVcm",
-      "description": "Where speculative markets meet productive capital. Paired with $NVDA."
+      "url": "https://dexscreener.com/solana/cmxsstkthrvlyvcdpzpockjyt5ampg6p3c88yppbfmpx",
+      "tokenAddress": "CmXSStKTHrVLyvCDPzPoCkjYt5aMpG6p3c88yPpbfmpx",
+      "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/debvzt2qra8yqnj2lvsn8jdwjtmzs4yajwpzyl4ypump",
+      "tokenAddress": "DEbvZt2QRA8yqNj2Lvsn8JdWjTmZS4yajwpzYL4ypump",
+      "description": "Capital is leaving. The cat would like a window seat."
     },
     {
       "url": "https://dexscreener.com/solana/84uusmjpydeacsr8fxobvck2hwzs94c6ba8kk4jnpump",
@@ -64,18 +64,16 @@
       "description": "Cat baton is coming for billions and is going to bring back pumpfun in the process."
     },
     {
-      "url": "https://dexscreener.com/solana/debvzt2qra8yqnj2lvsn8jdwjtmzs4yajwpzyl4ypump",
-      "tokenAddress": "DEbvZt2QRA8yqNj2Lvsn8JdWjTmZS4yajwpzYL4ypump",
-      "description": "Capital is leaving. The cat would like a window seat."
+      "url": "https://dexscreener.com/solana/bgu4tfdlpv1jejgxvgsbzklsrxgazcsqci1vebawjvcm",
+      "tokenAddress": "BGU4TfDLpV1JeJGXVgSbZkLSRxgAzcsQci1vEbaWJVcm",
+      "description": "Where speculative markets meet productive capital. Paired with $NVDA."
     }
   ],
   "fearGreed": {
     "value": 61,
     "label": "Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
-  "errors": [
-    "binance: HTTP 451"
-  ]
+  "errors": []
 }
