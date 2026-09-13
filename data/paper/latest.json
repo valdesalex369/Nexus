@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-13T12:44:33.855682+00:00",
+  "at": "2026-09-13T16:39:48.824721+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76711.0,
-      "changePct": -0.796727652408712,
+      "price": 77214.0,
+      "changePct": -0.17769500353307438,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2475.31,
-      "changePct": -2.373363862565096,
+      "price": 2501.03,
+      "changePct": -1.2061698945227788,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 99.55,
-      "changePct": -2.6759849655290493,
+      "price": 100.57,
+      "changePct": -1.356815381451336,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 715.36,
-      "changePct": -2.9183617218658013,
+      "price": 720.15,
+      "changePct": -1.822662889272311,
       "source": "CoinGecko"
     }
   ],
@@ -39,11 +39,6 @@
       "description": "Stunk is built different\u2014buying dips, chasing green candles, and sending Solana memes straight to the moon!"
     },
     {
-      "url": "https://dexscreener.com/solana/cmxsstkthrvlyvcdpzpockjyt5ampg6p3c88yppbfmpx",
-      "tokenAddress": "CmXSStKTHrVLyvCDPzPoCkjYt5aMpG6p3c88yPpbfmpx",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/debvzt2qra8yqnj2lvsn8jdwjtmzs4yajwpzyl4ypump",
       "tokenAddress": "DEbvZt2QRA8yqNj2Lvsn8JdWjTmZS4yajwpzYL4ypump",
       "description": "Capital is leaving. The cat would like a window seat."
@@ -52,6 +47,11 @@
       "url": "https://dexscreener.com/solana/84uusmjpydeacsr8fxobvck2hwzs94c6ba8kk4jnpump",
       "tokenAddress": "84uuSMjPYDEAcsr8FXoBvCK2HwZS94c6BA8kk4jNpump",
       "description": "Turn on the hype\u2014$FAUCAT is making waves and the flow has only just begun. \ud83d\udc31\ud83d\udeb0\ud83d\udca6"
+    },
+    {
+      "url": "https://dexscreener.com/solana/2hfakyaup8au5ozthevz8wvsqotretqavqtvokarpump",
+      "tokenAddress": "2HFakYaUp8au5oZThEvZ8wvSqoTreTQAvqtvoKarpump",
+      "description": "Feels good, man. The realest boy off the block just went on-chain \u2014 and the whole city's looking for him. Pull up your S"
     },
     {
       "url": "https://dexscreener.com/solana/66abzvkuclmwvy2jeu5cjaycusz7ycpobdfxxwv9pump",
@@ -64,9 +64,9 @@
       "description": "Official mascot of Stonk\nPaired with $STONK"
     },
     {
-      "url": "https://dexscreener.com/solana/apikwmrgm6xpupi6ggr9mcltzxszvnhqaqjdkgpgpump",
-      "tokenAddress": "ApikwMrgm6XPupi6ggR9mCLTzXSzvnHqAQjdKgpgpump",
-      "description": "Cat baton is coming for billions and is going to bring back pumpfun in the process."
+      "url": "https://dexscreener.com/solana/93oijqw78eupl4jaxksb1rdnszw69hqjgqq9dvpppump",
+      "tokenAddress": "93oiJqw78EUpL4JAxKSb1rdnsZw69HQjgQQ9DVpPpump",
+      "description": "pumpdog"
     }
   ],
   "fearGreed": {
