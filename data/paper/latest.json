@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-13T16:39:48.824721+00:00",
+  "at": "2026-09-13T18:59:07.804815+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77214.0,
-      "changePct": -0.17769500353307438,
+      "price": 77329.0,
+      "changePct": 0.24574123722626087,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2501.03,
-      "changePct": -1.2061698945227788,
+      "price": 2507.98,
+      "changePct": -0.5422459210468163,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 100.57,
-      "changePct": -1.356815381451336,
+      "price": 101.18,
+      "changePct": -0.4231032383236318,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 720.15,
-      "changePct": -1.822662889272311,
+      "price": 721.5,
+      "changePct": -1.0409512833960213,
       "source": "CoinGecko"
     }
   ],
@@ -39,14 +39,14 @@
       "description": "Stunk is built different\u2014buying dips, chasing green candles, and sending Solana memes straight to the moon!"
     },
     {
+      "url": "https://dexscreener.com/solana/9gpg5ifxobxqrovthmganxmfgxydtfpzqkunguekpump",
+      "tokenAddress": "9GPG5ifxoBXQroVTHmGanxmFGxYDTFPZqKunGueKpump",
+      "description": "Batonius Maximus is the legendary baton-wielding commander leading the meme empire to victory."
+    },
+    {
       "url": "https://dexscreener.com/solana/debvzt2qra8yqnj2lvsn8jdwjtmzs4yajwpzyl4ypump",
       "tokenAddress": "DEbvZt2QRA8yqNj2Lvsn8JdWjTmZS4yajwpzYL4ypump",
       "description": "Capital is leaving. The cat would like a window seat."
-    },
-    {
-      "url": "https://dexscreener.com/solana/84uusmjpydeacsr8fxobvck2hwzs94c6ba8kk4jnpump",
-      "tokenAddress": "84uuSMjPYDEAcsr8FXoBvCK2HwZS94c6BA8kk4jNpump",
-      "description": "Turn on the hype\u2014$FAUCAT is making waves and the flow has only just begun. \ud83d\udc31\ud83d\udeb0\ud83d\udca6"
     },
     {
       "url": "https://dexscreener.com/solana/2hfakyaup8au5ozthevz8wvsqotretqavqtvokarpump",
@@ -54,19 +54,19 @@
       "description": "Feels good, man. The realest boy off the block just went on-chain \u2014 and the whole city's looking for him. Pull up your S"
     },
     {
-      "url": "https://dexscreener.com/solana/66abzvkuclmwvy2jeu5cjaycusz7ycpobdfxxwv9pump",
-      "tokenAddress": "66aBzVKucLmWvY2JEU5CjAYcUSz7YcpoBDfXXWV9pump",
-      "description": "stonk fun was originally named stonkbaton."
-    },
-    {
-      "url": "https://dexscreener.com/solana/zzjkh1hlbvsfjxwlfe6h4jnbcnrj4eteukrw42pn2tc",
-      "tokenAddress": "zzjkh1hLbvsFJXWLfE6h4JNbcnRj4eteuKRw42PN2tC",
-      "description": "Official mascot of Stonk\nPaired with $STONK"
+      "url": "https://dexscreener.com/solana/bexq21chnexqtbtbm6fd2mnsy4naw3n3r7wnwtffpump",
+      "tokenAddress": "BeXQ21cHNExQTbTbm6Fd2Mnsy4nAw3N3r7WNWTFfpump",
+      "description": "I'm just a baton guy on solana."
     },
     {
       "url": "https://dexscreener.com/solana/93oijqw78eupl4jaxksb1rdnszw69hqjgqq9dvpppump",
       "tokenAddress": "93oiJqw78EUpL4JAxKSb1rdnsZw69HQjgQQ9DVpPpump",
       "description": "pumpdog"
+    },
+    {
+      "url": "https://dexscreener.com/solana/ai8ua5mwg43jkvoxhrrfzgwifscqsybsj243pyzupump",
+      "tokenAddress": "Ai8uA5mWG43jKVoxHrRfzGwifSCQsybSj243PYZupump",
+      "description": "Baton Baton Baton Sahur grips the baton and stands ready to defend the meme trenches."
     }
   ],
   "fearGreed": {
