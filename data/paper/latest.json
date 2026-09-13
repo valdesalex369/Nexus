@@ -1,33 +1,38 @@
 {
-  "at": "2026-09-13T06:47:30.014918+00:00",
+  "at": "2026-09-13T12:44:33.855682+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77261.97,
-      "changePct": -0.09,
-      "source": "Binance"
+      "price": 76711.0,
+      "changePct": -0.796727652408712,
+      "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2517.73,
-      "changePct": -0.098,
-      "source": "Binance"
-    },
-    {
-      "symbol": "BNB",
-      "price": 723.55,
-      "changePct": -1.222,
-      "source": "Binance"
+      "price": 2475.31,
+      "changePct": -2.373363862565096,
+      "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.36,
-      "changePct": -0.442,
-      "source": "Binance"
+      "price": 99.55,
+      "changePct": -2.6759849655290493,
+      "source": "CoinGecko"
+    },
+    {
+      "symbol": "BNB",
+      "price": 715.36,
+      "changePct": -2.9183617218658013,
+      "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/51jek4crwugd5m3xaqmt53rzyvfjn3lf3qeb35zypump",
+      "tokenAddress": "51jek4CRWUgd5m3XaQmt53RzyvFjn3LF3qEB35ZYpump",
+      "description": ""
+    },
     {
       "url": "https://dexscreener.com/solana/flk6fkan26m1ft4ucguwy3uhbmzlkceu8kmtyd2zpump",
       "tokenAddress": "FLk6FKAN26m1FT4ucguwy3uHBMzLKcEu8KMTYD2Zpump",
@@ -49,24 +54,19 @@
       "description": "Turn on the hype\u2014$FAUCAT is making waves and the flow has only just begun. \ud83d\udc31\ud83d\udeb0\ud83d\udca6"
     },
     {
-      "url": "https://dexscreener.com/solana/zzjkh1hlbvsfjxwlfe6h4jnbcnrj4eteukrw42pn2tc",
-      "tokenAddress": "zzjkh1hLbvsFJXWLfE6h4JNbcnRj4eteuKRw42PN2tC",
-      "description": "Official mascot of Stonk\nPaired with $STONK"
-    },
-    {
       "url": "https://dexscreener.com/solana/66abzvkuclmwvy2jeu5cjaycusz7ycpobdfxxwv9pump",
       "tokenAddress": "66aBzVKucLmWvY2JEU5CjAYcUSz7YcpoBDfXXWV9pump",
       "description": "stonk fun was originally named stonkbaton."
     },
     {
+      "url": "https://dexscreener.com/solana/zzjkh1hlbvsfjxwlfe6h4jnbcnrj4eteukrw42pn2tc",
+      "tokenAddress": "zzjkh1hLbvsFJXWLfE6h4JNbcnRj4eteuKRw42PN2tC",
+      "description": "Official mascot of Stonk\nPaired with $STONK"
+    },
+    {
       "url": "https://dexscreener.com/solana/apikwmrgm6xpupi6ggr9mcltzxszvnhqaqjdkgpgpump",
       "tokenAddress": "ApikwMrgm6XPupi6ggR9mCLTzXSzvnHqAQjdKgpgpump",
       "description": "Cat baton is coming for billions and is going to bring back pumpfun in the process."
-    },
-    {
-      "url": "https://dexscreener.com/solana/bgu4tfdlpv1jejgxvgsbzklsrxgazcsqci1vebawjvcm",
-      "tokenAddress": "BGU4TfDLpV1JeJGXVgSbZkLSRxgAzcsQci1vEbaWJVcm",
-      "description": "Where speculative markets meet productive capital. Paired with $NVDA."
     }
   ],
   "fearGreed": {
@@ -75,5 +75,7 @@
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
-  "errors": []
+  "errors": [
+    "binance: HTTP 451"
+  ]
 }
