@@ -1,33 +1,38 @@
 {
-  "at": "2026-09-13T21:26:59.557398+00:00",
+  "at": "2026-09-13T23:35:19.936238+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77406.0,
-      "changePct": 0.29859345489507305,
+      "price": 76797.0,
+      "changePct": -0.5720116641440725,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2514.52,
-      "changePct": -0.3557327182578831,
+      "price": 2478.32,
+      "changePct": -1.7985494058739604,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.44,
-      "changePct": -0.018034626072368852,
+      "price": 99.7,
+      "changePct": -2.0402675644703105,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 722.36,
-      "changePct": -0.5498176220298949,
+      "price": 716.22,
+      "changePct": -1.4363220257129268,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/gptempgmgx9hdthcr44xmyjoxzkdytztkps5zay7ydcy",
+      "tokenAddress": "GpTEmPGmgx9HDThCR44xMyJoXZkDYtzTkPs5zAY7YDcY",
+      "description": "a meme cat paired with $amc stock"
+    },
     {
       "url": "https://dexscreener.com/solana/flk6fkan26m1ft4ucguwy3uhbmzlkceu8kmtyd2zpump",
       "tokenAddress": "FLk6FKAN26m1FT4ucguwy3uHBMzLKcEu8KMTYD2Zpump",
@@ -39,19 +44,9 @@
       "description": "Batonius Maximus is the legendary baton-wielding commander leading the meme empire to victory."
     },
     {
-      "url": "https://dexscreener.com/solana/gptempgmgx9hdthcr44xmyjoxzkdytztkps5zay7ydcy",
-      "tokenAddress": "GpTEmPGmgx9HDThCR44xMyJoXZkDYtzTkPs5zAY7YDcY",
-      "description": "a meme cat paired with $amc stock"
-    },
-    {
       "url": "https://dexscreener.com/solana/51jek4crwugd5m3xaqmt53rzyvfjn3lf3qeb35zypump",
       "tokenAddress": "51jek4CRWUgd5m3XaQmt53RzyvFjn3LF3qEB35ZYpump",
       "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/debvzt2qra8yqnj2lvsn8jdwjtmzs4yajwpzyl4ypump",
-      "tokenAddress": "DEbvZt2QRA8yqNj2Lvsn8JdWjTmZS4yajwpzYL4ypump",
-      "description": "Capital is leaving. The cat would like a window seat."
     },
     {
       "url": "https://dexscreener.com/solana/bexq21chnexqtbtbm6fd2mnsy4naw3n3r7wnwtffpump",
@@ -59,14 +54,19 @@
       "description": "I'm just a baton guy on solana."
     },
     {
+      "url": "https://dexscreener.com/solana/debvzt2qra8yqnj2lvsn8jdwjtmzs4yajwpzyl4ypump",
+      "tokenAddress": "DEbvZt2QRA8yqNj2Lvsn8JdWjTmZS4yajwpzYL4ypump",
+      "description": "Capital is leaving. The cat would like a window seat."
+    },
+    {
       "url": "https://dexscreener.com/solana/2hfakyaup8au5ozthevz8wvsqotretqavqtvokarpump",
       "tokenAddress": "2HFakYaUp8au5oZThEvZ8wvSqoTreTQAvqtvoKarpump",
       "description": "Feels good, man. The realest boy off the block just went on-chain \u2014 and the whole city's looking for him. Pull up your S"
     },
     {
-      "url": "https://dexscreener.com/solana/93oijqw78eupl4jaxksb1rdnszw69hqjgqq9dvpppump",
-      "tokenAddress": "93oiJqw78EUpL4JAxKSb1rdnsZw69HQjgQQ9DVpPpump",
-      "description": "pumpdog"
+      "url": "https://dexscreener.com/solana/ai8ua5mwg43jkvoxhrrfzgwifscqsybsj243pyzupump",
+      "tokenAddress": "Ai8uA5mWG43jKVoxHrRfzGwifSCQsybSj243PYZupump",
+      "description": "Baton Baton Baton Sahur grips the baton and stands ready to defend the meme trenches."
     }
   ],
   "fearGreed": {
