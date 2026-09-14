@@ -1,38 +1,33 @@
 {
-  "at": "2026-09-14T19:24:35.047892+00:00",
+  "at": "2026-09-14T22:45:57.974711+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 79162.0,
-      "changePct": 2.495618009838706,
+      "price": 78650.0,
+      "changePct": 2.510572320533845,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2542.27,
-      "changePct": 1.4165000807782575,
+      "price": 2539.01,
+      "changePct": 2.5510878581777043,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.49,
-      "changePct": 2.4895380739307567,
+      "price": 103.11,
+      "changePct": 3.134610836764705,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 725.96,
-      "changePct": 0.7250408744564659,
+      "price": 723.97,
+      "changePct": 1.1196491079712263,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/gptempgmgx9hdthcr44xmyjoxzkdytztkps5zay7ydcy",
-      "tokenAddress": "GpTEmPGmgx9HDThCR44xMyJoXZkDYtzTkPs5zAY7YDcY",
-      "description": "a meme cat paired with $amc stock"
-    },
     {
       "url": "https://dexscreener.com/solana/3nkvw4jwddlgm23wzqpy2ptapv5ygmnokebgijdbpump",
       "tokenAddress": "3nkVw4JwdDLGM23Wzqpy2ptAPV5YgMnokEBgijDBpump",
@@ -44,9 +39,9 @@
       "description": "Ryan Garcia (The Flash) became a e-bike. The market is adapting to an electronic era."
     },
     {
-      "url": "https://dexscreener.com/solana/fmkwcxdy82jnfnj3r4cqfgkewptl7rztkflzkg4xpump",
-      "tokenAddress": "FMKwCXdY82JnfnJ3r4CqFgkEWPTL7rZTkfLZKg4xpump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/fseqgepjwwnh3ijzrlekpnmqmdyzli5l2oclskgppump",
+      "tokenAddress": "FsEQGePjwwnH3iJzRLekPNMqMdYZLi5L2oCLsKGppump",
+      "description": "Meet $CATEZ , born from a mix of $CATE and $ZCAT."
     },
     {
       "url": "https://dexscreener.com/solana/43ytfnyflyyiirfr5yz1mjfvujry9pgeodq9ofncpump",
@@ -54,14 +49,19 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/fseqgepjwwnh3ijzrlekpnmqmdyzli5l2oclskgppump",
-      "tokenAddress": "FsEQGePjwwnH3iJzRLekPNMqMdYZLi5L2oCLsKGppump",
-      "description": "Meet $CATEZ , born from a mix of $CATE and $ZCAT."
+      "url": "https://dexscreener.com/solana/fmkwcxdy82jnfnj3r4cqfgkewptl7rztkflzkg4xpump",
+      "tokenAddress": "FMKwCXdY82JnfnJ3r4CqFgkEWPTL7rZTkfLZKg4xpump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/5epycb2dhxpbtm4b7ff51fgue14wezprftuxbrh86ssd",
       "tokenAddress": "5EpyCB2dhxpBtm4B7Ff51FguE14WEzPrFTuXbRh86ssD",
       "description": "ANTMINER $ANT \ud83d\udc1c\u26cf\ufe0f\n\nPASSIVELY MINE BITCOIN.\n\nNo rigs. No electricity. Just $ANT.\n\nHold $ANT and earn WBTC rewards powered"
+    },
+    {
+      "url": "https://dexscreener.com/solana/gptempgmgx9hdthcr44xmyjoxzkdytztkps5zay7ydcy",
+      "tokenAddress": "GpTEmPGmgx9HDThCR44xMyJoXZkDYtzTkPs5zAY7YDcY",
+      "description": "a meme cat paired with $amc stock"
     },
     {
       "url": "https://dexscreener.com/solana/gogssnkxwke5feuxyv6fmr4eczfk1kjdvsajnanspump",
