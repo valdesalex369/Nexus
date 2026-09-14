@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-14T07:11:34.220131+00:00",
+  "at": "2026-09-14T14:09:43.744057+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77589.0,
-      "changePct": 0.5700445187414612,
+      "price": 78297.0,
+      "changePct": 1.7990349523571914,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2516.5,
-      "changePct": 0.08939586330843324,
+      "price": 2507.21,
+      "changePct": 0.9983766609398546,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.49,
-      "changePct": 0.14665931469996374,
+      "price": 101.57,
+      "changePct": 1.372482813126264,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 723.57,
-      "changePct": 0.13311452638250415,
+      "price": 721.65,
+      "changePct": 0.456373784233056,
       "source": "CoinGecko"
     }
   ],
@@ -44,11 +44,6 @@
       "description": "Cate became a bicycle. The market is adapting."
     },
     {
-      "url": "https://dexscreener.com/solana/51jek4crwugd5m3xaqmt53rzyvfjn3lf3qeb35zypump",
-      "tokenAddress": "51jek4CRWUgd5m3XaQmt53RzyvFjn3LF3qEB35ZYpump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/fmkwcxdy82jnfnj3r4cqfgkewptl7rztkflzkg4xpump",
       "tokenAddress": "FMKwCXdY82JnfnJ3r4CqFgkEWPTL7rZTkfLZKg4xpump",
       "description": ""
@@ -67,6 +62,11 @@
       "url": "https://dexscreener.com/solana/2hfakyaup8au5ozthevz8wvsqotretqavqtvokarpump",
       "tokenAddress": "2HFakYaUp8au5oZThEvZ8wvSqoTreTQAvqtvoKarpump",
       "description": "Feels good, man. The realest boy off the block just went on-chain \u2014 and the whole city's looking for him. Pull up your S"
+    },
+    {
+      "url": "https://dexscreener.com/solana/4jiyyzzvfpkxgmtnggfdjuibmz42ovozonezu4xvpump",
+      "tokenAddress": "4JiyyzzVFpkXgmTnggFdjuibMZ42ovozoneZU4xVpump",
+      "description": "THE MARKET HAS A NEW UNCLE.\nUncle Stonk still watching the board."
     }
   ],
   "fearGreed": {
