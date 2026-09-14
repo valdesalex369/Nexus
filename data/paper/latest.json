@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-14T14:09:43.744057+00:00",
+  "at": "2026-09-14T19:24:35.047892+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 78297.0,
-      "changePct": 1.7990349523571914,
+      "price": 79162.0,
+      "changePct": 2.495618009838706,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2507.21,
-      "changePct": 0.9983766609398546,
+      "price": 2542.27,
+      "changePct": 1.4165000807782575,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.57,
-      "changePct": 1.372482813126264,
+      "price": 103.49,
+      "changePct": 2.4895380739307567,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 721.65,
-      "changePct": 0.456373784233056,
+      "price": 725.96,
+      "changePct": 0.7250408744564659,
       "source": "CoinGecko"
     }
   ],
@@ -34,14 +34,14 @@
       "description": "a meme cat paired with $amc stock"
     },
     {
-      "url": "https://dexscreener.com/solana/9gpg5ifxobxqrovthmganxmfgxydtfpzqkunguekpump",
-      "tokenAddress": "9GPG5ifxoBXQroVTHmGanxmFGxYDTFPZqKunGueKpump",
-      "description": "Batonius Maximus is the legendary baton-wielding commander leading the meme empire to victory."
-    },
-    {
       "url": "https://dexscreener.com/solana/3nkvw4jwddlgm23wzqpy2ptapv5ygmnokebgijdbpump",
       "tokenAddress": "3nkVw4JwdDLGM23Wzqpy2ptAPV5YgMnokEBgijDBpump",
       "description": "Cate became a bicycle. The market is adapting."
+    },
+    {
+      "url": "https://dexscreener.com/solana/avx2dfkwceq9agodkrsjdmqgmj77rptmfntjrgnipump",
+      "tokenAddress": "AVX2DfkwCeq9aGoDKRsjDMQgmJ77RPTmfntjRGNipump",
+      "description": "Ryan Garcia (The Flash) became a e-bike. The market is adapting to an electronic era."
     },
     {
       "url": "https://dexscreener.com/solana/fmkwcxdy82jnfnj3r4cqfgkewptl7rztkflzkg4xpump",
@@ -49,24 +49,24 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/bexq21chnexqtbtbm6fd2mnsy4naw3n3r7wnwtffpump",
-      "tokenAddress": "BeXQ21cHNExQTbTbm6Fd2Mnsy4nAw3N3r7WNWTFfpump",
-      "description": "I'm just a baton guy on solana."
+      "url": "https://dexscreener.com/solana/43ytfnyflyyiirfr5yz1mjfvujry9pgeodq9ofncpump",
+      "tokenAddress": "43YTfnYFLyYiiRFr5YZ1mJFVUJrY9PgeodQ9ofNCpump",
+      "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/fseqgepjwwnh3ijzrlekpnmqmdyzli5l2oclskgppump",
+      "tokenAddress": "FsEQGePjwwnH3iJzRLekPNMqMdYZLi5L2oCLsKGppump",
+      "description": "Meet $CATEZ , born from a mix of $CATE and $ZCAT."
+    },
+    {
+      "url": "https://dexscreener.com/solana/5epycb2dhxpbtm4b7ff51fgue14wezprftuxbrh86ssd",
+      "tokenAddress": "5EpyCB2dhxpBtm4B7Ff51FguE14WEzPrFTuXbRh86ssD",
+      "description": "ANTMINER $ANT \ud83d\udc1c\u26cf\ufe0f\n\nPASSIVELY MINE BITCOIN.\n\nNo rigs. No electricity. Just $ANT.\n\nHold $ANT and earn WBTC rewards powered"
     },
     {
       "url": "https://dexscreener.com/solana/gogssnkxwke5feuxyv6fmr4eczfk1kjdvsajnanspump",
       "tokenAddress": "GogsSnkXwke5FEUxyV6FmR4eczFK1KJDVsaJNaNspump",
       "description": "Memecoins are so back! The memes are flying, the community is growing, and the moon is calling."
-    },
-    {
-      "url": "https://dexscreener.com/solana/2hfakyaup8au5ozthevz8wvsqotretqavqtvokarpump",
-      "tokenAddress": "2HFakYaUp8au5oZThEvZ8wvSqoTreTQAvqtvoKarpump",
-      "description": "Feels good, man. The realest boy off the block just went on-chain \u2014 and the whole city's looking for him. Pull up your S"
-    },
-    {
-      "url": "https://dexscreener.com/solana/4jiyyzzvfpkxgmtnggfdjuibmz42ovozonezu4xvpump",
-      "tokenAddress": "4JiyyzzVFpkXgmTnggFdjuibMZ42ovozoneZU4xVpump",
-      "description": "THE MARKET HAS A NEW UNCLE.\nUncle Stonk still watching the board."
     }
   ],
   "fearGreed": {
