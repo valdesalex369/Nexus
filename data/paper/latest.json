@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-14T01:43:36.961470+00:00",
+  "at": "2026-09-14T07:11:34.220131+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76792.0,
-      "changePct": -0.6292868292717118,
+      "price": 77589.0,
+      "changePct": 0.5700445187414612,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2481.04,
-      "changePct": -1.7192209242288723,
+      "price": 2516.5,
+      "changePct": 0.08939586330843324,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 99.49,
-      "changePct": -2.582659371332954,
+      "price": 101.49,
+      "changePct": 0.14665931469996374,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 717.02,
-      "changePct": -1.6491668190305775,
+      "price": 723.57,
+      "changePct": 0.13311452638250415,
       "source": "CoinGecko"
     }
   ],
@@ -34,18 +34,23 @@
       "description": "a meme cat paired with $amc stock"
     },
     {
-      "url": "https://dexscreener.com/solana/flk6fkan26m1ft4ucguwy3uhbmzlkceu8kmtyd2zpump",
-      "tokenAddress": "FLk6FKAN26m1FT4ucguwy3uHBMzLKcEu8KMTYD2Zpump",
-      "description": "Stunk is built different\u2014buying dips, chasing green candles, and sending Solana memes straight to the moon!"
-    },
-    {
       "url": "https://dexscreener.com/solana/9gpg5ifxobxqrovthmganxmfgxydtfpzqkunguekpump",
       "tokenAddress": "9GPG5ifxoBXQroVTHmGanxmFGxYDTFPZqKunGueKpump",
       "description": "Batonius Maximus is the legendary baton-wielding commander leading the meme empire to victory."
     },
     {
+      "url": "https://dexscreener.com/solana/3nkvw4jwddlgm23wzqpy2ptapv5ygmnokebgijdbpump",
+      "tokenAddress": "3nkVw4JwdDLGM23Wzqpy2ptAPV5YgMnokEBgijDBpump",
+      "description": "Cate became a bicycle. The market is adapting."
+    },
+    {
       "url": "https://dexscreener.com/solana/51jek4crwugd5m3xaqmt53rzyvfjn3lf3qeb35zypump",
       "tokenAddress": "51jek4CRWUgd5m3XaQmt53RzyvFjn3LF3qEB35ZYpump",
+      "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/fmkwcxdy82jnfnj3r4cqfgkewptl7rztkflzkg4xpump",
+      "tokenAddress": "FMKwCXdY82JnfnJ3r4CqFgkEWPTL7rZTkfLZKg4xpump",
       "description": ""
     },
     {
@@ -54,26 +59,21 @@
       "description": "I'm just a baton guy on solana."
     },
     {
+      "url": "https://dexscreener.com/solana/gogssnkxwke5feuxyv6fmr4eczfk1kjdvsajnanspump",
+      "tokenAddress": "GogsSnkXwke5FEUxyV6FmR4eczFK1KJDVsaJNaNspump",
+      "description": "Memecoins are so back! The memes are flying, the community is growing, and the moon is calling."
+    },
+    {
       "url": "https://dexscreener.com/solana/2hfakyaup8au5ozthevz8wvsqotretqavqtvokarpump",
       "tokenAddress": "2HFakYaUp8au5oZThEvZ8wvSqoTreTQAvqtvoKarpump",
       "description": "Feels good, man. The realest boy off the block just went on-chain \u2014 and the whole city's looking for him. Pull up your S"
-    },
-    {
-      "url": "https://dexscreener.com/solana/ai8ua5mwg43jkvoxhrrfzgwifscqsybsj243pyzupump",
-      "tokenAddress": "Ai8uA5mWG43jKVoxHrRfzGwifSCQsybSj243PYZupump",
-      "description": "Baton Baton Baton Sahur grips the baton and stands ready to defend the meme trenches."
-    },
-    {
-      "url": "https://dexscreener.com/solana/gb6q2opypedkxnnbhqa5uijsdgj6efjdshedzfzkebiv",
-      "tokenAddress": "GB6Q2oPYPedKXnNbhQa5uiJsdGj6eFjdsHEDzFZKebiV",
-      "description": "A degen Viking sharing infinite stonks"
     }
   ],
   "fearGreed": {
     "value": 57,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
