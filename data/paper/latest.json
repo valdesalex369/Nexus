@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-13T23:35:19.936238+00:00",
+  "at": "2026-09-14T01:43:36.961470+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76797.0,
-      "changePct": -0.5720116641440725,
+      "price": 76792.0,
+      "changePct": -0.6292868292717118,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2478.32,
-      "changePct": -1.7985494058739604,
+      "price": 2481.04,
+      "changePct": -1.7192209242288723,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 99.7,
-      "changePct": -2.0402675644703105,
+      "price": 99.49,
+      "changePct": -2.582659371332954,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 716.22,
-      "changePct": -1.4363220257129268,
+      "price": 717.02,
+      "changePct": -1.6491668190305775,
       "source": "CoinGecko"
     }
   ],
@@ -54,11 +54,6 @@
       "description": "I'm just a baton guy on solana."
     },
     {
-      "url": "https://dexscreener.com/solana/debvzt2qra8yqnj2lvsn8jdwjtmzs4yajwpzyl4ypump",
-      "tokenAddress": "DEbvZt2QRA8yqNj2Lvsn8JdWjTmZS4yajwpzYL4ypump",
-      "description": "Capital is leaving. The cat would like a window seat."
-    },
-    {
       "url": "https://dexscreener.com/solana/2hfakyaup8au5ozthevz8wvsqotretqavqtvokarpump",
       "tokenAddress": "2HFakYaUp8au5oZThEvZ8wvSqoTreTQAvqtvoKarpump",
       "description": "Feels good, man. The realest boy off the block just went on-chain \u2014 and the whole city's looking for him. Pull up your S"
@@ -67,10 +62,15 @@
       "url": "https://dexscreener.com/solana/ai8ua5mwg43jkvoxhrrfzgwifscqsybsj243pyzupump",
       "tokenAddress": "Ai8uA5mWG43jKVoxHrRfzGwifSCQsybSj243PYZupump",
       "description": "Baton Baton Baton Sahur grips the baton and stands ready to defend the meme trenches."
+    },
+    {
+      "url": "https://dexscreener.com/solana/gb6q2opypedkxnnbhqa5uijsdgj6efjdshedzfzkebiv",
+      "tokenAddress": "GB6Q2oPYPedKXnNbhQa5uiJsdGj6eFjdsHEDzFZKebiV",
+      "description": "A degen Viking sharing infinite stonks"
     }
   ],
   "fearGreed": {
-    "value": 61,
+    "value": 57,
     "label": "Greed"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
