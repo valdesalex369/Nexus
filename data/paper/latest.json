@@ -1,47 +1,37 @@
 {
-  "at": "2026-09-15T17:18:49.139669+00:00",
+  "at": "2026-09-15T20:28:28.971068+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76217.0,
-      "changePct": -3.3327366880160074,
+      "price": 75847.0,
+      "changePct": -4.421777291569925,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2415.09,
-      "changePct": -4.665003969473593,
+      "price": 2401.89,
+      "changePct": -7.635972671173108,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 98.87,
-      "changePct": -4.033165820366246,
+      "price": 97.19,
+      "changePct": -7.041092067106561,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 717.64,
-      "changePct": -0.9908200758109643,
+      "price": 714.9,
+      "changePct": -2.2618404960613328,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/fseqgepjwwnh3ijzrlekpnmqmdyzli5l2oclskgppump",
-      "tokenAddress": "FsEQGePjwwnH3iJzRLekPNMqMdYZLi5L2oCLsKGppump",
-      "description": "Meet $CATEZ , born from a mix of $CATE and $ZCAT."
-    },
-    {
-      "url": "https://dexscreener.com/solana/43ytfnyflyyiirfr5yz1mjfvujry9pgeodq9ofncpump",
-      "tokenAddress": "43YTfnYFLyYiiRFr5YZ1mJFVUJrY9PgeodQ9ofNCpump",
-      "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/j6azegrwpya8ti3q6qvbyeqm4r3e77a62xsdgz7xpump",
-      "tokenAddress": "J6AzegrwPyA8ti3Q6qvByEqM4r3E77A62xSdGZ7Xpump",
-      "description": "Trumpet is the loudest Trump-powered meme bringing American energy to the blockchain."
+      "url": "https://dexscreener.com/solana/9mbetpjhp7uz4odthxnm44gtvaffoybcmgpdda9rpump",
+      "tokenAddress": "9MBetPjhp7uZ4odThXNm44GTVaffoYBcmGpdda9rpump",
+      "description": "Anatoely Yakovenko will lead Solana to new heights."
     },
     {
       "url": "https://dexscreener.com/solana/gxpoy3liomo8fxrxhuqzfwg2r2jafqre5tasgpqpump",
@@ -64,9 +54,19 @@
       "description": "Tyson\u2019s bike was heavy.\nMJ\u2019s bike is different.\nSame road.\nDifferent rider.\nTyson made you wait.\nMJ knows how to move.\nN"
     },
     {
+      "url": "https://dexscreener.com/solana/76a7g4p4hjmqk4mrwe6sb6dte7bemkcawuhno51tstnk",
+      "tokenAddress": "76a7g4P4HJmQk4Mrwe6sb6dte7BEMKCaWuHNo51tSTNK",
+      "description": "The largest model in the room.\nThe loudest signal on Solana.\nFattensor ($FART) \ud83d\udca8\ud83e\udde0"
+    },
+    {
       "url": "https://dexscreener.com/solana/58nkqggpugepnq5ergdiiubw9rgpcnx37wutlye2nkut",
       "tokenAddress": "58NKqgGPUgEPNq5ergdiiUBw9rGPcnX37wUTLYe2nKut",
       "description": "feg"
+    },
+    {
+      "url": "https://dexscreener.com/solana/c8pvsby8jbhp6zjaxambzntasqcskivoapcpcf5pump",
+      "tokenAddress": "C8pvSBY8JBhP6zjAXAmbzNTAsqCsKiVoapCpCF5pump",
+      "description": "Dih Fish"
     }
   ],
   "fearGreed": {
