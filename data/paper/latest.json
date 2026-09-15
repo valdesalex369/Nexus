@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-14T22:45:57.974711+00:00",
+  "at": "2026-09-15T01:30:43.586233+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 78650.0,
-      "changePct": 2.510572320533845,
+      "price": 77887.0,
+      "changePct": 1.3905691504359476,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2539.01,
-      "changePct": 2.5510878581777043,
+      "price": 2513.46,
+      "changePct": 1.2304345206890364,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.11,
-      "changePct": 3.134610836764705,
+      "price": 102.31,
+      "changePct": 2.6968333739767907,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 723.97,
-      "changePct": 1.1196491079712263,
+      "price": 719.54,
+      "changePct": 0.3419112414035118,
       "source": "CoinGecko"
     }
   ],
@@ -59,18 +59,18 @@
       "description": "ANTMINER $ANT \ud83d\udc1c\u26cf\ufe0f\n\nPASSIVELY MINE BITCOIN.\n\nNo rigs. No electricity. Just $ANT.\n\nHold $ANT and earn WBTC rewards powered"
     },
     {
-      "url": "https://dexscreener.com/solana/gptempgmgx9hdthcr44xmyjoxzkdytztkps5zay7ydcy",
-      "tokenAddress": "GpTEmPGmgx9HDThCR44xMyJoXZkDYtzTkPs5zAY7YDcY",
-      "description": "a meme cat paired with $amc stock"
-    },
-    {
       "url": "https://dexscreener.com/solana/gogssnkxwke5feuxyv6fmr4eczfk1kjdvsajnanspump",
       "tokenAddress": "GogsSnkXwke5FEUxyV6FmR4eczFK1KJDVsaJNaNspump",
       "description": "Memecoins are so back! The memes are flying, the community is growing, and the moon is calling."
+    },
+    {
+      "url": "https://dexscreener.com/solana/j6azegrwpya8ti3q6qvbyeqm4r3e77a62xsdgz7xpump",
+      "tokenAddress": "J6AzegrwPyA8ti3Q6qvByEqM4r3E77A62xSdGZ7Xpump",
+      "description": "Trumpet is the loudest Trump-powered meme bringing American energy to the blockchain."
     }
   ],
   "fearGreed": {
-    "value": 57,
+    "value": 69,
     "label": "Greed"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
