@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-15T20:28:28.971068+00:00",
+  "at": "2026-09-15T23:11:47.900068+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 75847.0,
-      "changePct": -4.421777291569925,
+      "price": 75787.0,
+      "changePct": -3.3354863504595476,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2401.89,
-      "changePct": -7.635972671173108,
+      "price": 2403.85,
+      "changePct": -4.860076098412725,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 97.19,
-      "changePct": -7.041092067106561,
+      "price": 97.31,
+      "changePct": -5.308015804696437,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 714.9,
-      "changePct": -2.2618404960613328,
+      "price": 713.81,
+      "changePct": -0.9497715078710044,
       "source": "CoinGecko"
     }
   ],
@@ -44,11 +44,6 @@
       "description": "Strawdog wants to swim.\nThere is only one problem.\nStrawdog can't swim."
     },
     {
-      "url": "https://dexscreener.com/solana/gprtusgaxvvj67bau4xe3ufd5addmvj7bzy73vtqpump",
-      "tokenAddress": "GPrTuSgAXVVJ67bAU4xe3UFD5aDDmVj7bZy73vTQpump",
-      "description": "clarity cat"
-    },
-    {
       "url": "https://dexscreener.com/solana/2horabojpn3ssj6reuucnukrvshdupn7kfhh7j8fpump",
       "tokenAddress": "2hoRABojpn3SSJ6ReUuCNuKRvsHDuPn7kFHH7J8Fpump",
       "description": "Tyson\u2019s bike was heavy.\nMJ\u2019s bike is different.\nSame road.\nDifferent rider.\nTyson made you wait.\nMJ knows how to move.\nN"
@@ -67,6 +62,11 @@
       "url": "https://dexscreener.com/solana/c8pvsby8jbhp6zjaxambzntasqcskivoapcpcf5pump",
       "tokenAddress": "C8pvSBY8JBhP6zjAXAmbzNTAsqCsKiVoapCpCF5pump",
       "description": "Dih Fish"
+    },
+    {
+      "url": "https://dexscreener.com/solana/caej3lqsagou4zfgftctbmo6yegppraw31mawhekpump",
+      "tokenAddress": "Caej3LQSaGou4ZFgFtCtbMo6yegpPRaw31MawHEkpump",
+      "description": ""
     }
   ],
   "fearGreed": {
