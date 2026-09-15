@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-15T06:45:47.347865+00:00",
+  "at": "2026-09-15T12:42:10.646355+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77423.0,
-      "changePct": -0.3316193010144473,
+      "price": 76925.0,
+      "changePct": -1.1433976733296178,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2488.0,
-      "changePct": -1.2361004007234804,
+      "price": 2476.56,
+      "changePct": -1.3295457983675607,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.03,
-      "changePct": -0.5675857126876419,
+      "price": 100.99,
+      "changePct": -0.462519890646708,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 719.04,
-      "changePct": -0.6734227220454245,
+      "price": 718.69,
+      "changePct": -0.3438578415075562,
       "source": "CoinGecko"
     }
   ],
@@ -59,14 +59,14 @@
       "description": "Michael Saylor turns into sailor and the market is adapting."
     },
     {
-      "url": "https://dexscreener.com/solana/4jiyyzzvfpkxgmtnggfdjuibmz42ovozonezu4xvpump",
-      "tokenAddress": "4JiyyzzVFpkXgmTnggFdjuibMZ42ovozoneZU4xVpump",
-      "description": "THE MARKET HAS A NEW UNCLE.\nUncle Stonk still watching the board."
-    },
-    {
       "url": "https://dexscreener.com/solana/gxpoy3liomo8fxrxhuqzfwg2r2jafqre5tasgpqpump",
       "tokenAddress": "gxPoy3LioMo8FxrXHuqzFwg2R2JafQRe5tAsgPQpump",
       "description": "A strange little signal slipped through the void, carrying a tiny visitor no one can explain. We don\u2019t know where Lil El"
+    },
+    {
+      "url": "https://dexscreener.com/solana/gyt8ifzvc1dnwkgpanfuvnnnyyxswafxj8y38a79pump",
+      "tokenAddress": "Gyt8ifzVc1DnWKGpanfuvNnNyyxsWAFXJ8y38A79pump",
+      "description": "Strawdog wants to swim.\nThere is only one problem.\nStrawdog can't swim."
     }
   ],
   "fearGreed": {
