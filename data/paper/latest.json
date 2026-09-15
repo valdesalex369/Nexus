@@ -1,38 +1,33 @@
 {
-  "at": "2026-09-15T12:42:10.646355+00:00",
+  "at": "2026-09-15T17:18:49.139669+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76925.0,
-      "changePct": -1.1433976733296178,
+      "price": 76217.0,
+      "changePct": -3.3327366880160074,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2476.56,
-      "changePct": -1.3295457983675607,
+      "price": 2415.09,
+      "changePct": -4.665003969473593,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 100.99,
-      "changePct": -0.462519890646708,
+      "price": 98.87,
+      "changePct": -4.033165820366246,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 718.69,
-      "changePct": -0.3438578415075562,
+      "price": 717.64,
+      "changePct": -0.9908200758109643,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/avx2dfkwceq9agodkrsjdmqgmj77rptmfntjrgnipump",
-      "tokenAddress": "AVX2DfkwCeq9aGoDKRsjDMQgmJ77RPTmfntjRGNipump",
-      "description": "Ryan Garcia (The Flash) became a e-bike. The market is adapting to an electronic era."
-    },
     {
       "url": "https://dexscreener.com/solana/fseqgepjwwnh3ijzrlekpnmqmdyzli5l2oclskgppump",
       "tokenAddress": "FsEQGePjwwnH3iJzRLekPNMqMdYZLi5L2oCLsKGppump",
@@ -44,19 +39,9 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/5epycb2dhxpbtm4b7ff51fgue14wezprftuxbrh86ssd",
-      "tokenAddress": "5EpyCB2dhxpBtm4B7Ff51FguE14WEzPrFTuXbRh86ssD",
-      "description": "ANTMINER $ANT \ud83d\udc1c\u26cf\ufe0f\n\nPASSIVELY MINE BITCOIN.\n\nNo rigs. No electricity. Just $ANT.\n\nHold $ANT and earn WBTC rewards powered"
-    },
-    {
       "url": "https://dexscreener.com/solana/j6azegrwpya8ti3q6qvbyeqm4r3e77a62xsdgz7xpump",
       "tokenAddress": "J6AzegrwPyA8ti3Q6qvByEqM4r3E77A62xSdGZ7Xpump",
       "description": "Trumpet is the loudest Trump-powered meme bringing American energy to the blockchain."
-    },
-    {
-      "url": "https://dexscreener.com/solana/5kgs4uplsbefhcxedgwncyb3wsluvcbjsgzottvkpump",
-      "tokenAddress": "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump",
-      "description": "Michael Saylor turns into sailor and the market is adapting."
     },
     {
       "url": "https://dexscreener.com/solana/gxpoy3liomo8fxrxhuqzfwg2r2jafqre5tasgpqpump",
@@ -67,6 +52,21 @@
       "url": "https://dexscreener.com/solana/gyt8ifzvc1dnwkgpanfuvnnnyyxswafxj8y38a79pump",
       "tokenAddress": "Gyt8ifzVc1DnWKGpanfuvNnNyyxsWAFXJ8y38A79pump",
       "description": "Strawdog wants to swim.\nThere is only one problem.\nStrawdog can't swim."
+    },
+    {
+      "url": "https://dexscreener.com/solana/gprtusgaxvvj67bau4xe3ufd5addmvj7bzy73vtqpump",
+      "tokenAddress": "GPrTuSgAXVVJ67bAU4xe3UFD5aDDmVj7bZy73vTQpump",
+      "description": "clarity cat"
+    },
+    {
+      "url": "https://dexscreener.com/solana/2horabojpn3ssj6reuucnukrvshdupn7kfhh7j8fpump",
+      "tokenAddress": "2hoRABojpn3SSJ6ReUuCNuKRvsHDuPn7kFHH7J8Fpump",
+      "description": "Tyson\u2019s bike was heavy.\nMJ\u2019s bike is different.\nSame road.\nDifferent rider.\nTyson made you wait.\nMJ knows how to move.\nN"
+    },
+    {
+      "url": "https://dexscreener.com/solana/58nkqggpugepnq5ergdiiubw9rgpcnx37wutlye2nkut",
+      "tokenAddress": "58NKqgGPUgEPNq5ergdiiUBw9rGPcnX37wUTLYe2nKut",
+      "description": "feg"
     }
   ],
   "fearGreed": {
