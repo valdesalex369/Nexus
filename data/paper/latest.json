@@ -1,38 +1,33 @@
 {
-  "at": "2026-09-15T01:30:43.586233+00:00",
+  "at": "2026-09-15T06:45:47.347865+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77887.0,
-      "changePct": 1.3905691504359476,
+      "price": 77423.0,
+      "changePct": -0.3316193010144473,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2513.46,
-      "changePct": 1.2304345206890364,
+      "price": 2488.0,
+      "changePct": -1.2361004007234804,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 102.31,
-      "changePct": 2.6968333739767907,
+      "price": 101.03,
+      "changePct": -0.5675857126876419,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 719.54,
-      "changePct": 0.3419112414035118,
+      "price": 719.04,
+      "changePct": -0.6734227220454245,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/3nkvw4jwddlgm23wzqpy2ptapv5ygmnokebgijdbpump",
-      "tokenAddress": "3nkVw4JwdDLGM23Wzqpy2ptAPV5YgMnokEBgijDBpump",
-      "description": "Cate became a bicycle. The market is adapting."
-    },
     {
       "url": "https://dexscreener.com/solana/avx2dfkwceq9agodkrsjdmqgmj77rptmfntjrgnipump",
       "tokenAddress": "AVX2DfkwCeq9aGoDKRsjDMQgmJ77RPTmfntjRGNipump",
@@ -49,31 +44,36 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/fmkwcxdy82jnfnj3r4cqfgkewptl7rztkflzkg4xpump",
-      "tokenAddress": "FMKwCXdY82JnfnJ3r4CqFgkEWPTL7rZTkfLZKg4xpump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/5epycb2dhxpbtm4b7ff51fgue14wezprftuxbrh86ssd",
       "tokenAddress": "5EpyCB2dhxpBtm4B7Ff51FguE14WEzPrFTuXbRh86ssD",
       "description": "ANTMINER $ANT \ud83d\udc1c\u26cf\ufe0f\n\nPASSIVELY MINE BITCOIN.\n\nNo rigs. No electricity. Just $ANT.\n\nHold $ANT and earn WBTC rewards powered"
     },
     {
-      "url": "https://dexscreener.com/solana/gogssnkxwke5feuxyv6fmr4eczfk1kjdvsajnanspump",
-      "tokenAddress": "GogsSnkXwke5FEUxyV6FmR4eczFK1KJDVsaJNaNspump",
-      "description": "Memecoins are so back! The memes are flying, the community is growing, and the moon is calling."
-    },
-    {
       "url": "https://dexscreener.com/solana/j6azegrwpya8ti3q6qvbyeqm4r3e77a62xsdgz7xpump",
       "tokenAddress": "J6AzegrwPyA8ti3Q6qvByEqM4r3E77A62xSdGZ7Xpump",
       "description": "Trumpet is the loudest Trump-powered meme bringing American energy to the blockchain."
+    },
+    {
+      "url": "https://dexscreener.com/solana/5kgs4uplsbefhcxedgwncyb3wsluvcbjsgzottvkpump",
+      "tokenAddress": "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump",
+      "description": "Michael Saylor turns into sailor and the market is adapting."
+    },
+    {
+      "url": "https://dexscreener.com/solana/4jiyyzzvfpkxgmtnggfdjuibmz42ovozonezu4xvpump",
+      "tokenAddress": "4JiyyzzVFpkXgmTnggFdjuibMZ42ovozoneZU4xVpump",
+      "description": "THE MARKET HAS A NEW UNCLE.\nUncle Stonk still watching the board."
+    },
+    {
+      "url": "https://dexscreener.com/solana/gxpoy3liomo8fxrxhuqzfwg2r2jafqre5tasgpqpump",
+      "tokenAddress": "gxPoy3LioMo8FxrXHuqzFwg2R2JafQRe5tAsgPQpump",
+      "description": "A strange little signal slipped through the void, carrying a tiny visitor no one can explain. We don\u2019t know where Lil El"
     }
   ],
   "fearGreed": {
     "value": 69,
     "label": "Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
