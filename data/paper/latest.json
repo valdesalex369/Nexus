@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-16T06:49:21.397945+00:00",
+  "at": "2026-09-16T12:37:19.991828+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 75876.0,
-      "changePct": -1.911969339135744,
+      "price": 75927.0,
+      "changePct": -1.2633551140399804,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2396.86,
-      "changePct": -3.6389777686831613,
+      "price": 2406.96,
+      "changePct": -2.8030540746581067,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 97.01,
-      "changePct": -3.929782902247829,
+      "price": 97.46,
+      "changePct": -3.4778075282072654,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 712.57,
-      "changePct": -0.8999361178300596,
+      "price": 712.89,
+      "changePct": -0.7744906029039625,
       "source": "CoinGecko"
     }
   ],
@@ -34,14 +34,14 @@
       "description": "Anatoely Yakovenko will lead Solana to new heights."
     },
     {
-      "url": "https://dexscreener.com/solana/76a7g4p4hjmqk4mrwe6sb6dte7bemkcawuhno51tstnk",
-      "tokenAddress": "76a7g4P4HJmQk4Mrwe6sb6dte7BEMKCaWuHNo51tSTNK",
-      "description": "The largest model in the room.\nThe loudest signal on Solana.\nFattensor ($FART) \ud83d\udca8\ud83e\udde0"
-    },
-    {
       "url": "https://dexscreener.com/solana/58nkqggpugepnq5ergdiiubw9rgpcnx37wutlye2nkut",
       "tokenAddress": "58NKqgGPUgEPNq5ergdiiUBw9rGPcnX37wUTLYe2nKut",
       "description": "feg"
+    },
+    {
+      "url": "https://dexscreener.com/solana/76a7g4p4hjmqk4mrwe6sb6dte7bemkcawuhno51tstnk",
+      "tokenAddress": "76a7g4P4HJmQk4Mrwe6sb6dte7BEMKCaWuHNo51tSTNK",
+      "description": "The largest model in the room.\nThe loudest signal on Solana.\nFattensor ($FART) \ud83d\udca8\ud83e\udde0"
     },
     {
       "url": "https://dexscreener.com/solana/c8pvsby8jbhp6zjaxambzntasqcskivoapcpcf5pump",
@@ -49,14 +49,14 @@
       "description": "Dih Fish"
     },
     {
-      "url": "https://dexscreener.com/solana/caej3lqsagou4zfgftctbmo6yegppraw31mawhekpump",
-      "tokenAddress": "Caej3LQSaGou4ZFgFtCtbMo6yegpPRaw31MawHEkpump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/7pboexuhu35tyv4tffkzvmgpj9tfgsbsadjwcase35zu",
       "tokenAddress": "7PboeXUhu35TYV4TFfKzvMGPj9TfgsbSADjWcasE35zu",
       "description": "$SENGI (Elephant Shrew) is taking over X with a shrew that sounds like an elephant. One viral sound, one unforgettable m"
+    },
+    {
+      "url": "https://dexscreener.com/solana/caej3lqsagou4zfgftctbmo6yegppraw31mawhekpump",
+      "tokenAddress": "Caej3LQSaGou4ZFgFtCtbMo6yegpPRaw31MawHEkpump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/dahn4rnrnbpzfgnusjty1tp1mx6f76hlhtnh9mucdtkx",
@@ -64,9 +64,9 @@
       "description": "Caesar was chosen by Reddit to become Doge2, making him part of real internet Doge history.\n\nReal dog. Real provenance. "
     },
     {
-      "url": "https://dexscreener.com/solana/h7y3tzfyyfpbnn5dpwa5m79ndgdqnfs8tcatqe2tpump",
-      "tokenAddress": "H7Y3TzFyyfPBnn5Dpwa5m79NdgDQnFS8TcAtQe2Tpump",
-      "description": "Going all-in on the ultimate cat-powered meme coin gamble."
+      "url": "https://dexscreener.com/solana/8sqyfynm3g7tqjmm7eaxyjcdv9f5g3y7t92dzbuqkfws",
+      "tokenAddress": "8SqYfYNm3g7TQJmm7EaxYJcDV9f5G3Y7t92DzbUQKFws",
+      "description": "Can you take  it in the tailpipe?"
     }
   ],
   "fearGreed": {
