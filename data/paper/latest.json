@@ -1,42 +1,42 @@
 {
-  "at": "2026-09-16T20:26:17.309242+00:00",
+  "at": "2026-09-16T23:16:10.708357+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76253.0,
-      "changePct": 0.5182370868284826,
+      "price": 75743.0,
+      "changePct": -0.12195052303252985,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2414.48,
-      "changePct": 0.5208569568315028,
+      "price": 2396.37,
+      "changePct": -0.4465624861073346,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 98.69,
-      "changePct": 1.5382853065653619,
+      "price": 97.67,
+      "changePct": 0.23191734540942538,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 720.36,
-      "changePct": 0.7336636300857147,
+      "price": 719.58,
+      "changePct": 0.6823006373040043,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/52qknpgthcjudyhkvcg6rjs4uyytjhpdrcjosdkqpump",
-      "tokenAddress": "52qkNpgTHcjuDYhKVcg6rJS4uYYtJHpDRcJoSdKqpump",
-      "description": "Paid Doge is a community-driven meme coin inspired by Dogecoin culture and Elon Musk\u2019s influence on the crypto world."
-    },
-    {
       "url": "https://dexscreener.com/solana/2emomqs194vxphswtcczkbgqwcubd4zcqhecoguh4ttp",
       "tokenAddress": "2eMoMqs194VxPHSWtCCzkBGqwCUbD4ZcqhecoGuh4tTp",
       "description": "welcum to casinu, where da boss has paws and da house always woofs."
+    },
+    {
+      "url": "https://dexscreener.com/solana/52qknpgthcjudyhkvcg6rjs4uyytjhpdrcjosdkqpump",
+      "tokenAddress": "52qkNpgTHcjuDYhKVcg6rJS4uYYtJHpDRcJoSdKqpump",
+      "description": "Paid Doge is a community-driven meme coin inspired by Dogecoin culture and Elon Musk\u2019s influence on the crypto world."
     },
     {
       "url": "https://dexscreener.com/solana/aowphdsftznta7jdgfucrpyga4nits9gbg26cnwtpump",
