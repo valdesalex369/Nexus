@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-16T01:28:05.825386+00:00",
+  "at": "2026-09-16T06:49:21.397945+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 75889.0,
-      "changePct": -2.640784993532094,
+      "price": 75876.0,
+      "changePct": -1.911969339135744,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2404.7,
-      "changePct": -4.418373620688747,
+      "price": 2396.86,
+      "changePct": -3.6389777686831613,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 97.18,
-      "changePct": -5.085550947961075,
+      "price": 97.01,
+      "changePct": -3.929782902247829,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 714.04,
-      "changePct": -0.8736292390770983,
+      "price": 712.57,
+      "changePct": -0.8999361178300596,
       "source": "CoinGecko"
     }
   ],
@@ -32,21 +32,6 @@
       "url": "https://dexscreener.com/solana/9mbetpjhp7uz4odthxnm44gtvaffoybcmgpdda9rpump",
       "tokenAddress": "9MBetPjhp7uZ4odThXNm44GTVaffoYBcmGpdda9rpump",
       "description": "Anatoely Yakovenko will lead Solana to new heights."
-    },
-    {
-      "url": "https://dexscreener.com/solana/gxpoy3liomo8fxrxhuqzfwg2r2jafqre5tasgpqpump",
-      "tokenAddress": "gxPoy3LioMo8FxrXHuqzFwg2R2JafQRe5tAsgPQpump",
-      "description": "A strange little signal slipped through the void, carrying a tiny visitor no one can explain. We don\u2019t know where Lil El"
-    },
-    {
-      "url": "https://dexscreener.com/solana/gyt8ifzvc1dnwkgpanfuvnnnyyxswafxj8y38a79pump",
-      "tokenAddress": "Gyt8ifzVc1DnWKGpanfuvNnNyyxsWAFXJ8y38A79pump",
-      "description": "Strawdog wants to swim.\nThere is only one problem.\nStrawdog can't swim."
-    },
-    {
-      "url": "https://dexscreener.com/solana/2horabojpn3ssj6reuucnukrvshdupn7kfhh7j8fpump",
-      "tokenAddress": "2hoRABojpn3SSJ6ReUuCNuKRvsHDuPn7kFHH7J8Fpump",
-      "description": "Tyson\u2019s bike was heavy.\nMJ\u2019s bike is different.\nSame road.\nDifferent rider.\nTyson made you wait.\nMJ knows how to move.\nN"
     },
     {
       "url": "https://dexscreener.com/solana/76a7g4p4hjmqk4mrwe6sb6dte7bemkcawuhno51tstnk",
@@ -67,6 +52,21 @@
       "url": "https://dexscreener.com/solana/caej3lqsagou4zfgftctbmo6yegppraw31mawhekpump",
       "tokenAddress": "Caej3LQSaGou4ZFgFtCtbMo6yegpPRaw31MawHEkpump",
       "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/7pboexuhu35tyv4tffkzvmgpj9tfgsbsadjwcase35zu",
+      "tokenAddress": "7PboeXUhu35TYV4TFfKzvMGPj9TfgsbSADjWcasE35zu",
+      "description": "$SENGI (Elephant Shrew) is taking over X with a shrew that sounds like an elephant. One viral sound, one unforgettable m"
+    },
+    {
+      "url": "https://dexscreener.com/solana/dahn4rnrnbpzfgnusjty1tp1mx6f76hlhtnh9mucdtkx",
+      "tokenAddress": "DAHn4rnrnbPzfgNusjty1tp1MX6f76HLHtNH9muCdtKX",
+      "description": "Caesar was chosen by Reddit to become Doge2, making him part of real internet Doge history.\n\nReal dog. Real provenance. "
+    },
+    {
+      "url": "https://dexscreener.com/solana/h7y3tzfyyfpbnn5dpwa5m79ndgdqnfs8tcatqe2tpump",
+      "tokenAddress": "H7Y3TzFyyfPBnn5Dpwa5m79NdgDQnFS8TcAtQe2Tpump",
+      "description": "Going all-in on the ultimate cat-powered meme coin gamble."
     }
   ],
   "fearGreed": {
