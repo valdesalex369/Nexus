@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-16T12:37:19.991828+00:00",
+  "at": "2026-09-16T17:17:50.406788+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 75927.0,
-      "changePct": -1.2633551140399804,
+      "price": 75671.0,
+      "changePct": -0.7229773067452945,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2406.96,
-      "changePct": -2.8030540746581067,
+      "price": 2389.55,
+      "changePct": -1.0720410094501593,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 97.46,
-      "changePct": -3.4778075282072654,
+      "price": 97.16,
+      "changePct": -1.718393637069776,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 712.89,
-      "changePct": -0.7744906029039625,
+      "price": 712.74,
+      "changePct": -0.6693669904667593,
       "source": "CoinGecko"
     }
   ],
@@ -39,6 +39,11 @@
       "description": "feg"
     },
     {
+      "url": "https://dexscreener.com/solana/aowphdsftznta7jdgfucrpyga4nits9gbg26cnwtpump",
+      "tokenAddress": "AowPHdsFTZNTa7JDGFUCRpyGa4niTS9GBG26CNWtpump",
+      "description": "Paid Elon is bringing a new wave of memes, utility, and X Money energy to the crypto market."
+    },
+    {
       "url": "https://dexscreener.com/solana/76a7g4p4hjmqk4mrwe6sb6dte7bemkcawuhno51tstnk",
       "tokenAddress": "76a7g4P4HJmQk4Mrwe6sb6dte7BEMKCaWuHNo51tSTNK",
       "description": "The largest model in the room.\nThe loudest signal on Solana.\nFattensor ($FART) \ud83d\udca8\ud83e\udde0"
@@ -49,24 +54,19 @@
       "description": "Dih Fish"
     },
     {
-      "url": "https://dexscreener.com/solana/7pboexuhu35tyv4tffkzvmgpj9tfgsbsadjwcase35zu",
-      "tokenAddress": "7PboeXUhu35TYV4TFfKzvMGPj9TfgsbSADjWcasE35zu",
-      "description": "$SENGI (Elephant Shrew) is taking over X with a shrew that sounds like an elephant. One viral sound, one unforgettable m"
+      "url": "https://dexscreener.com/solana/2kq7meiemd5lmbzkmrxij98i5n3mbnged7hpsg8owzly",
+      "tokenAddress": "2kq7mEiemD5LmbzkMrxiJ98i5N3MBngeD7Hpsg8owZLy",
+      "description": "Blind Cat Dmitri"
     },
     {
-      "url": "https://dexscreener.com/solana/caej3lqsagou4zfgftctbmo6yegppraw31mawhekpump",
-      "tokenAddress": "Caej3LQSaGou4ZFgFtCtbMo6yegpPRaw31MawHEkpump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
+      "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
+      "description": "Hold this coin until Halloween."
     },
     {
       "url": "https://dexscreener.com/solana/dahn4rnrnbpzfgnusjty1tp1mx6f76hlhtnh9mucdtkx",
       "tokenAddress": "DAHn4rnrnbPzfgNusjty1tp1MX6f76HLHtNH9muCdtKX",
       "description": "Caesar was chosen by Reddit to become Doge2, making him part of real internet Doge history.\n\nReal dog. Real provenance. "
-    },
-    {
-      "url": "https://dexscreener.com/solana/8sqyfynm3g7tqjmm7eaxyjcdv9f5g3y7t92dzbuqkfws",
-      "tokenAddress": "8SqYfYNm3g7TQJmm7EaxYJcDV9f5G3Y7t92DzbUQKFws",
-      "description": "Can you take  it in the tailpipe?"
     }
   ],
   "fearGreed": {
