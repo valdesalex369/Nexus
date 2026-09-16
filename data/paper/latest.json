@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-15T23:11:47.900068+00:00",
+  "at": "2026-09-16T01:28:05.825386+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 75787.0,
-      "changePct": -3.3354863504595476,
+      "price": 75889.0,
+      "changePct": -2.640784993532094,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2403.85,
-      "changePct": -4.860076098412725,
+      "price": 2404.7,
+      "changePct": -4.418373620688747,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 97.31,
-      "changePct": -5.308015804696437,
+      "price": 97.18,
+      "changePct": -5.085550947961075,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 713.81,
-      "changePct": -0.9497715078710044,
+      "price": 714.04,
+      "changePct": -0.8736292390770983,
       "source": "CoinGecko"
     }
   ],
@@ -70,8 +70,8 @@
     }
   ],
   "fearGreed": {
-    "value": 69,
-    "label": "Greed"
+    "value": 51,
+    "label": "Neutral"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
