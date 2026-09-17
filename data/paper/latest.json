@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-17T06:45:25.990866+00:00",
+  "at": "2026-09-17T12:36:46.903879+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76493.0,
-      "changePct": 0.8229668059167802,
+      "price": 76948.0,
+      "changePct": 1.3438456173690954,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2442.96,
-      "changePct": 1.9311491018847007,
+      "price": 2468.49,
+      "changePct": 2.5426126465864565,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 99.79,
-      "changePct": 2.8981814323744204,
+      "price": 101.13,
+      "changePct": 3.7857588178922255,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 725.46,
-      "changePct": 1.874108241777107,
+      "price": 730.22,
+      "changePct": 2.409435373715318,
       "source": "CoinGecko"
     }
   ],
@@ -39,14 +39,14 @@
       "description": "Paid Doge is a community-driven meme coin inspired by Dogecoin culture and Elon Musk\u2019s influence on the crypto world."
     },
     {
+      "url": "https://dexscreener.com/solana/3wrwk9cctfxyedmvbgyd6swstfxgbh2dgqal3z2epump",
+      "tokenAddress": "3wrwK9CctFXYedMVBGYD6sWSTfXgbh2DGQAL3z2epump",
+      "description": ""
+    },
+    {
       "url": "https://dexscreener.com/solana/aowphdsftznta7jdgfucrpyga4nits9gbg26cnwtpump",
       "tokenAddress": "AowPHdsFTZNTa7JDGFUCRpyGa4niTS9GBG26CNWtpump",
       "description": "Paid Elon is bringing a new wave of memes, utility, and X Money energy to the crypto market."
-    },
-    {
-      "url": "https://dexscreener.com/solana/58nkqggpugepnq5ergdiiubw9rgpcnx37wutlye2nkut",
-      "tokenAddress": "58NKqgGPUgEPNq5ergdiiUBw9rGPcnX37wUTLYe2nKut",
-      "description": "feg"
     },
     {
       "url": "https://dexscreener.com/solana/2grwxscxrp5sbqkczb8qddk88iafxrj2cst93fxcpump",
