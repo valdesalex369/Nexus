@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-16T23:16:10.708357+00:00",
+  "at": "2026-09-17T01:44:07.598192+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 75743.0,
-      "changePct": -0.12195052303252985,
+      "price": 76502.0,
+      "changePct": 1.207262677916718,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2396.37,
-      "changePct": -0.4465624861073346,
+      "price": 2430.58,
+      "changePct": 1.461471482993791,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 97.67,
-      "changePct": 0.23191734540942538,
+      "price": 99.08,
+      "changePct": 2.4635092024305933,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 719.58,
-      "changePct": 0.6823006373040043,
+      "price": 725.94,
+      "changePct": 2.1597235279116656,
       "source": "CoinGecko"
     }
   ],
@@ -49,6 +49,11 @@
       "description": "feg"
     },
     {
+      "url": "https://dexscreener.com/solana/2grwxscxrp5sbqkczb8qddk88iafxrj2cst93fxcpump",
+      "tokenAddress": "2GrwXsCxRP5SBqKczB8QDdK88iAfxRJ2cST93fXcpump",
+      "description": "\ud835\udd4f One timeline. One signal. One OnlyX.\nBuilt for the place where crypto narratives begin.\nPowered by Solana. $ONLYX"
+    },
+    {
       "url": "https://dexscreener.com/solana/2kq7meiemd5lmbzkmrxij98i5n3mbnged7hpsg8owzly",
       "tokenAddress": "2kq7mEiemD5LmbzkMrxiJ98i5N3MBngeD7Hpsg8owZLy",
       "description": "Blind Cat Dmitri"
@@ -62,15 +67,10 @@
       "url": "https://dexscreener.com/solana/ah2gs1icxyjc8f3cmyrdfdcc4n14wuuy5hsuyif7pump",
       "tokenAddress": "Ah2gs1iCXYJC8F3CMYrdFdCC4N14WuUY5Hsuyif7pump",
       "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/gurgmtppqf3ghljpbsbyjhdwz6k7bdab2sha9ycspump",
-      "tokenAddress": "GurGmtPpqf3ghLjPBsbYJHdWZ6k7bDaB2sha9Ycspump",
-      "description": "\ud83e\udd91 Intelligence first on Solana.\nAn autonomous agent that finds the signal, trades it, and pays the squad.\nHold 1M+ $SQUD"
     }
   ],
   "fearGreed": {
-    "value": 51,
+    "value": 50,
     "label": "Neutral"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
