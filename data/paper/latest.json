@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-17T12:36:46.903879+00:00",
+  "at": "2026-09-17T17:17:24.086002+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76948.0,
-      "changePct": 1.3438456173690954,
+      "price": 76755.0,
+      "changePct": 1.4151956570872073,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2468.49,
-      "changePct": 2.5426126465864565,
+      "price": 2467.62,
+      "changePct": 3.2504953713815787,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.13,
-      "changePct": 3.7857588178922255,
+      "price": 101.2,
+      "changePct": 4.153319107655412,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 730.22,
-      "changePct": 2.409435373715318,
+      "price": 728.77,
+      "changePct": 2.2275942907469077,
       "source": "CoinGecko"
     }
   ],
@@ -44,19 +44,9 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/aowphdsftznta7jdgfucrpyga4nits9gbg26cnwtpump",
-      "tokenAddress": "AowPHdsFTZNTa7JDGFUCRpyGa4niTS9GBG26CNWtpump",
-      "description": "Paid Elon is bringing a new wave of memes, utility, and X Money energy to the crypto market."
-    },
-    {
       "url": "https://dexscreener.com/solana/2grwxscxrp5sbqkczb8qddk88iafxrj2cst93fxcpump",
       "tokenAddress": "2GrwXsCxRP5SBqKczB8QDdK88iAfxRJ2cST93fXcpump",
       "description": "\ud835\udd4f One timeline. One signal. One OnlyX.\nBuilt for the place where crypto narratives begin.\nPowered by Solana. $ONLYX"
-    },
-    {
-      "url": "https://dexscreener.com/solana/dledharfaln6k65dxtkq29azferpvg45dy5rue9wpump",
-      "tokenAddress": "DLEdharFALn6K65DxtKq29AzFERPvg45dY5rue9Wpump",
-      "description": "FapMax is the next chapter of the Fapcoin lore. Fartcoin came first. Fapcoin followed as the prophecy. After the dev lef"
     },
     {
       "url": "https://dexscreener.com/solana/4775qeyts7ecpvhbeeg1a5xujpk6ctejwrpw6vvwpump",
@@ -64,9 +54,19 @@
       "description": "Hi, I am the original DEV of this coin. Someone took it over and is doing a terrible job. He sold everything and is inac"
     },
     {
-      "url": "https://dexscreener.com/solana/2kq7meiemd5lmbzkmrxij98i5n3mbnged7hpsg8owzly",
-      "tokenAddress": "2kq7mEiemD5LmbzkMrxiJ98i5N3MBngeD7Hpsg8owZLy",
-      "description": "Blind Cat Dmitri"
+      "url": "https://dexscreener.com/solana/dledharfaln6k65dxtkq29azferpvg45dy5rue9wpump",
+      "tokenAddress": "DLEdharFALn6K65DxtKq29AzFERPvg45dY5rue9Wpump",
+      "description": "FapMax is the next chapter of the Fapcoin lore. Fartcoin came first. Fapcoin followed as the prophecy. After the dev lef"
+    },
+    {
+      "url": "https://dexscreener.com/solana/8k4sbteek4pf26nokqapv8nbtnusjcbdwpkyknk5pbaa",
+      "tokenAddress": "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA",
+      "description": "The dog of Maye Musk. All fees go directly to Maye Musk via X money."
+    },
+    {
+      "url": "https://dexscreener.com/solana/gcjgz2x4xmsrlx7svuiavka3c1ptxdtwivqn4u1p9ger",
+      "tokenAddress": "GCjgZ2X4XmSrLX7SVuiAVkA3c1ptXdtWiVQN4u1P9GeR",
+      "description": "Small gnome. Grand plans.\nThe first memecoin in the RuneScape Gold ecosystem to reward holders with GP.\nHe used to offer"
     }
   ],
   "fearGreed": {
