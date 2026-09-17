@@ -1,47 +1,52 @@
 {
-  "at": "2026-09-17T17:17:24.086002+00:00",
+  "at": "2026-09-17T20:34:16.640351+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76755.0,
-      "changePct": 1.4151956570872073,
+      "price": 76619.0,
+      "changePct": 0.6998350286789491,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2467.62,
-      "changePct": 3.2504953713815787,
+      "price": 2454.57,
+      "changePct": 1.9564989650120181,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.2,
-      "changePct": 4.153319107655412,
+      "price": 101.17,
+      "changePct": 2.7551077239814323,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 728.77,
-      "changePct": 2.2275942907469077,
+      "price": 734.39,
+      "changePct": 2.075116074271933,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/2emomqs194vxphswtcczkbgqwcubd4zcqhecoguh4ttp",
-      "tokenAddress": "2eMoMqs194VxPHSWtCCzkBGqwCUbD4ZcqhecoGuh4tTp",
-      "description": "welcum to casinu, where da boss has paws and da house always woofs."
+      "url": "https://dexscreener.com/solana/9n8rbv1l917eusvda9ktx2umxvpfkzxlltwknys8pump",
+      "tokenAddress": "9n8rBV1L917EUSVDa9KTX2uMxvPfKZxLLtwKnYs8pump",
+      "description": "A PAID CAT RUNS"
     },
     {
-      "url": "https://dexscreener.com/solana/52qknpgthcjudyhkvcg6rjs4uyytjhpdrcjosdkqpump",
-      "tokenAddress": "52qkNpgTHcjuDYhKVcg6rJS4uYYtJHpDRcJoSdKqpump",
-      "description": "Paid Doge is a community-driven meme coin inspired by Dogecoin culture and Elon Musk\u2019s influence on the crypto world."
+      "url": "https://dexscreener.com/solana/5epycb2dhxpbtm4b7ff51fgue14wezprftuxbrh86ssd",
+      "tokenAddress": "5EpyCB2dhxpBtm4B7Ff51FguE14WEzPrFTuXbRh86ssD",
+      "description": "ANTMINER $ANT \ud83d\udc1c\u26cf\ufe0f\n\nPASSIVELY MINE BITCOIN.\n\nNo rigs. No electricity. Just $ANT.\n\nHold $ANT and earn WBTC rewards powered"
     },
     {
       "url": "https://dexscreener.com/solana/3wrwk9cctfxyedmvbgyd6swstfxgbh2dgqal3z2epump",
       "tokenAddress": "3wrwK9CctFXYedMVBGYD6sWSTfXgbh2DGQAL3z2epump",
       "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/5ct9mmkgwjp42xdgwsxu9zsycsccxqwpq49gfqoxpump",
+      "tokenAddress": "5cT9mMKGwJP42xdgwSxu9zsYCScCXqwpq49GfQoXpump",
+      "description": "Catwifout has nothing, but he's ready to take over the crypto market."
     },
     {
       "url": "https://dexscreener.com/solana/2grwxscxrp5sbqkczb8qddk88iafxrj2cst93fxcpump",
@@ -59,14 +64,9 @@
       "description": "FapMax is the next chapter of the Fapcoin lore. Fartcoin came first. Fapcoin followed as the prophecy. After the dev lef"
     },
     {
-      "url": "https://dexscreener.com/solana/8k4sbteek4pf26nokqapv8nbtnusjcbdwpkyknk5pbaa",
-      "tokenAddress": "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA",
-      "description": "The dog of Maye Musk. All fees go directly to Maye Musk via X money."
-    },
-    {
-      "url": "https://dexscreener.com/solana/gcjgz2x4xmsrlx7svuiavka3c1ptxdtwivqn4u1p9ger",
-      "tokenAddress": "GCjgZ2X4XmSrLX7SVuiAVkA3c1ptXdtWiVQN4u1P9GeR",
-      "description": "Small gnome. Grand plans.\nThe first memecoin in the RuneScape Gold ecosystem to reward holders with GP.\nHe used to offer"
+      "url": "https://dexscreener.com/solana/2emomqs194vxphswtcczkbgqwcubd4zcqhecoguh4ttp",
+      "tokenAddress": "2eMoMqs194VxPHSWtCCzkBGqwCUbD4ZcqhecoGuh4tTp",
+      "description": "welcum to casinu, where da boss has paws and da house always woofs."
     }
   ],
   "fearGreed": {
