@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-17T01:44:07.598192+00:00",
+  "at": "2026-09-17T06:45:25.990866+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76502.0,
-      "changePct": 1.207262677916718,
+      "price": 76493.0,
+      "changePct": 0.8229668059167802,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2430.58,
-      "changePct": 1.461471482993791,
+      "price": 2442.96,
+      "changePct": 1.9311491018847007,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 99.08,
-      "changePct": 2.4635092024305933,
+      "price": 99.79,
+      "changePct": 2.8981814323744204,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 725.94,
-      "changePct": 2.1597235279116656,
+      "price": 725.46,
+      "changePct": 1.874108241777107,
       "source": "CoinGecko"
     }
   ],
@@ -54,19 +54,19 @@
       "description": "\ud835\udd4f One timeline. One signal. One OnlyX.\nBuilt for the place where crypto narratives begin.\nPowered by Solana. $ONLYX"
     },
     {
+      "url": "https://dexscreener.com/solana/dledharfaln6k65dxtkq29azferpvg45dy5rue9wpump",
+      "tokenAddress": "DLEdharFALn6K65DxtKq29AzFERPvg45dY5rue9Wpump",
+      "description": "FapMax is the next chapter of the Fapcoin lore. Fartcoin came first. Fapcoin followed as the prophecy. After the dev lef"
+    },
+    {
+      "url": "https://dexscreener.com/solana/4775qeyts7ecpvhbeeg1a5xujpk6ctejwrpw6vvwpump",
+      "tokenAddress": "4775QEyTS7ECpvhbeEg1a5XUjpK6CtEJwRpw6vvwpump",
+      "description": "Hi, I am the original DEV of this coin. Someone took it over and is doing a terrible job. He sold everything and is inac"
+    },
+    {
       "url": "https://dexscreener.com/solana/2kq7meiemd5lmbzkmrxij98i5n3mbnged7hpsg8owzly",
       "tokenAddress": "2kq7mEiemD5LmbzkMrxiJ98i5N3MBngeD7Hpsg8owZLy",
       "description": "Blind Cat Dmitri"
-    },
-    {
-      "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
-      "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
-      "description": "Hold this coin until Halloween."
-    },
-    {
-      "url": "https://dexscreener.com/solana/ah2gs1icxyjc8f3cmyrdfdcc4n14wuuy5hsuyif7pump",
-      "tokenAddress": "Ah2gs1iCXYJC8F3CMYrdFdCC4N14WuUY5Hsuyif7pump",
-      "description": ""
     }
   ],
   "fearGreed": {
