@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-17T20:34:16.640351+00:00",
+  "at": "2026-09-17T23:07:36.966862+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76619.0,
-      "changePct": 0.6998350286789491,
+      "price": 76409.0,
+      "changePct": 0.8972230323795625,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2454.57,
-      "changePct": 1.9564989650120181,
+      "price": 2446.7,
+      "changePct": 2.171913229069666,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.17,
-      "changePct": 2.7551077239814323,
+      "price": 101.41,
+      "changePct": 3.938048699528829,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 734.39,
-      "changePct": 2.075116074271933,
+      "price": 735.5,
+      "changePct": 2.2745454690560343,
       "source": "CoinGecko"
     }
   ],
@@ -64,9 +64,9 @@
       "description": "FapMax is the next chapter of the Fapcoin lore. Fartcoin came first. Fapcoin followed as the prophecy. After the dev lef"
     },
     {
-      "url": "https://dexscreener.com/solana/2emomqs194vxphswtcczkbgqwcubd4zcqhecoguh4ttp",
-      "tokenAddress": "2eMoMqs194VxPHSWtCCzkBGqwCUbD4ZcqhecoGuh4tTp",
-      "description": "welcum to casinu, where da boss has paws and da house always woofs."
+      "url": "https://dexscreener.com/solana/7qvyanei9jyf173z4fbkcmkp3nxddbkixawh7at2perk",
+      "tokenAddress": "7qVyANei9jYf173z4FBKcmKp3nXDDBKiXAWh7aT2perk",
+      "description": "Holding has its perks."
     }
   ],
   "fearGreed": {
