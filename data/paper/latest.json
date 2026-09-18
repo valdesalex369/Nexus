@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-18T11:53:20.608698+00:00",
+  "at": "2026-09-18T16:26:54.183296+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77970.0,
-      "changePct": 2.362705333425307,
+      "price": 80921.0,
+      "changePct": 5.524040340689016,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2505.54,
-      "changePct": 3.1498882115032614,
+      "price": 2594.31,
+      "changePct": 5.127142347337854,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 105.67,
-      "changePct": 6.088019057092258,
+      "price": 111.6,
+      "changePct": 10.332933426843576,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 749.34,
-      "changePct": 3.886585958095258,
+      "price": 759.48,
+      "changePct": 4.468887184476197,
       "source": "CoinGecko"
     }
   ],
@@ -64,9 +64,9 @@
       "description": "Nigga Cat"
     },
     {
-      "url": "https://dexscreener.com/solana/8bbns7hurku4whj9l7bpjnar8n9bkfipa4zkcys76qhu",
-      "tokenAddress": "8BBNS7hURKU4whJ9L7BpjnAR8n9bKFiPA4ZKcYs76qHu",
-      "description": "Fees to @Phantom"
+      "url": "https://dexscreener.com/solana/692mdh1nbx6gf2xyculvjuqvdsvgi6cbqatrmqcxpump",
+      "tokenAddress": "692MdH1nbX6gf2xYcULvJUqVDsVgi6cbQatrMqCxpump",
+      "description": "the galaxy-eyed rescue with a toothless smile, 2.8 million TikTok views, and bigger dreams than a body that small should"
     }
   ],
   "fearGreed": {
