@@ -1,30 +1,30 @@
 {
-  "at": "2026-09-18T19:13:23.800663+00:00",
+  "at": "2026-09-18T21:43:54.316663+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81200.0,
-      "changePct": 6.044,
-      "source": "Binance"
+      "price": 81210.0,
+      "changePct": 6.15573102497732,
+      "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2626.19,
-      "changePct": 7.11,
-      "source": "Binance"
-    },
-    {
-      "symbol": "BNB",
-      "price": 767.7,
-      "changePct": 5.297,
-      "source": "Binance"
+      "price": 2631.52,
+      "changePct": 7.367093965945521,
+      "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 112.95,
-      "changePct": 12.042,
-      "source": "Binance"
+      "price": 113.31,
+      "changePct": 11.820099655865624,
+      "source": "CoinGecko"
+    },
+    {
+      "symbol": "BNB",
+      "price": 764.73,
+      "changePct": 4.178896159824279,
+      "source": "CoinGecko"
     }
   ],
   "memes": [
@@ -44,9 +44,9 @@
       "description": "Welcome to $BABYCATE \ud83d\udc31\n\n$CATE is on a generational run and if the vision plays out, we believe hundreds of millions coul"
     },
     {
-      "url": "https://dexscreener.com/solana/5epycb2dhxpbtm4b7ff51fgue14wezprftuxbrh86ssd",
-      "tokenAddress": "5EpyCB2dhxpBtm4B7Ff51FguE14WEzPrFTuXbRh86ssD",
-      "description": "ANTMINER $ANT \ud83d\udc1c\u26cf\ufe0f\n\nPASSIVELY MINE BITCOIN.\n\nNo rigs. No electricity. Just $ANT.\n\nHold $ANT and earn WBTC rewards powered"
+      "url": "https://dexscreener.com/solana/xha6oyjfspe8hxhfjjopxxfaqkcqmewhzxf6drjpump",
+      "tokenAddress": "XhA6oYjFSpe8HxhFJJopxxFAQKcQmEwHZXF6DRJpump",
+      "description": "Every trade carries a charm."
     },
     {
       "url": "https://dexscreener.com/solana/91ryaco5ygpyzm3bs6gups97vwjqj7rozbmqpulgpump",
@@ -59,14 +59,14 @@
       "description": "the galaxy-eyed rescue with a toothless smile, 2.8 million TikTok views, and bigger dreams than a body that small should"
     },
     {
-      "url": "https://dexscreener.com/solana/7qvyanei9jyf173z4fbkcmkp3nxddbkixawh7at2perk",
-      "tokenAddress": "7qVyANei9jYf173z4FBKcmKp3nXDDBKiXAWh7aT2perk",
-      "description": "Holding has its perks."
-    },
-    {
       "url": "https://dexscreener.com/solana/73nboteeajawanp8aytduzbx6ag3jchm4cpxgi8tpump",
       "tokenAddress": "73nBoTeEAJAWaNP8ayTDUZbx6ag3JcHm4CPxGi8Tpump",
       "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/57ebr7xfeedwr44gtfl2ca2nhtpgbzxph4bhbzwjccgi",
+      "tokenAddress": "57eBR7XfEEdWR44gTfL2cA2nhTpGbzXph4BHBzWjcCgi",
+      "description": "Fees to @Github"
     }
   ],
   "fearGreed": {
@@ -75,5 +75,7 @@
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
-  "errors": []
+  "errors": [
+    "binance: HTTP 451"
+  ]
 }
