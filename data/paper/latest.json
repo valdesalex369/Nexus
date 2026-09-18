@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-17T23:07:36.966862+00:00",
+  "at": "2026-09-18T01:17:41.692340+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76409.0,
-      "changePct": 0.8972230323795625,
+      "price": 76476.0,
+      "changePct": 0.36111527537927834,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2446.7,
-      "changePct": 2.171913229069666,
+      "price": 2447.8,
+      "changePct": 1.3222951576903106,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.41,
-      "changePct": 3.938048699528829,
+      "price": 101.46,
+      "changePct": 2.9155113644357664,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 735.5,
-      "changePct": 2.2745454690560343,
+      "price": 740.67,
+      "changePct": 2.2158819395106284,
       "source": "CoinGecko"
     }
   ],
@@ -32,6 +32,11 @@
       "url": "https://dexscreener.com/solana/9n8rbv1l917eusvda9ktx2umxvpfkzxlltwknys8pump",
       "tokenAddress": "9n8rBV1L917EUSVDa9KTX2uMxvPfKZxLLtwKnYs8pump",
       "description": "A PAID CAT RUNS"
+    },
+    {
+      "url": "https://dexscreener.com/solana/3w3k5i4t2varm1uzjhh48dw4unhjtg3wk8gs2inmnuzv",
+      "tokenAddress": "3W3K5i4T2vARM1UzJHh48dw4uNhjtg3Wk8GS2inmNUZV",
+      "description": "The onchain social economy. Earn by posting what is going viral.  Launch tokens. Power tokenized UGC campaigns with 10,0"
     },
     {
       "url": "https://dexscreener.com/solana/5epycb2dhxpbtm4b7ff51fgue14wezprftuxbrh86ssd",
@@ -49,9 +54,9 @@
       "description": "Catwifout has nothing, but he's ready to take over the crypto market."
     },
     {
-      "url": "https://dexscreener.com/solana/2grwxscxrp5sbqkczb8qddk88iafxrj2cst93fxcpump",
-      "tokenAddress": "2GrwXsCxRP5SBqKczB8QDdK88iAfxRJ2cST93fXcpump",
-      "description": "\ud835\udd4f One timeline. One signal. One OnlyX.\nBuilt for the place where crypto narratives begin.\nPowered by Solana. $ONLYX"
+      "url": "https://dexscreener.com/solana/73nboteeajawanp8aytduzbx6ag3jchm4cpxgi8tpump",
+      "tokenAddress": "73nBoTeEAJAWaNP8ayTDUZbx6ag3JcHm4CPxGi8Tpump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/4775qeyts7ecpvhbeeg1a5xujpk6ctejwrpw6vvwpump",
@@ -59,19 +64,14 @@
       "description": "Hi, I am the original DEV of this coin. Someone took it over and is doing a terrible job. He sold everything and is inac"
     },
     {
-      "url": "https://dexscreener.com/solana/dledharfaln6k65dxtkq29azferpvg45dy5rue9wpump",
-      "tokenAddress": "DLEdharFALn6K65DxtKq29AzFERPvg45dY5rue9Wpump",
-      "description": "FapMax is the next chapter of the Fapcoin lore. Fartcoin came first. Fapcoin followed as the prophecy. After the dev lef"
-    },
-    {
-      "url": "https://dexscreener.com/solana/7qvyanei9jyf173z4fbkcmkp3nxddbkixawh7at2perk",
-      "tokenAddress": "7qVyANei9jYf173z4FBKcmKp3nXDDBKiXAWh7aT2perk",
-      "description": "Holding has its perks."
+      "url": "https://dexscreener.com/solana/2grwxscxrp5sbqkczb8qddk88iafxrj2cst93fxcpump",
+      "tokenAddress": "2GrwXsCxRP5SBqKczB8QDdK88iAfxRJ2cST93fXcpump",
+      "description": "\ud835\udd4f One timeline. One signal. One OnlyX.\nBuilt for the place where crypto narratives begin.\nPowered by Solana. $ONLYX"
     }
   ],
   "fearGreed": {
-    "value": 50,
-    "label": "Neutral"
+    "value": 56,
+    "label": "Greed"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
