@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-18T21:43:54.316663+00:00",
+  "at": "2026-09-18T23:38:56.265542+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81210.0,
-      "changePct": 6.15573102497732,
+      "price": 80944.0,
+      "changePct": 5.985417933837486,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2631.52,
-      "changePct": 7.367093965945521,
+      "price": 2612.02,
+      "changePct": 6.778998268215064,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 113.31,
-      "changePct": 11.820099655865624,
+      "price": 112.89,
+      "changePct": 11.310224630299498,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 764.73,
-      "changePct": 4.178896159824279,
+      "price": 761.86,
+      "changePct": 3.4923585930552963,
       "source": "CoinGecko"
     }
   ],
@@ -59,14 +59,14 @@
       "description": "the galaxy-eyed rescue with a toothless smile, 2.8 million TikTok views, and bigger dreams than a body that small should"
     },
     {
-      "url": "https://dexscreener.com/solana/73nboteeajawanp8aytduzbx6ag3jchm4cpxgi8tpump",
-      "tokenAddress": "73nBoTeEAJAWaNP8ayTDUZbx6ag3JcHm4CPxGi8Tpump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/57ebr7xfeedwr44gtfl2ca2nhtpgbzxph4bhbzwjccgi",
       "tokenAddress": "57eBR7XfEEdWR44gTfL2cA2nhTpGbzXph4BHBzWjcCgi",
       "description": "Fees to @Github"
+    },
+    {
+      "url": "https://dexscreener.com/solana/73nboteeajawanp8aytduzbx6ag3jchm4cpxgi8tpump",
+      "tokenAddress": "73nBoTeEAJAWaNP8ayTDUZbx6ag3JcHm4CPxGi8Tpump",
+      "description": ""
     }
   ],
   "fearGreed": {
