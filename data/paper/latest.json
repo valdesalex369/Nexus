@@ -1,37 +1,37 @@
 {
-  "at": "2026-09-18T16:26:54.183296+00:00",
+  "at": "2026-09-18T19:13:23.800663+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80921.0,
-      "changePct": 5.524040340689016,
-      "source": "CoinGecko"
+      "price": 81200.0,
+      "changePct": 6.044,
+      "source": "Binance"
     },
     {
       "symbol": "ETH",
-      "price": 2594.31,
-      "changePct": 5.127142347337854,
-      "source": "CoinGecko"
-    },
-    {
-      "symbol": "SOL",
-      "price": 111.6,
-      "changePct": 10.332933426843576,
-      "source": "CoinGecko"
+      "price": 2626.19,
+      "changePct": 7.11,
+      "source": "Binance"
     },
     {
       "symbol": "BNB",
-      "price": 759.48,
-      "changePct": 4.468887184476197,
-      "source": "CoinGecko"
+      "price": 767.7,
+      "changePct": 5.297,
+      "source": "Binance"
+    },
+    {
+      "symbol": "SOL",
+      "price": 112.95,
+      "changePct": 12.042,
+      "source": "Binance"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/9n8rbv1l917eusvda9ktx2umxvpfkzxlltwknys8pump",
-      "tokenAddress": "9n8rBV1L917EUSVDa9KTX2uMxvPfKZxLLtwKnYs8pump",
-      "description": "A PAID CAT RUNS"
+      "url": "https://dexscreener.com/solana/4ssdxlh4bpzvvc6wszhfosyavdhr8hpwzekyogzypump",
+      "tokenAddress": "4ssDxLh4BpzVVC6WsZHfoSYAVDhR8hpWzekyoGzYpump",
+      "description": "Meepcat is the wide-eyed calico taking over Solana as the next viral meme token."
     },
     {
       "url": "https://dexscreener.com/solana/3w3k5i4t2varm1uzjhh48dw4unhjtg3wk8gs2inmnuzv",
@@ -39,14 +39,24 @@
       "description": "The onchain social economy. Earn by posting what is going viral.  Launch tokens. Power tokenized UGC campaigns with 10,0"
     },
     {
+      "url": "https://dexscreener.com/solana/d3z5rxpgwtvac7uxfsen4itlbphynvhvlrzxbmmupump",
+      "tokenAddress": "D3Z5RXPGWtvAc7UxFSeN4itLBPHyNVhVLRzXBMmUpump",
+      "description": "Welcome to $BABYCATE \ud83d\udc31\n\n$CATE is on a generational run and if the vision plays out, we believe hundreds of millions coul"
+    },
+    {
       "url": "https://dexscreener.com/solana/5epycb2dhxpbtm4b7ff51fgue14wezprftuxbrh86ssd",
       "tokenAddress": "5EpyCB2dhxpBtm4B7Ff51FguE14WEzPrFTuXbRh86ssD",
       "description": "ANTMINER $ANT \ud83d\udc1c\u26cf\ufe0f\n\nPASSIVELY MINE BITCOIN.\n\nNo rigs. No electricity. Just $ANT.\n\nHold $ANT and earn WBTC rewards powered"
     },
     {
-      "url": "https://dexscreener.com/solana/5ct9mmkgwjp42xdgwsxu9zsycsccxqwpq49gfqoxpump",
-      "tokenAddress": "5cT9mMKGwJP42xdgwSxu9zsYCScCXqwpq49GfQoXpump",
-      "description": "Catwifout has nothing, but he's ready to take over the crypto market."
+      "url": "https://dexscreener.com/solana/91ryaco5ygpyzm3bs6gups97vwjqj7rozbmqpulgpump",
+      "tokenAddress": "91ryaCo5yGpYZM3bs6GUPs97VWJQj7RozBmqPULgpump",
+      "description": "91ryaCo5yGpYZM3bs6GUPs97VWJQj7RozBmqPULgpump; All trading fees are donated to Tigrino's carers - La Senda Verde Refuge S"
+    },
+    {
+      "url": "https://dexscreener.com/solana/692mdh1nbx6gf2xyculvjuqvdsvgi6cbqatrmqcxpump",
+      "tokenAddress": "692MdH1nbX6gf2xYcULvJUqVDsVgi6cbQatrMqCxpump",
+      "description": "the galaxy-eyed rescue with a toothless smile, 2.8 million TikTok views, and bigger dreams than a body that small should"
     },
     {
       "url": "https://dexscreener.com/solana/7qvyanei9jyf173z4fbkcmkp3nxddbkixawh7at2perk",
@@ -57,16 +67,6 @@
       "url": "https://dexscreener.com/solana/73nboteeajawanp8aytduzbx6ag3jchm4cpxgi8tpump",
       "tokenAddress": "73nBoTeEAJAWaNP8ayTDUZbx6ag3JcHm4CPxGi8Tpump",
       "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/6bkjt2dq8fwqwzmwzslnadoakafkjbad25795ngbpump",
-      "tokenAddress": "6BkJT2Dq8FwqwZmwzSLnADoaKaFKjBad25795nGBpump",
-      "description": "Nigga Cat"
-    },
-    {
-      "url": "https://dexscreener.com/solana/692mdh1nbx6gf2xyculvjuqvdsvgi6cbqatrmqcxpump",
-      "tokenAddress": "692MdH1nbX6gf2xYcULvJUqVDsVgi6cbQatrMqCxpump",
-      "description": "the galaxy-eyed rescue with a toothless smile, 2.8 million TikTok views, and bigger dreams than a body that small should"
     }
   ],
   "fearGreed": {
@@ -75,7 +75,5 @@
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
-  "errors": [
-    "binance: HTTP 451"
-  ]
+  "errors": []
 }
