@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-18T01:17:41.692340+00:00",
+  "at": "2026-09-18T06:41:57.027835+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76476.0,
-      "changePct": 0.36111527537927834,
+      "price": 77496.0,
+      "changePct": 1.296748059465884,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2447.8,
-      "changePct": 1.3222951576903106,
+      "price": 2484.13,
+      "changePct": 1.6935539562500233,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.46,
-      "changePct": 2.9155113644357664,
+      "price": 105.58,
+      "changePct": 5.839312024542647,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 740.67,
-      "changePct": 2.2158819395106284,
+      "price": 752.5,
+      "changePct": 3.7812118747441636,
       "source": "CoinGecko"
     }
   ],
@@ -59,14 +59,14 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/4775qeyts7ecpvhbeeg1a5xujpk6ctejwrpw6vvwpump",
-      "tokenAddress": "4775QEyTS7ECpvhbeEg1a5XUjpK6CtEJwRpw6vvwpump",
-      "description": "Hi, I am the original DEV of this coin. Someone took it over and is doing a terrible job. He sold everything and is inac"
+      "url": "https://dexscreener.com/solana/7qvyanei9jyf173z4fbkcmkp3nxddbkixawh7at2perk",
+      "tokenAddress": "7qVyANei9jYf173z4FBKcmKp3nXDDBKiXAWh7aT2perk",
+      "description": "Holding has its perks."
     },
     {
-      "url": "https://dexscreener.com/solana/2grwxscxrp5sbqkczb8qddk88iafxrj2cst93fxcpump",
-      "tokenAddress": "2GrwXsCxRP5SBqKczB8QDdK88iAfxRJ2cST93fXcpump",
-      "description": "\ud835\udd4f One timeline. One signal. One OnlyX.\nBuilt for the place where crypto narratives begin.\nPowered by Solana. $ONLYX"
+      "url": "https://dexscreener.com/solana/8bbns7hurku4whj9l7bpjnar8n9bkfipa4zkcys76qhu",
+      "tokenAddress": "8BBNS7hURKU4whJ9L7BpjnAR8n9bKFiPA4ZKcYs76qHu",
+      "description": "Fees to @Phantom"
     }
   ],
   "fearGreed": {
