@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-18T06:41:57.027835+00:00",
+  "at": "2026-09-18T11:53:20.608698+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77496.0,
-      "changePct": 1.296748059465884,
+      "price": 77970.0,
+      "changePct": 2.362705333425307,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2484.13,
-      "changePct": 1.6935539562500233,
+      "price": 2505.54,
+      "changePct": 3.1498882115032614,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 105.58,
-      "changePct": 5.839312024542647,
+      "price": 105.67,
+      "changePct": 6.088019057092258,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 752.5,
-      "changePct": 3.7812118747441636,
+      "price": 749.34,
+      "changePct": 3.886585958095258,
       "source": "CoinGecko"
     }
   ],
@@ -44,14 +44,14 @@
       "description": "ANTMINER $ANT \ud83d\udc1c\u26cf\ufe0f\n\nPASSIVELY MINE BITCOIN.\n\nNo rigs. No electricity. Just $ANT.\n\nHold $ANT and earn WBTC rewards powered"
     },
     {
-      "url": "https://dexscreener.com/solana/3wrwk9cctfxyedmvbgyd6swstfxgbh2dgqal3z2epump",
-      "tokenAddress": "3wrwK9CctFXYedMVBGYD6sWSTfXgbh2DGQAL3z2epump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/5ct9mmkgwjp42xdgwsxu9zsycsccxqwpq49gfqoxpump",
       "tokenAddress": "5cT9mMKGwJP42xdgwSxu9zsYCScCXqwpq49GfQoXpump",
       "description": "Catwifout has nothing, but he's ready to take over the crypto market."
+    },
+    {
+      "url": "https://dexscreener.com/solana/7qvyanei9jyf173z4fbkcmkp3nxddbkixawh7at2perk",
+      "tokenAddress": "7qVyANei9jYf173z4FBKcmKp3nXDDBKiXAWh7aT2perk",
+      "description": "Holding has its perks."
     },
     {
       "url": "https://dexscreener.com/solana/73nboteeajawanp8aytduzbx6ag3jchm4cpxgi8tpump",
@@ -59,9 +59,9 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/7qvyanei9jyf173z4fbkcmkp3nxddbkixawh7at2perk",
-      "tokenAddress": "7qVyANei9jYf173z4FBKcmKp3nXDDBKiXAWh7aT2perk",
-      "description": "Holding has its perks."
+      "url": "https://dexscreener.com/solana/6bkjt2dq8fwqwzmwzslnadoakafkjbad25795ngbpump",
+      "tokenAddress": "6BkJT2Dq8FwqwZmwzSLnADoaKaFKjBad25795nGBpump",
+      "description": "Nigga Cat"
     },
     {
       "url": "https://dexscreener.com/solana/8bbns7hurku4whj9l7bpjnar8n9bkfipa4zkcys76qhu",
