@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-19T01:38:32.039198+00:00",
+  "at": "2026-09-19T06:40:13.003559+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81073.0,
-      "changePct": 5.922908921813438,
+      "price": 81050.0,
+      "changePct": 4.624838827279536,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2605.8,
-      "changePct": 6.3200832886384175,
+      "price": 2628.06,
+      "changePct": 5.871573232166462,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 113.0,
-      "changePct": 10.93836559951948,
+      "price": 111.87,
+      "changePct": 6.008505416938126,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 761.45,
-      "changePct": 2.641215601985616,
+      "price": 763.73,
+      "changePct": 1.531152271453207,
       "source": "CoinGecko"
     }
   ],
@@ -39,9 +39,19 @@
       "description": "Welcome to $BABYCATE \ud83d\udc31\n\n$CATE is on a generational run and if the vision plays out, we believe hundreds of millions coul"
     },
     {
+      "url": "https://dexscreener.com/solana/27mr5eybig1ihc4boyursrqebwdfp9oya3v7f5lmduwu",
+      "tokenAddress": "27MR5EYbig1ihc4BoYURSRqEbWdfP9oyA3V7F5LmdUwu",
+      "description": "The Official Wynn Meme token.\n \nWYNN WYNN WYNN\n \n$WYNN"
+    },
+    {
       "url": "https://dexscreener.com/solana/xha6oyjfspe8hxhfjjopxxfaqkcqmewhzxf6drjpump",
       "tokenAddress": "XhA6oYjFSpe8HxhFJJopxxFAQKcQmEwHZXF6DRJpump",
       "description": "Every trade carries a charm."
+    },
+    {
+      "url": "https://dexscreener.com/solana/cjmk2cgkuzt2sjtnkhs7bvywtb6ddxvefpsfyrivpump",
+      "tokenAddress": "CJmk2CGKuzT2sJtnkhs7BVYwTb6dDXveFPSfYriVpump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/91ryaco5ygpyzm3bs6gups97vwjqj7rozbmqpulgpump",
@@ -57,16 +67,6 @@
       "url": "https://dexscreener.com/solana/57ebr7xfeedwr44gtfl2ca2nhtpgbzxph4bhbzwjccgi",
       "tokenAddress": "57eBR7XfEEdWR44gTfL2cA2nhTpGbzXph4BHBzWjcCgi",
       "description": "Fees to @Github"
-    },
-    {
-      "url": "https://dexscreener.com/solana/d8bnpry9fsnxjxrmxx2qv5kjcdg9rvsirhj2bfuypgoq",
-      "tokenAddress": "D8BNpRy9FSNXjXRMxX2qV5KJcdg9rVsirHj2bfUyPGoq",
-      "description": "donut fade this meme."
-    },
-    {
-      "url": "https://dexscreener.com/solana/debetv2ycucz7c4h7mnjayjn2mcr4enmfbfdrzempump",
-      "tokenAddress": "DeBEtV2ycUcZ7c4h7MnJAyjN2MCR4enmFbfDRZempump",
-      "description": "Long The Cat"
     }
   ],
   "fearGreed": {
