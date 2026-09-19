@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-19T20:43:38.249652+00:00",
+  "at": "2026-09-19T22:31:05.976524+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81238.0,
-      "changePct": 0.23275500864919416,
+      "price": 81041.0,
+      "changePct": -0.24951398458334462,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2637.85,
-      "changePct": 0.22721773168729434,
+      "price": 2620.66,
+      "changePct": -0.4038198954323112,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 111.16,
-      "changePct": -2.1237963029749323,
+      "price": 110.15,
+      "changePct": -2.7008324356974347,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 762.1,
-      "changePct": -0.3114638318329656,
+      "price": 758.76,
+      "changePct": -0.62026477539583,
       "source": "CoinGecko"
     }
   ],
@@ -54,14 +54,14 @@
       "description": "Internet culture belongs to everyone.\n\nEvery meme, trend, inside joke, viral moment, and online community started with o"
     },
     {
-      "url": "https://dexscreener.com/solana/g2dpfqw1gdjrygxmr4q1ezjjuaau1byv99ttuum4pump",
-      "tokenAddress": "G2DPFQW1gdjrYGXmr4q1eZjJUAAU1byv99TtUUm4pump",
-      "description": "Give imagination\na form.\nThen let it fly.\nFrom the first point to the final frame.\nAn AI video platform for the beautifu"
-    },
-    {
       "url": "https://dexscreener.com/solana/dnjeap7hwjvnttk1nuadj5aps9qdrossemckbcpstnk",
       "tokenAddress": "DnJeAP7hWjVNTTk1NUaDJ5Aps9qDroSsEMcKBCpSTNK",
       "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/g2dpfqw1gdjrygxmr4q1ezjjuaau1byv99ttuum4pump",
+      "tokenAddress": "G2DPFQW1gdjrYGXmr4q1eZjJUAAU1byv99TtUUm4pump",
+      "description": "Give imagination\na form.\nThen let it fly.\nFrom the first point to the final frame.\nAn AI video platform for the beautifu"
     },
     {
       "url": "https://dexscreener.com/solana/cdajxmv2e4prtwkav8acmmddjvey3igarwvg6zc8pump",
@@ -73,7 +73,7 @@
     "value": 71,
     "label": "Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
