@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-19T06:40:13.003559+00:00",
+  "at": "2026-09-19T11:35:41.609341+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81050.0,
-      "changePct": 4.624838827279536,
+      "price": 81235.0,
+      "changePct": 4.092815025962872,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2628.06,
-      "changePct": 5.871573232166462,
+      "price": 2637.31,
+      "changePct": 5.220599801534182,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 111.87,
-      "changePct": 6.008505416938126,
+      "price": 111.88,
+      "changePct": 5.9330037778004625,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 763.73,
-      "changePct": 1.531152271453207,
+      "price": 765.96,
+      "changePct": 2.131329258639986,
       "source": "CoinGecko"
     }
   ],
@@ -64,9 +64,9 @@
       "description": "the galaxy-eyed rescue with a toothless smile, 2.8 million TikTok views, and bigger dreams than a body that small should"
     },
     {
-      "url": "https://dexscreener.com/solana/57ebr7xfeedwr44gtfl2ca2nhtpgbzxph4bhbzwjccgi",
-      "tokenAddress": "57eBR7XfEEdWR44gTfL2cA2nhTpGbzXph4BHBzWjcCgi",
-      "description": "Fees to @Github"
+      "url": "https://dexscreener.com/solana/gyrdgn9yrzdeawxfagqe3qrufad3duyq5jadhrpvpump",
+      "tokenAddress": "GyrdGn9yrZDeAwXfaGqe3QRuFAd3duYQ5jAdHrPvpump",
+      "description": "Internet culture belongs to everyone.\n\nEvery meme, trend, inside joke, viral moment, and online community started with o"
     }
   ],
   "fearGreed": {
