@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-19T11:35:41.609341+00:00",
+  "at": "2026-09-19T14:49:13.729900+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81235.0,
-      "changePct": 4.092815025962872,
+      "price": 81520.0,
+      "changePct": 0.8697721812179074,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2637.31,
-      "changePct": 5.220599801534182,
+      "price": 2639.01,
+      "changePct": 2.44738708819668,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 111.88,
-      "changePct": 5.9330037778004625,
+      "price": 111.83,
+      "changePct": 0.9682432222095336,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 765.96,
-      "changePct": 2.131329258639986,
+      "price": 770.18,
+      "changePct": 1.4325735587324024,
       "source": "CoinGecko"
     }
   ],
@@ -49,11 +49,6 @@
       "description": "Every trade carries a charm."
     },
     {
-      "url": "https://dexscreener.com/solana/cjmk2cgkuzt2sjtnkhs7bvywtb6ddxvefpsfyrivpump",
-      "tokenAddress": "CJmk2CGKuzT2sJtnkhs7BVYwTb6dDXveFPSfYriVpump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/91ryaco5ygpyzm3bs6gups97vwjqj7rozbmqpulgpump",
       "tokenAddress": "91ryaCo5yGpYZM3bs6GUPs97VWJQj7RozBmqPULgpump",
       "description": "91ryaCo5yGpYZM3bs6GUPs97VWJQj7RozBmqPULgpump; All trading fees are donated to Tigrino's carers - La Senda Verde Refuge S"
@@ -67,6 +62,11 @@
       "url": "https://dexscreener.com/solana/gyrdgn9yrzdeawxfagqe3qrufad3duyq5jadhrpvpump",
       "tokenAddress": "GyrdGn9yrZDeAwXfaGqe3QRuFAd3duYQ5jAdHrPvpump",
       "description": "Internet culture belongs to everyone.\n\nEvery meme, trend, inside joke, viral moment, and online community started with o"
+    },
+    {
+      "url": "https://dexscreener.com/solana/57ebr7xfeedwr44gtfl2ca2nhtpgbzxph4bhbzwjccgi",
+      "tokenAddress": "57eBR7XfEEdWR44gTfL2cA2nhTpGbzXph4BHBzWjcCgi",
+      "description": "Fees to @Github"
     }
   ],
   "fearGreed": {
