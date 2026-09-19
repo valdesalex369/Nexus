@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-19T18:03:23.272750+00:00",
+  "at": "2026-09-19T20:43:38.249652+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81444.0,
-      "changePct": 0.6527312212025628,
+      "price": 81238.0,
+      "changePct": 0.23275500864919416,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2644.6,
-      "changePct": 1.5505417671968966,
+      "price": 2637.85,
+      "changePct": 0.22721773168729434,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 111.43,
-      "changePct": -0.8171000137371567,
+      "price": 111.16,
+      "changePct": -2.1237963029749323,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 762.8,
-      "changePct": 0.19163528929224477,
+      "price": 762.1,
+      "changePct": -0.3114638318329656,
       "source": "CoinGecko"
     }
   ],
@@ -34,14 +34,14 @@
       "description": "Stryker is the giant wild-looking cat ready to conquer the meme market."
     },
     {
+      "url": "https://dexscreener.com/solana/4cbcbqh7ra22clszu1bamphw4tlfu5zz7isyx2fupump",
+      "tokenAddress": "4cBCbqh7Ra22cLSZU1baMpHw4tLfu5Zz7isyx2fupump",
+      "description": "paidcate already got paid"
+    },
+    {
       "url": "https://dexscreener.com/solana/27mr5eybig1ihc4boyursrqebwdfp9oya3v7f5lmduwu",
       "tokenAddress": "27MR5EYbig1ihc4BoYURSRqEbWdfP9oyA3V7F5LmdUwu",
       "description": "The Official Wynn Meme token.\n \nWYNN WYNN WYNN\n \n$WYNN"
-    },
-    {
-      "url": "https://dexscreener.com/solana/xha6oyjfspe8hxhfjjopxxfaqkcqmewhzxf6drjpump",
-      "tokenAddress": "XhA6oYjFSpe8HxhFJJopxxFAQKcQmEwHZXF6DRJpump",
-      "description": "Every trade carries a charm."
     },
     {
       "url": "https://dexscreener.com/solana/eyoepkwpgrrj7fg3lbl51nzcqxmeyi6ph9cc5wtbpump",
@@ -64,9 +64,9 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/d8bnpry9fsnxjxrmxx2qv5kjcdg9rvsirhj2bfuypgoq",
-      "tokenAddress": "D8BNpRy9FSNXjXRMxX2qV5KJcdg9rVsirHj2bfUyPGoq",
-      "description": "donut fade this meme."
+      "url": "https://dexscreener.com/solana/cdajxmv2e4prtwkav8acmmddjvey3igarwvg6zc8pump",
+      "tokenAddress": "CdAjXmV2E4PRtwKaV8aCMmDdJVeY3iGARWvG6Zc8pump",
+      "description": "CASH OUT is the obvious next step. X is bringing money closer to the people who create, post, and build on the internet."
     }
   ],
   "fearGreed": {
