@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-18T23:38:56.265542+00:00",
+  "at": "2026-09-19T01:38:32.039198+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80944.0,
-      "changePct": 5.985417933837486,
+      "price": 81073.0,
+      "changePct": 5.922908921813438,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2612.02,
-      "changePct": 6.778998268215064,
+      "price": 2605.8,
+      "changePct": 6.3200832886384175,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 112.89,
-      "changePct": 11.310224630299498,
+      "price": 113.0,
+      "changePct": 10.93836559951948,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 761.86,
-      "changePct": 3.4923585930552963,
+      "price": 761.45,
+      "changePct": 2.641215601985616,
       "source": "CoinGecko"
     }
   ],
@@ -32,11 +32,6 @@
       "url": "https://dexscreener.com/solana/4ssdxlh4bpzvvc6wszhfosyavdhr8hpwzekyogzypump",
       "tokenAddress": "4ssDxLh4BpzVVC6WsZHfoSYAVDhR8hpWzekyoGzYpump",
       "description": "Meepcat is the wide-eyed calico taking over Solana as the next viral meme token."
-    },
-    {
-      "url": "https://dexscreener.com/solana/3w3k5i4t2varm1uzjhh48dw4unhjtg3wk8gs2inmnuzv",
-      "tokenAddress": "3W3K5i4T2vARM1UzJHh48dw4uNhjtg3Wk8GS2inmNUZV",
-      "description": "The onchain social economy. Earn by posting what is going viral.  Launch tokens. Power tokenized UGC campaigns with 10,0"
     },
     {
       "url": "https://dexscreener.com/solana/d3z5rxpgwtvac7uxfsen4itlbphynvhvlrzxbmmupump",
@@ -64,13 +59,18 @@
       "description": "Fees to @Github"
     },
     {
-      "url": "https://dexscreener.com/solana/73nboteeajawanp8aytduzbx6ag3jchm4cpxgi8tpump",
-      "tokenAddress": "73nBoTeEAJAWaNP8ayTDUZbx6ag3JcHm4CPxGi8Tpump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/d8bnpry9fsnxjxrmxx2qv5kjcdg9rvsirhj2bfuypgoq",
+      "tokenAddress": "D8BNpRy9FSNXjXRMxX2qV5KJcdg9rVsirHj2bfUyPGoq",
+      "description": "donut fade this meme."
+    },
+    {
+      "url": "https://dexscreener.com/solana/debetv2ycucz7c4h7mnjayjn2mcr4enmfbfdrzempump",
+      "tokenAddress": "DeBEtV2ycUcZ7c4h7MnJAyjN2MCR4enmFbfDRZempump",
+      "description": "Long The Cat"
     }
   ],
   "fearGreed": {
-    "value": 56,
+    "value": 71,
     "label": "Greed"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
