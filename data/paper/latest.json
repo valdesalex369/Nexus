@@ -1,42 +1,37 @@
 {
-  "at": "2026-09-19T14:49:13.729900+00:00",
+  "at": "2026-09-19T18:03:23.272750+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81520.0,
-      "changePct": 0.8697721812179074,
+      "price": 81444.0,
+      "changePct": 0.6527312212025628,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2639.01,
-      "changePct": 2.44738708819668,
+      "price": 2644.6,
+      "changePct": 1.5505417671968966,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 111.83,
-      "changePct": 0.9682432222095336,
+      "price": 111.43,
+      "changePct": -0.8171000137371567,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 770.18,
-      "changePct": 1.4325735587324024,
+      "price": 762.8,
+      "changePct": 0.19163528929224477,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/4ssdxlh4bpzvvc6wszhfosyavdhr8hpwzekyogzypump",
-      "tokenAddress": "4ssDxLh4BpzVVC6WsZHfoSYAVDhR8hpWzekyoGzYpump",
-      "description": "Meepcat is the wide-eyed calico taking over Solana as the next viral meme token."
-    },
-    {
-      "url": "https://dexscreener.com/solana/d3z5rxpgwtvac7uxfsen4itlbphynvhvlrzxbmmupump",
-      "tokenAddress": "D3Z5RXPGWtvAc7UxFSeN4itLBPHyNVhVLRzXBMmUpump",
-      "description": "Welcome to $BABYCATE \ud83d\udc31\n\n$CATE is on a generational run and if the vision plays out, we believe hundreds of millions coul"
+      "url": "https://dexscreener.com/solana/g9qzfephtzruf1arcufvzgyn6zsqlzdvcjcuyhkrpump",
+      "tokenAddress": "G9QZfEPHtZrUF1arcUFvZgYn6zSQLZdvcjCuyhKrpump",
+      "description": "Stryker is the giant wild-looking cat ready to conquer the meme market."
     },
     {
       "url": "https://dexscreener.com/solana/27mr5eybig1ihc4boyursrqebwdfp9oya3v7f5lmduwu",
@@ -49,14 +44,9 @@
       "description": "Every trade carries a charm."
     },
     {
-      "url": "https://dexscreener.com/solana/91ryaco5ygpyzm3bs6gups97vwjqj7rozbmqpulgpump",
-      "tokenAddress": "91ryaCo5yGpYZM3bs6GUPs97VWJQj7RozBmqPULgpump",
-      "description": "91ryaCo5yGpYZM3bs6GUPs97VWJQj7RozBmqPULgpump; All trading fees are donated to Tigrino's carers - La Senda Verde Refuge S"
-    },
-    {
-      "url": "https://dexscreener.com/solana/692mdh1nbx6gf2xyculvjuqvdsvgi6cbqatrmqcxpump",
-      "tokenAddress": "692MdH1nbX6gf2xYcULvJUqVDsVgi6cbQatrMqCxpump",
-      "description": "the galaxy-eyed rescue with a toothless smile, 2.8 million TikTok views, and bigger dreams than a body that small should"
+      "url": "https://dexscreener.com/solana/eyoepkwpgrrj7fg3lbl51nzcqxmeyi6ph9cc5wtbpump",
+      "tokenAddress": "EYoepkwPGRRJ7fg3LbL51NZCQXMeyi6pH9Cc5Wtbpump",
+      "description": "Shy golden Scottish Straight with hamster cheeks \u2014 the next cat meme on Solana. Meow or fade"
     },
     {
       "url": "https://dexscreener.com/solana/gyrdgn9yrzdeawxfagqe3qrufad3duyq5jadhrpvpump",
@@ -64,9 +54,19 @@
       "description": "Internet culture belongs to everyone.\n\nEvery meme, trend, inside joke, viral moment, and online community started with o"
     },
     {
-      "url": "https://dexscreener.com/solana/57ebr7xfeedwr44gtfl2ca2nhtpgbzxph4bhbzwjccgi",
-      "tokenAddress": "57eBR7XfEEdWR44gTfL2cA2nhTpGbzXph4BHBzWjcCgi",
-      "description": "Fees to @Github"
+      "url": "https://dexscreener.com/solana/g2dpfqw1gdjrygxmr4q1ezjjuaau1byv99ttuum4pump",
+      "tokenAddress": "G2DPFQW1gdjrYGXmr4q1eZjJUAAU1byv99TtUUm4pump",
+      "description": "Give imagination\na form.\nThen let it fly.\nFrom the first point to the final frame.\nAn AI video platform for the beautifu"
+    },
+    {
+      "url": "https://dexscreener.com/solana/dnjeap7hwjvnttk1nuadj5aps9qdrossemckbcpstnk",
+      "tokenAddress": "DnJeAP7hWjVNTTk1NUaDJ5Aps9qDroSsEMcKBCpSTNK",
+      "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/d8bnpry9fsnxjxrmxx2qv5kjcdg9rvsirhj2bfuypgoq",
+      "tokenAddress": "D8BNpRy9FSNXjXRMxX2qV5KJcdg9rVsirHj2bfUyPGoq",
+      "description": "donut fade this meme."
     }
   ],
   "fearGreed": {
