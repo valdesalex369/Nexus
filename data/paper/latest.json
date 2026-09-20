@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-19T22:31:05.976524+00:00",
+  "at": "2026-09-20T00:25:40.581472+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81041.0,
-      "changePct": -0.24951398458334462,
+      "price": 81188.0,
+      "changePct": 0.15795032114288665,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2620.66,
-      "changePct": -0.4038198954323112,
+      "price": 2626.96,
+      "changePct": 0.44705809793627205,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 110.15,
-      "changePct": -2.7008324356974347,
+      "price": 110.67,
+      "changePct": -2.0323669737446677,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 758.76,
-      "changePct": -0.62026477539583,
+      "price": 761.35,
+      "changePct": 0.020845574221019167,
       "source": "CoinGecko"
     }
   ],
@@ -49,11 +49,6 @@
       "description": "Shy golden Scottish Straight with hamster cheeks \u2014 the next cat meme on Solana. Meow or fade"
     },
     {
-      "url": "https://dexscreener.com/solana/gyrdgn9yrzdeawxfagqe3qrufad3duyq5jadhrpvpump",
-      "tokenAddress": "GyrdGn9yrZDeAwXfaGqe3QRuFAd3duYQ5jAdHrPvpump",
-      "description": "Internet culture belongs to everyone.\n\nEvery meme, trend, inside joke, viral moment, and online community started with o"
-    },
-    {
       "url": "https://dexscreener.com/solana/dnjeap7hwjvnttk1nuadj5aps9qdrossemckbcpstnk",
       "tokenAddress": "DnJeAP7hWjVNTTk1NUaDJ5Aps9qDroSsEMcKBCpSTNK",
       "description": ""
@@ -62,6 +57,11 @@
       "url": "https://dexscreener.com/solana/g2dpfqw1gdjrygxmr4q1ezjjuaau1byv99ttuum4pump",
       "tokenAddress": "G2DPFQW1gdjrYGXmr4q1eZjJUAAU1byv99TtUUm4pump",
       "description": "Give imagination\na form.\nThen let it fly.\nFrom the first point to the final frame.\nAn AI video platform for the beautifu"
+    },
+    {
+      "url": "https://dexscreener.com/solana/gyrdgn9yrzdeawxfagqe3qrufad3duyq5jadhrpvpump",
+      "tokenAddress": "GyrdGn9yrZDeAwXfaGqe3QRuFAd3duYQ5jAdHrPvpump",
+      "description": "Internet culture belongs to everyone.\n\nEvery meme, trend, inside joke, viral moment, and online community started with o"
     },
     {
       "url": "https://dexscreener.com/solana/cdajxmv2e4prtwkav8acmmddjvey3igarwvg6zc8pump",
@@ -73,7 +73,7 @@
     "value": 71,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
