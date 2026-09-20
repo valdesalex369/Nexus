@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-20T19:47:22.957771+00:00",
+  "at": "2026-09-20T22:28:28.148708+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81212.0,
-      "changePct": -0.12016301054930681,
+      "price": 81112.0,
+      "changePct": 0.10644046134079466,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2634.01,
-      "changePct": -0.04488136830854195,
+      "price": 2637.25,
+      "changePct": 0.6331198585005429,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 110.29,
-      "changePct": -0.8312414379705011,
+      "price": 110.35,
+      "changePct": 0.21053176397790055,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 769.15,
-      "changePct": 0.7873767313278839,
+      "price": 769.3,
+      "changePct": 1.3898514233153672,
       "source": "CoinGecko"
     }
   ],
@@ -54,9 +54,9 @@
       "description": "The Black Jean brings iconic style, bold memes, and unstoppable crypto energy to the blockchain."
     },
     {
-      "url": "https://dexscreener.com/solana/gh8d1nunv2yrb6xuxn1lrm8b5p2utqqfeyv1vws8pump",
-      "tokenAddress": "GH8d1NUnv2YRb6xUxn1LRm8B5p2uTqQFeyV1VWs8pump",
-      "description": "Zcash Cat is taking the $ZEC narrative to Solana. \nOne meme at a time, $ZCASHCAT is building its own identity around the"
+      "url": "https://dexscreener.com/solana/hyt5eh6o5gvrbutwvguzhsbdhmrndrxbopw6jfdfpump",
+      "tokenAddress": "HYT5Eh6o5GvrbuTwVGUZHSBdhmRndRXbopW6jfDFpump",
+      "description": "Jeancoin brings iconic style, fearless meme energy, and bullish confidence to the Solana trenches."
     },
     {
       "url": "https://dexscreener.com/solana/ad881pycczmgvmsvuvynmvqnhn929qdvyklf9inlpump",
@@ -64,16 +64,16 @@
       "description": "Meet Philandog"
     },
     {
-      "url": "https://dexscreener.com/solana/6lrdt7nbihrauuk9pzoul8qy9wx6pnspdz1rkwwrr7hn",
-      "tokenAddress": "6LrDt7nBiHraUuk9PZoUL8Qy9WX6pnSpDz1RkWWRR7hN",
-      "description": "The INU amongst thousands of other INUs"
+      "url": "https://dexscreener.com/solana/5pndvuucfbdkks8s6zaemh81fvleeukgvzumf2hopump",
+      "tokenAddress": "5pnDvUUCfbDkks8s6ZAEmh81FVLeEuKGVZUMf2hopump",
+      "description": ""
     }
   ],
   "fearGreed": {
     "value": 71,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
