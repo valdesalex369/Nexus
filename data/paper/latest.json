@@ -1,37 +1,37 @@
 {
-  "at": "2026-09-20T14:14:23.961688+00:00",
+  "at": "2026-09-20T17:30:53.529359+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80583.0,
-      "changePct": -0.9563457686813597,
+      "price": 81158.0,
+      "changePct": -0.39328205943872807,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2582.32,
-      "changePct": -2.080447318029064,
+      "price": 2623.32,
+      "changePct": -0.7693861206881222,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 108.32,
-      "changePct": -2.850638518786716,
+      "price": 109.58,
+      "changePct": -1.716609075156022,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 753.52,
-      "changePct": -2.179942262848821,
+      "price": 760.69,
+      "changePct": -0.4104912647290065,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/g9qzfephtzruf1arcufvzgyn6zsqlzdvcjcuyhkrpump",
-      "tokenAddress": "G9QZfEPHtZrUF1arcUFvZgYn6zSQLZdvcjCuyhKrpump",
-      "description": "Stryker is the giant wild-looking cat ready to conquer the meme market."
+      "url": "https://dexscreener.com/solana/cdac33jvozj1ujxbmkvzgjcvxoxdh9igxebxujdxpump",
+      "tokenAddress": "CDAC33JvozJ1UjxBMkvZgJcVXoxdH9iGxeBXUJdXpump",
+      "description": "Jean Wojak is another internet-culture meme legend reborn on Solana"
     },
     {
       "url": "https://dexscreener.com/solana/91ryaco5ygpyzm3bs6gups97vwjqj7rozbmqpulgpump",
@@ -44,14 +44,9 @@
       "description": "paidcate already got paid"
     },
     {
-      "url": "https://dexscreener.com/solana/eyoepkwpgrrj7fg3lbl51nzcqxmeyi6ph9cc5wtbpump",
-      "tokenAddress": "EYoepkwPGRRJ7fg3LbL51NZCQXMeyi6pH9Cc5Wtbpump",
-      "description": "Shy golden Scottish Straight with hamster cheeks \u2014 the next cat meme on Solana. Meow or fade"
-    },
-    {
-      "url": "https://dexscreener.com/solana/dz84quh3fwrg5pbj1wqpkszo9z1nslqpspz21yrspump",
-      "tokenAddress": "DZ84Quh3Fwrg5pBj1wQPkszo9Z1nSLQPSpZ21yrSpump",
-      "description": "Hecker"
+      "url": "https://dexscreener.com/solana/4qckwhetnj2sd5xkhtmuyw5ac2rt9gkw2w72ix2wpump",
+      "tokenAddress": "4QCKwhetNJ2Sd5xKhtmUYw5aC2rT9gKW2W72ix2Wpump",
+      "description": "The Black Jean brings iconic style, bold memes, and unstoppable crypto energy to the blockchain."
     },
     {
       "url": "https://dexscreener.com/solana/ad881pycczmgvmsvuvynmvqnhn929qdvyklf9inlpump",
@@ -67,6 +62,11 @@
       "url": "https://dexscreener.com/solana/6lrdt7nbihrauuk9pzoul8qy9wx6pnspdz1rkwwrr7hn",
       "tokenAddress": "6LrDt7nBiHraUuk9PZoUL8Qy9WX6pnSpDz1RkWWRR7hN",
       "description": "The INU amongst thousands of other INUs"
+    },
+    {
+      "url": "https://dexscreener.com/solana/dcixmhczeozajxxk4citwnqftrtk6rypnj9atd5cfocq",
+      "tokenAddress": "DCixmHczeozajxxk4CitwnQftrTK6ryPNJ9ATD5cFoCQ",
+      "description": "BITSHARK"
     }
   ],
   "fearGreed": {
