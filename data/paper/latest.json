@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-20T00:25:40.581472+00:00",
+  "at": "2026-09-20T05:26:47.668959+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81188.0,
-      "changePct": 0.15795032114288665,
+      "price": 80467.0,
+      "changePct": -0.7301271809744568,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2626.96,
-      "changePct": 0.44705809793627205,
+      "price": 2576.76,
+      "changePct": -1.946739722369952,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 110.67,
-      "changePct": -2.0323669737446677,
+      "price": 108.78,
+      "changePct": -3.609081162108242,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 761.35,
-      "changePct": 0.020845574221019167,
+      "price": 748.84,
+      "changePct": -1.9198554904442018,
       "source": "CoinGecko"
     }
   ],
@@ -39,11 +39,6 @@
       "description": "paidcate already got paid"
     },
     {
-      "url": "https://dexscreener.com/solana/27mr5eybig1ihc4boyursrqebwdfp9oya3v7f5lmduwu",
-      "tokenAddress": "27MR5EYbig1ihc4BoYURSRqEbWdfP9oyA3V7F5LmdUwu",
-      "description": "The Official Wynn Meme token.\n \nWYNN WYNN WYNN\n \n$WYNN"
-    },
-    {
       "url": "https://dexscreener.com/solana/eyoepkwpgrrj7fg3lbl51nzcqxmeyi6ph9cc5wtbpump",
       "tokenAddress": "EYoepkwPGRRJ7fg3LbL51NZCQXMeyi6pH9Cc5Wtbpump",
       "description": "Shy golden Scottish Straight with hamster cheeks \u2014 the next cat meme on Solana. Meow or fade"
@@ -54,26 +49,31 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/g2dpfqw1gdjrygxmr4q1ezjjuaau1byv99ttuum4pump",
-      "tokenAddress": "G2DPFQW1gdjrYGXmr4q1eZjJUAAU1byv99TtUUm4pump",
-      "description": "Give imagination\na form.\nThen let it fly.\nFrom the first point to the final frame.\nAn AI video platform for the beautifu"
-    },
-    {
-      "url": "https://dexscreener.com/solana/gyrdgn9yrzdeawxfagqe3qrufad3duyq5jadhrpvpump",
-      "tokenAddress": "GyrdGn9yrZDeAwXfaGqe3QRuFAd3duYQ5jAdHrPvpump",
-      "description": "Internet culture belongs to everyone.\n\nEvery meme, trend, inside joke, viral moment, and online community started with o"
-    },
-    {
       "url": "https://dexscreener.com/solana/cdajxmv2e4prtwkav8acmmddjvey3igarwvg6zc8pump",
       "tokenAddress": "CdAjXmV2E4PRtwKaV8aCMmDdJVeY3iGARWvG6Zc8pump",
       "description": "CASH OUT is the obvious next step. X is bringing money closer to the people who create, post, and build on the internet."
+    },
+    {
+      "url": "https://dexscreener.com/solana/dz84quh3fwrg5pbj1wqpkszo9z1nslqpspz21yrspump",
+      "tokenAddress": "DZ84Quh3Fwrg5pBj1wQPkszo9Z1nSLQPSpZ21yrSpump",
+      "description": "Hecker"
+    },
+    {
+      "url": "https://dexscreener.com/solana/ad881pycczmgvmsvuvynmvqnhn929qdvyklf9inlpump",
+      "tokenAddress": "Ad881PycCzmgVmSvuvynMVQnhN929QDVykLf9iNLpump",
+      "description": "Meet Philandog"
+    },
+    {
+      "url": "https://dexscreener.com/solana/cjmk2cgkuzt2sjtnkhs7bvywtb6ddxvefpsfyrivpump",
+      "tokenAddress": "CJmk2CGKuzT2sJtnkhs7BVYwTb6dDXveFPSfYriVpump",
+      "description": ""
     }
   ],
   "fearGreed": {
     "value": 71,
     "label": "Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
