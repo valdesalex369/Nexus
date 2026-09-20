@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-20T17:30:53.529359+00:00",
+  "at": "2026-09-20T19:47:22.957771+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81158.0,
-      "changePct": -0.39328205943872807,
+      "price": 81212.0,
+      "changePct": -0.12016301054930681,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2623.32,
-      "changePct": -0.7693861206881222,
+      "price": 2634.01,
+      "changePct": -0.04488136830854195,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 109.58,
-      "changePct": -1.716609075156022,
+      "price": 110.29,
+      "changePct": -0.8312414379705011,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 760.69,
-      "changePct": -0.4104912647290065,
+      "price": 769.15,
+      "changePct": 0.7873767313278839,
       "source": "CoinGecko"
     }
   ],
@@ -39,9 +39,14 @@
       "description": "Tigrino is the only known member of Leopardus tilcayo, the first new cat species discovered in over 100 years (Current B"
     },
     {
-      "url": "https://dexscreener.com/solana/4cbcbqh7ra22clszu1bamphw4tlfu5zz7isyx2fupump",
-      "tokenAddress": "4cBCbqh7Ra22cLSZU1baMpHw4tLfu5Zz7isyx2fupump",
-      "description": "paidcate already got paid"
+      "url": "https://dexscreener.com/solana/4gbumkwqggtds3hgwylzcytvzznxr8jce5gvrhj8pump",
+      "tokenAddress": "4gBUMKWQgGtDS3HgwYLZCytvzzNxr8JCE5gVRhj8pump",
+      "description": "CATESHI THE TRILLION DOLLAR CAT"
+    },
+    {
+      "url": "https://dexscreener.com/solana/bp4wic5lnksqpmirew6unvec16juvfcsd4wzvbatpump",
+      "tokenAddress": "BP4Wic5LNKsqpmiREW6uNVEC16juvFCSd4WzVBatpump",
+      "description": "Making your \n@fomo\n balance spendable everywhere online."
     },
     {
       "url": "https://dexscreener.com/solana/4qckwhetnj2sd5xkhtmuyw5ac2rt9gkw2w72ix2wpump",
@@ -49,24 +54,19 @@
       "description": "The Black Jean brings iconic style, bold memes, and unstoppable crypto energy to the blockchain."
     },
     {
-      "url": "https://dexscreener.com/solana/ad881pycczmgvmsvuvynmvqnhn929qdvyklf9inlpump",
-      "tokenAddress": "Ad881PycCzmgVmSvuvynMVQnhN929QDVykLf9iNLpump",
-      "description": "Meet Philandog"
-    },
-    {
       "url": "https://dexscreener.com/solana/gh8d1nunv2yrb6xuxn1lrm8b5p2utqqfeyv1vws8pump",
       "tokenAddress": "GH8d1NUnv2YRb6xUxn1LRm8B5p2uTqQFeyV1VWs8pump",
       "description": "Zcash Cat is taking the $ZEC narrative to Solana. \nOne meme at a time, $ZCASHCAT is building its own identity around the"
     },
     {
+      "url": "https://dexscreener.com/solana/ad881pycczmgvmsvuvynmvqnhn929qdvyklf9inlpump",
+      "tokenAddress": "Ad881PycCzmgVmSvuvynMVQnhN929QDVykLf9iNLpump",
+      "description": "Meet Philandog"
+    },
+    {
       "url": "https://dexscreener.com/solana/6lrdt7nbihrauuk9pzoul8qy9wx6pnspdz1rkwwrr7hn",
       "tokenAddress": "6LrDt7nBiHraUuk9PZoUL8Qy9WX6pnSpDz1RkWWRR7hN",
       "description": "The INU amongst thousands of other INUs"
-    },
-    {
-      "url": "https://dexscreener.com/solana/dcixmhczeozajxxk4citwnqftrtk6rypnj9atd5cfocq",
-      "tokenAddress": "DCixmHczeozajxxk4CitwnQftrTK6ryPNJ9ATD5cFoCQ",
-      "description": "BITSHARK"
     }
   ],
   "fearGreed": {
