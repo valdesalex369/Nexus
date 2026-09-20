@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-20T05:26:47.668959+00:00",
+  "at": "2026-09-20T10:07:37.319727+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80467.0,
-      "changePct": -0.7301271809744568,
+      "price": 80469.0,
+      "changePct": -0.9645256410112697,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2576.76,
-      "changePct": -1.946739722369952,
+      "price": 2579.33,
+      "changePct": -2.2625687510668886,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 108.78,
-      "changePct": -3.609081162108242,
+      "price": 108.25,
+      "changePct": -3.1383963689135137,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 748.84,
-      "changePct": -1.9198554904442018,
+      "price": 750.85,
+      "changePct": -2.0632059668475526,
       "source": "CoinGecko"
     }
   ],
@@ -44,16 +44,6 @@
       "description": "Shy golden Scottish Straight with hamster cheeks \u2014 the next cat meme on Solana. Meow or fade"
     },
     {
-      "url": "https://dexscreener.com/solana/dnjeap7hwjvnttk1nuadj5aps9qdrossemckbcpstnk",
-      "tokenAddress": "DnJeAP7hWjVNTTk1NUaDJ5Aps9qDroSsEMcKBCpSTNK",
-      "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/cdajxmv2e4prtwkav8acmmddjvey3igarwvg6zc8pump",
-      "tokenAddress": "CdAjXmV2E4PRtwKaV8aCMmDdJVeY3iGARWvG6Zc8pump",
-      "description": "CASH OUT is the obvious next step. X is bringing money closer to the people who create, post, and build on the internet."
-    },
-    {
       "url": "https://dexscreener.com/solana/dz84quh3fwrg5pbj1wqpkszo9z1nslqpspz21yrspump",
       "tokenAddress": "DZ84Quh3Fwrg5pBj1wQPkszo9Z1nSLQPSpZ21yrSpump",
       "description": "Hecker"
@@ -64,9 +54,19 @@
       "description": "Meet Philandog"
     },
     {
-      "url": "https://dexscreener.com/solana/cjmk2cgkuzt2sjtnkhs7bvywtb6ddxvefpsfyrivpump",
-      "tokenAddress": "CJmk2CGKuzT2sJtnkhs7BVYwTb6dDXveFPSfYriVpump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/gh8d1nunv2yrb6xuxn1lrm8b5p2utqqfeyv1vws8pump",
+      "tokenAddress": "GH8d1NUnv2YRb6xUxn1LRm8B5p2uTqQFeyV1VWs8pump",
+      "description": "Zcash Cat is taking the $ZEC narrative to Solana. \nOne meme at a time, $ZCASHCAT is building its own identity around the"
+    },
+    {
+      "url": "https://dexscreener.com/solana/671hgnybtsdl9d6w4684nuarbwczdn9gk7hiddskggwp",
+      "tokenAddress": "671HGnyBtSdL9D6W4684nuARBWCZDN9gK7HidDsKGgwP",
+      "description": "Good Game. Well Prediction.\nEsports & Sports Prediction Market. \nUp to 50% cashback in $GGWP \u2022 20% in SOL."
+    },
+    {
+      "url": "https://dexscreener.com/solana/6lrdt7nbihrauuk9pzoul8qy9wx6pnspdz1rkwwrr7hn",
+      "tokenAddress": "6LrDt7nBiHraUuk9PZoUL8Qy9WX6pnSpDz1RkWWRR7hN",
+      "description": "The INU amongst thousands of other INUs"
     }
   ],
   "fearGreed": {
