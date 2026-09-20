@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-20T10:07:37.319727+00:00",
+  "at": "2026-09-20T14:14:23.961688+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80469.0,
-      "changePct": -0.9645256410112697,
+      "price": 80583.0,
+      "changePct": -0.9563457686813597,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2579.33,
-      "changePct": -2.2625687510668886,
+      "price": 2582.32,
+      "changePct": -2.080447318029064,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 108.25,
-      "changePct": -3.1383963689135137,
+      "price": 108.32,
+      "changePct": -2.850638518786716,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 750.85,
-      "changePct": -2.0632059668475526,
+      "price": 753.52,
+      "changePct": -2.179942262848821,
       "source": "CoinGecko"
     }
   ],
@@ -32,6 +32,11 @@
       "url": "https://dexscreener.com/solana/g9qzfephtzruf1arcufvzgyn6zsqlzdvcjcuyhkrpump",
       "tokenAddress": "G9QZfEPHtZrUF1arcUFvZgYn6zSQLZdvcjCuyhKrpump",
       "description": "Stryker is the giant wild-looking cat ready to conquer the meme market."
+    },
+    {
+      "url": "https://dexscreener.com/solana/91ryaco5ygpyzm3bs6gups97vwjqj7rozbmqpulgpump",
+      "tokenAddress": "91ryaCo5yGpYZM3bs6GUPs97VWJQj7RozBmqPULgpump",
+      "description": "Tigrino is the only known member of Leopardus tilcayo, the first new cat species discovered in over 100 years (Current B"
     },
     {
       "url": "https://dexscreener.com/solana/4cbcbqh7ra22clszu1bamphw4tlfu5zz7isyx2fupump",
@@ -57,11 +62,6 @@
       "url": "https://dexscreener.com/solana/gh8d1nunv2yrb6xuxn1lrm8b5p2utqqfeyv1vws8pump",
       "tokenAddress": "GH8d1NUnv2YRb6xUxn1LRm8B5p2uTqQFeyV1VWs8pump",
       "description": "Zcash Cat is taking the $ZEC narrative to Solana. \nOne meme at a time, $ZCASHCAT is building its own identity around the"
-    },
-    {
-      "url": "https://dexscreener.com/solana/671hgnybtsdl9d6w4684nuarbwczdn9gk7hiddskggwp",
-      "tokenAddress": "671HGnyBtSdL9D6W4684nuARBWCZDN9gK7HidDsKGgwP",
-      "description": "Good Game. Well Prediction.\nEsports & Sports Prediction Market. \nUp to 50% cashback in $GGWP \u2022 20% in SOL."
     },
     {
       "url": "https://dexscreener.com/solana/6lrdt7nbihrauuk9pzoul8qy9wx6pnspdz1rkwwrr7hn",
