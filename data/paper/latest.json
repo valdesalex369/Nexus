@@ -1,47 +1,47 @@
 {
-  "at": "2026-09-21T11:08:06.579948+00:00",
+  "at": "2026-09-21T17:05:04.150925+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84481.0,
-      "changePct": 5.176532791904408,
+      "price": 85964.0,
+      "changePct": 5.744458768212088,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2717.63,
-      "changePct": 5.660340600601243,
+      "price": 2754.12,
+      "changePct": 4.287469497244273,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 116.07,
-      "changePct": 7.349960023229041,
+      "price": 117.51,
+      "changePct": 6.625179763668823,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 785.75,
-      "changePct": 4.871766355189631,
+      "price": 797.73,
+      "changePct": 4.570940005350059,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/cdac33jvozj1ujxbmkvzgjcvxoxdh9igxebxujdxpump",
-      "tokenAddress": "CDAC33JvozJ1UjxBMkvZgJcVXoxdH9iGxeBXUJdXpump",
-      "description": "Jean Wojak is another internet-culture meme legend reborn on Solana"
-    },
-    {
-      "url": "https://dexscreener.com/solana/91ryaco5ygpyzm3bs6gups97vwjqj7rozbmqpulgpump",
-      "tokenAddress": "91ryaCo5yGpYZM3bs6GUPs97VWJQj7RozBmqPULgpump",
-      "description": "Tigrino is the only known member of Leopardus tilcayo, the first new cat species discovered in over 100 years (Current B"
-    },
-    {
       "url": "https://dexscreener.com/solana/4gbumkwqggtds3hgwylzcytvzznxr8jce5gvrhj8pump",
       "tokenAddress": "4gBUMKWQgGtDS3HgwYLZCytvzzNxr8JCE5gVRhj8pump",
       "description": "CATESHI THE TRILLION DOLLAR CAT"
+    },
+    {
+      "url": "https://dexscreener.com/solana/3dihkgvutjvzxipjgl7cr9a9ifpsyi6k39rydmueb9qx",
+      "tokenAddress": "3dihkgvUTJVZXipJgL7cr9A9ifpSYi6k39rYDMuEb9QX",
+      "description": "you can identify as 74 genders.\nthere were only two people in that room.\n$UMFUD"
+    },
+    {
+      "url": "https://dexscreener.com/solana/fzixbtmmbxfbr8xqtwxarcdmqsevqm3dyeay4wwejppq",
+      "tokenAddress": "FZixBtMMBxfbr8XqtWxARcDmqsEvQM3dYeAy4WwEjpPq",
+      "description": "lil bub"
     },
     {
       "url": "https://dexscreener.com/solana/94jwpm2zzuommz7gcimyqgubfsmub9z4muzs6wufpump",
@@ -54,11 +54,6 @@
       "description": "Jeancoin brings iconic style, fearless meme energy, and bullish confidence to the Solana trenches."
     },
     {
-      "url": "https://dexscreener.com/solana/4qckwhetnj2sd5xkhtmuyw5ac2rt9gkw2w72ix2wpump",
-      "tokenAddress": "4QCKwhetNJ2Sd5xKhtmUYw5aC2rT9gKW2W72ix2Wpump",
-      "description": "The Black Jean brings iconic style, bold memes, and unstoppable crypto energy to the blockchain."
-    },
-    {
       "url": "https://dexscreener.com/solana/4hn45gtgco39fzx3euk5gipnkkzuveycraoffpuhpump",
       "tokenAddress": "4hN45GtgCo39FZx3EUK5GiPNkkzUvEYCrAoffPuhpump",
       "description": "$CASHLESS represents the movement toward seamless, borderless, and increasingly digital money. A future where money move"
@@ -67,6 +62,11 @@
       "url": "https://dexscreener.com/solana/8k4sbteek4pf26nokqapv8nbtnusjcbdwpkyknk5pbaa",
       "tokenAddress": "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA",
       "description": "The dog of Maye Musk. All fees go directly to Maye Musk via X money."
+    },
+    {
+      "url": "https://dexscreener.com/solana/dsjpncjfrqdxgz96uzohamm9pqjjuxwfq6gy6do9cslt",
+      "tokenAddress": "DsjPNCjFrQDXGZ96UzohaMm9PQJJUxWFQ6Gy6do9CSLT",
+      "description": "The official Bingus memecoin."
     }
   ],
   "fearGreed": {
