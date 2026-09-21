@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-20T22:28:28.148708+00:00",
+  "at": "2026-09-21T00:31:30.739023+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81112.0,
-      "changePct": 0.10644046134079466,
+      "price": 81728.0,
+      "changePct": 0.5737229444607053,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2637.25,
-      "changePct": 0.6331198585005429,
+      "price": 2685.46,
+      "changePct": 2.195727641531995,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 110.35,
-      "changePct": 0.21053176397790055,
+      "price": 112.32,
+      "changePct": 1.3490038566374678,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 769.3,
-      "changePct": 1.3898514233153672,
+      "price": 777.77,
+      "changePct": 2.1066400280704873,
       "source": "CoinGecko"
     }
   ],
@@ -44,6 +44,16 @@
       "description": "CATESHI THE TRILLION DOLLAR CAT"
     },
     {
+      "url": "https://dexscreener.com/solana/94jwpm2zzuommz7gcimyqgubfsmub9z4muzs6wufpump",
+      "tokenAddress": "94jwPm2zZUoMmz7gciMyqGubfsmub9Z4MUzs6WuFpump",
+      "description": "Bullcoin"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hyt5eh6o5gvrbutwvguzhsbdhmrndrxbopw6jfdfpump",
+      "tokenAddress": "HYT5Eh6o5GvrbuTwVGUZHSBdhmRndRXbopW6jfDFpump",
+      "description": "Jeancoin brings iconic style, fearless meme energy, and bullish confidence to the Solana trenches."
+    },
+    {
       "url": "https://dexscreener.com/solana/bp4wic5lnksqpmirew6unvec16juvfcsd4wzvbatpump",
       "tokenAddress": "BP4Wic5LNKsqpmiREW6uNVEC16juvFCSd4WzVBatpump",
       "description": "Making your \n@fomo\n balance spendable everywhere online."
@@ -54,23 +64,13 @@
       "description": "The Black Jean brings iconic style, bold memes, and unstoppable crypto energy to the blockchain."
     },
     {
-      "url": "https://dexscreener.com/solana/hyt5eh6o5gvrbutwvguzhsbdhmrndrxbopw6jfdfpump",
-      "tokenAddress": "HYT5Eh6o5GvrbuTwVGUZHSBdhmRndRXbopW6jfDFpump",
-      "description": "Jeancoin brings iconic style, fearless meme energy, and bullish confidence to the Solana trenches."
-    },
-    {
-      "url": "https://dexscreener.com/solana/ad881pycczmgvmsvuvynmvqnhn929qdvyklf9inlpump",
-      "tokenAddress": "Ad881PycCzmgVmSvuvynMVQnhN929QDVykLf9iNLpump",
-      "description": "Meet Philandog"
-    },
-    {
       "url": "https://dexscreener.com/solana/5pndvuucfbdkks8s6zaemh81fvleeukgvzumf2hopump",
       "tokenAddress": "5pnDvUUCfbDkks8s6ZAEmh81FVLeEuKGVZUMf2hopump",
       "description": ""
     }
   ],
   "fearGreed": {
-    "value": 71,
+    "value": 70,
     "label": "Greed"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
