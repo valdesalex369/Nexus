@@ -1,42 +1,47 @@
 {
-  "at": "2026-09-21T17:05:04.150925+00:00",
+  "at": "2026-09-21T21:05:50.019182+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 85964.0,
-      "changePct": 5.744458768212088,
+      "price": 86795.0,
+      "changePct": 7.305012282638041,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2754.12,
-      "changePct": 4.287469497244273,
+      "price": 2775.61,
+      "changePct": 5.837943763218409,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 117.51,
-      "changePct": 6.625179763668823,
+      "price": 119.01,
+      "changePct": 8.480627164711786,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 797.73,
-      "changePct": 4.570940005350059,
+      "price": 803.66,
+      "changePct": 4.96054846391037,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/4gbumkwqggtds3hgwylzcytvzznxr8jce5gvrhj8pump",
-      "tokenAddress": "4gBUMKWQgGtDS3HgwYLZCytvzzNxr8JCE5gVRhj8pump",
-      "description": "CATESHI THE TRILLION DOLLAR CAT"
+      "url": "https://dexscreener.com/solana/8ere7rkkoigyjtcyqdfwmpnna8caky14xe6ryjjhadkp",
+      "tokenAddress": "8erE7RkkoiGYJtCyQdfwMpnNA8cAkY14Xe6RYjjHAdKP",
+      "description": "We wait patiently all day for the market to reach the absolute highest top, ape in with max leverage, watch our portfoli"
     },
     {
       "url": "https://dexscreener.com/solana/3dihkgvutjvzxipjgl7cr9a9ifpsyi6k39rydmueb9qx",
       "tokenAddress": "3dihkgvUTJVZXipJgL7cr9A9ifpSYi6k39rYDMuEb9QX",
       "description": "you can identify as 74 genders.\nthere were only two people in that room.\n$UMFUD"
+    },
+    {
+      "url": "https://dexscreener.com/solana/55wnkcf14dxhfc4wkh6vlpfhzesizujxg5xkrgmwpump",
+      "tokenAddress": "55wNKcF14DxhfC4Wkh6vLPfhZEsiZUJxG5XKRGMWpump",
+      "description": "GrembleCoin is more than a memecoin. Built around an original character a growing community and a long-term vision to tu"
     },
     {
       "url": "https://dexscreener.com/solana/fzixbtmmbxfbr8xqtwxarcdmqsevqm3dyeay4wwejppq",
@@ -62,11 +67,6 @@
       "url": "https://dexscreener.com/solana/8k4sbteek4pf26nokqapv8nbtnusjcbdwpkyknk5pbaa",
       "tokenAddress": "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA",
       "description": "The dog of Maye Musk. All fees go directly to Maye Musk via X money."
-    },
-    {
-      "url": "https://dexscreener.com/solana/dsjpncjfrqdxgz96uzohamm9pqjjuxwfq6gy6do9cslt",
-      "tokenAddress": "DsjPNCjFrQDXGZ96UzohaMm9PQJJUxWFQ6Gy6do9CSLT",
-      "description": "The official Bingus memecoin."
     }
   ],
   "fearGreed": {
