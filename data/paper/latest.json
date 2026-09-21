@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-21T05:32:00.592684+00:00",
+  "at": "2026-09-21T11:08:06.579948+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81567.0,
-      "changePct": 1.3122231834956244,
+      "price": 84481.0,
+      "changePct": 5.176532791904408,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2669.32,
-      "changePct": 3.563407450446184,
+      "price": 2717.63,
+      "changePct": 5.660340600601243,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 111.88,
-      "changePct": 2.713263894283842,
+      "price": 116.07,
+      "changePct": 7.349960023229041,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 774.53,
-      "changePct": 3.3479631804094514,
+      "price": 785.75,
+      "changePct": 4.871766355189631,
       "source": "CoinGecko"
     }
   ],
@@ -54,19 +54,19 @@
       "description": "Jeancoin brings iconic style, fearless meme energy, and bullish confidence to the Solana trenches."
     },
     {
-      "url": "https://dexscreener.com/solana/bp4wic5lnksqpmirew6unvec16juvfcsd4wzvbatpump",
-      "tokenAddress": "BP4Wic5LNKsqpmiREW6uNVEC16juvFCSd4WzVBatpump",
-      "description": "Making your \n@fomo\n balance spendable everywhere online."
-    },
-    {
       "url": "https://dexscreener.com/solana/4qckwhetnj2sd5xkhtmuyw5ac2rt9gkw2w72ix2wpump",
       "tokenAddress": "4QCKwhetNJ2Sd5xKhtmUYw5aC2rT9gKW2W72ix2Wpump",
       "description": "The Black Jean brings iconic style, bold memes, and unstoppable crypto energy to the blockchain."
     },
     {
-      "url": "https://dexscreener.com/solana/5pndvuucfbdkks8s6zaemh81fvleeukgvzumf2hopump",
-      "tokenAddress": "5pnDvUUCfbDkks8s6ZAEmh81FVLeEuKGVZUMf2hopump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/4hn45gtgco39fzx3euk5gipnkkzuveycraoffpuhpump",
+      "tokenAddress": "4hN45GtgCo39FZx3EUK5GiPNkkzUvEYCrAoffPuhpump",
+      "description": "$CASHLESS represents the movement toward seamless, borderless, and increasingly digital money. A future where money move"
+    },
+    {
+      "url": "https://dexscreener.com/solana/8k4sbteek4pf26nokqapv8nbtnusjcbdwpkyknk5pbaa",
+      "tokenAddress": "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA",
+      "description": "The dog of Maye Musk. All fees go directly to Maye Musk via X money."
     }
   ],
   "fearGreed": {
