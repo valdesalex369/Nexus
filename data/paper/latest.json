@@ -1,33 +1,38 @@
 {
-  "at": "2026-09-22T00:08:37.211762+00:00",
+  "at": "2026-09-22T05:00:42.149872+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 86429.0,
-      "changePct": 6.088907563663792,
+      "price": 85424.0,
+      "changePct": 4.972726312697148,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2772.08,
-      "changePct": 4.4056885340772824,
+      "price": 2727.01,
+      "changePct": 2.403307717301406,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 118.71,
-      "changePct": 6.253850080417209,
+      "price": 116.35,
+      "changePct": 4.3990822900519655,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 798.25,
-      "changePct": 2.9470950290169857,
+      "price": 786.67,
+      "changePct": 1.7180914226361237,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/hgtpj3rg2bwweopkaivy71kt8l8nqwmxxxfdchq2pump",
+      "tokenAddress": "Hgtpj3Rg2BWWeopkAiVy71KT8L8nQWMxxxFdChq2pump",
+      "description": "The end is near preparing for doomsday 2030 is the hedge against the elites and the new world order"
+    },
     {
       "url": "https://dexscreener.com/solana/5tyceekvn63rrzpomgf2jwmxjmhmr4zo19rx1mxipump",
       "tokenAddress": "5tYcEEKvN63RrzpomgF2jWMxJMHmr4Zo19RX1mXipump",
@@ -37,6 +42,11 @@
       "url": "https://dexscreener.com/solana/hzacankgkhncqgb1vwl8f4thjyrcmaxrpwk9ehr7gyyx",
       "tokenAddress": "HzaCANKGkhNcQGb1VWL8f4tHJYrCmaXrPWk9eHR7GYYX",
       "description": "\u4e3b\u306a\u304d\u30b3\u30a4\u30f3\u3002\u4e00\u5ea6\u935b\u3048\u3001\u6ce2\u3078\u653e\u3064\u3002\u6ce2\u306f\u30b3\u30a4\u30f3\u3092\u8fd4\u3059\u3002"
+    },
+    {
+      "url": "https://dexscreener.com/solana/blsuvtxkydl4vm4xmg3oejfssgfjzf3cgy98ri68pump",
+      "tokenAddress": "BLSuVTxKYDL4vm4XmG3oEJfsSGfJZF3cgy98ri68pump",
+      "description": "CATE on the runway. One issue, one kitten, nine looks \u2014 she finished five. $CATEWALK is the issue. Holding it puts you o"
     },
     {
       "url": "https://dexscreener.com/solana/8ere7rkkoigyjtcyqdfwmpnna8caky14xe6ryjjhadkp",
@@ -49,24 +59,14 @@
       "description": "you can identify as 74 genders.\nthere were only two people in that room.\n$UMFUD"
     },
     {
+      "url": "https://dexscreener.com/solana/huceu35oz1yku1ylbsyrl1uyanah59zckaypre2xpump",
+      "tokenAddress": "HUcEu35oz1yku1yLBSYRL1UyAnAh59ZCkAYPRe2xpump",
+      "description": "Speak it into existence."
+    },
+    {
       "url": "https://dexscreener.com/solana/55wnkcf14dxhfc4wkh6vlpfhzesizujxg5xkrgmwpump",
       "tokenAddress": "55wNKcF14DxhfC4Wkh6vLPfhZEsiZUJxG5XKRGMWpump",
       "description": "GrembleCoin is more than a memecoin. Built around an original character a growing community and a long-term vision to tu"
-    },
-    {
-      "url": "https://dexscreener.com/solana/fzixbtmmbxfbr8xqtwxarcdmqsevqm3dyeay4wwejppq",
-      "tokenAddress": "FZixBtMMBxfbr8XqtWxARcDmqsEvQM3dYeAy4WwEjpPq",
-      "description": "lil bub"
-    },
-    {
-      "url": "https://dexscreener.com/solana/4hn45gtgco39fzx3euk5gipnkkzuveycraoffpuhpump",
-      "tokenAddress": "4hN45GtgCo39FZx3EUK5GiPNkkzUvEYCrAoffPuhpump",
-      "description": "$CASHLESS represents the movement toward seamless, borderless, and increasingly digital money. A future where money move"
-    },
-    {
-      "url": "https://dexscreener.com/solana/8k4sbteek4pf26nokqapv8nbtnusjcbdwpkyknk5pbaa",
-      "tokenAddress": "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA",
-      "description": "The dog of Maye Musk. All fees go directly to Maye Musk via X money."
     }
   ],
   "fearGreed": {
