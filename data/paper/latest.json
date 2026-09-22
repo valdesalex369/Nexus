@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-22T18:56:42.422546+00:00",
+  "at": "2026-09-22T22:12:24.719814+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 86492.0,
-      "changePct": 0.5222642761518598,
+      "price": 86090.0,
+      "changePct": -0.5384792627591659,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2750.44,
-      "changePct": -0.17204804052620093,
+      "price": 2740.64,
+      "changePct": -1.156894662149036,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 118.17,
-      "changePct": 0.3830891580299227,
+      "price": 117.82,
+      "changePct": -1.2465767208442378,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 787.1,
-      "changePct": -1.70423891947661,
+      "price": 783.69,
+      "changePct": -2.651956485721347,
       "source": "CoinGecko"
     }
   ],
@@ -37,11 +37,6 @@
       "url": "https://dexscreener.com/solana/hgtpj3rg2bwweopkaivy71kt8l8nqwmxxxfdchq2pump",
       "tokenAddress": "Hgtpj3Rg2BWWeopkAiVy71KT8L8nQWMxxxFdChq2pump",
       "description": "The end is near preparing for doomsday 2030 is the hedge against the elites and the new world order"
-    },
-    {
-      "url": "https://dexscreener.com/solana/5tyceekvn63rrzpomgf2jwmxjmhmr4zo19rx1mxipump",
-      "tokenAddress": "5tYcEEKvN63RrzpomgF2jWMxJMHmr4Zo19RX1mXipump",
-      "description": "When the market turns green, the cat takes over. \ud83d\ude80\ud83d\udc31"
     },
     {
       "url": "https://dexscreener.com/solana/blsuvtxkydl4vm4xmg3oejfssgfjzf3cgy98ri68pump",
@@ -59,21 +54,26 @@
       "description": "Every platform has its cat. Stonkfun was the last one without. $STONKCAT closes the gap."
     },
     {
-      "url": "https://dexscreener.com/solana/bbagaencj1jg5rmh3wmbzuf6enu1blsd33qnxxexpump",
-      "tokenAddress": "BbAgaENCJ1jg5RmH3WMbZUf6enu1bLSd33QNXXExpump",
-      "description": "Cat with Existential Crisis"
-    },
-    {
       "url": "https://dexscreener.com/solana/7pdaotcrrwunuubyweqbufaj1hzb9iebcpxpxn3dpump",
       "tokenAddress": "7PDAotcRRWUNUubyweQbUFaJ1hZb9iEbcpxPxN3dpump",
       "description": "Before Kitty had a coin, Kitty was just a cat. She lived on the internet, watched people make memes, and wondered why do"
+    },
+    {
+      "url": "https://dexscreener.com/solana/2k1g1nkb85swtvlyijwkutrfms9mjxfjnqzzqfsypump",
+      "tokenAddress": "2k1g1NKB85swTVLYijWkutRFMS9MjXfJnqzzqfSypump",
+      "description": "CashFrog is a memecoin character capturing the spirit of every crypto survivor: a sad face, but hopes still high. With i"
+    },
+    {
+      "url": "https://dexscreener.com/solana/8vte25yt28l8bflxm8drzjsyeyakx8yry6hrkrmx7fgd",
+      "tokenAddress": "8Vte25yt28L8BfLXm8DrzjSYEyaKX8yry6hRKRmX7FGd",
+      "description": "Uptober"
     }
   ],
   "fearGreed": {
     "value": 78,
     "label": "Extreme Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
