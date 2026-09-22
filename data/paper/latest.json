@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-22T14:57:22.261984+00:00",
+  "at": "2026-09-22T18:56:42.422546+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 86046.0,
-      "changePct": 0.1109742514393948,
+      "price": 86492.0,
+      "changePct": 0.5222642761518598,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2734.03,
-      "changePct": -0.3832263755792859,
+      "price": 2750.44,
+      "changePct": -0.17204804052620093,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 116.55,
-      "changePct": -1.4609002308643029,
+      "price": 118.17,
+      "changePct": 0.3830891580299227,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 784.85,
-      "changePct": -1.6569379314090078,
+      "price": 787.1,
+      "changePct": -1.70423891947661,
       "source": "CoinGecko"
     }
   ],
@@ -49,11 +49,6 @@
       "description": "CATE on the runway. One issue, one kitten, nine looks \u2014 she finished five. $CATEWALK is the issue. Holding it puts you o"
     },
     {
-      "url": "https://dexscreener.com/solana/8ere7rkkoigyjtcyqdfwmpnna8caky14xe6ryjjhadkp",
-      "tokenAddress": "8erE7RkkoiGYJtCyQdfwMpnNA8cAkY14Xe6RYjjHAdKP",
-      "description": "We wait patiently all day for the market to reach the absolute highest top, ape in with max leverage, watch our portfoli"
-    },
-    {
       "url": "https://dexscreener.com/solana/huceu35oz1yku1ylbsyrl1uyanah59zckaypre2xpump",
       "tokenAddress": "HUcEu35oz1yku1yLBSYRL1UyAnAh59ZCkAYPRe2xpump",
       "description": "Speak it into existence."
@@ -67,13 +62,18 @@
       "url": "https://dexscreener.com/solana/bbagaencj1jg5rmh3wmbzuf6enu1blsd33qnxxexpump",
       "tokenAddress": "BbAgaENCJ1jg5RmH3WMbZUf6enu1bLSd33QNXXExpump",
       "description": "Cat with Existential Crisis"
+    },
+    {
+      "url": "https://dexscreener.com/solana/7pdaotcrrwunuubyweqbufaj1hzb9iebcpxpxn3dpump",
+      "tokenAddress": "7PDAotcRRWUNUubyweQbUFaJ1hZb9iEbcpxPxN3dpump",
+      "description": "Before Kitty had a coin, Kitty was just a cat. She lived on the internet, watched people make memes, and wondered why do"
     }
   ],
   "fearGreed": {
     "value": 78,
     "label": "Extreme Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
