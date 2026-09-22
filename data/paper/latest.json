@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-22T10:00:12.793407+00:00",
+  "at": "2026-09-22T14:57:22.261984+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 86106.0,
-      "changePct": 1.799407515794259,
+      "price": 86046.0,
+      "changePct": 0.1109742514393948,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2747.2,
-      "changePct": 1.073594567261816,
+      "price": 2734.03,
+      "changePct": -0.3832263755792859,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 117.25,
-      "changePct": 1.3486213637743434,
+      "price": 116.55,
+      "changePct": -1.4609002308643029,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 787.24,
-      "changePct": 0.5328622560412828,
+      "price": 784.85,
+      "changePct": -1.6569379314090078,
       "source": "CoinGecko"
     }
   ],
@@ -54,11 +54,6 @@
       "description": "We wait patiently all day for the market to reach the absolute highest top, ape in with max leverage, watch our portfoli"
     },
     {
-      "url": "https://dexscreener.com/solana/3dihkgvutjvzxipjgl7cr9a9ifpsyi6k39rydmueb9qx",
-      "tokenAddress": "3dihkgvUTJVZXipJgL7cr9A9ifpSYi6k39rYDMuEb9QX",
-      "description": "you can identify as 74 genders.\nthere were only two people in that room.\n$UMFUD"
-    },
-    {
       "url": "https://dexscreener.com/solana/huceu35oz1yku1ylbsyrl1uyanah59zckaypre2xpump",
       "tokenAddress": "HUcEu35oz1yku1yLBSYRL1UyAnAh59ZCkAYPRe2xpump",
       "description": "Speak it into existence."
@@ -67,13 +62,18 @@
       "url": "https://dexscreener.com/solana/dkpqvrx7cdyrl4hfhijz6gqzlym7pd4rm1ktiumlfwhs",
       "tokenAddress": "DkPQvrx7CDYrL4HfHijz6GqZLYm7Pd4rm1kTiumLFwhS",
       "description": "Every platform has its cat. Stonkfun was the last one without. $STONKCAT closes the gap."
+    },
+    {
+      "url": "https://dexscreener.com/solana/bbagaencj1jg5rmh3wmbzuf6enu1blsd33qnxxexpump",
+      "tokenAddress": "BbAgaENCJ1jg5RmH3WMbZUf6enu1bLSd33QNXXExpump",
+      "description": "Cat with Existential Crisis"
     }
   ],
   "fearGreed": {
     "value": 78,
     "label": "Extreme Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
