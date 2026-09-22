@@ -1,33 +1,43 @@
 {
-  "at": "2026-09-21T21:05:50.019182+00:00",
+  "at": "2026-09-22T00:08:37.211762+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 86795.0,
-      "changePct": 7.305012282638041,
+      "price": 86429.0,
+      "changePct": 6.088907563663792,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2775.61,
-      "changePct": 5.837943763218409,
+      "price": 2772.08,
+      "changePct": 4.4056885340772824,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 119.01,
-      "changePct": 8.480627164711786,
+      "price": 118.71,
+      "changePct": 6.253850080417209,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 803.66,
-      "changePct": 4.96054846391037,
+      "price": 798.25,
+      "changePct": 2.9470950290169857,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/5tyceekvn63rrzpomgf2jwmxjmhmr4zo19rx1mxipump",
+      "tokenAddress": "5tYcEEKvN63RrzpomgF2jWMxJMHmr4Zo19RX1mXipump",
+      "description": "When the market turns green, the cat takes over. \ud83d\ude80\ud83d\udc31"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hzacankgkhncqgb1vwl8f4thjyrcmaxrpwk9ehr7gyyx",
+      "tokenAddress": "HzaCANKGkhNcQGb1VWL8f4tHJYrCmaXrPWk9eHR7GYYX",
+      "description": "\u4e3b\u306a\u304d\u30b3\u30a4\u30f3\u3002\u4e00\u5ea6\u935b\u3048\u3001\u6ce2\u3078\u653e\u3064\u3002\u6ce2\u306f\u30b3\u30a4\u30f3\u3092\u8fd4\u3059\u3002"
+    },
     {
       "url": "https://dexscreener.com/solana/8ere7rkkoigyjtcyqdfwmpnna8caky14xe6ryjjhadkp",
       "tokenAddress": "8erE7RkkoiGYJtCyQdfwMpnNA8cAkY14Xe6RYjjHAdKP",
@@ -49,16 +59,6 @@
       "description": "lil bub"
     },
     {
-      "url": "https://dexscreener.com/solana/94jwpm2zzuommz7gcimyqgubfsmub9z4muzs6wufpump",
-      "tokenAddress": "94jwPm2zZUoMmz7gciMyqGubfsmub9Z4MUzs6WuFpump",
-      "description": "Bullcoin"
-    },
-    {
-      "url": "https://dexscreener.com/solana/hyt5eh6o5gvrbutwvguzhsbdhmrndrxbopw6jfdfpump",
-      "tokenAddress": "HYT5Eh6o5GvrbuTwVGUZHSBdhmRndRXbopW6jfDFpump",
-      "description": "Jeancoin brings iconic style, fearless meme energy, and bullish confidence to the Solana trenches."
-    },
-    {
       "url": "https://dexscreener.com/solana/4hn45gtgco39fzx3euk5gipnkkzuveycraoffpuhpump",
       "tokenAddress": "4hN45GtgCo39FZx3EUK5GiPNkkzUvEYCrAoffPuhpump",
       "description": "$CASHLESS represents the movement toward seamless, borderless, and increasingly digital money. A future where money move"
@@ -70,8 +70,8 @@
     }
   ],
   "fearGreed": {
-    "value": 70,
-    "label": "Greed"
+    "value": 78,
+    "label": "Extreme Greed"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
