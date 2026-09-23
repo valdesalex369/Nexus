@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-23T15:02:54.493937+00:00",
+  "at": "2026-09-23T19:04:34.461702+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84510.0,
-      "changePct": -1.9951611404667673,
+      "price": 84317.0,
+      "changePct": -2.436783916455001,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2674.88,
-      "changePct": -2.487799742192167,
+      "price": 2668.87,
+      "changePct": -3.0500108026541795,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 115.12,
-      "changePct": -1.4651507646387802,
+      "price": 114.28,
+      "changePct": -3.3477499968485285,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 766.44,
-      "changePct": -2.6032169518610844,
+      "price": 766.49,
+      "changePct": -2.7913000486056188,
       "source": "CoinGecko"
     }
   ],
@@ -39,19 +39,14 @@
       "description": "Uptober"
     },
     {
-      "url": "https://dexscreener.com/solana/7jjterm7hjga8q1vghzekbnguy7qtzca3i3tbgcepump",
-      "tokenAddress": "7jjTerm7hjga8Q1VgHzEkbNGUy7qTZca3i3tBGcEpump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/dkpqvrx7cdyrl4hfhijz6gqzlym7pd4rm1ktiumlfwhs",
-      "tokenAddress": "DkPQvrx7CDYrL4HfHijz6GqZLYm7Pd4rm1kTiumLFwhS",
-      "description": "Every platform has its cat. Stonkfun was the last one without. $STONKCAT closes the gap."
+      "url": "https://dexscreener.com/solana/7jjterm7hjga8q1vghzekbnguy7qtzca3i3tbgcepump",
+      "tokenAddress": "7jjTerm7hjga8Q1VgHzEkbNGUy7qTZca3i3tBGcEpump",
+      "description": ""
     }
   ],
   "fearGreed": {
