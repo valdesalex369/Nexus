@@ -1,48 +1,33 @@
 {
-  "at": "2026-09-23T00:39:35.859130+00:00",
+  "at": "2026-09-23T05:14:09.981679+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 86540.0,
-      "changePct": 0.2720760335175054,
+      "price": 86926.0,
+      "changePct": 1.7971627379196091,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2764.94,
-      "changePct": -0.14347879609154446,
+      "price": 2769.77,
+      "changePct": 1.5659156034580863,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 118.98,
-      "changePct": 0.03287029067144486,
+      "price": 119.11,
+      "changePct": 2.3272255051867545,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 791.8,
-      "changePct": -0.8183237824977876,
+      "price": 792.12,
+      "changePct": 0.716235964810049,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/hgtpj3rg2bwweopkaivy71kt8l8nqwmxxxfdchq2pump",
-      "tokenAddress": "Hgtpj3Rg2BWWeopkAiVy71KT8L8nQWMxxxFdChq2pump",
-      "description": "The end is near preparing for doomsday 2030 is the hedge against the elites and the new world order"
-    },
-    {
-      "url": "https://dexscreener.com/solana/blsuvtxkydl4vm4xmg3oejfssgfjzf3cgy98ri68pump",
-      "tokenAddress": "BLSuVTxKYDL4vm4XmG3oEJfsSGfJZF3cgy98ri68pump",
-      "description": "CATE on the runway. One issue, one kitten, nine looks \u2014 she finished five. $CATEWALK is the issue. Holding it puts you o"
-    },
-    {
-      "url": "https://dexscreener.com/solana/huceu35oz1yku1ylbsyrl1uyanah59zckaypre2xpump",
-      "tokenAddress": "HUcEu35oz1yku1yLBSYRL1UyAnAh59ZCkAYPRe2xpump",
-      "description": "Speak it into existence."
-    },
     {
       "url": "https://dexscreener.com/solana/dkpqvrx7cdyrl4hfhijz6gqzlym7pd4rm1ktiumlfwhs",
       "tokenAddress": "DkPQvrx7CDYrL4HfHijz6GqZLYm7Pd4rm1kTiumLFwhS",
@@ -67,6 +52,21 @@
       "url": "https://dexscreener.com/solana/hzacankgkhncqgb1vwl8f4thjyrcmaxrpwk9ehr7gyyx",
       "tokenAddress": "HzaCANKGkhNcQGb1VWL8f4tHJYrCmaXrPWk9eHR7GYYX",
       "description": "\u4e3b\u306a\u304d\u30b3\u30a4\u30f3\u3002\u4e00\u5ea6\u935b\u3048\u3001\u6ce2\u3078\u653e\u3064\u3002\u6ce2\u306f\u30b3\u30a4\u30f3\u3092\u8fd4\u3059\u3002"
+    },
+    {
+      "url": "https://dexscreener.com/solana/7jjterm7hjga8q1vghzekbnguy7qtzca3i3tbgcepump",
+      "tokenAddress": "7jjTerm7hjga8Q1VgHzEkbNGUy7qTZca3i3tBGcEpump",
+      "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/e4ap4icmlwkot8rkktbq5jks5kzxt5xce3yfxbzybjhx",
+      "tokenAddress": "E4Ap4icMLwKot8rkkTbq5JkS5kZxt5XCE3yfxbzYBjHx",
+      "description": "just buy the cat"
+    },
+    {
+      "url": "https://dexscreener.com/solana/bbagaencj1jg5rmh3wmbzuf6enu1blsd33qnxxexpump",
+      "tokenAddress": "BbAgaENCJ1jg5RmH3WMbZUf6enu1bLSd33QNXXExpump",
+      "description": "Cat with Existential Crisis"
     }
   ],
   "fearGreed": {
