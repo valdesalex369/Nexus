@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-23T19:04:34.461702+00:00",
+  "at": "2026-09-23T22:18:46.745508+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84317.0,
-      "changePct": -2.436783916455001,
+      "price": 84560.0,
+      "changePct": -1.7898740864256875,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2668.87,
-      "changePct": -3.0500108026541795,
+      "price": 2688.99,
+      "changePct": -1.9277528906801984,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 114.28,
-      "changePct": -3.3477499968485285,
+      "price": 115.27,
+      "changePct": -2.225185429341084,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 766.49,
-      "changePct": -2.7913000486056188,
+      "price": 767.73,
+      "changePct": -2.075783752071604,
       "source": "CoinGecko"
     }
   ],
@@ -32,6 +32,16 @@
       "url": "https://dexscreener.com/solana/6lrdt7nbihrauuk9pzoul8qy9wx6pnspdz1rkwwrr7hn",
       "tokenAddress": "6LrDt7nBiHraUuk9PZoUL8Qy9WX6pnSpDz1RkWWRR7hN",
       "description": "The INU that fetches you $UNI on @launchonSF\nHold $INU, stack $UNI"
+    },
+    {
+      "url": "https://dexscreener.com/solana/c4atfqmrbc9fuhtvehdhcm453tytu9e34mxxrp6bluf",
+      "tokenAddress": "c4AtfqMRbC9FuHtVEHDhCm453tytU9E34MXXrp6bLuf",
+      "description": "Every coin says it's going up. Doubt it? Short it. Believe it? Back it and get paid by the doubters."
+    },
+    {
+      "url": "https://dexscreener.com/solana/7u2fgforr1hud8efqtkcypnv34pcteam78a97zdvpump",
+      "tokenAddress": "7u2FGForr1hUD8EFQtKcYpNV34pCTEAm78a97zDVpump",
+      "description": "Born on the timeline. Raised by the community. A pacifier in one hand, the chart in the other. Pure chaos, zero rules."
     },
     {
       "url": "https://dexscreener.com/solana/8vte25yt28l8bflxm8drzjsyeyakx8yry6hrkrmx7fgd",
@@ -44,9 +54,19 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/7jjterm7hjga8q1vghzekbnguy7qtzca3i3tbgcepump",
-      "tokenAddress": "7jjTerm7hjga8Q1VgHzEkbNGUy7qTZca3i3tBGcEpump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
+      "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
+      "description": "Hold this coin until Halloween."
+    },
+    {
+      "url": "https://dexscreener.com/solana/7vgyp5icqm6z9jwmw4wqpvne1nspnrm7qej6e8b9pump",
+      "tokenAddress": "7vGyP5iCqm6Z9JwMW4wQPVNe1NSpNrM7qej6E8B9pump",
+      "description": "Hyper Inu is the shades-on, chain-rocking Solana pup bringing neon energy, fearless fun, and a community ready to move a"
+    },
+    {
+      "url": "https://dexscreener.com/solana/4weckfvfgeiojyzjq5xm12hvk76rhm4vhqazgaelpump",
+      "tokenAddress": "4WECKfvfgEiojyZJq5Xm12Hvk76rhM4VHQAZGaELpump",
+      "description": "Jean has entered the coin universe. Golden hair, golden coin, sky-high energy. \ud83d\ude80"
     }
   ],
   "fearGreed": {
