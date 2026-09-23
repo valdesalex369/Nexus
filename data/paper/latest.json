@@ -1,47 +1,37 @@
 {
-  "at": "2026-09-23T05:14:09.981679+00:00",
+  "at": "2026-09-23T10:05:13.608995+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 86926.0,
-      "changePct": 1.7971627379196091,
+      "price": 85833.0,
+      "changePct": -0.3793533771151874,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2769.77,
-      "changePct": 1.5659156034580863,
+      "price": 2733.41,
+      "changePct": -0.5596914840733926,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 119.11,
-      "changePct": 2.3272255051867545,
+      "price": 117.43,
+      "changePct": 0.10890853863312634,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 792.12,
-      "changePct": 0.716235964810049,
+      "price": 782.99,
+      "changePct": -0.5394622727546179,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/dkpqvrx7cdyrl4hfhijz6gqzlym7pd4rm1ktiumlfwhs",
-      "tokenAddress": "DkPQvrx7CDYrL4HfHijz6GqZLYm7Pd4rm1kTiumLFwhS",
-      "description": "Every platform has its cat. Stonkfun was the last one without. $STONKCAT closes the gap."
-    },
-    {
-      "url": "https://dexscreener.com/solana/7pdaotcrrwunuubyweqbufaj1hzb9iebcpxpxn3dpump",
-      "tokenAddress": "7PDAotcRRWUNUubyweQbUFaJ1hZb9iEbcpxPxN3dpump",
-      "description": "Before Kitty had a coin, Kitty was just a cat. She lived on the internet, watched people make memes, and wondered why do"
-    },
-    {
-      "url": "https://dexscreener.com/solana/2k1g1nkb85swtvlyijwkutrfms9mjxfjnqzzqfsypump",
-      "tokenAddress": "2k1g1NKB85swTVLYijWkutRFMS9MjXfJnqzzqfSypump",
-      "description": "CashFrog is a memecoin character capturing the spirit of every crypto survivor: a sad face, but hopes still high. With i"
+      "url": "https://dexscreener.com/solana/6lrdt7nbihrauuk9pzoul8qy9wx6pnspdz1rkwwrr7hn",
+      "tokenAddress": "6LrDt7nBiHraUuk9PZoUL8Qy9WX6pnSpDz1RkWWRR7hN",
+      "description": "The INU that fetches you $UNI on @launchonSF\nHold $INU, stack $UNI"
     },
     {
       "url": "https://dexscreener.com/solana/8vte25yt28l8bflxm8drzjsyeyakx8yry6hrkrmx7fgd",
@@ -49,19 +39,14 @@
       "description": "Uptober"
     },
     {
-      "url": "https://dexscreener.com/solana/hzacankgkhncqgb1vwl8f4thjyrcmaxrpwk9ehr7gyyx",
-      "tokenAddress": "HzaCANKGkhNcQGb1VWL8f4tHJYrCmaXrPWk9eHR7GYYX",
-      "description": "\u4e3b\u306a\u304d\u30b3\u30a4\u30f3\u3002\u4e00\u5ea6\u935b\u3048\u3001\u6ce2\u3078\u653e\u3064\u3002\u6ce2\u306f\u30b3\u30a4\u30f3\u3092\u8fd4\u3059\u3002"
-    },
-    {
       "url": "https://dexscreener.com/solana/7jjterm7hjga8q1vghzekbnguy7qtzca3i3tbgcepump",
       "tokenAddress": "7jjTerm7hjga8Q1VgHzEkbNGUy7qTZca3i3tBGcEpump",
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/e4ap4icmlwkot8rkktbq5jks5kzxt5xce3yfxbzybjhx",
-      "tokenAddress": "E4Ap4icMLwKot8rkkTbq5JkS5kZxt5XCE3yfxbzYBjHx",
-      "description": "just buy the cat"
+      "url": "https://dexscreener.com/solana/dkpqvrx7cdyrl4hfhijz6gqzlym7pd4rm1ktiumlfwhs",
+      "tokenAddress": "DkPQvrx7CDYrL4HfHijz6GqZLYm7Pd4rm1kTiumLFwhS",
+      "description": "Every platform has its cat. Stonkfun was the last one without. $STONKCAT closes the gap."
     },
     {
       "url": "https://dexscreener.com/solana/bbagaencj1jg5rmh3wmbzuf6enu1blsd33qnxxexpump",
@@ -73,7 +58,7 @@
     "value": 71,
     "label": "Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
