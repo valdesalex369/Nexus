@@ -1,52 +1,47 @@
 {
-  "at": "2026-09-24T17:14:12.133133+00:00",
+  "at": "2026-09-24T20:32:36.792311+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84399.0,
-      "changePct": 0.7494776387296158,
+      "price": 84204.0,
+      "changePct": -0.12432868004128095,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2681.55,
-      "changePct": 1.1660334828626946,
+      "price": 2685.82,
+      "changePct": 0.5312307784895706,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 117.17,
-      "changePct": 3.0594315194958814,
+      "price": 116.76,
+      "changePct": 2.273723073837544,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 779.68,
-      "changePct": 2.1791768134722456,
+      "price": 777.47,
+      "changePct": 1.5828594384984171,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/qe5iaq3gkka1t11xvfirmyzz7vy7uyzx994uhwvpump",
+      "tokenAddress": "qe5iaQ3GkKa1T11XvFirmyZZ7vy7uYZX994UhwVpump",
+      "description": "jeaninu, philjean killer"
+    },
     {
       "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
       "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
       "description": "Hold this coin until Halloween."
     },
     {
-      "url": "https://dexscreener.com/solana/3mpms79farvnm99tdhjfewit6prmeqqrwfmx32dmpump",
-      "tokenAddress": "3MPMS79faRVnM99tdHJFEwit6pRMeQQrWfmX32dmpump",
-      "description": "Next Labubu by Pop Mart"
-    },
-    {
-      "url": "https://dexscreener.com/solana/7u2fgforr1hud8efqtkcypnv34pcteam78a97zdvpump",
-      "tokenAddress": "7u2FGForr1hUD8EFQtKcYpNV34pCTEAm78a97zDVpump",
-      "description": "Born on the timeline. Raised by the community. A pacifier in one hand, the chart in the other. Pure chaos, zero rules."
-    },
-    {
-      "url": "https://dexscreener.com/solana/c4atfqmrbc9fuhtvehdhcm453tytu9e34mxxrp6bluf",
-      "tokenAddress": "c4AtfqMRbC9FuHtVEHDhCm453tytU9E34MXXrp6bLuf",
-      "description": "Every coin says it's going up. Doubt it? Short it. Believe it? Back it and get paid by the doubters."
+      "url": "https://dexscreener.com/solana/4gnxp8sdjp3ejirb45tvfscarqubpwsec3pelxaupump",
+      "tokenAddress": "4GNxP8SdJP3ejirb45tvFscARQubPWseC3PELxAUpump",
+      "description": "Inspired by cybernetic AI, Chinese-themed internet culture, and the unstoppable energy of meme communities."
     },
     {
       "url": "https://dexscreener.com/solana/udpezbjbgmzyzbultbyqlyhc4tes6eebg8r7fwdpump",
@@ -64,9 +59,14 @@
       "description": "Uptober"
     },
     {
-      "url": "https://dexscreener.com/solana/4gnxp8sdjp3ejirb45tvfscarqubpwsec3pelxaupump",
-      "tokenAddress": "4GNxP8SdJP3ejirb45tvFscARQubPWseC3PELxAUpump",
-      "description": "Inspired by cybernetic AI, Chinese-themed internet culture, and the unstoppable energy of meme communities."
+      "url": "https://dexscreener.com/solana/3mpms79farvnm99tdhjfewit6prmeqqrwfmx32dmpump",
+      "tokenAddress": "3MPMS79faRVnM99tdHJFEwit6pRMeQQrWfmX32dmpump",
+      "description": "Next Labubu by Pop Mart"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hfb6ec8rytwnvyndhtbagejx1dbkrrqvwpyhystrpump",
+      "tokenAddress": "HFb6Ec8RYtwnvyNdHtbagEjX1DBKrrqVwPyhYSTrpump",
+      "description": ""
     }
   ],
   "fearGreed": {
