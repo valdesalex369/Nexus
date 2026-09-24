@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-24T20:32:36.792311+00:00",
+  "at": "2026-09-24T23:30:32.192587+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84204.0,
-      "changePct": -0.12432868004128095,
+      "price": 84405.0,
+      "changePct": -0.0890359409545085,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2685.82,
-      "changePct": 0.5312307784895706,
+      "price": 2691.64,
+      "changePct": 0.2898436771970001,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 116.76,
-      "changePct": 2.273723073837544,
+      "price": 116.92,
+      "changePct": 1.7138730460180427,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 777.47,
-      "changePct": 1.5828594384984171,
+      "price": 777.29,
+      "changePct": 1.4742993153663604,
       "source": "CoinGecko"
     }
   ],
@@ -49,14 +49,14 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/hqfcizivsxbqw8dv6baaddyg1wu9k7v37kvfj5qtpump",
-      "tokenAddress": "HQfciZiVsxbqW8DV6BaaDDyg1WU9k7V37KvFj5qTpump",
-      "description": "Cat energy.\nZero copycat.\nToo many people make fake cat coins like Cat, GigaCat and others, but none of them really went"
-    },
-    {
       "url": "https://dexscreener.com/solana/8vte25yt28l8bflxm8drzjsyeyakx8yry6hrkrmx7fgd",
       "tokenAddress": "8Vte25yt28L8BfLXm8DrzjSYEyaKX8yry6hRKRmX7FGd",
       "description": "Uptober"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hqfcizivsxbqw8dv6baaddyg1wu9k7v37kvfj5qtpump",
+      "tokenAddress": "HQfciZiVsxbqW8DV6BaaDDyg1WU9k7V37KvFj5qTpump",
+      "description": "Cat energy.\nZero copycat.\nToo many people make fake cat coins like Cat, GigaCat and others, but none of them really went"
     },
     {
       "url": "https://dexscreener.com/solana/3mpms79farvnm99tdhjfewit6prmeqqrwfmx32dmpump",
@@ -64,9 +64,9 @@
       "description": "Next Labubu by Pop Mart"
     },
     {
-      "url": "https://dexscreener.com/solana/hfb6ec8rytwnvyndhtbagejx1dbkrrqvwpyhystrpump",
-      "tokenAddress": "HFb6Ec8RYtwnvyNdHtbagEjX1DBKrrqVwPyhYSTrpump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/eywrmxbb5dxppws5una6repsedodsachbjeixu9krevs",
+      "tokenAddress": "EyWrMXBb5DXppWs5uNa6repSEDoDSachbjeixU9KREVS",
+      "description": "Create tokens that automatically earn creator fees from 1\u201310% of all volume and share them with your holders. Available "
     }
   ],
   "fearGreed": {
