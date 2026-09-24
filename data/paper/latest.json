@@ -1,38 +1,33 @@
 {
-  "at": "2026-09-24T11:54:47.200158+00:00",
+  "at": "2026-09-24T17:14:12.133133+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83436.0,
-      "changePct": -2.5780695519199237,
+      "price": 84399.0,
+      "changePct": 0.7494776387296158,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2646.45,
-      "changePct": -2.9314643342959705,
+      "price": 2681.55,
+      "changePct": 1.1660334828626946,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 113.25,
-      "changePct": -3.2554425557614133,
+      "price": 117.17,
+      "changePct": 3.0594315194958814,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 769.07,
-      "changePct": -1.7373933119715579,
+      "price": 779.68,
+      "changePct": 2.1791768134722456,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/hfb6ec8rytwnvyndhtbagejx1dbkrrqvwpyhystrpump",
-      "tokenAddress": "HFb6Ec8RYtwnvyNdHtbagEjX1DBKrrqVwPyhYSTrpump",
-      "description": "welcome to inu town"
-    },
     {
       "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
       "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
@@ -44,19 +39,19 @@
       "description": "Next Labubu by Pop Mart"
     },
     {
-      "url": "https://dexscreener.com/solana/c4atfqmrbc9fuhtvehdhcm453tytu9e34mxxrp6bluf",
-      "tokenAddress": "c4AtfqMRbC9FuHtVEHDhCm453tytU9E34MXXrp6bLuf",
-      "description": "Every coin says it's going up. Doubt it? Short it. Believe it? Back it and get paid by the doubters."
-    },
-    {
       "url": "https://dexscreener.com/solana/7u2fgforr1hud8efqtkcypnv34pcteam78a97zdvpump",
       "tokenAddress": "7u2FGForr1hUD8EFQtKcYpNV34pCTEAm78a97zDVpump",
       "description": "Born on the timeline. Raised by the community. A pacifier in one hand, the chart in the other. Pure chaos, zero rules."
     },
     {
-      "url": "https://dexscreener.com/solana/8vte25yt28l8bflxm8drzjsyeyakx8yry6hrkrmx7fgd",
-      "tokenAddress": "8Vte25yt28L8BfLXm8DrzjSYEyaKX8yry6hRKRmX7FGd",
-      "description": "Uptober"
+      "url": "https://dexscreener.com/solana/c4atfqmrbc9fuhtvehdhcm453tytu9e34mxxrp6bluf",
+      "tokenAddress": "c4AtfqMRbC9FuHtVEHDhCm453tytU9E34MXXrp6bLuf",
+      "description": "Every coin says it's going up. Doubt it? Short it. Believe it? Back it and get paid by the doubters."
+    },
+    {
+      "url": "https://dexscreener.com/solana/udpezbjbgmzyzbultbyqlyhc4tes6eebg8r7fwdpump",
+      "tokenAddress": "udPEzBjbGMzYZbuLtByqLYhc4TEs6EebG8R7fwdpump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/hqfcizivsxbqw8dv6baaddyg1wu9k7v37kvfj5qtpump",
@@ -64,16 +59,21 @@
       "description": "Cat energy.\nZero copycat.\nToo many people make fake cat coins like Cat, GigaCat and others, but none of them really went"
     },
     {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+      "url": "https://dexscreener.com/solana/8vte25yt28l8bflxm8drzjsyeyakx8yry6hrkrmx7fgd",
+      "tokenAddress": "8Vte25yt28L8BfLXm8DrzjSYEyaKX8yry6hRKRmX7FGd",
+      "description": "Uptober"
+    },
+    {
+      "url": "https://dexscreener.com/solana/4gnxp8sdjp3ejirb45tvfscarqubpwsec3pelxaupump",
+      "tokenAddress": "4GNxP8SdJP3ejirb45tvFscARQubPWseC3PELxAUpump",
+      "description": "Inspired by cybernetic AI, Chinese-themed internet culture, and the unstoppable energy of meme communities."
     }
   ],
   "fearGreed": {
     "value": 71,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
