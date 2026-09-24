@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-24T00:54:12.309713+00:00",
+  "at": "2026-09-24T06:12:10.581439+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84272.0,
-      "changePct": -2.541883121553651,
+      "price": 84102.0,
+      "changePct": -2.8110971014431847,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2680.98,
-      "changePct": -2.9279099014849073,
+      "price": 2687.6,
+      "changePct": -2.5459516068689476,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 114.93,
-      "changePct": -3.330636367843367,
+      "price": 115.18,
+      "changePct": -2.8610376453324515,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 767.19,
-      "changePct": -3.0466979562736722,
+      "price": 772.88,
+      "changePct": -2.3029935243801125,
       "source": "CoinGecko"
     }
   ],
@@ -37,6 +37,11 @@
       "url": "https://dexscreener.com/solana/hfb6ec8rytwnvyndhtbagejx1dbkrrqvwpyhystrpump",
       "tokenAddress": "HFb6Ec8RYtwnvyNdHtbagEjX1DBKrrqVwPyhYSTrpump",
       "description": "welcome to inu town"
+    },
+    {
+      "url": "https://dexscreener.com/solana/3mpms79farvnm99tdhjfewit6prmeqqrwfmx32dmpump",
+      "tokenAddress": "3MPMS79faRVnM99tdHJFEwit6pRMeQQrWfmX32dmpump",
+      "description": "Next Labubu by Pop Mart"
     },
     {
       "url": "https://dexscreener.com/solana/c4atfqmrbc9fuhtvehdhcm453tytu9e34mxxrp6bluf",
@@ -62,11 +67,6 @@
       "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
       "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
       "description": "Hold this coin until Halloween."
-    },
-    {
-      "url": "https://dexscreener.com/solana/h9jwarqsufk4q6ekumpig4ckjyv7ntsrq8bbcsmapump",
-      "tokenAddress": "H9JwarQSuFk4q6ekuMpig4CkJyv7NtSRQ8BbCsmapump",
-      "description": "GIGAINU"
     }
   ],
   "fearGreed": {
