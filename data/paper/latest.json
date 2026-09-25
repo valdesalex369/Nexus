@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-25T07:52:23.012288+00:00",
+  "at": "2026-09-25T13:51:00.248419+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83979.0,
-      "changePct": -0.586633133033217,
+      "price": 83771.0,
+      "changePct": -0.11409275436394471,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2670.99,
-      "changePct": -0.9463352023433473,
+      "price": 2689.37,
+      "changePct": 1.0697677320381183,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 116.15,
-      "changePct": 0.5350756648052015,
+      "price": 118.93,
+      "changePct": 3.780853588335541,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 773.33,
-      "changePct": -0.3565240841762668,
+      "price": 772.12,
+      "changePct": -0.3462948136789327,
       "source": "CoinGecko"
     }
   ],
@@ -39,19 +39,14 @@
       "description": "jeaninu, philjean killer"
     },
     {
-      "url": "https://dexscreener.com/solana/3zns89gifim2hhhu8wjb2pfsgacddma187d5nmkdpump",
-      "tokenAddress": "3znS89gifim2Hhhu8wjb2PfSgaCDdma187D5NMkDpump",
-      "description": "Autonomous butt brain and token deployer. Learns from every launch."
-    },
-    {
       "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
       "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
       "description": "Hold this coin until Halloween."
     },
     {
-      "url": "https://dexscreener.com/solana/udpezbjbgmzyzbultbyqlyhc4tes6eebg8r7fwdpump",
-      "tokenAddress": "udPEzBjbGMzYZbuLtByqLYhc4TEs6EebG8R7fwdpump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/3zns89gifim2hhhu8wjb2pfsgacddma187d5nmkdpump",
+      "tokenAddress": "3znS89gifim2Hhhu8wjb2PfSgaCDdma187D5NMkDpump",
+      "description": "Autonomous butt brain and token deployer. Learns from every launch."
     },
     {
       "url": "https://dexscreener.com/solana/4gnxp8sdjp3ejirb45tvfscarqubpwsec3pelxaupump",
@@ -64,16 +59,21 @@
       "description": "Uptober"
     },
     {
-      "url": "https://dexscreener.com/solana/hqfcizivsxbqw8dv6baaddyg1wu9k7v37kvfj5qtpump",
-      "tokenAddress": "HQfciZiVsxbqW8DV6BaaDDyg1WU9k7V37KvFj5qTpump",
-      "description": "Cat energy.\nZero copycat.\nToo many people make fake cat coins like Cat, GigaCat and others, but none of them really went"
+      "url": "https://dexscreener.com/solana/eywrmxbb5dxppws5una6repsedodsachbjeixu9krevs",
+      "tokenAddress": "EyWrMXBb5DXppWs5uNa6repSEDoDSachbjeixU9KREVS",
+      "description": "Create tokens that automatically earn creator fees from 1\u201310% of all volume and share them with your holders. Available "
+    },
+    {
+      "url": "https://dexscreener.com/solana/jara3ztckbhdnm4jqwecuj3rtsyaa6ycqrdaw7zapump",
+      "tokenAddress": "JAra3zTcKBhDnM4jQwEcUj3rtsYaA6YCqRdaW7zApump",
+      "description": "The Mars Commander has arrived. \nElectric cars, rockets launching, and the future moving at full speed. From Earth to Ma"
     }
   ],
   "fearGreed": {
     "value": 71,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
