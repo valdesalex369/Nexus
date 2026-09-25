@@ -1,33 +1,38 @@
 {
-  "at": "2026-09-25T01:56:49.898016+00:00",
+  "at": "2026-09-25T07:52:23.012288+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84531.0,
-      "changePct": 0.45639406083897904,
+      "price": 83979.0,
+      "changePct": -0.586633133033217,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2687.63,
-      "changePct": 0.41803656150742546,
+      "price": 2670.99,
+      "changePct": -0.9463352023433473,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 117.34,
-      "changePct": 2.265686376225093,
+      "price": 116.15,
+      "changePct": 0.5350756648052015,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 777.63,
-      "changePct": 1.442608804354404,
+      "price": 773.33,
+      "changePct": -0.3565240841762668,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/exxr9wt3mjxbjmzhpvj7eca3zfxzd9uk1whmioeipump",
+      "tokenAddress": "EXXR9Wt3mjxbjmzhPVj7EcA3zfxZd9uk1WhMioeipump",
+      "description": "Shurikane is developing a multichain, cloud-decentralized wallet that brings digital asset management into one clear, ac"
+    },
     {
       "url": "https://dexscreener.com/solana/qe5iaq3gkka1t11xvfirmyzz7vy7uyzx994uhwvpump",
       "tokenAddress": "qe5iaQ3GkKa1T11XvFirmyZZ7vy7uYZX994UhwVpump",
@@ -54,26 +59,21 @@
       "description": "Inspired by cybernetic AI, Chinese-themed internet culture, and the unstoppable energy of meme communities."
     },
     {
-      "url": "https://dexscreener.com/solana/hqfcizivsxbqw8dv6baaddyg1wu9k7v37kvfj5qtpump",
-      "tokenAddress": "HQfciZiVsxbqW8DV6BaaDDyg1WU9k7V37KvFj5qTpump",
-      "description": "Cat energy.\nZero copycat.\nToo many people make fake cat coins like Cat, GigaCat and others, but none of them really went"
-    },
-    {
       "url": "https://dexscreener.com/solana/8vte25yt28l8bflxm8drzjsyeyakx8yry6hrkrmx7fgd",
       "tokenAddress": "8Vte25yt28L8BfLXm8DrzjSYEyaKX8yry6hRKRmX7FGd",
       "description": "Uptober"
     },
     {
-      "url": "https://dexscreener.com/solana/3mpms79farvnm99tdhjfewit6prmeqqrwfmx32dmpump",
-      "tokenAddress": "3MPMS79faRVnM99tdHJFEwit6pRMeQQrWfmX32dmpump",
-      "description": "Next Labubu by Pop Mart"
+      "url": "https://dexscreener.com/solana/hqfcizivsxbqw8dv6baaddyg1wu9k7v37kvfj5qtpump",
+      "tokenAddress": "HQfciZiVsxbqW8DV6BaaDDyg1WU9k7V37KvFj5qTpump",
+      "description": "Cat energy.\nZero copycat.\nToo many people make fake cat coins like Cat, GigaCat and others, but none of them really went"
     }
   ],
   "fearGreed": {
     "value": 71,
     "label": "Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
