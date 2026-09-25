@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-24T23:30:32.192587+00:00",
+  "at": "2026-09-25T01:56:49.898016+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84405.0,
-      "changePct": -0.0890359409545085,
+      "price": 84531.0,
+      "changePct": 0.45639406083897904,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2691.64,
-      "changePct": 0.2898436771970001,
+      "price": 2687.63,
+      "changePct": 0.41803656150742546,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 116.92,
-      "changePct": 1.7138730460180427,
+      "price": 117.34,
+      "changePct": 2.265686376225093,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 777.29,
-      "changePct": 1.4742993153663604,
+      "price": 777.63,
+      "changePct": 1.442608804354404,
       "source": "CoinGecko"
     }
   ],
@@ -34,14 +34,14 @@
       "description": "jeaninu, philjean killer"
     },
     {
+      "url": "https://dexscreener.com/solana/3zns89gifim2hhhu8wjb2pfsgacddma187d5nmkdpump",
+      "tokenAddress": "3znS89gifim2Hhhu8wjb2PfSgaCDdma187D5NMkDpump",
+      "description": "Autonomous butt brain and token deployer. Learns from every launch."
+    },
+    {
       "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
       "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
       "description": "Hold this coin until Halloween."
-    },
-    {
-      "url": "https://dexscreener.com/solana/4gnxp8sdjp3ejirb45tvfscarqubpwsec3pelxaupump",
-      "tokenAddress": "4GNxP8SdJP3ejirb45tvFscARQubPWseC3PELxAUpump",
-      "description": "Inspired by cybernetic AI, Chinese-themed internet culture, and the unstoppable energy of meme communities."
     },
     {
       "url": "https://dexscreener.com/solana/udpezbjbgmzyzbultbyqlyhc4tes6eebg8r7fwdpump",
@@ -49,9 +49,9 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/8vte25yt28l8bflxm8drzjsyeyakx8yry6hrkrmx7fgd",
-      "tokenAddress": "8Vte25yt28L8BfLXm8DrzjSYEyaKX8yry6hRKRmX7FGd",
-      "description": "Uptober"
+      "url": "https://dexscreener.com/solana/4gnxp8sdjp3ejirb45tvfscarqubpwsec3pelxaupump",
+      "tokenAddress": "4GNxP8SdJP3ejirb45tvFscARQubPWseC3PELxAUpump",
+      "description": "Inspired by cybernetic AI, Chinese-themed internet culture, and the unstoppable energy of meme communities."
     },
     {
       "url": "https://dexscreener.com/solana/hqfcizivsxbqw8dv6baaddyg1wu9k7v37kvfj5qtpump",
@@ -59,14 +59,14 @@
       "description": "Cat energy.\nZero copycat.\nToo many people make fake cat coins like Cat, GigaCat and others, but none of them really went"
     },
     {
+      "url": "https://dexscreener.com/solana/8vte25yt28l8bflxm8drzjsyeyakx8yry6hrkrmx7fgd",
+      "tokenAddress": "8Vte25yt28L8BfLXm8DrzjSYEyaKX8yry6hRKRmX7FGd",
+      "description": "Uptober"
+    },
+    {
       "url": "https://dexscreener.com/solana/3mpms79farvnm99tdhjfewit6prmeqqrwfmx32dmpump",
       "tokenAddress": "3MPMS79faRVnM99tdHJFEwit6pRMeQQrWfmX32dmpump",
       "description": "Next Labubu by Pop Mart"
-    },
-    {
-      "url": "https://dexscreener.com/solana/eywrmxbb5dxppws5una6repsedodsachbjeixu9krevs",
-      "tokenAddress": "EyWrMXBb5DXppWs5uNa6repSEDoDSachbjeixU9KREVS",
-      "description": "Create tokens that automatically earn creator fees from 1\u201310% of all volume and share them with your holders. Available "
     }
   ],
   "fearGreed": {
