@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-25T13:51:00.248419+00:00",
+  "at": "2026-09-25T18:39:15.341586+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83771.0,
-      "changePct": -0.11409275436394471,
+      "price": 83965.0,
+      "changePct": -0.5278975316741044,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2689.37,
-      "changePct": 1.0697677320381183,
+      "price": 2693.95,
+      "changePct": 0.32904666046638215,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 118.93,
-      "changePct": 3.780853588335541,
+      "price": 122.26,
+      "changePct": 4.390767296778265,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 772.12,
-      "changePct": -0.3462948136789327,
+      "price": 775.57,
+      "changePct": -0.5898152209070149,
       "source": "CoinGecko"
     }
   ],
@@ -34,14 +34,14 @@
       "description": "Shurikane is developing a multichain, cloud-decentralized wallet that brings digital asset management into one clear, ac"
     },
     {
-      "url": "https://dexscreener.com/solana/qe5iaq3gkka1t11xvfirmyzz7vy7uyzx994uhwvpump",
-      "tokenAddress": "qe5iaQ3GkKa1T11XvFirmyZZ7vy7uYZX994UhwVpump",
-      "description": "jeaninu, philjean killer"
-    },
-    {
       "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
       "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
       "description": "Hold this coin until Halloween."
+    },
+    {
+      "url": "https://dexscreener.com/solana/4g5ydqdvwgwss3nlpdgdpguetbg7rzyznsbb1u4tqbzi",
+      "tokenAddress": "4G5YDqDvwgwSS3nLPDGDpGuetbG7rZYzNSBb1U4Tqbzi",
+      "description": "Launch. Battle. KO. Migrate. The $ARENA where memecoins fight 1v1 for migration. \ud83c\udfdb\ufe0f\u2694\ufe0f TikTok of memecoins, gift, tap for"
     },
     {
       "url": "https://dexscreener.com/solana/3zns89gifim2hhhu8wjb2pfsgacddma187d5nmkdpump",
@@ -49,24 +49,24 @@
       "description": "Autonomous butt brain and token deployer. Learns from every launch."
     },
     {
-      "url": "https://dexscreener.com/solana/4gnxp8sdjp3ejirb45tvfscarqubpwsec3pelxaupump",
-      "tokenAddress": "4GNxP8SdJP3ejirb45tvFscARQubPWseC3PELxAUpump",
-      "description": "Inspired by cybernetic AI, Chinese-themed internet culture, and the unstoppable energy of meme communities."
-    },
-    {
       "url": "https://dexscreener.com/solana/8vte25yt28l8bflxm8drzjsyeyakx8yry6hrkrmx7fgd",
       "tokenAddress": "8Vte25yt28L8BfLXm8DrzjSYEyaKX8yry6hRKRmX7FGd",
       "description": "Uptober"
     },
     {
+      "url": "https://dexscreener.com/solana/9eweyhqzrhme87ypwkuu1zzkp8umegdunmj4ettmpump",
+      "tokenAddress": "9EwEYhqzRHmE87ypWKUU1zZKP8uMeGdunmJ4etTmpump",
+      "description": "Briefcase in hand, this voxel office legend clocks in on Solana for memes, workplace mischief, and a community that neve"
+    },
+    {
+      "url": "https://dexscreener.com/solana/cmtfnmtw19ncez5qgmv7ojqhvkaxjvspwr6t4qvcgibd",
+      "tokenAddress": "CmTFnmtW19nCEz5QGmV7ojqhVKaXJVsPwR6t4QvCGiBd",
+      "description": "Fartcoin leads to Poocoin\n\nPaired with Fartcoin"
+    },
+    {
       "url": "https://dexscreener.com/solana/eywrmxbb5dxppws5una6repsedodsachbjeixu9krevs",
       "tokenAddress": "EyWrMXBb5DXppWs5uNa6repSEDoDSachbjeixU9KREVS",
       "description": "Create tokens that automatically earn creator fees from 1\u201310% of all volume and share them with your holders. Available "
-    },
-    {
-      "url": "https://dexscreener.com/solana/jara3ztckbhdnm4jqwecuj3rtsyaa6ycqrdaw7zapump",
-      "tokenAddress": "JAra3zTcKBhDnM4jQwEcUj3rtsYaA6YCqRdaW7zApump",
-      "description": "The Mars Commander has arrived. \nElectric cars, rockets launching, and the future moving at full speed. From Earth to Ma"
     }
   ],
   "fearGreed": {
