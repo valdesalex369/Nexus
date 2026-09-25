@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-25T18:39:15.341586+00:00",
+  "at": "2026-09-25T21:50:41.587907+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83965.0,
-      "changePct": -0.5278975316741044,
+      "price": 83812.0,
+      "changePct": -0.7078534473504531,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2693.95,
-      "changePct": 0.32904666046638215,
+      "price": 2680.8,
+      "changePct": -0.2813186228716964,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 122.26,
-      "changePct": 4.390767296778265,
+      "price": 120.99,
+      "changePct": 3.3854422041313734,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 775.57,
-      "changePct": -0.5898152209070149,
+      "price": 772.53,
+      "changePct": -0.9354519240115887,
       "source": "CoinGecko"
     }
   ],
@@ -59,21 +59,21 @@
       "description": "Briefcase in hand, this voxel office legend clocks in on Solana for memes, workplace mischief, and a community that neve"
     },
     {
+      "url": "https://dexscreener.com/solana/egrv76sttvdnnwkdymkqlqquyggcmutoxy92qs9pump",
+      "tokenAddress": "EGRv76STtVdNNwKdyMkQLQquYggcMuToXy92qS9pump",
+      "description": "Just a ghost guy"
+    },
+    {
       "url": "https://dexscreener.com/solana/cmtfnmtw19ncez5qgmv7ojqhvkaxjvspwr6t4qvcgibd",
       "tokenAddress": "CmTFnmtW19nCEz5QGmV7ojqhVKaXJVsPwR6t4QvCGiBd",
       "description": "Fartcoin leads to Poocoin\n\nPaired with Fartcoin"
-    },
-    {
-      "url": "https://dexscreener.com/solana/eywrmxbb5dxppws5una6repsedodsachbjeixu9krevs",
-      "tokenAddress": "EyWrMXBb5DXppWs5uNa6repSEDoDSachbjeixU9KREVS",
-      "description": "Create tokens that automatically earn creator fees from 1\u201310% of all volume and share them with your holders. Available "
     }
   ],
   "fearGreed": {
     "value": 71,
     "label": "Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
