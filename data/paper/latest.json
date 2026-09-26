@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-26T00:38:31.190513+00:00",
+  "at": "2026-09-26T05:33:08.811958+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83839.0,
-      "changePct": -0.8760136556441598,
+      "price": 83929.0,
+      "changePct": -0.2344042809362644,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2682.01,
-      "changePct": -0.2958976390502936,
+      "price": 2687.84,
+      "changePct": 0.39077839976697304,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 121.38,
-      "changePct": 3.4315022688245325,
+      "price": 120.37,
+      "changePct": 3.4813959394194347,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 775.2,
-      "changePct": -0.3168061124043199,
+      "price": 773.13,
+      "changePct": 0.015558953733486647,
       "source": "CoinGecko"
     }
   ],
@@ -44,6 +44,11 @@
       "description": "Launch. Battle. KO. Migrate. The $ARENA where memecoins fight 1v1 for migration. \ud83c\udfdb\ufe0f\u2694\ufe0f TikTok of memecoins, gift, tap for"
     },
     {
+      "url": "https://dexscreener.com/solana/fdqkwegxhyvz8hutddhlqe2znteftqq964veqqhdrwaq",
+      "tokenAddress": "FdqkwEGXhyvZ8huTDDHLQE2ZnTEfTQQ964vEqQhDrWAQ",
+      "description": "d/acc"
+    },
+    {
       "url": "https://dexscreener.com/solana/egrv76sttvdnnwkdymkqlqquyggcmutoxy92qs9pump",
       "tokenAddress": "EGRv76STtVdNNwKdyMkQLQquYggcMuToXy92qS9pump",
       "description": "Just a ghost guy"
@@ -54,14 +59,9 @@
       "description": "Briefcase in hand, this voxel office legend clocks in on Solana for memes, workplace mischief, and a community that neve"
     },
     {
-      "url": "https://dexscreener.com/solana/3zns89gifim2hhhu8wjb2pfsgacddma187d5nmkdpump",
-      "tokenAddress": "3znS89gifim2Hhhu8wjb2PfSgaCDdma187D5NMkDpump",
-      "description": "Autonomous butt brain and token deployer. Learns from every launch."
-    },
-    {
-      "url": "https://dexscreener.com/solana/8vte25yt28l8bflxm8drzjsyeyakx8yry6hrkrmx7fgd",
-      "tokenAddress": "8Vte25yt28L8BfLXm8DrzjSYEyaKX8yry6hRKRmX7FGd",
-      "description": "Uptober"
+      "url": "https://dexscreener.com/solana/bgpxrnia1kzqubtccexxr4zh4hrx8eoyy1sqtt3pump",
+      "tokenAddress": "bGpXrniA1kzqubTCCexxR4Zh4Hrx8eoYY1Sqtt3pump",
+      "description": "New day. Same mission. J is just getting started. \ud83e\uddb8\u200d\u2642\ufe0f\u2600\ufe0f"
     },
     {
       "url": "https://dexscreener.com/solana/cmtfnmtw19ncez5qgmv7ojqhvkaxjvspwr6t4qvcgibd",
@@ -73,7 +73,7 @@
     "value": 74,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
