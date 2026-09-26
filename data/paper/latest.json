@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-26T18:05:05.709460+00:00",
+  "at": "2026-09-26T21:12:54.010025+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84123.0,
-      "changePct": 0.36421799510688213,
+      "price": 84078.0,
+      "changePct": 0.44235376300449963,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2689.16,
-      "changePct": 0.08711328699349295,
+      "price": 2677.98,
+      "changePct": -0.039782955347439156,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 121.5,
-      "changePct": 0.37331958555026756,
+      "price": 120.62,
+      "changePct": -0.497738525094317,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 772.52,
-      "changePct": -0.14064542618806394,
+      "price": 770.21,
+      "changePct": -0.22550453457310643,
       "source": "CoinGecko"
     }
   ],
@@ -44,24 +44,24 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
-      "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
-      "description": "Hold this coin until Halloween."
-    },
-    {
       "url": "https://dexscreener.com/solana/4g5ydqdvwgwss3nlpdgdpguetbg7rzyznsbb1u4tqbzi",
       "tokenAddress": "4G5YDqDvwgwSS3nLPDGDpGuetbG7rZYzNSBb1U4Tqbzi",
       "description": "Launch. Battle. KO. Migrate. The $ARENA where memecoins fight 1v1 for migration. \ud83c\udfdb\ufe0f\u2694\ufe0f TikTok of memecoins, gift, tap for"
     },
     {
+      "url": "https://dexscreener.com/solana/sapfjdcz4bcrqvku6jwjskjftp9jennxp5t9ur1pump",
+      "tokenAddress": "SaPFjDCz4bcrqVkU6JWjskJftp9jENNxP5T9Ur1pump",
+      "description": "Elon Musk offered me $15.1 million a month to have a baby with me."
+    },
+    {
+      "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
+      "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
+      "description": "Hold this coin until Halloween."
+    },
+    {
       "url": "https://dexscreener.com/solana/bgpxrnia1kzqubtccexxr4zh4hrx8eoyy1sqtt3pump",
       "tokenAddress": "bGpXrniA1kzqubTCCexxR4Zh4Hrx8eoYY1Sqtt3pump",
       "description": "New day. Same mission. J is just getting started. \ud83e\uddb8\u200d\u2642\ufe0f\u2600\ufe0f"
-    },
-    {
-      "url": "https://dexscreener.com/solana/egrv76sttvdnnwkdymkqlqquyggcmutoxy92qs9pump",
-      "tokenAddress": "EGRv76STtVdNNwKdyMkQLQquYggcMuToXy92qS9pump",
-      "description": "Just a ghost guy"
     },
     {
       "url": "https://dexscreener.com/solana/8vte25yt28l8bflxm8drzjsyeyakx8yry6hrkrmx7fgd",
@@ -73,7 +73,7 @@
     "value": 74,
     "label": "Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
