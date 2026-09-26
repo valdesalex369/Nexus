@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-26T21:12:54.010025+00:00",
+  "at": "2026-09-26T23:39:59.712280+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84078.0,
-      "changePct": 0.44235376300449963,
+      "price": 84364.0,
+      "changePct": 0.3505896201243443,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2677.98,
-      "changePct": -0.039782955347439156,
+      "price": 2694.2,
+      "changePct": 0.052404258258353875,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 120.62,
-      "changePct": -0.497738525094317,
+      "price": 121.43,
+      "changePct": -0.45522112520157254,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 770.21,
-      "changePct": -0.22550453457310643,
+      "price": 773.0,
+      "changePct": -0.5017747332263554,
       "source": "CoinGecko"
     }
   ],
@@ -59,21 +59,21 @@
       "description": "Hold this coin until Halloween."
     },
     {
-      "url": "https://dexscreener.com/solana/bgpxrnia1kzqubtccexxr4zh4hrx8eoyy1sqtt3pump",
-      "tokenAddress": "bGpXrniA1kzqubTCCexxR4Zh4Hrx8eoYY1Sqtt3pump",
-      "description": "New day. Same mission. J is just getting started. \ud83e\uddb8\u200d\u2642\ufe0f\u2600\ufe0f"
-    },
-    {
       "url": "https://dexscreener.com/solana/8vte25yt28l8bflxm8drzjsyeyakx8yry6hrkrmx7fgd",
       "tokenAddress": "8Vte25yt28L8BfLXm8DrzjSYEyaKX8yry6hRKRmX7FGd",
       "description": "Uptober"
+    },
+    {
+      "url": "https://dexscreener.com/solana/efv1jzu84ihk8j6ekdbmd9acgov77guhh2xjqndfpump",
+      "tokenAddress": "EFv1JzU84iHk8j6EkdBmd9ACgoV77GUhh2xJqNdFpump",
+      "description": "Hold $MEMECARDS, Earn $CARDS with a twist."
     }
   ],
   "fearGreed": {
     "value": 74,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
