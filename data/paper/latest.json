@@ -1,33 +1,38 @@
 {
-  "at": "2026-09-26T14:44:47.923687+00:00",
+  "at": "2026-09-26T18:05:05.709460+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84004.0,
-      "changePct": 0.2292489496427094,
+      "price": 84123.0,
+      "changePct": 0.36421799510688213,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2688.09,
-      "changePct": -0.03599959904636284,
+      "price": 2689.16,
+      "changePct": 0.08711328699349295,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 120.95,
-      "changePct": 0.8857015852618081,
+      "price": 121.5,
+      "changePct": 0.37331958555026756,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 773.33,
-      "changePct": -0.139925889746122,
+      "price": 772.52,
+      "changePct": -0.14064542618806394,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/3wczuvcto1fue9q14bxmu1z5f3kye6xrsetflbrgpump",
+      "tokenAddress": "3WcZUVcto1FUE9Q14BxMU1Z5F3Kye6xrSeTFLbRGpump",
+      "description": "Effective Quackelerationism. They said accelerate. The duck took it literally."
+    },
     {
       "url": "https://dexscreener.com/solana/bdzae3t7uu59pbvdbhzvzh3ywrrpo4oprxdv4npdpump",
       "tokenAddress": "BdzaE3T7uU59pBVDBHZVZh3yWrrpo4oPrXdv4nPDpump",
@@ -44,9 +49,9 @@
       "description": "Hold this coin until Halloween."
     },
     {
-      "url": "https://dexscreener.com/solana/egrv76sttvdnnwkdymkqlqquyggcmutoxy92qs9pump",
-      "tokenAddress": "EGRv76STtVdNNwKdyMkQLQquYggcMuToXy92qS9pump",
-      "description": "Just a ghost guy"
+      "url": "https://dexscreener.com/solana/4g5ydqdvwgwss3nlpdgdpguetbg7rzyznsbb1u4tqbzi",
+      "tokenAddress": "4G5YDqDvwgwSS3nLPDGDpGuetbG7rZYzNSBb1U4Tqbzi",
+      "description": "Launch. Battle. KO. Migrate. The $ARENA where memecoins fight 1v1 for migration. \ud83c\udfdb\ufe0f\u2694\ufe0f TikTok of memecoins, gift, tap for"
     },
     {
       "url": "https://dexscreener.com/solana/bgpxrnia1kzqubtccexxr4zh4hrx8eoyy1sqtt3pump",
@@ -54,19 +59,14 @@
       "description": "New day. Same mission. J is just getting started. \ud83e\uddb8\u200d\u2642\ufe0f\u2600\ufe0f"
     },
     {
-      "url": "https://dexscreener.com/solana/9eweyhqzrhme87ypwkuu1zzkp8umegdunmj4ettmpump",
-      "tokenAddress": "9EwEYhqzRHmE87ypWKUU1zZKP8uMeGdunmJ4etTmpump",
-      "description": "Briefcase in hand, this voxel office legend clocks in on Solana for memes, workplace mischief, and a community that neve"
+      "url": "https://dexscreener.com/solana/egrv76sttvdnnwkdymkqlqquyggcmutoxy92qs9pump",
+      "tokenAddress": "EGRv76STtVdNNwKdyMkQLQquYggcMuToXy92qS9pump",
+      "description": "Just a ghost guy"
     },
     {
-      "url": "https://dexscreener.com/solana/cmtfnmtw19ncez5qgmv7ojqhvkaxjvspwr6t4qvcgibd",
-      "tokenAddress": "CmTFnmtW19nCEz5QGmV7ojqhVKaXJVsPwR6t4QvCGiBd",
-      "description": "Fartcoin leads to Poocoin\n\nPaired with Fartcoin"
-    },
-    {
-      "url": "https://dexscreener.com/solana/4g5ydqdvwgwss3nlpdgdpguetbg7rzyznsbb1u4tqbzi",
-      "tokenAddress": "4G5YDqDvwgwSS3nLPDGDpGuetbG7rZYzNSBb1U4Tqbzi",
-      "description": "Launch. Battle. KO. Migrate. The $ARENA where memecoins fight 1v1 for migration. \ud83c\udfdb\ufe0f\u2694\ufe0f TikTok of memecoins, gift, tap for"
+      "url": "https://dexscreener.com/solana/8vte25yt28l8bflxm8drzjsyeyakx8yry6hrkrmx7fgd",
+      "tokenAddress": "8Vte25yt28L8BfLXm8DrzjSYEyaKX8yry6hRKRmX7FGd",
+      "description": "Uptober"
     }
   ],
   "fearGreed": {
