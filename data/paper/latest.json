@@ -1,47 +1,42 @@
 {
-  "at": "2026-09-26T05:33:08.811958+00:00",
+  "at": "2026-09-26T10:17:35.532476+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83929.0,
-      "changePct": -0.2344042809362644,
+      "price": 84100.0,
+      "changePct": -0.44002363774691655,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2687.84,
-      "changePct": 0.39077839976697304,
+      "price": 2686.84,
+      "changePct": -0.42960332831107695,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 120.37,
-      "changePct": 3.4813959394194347,
+      "price": 120.25,
+      "changePct": 1.8916937242919145,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 773.13,
-      "changePct": 0.015558953733486647,
+      "price": 772.27,
+      "changePct": -0.37119169634962434,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/exxr9wt3mjxbjmzhpvj7eca3zfxzd9uk1whmioeipump",
-      "tokenAddress": "EXXR9Wt3mjxbjmzhPVj7EcA3zfxZd9uk1WhMioeipump",
-      "description": "Shurikane is developing a multichain, cloud-decentralized wallet that brings digital asset management into one clear, ac"
+      "url": "https://dexscreener.com/solana/bdzae3t7uu59pbvdbhzvzh3ywrrpo4oprxdv4npdpump",
+      "tokenAddress": "BdzaE3T7uU59pBVDBHZVZh3yWrrpo4oPrXdv4nPDpump",
+      "description": "JianCO is the Jianco Lucky Token on Solana. Holding Jianco brings good luck and prosperity. JianCO also runs the Oracle "
     },
     {
       "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
       "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
       "description": "Hold this coin until Halloween."
-    },
-    {
-      "url": "https://dexscreener.com/solana/4g5ydqdvwgwss3nlpdgdpguetbg7rzyznsbb1u4tqbzi",
-      "tokenAddress": "4G5YDqDvwgwSS3nLPDGDpGuetbG7rZYzNSBb1U4Tqbzi",
-      "description": "Launch. Battle. KO. Migrate. The $ARENA where memecoins fight 1v1 for migration. \ud83c\udfdb\ufe0f\u2694\ufe0f TikTok of memecoins, gift, tap for"
     },
     {
       "url": "https://dexscreener.com/solana/fdqkwegxhyvz8hutddhlqe2znteftqq964veqqhdrwaq",
@@ -67,13 +62,18 @@
       "url": "https://dexscreener.com/solana/cmtfnmtw19ncez5qgmv7ojqhvkaxjvspwr6t4qvcgibd",
       "tokenAddress": "CmTFnmtW19nCEz5QGmV7ojqhVKaXJVsPwR6t4QvCGiBd",
       "description": "Fartcoin leads to Poocoin\n\nPaired with Fartcoin"
+    },
+    {
+      "url": "https://dexscreener.com/solana/4g5ydqdvwgwss3nlpdgdpguetbg7rzyznsbb1u4tqbzi",
+      "tokenAddress": "4G5YDqDvwgwSS3nLPDGDpGuetbG7rZYzNSBb1U4Tqbzi",
+      "description": "Launch. Battle. KO. Migrate. The $ARENA where memecoins fight 1v1 for migration. \ud83c\udfdb\ufe0f\u2694\ufe0f TikTok of memecoins, gift, tap for"
     }
   ],
   "fearGreed": {
     "value": 74,
     "label": "Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
