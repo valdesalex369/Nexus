@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-26T10:17:35.532476+00:00",
+  "at": "2026-09-26T14:44:47.923687+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84100.0,
-      "changePct": -0.44002363774691655,
+      "price": 84004.0,
+      "changePct": 0.2292489496427094,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2686.84,
-      "changePct": -0.42960332831107695,
+      "price": 2688.09,
+      "changePct": -0.03599959904636284,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 120.25,
-      "changePct": 1.8916937242919145,
+      "price": 120.95,
+      "changePct": 0.8857015852618081,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 772.27,
-      "changePct": -0.37119169634962434,
+      "price": 773.33,
+      "changePct": -0.139925889746122,
       "source": "CoinGecko"
     }
   ],
@@ -34,14 +34,14 @@
       "description": "JianCO is the Jianco Lucky Token on Solana. Holding Jianco brings good luck and prosperity. JianCO also runs the Oracle "
     },
     {
+      "url": "https://dexscreener.com/solana/fpvy8zjvhsf3zdlonokqvzylrkcoq6lmtz7rijnwpump",
+      "tokenAddress": "FPVy8zJvHsf3ZdLoNokQVzYLrkcoQ6LMTZ7riJNWpump",
+      "description": ""
+    },
+    {
       "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
       "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
       "description": "Hold this coin until Halloween."
-    },
-    {
-      "url": "https://dexscreener.com/solana/fdqkwegxhyvz8hutddhlqe2znteftqq964veqqhdrwaq",
-      "tokenAddress": "FdqkwEGXhyvZ8huTDDHLQE2ZnTEfTQQ964vEqQhDrWAQ",
-      "description": "d/acc"
     },
     {
       "url": "https://dexscreener.com/solana/egrv76sttvdnnwkdymkqlqquyggcmutoxy92qs9pump",
@@ -49,14 +49,14 @@
       "description": "Just a ghost guy"
     },
     {
-      "url": "https://dexscreener.com/solana/9eweyhqzrhme87ypwkuu1zzkp8umegdunmj4ettmpump",
-      "tokenAddress": "9EwEYhqzRHmE87ypWKUU1zZKP8uMeGdunmJ4etTmpump",
-      "description": "Briefcase in hand, this voxel office legend clocks in on Solana for memes, workplace mischief, and a community that neve"
-    },
-    {
       "url": "https://dexscreener.com/solana/bgpxrnia1kzqubtccexxr4zh4hrx8eoyy1sqtt3pump",
       "tokenAddress": "bGpXrniA1kzqubTCCexxR4Zh4Hrx8eoYY1Sqtt3pump",
       "description": "New day. Same mission. J is just getting started. \ud83e\uddb8\u200d\u2642\ufe0f\u2600\ufe0f"
+    },
+    {
+      "url": "https://dexscreener.com/solana/9eweyhqzrhme87ypwkuu1zzkp8umegdunmj4ettmpump",
+      "tokenAddress": "9EwEYhqzRHmE87ypWKUU1zZKP8uMeGdunmJ4etTmpump",
+      "description": "Briefcase in hand, this voxel office legend clocks in on Solana for memes, workplace mischief, and a community that neve"
     },
     {
       "url": "https://dexscreener.com/solana/cmtfnmtw19ncez5qgmv7ojqhvkaxjvspwr6t4qvcgibd",
@@ -73,7 +73,7 @@
     "value": 74,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
