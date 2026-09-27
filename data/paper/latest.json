@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-27T08:14:27.591085+00:00",
+  "at": "2026-09-27T14:04:43.111831+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84780.0,
-      "changePct": 0.8765463912274847,
+      "price": 84927.0,
+      "changePct": 1.1964577285786835,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2716.9,
-      "changePct": 1.0491353700036454,
+      "price": 2706.22,
+      "changePct": 0.7435962841957111,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 124.19,
-      "changePct": 3.050788494214622,
+      "price": 123.02,
+      "changePct": 1.9223741109932475,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 778.22,
-      "changePct": 0.7040622075198498,
+      "price": 780.53,
+      "changePct": 1.0898490389383342,
       "source": "CoinGecko"
     }
   ],
@@ -39,24 +39,24 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/bdzae3t7uu59pbvdbhzvzh3ywrrpo4oprxdv4npdpump",
-      "tokenAddress": "BdzaE3T7uU59pBVDBHZVZh3yWrrpo4oPrXdv4nPDpump",
-      "description": "JianCO is the Jianco Lucky Token on Solana. Holding Jianco brings good luck and prosperity. JianCO also runs the Oracle "
+      "url": "https://dexscreener.com/solana/2c7azoxqef8o9wutjwdgrhhbqea32ftdrybewaxepump",
+      "tokenAddress": "2c7AzoxqEF8o9wuTJwdGrhhbqEa32FtdRybEWaxEpump",
+      "description": "60% is sent to an X account via X Money, while the remaining 40% is distributed among all holders."
     },
     {
-      "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
-      "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
-      "description": "Hold this coin until Halloween."
-    },
-    {
-      "url": "https://dexscreener.com/solana/fvyjakbhhzpp3rk3boslvkjypi2zj4baas26r9hupump",
-      "tokenAddress": "FvYjAkbhhzpp3Rk3BoSLVKjYpi2zJ4baAS26R9hupump",
-      "description": "Living on the timeline. \u26a1\ufe0f X-themed culture on Solana. Post. Reply. Meme. Repeat. Welcome to \ud835\udd4fLife."
+      "url": "https://dexscreener.com/solana/4g5ydqdvwgwss3nlpdgdpguetbg7rzyznsbb1u4tqbzi",
+      "tokenAddress": "4G5YDqDvwgwSS3nLPDGDpGuetbG7rZYzNSBb1U4Tqbzi",
+      "description": "Launch. Battle. KO. Migrate. The $ARENA where memecoins fight 1v1 for migration. \ud83c\udfdb\ufe0f\u2694\ufe0f TikTok of memecoins, gift, tap for"
     },
     {
       "url": "https://dexscreener.com/solana/sapfjdcz4bcrqvku6jwjskjftp9jennxp5t9ur1pump",
       "tokenAddress": "SaPFjDCz4bcrqVkU6JWjskJftp9jENNxP5T9Ur1pump",
       "description": "Elon Musk offered me $15.1 million a month to have a baby with me."
+    },
+    {
+      "url": "https://dexscreener.com/solana/fvyjakbhhzpp3rk3boslvkjypi2zj4baas26r9hupump",
+      "tokenAddress": "FvYjAkbhhzpp3Rk3BoSLVKjYpi2zJ4baAS26R9hupump",
+      "description": "Living on the timeline. \u26a1\ufe0f X-themed culture on Solana. Post. Reply. Meme. Repeat. Welcome to \ud835\udd4fLife."
     },
     {
       "url": "https://dexscreener.com/solana/bjdfhk6xjhj9ln7pxcfzl6zofexfudao9camkcfvpump",
