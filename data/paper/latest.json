@@ -1,57 +1,47 @@
 {
-  "at": "2026-09-27T14:04:43.111831+00:00",
+  "at": "2026-09-27T18:26:57.370747+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84927.0,
-      "changePct": 1.1964577285786835,
+      "price": 84663.0,
+      "changePct": 0.7191695233933141,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2706.22,
-      "changePct": 0.7435962841957111,
+      "price": 2695.34,
+      "changePct": 0.28485359350520484,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 123.02,
-      "changePct": 1.9223741109932475,
+      "price": 122.68,
+      "changePct": 1.1249281041846895,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 780.53,
-      "changePct": 1.0898490389383342,
+      "price": 778.15,
+      "changePct": 0.8001925919824238,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/3wczuvcto1fue9q14bxmu1z5f3kye6xrsetflbrgpump",
-      "tokenAddress": "3WcZUVcto1FUE9Q14BxMU1Z5F3Kye6xrSeTFLbRGpump",
-      "description": "Effective Quackelerationism. They said accelerate. The duck took it literally."
-    },
-    {
-      "url": "https://dexscreener.com/solana/fpvy8zjvhsf3zdlonokqvzylrkcoq6lmtz7rijnwpump",
-      "tokenAddress": "FPVy8zJvHsf3ZdLoNokQVzYLrkcoQ6LMTZ7riJNWpump",
-      "description": ""
-    },
     {
       "url": "https://dexscreener.com/solana/2c7azoxqef8o9wutjwdgrhhbqea32ftdrybewaxepump",
       "tokenAddress": "2c7AzoxqEF8o9wuTJwdGrhhbqEa32FtdRybEWaxEpump",
       "description": "60% is sent to an X account via X Money, while the remaining 40% is distributed among all holders."
     },
     {
-      "url": "https://dexscreener.com/solana/4g5ydqdvwgwss3nlpdgdpguetbg7rzyznsbb1u4tqbzi",
-      "tokenAddress": "4G5YDqDvwgwSS3nLPDGDpGuetbG7rZYzNSBb1U4Tqbzi",
-      "description": "Launch. Battle. KO. Migrate. The $ARENA where memecoins fight 1v1 for migration. \ud83c\udfdb\ufe0f\u2694\ufe0f TikTok of memecoins, gift, tap for"
+      "url": "https://dexscreener.com/solana/6nsm2hxvaetydruyjjaukwgwgi8cgjmbolee7wchekn4",
+      "tokenAddress": "6nSM2HxvaetyDrUYjjAUKwgWGi8CGjmboLee7wcHeKN4",
+      "description": "the shib stays anonymous.\n\nhold $ZSHIB receive $ZEC rewards."
     },
     {
-      "url": "https://dexscreener.com/solana/sapfjdcz4bcrqvku6jwjskjftp9jennxp5t9ur1pump",
-      "tokenAddress": "SaPFjDCz4bcrqVkU6JWjskJftp9jENNxP5T9Ur1pump",
-      "description": "Elon Musk offered me $15.1 million a month to have a baby with me."
+      "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
+      "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
+      "description": "Hold this coin until Halloween."
     },
     {
       "url": "https://dexscreener.com/solana/fvyjakbhhzpp3rk3boslvkjypi2zj4baas26r9hupump",
@@ -62,6 +52,16 @@
       "url": "https://dexscreener.com/solana/bjdfhk6xjhj9ln7pxcfzl6zofexfudao9camkcfvpump",
       "tokenAddress": "BJDfhK6xJhj9Ln7PXCFZL6ZofEXfuDAo9cAmKCFvpump",
       "description": "Cake Cat is here for the fun of the internet, the joy of a good meme, and the people who make a community feel like home"
+    },
+    {
+      "url": "https://dexscreener.com/solana/9zripbmelwgzeqejh29qqy4tz4xvmqlvlxv3rtsdpump",
+      "tokenAddress": "9zriPbmELWGzEqEJH29qQY4TZ4xVMQLVLXV3RtSDpump",
+      "description": "XPAY turns every payment into a meme-powered mission\u2014send, spend, flex, and ride the digital wave to the moon."
+    },
+    {
+      "url": "https://dexscreener.com/solana/4g5ydqdvwgwss3nlpdgdpguetbg7rzyznsbb1u4tqbzi",
+      "tokenAddress": "4G5YDqDvwgwSS3nLPDGDpGuetbG7rZYzNSBb1U4Tqbzi",
+      "description": "Launch. Battle. KO. Migrate. The $ARENA where memecoins fight 1v1 for migration. \ud83c\udfdb\ufe0f\u2694\ufe0f TikTok of memecoins, gift, tap for"
     },
     {
       "url": "https://dexscreener.com/solana/8vte25yt28l8bflxm8drzjsyeyakx8yry6hrkrmx7fgd",
