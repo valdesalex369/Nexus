@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-27T01:50:38.791391+00:00",
+  "at": "2026-09-27T08:14:27.591085+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84434.0,
-      "changePct": 0.4834993543110947,
+      "price": 84780.0,
+      "changePct": 0.8765463912274847,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2695.34,
-      "changePct": 0.0925093473316523,
+      "price": 2716.9,
+      "changePct": 1.0491353700036454,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 121.06,
-      "changePct": -0.7930241890211459,
+      "price": 124.19,
+      "changePct": 3.050788494214622,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 773.07,
-      "changePct": -0.40319468068698294,
+      "price": 778.22,
+      "changePct": 0.7040622075198498,
       "source": "CoinGecko"
     }
   ],
@@ -44,9 +44,14 @@
       "description": "JianCO is the Jianco Lucky Token on Solana. Holding Jianco brings good luck and prosperity. JianCO also runs the Oracle "
     },
     {
-      "url": "https://dexscreener.com/solana/4g5ydqdvwgwss3nlpdgdpguetbg7rzyznsbb1u4tqbzi",
-      "tokenAddress": "4G5YDqDvwgwSS3nLPDGDpGuetbG7rZYzNSBb1U4Tqbzi",
-      "description": "Launch. Battle. KO. Migrate. The $ARENA where memecoins fight 1v1 for migration. \ud83c\udfdb\ufe0f\u2694\ufe0f TikTok of memecoins, gift, tap for"
+      "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
+      "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
+      "description": "Hold this coin until Halloween."
+    },
+    {
+      "url": "https://dexscreener.com/solana/fvyjakbhhzpp3rk3boslvkjypi2zj4baas26r9hupump",
+      "tokenAddress": "FvYjAkbhhzpp3Rk3BoSLVKjYpi2zJ4baAS26R9hupump",
+      "description": "Living on the timeline. \u26a1\ufe0f X-themed culture on Solana. Post. Reply. Meme. Repeat. Welcome to \ud835\udd4fLife."
     },
     {
       "url": "https://dexscreener.com/solana/sapfjdcz4bcrqvku6jwjskjftp9jennxp5t9ur1pump",
@@ -54,19 +59,14 @@
       "description": "Elon Musk offered me $15.1 million a month to have a baby with me."
     },
     {
-      "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
-      "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
-      "description": "Hold this coin until Halloween."
+      "url": "https://dexscreener.com/solana/bjdfhk6xjhj9ln7pxcfzl6zofexfudao9camkcfvpump",
+      "tokenAddress": "BJDfhK6xJhj9Ln7PXCFZL6ZofEXfuDAo9cAmKCFvpump",
+      "description": "Cake Cat is here for the fun of the internet, the joy of a good meme, and the people who make a community feel like home"
     },
     {
       "url": "https://dexscreener.com/solana/8vte25yt28l8bflxm8drzjsyeyakx8yry6hrkrmx7fgd",
       "tokenAddress": "8Vte25yt28L8BfLXm8DrzjSYEyaKX8yry6hRKRmX7FGd",
       "description": "Uptober"
-    },
-    {
-      "url": "https://dexscreener.com/solana/efv1jzu84ihk8j6ekdbmd9acgov77guhh2xjqndfpump",
-      "tokenAddress": "EFv1JzU84iHk8j6EkdBmd9ACgoV77GUhh2xJqNdFpump",
-      "description": "Hold $MEMECARDS, Earn $CARDS with a twist."
     }
   ],
   "fearGreed": {
