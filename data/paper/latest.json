@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-27T21:38:43.880817+00:00",
+  "at": "2026-09-27T23:59:41.989836+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84555.0,
-      "changePct": 0.43940811199935215,
+      "price": 84503.0,
+      "changePct": 0.1041541987113585,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2684.62,
-      "changePct": -0.12878413225987023,
+      "price": 2689.8,
+      "changePct": -0.21675896710369938,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 122.64,
-      "changePct": 1.0223537375364304,
+      "price": 122.13,
+      "changePct": 0.5842777565168963,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 777.51,
-      "changePct": 0.6549422602159571,
+      "price": 778.97,
+      "changePct": 0.7312085679451426,
       "source": "CoinGecko"
     }
   ],
@@ -59,14 +59,14 @@
       "description": "Living on the timeline. \u26a1\ufe0f X-themed culture on Solana. Post. Reply. Meme. Repeat. Welcome to \ud835\udd4fLife."
     },
     {
+      "url": "https://dexscreener.com/solana/cxsg5l8spneszqzjtjkieychlbexplpnzfx9aoj9pump",
+      "tokenAddress": "Cxsg5L8SpnesZQZjtjKieyCHLBEXpLPNzFX9aoj9pump",
+      "description": "Your key to the group chat. X VAULT is a community-powered Solana token built for the curious, the fearless, and the ear"
+    },
+    {
       "url": "https://dexscreener.com/solana/bjdfhk6xjhj9ln7pxcfzl6zofexfudao9camkcfvpump",
       "tokenAddress": "BJDfhK6xJhj9Ln7PXCFZL6ZofEXfuDAo9cAmKCFvpump",
       "description": "Cake Cat is here for the fun of the internet, the joy of a good meme, and the people who make a community feel like home"
-    },
-    {
-      "url": "https://dexscreener.com/solana/4g5ydqdvwgwss3nlpdgdpguetbg7rzyznsbb1u4tqbzi",
-      "tokenAddress": "4G5YDqDvwgwSS3nLPDGDpGuetbG7rZYzNSBb1U4Tqbzi",
-      "description": "Launch. Battle. KO. Migrate. The $ARENA where memecoins fight 1v1 for migration. \ud83c\udfdb\ufe0f\u2694\ufe0f TikTok of memecoins, gift, tap for"
     }
   ],
   "fearGreed": {
