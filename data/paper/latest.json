@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-27T23:59:41.989836+00:00",
+  "at": "2026-09-28T05:27:57.078078+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84503.0,
-      "changePct": 0.1041541987113585,
+      "price": 83054.0,
+      "changePct": -1.5716485054355083,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2689.8,
-      "changePct": -0.21675896710369938,
+      "price": 2645.67,
+      "changePct": -1.880322378299093,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 122.13,
-      "changePct": 0.5842777565168963,
+      "price": 119.09,
+      "changePct": -1.2615894666197458,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 778.97,
-      "changePct": 0.7312085679451426,
+      "price": 765.54,
+      "changePct": -0.8241674203015488,
       "source": "CoinGecko"
     }
   ],
@@ -32,6 +32,11 @@
       "url": "https://dexscreener.com/solana/fpzbwwrzh7yohba5vutpfqrhtsegbtgatxg7ykzd2szm",
       "tokenAddress": "FpZBwwRzh7yohba5vutPfQRHTsEGBtGAtXG7YkZd2SZM",
       "description": "welcome to landverse"
+    },
+    {
+      "url": "https://dexscreener.com/solana/ffzty32bzbpa8zrlbbiwonzw2emgv86tuxaoqhz1pump",
+      "tokenAddress": "FFzTy32bZbPA8zRLbbiWoNzW2emGv86tUxaoqhz1pump",
+      "description": "Any X handle turned into a market. XPAD."
     },
     {
       "url": "https://dexscreener.com/solana/2c7azoxqef8o9wutjwdgrhhbqea32ftdrybewaxepump",
@@ -44,9 +49,9 @@
       "description": "apeinsuit"
     },
     {
-      "url": "https://dexscreener.com/solana/6nsm2hxvaetydruyjjaukwgwgi8cgjmbolee7wchekn4",
-      "tokenAddress": "6nSM2HxvaetyDrUYjjAUKwgWGi8CGjmboLee7wcHeKN4",
-      "description": "the shib stays anonymous.\n\nhold $ZSHIB receive $ZEC rewards."
+      "url": "https://dexscreener.com/solana/bdzae3t7uu59pbvdbhzvzh3ywrrpo4oprxdv4npdpump",
+      "tokenAddress": "BdzaE3T7uU59pBVDBHZVZh3yWrrpo4oPrXdv4nPDpump",
+      "description": "JianCO is the Jianco Lucky Token on Solana. Holding Jianco brings good luck and prosperity. JianCO also runs the Oracle "
     },
     {
       "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
@@ -54,26 +59,21 @@
       "description": "Hold this coin until Halloween."
     },
     {
-      "url": "https://dexscreener.com/solana/fvyjakbhhzpp3rk3boslvkjypi2zj4baas26r9hupump",
-      "tokenAddress": "FvYjAkbhhzpp3Rk3BoSLVKjYpi2zJ4baAS26R9hupump",
-      "description": "Living on the timeline. \u26a1\ufe0f X-themed culture on Solana. Post. Reply. Meme. Repeat. Welcome to \ud835\udd4fLife."
-    },
-    {
       "url": "https://dexscreener.com/solana/cxsg5l8spneszqzjtjkieychlbexplpnzfx9aoj9pump",
       "tokenAddress": "Cxsg5L8SpnesZQZjtjKieyCHLBEXpLPNzFX9aoj9pump",
       "description": "Your key to the group chat. X VAULT is a community-powered Solana token built for the curious, the fearless, and the ear"
     },
     {
-      "url": "https://dexscreener.com/solana/bjdfhk6xjhj9ln7pxcfzl6zofexfudao9camkcfvpump",
-      "tokenAddress": "BJDfhK6xJhj9Ln7PXCFZL6ZofEXfuDAo9cAmKCFvpump",
-      "description": "Cake Cat is here for the fun of the internet, the joy of a good meme, and the people who make a community feel like home"
+      "url": "https://dexscreener.com/solana/6uhuksbc9rbb9gvjcjcwtcqv4t771rqf7bdn2qk7pump",
+      "tokenAddress": "6UhUkSBc9RBB9gVJcjCWtcQv4t771rQF7bdn2qK7pump",
+      "description": "Route creator fees to Instagram profiles. Launch a pumpfun token for any public handle and let its owner claim their sha"
     }
   ],
   "fearGreed": {
-    "value": 70,
+    "value": 74,
     "label": "Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
