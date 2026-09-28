@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-28T05:27:57.078078+00:00",
+  "at": "2026-09-28T12:01:03.955399+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83054.0,
-      "changePct": -1.5716485054355083,
+      "price": 83042.0,
+      "changePct": -2.162074641087574,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2645.67,
-      "changePct": -1.880322378299093,
+      "price": 2667.26,
+      "changePct": -1.5507767862211161,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 119.09,
-      "changePct": -1.2615894666197458,
+      "price": 118.62,
+      "changePct": -4.288500912238318,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 765.54,
-      "changePct": -0.8241674203015488,
+      "price": 763.23,
+      "changePct": -2.1124934905123025,
       "source": "CoinGecko"
     }
   ],
@@ -49,11 +49,6 @@
       "description": "apeinsuit"
     },
     {
-      "url": "https://dexscreener.com/solana/bdzae3t7uu59pbvdbhzvzh3ywrrpo4oprxdv4npdpump",
-      "tokenAddress": "BdzaE3T7uU59pBVDBHZVZh3yWrrpo4oPrXdv4nPDpump",
-      "description": "JianCO is the Jianco Lucky Token on Solana. Holding Jianco brings good luck and prosperity. JianCO also runs the Oracle "
-    },
-    {
       "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
       "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
       "description": "Hold this coin until Halloween."
@@ -67,6 +62,11 @@
       "url": "https://dexscreener.com/solana/6uhuksbc9rbb9gvjcjcwtcqv4t771rqf7bdn2qk7pump",
       "tokenAddress": "6UhUkSBc9RBB9gVJcjCWtcQv4t771rQF7bdn2qK7pump",
       "description": "Route creator fees to Instagram profiles. Launch a pumpfun token for any public handle and let its owner claim their sha"
+    },
+    {
+      "url": "https://dexscreener.com/solana/f1z5fqdtondlqyj72grqepawjrcrf39hr4gaka57ysuq",
+      "tokenAddress": "F1z5FQdToNDLQYJ72grqePaWJrcrf39HR4gaKA57ySUQ",
+      "description": "The Final Act"
     }
   ],
   "fearGreed": {
