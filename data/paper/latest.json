@@ -1,57 +1,47 @@
 {
-  "at": "2026-09-28T12:01:03.955399+00:00",
+  "at": "2026-09-28T19:41:50.459911+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83042.0,
-      "changePct": -2.162074641087574,
+      "price": 83267.0,
+      "changePct": -1.7400437483309747,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2667.26,
-      "changePct": -1.5507767862211161,
+      "price": 2668.73,
+      "changePct": -0.8963240424566606,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 118.62,
-      "changePct": -4.288500912238318,
+      "price": 118.15,
+      "changePct": -4.037074721646527,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 763.23,
-      "changePct": -2.1124934905123025,
+      "price": 762.7,
+      "changePct": -2.009556403869798,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/fpzbwwrzh7yohba5vutpfqrhtsegbtgatxg7ykzd2szm",
-      "tokenAddress": "FpZBwwRzh7yohba5vutPfQRHTsEGBtGAtXG7YkZd2SZM",
-      "description": "welcome to landverse"
-    },
     {
       "url": "https://dexscreener.com/solana/ffzty32bzbpa8zrlbbiwonzw2emgv86tuxaoqhz1pump",
       "tokenAddress": "FFzTy32bZbPA8zRLbbiWoNzW2emGv86tUxaoqhz1pump",
       "description": "Any X handle turned into a market. XPAD."
     },
     {
-      "url": "https://dexscreener.com/solana/2c7azoxqef8o9wutjwdgrhhbqea32ftdrybewaxepump",
-      "tokenAddress": "2c7AzoxqEF8o9wuTJwdGrhhbqEa32FtdRybEWaxEpump",
-      "description": "60% is sent to an X account via X Money, while the remaining 40% is distributed among all holders."
+      "url": "https://dexscreener.com/solana/fr4a6zveh6en6enwpjhdneittzen7j94hdptdja2pump",
+      "tokenAddress": "Fr4a6ZvEh6En6enWPjhDNeittzeN7J94HDpTdja2pump",
+      "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/8tdgvyucxdshjn6iz4hve7ftfqr4rwbd5sqgve65pump",
-      "tokenAddress": "8TDgvYUCXdSHjN6iZ4hve7FTFqR4RWbD5sQGvE65pump",
-      "description": "apeinsuit"
-    },
-    {
-      "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
-      "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
-      "description": "Hold this coin until Halloween."
+      "url": "https://dexscreener.com/solana/8ere7rkkoigyjtcyqdfwmpnna8caky14xe6ryjjhadkp",
+      "tokenAddress": "8erE7RkkoiGYJtCyQdfwMpnNA8cAkY14Xe6RYjjHAdKP",
+      "description": "We wait patiently all day for the market to reach the absolute highest top, ape in with max leverage, watch our portfoli"
     },
     {
       "url": "https://dexscreener.com/solana/cxsg5l8spneszqzjtjkieychlbexplpnzfx9aoj9pump",
@@ -67,6 +57,16 @@
       "url": "https://dexscreener.com/solana/f1z5fqdtondlqyj72grqepawjrcrf39hr4gaka57ysuq",
       "tokenAddress": "F1z5FQdToNDLQYJ72grqePaWJrcrf39HR4gaKA57ySUQ",
       "description": "The Final Act"
+    },
+    {
+      "url": "https://dexscreener.com/solana/5gefefpx1mds6zjb1apymz6fctcinjphturz9bvfpump",
+      "tokenAddress": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
+      "description": "The meme that pumps for Halloween!"
+    },
+    {
+      "url": "https://dexscreener.com/solana/bdzae3t7uu59pbvdbhzvzh3ywrrpo4oprxdv4npdpump",
+      "tokenAddress": "BdzaE3T7uU59pBVDBHZVZh3yWrrpo4oPrXdv4nPDpump",
+      "description": "JianCO is the Jianco Lucky Token on Solana. Holding Jianco brings good luck and prosperity. JianCO also runs the Oracle "
     }
   ],
   "fearGreed": {
