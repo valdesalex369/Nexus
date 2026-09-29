@@ -1,30 +1,24 @@
 {
-  "at": "2026-09-29T05:47:09.664097+00:00",
+  "at": "2026-09-29T12:57:08.616210+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83268.0,
-      "changePct": 0.25437278129291074,
-      "source": "CoinGecko"
+      "price": 84345.9,
+      "changePct": 1.0581972545819833,
+      "source": "Kraken"
     },
     {
       "symbol": "ETH",
-      "price": 2667.88,
-      "changePct": 0.7505648523386264,
-      "source": "CoinGecko"
+      "price": 2735.75,
+      "changePct": 1.7961063896289455,
+      "source": "Kraken"
     },
     {
       "symbol": "SOL",
-      "price": 117.87,
-      "changePct": -0.9251494460315186,
-      "source": "CoinGecko"
-    },
-    {
-      "symbol": "BNB",
-      "price": 757.55,
-      "changePct": -0.8983696176904412,
-      "source": "CoinGecko"
+      "price": 120.72,
+      "changePct": 1.5905074476142396,
+      "source": "Kraken"
     }
   ],
   "memes": [
@@ -59,11 +53,6 @@
       "description": "Haunted House"
     },
     {
-      "url": "https://dexscreener.com/solana/f1z5fqdtondlqyj72grqepawjrcrf39hr4gaka57ysuq",
-      "tokenAddress": "F1z5FQdToNDLQYJ72grqePaWJrcrf39HR4gaKA57ySUQ",
-      "description": "The Final Act"
-    },
-    {
       "url": "https://dexscreener.com/solana/e5x9y4d5nzn7azuaq4wcdrgs25qstr3twixharao8zzf",
       "tokenAddress": "E5x9y4d5NZN7azUaq4WcdrGS25qSTR3TwixHarAo8zzF",
       "description": "For too long, crypto has been a game rigged for insiders \u2014 VCs, whales, and early-access elites who dump on retail inves"
@@ -76,6 +65,7 @@
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
-    "binance: HTTP 451"
+    "binance: HTTP 451",
+    "coingecko: HTTP 403"
   ]
 }
