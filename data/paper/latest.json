@@ -1,27 +1,32 @@
 {
-  "at": "2026-09-29T18:39:32.162555+00:00",
+  "at": "2026-09-29T22:39:29.344039+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83560.3,
-      "changePct": 0.11693846472736423,
+      "price": 83522.5,
+      "changePct": 0.07164877244565884,
       "source": "Kraken"
     },
     {
       "symbol": "ETH",
-      "price": 2691.84,
-      "changePct": 0.1622337654605849,
+      "price": 2677.37,
+      "changePct": -0.3761888460565335,
       "source": "Kraken"
     },
     {
       "symbol": "SOL",
-      "price": 118.95,
-      "changePct": 0.10098459984852694,
+      "price": 118.97,
+      "changePct": 0.1178153664899441,
       "source": "Kraken"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/6vuz122bbhcobsxlh94jdmamhajhrgbkgjj1i2twpump",
+      "tokenAddress": "6Vuz122BbhCoBSXLH94JdMamHAJhRGBKGJJ1i2TWpump",
+      "description": ""
+    },
     {
       "url": "https://dexscreener.com/solana/esedbgaw2mgkvtphcz1pbbbkdamfafgqu9i1gpsnpump",
       "tokenAddress": "ESEdbgAw2mgkVTPhCz1pbBbKdAmFAFgqu9i1gpsNpump",
@@ -48,19 +53,14 @@
       "description": "The meme that pumps for Halloween!"
     },
     {
-      "url": "https://dexscreener.com/solana/fjkd8gr4uwyqymh87vhknt7w5is8qz1dm8zhpcwzpump",
-      "tokenAddress": "FjKd8GR4uwYQymh87VhknT7w5iS8qz1DM8ZHPCWZpump",
-      "description": "Haunted House"
-    },
-    {
       "url": "https://dexscreener.com/solana/dr9923tzvcfkmpa7xxvpaups9fx8yfpcvhqhmfgdpump",
       "tokenAddress": "DR9923tzvCfKMpa7XxVPaUps9Fx8YfpcVHQHMfgDpump",
       "description": "just a stupid inu"
     },
     {
-      "url": "https://dexscreener.com/solana/hgn8k3x5zlfynjve8b1hcqqu7rwupuku6ekehemzpump",
-      "tokenAddress": "HGN8K3x5ZLfYNjvE8b1hCqqu7RwupuKU6EkEhemzpump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/8y2h8rdbf1fvkhchnqazfg4yj5azxuyueobyeavjpump",
+      "tokenAddress": "8y2h8RDbF1FVKhcHNqaZFg4yJ5azXUyUeoByEAvJpump",
+      "description": "Nigga Inu"
     }
   ],
   "fearGreed": {
