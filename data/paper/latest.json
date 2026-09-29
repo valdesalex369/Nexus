@@ -1,46 +1,46 @@
 {
-  "at": "2026-09-29T12:57:08.616210+00:00",
+  "at": "2026-09-29T18:39:32.162555+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84345.9,
-      "changePct": 1.0581972545819833,
+      "price": 83560.3,
+      "changePct": 0.11693846472736423,
       "source": "Kraken"
     },
     {
       "symbol": "ETH",
-      "price": 2735.75,
-      "changePct": 1.7961063896289455,
+      "price": 2691.84,
+      "changePct": 0.1622337654605849,
       "source": "Kraken"
     },
     {
       "symbol": "SOL",
-      "price": 120.72,
-      "changePct": 1.5905074476142396,
+      "price": 118.95,
+      "changePct": 0.10098459984852694,
       "source": "Kraken"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/fr4a6zveh6en6enwpjhdneittzen7j94hdptdja2pump",
-      "tokenAddress": "Fr4a6ZvEh6En6enWPjhDNeittzeN7J94HDpTdja2pump",
+      "url": "https://dexscreener.com/solana/esedbgaw2mgkvtphcz1pbbbkdamfafgqu9i1gpsnpump",
+      "tokenAddress": "ESEdbgAw2mgkVTPhCz1pbBbKdAmFAFgqu9i1gpsNpump",
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/8ere7rkkoigyjtcyqdfwmpnna8caky14xe6ryjjhadkp",
-      "tokenAddress": "8erE7RkkoiGYJtCyQdfwMpnNA8cAkY14Xe6RYjjHAdKP",
-      "description": "We wait patiently all day for the market to reach the absolute highest top, ape in with max leverage, watch our portfoli"
-    },
-    {
-      "url": "https://dexscreener.com/solana/8n1qyjo7lrqmfazstj3k1qpknrmxdms6r4edjkvjpump",
-      "tokenAddress": "8n1Qyjo7LrQMFaZsTJ3K1qPkNRMxDmS6R4eDjkvjpump",
-      "description": "Every transfer gets hooked. Rules in the token. Cat on the line. Not official. $HOOKEDCAT"
+      "url": "https://dexscreener.com/solana/3kmygwkzbkcyrgzhkfiub9ufktcdltffsko3bwpmpump",
+      "tokenAddress": "3kmygWKZBkCYrgZHKfiuB9UFKTcDLTFFsKo3BWpmpump",
+      "description": "Coins quoted in another coin. Every trade pays its fee in the host token, and that fee burns the host."
     },
     {
       "url": "https://dexscreener.com/solana/9k7ngxqij7tvltib6hxdjhnkzzynfz46ab6eg4uwpump",
       "tokenAddress": "9k7NgXqiJ7tvLtiB6HXdJHnKZZynFz46AB6Eg4Uwpump",
       "description": "Inuink leaves its paw print on crypto with bold ink and big meme energy."
+    },
+    {
+      "url": "https://dexscreener.com/solana/8n1qyjo7lrqmfazstj3k1qpknrmxdms6r4edjkvjpump",
+      "tokenAddress": "8n1Qyjo7LrQMFaZsTJ3K1qPkNRMxDmS6R4eDjkvjpump",
+      "description": "Every transfer gets hooked. Rules in the token. Cat on the line. Not official. $HOOKEDCAT"
     },
     {
       "url": "https://dexscreener.com/solana/5gefefpx1mds6zjb1apymz6fctcinjphturz9bvfpump",
@@ -53,9 +53,14 @@
       "description": "Haunted House"
     },
     {
-      "url": "https://dexscreener.com/solana/e5x9y4d5nzn7azuaq4wcdrgs25qstr3twixharao8zzf",
-      "tokenAddress": "E5x9y4d5NZN7azUaq4WcdrGS25qSTR3TwixHarAo8zzF",
-      "description": "For too long, crypto has been a game rigged for insiders \u2014 VCs, whales, and early-access elites who dump on retail inves"
+      "url": "https://dexscreener.com/solana/dr9923tzvcfkmpa7xxvpaups9fx8yfpcvhqhmfgdpump",
+      "tokenAddress": "DR9923tzvCfKMpa7XxVPaUps9Fx8YfpcVHQHMfgDpump",
+      "description": "just a stupid inu"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hgn8k3x5zlfynjve8b1hcqqu7rwupuku6ekehemzpump",
+      "tokenAddress": "HGN8K3x5ZLfYNjvE8b1hCqqu7RwupuKU6EkEhemzpump",
+      "description": ""
     }
   ],
   "fearGreed": {
