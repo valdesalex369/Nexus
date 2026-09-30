@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-30T14:14:56.389195+00:00",
+  "at": "2026-09-30T19:28:34.757402+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84277.0,
-      "changePct": 0.43624121199485444,
+      "price": 83727.0,
+      "changePct": 0.2066955759022462,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2700.27,
-      "changePct": -0.6670100041835648,
+      "price": 2672.79,
+      "changePct": -0.8430994476844818,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 120.55,
-      "changePct": 0.019674992214598057,
+      "price": 117.72,
+      "changePct": -1.3239163930599354,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 769.43,
-      "changePct": 0.9293930913828786,
+      "price": 765.99,
+      "changePct": 1.3821129377099233,
       "source": "CoinGecko"
     }
   ],
@@ -34,14 +34,9 @@
       "description": "The FIRST launchpad with a voice. Launch a coin on Solana and it goes live with its own 24/7 AI host on X Spaces."
     },
     {
-      "url": "https://dexscreener.com/solana/esedbgaw2mgkvtphcz1pbbbkdamfafgqu9i1gpsnpump",
-      "tokenAddress": "ESEdbgAw2mgkVTPhCz1pbBbKdAmFAFgqu9i1gpsNpump",
+      "url": "https://dexscreener.com/solana/mxrsf4j1m4solvuzq9mipn2xpge21kdr2btsdzipump",
+      "tokenAddress": "mXrsF4j1M4SoLvUzq9MiPN2xpGE21kDR2bTSdZipump",
       "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/6vuz122bbhcobsxlh94jdmamhajhrgbkgjj1i2twpump",
-      "tokenAddress": "6Vuz122BbhCoBSXLH94JdMamHAJhRGBKGJJ1i2TWpump",
-      "description": "CROCS"
     },
     {
       "url": "https://dexscreener.com/solana/etnexyw9cy26bqtq2y38nj6jufkmzm4pwwqi2vedpump",
@@ -49,19 +44,24 @@
       "description": "VeilPay is designed around a simple idea: your payment information shouldn't need to be exposed more than necessary."
     },
     {
-      "url": "https://dexscreener.com/solana/7pnnmfgcwzwws5tlarftjlsw1s4ajgdxbu3kyukapump",
-      "tokenAddress": "7PnnmFGcWzwWs5tLaRfTjLSw1s4AJGdXbu3kyUkApump",
-      "description": "LionDad became a viral sensation for his incredible bond with lions, sharing unforgettable moments that have reached mil"
+      "url": "https://dexscreener.com/solana/hppb5rmgvsuqua42n2tedcjwy7gluam6dq5qmslzpump",
+      "tokenAddress": "HppB5rMgVsUqua42N2TEDcjwy7gLuAm6dq5qMSLZpump",
+      "description": "The pump. Fun founder responded - this is no longer a CTO. The original dev is supporting us.\n\nEven bigger: They have ag"
+    },
+    {
+      "url": "https://dexscreener.com/solana/gacnbm6ie2mzdqghyu7wb1wtdm8esu2bmqk2bx1ipump",
+      "tokenAddress": "GAcNBm6iE2MZdqGhyu7Wb1wTDm8esU2BMQk2bX1ipump",
+      "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
+      "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
+      "description": "Hold this coin until Halloween."
     },
     {
       "url": "https://dexscreener.com/solana/6iaj2oywqmid9neytcw1s7utg7e3jsk7ud5zjdqjpump",
       "tokenAddress": "6iAj2oywQMiD9NeyTcW1S7UtG7e3jSK7Ud5ZJDqJpump",
       "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/dr9923tzvcfkmpa7xxvpaups9fx8yfpcvhqhmfgdpump",
-      "tokenAddress": "DR9923tzvCfKMpa7XxVPaUps9Fx8YfpcVHQHMfgDpump",
-      "description": "just a stupid inu"
     },
     {
       "url": "https://dexscreener.com/solana/byaxkgdfkuapmgsxu4sij5yc6dtsflxp6an3pvvvpump",
