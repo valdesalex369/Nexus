@@ -1,23 +1,23 @@
 {
-  "at": "2026-09-29T22:39:29.344039+00:00",
+  "at": "2026-09-30T01:37:27.188381+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83522.5,
-      "changePct": 0.07164877244565884,
+      "price": 83363.1,
+      "changePct": -0.32331541786484386,
       "source": "Kraken"
     },
     {
       "symbol": "ETH",
-      "price": 2677.37,
-      "changePct": -0.3761888460565335,
+      "price": 2669.44,
+      "changePct": -0.2712294990099662,
       "source": "Kraken"
     },
     {
       "symbol": "SOL",
-      "price": 118.97,
-      "changePct": 0.1178153664899441,
+      "price": 119.12,
+      "changePct": 0.008395600705234756,
       "source": "Kraken"
     }
   ],
@@ -38,11 +38,6 @@
       "description": "Coins quoted in another coin. Every trade pays its fee in the host token, and that fee burns the host."
     },
     {
-      "url": "https://dexscreener.com/solana/9k7ngxqij7tvltib6hxdjhnkzzynfz46ab6eg4uwpump",
-      "tokenAddress": "9k7NgXqiJ7tvLtiB6HXdJHnKZZynFz46AB6Eg4Uwpump",
-      "description": "Inuink leaves its paw print on crypto with bold ink and big meme energy."
-    },
-    {
       "url": "https://dexscreener.com/solana/8n1qyjo7lrqmfazstj3k1qpknrmxdms6r4edjkvjpump",
       "tokenAddress": "8n1Qyjo7LrQMFaZsTJ3K1qPkNRMxDmS6R4eDjkvjpump",
       "description": "Every transfer gets hooked. Rules in the token. Cat on the line. Not official. $HOOKEDCAT"
@@ -53,18 +48,23 @@
       "description": "The meme that pumps for Halloween!"
     },
     {
+      "url": "https://dexscreener.com/solana/residek2ejv9apu1op2vbv89poumxcdcs8nzbxq5q1y",
+      "tokenAddress": "resideK2Ejv9apu1op2VBv89poumxCDCs8nzBxQ5q1y",
+      "description": "Reside is RWAfi for Solana memecoin traders. Its clearest entry product is trading-fee rebates paid in tokenized stocks."
+    },
+    {
       "url": "https://dexscreener.com/solana/dr9923tzvcfkmpa7xxvpaups9fx8yfpcvhqhmfgdpump",
       "tokenAddress": "DR9923tzvCfKMpa7XxVPaUps9Fx8YfpcVHQHMfgDpump",
       "description": "just a stupid inu"
     },
     {
-      "url": "https://dexscreener.com/solana/8y2h8rdbf1fvkhchnqazfg4yj5azxuyueobyeavjpump",
-      "tokenAddress": "8y2h8RDbF1FVKhcHNqaZFg4yJ5azXUyUeoByEAvJpump",
-      "description": "Nigga Inu"
+      "url": "https://dexscreener.com/solana/byaxkgdfkuapmgsxu4sij5yc6dtsflxp6an3pvvvpump",
+      "tokenAddress": "BYaxkgDfkUApMgsXu4SiJ5yc6DTSfLxp6an3PvVVpump",
+      "description": "Cape on, memes loaded\u2014Super Stonk is here to bring superhero energy to your timeline! \ud83e\uddb8\ud83d\udcc8\u26a1\ufe0f"
     }
   ],
   "fearGreed": {
-    "value": 73,
+    "value": 71,
     "label": "Greed"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
