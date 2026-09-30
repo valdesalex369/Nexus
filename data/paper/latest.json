@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-30T19:28:34.757402+00:00",
+  "at": "2026-09-30T23:13:03.697770+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83727.0,
-      "changePct": 0.2066955759022462,
+      "price": 83623.0,
+      "changePct": -0.17182643196374164,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2672.79,
-      "changePct": -0.8430994476844818,
+      "price": 2685.73,
+      "changePct": 0.021555622065277655,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 117.72,
-      "changePct": -1.3239163930599354,
+      "price": 118.18,
+      "changePct": -1.1010694044749523,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 765.99,
-      "changePct": 1.3821129377099233,
+      "price": 769.25,
+      "changePct": 1.1081105540360248,
       "source": "CoinGecko"
     }
   ],
@@ -44,6 +44,11 @@
       "description": "VeilPay is designed around a simple idea: your payment information shouldn't need to be exposed more than necessary."
     },
     {
+      "url": "https://dexscreener.com/solana/6iaj2oywqmid9neytcw1s7utg7e3jsk7ud5zjdqjpump",
+      "tokenAddress": "6iAj2oywQMiD9NeyTcW1S7UtG7e3jSK7Ud5ZJDqJpump",
+      "description": ""
+    },
+    {
       "url": "https://dexscreener.com/solana/hppb5rmgvsuqua42n2tedcjwy7gluam6dq5qmslzpump",
       "tokenAddress": "HppB5rMgVsUqua42N2TEDcjwy7gLuAm6dq5qMSLZpump",
       "description": "The pump. Fun founder responded - this is no longer a CTO. The original dev is supporting us.\n\nEven bigger: They have ag"
@@ -59,14 +64,9 @@
       "description": "Hold this coin until Halloween."
     },
     {
-      "url": "https://dexscreener.com/solana/6iaj2oywqmid9neytcw1s7utg7e3jsk7ud5zjdqjpump",
-      "tokenAddress": "6iAj2oywQMiD9NeyTcW1S7UtG7e3jSK7Ud5ZJDqJpump",
-      "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/byaxkgdfkuapmgsxu4sij5yc6dtsflxp6an3pvvvpump",
-      "tokenAddress": "BYaxkgDfkUApMgsXu4SiJ5yc6DTSfLxp6an3PvVVpump",
-      "description": "Cape on, memes loaded\u2014Super Stonk is here to bring superhero energy to your timeline! \ud83e\uddb8\ud83d\udcc8\u26a1\ufe0f"
+      "url": "https://dexscreener.com/solana/j47jmw8ndwu6vt6zubd9c9vuvhi6uwsbe2xpsejmpump",
+      "tokenAddress": "J47Jmw8ndwu6Vt6ZubD9C9VUVHi6uWsBE2XPsEjmpump",
+      "description": "FKCANCER! Our dear friend @revolut20 (Rev) has been diagnosed with Leukemia. Help Rev beat cancer. 80% of fees going to "
     }
   ],
   "fearGreed": {
