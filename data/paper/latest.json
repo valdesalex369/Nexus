@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-30T07:30:13.130934+00:00",
+  "at": "2026-09-30T14:14:56.389195+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83303.0,
-      "changePct": -0.783321871949138,
+      "price": 84277.0,
+      "changePct": 0.43624121199485444,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2670.45,
-      "changePct": -1.5442569602221963,
+      "price": 2700.27,
+      "changePct": -0.6670100041835648,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 118.54,
-      "changePct": -0.6565493808743411,
+      "price": 120.55,
+      "changePct": 0.019674992214598057,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 758.84,
-      "changePct": -1.1349163739359918,
+      "price": 769.43,
+      "changePct": 0.9293930913828786,
       "source": "CoinGecko"
     }
   ],
@@ -34,14 +34,14 @@
       "description": "The FIRST launchpad with a voice. Launch a coin on Solana and it goes live with its own 24/7 AI host on X Spaces."
     },
     {
-      "url": "https://dexscreener.com/solana/6vuz122bbhcobsxlh94jdmamhajhrgbkgjj1i2twpump",
-      "tokenAddress": "6Vuz122BbhCoBSXLH94JdMamHAJhRGBKGJJ1i2TWpump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/esedbgaw2mgkvtphcz1pbbbkdamfafgqu9i1gpsnpump",
       "tokenAddress": "ESEdbgAw2mgkVTPhCz1pbBbKdAmFAFgqu9i1gpsNpump",
       "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/6vuz122bbhcobsxlh94jdmamhajhrgbkgjj1i2twpump",
+      "tokenAddress": "6Vuz122BbhCoBSXLH94JdMamHAJhRGBKGJJ1i2TWpump",
+      "description": "CROCS"
     },
     {
       "url": "https://dexscreener.com/solana/etnexyw9cy26bqtq2y38nj6jufkmzm4pwwqi2vedpump",
@@ -54,26 +54,26 @@
       "description": "LionDad became a viral sensation for his incredible bond with lions, sharing unforgettable moments that have reached mil"
     },
     {
-      "url": "https://dexscreener.com/solana/3kmygwkzbkcyrgzhkfiub9ufktcdltffsko3bwpmpump",
-      "tokenAddress": "3kmygWKZBkCYrgZHKfiuB9UFKTcDLTFFsKo3BWpmpump",
-      "description": "Coins quoted in another coin. Every trade pays its fee in the host token, and that fee burns the host."
+      "url": "https://dexscreener.com/solana/6iaj2oywqmid9neytcw1s7utg7e3jsk7ud5zjdqjpump",
+      "tokenAddress": "6iAj2oywQMiD9NeyTcW1S7UtG7e3jSK7Ud5ZJDqJpump",
+      "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/8n1qyjo7lrqmfazstj3k1qpknrmxdms6r4edjkvjpump",
-      "tokenAddress": "8n1Qyjo7LrQMFaZsTJ3K1qPkNRMxDmS6R4eDjkvjpump",
-      "description": "Every transfer gets hooked. Rules in the token. Cat on the line. Not official. $HOOKEDCAT"
+      "url": "https://dexscreener.com/solana/dr9923tzvcfkmpa7xxvpaups9fx8yfpcvhqhmfgdpump",
+      "tokenAddress": "DR9923tzvCfKMpa7XxVPaUps9Fx8YfpcVHQHMfgDpump",
+      "description": "just a stupid inu"
     },
     {
-      "url": "https://dexscreener.com/solana/5gefefpx1mds6zjb1apymz6fctcinjphturz9bvfpump",
-      "tokenAddress": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
-      "description": "The meme that pumps for Halloween!"
+      "url": "https://dexscreener.com/solana/byaxkgdfkuapmgsxu4sij5yc6dtsflxp6an3pvvvpump",
+      "tokenAddress": "BYaxkgDfkUApMgsXu4SiJ5yc6DTSfLxp6an3PvVVpump",
+      "description": "Cape on, memes loaded\u2014Super Stonk is here to bring superhero energy to your timeline! \ud83e\uddb8\ud83d\udcc8\u26a1\ufe0f"
     }
   ],
   "fearGreed": {
     "value": 71,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
