@@ -1,27 +1,38 @@
 {
-  "at": "2026-09-30T01:37:27.188381+00:00",
+  "at": "2026-09-30T07:30:13.130934+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83363.1,
-      "changePct": -0.32331541786484386,
-      "source": "Kraken"
+      "price": 83303.0,
+      "changePct": -0.783321871949138,
+      "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2669.44,
-      "changePct": -0.2712294990099662,
-      "source": "Kraken"
+      "price": 2670.45,
+      "changePct": -1.5442569602221963,
+      "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 119.12,
-      "changePct": 0.008395600705234756,
-      "source": "Kraken"
+      "price": 118.54,
+      "changePct": -0.6565493808743411,
+      "source": "CoinGecko"
+    },
+    {
+      "symbol": "BNB",
+      "price": 758.84,
+      "changePct": -1.1349163739359918,
+      "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/6zg6fmhae7npubjr16g8nflbg91rh5ku5svpqumqpump",
+      "tokenAddress": "6ZG6fMHaE7NpubJr16G8nFLBg91rH5kU5SVpqUmQpump",
+      "description": "The FIRST launchpad with a voice. Launch a coin on Solana and it goes live with its own 24/7 AI host on X Spaces."
+    },
     {
       "url": "https://dexscreener.com/solana/6vuz122bbhcobsxlh94jdmamhajhrgbkgjj1i2twpump",
       "tokenAddress": "6Vuz122BbhCoBSXLH94JdMamHAJhRGBKGJJ1i2TWpump",
@@ -31,6 +42,16 @@
       "url": "https://dexscreener.com/solana/esedbgaw2mgkvtphcz1pbbbkdamfafgqu9i1gpsnpump",
       "tokenAddress": "ESEdbgAw2mgkVTPhCz1pbBbKdAmFAFgqu9i1gpsNpump",
       "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/etnexyw9cy26bqtq2y38nj6jufkmzm4pwwqi2vedpump",
+      "tokenAddress": "ETneXyW9cy26bqTQ2Y38Nj6JUfKmzM4pwwqi2VeDpump",
+      "description": "VeilPay is designed around a simple idea: your payment information shouldn't need to be exposed more than necessary."
+    },
+    {
+      "url": "https://dexscreener.com/solana/7pnnmfgcwzwws5tlarftjlsw1s4ajgdxbu3kyukapump",
+      "tokenAddress": "7PnnmFGcWzwWs5tLaRfTjLSw1s4AJGdXbu3kyUkApump",
+      "description": "LionDad became a viral sensation for his incredible bond with lions, sharing unforgettable moments that have reached mil"
     },
     {
       "url": "https://dexscreener.com/solana/3kmygwkzbkcyrgzhkfiub9ufktcdltffsko3bwpmpump",
@@ -46,31 +67,15 @@
       "url": "https://dexscreener.com/solana/5gefefpx1mds6zjb1apymz6fctcinjphturz9bvfpump",
       "tokenAddress": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
       "description": "The meme that pumps for Halloween!"
-    },
-    {
-      "url": "https://dexscreener.com/solana/residek2ejv9apu1op2vbv89poumxcdcs8nzbxq5q1y",
-      "tokenAddress": "resideK2Ejv9apu1op2VBv89poumxCDCs8nzBxQ5q1y",
-      "description": "Reside is RWAfi for Solana memecoin traders. Its clearest entry product is trading-fee rebates paid in tokenized stocks."
-    },
-    {
-      "url": "https://dexscreener.com/solana/dr9923tzvcfkmpa7xxvpaups9fx8yfpcvhqhmfgdpump",
-      "tokenAddress": "DR9923tzvCfKMpa7XxVPaUps9Fx8YfpcVHQHMfgDpump",
-      "description": "just a stupid inu"
-    },
-    {
-      "url": "https://dexscreener.com/solana/byaxkgdfkuapmgsxu4sij5yc6dtsflxp6an3pvvvpump",
-      "tokenAddress": "BYaxkgDfkUApMgsXu4SiJ5yc6DTSfLxp6an3PvVVpump",
-      "description": "Cape on, memes loaded\u2014Super Stonk is here to bring superhero energy to your timeline! \ud83e\uddb8\ud83d\udcc8\u26a1\ufe0f"
     }
   ],
   "fearGreed": {
     "value": 71,
     "label": "Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
-    "binance: HTTP 451",
-    "coingecko: HTTP 403"
+    "binance: HTTP 451"
   ]
 }
