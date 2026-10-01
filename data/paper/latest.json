@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-01T09:02:51.675056+00:00",
+  "at": "2026-10-01T16:28:21.280326+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83548.0,
-      "changePct": 0.5915083649290659,
+      "price": 84319.0,
+      "changePct": -0.03343323814225972,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2686.55,
-      "changePct": 0.6013297738347536,
+      "price": 2684.62,
+      "changePct": -0.12979459101648075,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 117.89,
-      "changePct": -0.31037343203546847,
+      "price": 117.47,
+      "changePct": -1.8523204619665994,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 766.19,
-      "changePct": 0.8269480570054203,
+      "price": 766.97,
+      "changePct": -0.31719681792091853,
       "source": "CoinGecko"
     }
   ],
@@ -39,9 +39,14 @@
       "description": "NoxBank is building a privacy-focused banking experience on Solana designed around private payments, asset control, and "
     },
     {
+      "url": "https://dexscreener.com/solana/hrzh7kozfedtshng4bvmhulwejpmvdskuyxaf2n5im1b",
+      "tokenAddress": "HrZh7koZFedTSHng4bVmhULwejpmVdSKUYxaf2N5im1b",
+      "description": "Hold Cats, Stack Sats. \n\nCatoshi is Satoshi's Cat. Own Catoshi and get rewarded with RUSH tokens which you can stake at "
+    },
+    {
       "url": "https://dexscreener.com/solana/6iaj2oywqmid9neytcw1s7utg7e3jsk7ud5zjdqjpump",
       "tokenAddress": "6iAj2oywQMiD9NeyTcW1S7UtG7e3jSK7Ud5ZJDqJpump",
-      "description": ""
+      "description": "The ticker is $HI (Hallow Inu)"
     },
     {
       "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
@@ -54,26 +59,21 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/hppb5rmgvsuqua42n2tedcjwy7gluam6dq5qmslzpump",
-      "tokenAddress": "HppB5rMgVsUqua42N2TEDcjwy7gLuAm6dq5qMSLZpump",
-      "description": "The pump. Fun founder responded - this is no longer a CTO. The original dev is supporting us.\n\nEven bigger: They have ag"
-    },
-    {
       "url": "https://dexscreener.com/solana/4vex32b4llr2hl4tzdgz724rsyxgccagt8mrsuanpump",
       "tokenAddress": "4vEX32B4LLr2hL4tzdgz724rSYXGccAGT8MRSUaNpump",
       "description": "Save the otters with the community token of Degen the Otter"
     },
     {
-      "url": "https://dexscreener.com/solana/h3vfxfzffqnba2nv2setmbdy92ylk2vjhsppuzyv6ua",
-      "tokenAddress": "H3vfXFZfFQnba2NV2seTMBdY92yLK2VJHsppUzYv6ua",
-      "description": "Generational Wealth"
+      "url": "https://dexscreener.com/solana/edpcd9ayh6bvrkv5hyrgneuj3mhafcdnhtsl9yvopump",
+      "tokenAddress": "Edpcd9aYh6BVRKV5hYrgnEuJ3MHAFcdnHtSL9yvopump",
+      "description": "Smack the Pi\u00f1ata! Join the Fun! Game is Live and Prizes are being won!!"
     }
   ],
   "fearGreed": {
     "value": 74,
     "label": "Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
