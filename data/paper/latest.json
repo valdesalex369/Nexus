@@ -1,29 +1,29 @@
 {
-  "at": "2026-09-30T23:13:03.697770+00:00",
+  "at": "2026-10-01T02:12:30.803510+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83623.0,
-      "changePct": -0.17182643196374164,
+      "price": 83566.0,
+      "changePct": 0.11363305141920974,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2685.73,
-      "changePct": 0.021555622065277655,
+      "price": 2691.46,
+      "changePct": 0.7186921938320738,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 118.18,
-      "changePct": -1.1010694044749523,
+      "price": 118.23,
+      "changePct": -1.2416107318804905,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 769.25,
-      "changePct": 1.1081105540360248,
+      "price": 768.41,
+      "changePct": 1.0161110609067874,
       "source": "CoinGecko"
     }
   ],
@@ -44,11 +44,6 @@
       "description": "VeilPay is designed around a simple idea: your payment information shouldn't need to be exposed more than necessary."
     },
     {
-      "url": "https://dexscreener.com/solana/6iaj2oywqmid9neytcw1s7utg7e3jsk7ud5zjdqjpump",
-      "tokenAddress": "6iAj2oywQMiD9NeyTcW1S7UtG7e3jSK7Ud5ZJDqJpump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/hppb5rmgvsuqua42n2tedcjwy7gluam6dq5qmslzpump",
       "tokenAddress": "HppB5rMgVsUqua42N2TEDcjwy7gLuAm6dq5qMSLZpump",
       "description": "The pump. Fun founder responded - this is no longer a CTO. The original dev is supporting us.\n\nEven bigger: They have ag"
@@ -59,18 +54,23 @@
       "description": ""
     },
     {
+      "url": "https://dexscreener.com/solana/6iaj2oywqmid9neytcw1s7utg7e3jsk7ud5zjdqjpump",
+      "tokenAddress": "6iAj2oywQMiD9NeyTcW1S7UtG7e3jSK7Ud5ZJDqJpump",
+      "description": ""
+    },
+    {
       "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
       "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
       "description": "Hold this coin until Halloween."
     },
     {
-      "url": "https://dexscreener.com/solana/j47jmw8ndwu6vt6zubd9c9vuvhi6uwsbe2xpsejmpump",
-      "tokenAddress": "J47Jmw8ndwu6Vt6ZubD9C9VUVHi6uWsBE2XPsEjmpump",
-      "description": "FKCANCER! Our dear friend @revolut20 (Rev) has been diagnosed with Leukemia. Help Rev beat cancer. 80% of fees going to "
+      "url": "https://dexscreener.com/solana/h3vfxfzffqnba2nv2setmbdy92ylk2vjhsppuzyv6ua",
+      "tokenAddress": "H3vfXFZfFQnba2NV2seTMBdY92yLK2VJHsppUzYv6ua",
+      "description": "Generational Wealth"
     }
   ],
   "fearGreed": {
-    "value": 71,
+    "value": 74,
     "label": "Greed"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
