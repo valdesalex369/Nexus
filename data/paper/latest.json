@@ -1,38 +1,33 @@
 {
-  "at": "2026-10-01T16:28:21.280326+00:00",
+  "at": "2026-10-01T21:24:15.490191+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84319.0,
-      "changePct": -0.03343323814225972,
+      "price": 84616.0,
+      "changePct": 1.0437822277203623,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2684.62,
-      "changePct": -0.12979459101648075,
+      "price": 2695.46,
+      "changePct": 0.4819545977422642,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 117.47,
-      "changePct": -1.8523204619665994,
+      "price": 117.98,
+      "changePct": -0.04176525232341772,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 766.97,
-      "changePct": -0.31719681792091853,
+      "price": 769.98,
+      "changePct": 0.3011131645518192,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/mxrsf4j1m4solvuzq9mipn2xpge21kdr2btsdzipump",
-      "tokenAddress": "mXrsF4j1M4SoLvUzq9MiPN2xpGE21kDR2bTSdZipump",
-      "description": ""
-    },
     {
       "url": "https://dexscreener.com/solana/5gok7wzhvmfmffcvnhuubqrh9gtcqckhxbbwzywkpump",
       "tokenAddress": "5gok7WzHvMFmFfcvnHuuBqRh9GTcQckHXBBwZywkpump",
@@ -49,6 +44,16 @@
       "description": "The ticker is $HI (Hallow Inu)"
     },
     {
+      "url": "https://dexscreener.com/solana/hmmdsu7wfpxjvhxezdkmfgqhgschqa73dnustheypump",
+      "tokenAddress": "HmMDsu7WFPxJVhXEZdkMFgQHgschqA73DnuSTheYpump",
+      "description": "One name. No single face. An entire timeline. We Are Jane Doe. $Janes \u2014 the community is the character."
+    },
+    {
+      "url": "https://dexscreener.com/solana/26xde2ibeitnjgkhtcy3afaqnutwfaj8hhrciqbbpump",
+      "tokenAddress": "26XdE2iBEiTnjgKHTcY3afaqnUtWfAj8HHrciQBBpump",
+      "description": "Mymo, the half-face cat with 2M+ followers and 800M+ views. All fees go directly toward Mymo\u2019s care."
+    },
+    {
       "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
       "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
       "description": "Hold this coin until Halloween."
@@ -59,21 +64,16 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/4vex32b4llr2hl4tzdgz724rsyxgccagt8mrsuanpump",
-      "tokenAddress": "4vEX32B4LLr2hL4tzdgz724rSYXGccAGT8MRSUaNpump",
-      "description": "Save the otters with the community token of Degen the Otter"
-    },
-    {
-      "url": "https://dexscreener.com/solana/edpcd9ayh6bvrkv5hyrgneuj3mhafcdnhtsl9yvopump",
-      "tokenAddress": "Edpcd9aYh6BVRKV5hYrgnEuJ3MHAFcdnHtSL9yvopump",
-      "description": "Smack the Pi\u00f1ata! Join the Fun! Game is Live and Prizes are being won!!"
+      "url": "https://dexscreener.com/solana/4k8v9yh6kkrls46btg68te1qhlkb7an8j5ycwq3ppump",
+      "tokenAddress": "4K8V9yH6kKRLS46BTG68Te1QHLkb7an8J5YcWQ3ppump",
+      "description": "At the edge of certainty, a new force takes shape. Super Accelerationism turns uncertainty into momentum, carrying its s"
     }
   ],
   "fearGreed": {
     "value": 74,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
