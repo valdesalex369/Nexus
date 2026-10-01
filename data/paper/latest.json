@@ -1,57 +1,42 @@
 {
-  "at": "2026-10-01T02:12:30.803510+00:00",
+  "at": "2026-10-01T09:02:51.675056+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83566.0,
-      "changePct": 0.11363305141920974,
+      "price": 83548.0,
+      "changePct": 0.5915083649290659,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2691.46,
-      "changePct": 0.7186921938320738,
+      "price": 2686.55,
+      "changePct": 0.6013297738347536,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 118.23,
-      "changePct": -1.2416107318804905,
+      "price": 117.89,
+      "changePct": -0.31037343203546847,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 768.41,
-      "changePct": 1.0161110609067874,
+      "price": 766.19,
+      "changePct": 0.8269480570054203,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/6zg6fmhae7npubjr16g8nflbg91rh5ku5svpqumqpump",
-      "tokenAddress": "6ZG6fMHaE7NpubJr16G8nFLBg91rH5kU5SVpqUmQpump",
-      "description": "The FIRST launchpad with a voice. Launch a coin on Solana and it goes live with its own 24/7 AI host on X Spaces."
-    },
     {
       "url": "https://dexscreener.com/solana/mxrsf4j1m4solvuzq9mipn2xpge21kdr2btsdzipump",
       "tokenAddress": "mXrsF4j1M4SoLvUzq9MiPN2xpGE21kDR2bTSdZipump",
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/etnexyw9cy26bqtq2y38nj6jufkmzm4pwwqi2vedpump",
-      "tokenAddress": "ETneXyW9cy26bqTQ2Y38Nj6JUfKmzM4pwwqi2VeDpump",
-      "description": "VeilPay is designed around a simple idea: your payment information shouldn't need to be exposed more than necessary."
-    },
-    {
-      "url": "https://dexscreener.com/solana/hppb5rmgvsuqua42n2tedcjwy7gluam6dq5qmslzpump",
-      "tokenAddress": "HppB5rMgVsUqua42N2TEDcjwy7gLuAm6dq5qMSLZpump",
-      "description": "The pump. Fun founder responded - this is no longer a CTO. The original dev is supporting us.\n\nEven bigger: They have ag"
-    },
-    {
-      "url": "https://dexscreener.com/solana/gacnbm6ie2mzdqghyu7wb1wtdm8esu2bmqk2bx1ipump",
-      "tokenAddress": "GAcNBm6iE2MZdqGhyu7Wb1wTDm8esU2BMQk2bX1ipump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/5gok7wzhvmfmffcvnhuubqrh9gtcqckhxbbwzywkpump",
+      "tokenAddress": "5gok7WzHvMFmFfcvnHuuBqRh9GTcQckHXBBwZywkpump",
+      "description": "NoxBank is building a privacy-focused banking experience on Solana designed around private payments, asset control, and "
     },
     {
       "url": "https://dexscreener.com/solana/6iaj2oywqmid9neytcw1s7utg7e3jsk7ud5zjdqjpump",
@@ -62,6 +47,21 @@
       "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
       "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
       "description": "Hold this coin until Halloween."
+    },
+    {
+      "url": "https://dexscreener.com/solana/azdhbuhbjfuax7tzchxfjgk8evsdumwmesr588fvpump",
+      "tokenAddress": "AzDHbuhbJfUaX7tzcHXFjgk8EvSdUmWMEsr588fVpump",
+      "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/hppb5rmgvsuqua42n2tedcjwy7gluam6dq5qmslzpump",
+      "tokenAddress": "HppB5rMgVsUqua42N2TEDcjwy7gLuAm6dq5qMSLZpump",
+      "description": "The pump. Fun founder responded - this is no longer a CTO. The original dev is supporting us.\n\nEven bigger: They have ag"
+    },
+    {
+      "url": "https://dexscreener.com/solana/4vex32b4llr2hl4tzdgz724rsyxgccagt8mrsuanpump",
+      "tokenAddress": "4vEX32B4LLr2hL4tzdgz724rSYXGccAGT8MRSUaNpump",
+      "description": "Save the otters with the community token of Degen the Otter"
     },
     {
       "url": "https://dexscreener.com/solana/h3vfxfzffqnba2nv2setmbdy92ylk2vjhsppuzyv6ua",
