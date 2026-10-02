@@ -1,33 +1,38 @@
 {
-  "at": "2026-10-01T21:24:15.490191+00:00",
+  "at": "2026-10-02T01:06:03.457795+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84616.0,
-      "changePct": 1.0437822277203623,
+      "price": 84722.0,
+      "changePct": 1.4632298529089875,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2695.46,
-      "changePct": 0.4819545977422642,
+      "price": 2705.34,
+      "changePct": 0.8034320413905724,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 117.98,
-      "changePct": -0.04176525232341772,
+      "price": 118.75,
+      "changePct": 0.6664054261905713,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 769.98,
-      "changePct": 0.3011131645518192,
+      "price": 771.08,
+      "changePct": 0.12518779913352415,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/9y4afmw81vqd26i1c9vx3sebaymbtpiffrcyhqvupump",
+      "tokenAddress": "9Y4afMW81vqd26i1c9vX3SEbaYMbtPifFRCYHqVUpump",
+      "description": "Lucas the viral pug who\u2019s captured millions of hearts online, with 300K+ followers and millions of views from his funny "
+    },
     {
       "url": "https://dexscreener.com/solana/5gok7wzhvmfmffcvnhuubqrh9gtcqckhxbbwzywkpump",
       "tokenAddress": "5gok7WzHvMFmFfcvnHuuBqRh9GTcQckHXBBwZywkpump",
@@ -59,18 +64,13 @@
       "description": "Hold this coin until Halloween."
     },
     {
-      "url": "https://dexscreener.com/solana/azdhbuhbjfuax7tzchxfjgk8evsdumwmesr588fvpump",
-      "tokenAddress": "AzDHbuhbJfUaX7tzcHXFjgk8EvSdUmWMEsr588fVpump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/4k8v9yh6kkrls46btg68te1qhlkb7an8j5ycwq3ppump",
       "tokenAddress": "4K8V9yH6kKRLS46BTG68Te1QHLkb7an8J5YcWQ3ppump",
       "description": "At the edge of certainty, a new force takes shape. Super Accelerationism turns uncertainty into momentum, carrying its s"
     }
   ],
   "fearGreed": {
-    "value": 74,
+    "value": 72,
     "label": "Greed"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
