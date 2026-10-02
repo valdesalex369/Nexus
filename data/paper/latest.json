@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-02T07:01:43.519321+00:00",
+  "at": "2026-10-02T13:53:31.204455+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 85964.0,
-      "changePct": 2.2184004190302034,
+      "price": 86759.0,
+      "changePct": 3.5782854278227685,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2728.57,
-      "changePct": 0.5176538866174891,
+      "price": 2753.38,
+      "changePct": 2.276265528828611,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 121.76,
-      "changePct": 2.1162914581757795,
+      "price": 122.62,
+      "changePct": 4.16472723815797,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 777.13,
-      "changePct": 0.8650545164909926,
+      "price": 781.47,
+      "changePct": 1.573580632860077,
       "source": "CoinGecko"
     }
   ],
@@ -34,14 +34,14 @@
       "description": "Lucas the viral pug who\u2019s captured millions of hearts online, with 300K+ followers and millions of views from his funny "
     },
     {
+      "url": "https://dexscreener.com/solana/aq1cmbokpyazeigg3azwoxnnua4356uhxosyd9enpump",
+      "tokenAddress": "Aq1CMBoKpYaZEigG3AzWoxNnUa4356uhXosYd9enpump",
+      "description": "Introducing Green Valley Finance \u2014 a new financial landscape where tokenized equities meet onchain liquidity.\nBuilt arou"
+    },
+    {
       "url": "https://dexscreener.com/solana/hrzh7kozfedtshng4bvmhulwejpmvdskuyxaf2n5im1b",
       "tokenAddress": "HrZh7koZFedTSHng4bVmhULwejpmVdSKUYxaf2N5im1b",
       "description": "Hold Cats, Stack Sats. \n\nCatoshi is Satoshi's Cat. Own Catoshi and get rewarded with RUSH tokens which you can stake at "
-    },
-    {
-      "url": "https://dexscreener.com/solana/26xde2ibeitnjgkhtcy3afaqnutwfaj8hhrciqbbpump",
-      "tokenAddress": "26XdE2iBEiTnjgKHTcY3afaqnUtWfAj8HHrciQBBpump",
-      "description": "Mymo, the half-face cat with 2M+ followers and 800M+ views. All fees go directly toward Mymo\u2019s care."
     },
     {
       "url": "https://dexscreener.com/solana/4k8v9yh6kkrls46btg68te1qhlkb7an8j5ycwq3ppump",
@@ -64,9 +64,9 @@
       "description": "All fees paid in $DJT"
     },
     {
-      "url": "https://dexscreener.com/solana/6iaj2oywqmid9neytcw1s7utg7e3jsk7ud5zjdqjpump",
-      "tokenAddress": "6iAj2oywQMiD9NeyTcW1S7UtG7e3jSK7Ud5ZJDqJpump",
-      "description": "The ticker is $HI (Hallow Inu)"
+      "url": "https://dexscreener.com/solana/3kmygwkzbkcyrgzhkfiub9ufktcdltffsko3bwpmpump",
+      "tokenAddress": "3kmygWKZBkCYrgZHKfiuB9UFKTcDLTFFsKo3BWpmpump",
+      "description": "Coins quoted in another coin. Every trade pays its fee in the host token, and that fee burns the host."
     }
   ],
   "fearGreed": {
