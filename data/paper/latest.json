@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-02T01:06:03.457795+00:00",
+  "at": "2026-10-02T07:01:43.519321+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84722.0,
-      "changePct": 1.4632298529089875,
+      "price": 85964.0,
+      "changePct": 2.2184004190302034,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2705.34,
-      "changePct": 0.8034320413905724,
+      "price": 2728.57,
+      "changePct": 0.5176538866174891,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 118.75,
-      "changePct": 0.6664054261905713,
+      "price": 121.76,
+      "changePct": 2.1162914581757795,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 771.08,
-      "changePct": 0.12518779913352415,
+      "price": 777.13,
+      "changePct": 0.8650545164909926,
       "source": "CoinGecko"
     }
   ],
@@ -34,24 +34,9 @@
       "description": "Lucas the viral pug who\u2019s captured millions of hearts online, with 300K+ followers and millions of views from his funny "
     },
     {
-      "url": "https://dexscreener.com/solana/5gok7wzhvmfmffcvnhuubqrh9gtcqckhxbbwzywkpump",
-      "tokenAddress": "5gok7WzHvMFmFfcvnHuuBqRh9GTcQckHXBBwZywkpump",
-      "description": "NoxBank is building a privacy-focused banking experience on Solana designed around private payments, asset control, and "
-    },
-    {
       "url": "https://dexscreener.com/solana/hrzh7kozfedtshng4bvmhulwejpmvdskuyxaf2n5im1b",
       "tokenAddress": "HrZh7koZFedTSHng4bVmhULwejpmVdSKUYxaf2N5im1b",
       "description": "Hold Cats, Stack Sats. \n\nCatoshi is Satoshi's Cat. Own Catoshi and get rewarded with RUSH tokens which you can stake at "
-    },
-    {
-      "url": "https://dexscreener.com/solana/6iaj2oywqmid9neytcw1s7utg7e3jsk7ud5zjdqjpump",
-      "tokenAddress": "6iAj2oywQMiD9NeyTcW1S7UtG7e3jSK7Ud5ZJDqJpump",
-      "description": "The ticker is $HI (Hallow Inu)"
-    },
-    {
-      "url": "https://dexscreener.com/solana/hmmdsu7wfpxjvhxezdkmfgqhgschqa73dnustheypump",
-      "tokenAddress": "HmMDsu7WFPxJVhXEZdkMFgQHgschqA73DnuSTheYpump",
-      "description": "One name. No single face. An entire timeline. We Are Jane Doe. $Janes \u2014 the community is the character."
     },
     {
       "url": "https://dexscreener.com/solana/26xde2ibeitnjgkhtcy3afaqnutwfaj8hhrciqbbpump",
@@ -59,14 +44,29 @@
       "description": "Mymo, the half-face cat with 2M+ followers and 800M+ views. All fees go directly toward Mymo\u2019s care."
     },
     {
-      "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
-      "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
-      "description": "Hold this coin until Halloween."
-    },
-    {
       "url": "https://dexscreener.com/solana/4k8v9yh6kkrls46btg68te1qhlkb7an8j5ycwq3ppump",
       "tokenAddress": "4K8V9yH6kKRLS46BTG68Te1QHLkb7an8J5YcWQ3ppump",
       "description": "At the edge of certainty, a new force takes shape. Super Accelerationism turns uncertainty into momentum, carrying its s"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hmmdsu7wfpxjvhxezdkmfgqhgschqa73dnustheypump",
+      "tokenAddress": "HmMDsu7WFPxJVhXEZdkMFgQHgschqA73DnuSTheYpump",
+      "description": "One name. No single face. An entire timeline. We Are Jane Doe. $Janes \u2014 the community is the character."
+    },
+    {
+      "url": "https://dexscreener.com/solana/6qs8xgppmyhnw7lpysq9ics36kt7utfbt8mwm1atpump",
+      "tokenAddress": "6qs8xGPpmyHnW7LpySq9iCs36kT7utFBt8mwM1ATpump",
+      "description": "BlackHoles is a proposed all-in-one custodial wallet. It brings asset storage, transfers, swaps, and optional rewards in"
+    },
+    {
+      "url": "https://dexscreener.com/solana/dxgjtlsgnvmazbpgpzkbbblbsdsazzxyaeafbouapump",
+      "tokenAddress": "DxgJTLsgNVMaZBpgPzKBBBLBSdSAZzxyAeAfboUApump",
+      "description": "All fees paid in $DJT"
+    },
+    {
+      "url": "https://dexscreener.com/solana/6iaj2oywqmid9neytcw1s7utg7e3jsk7ud5zjdqjpump",
+      "tokenAddress": "6iAj2oywQMiD9NeyTcW1S7UtG7e3jSK7Ud5ZJDqJpump",
+      "description": "The ticker is $HI (Hallow Inu)"
     }
   ],
   "fearGreed": {
