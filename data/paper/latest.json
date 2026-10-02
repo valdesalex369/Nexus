@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-02T19:21:31.109215+00:00",
+  "at": "2026-10-02T23:16:39.792179+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84039.0,
-      "changePct": -0.8002735630651597,
+      "price": 84477.0,
+      "changePct": -0.17718698163775165,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2659.53,
-      "changePct": -1.4992787493980146,
+      "price": 2665.72,
+      "changePct": -1.2025631996853459,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 117.62,
-      "changePct": -0.6015089185421177,
+      "price": 118.38,
+      "changePct": 0.19000693734564864,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 764.35,
-      "changePct": -0.6651835273728273,
+      "price": 766.62,
+      "changePct": -0.4258001614540423,
       "source": "CoinGecko"
     }
   ],
@@ -49,6 +49,11 @@
       "description": "Introducing Green Valley Finance \u2014 a new financial landscape where tokenized equities meet onchain liquidity.\nBuilt arou"
     },
     {
+      "url": "https://dexscreener.com/solana/5yqylno5abbz2elvvlxeu323cbhhr2jwr1nkfdh4pump",
+      "tokenAddress": "5yQYLno5ABBZ2ELVvLXEU323CbHhr2jwR1NKFDh4pump",
+      "description": ""
+    },
+    {
       "url": "https://dexscreener.com/solana/ayrtq6bfnnzwmy5acwtrutmcwv8pahux3wm84q5mpump",
       "tokenAddress": "AYRTq6bfnNzWMY5ACWTRUtMCwV8PAhux3wm84q5mpump",
       "description": "\u201clowk jelly\u201d is a new slang term going insanely viral right now\n\nSimilar to \u201couuu shi\u201d and \u201cgyat\u201d, people say it when so"
@@ -62,11 +67,6 @@
       "url": "https://dexscreener.com/solana/6qs8xgppmyhnw7lpysq9ics36kt7utfbt8mwm1atpump",
       "tokenAddress": "6qs8xGPpmyHnW7LpySq9iCs36kT7utFBt8mwM1ATpump",
       "description": "BlackHoles is a proposed all-in-one custodial wallet. It brings asset storage, transfers, swaps, and optional rewards in"
-    },
-    {
-      "url": "https://dexscreener.com/solana/3kmygwkzbkcyrgzhkfiub9ufktcdltffsko3bwpmpump",
-      "tokenAddress": "3kmygWKZBkCYrgZHKfiuB9UFKTcDLTFFsKo3BWpmpump",
-      "description": "Coins quoted in another coin. Every trade pays its fee in the host token, and that fee burns the host."
     }
   ],
   "fearGreed": {
