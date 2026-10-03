@@ -1,38 +1,33 @@
 {
-  "at": "2026-10-02T23:16:39.792179+00:00",
+  "at": "2026-10-03T02:20:43.675332+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84477.0,
-      "changePct": -0.17718698163775165,
+      "price": 84641.0,
+      "changePct": -0.341395382243906,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2665.72,
-      "changePct": -1.2025631996853459,
+      "price": 2679.63,
+      "changePct": -1.329360625745514,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 118.38,
-      "changePct": 0.19000693734564864,
+      "price": 119.25,
+      "changePct": -0.42387915184580954,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 766.62,
-      "changePct": -0.4258001614540423,
+      "price": 768.86,
+      "changePct": -0.4206186595976736,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/9y4afmw81vqd26i1c9vx3sebaymbtpiffrcyhqvupump",
-      "tokenAddress": "9Y4afMW81vqd26i1c9vX3SEbaYMbtPifFRCYHqVUpump",
-      "description": "Lucas the viral pug who\u2019s captured millions of hearts online, with 300K+ followers and millions of views from his funny "
-    },
     {
       "url": "https://dexscreener.com/solana/2akrttvnsxhhv2flnbwubv6w6vq35vjmuiahjskjpump",
       "tokenAddress": "2AKrTTVNsxhHV2FLNBWUBv6W6Vq35VJMuiAhjsKjpump",
@@ -59,9 +54,14 @@
       "description": "\u201clowk jelly\u201d is a new slang term going insanely viral right now\n\nSimilar to \u201couuu shi\u201d and \u201cgyat\u201d, people say it when so"
     },
     {
-      "url": "https://dexscreener.com/solana/fftp6pxtef52px3gryhrhqdxwze23qzh7vc3kkzvpump",
-      "tokenAddress": "FFtp6pxteF52PX3gryHrhQdxWze23Qzh7vC3kKzVpump",
-      "description": "PUMPFOLIO is one pumpfun coin run as an index fund. Every 10 minutes 95% of its creator fee buys PUMP, Fartcoin, neet, T"
+      "url": "https://dexscreener.com/solana/6rbc78djvbjst4v566t97u13xammpd4ci44b72jtpump",
+      "tokenAddress": "6RBc78DJVBjsT4v566T97U13xammPd4Ci44B72jTpump",
+      "description": "wait... a minute"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hjfwz4ns6ydxyuebrh8mh9yqnqvyauitmljydjjwpump",
+      "tokenAddress": "HJfWZ4Ns6ydxYUebrH8mh9yqNqvYAuiTMLjYDjJwpump",
+      "description": "$KING created by @yhbryankimiq - world's highest IQ reccord holder"
     },
     {
       "url": "https://dexscreener.com/solana/6qs8xgppmyhnw7lpysq9ics36kt7utfbt8mwm1atpump",
@@ -70,7 +70,7 @@
     }
   ],
   "fearGreed": {
-    "value": 72,
+    "value": 67,
     "label": "Greed"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
