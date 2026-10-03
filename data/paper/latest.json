@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-03T08:34:07.268352+00:00",
+  "at": "2026-10-03T13:56:25.803961+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84567.0,
-      "changePct": -2.0168702213126393,
+      "price": 84864.0,
+      "changePct": -2.0983136495653345,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2679.63,
-      "changePct": -2.911630446505054,
+      "price": 2681.77,
+      "changePct": -2.3925675388814547,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 119.17,
-      "changePct": -2.568106035919237,
+      "price": 119.43,
+      "changePct": -2.322530506259525,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 765.26,
-      "changePct": -1.7428825658022304,
+      "price": 774.03,
+      "changePct": -0.9184253230531042,
       "source": "CoinGecko"
     }
   ],
@@ -49,24 +49,24 @@
       "description": "The ticker is $HI (Hallow Inu)"
     },
     {
-      "url": "https://dexscreener.com/solana/guc1rkydzhjjjrrda5pqom6onvhuxsbfe51uwf8tpump",
-      "tokenAddress": "GUC1rkyDzhjJjRRda5PQoM6onvHuXsbFE51UwF8Tpump",
-      "description": "turning collectibles into spending power."
-    },
-    {
-      "url": "https://dexscreener.com/solana/6rbc78djvbjst4v566t97u13xammpd4ci44b72jtpump",
-      "tokenAddress": "6RBc78DJVBjsT4v566T97U13xammPd4Ci44B72jTpump",
-      "description": "wait... a mINUte"
-    },
-    {
-      "url": "https://dexscreener.com/solana/hjfwz4ns6ydxyuebrh8mh9yqnqvyauitmljydjjwpump",
-      "tokenAddress": "HJfWZ4Ns6ydxYUebrH8mh9yqNqvYAuiTMLjYDjJwpump",
-      "description": "$KING created by @yhbryankimiq - world's highest IQ reccord holder"
+      "url": "https://dexscreener.com/solana/7jv7d7qpt8gpkuywkbqv9wgf5ydwr6yf7szxzj1gpump",
+      "tokenAddress": "7Jv7D7qpT8GpKUywkbQv9WgF5yDWr6Yf7SZXZj1Gpump",
+      "description": "same three letters. different sentence. we will win. $www"
     },
     {
       "url": "https://dexscreener.com/solana/9zuwzjimp8un9qcbynfkmvmrrj97ywlb1drwphhnpump",
       "tokenAddress": "9ZUwZjiMP8Un9qcBYNfKmVmRRj97YWLB1DRWPhhnpump",
       "description": "HOOKEDINU is the meme dog that gets you hooked and keeps the pack together."
+    },
+    {
+      "url": "https://dexscreener.com/solana/3ttcntvnlpte21rna8wbc2qruycabdzeqdlrpeerpump",
+      "tokenAddress": "3TtCNtvNLPTe21RnA8WbC2QRUYCABDZEqdLRPeErpump",
+      "description": "we are simple creatures, this is all we want as men."
+    },
+    {
+      "url": "https://dexscreener.com/solana/6htldzzaacjmqtn7rtaemqscbxt5pg8q76trviegpump",
+      "tokenAddress": "6hTLdzZaaCjmqtn7RtaEMQsCbXT5Pg8q76tRViEGpump",
+      "description": "Official $ABU coin for the most viral social media influencer of the world wide web in the past week!\n\nChoose your PFP a"
     }
   ],
   "fearGreed": {
