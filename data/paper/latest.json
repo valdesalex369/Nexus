@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-03T17:58:29.183289+00:00",
+  "at": "2026-10-03T21:19:56.169323+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84967.0,
-      "changePct": 0.25165109910172057,
+      "price": 84698.0,
+      "changePct": 0.23765532390087485,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2687.57,
-      "changePct": 0.18407135467268498,
+      "price": 2687.14,
+      "changePct": 0.8862458687843769,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 119.89,
-      "changePct": 0.26512259939238064,
+      "price": 119.73,
+      "changePct": 1.4064096284373784,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 788.38,
-      "changePct": 1.9592097361606966,
+      "price": 785.73,
+      "changePct": 2.6546200446254247,
       "source": "CoinGecko"
     }
   ],
@@ -34,29 +34,9 @@
       "description": "Purrsword. The same brave kitten wif sword, now on guard duty. He stands in front of a little locked chest, and inside i"
     },
     {
-      "url": "https://dexscreener.com/solana/8hr5nvzubrwaywapgiqgaarzuq9j5ucroz3rlft1pump",
-      "tokenAddress": "8hr5NVzUbRWaywAPgiQgaarzUq9j5uCroZ3rLft1pump",
-      "description": "The AI cat that knows every token\u2019s capability and spots every runner. Ask GrokCat. Get the reply."
-    },
-    {
-      "url": "https://dexscreener.com/solana/5yqylno5abbz2elvvlxeu323cbhhr2jwr1nkfdh4pump",
-      "tokenAddress": "5yQYLno5ABBZ2ELVvLXEU323CbHhr2jwR1NKFDh4pump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/6iaj2oywqmid9neytcw1s7utg7e3jsk7ud5zjdqjpump",
       "tokenAddress": "6iAj2oywQMiD9NeyTcW1S7UtG7e3jSK7Ud5ZJDqJpump",
       "description": "The ticker is $HI (Hallow Inu)"
-    },
-    {
-      "url": "https://dexscreener.com/solana/7jv7d7qpt8gpkuywkbqv9wgf5ydwr6yf7szxzj1gpump",
-      "tokenAddress": "7Jv7D7qpT8GpKUywkbQv9WgF5yDWr6Yf7SZXZj1Gpump",
-      "description": "same three letters. different sentence. we will win. $www"
-    },
-    {
-      "url": "https://dexscreener.com/solana/9zuwzjimp8un9qcbynfkmvmrrj97ywlb1drwphhnpump",
-      "tokenAddress": "9ZUwZjiMP8Un9qcBYNfKmVmRRj97YWLB1DRWPhhnpump",
-      "description": "HOOKEDINU is the meme dog that gets you hooked and keeps the pack together."
     },
     {
       "url": "https://dexscreener.com/solana/6htldzzaacjmqtn7rtaemqscbxt5pg8q76trviegpump",
@@ -64,9 +44,29 @@
       "description": "Official $ABU coin for the most viral social media influencer of the world wide web in the past week!\n\nChoose your PFP a"
     },
     {
+      "url": "https://dexscreener.com/solana/9s2uxygtdm1em1ryyc7d4dvkefrb2f9m8naygyqspump",
+      "tokenAddress": "9S2uxYgTDM1eM1Ryyc7D4dVKEFrb2F9m8NAygyQspump",
+      "description": "too small for the sword. ranked maximus anyway. $catius"
+    },
+    {
       "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
       "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
       "description": "Hold this coin until Halloween."
+    },
+    {
+      "url": "https://dexscreener.com/solana/9zfc2qaxfyxwuh1c27k8bce1jhb4oreqgavrjwwdpump",
+      "tokenAddress": "9ZfC2qaXFYxwuh1c27K8bce1jHb4oReQgAvrjwWdpump",
+      "description": "Born Amid Conveyors & Sorting Hubs\nFrom silent warehouse racks to busy sidewalks, BOXY hits the ground running on a sing"
+    },
+    {
+      "url": "https://dexscreener.com/solana/j6yujlilywr9cugelcdkppjg6ezn3fvjhujmp5jxpump",
+      "tokenAddress": "J6yUJLiLywR9CugELcdkpPjG6eZN3FVjHUjMP5jXpump",
+      "description": "Big ideas. Bold moves. Super Agent brings meme-powered energy to the Solana universe. \ud83e\udd16"
+    },
+    {
+      "url": "https://dexscreener.com/solana/f4635h9hfazyjpym3cogmtw8pmmeyrtwrgz5mgfhpump",
+      "tokenAddress": "F4635H9HFAzYjpyM3coGMtW8pMmEYRtwrgz5mgfHpump",
+      "description": "WHIPCAT"
     }
   ],
   "fearGreed": {
