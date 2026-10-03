@@ -1,37 +1,37 @@
 {
-  "at": "2026-10-03T13:56:25.803961+00:00",
+  "at": "2026-10-03T17:58:29.183289+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84864.0,
-      "changePct": -2.0983136495653345,
+      "price": 84967.0,
+      "changePct": 0.25165109910172057,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2681.77,
-      "changePct": -2.3925675388814547,
+      "price": 2687.57,
+      "changePct": 0.18407135467268498,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 119.43,
-      "changePct": -2.322530506259525,
+      "price": 119.89,
+      "changePct": 0.26512259939238064,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 774.03,
-      "changePct": -0.9184253230531042,
+      "price": 788.38,
+      "changePct": 1.9592097361606966,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/2akrttvnsxhhv2flnbwubv6w6vq35vjmuiahjskjpump",
-      "tokenAddress": "2AKrTTVNsxhHV2FLNBWUBv6W6Vq35VJMuiAhjsKjpump",
-      "description": "The most advanced privacy launchpad on Solana."
+      "url": "https://dexscreener.com/solana/ggdaua8qfnwfkzxkendqtcjz5jq81nurpwbk1qdzpump",
+      "tokenAddress": "GgdAua8qfnwFKZxKEnDqTcJz5jQ81NURPWBK1qDzpump",
+      "description": "Purrsword. The same brave kitten wif sword, now on guard duty. He stands in front of a little locked chest, and inside i"
     },
     {
       "url": "https://dexscreener.com/solana/8hr5nvzubrwaywapgiqgaarzuq9j5ucroz3rlft1pump",
@@ -59,21 +59,21 @@
       "description": "HOOKEDINU is the meme dog that gets you hooked and keeps the pack together."
     },
     {
-      "url": "https://dexscreener.com/solana/3ttcntvnlpte21rna8wbc2qruycabdzeqdlrpeerpump",
-      "tokenAddress": "3TtCNtvNLPTe21RnA8WbC2QRUYCABDZEqdLRPeErpump",
-      "description": "we are simple creatures, this is all we want as men."
-    },
-    {
       "url": "https://dexscreener.com/solana/6htldzzaacjmqtn7rtaemqscbxt5pg8q76trviegpump",
       "tokenAddress": "6hTLdzZaaCjmqtn7RtaEMQsCbXT5Pg8q76tRViEGpump",
       "description": "Official $ABU coin for the most viral social media influencer of the world wide web in the past week!\n\nChoose your PFP a"
+    },
+    {
+      "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
+      "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
+      "description": "Hold this coin until Halloween."
     }
   ],
   "fearGreed": {
     "value": 67,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
