@@ -1,42 +1,42 @@
 {
-  "at": "2026-10-04T00:05:41.962812+00:00",
+  "at": "2026-10-04T05:57:50.757954+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84805.0,
-      "changePct": 0.40362208608480155,
+      "price": 84901.0,
+      "changePct": 0.3136336669241633,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2687.2,
-      "changePct": 0.7942891127264217,
+      "price": 2694.78,
+      "changePct": 0.6773325499705579,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 119.69,
-      "changePct": 0.9176643207405095,
+      "price": 120.85,
+      "changePct": 1.0281376544098113,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 787.1,
-      "changePct": 2.444658085484315,
+      "price": 786.76,
+      "changePct": 2.576968616149144,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/hmkilg8bqnxmexzkjyfsmjbq82sfcqfxxfj78cyypump",
-      "tokenAddress": "HmkiLg8BQnXMexzKJYFsMjbq82sFcqFXXfJ78CYypump",
-      "description": "Claim fees by just posting a tweet."
-    },
-    {
       "url": "https://dexscreener.com/solana/ggdaua8qfnwfkzxkendqtcjz5jq81nurpwbk1qdzpump",
       "tokenAddress": "GgdAua8qfnwFKZxKEnDqTcJz5jQ81NURPWBK1qDzpump",
       "description": "Purrsword. The same brave kitten wif sword, now on guard duty. He stands in front of a little locked chest, and inside i"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hmkilg8bqnxmexzkjyfsmjbq82sfcqfxxfj78cyypump",
+      "tokenAddress": "HmkiLg8BQnXMexzKJYFsMjbq82sFcqFXXfJ78CYypump",
+      "description": "Claim fees by just posting a tweet."
     },
     {
       "url": "https://dexscreener.com/solana/6iaj2oywqmid9neytcw1s7utg7e3jsk7ud5zjdqjpump",
@@ -44,14 +44,14 @@
       "description": "The ticker is $HI (Hallow Inu)"
     },
     {
+      "url": "https://dexscreener.com/solana/j8fqftxh6panxy6ezchns8e3zeecf3xcfasetwnpump",
+      "tokenAddress": "J8fqfTxh6pANxy6ezchns8e3ZeEcF3xCFASetWnpump",
+      "description": "PUMPKINGUY"
+    },
+    {
       "url": "https://dexscreener.com/solana/98s3a9sglhhduhudpvizqrbegsxfmf4zxfnrbpempump",
       "tokenAddress": "98S3A9sgLHhdUHUdpviZQrbEGsXFMf4ZXfNRBpeMpump",
       "description": "We are going to push this, all the way till christmas just like we did with Rizzmas."
-    },
-    {
-      "url": "https://dexscreener.com/solana/9s2uxygtdm1em1ryyc7d4dvkefrb2f9m8naygyqspump",
-      "tokenAddress": "9S2uxYgTDM1eM1Ryyc7D4dVKEFrb2F9m8NAygyQspump",
-      "description": "too small for the sword. ranked maximus anyway. $catius"
     },
     {
       "url": "https://dexscreener.com/solana/j6yujlilywr9cugelcdkppjg6ezn3fvjhujmp5jxpump",
@@ -59,9 +59,9 @@
       "description": "Big ideas. Bold moves. Super Agent brings meme-powered energy to the Solana universe. \ud83e\udd16"
     },
     {
-      "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
-      "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
-      "description": "Hold this coin until Halloween."
+      "url": "https://dexscreener.com/solana/9s2uxygtdm1em1ryyc7d4dvkefrb2f9m8naygyqspump",
+      "tokenAddress": "9S2uxYgTDM1eM1Ryyc7D4dVKEFrb2F9m8NAygyQspump",
+      "description": "too small for the sword. ranked maximus anyway. $catius"
     },
     {
       "url": "https://dexscreener.com/solana/fcubpdern76xfraa4uphdaugerg3evmb3mjurgdpump",
