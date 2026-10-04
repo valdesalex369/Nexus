@@ -1,37 +1,47 @@
 {
-  "at": "2026-10-04T20:11:47.841113+00:00",
+  "at": "2026-10-04T23:15:02.901284+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 85381.0,
-      "changePct": 0.6113736139188947,
+      "price": 86560.0,
+      "changePct": 2.1379701578184678,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2699.24,
-      "changePct": 0.4605207454219981,
+      "price": 2732.7,
+      "changePct": 1.7248104279531538,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 120.68,
-      "changePct": 0.6307504734381892,
+      "price": 121.96,
+      "changePct": 1.900766242988206,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 789.14,
-      "changePct": -0.08145989071931643,
+      "price": 795.72,
+      "changePct": 1.0120479037127932,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/hmkilg8bqnxmexzkjyfsmjbq82sfcqfxxfj78cyypump",
-      "tokenAddress": "HmkiLg8BQnXMexzKJYFsMjbq82sFcqFXXfJ78CYypump",
-      "description": "Claim fees by just posting a tweet."
+      "url": "https://dexscreener.com/solana/gbduyigirxhr146n8d5hemgcscu8yuw8oybkjhuapump",
+      "tokenAddress": "GbdUYiGiRxhr146N8d5hemgcscU8YUW8oYbKJhuApump",
+      "description": "PvP, X profile fees, ai launches made simple"
+    },
+    {
+      "url": "https://dexscreener.com/solana/czjframms5cz4h22pwzfqtju5fkp7q2vvx1opvl9pump",
+      "tokenAddress": "CZJfrAmMs5Cz4H22PWzfqTJu5FkP7Q2Vvx1oPVL9pump",
+      "description": "Your purrsonal AI agent. Small paws, big brains, endless possibilities. \ud83d\udc3e\ud83e\udd16"
+    },
+    {
+      "url": "https://dexscreener.com/solana/8nkp4jkesntdgu3pisjdtdnsrtbt8ychhw8bu14wpump",
+      "tokenAddress": "8nKp4JkesNtDgu3PiSjdTdNSrtBt8YCHhW8BU14wpump",
+      "description": "Baton Rogue. The same baton puppy, now in a little bandit mask. Everyone said \"pass the baton\". He heard something else."
     },
     {
       "url": "https://dexscreener.com/solana/avkpeewacku3mni5thby4bkbnmrpzaennqktp3wppump",
@@ -49,24 +59,14 @@
       "description": "SOL.BOT\u1d2c\u1d35 an intelligent automation layer built for the Solana ecosystem.\n\nSolana moves fast. Thousands of tokens, walle"
     },
     {
+      "url": "https://dexscreener.com/solana/2rfnkruapdtfscnu5kjogl2aiq7yzde8dyzgzzajcokc",
+      "tokenAddress": "2rFNkrUaPdTFSCNu5KJoGL2Aiq7YZDE8DYZGZzAJCoKc",
+      "description": "Anonymous BTC desk, awake since 2004. A public mind with one ambition: a billion-dollars $KING. No messages. No orders. "
+    },
+    {
       "url": "https://dexscreener.com/solana/j8fqftxh6panxy6ezchns8e3zeecf3xcfasetwnpump",
       "tokenAddress": "J8fqfTxh6pANxy6ezchns8e3ZeEcF3xCFASetWnpump",
       "description": "PUMPKINGUY"
-    },
-    {
-      "url": "https://dexscreener.com/solana/6iaj2oywqmid9neytcw1s7utg7e3jsk7ud5zjdqjpump",
-      "tokenAddress": "6iAj2oywQMiD9NeyTcW1S7UtG7e3jSK7Ud5ZJDqJpump",
-      "description": "The ticker is $HI (Hallow Inu)"
-    },
-    {
-      "url": "https://dexscreener.com/solana/j6yujlilywr9cugelcdkppjg6ezn3fvjhujmp5jxpump",
-      "tokenAddress": "J6yUJLiLywR9CugELcdkpPjG6eZN3FVjHUjMP5jXpump",
-      "description": "Big ideas. Bold moves. Super Agent brings meme-powered energy to the Solana universe. \ud83e\udd16"
-    },
-    {
-      "url": "https://dexscreener.com/solana/98s3a9sglhhduhudpvizqrbegsxfmf4zxfnrbpempump",
-      "tokenAddress": "98S3A9sgLHhdUHUdpviZQrbEGsXFMf4ZXfNRBpeMpump",
-      "description": "We are going to push this, all the way till christmas just like we did with Rizzmas."
     }
   ],
   "fearGreed": {
