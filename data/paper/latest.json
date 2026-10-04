@@ -1,42 +1,42 @@
 {
-  "at": "2026-10-04T12:25:14.479957+00:00",
+  "at": "2026-10-04T17:03:25.141098+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 85266.0,
-      "changePct": 0.495314376787183,
-      "source": "CoinGecko"
+      "price": 85369.77,
+      "changePct": 0.584,
+      "source": "Binance"
     },
     {
       "symbol": "ETH",
-      "price": 2701.15,
-      "changePct": 0.5673487753577892,
-      "source": "CoinGecko"
-    },
-    {
-      "symbol": "SOL",
-      "price": 121.47,
-      "changePct": 1.512196019785245,
-      "source": "CoinGecko"
+      "price": 2702.64,
+      "changePct": 0.753,
+      "source": "Binance"
     },
     {
       "symbol": "BNB",
-      "price": 788.23,
-      "changePct": 2.204717988604203,
-      "source": "CoinGecko"
+      "price": 788.84,
+      "changePct": 0.953,
+      "source": "Binance"
+    },
+    {
+      "symbol": "SOL",
+      "price": 121.73,
+      "changePct": 1.687,
+      "source": "Binance"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/ggdaua8qfnwfkzxkendqtcjz5jq81nurpwbk1qdzpump",
-      "tokenAddress": "GgdAua8qfnwFKZxKEnDqTcJz5jQ81NURPWBK1qDzpump",
-      "description": "Purrsword. The same brave kitten wif sword, now on guard duty. He stands in front of a little locked chest, and inside i"
-    },
-    {
       "url": "https://dexscreener.com/solana/hmkilg8bqnxmexzkjyfsmjbq82sfcqfxxfj78cyypump",
       "tokenAddress": "HmkiLg8BQnXMexzKJYFsMjbq82sFcqFXXfJ78CYypump",
       "description": "Claim fees by just posting a tweet."
+    },
+    {
+      "url": "https://dexscreener.com/solana/avkpeewacku3mni5thby4bkbnmrpzaennqktp3wppump",
+      "tokenAddress": "AVKpeeWaCku3Mni5THbY4bkBnMrPzAEnnQKtP3wPpump",
+      "description": "Pepe Kasady went in on the recovery crew after the Brock incident. Carnage came out. The next symbiote in the Pepeverse,"
     },
     {
       "url": "https://dexscreener.com/solana/am1iiyduz1xcreyjxxymhjzudchjfpkgvqbacvtnpump",
@@ -54,9 +54,9 @@
       "description": "The ticker is $HI (Hallow Inu)"
     },
     {
-      "url": "https://dexscreener.com/solana/dbgwts13jqacntmdbfarulaqbupzizbdp2qbxfwvpump",
-      "tokenAddress": "DBGwTs13jQaCnTmDBFaRuLAQbuPziZBdP2qBXFWvpump",
-      "description": "Christmas was green. Not anymore. \ud83d\udd34\ud83c\udf84\nGRUNCH is here to turn the whole season red.\nMemes. Community. Chaos.\nThe red Chris"
+      "url": "https://dexscreener.com/solana/j6yujlilywr9cugelcdkppjg6ezn3fvjhujmp5jxpump",
+      "tokenAddress": "J6yUJLiLywR9CugELcdkpPjG6eZN3FVjHUjMP5jXpump",
+      "description": "Big ideas. Bold moves. Super Agent brings meme-powered energy to the Solana universe. \ud83e\udd16"
     },
     {
       "url": "https://dexscreener.com/solana/9s2uxygtdm1em1ryyc7d4dvkefrb2f9m8naygyqspump",
@@ -75,7 +75,5 @@
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
-  "errors": [
-    "binance: HTTP 451"
-  ]
+  "errors": []
 }
