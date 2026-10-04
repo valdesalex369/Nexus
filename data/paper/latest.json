@@ -1,33 +1,38 @@
 {
-  "at": "2026-10-03T21:19:56.169323+00:00",
+  "at": "2026-10-04T00:05:41.962812+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84698.0,
-      "changePct": 0.23765532390087485,
+      "price": 84805.0,
+      "changePct": 0.40362208608480155,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2687.14,
-      "changePct": 0.8862458687843769,
+      "price": 2687.2,
+      "changePct": 0.7942891127264217,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 119.73,
-      "changePct": 1.4064096284373784,
+      "price": 119.69,
+      "changePct": 0.9176643207405095,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 785.73,
-      "changePct": 2.6546200446254247,
+      "price": 787.1,
+      "changePct": 2.444658085484315,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/hmkilg8bqnxmexzkjyfsmjbq82sfcqfxxfj78cyypump",
+      "tokenAddress": "HmkiLg8BQnXMexzKJYFsMjbq82sFcqFXXfJ78CYypump",
+      "description": "Claim fees by just posting a tweet."
+    },
     {
       "url": "https://dexscreener.com/solana/ggdaua8qfnwfkzxkendqtcjz5jq81nurpwbk1qdzpump",
       "tokenAddress": "GgdAua8qfnwFKZxKEnDqTcJz5jQ81NURPWBK1qDzpump",
@@ -39,9 +44,9 @@
       "description": "The ticker is $HI (Hallow Inu)"
     },
     {
-      "url": "https://dexscreener.com/solana/6htldzzaacjmqtn7rtaemqscbxt5pg8q76trviegpump",
-      "tokenAddress": "6hTLdzZaaCjmqtn7RtaEMQsCbXT5Pg8q76tRViEGpump",
-      "description": "Official $ABU coin for the most viral social media influencer of the world wide web in the past week!\n\nChoose your PFP a"
+      "url": "https://dexscreener.com/solana/98s3a9sglhhduhudpvizqrbegsxfmf4zxfnrbpempump",
+      "tokenAddress": "98S3A9sgLHhdUHUdpviZQrbEGsXFMf4ZXfNRBpeMpump",
+      "description": "We are going to push this, all the way till christmas just like we did with Rizzmas."
     },
     {
       "url": "https://dexscreener.com/solana/9s2uxygtdm1em1ryyc7d4dvkefrb2f9m8naygyqspump",
@@ -49,28 +54,23 @@
       "description": "too small for the sword. ranked maximus anyway. $catius"
     },
     {
-      "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
-      "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
-      "description": "Hold this coin until Halloween."
-    },
-    {
-      "url": "https://dexscreener.com/solana/9zfc2qaxfyxwuh1c27k8bce1jhb4oreqgavrjwwdpump",
-      "tokenAddress": "9ZfC2qaXFYxwuh1c27K8bce1jHb4oReQgAvrjwWdpump",
-      "description": "Born Amid Conveyors & Sorting Hubs\nFrom silent warehouse racks to busy sidewalks, BOXY hits the ground running on a sing"
-    },
-    {
       "url": "https://dexscreener.com/solana/j6yujlilywr9cugelcdkppjg6ezn3fvjhujmp5jxpump",
       "tokenAddress": "J6yUJLiLywR9CugELcdkpPjG6eZN3FVjHUjMP5jXpump",
       "description": "Big ideas. Bold moves. Super Agent brings meme-powered energy to the Solana universe. \ud83e\udd16"
     },
     {
-      "url": "https://dexscreener.com/solana/f4635h9hfazyjpym3cogmtw8pmmeyrtwrgz5mgfhpump",
-      "tokenAddress": "F4635H9HFAzYjpyM3coGMtW8pMmEYRtwrgz5mgfHpump",
-      "description": "WHIPCAT"
+      "url": "https://dexscreener.com/solana/bxftaowy2dva2h9kmqdtpk4omxzu9k6uvbzuoorxpump",
+      "tokenAddress": "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump",
+      "description": "Hold this coin until Halloween."
+    },
+    {
+      "url": "https://dexscreener.com/solana/fcubpdern76xfraa4uphdaugerg3evmb3mjurgdpump",
+      "tokenAddress": "fCUBpdeRn76xfRaa4UPHDauGeRG3EvMB3MjuRgdpump",
+      "description": "The private side of Solana. Private swaps on Solana."
     }
   ],
   "fearGreed": {
-    "value": 67,
+    "value": 65,
     "label": "Greed"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
