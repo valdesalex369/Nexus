@@ -1,33 +1,38 @@
 {
-  "at": "2026-10-05T09:08:14.993635+00:00",
+  "at": "2026-10-05T18:30:48.308291+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 86117.0,
-      "changePct": 1.214234351464893,
+      "price": 85582.0,
+      "changePct": 0.3192189849761023,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2721.02,
-      "changePct": 0.8398849376504126,
+      "price": 2709.31,
+      "changePct": 0.31732421471842975,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 121.03,
-      "changePct": 0.1481874545306171,
+      "price": 120.05,
+      "changePct": -1.1250436407789732,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 788.65,
-      "changePct": -0.13820848923960957,
+      "price": 786.96,
+      "changePct": -0.23645993577441457,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/9ymlvmzao6gjhd8zxo62uzzvp9ev4xhxql3zsmgiodm7",
+      "tokenAddress": "9yMLvMzAo6gjhd8zXo62uZzVP9ev4xHxqL3ZsmgioDM7",
+      "description": "Ash became a Champion.\n\nProfessor Eich still gives him homework.\n\n$EICH is the eternal mentor-student meme \u2014 Ash learns,"
+    },
     {
       "url": "https://dexscreener.com/solana/8nkp4jkesntdgu3pisjdtdnsrtbt8ychhw8bu14wpump",
       "tokenAddress": "8nKp4JkesNtDgu3PiSjdTdNSrtBt8YCHhW8BU14wpump",
@@ -54,14 +59,9 @@
       "description": "Anonymous BTC desk, awake since 2004. A public mind with one ambition: a billion-dollars $KING. No messages. No orders. "
     },
     {
-      "url": "https://dexscreener.com/solana/am1iiyduz1xcreyjxxymhjzudchjfpkgvqbacvtnpump",
-      "tokenAddress": "AM1iiydUz1XcReyjxXYMHJzuDchjFPKgVqbacvTnpump",
-      "description": "SOL.BOT\u1d2c\u1d35 an intelligent automation layer built for the Solana ecosystem.\n\nSolana moves fast. Thousands of tokens, walle"
-    },
-    {
-      "url": "https://dexscreener.com/solana/avkpeewacku3mni5thby4bkbnmrpzaennqktp3wppump",
-      "tokenAddress": "AVKpeeWaCku3Mni5THbY4bkBnMrPzAEnnQKtP3wPpump",
-      "description": "Pepe Kasady went in on the recovery crew after the Brock incident. Carnage came out. The next symbiote in the Pepeverse,"
+      "url": "https://dexscreener.com/solana/37vv3br2ewpzl9cwpn3atgwao3qld3uukyaxplqjpump",
+      "tokenAddress": "37vV3bR2ewPZL9CWPn3atGWao3qLD3uUkYAxpLqJpump",
+      "description": "One intuitive wallet. A world of possibilities.\nMaking everyday crypto feel a little more effortless."
     },
     {
       "url": "https://dexscreener.com/solana/8vduxcypxp1w7qzds537zuqnlbxpbyd6g1i7q49vpump",
