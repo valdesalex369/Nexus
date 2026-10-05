@@ -1,37 +1,37 @@
 {
-  "at": "2026-10-04T23:15:02.901284+00:00",
+  "at": "2026-10-05T02:06:21.801793+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 86560.0,
-      "changePct": 2.1379701578184678,
+      "price": 86599.0,
+      "changePct": 2.0929591088230395,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2732.7,
-      "changePct": 1.7248104279531538,
+      "price": 2725.88,
+      "changePct": 1.1473393039099409,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 121.96,
-      "changePct": 1.900766242988206,
+      "price": 121.26,
+      "changePct": 0.8456509277252706,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 795.72,
-      "changePct": 1.0120479037127932,
+      "price": 800.26,
+      "changePct": 2.098164469861032,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/gbduyigirxhr146n8d5hemgcscu8yuw8oybkjhuapump",
-      "tokenAddress": "GbdUYiGiRxhr146N8d5hemgcscU8YUW8oYbKJhuApump",
-      "description": "PvP, X profile fees, ai launches made simple"
+      "url": "https://dexscreener.com/solana/8nkp4jkesntdgu3pisjdtdnsrtbt8ychhw8bu14wpump",
+      "tokenAddress": "8nKp4JkesNtDgu3PiSjdTdNSrtBt8YCHhW8BU14wpump",
+      "description": "Baton Rogue. The same baton puppy, now in a little bandit mask. Everyone said \"pass the baton\". He heard something else."
     },
     {
       "url": "https://dexscreener.com/solana/czjframms5cz4h22pwzfqtju5fkp7q2vvx1opvl9pump",
@@ -39,9 +39,9 @@
       "description": "Your purrsonal AI agent. Small paws, big brains, endless possibilities. \ud83d\udc3e\ud83e\udd16"
     },
     {
-      "url": "https://dexscreener.com/solana/8nkp4jkesntdgu3pisjdtdnsrtbt8ychhw8bu14wpump",
-      "tokenAddress": "8nKp4JkesNtDgu3PiSjdTdNSrtBt8YCHhW8BU14wpump",
-      "description": "Baton Rogue. The same baton puppy, now in a little bandit mask. Everyone said \"pass the baton\". He heard something else."
+      "url": "https://dexscreener.com/solana/gbduyigirxhr146n8d5hemgcscu8yuw8oybkjhuapump",
+      "tokenAddress": "GbdUYiGiRxhr146N8d5hemgcscU8YUW8oYbKJhuApump",
+      "description": "PvP, X profile fees, ai launches made simple"
     },
     {
       "url": "https://dexscreener.com/solana/avkpeewacku3mni5thby4bkbnmrpzaennqktp3wppump",
@@ -54,14 +54,14 @@
       "description": "\ud83d\udc15\ud83d\udc51 THE KING HAS ARRIVED.\nNo throne. No limits. Just SHIBO.\n$SHIBO \ud83c\udf19\nJOIN THE PACK."
     },
     {
-      "url": "https://dexscreener.com/solana/am1iiyduz1xcreyjxxymhjzudchjfpkgvqbacvtnpump",
-      "tokenAddress": "AM1iiydUz1XcReyjxXYMHJzuDchjFPKgVqbacvTnpump",
-      "description": "SOL.BOT\u1d2c\u1d35 an intelligent automation layer built for the Solana ecosystem.\n\nSolana moves fast. Thousands of tokens, walle"
-    },
-    {
       "url": "https://dexscreener.com/solana/2rfnkruapdtfscnu5kjogl2aiq7yzde8dyzgzzajcokc",
       "tokenAddress": "2rFNkrUaPdTFSCNu5KJoGL2Aiq7YZDE8DYZGZzAJCoKc",
       "description": "Anonymous BTC desk, awake since 2004. A public mind with one ambition: a billion-dollars $KING. No messages. No orders. "
+    },
+    {
+      "url": "https://dexscreener.com/solana/am1iiyduz1xcreyjxxymhjzudchjfpkgvqbacvtnpump",
+      "tokenAddress": "AM1iiydUz1XcReyjxXYMHJzuDchjFPKgVqbacvTnpump",
+      "description": "SOL.BOT\u1d2c\u1d35 an intelligent automation layer built for the Solana ecosystem.\n\nSolana moves fast. Thousands of tokens, walle"
     },
     {
       "url": "https://dexscreener.com/solana/j8fqftxh6panxy6ezchns8e3zeecf3xcfasetwnpump",
@@ -70,7 +70,7 @@
     }
   ],
   "fearGreed": {
-    "value": 65,
+    "value": 70,
     "label": "Greed"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
