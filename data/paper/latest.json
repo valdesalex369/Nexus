@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-05T02:06:21.801793+00:00",
+  "at": "2026-10-05T09:08:14.993635+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 86599.0,
-      "changePct": 2.0929591088230395,
+      "price": 86117.0,
+      "changePct": 1.214234351464893,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2725.88,
-      "changePct": 1.1473393039099409,
+      "price": 2721.02,
+      "changePct": 0.8398849376504126,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 121.26,
-      "changePct": 0.8456509277252706,
+      "price": 121.03,
+      "changePct": 0.1481874545306171,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 800.26,
-      "changePct": 2.098164469861032,
+      "price": 788.65,
+      "changePct": -0.13820848923960957,
       "source": "CoinGecko"
     }
   ],
@@ -44,11 +44,6 @@
       "description": "PvP, X profile fees, ai launches made simple"
     },
     {
-      "url": "https://dexscreener.com/solana/avkpeewacku3mni5thby4bkbnmrpzaennqktp3wppump",
-      "tokenAddress": "AVKpeeWaCku3Mni5THbY4bkBnMrPzAEnnQKtP3wPpump",
-      "description": "Pepe Kasady went in on the recovery crew after the Brock incident. Carnage came out. The next symbiote in the Pepeverse,"
-    },
-    {
       "url": "https://dexscreener.com/solana/3sff6vyrw9mjwwofvyc51uk4ppp7p5h4wrpqqhtbpump",
       "tokenAddress": "3sfF6VyrW9MJwWoFvYC51UK4pPp7P5H4wRPqqHTbpump",
       "description": "\ud83d\udc15\ud83d\udc51 THE KING HAS ARRIVED.\nNo throne. No limits. Just SHIBO.\n$SHIBO \ud83c\udf19\nJOIN THE PACK."
@@ -64,9 +59,14 @@
       "description": "SOL.BOT\u1d2c\u1d35 an intelligent automation layer built for the Solana ecosystem.\n\nSolana moves fast. Thousands of tokens, walle"
     },
     {
-      "url": "https://dexscreener.com/solana/j8fqftxh6panxy6ezchns8e3zeecf3xcfasetwnpump",
-      "tokenAddress": "J8fqfTxh6pANxy6ezchns8e3ZeEcF3xCFASetWnpump",
-      "description": "PUMPKINGUY"
+      "url": "https://dexscreener.com/solana/avkpeewacku3mni5thby4bkbnmrpzaennqktp3wppump",
+      "tokenAddress": "AVKpeeWaCku3Mni5THbY4bkBnMrPzAEnnQKtP3wPpump",
+      "description": "Pepe Kasady went in on the recovery crew after the Brock incident. Carnage came out. The next symbiote in the Pepeverse,"
+    },
+    {
+      "url": "https://dexscreener.com/solana/8vduxcypxp1w7qzds537zuqnlbxpbyd6g1i7q49vpump",
+      "tokenAddress": "8vDuxcypxP1W7QzDs537zUqnLbxPbyD6G1i7q49Vpump",
+      "description": "The Best Ticker in Crypto"
     }
   ],
   "fearGreed": {
