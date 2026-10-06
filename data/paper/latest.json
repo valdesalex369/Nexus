@@ -1,37 +1,42 @@
 {
-  "at": "2026-10-06T19:35:59.452541+00:00",
+  "at": "2026-10-06T23:18:31.374064+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 85559.0,
-      "changePct": -0.2079191942866326,
+      "price": 85491.0,
+      "changePct": -0.43340232482423097,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2689.39,
-      "changePct": -0.732010704205389,
+      "price": 2697.64,
+      "changePct": -0.5968798907845668,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 120.6,
-      "changePct": 0.44696674708260165,
+      "price": 120.71,
+      "changePct": -0.09759784458495721,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 779.33,
-      "changePct": -0.9181401958406419,
+      "price": 779.24,
+      "changePct": -1.1089888177324894,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/bruimx7kncgrntggadzdax2s5xuqqyr6xmrmeg4mpump",
-      "tokenAddress": "BrUimx7KncgRNTggAdZdaX2s5XUqQyR6XMRmEg4mpump",
-      "description": "Every coin you launch mints you an engine NFT that keeps 20% of that coin's fees forever."
+      "url": "https://dexscreener.com/solana/49gr2vbv3igyyxxvthoozw2bcshhhaf3wjufgfqrpump",
+      "tokenAddress": "49gr2VBv3igYyXXVthoozw2bCsHhHaF3WJufgfQrpump",
+      "description": "Super Kitty"
+    },
+    {
+      "url": "https://dexscreener.com/solana/j9qzfhtlynmf3tzyvhbaf96rh3yktoelaavmzz66pump",
+      "tokenAddress": "J9qzFhTLYnmf3tZYvHBaF96rH3YKToELAAVMzz66pump",
+      "description": "Sand Witch Kitten. The same tiny sand kitten doing the same big desert stretch, with one change: a small black witch hat"
     },
     {
       "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
@@ -39,9 +44,9 @@
       "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
     },
     {
-      "url": "https://dexscreener.com/solana/azpz5zxzl4qtw6gjwqm4lytzwjc9du8pcch3ab91pump",
-      "tokenAddress": "AZpZ5zXzL4qtW6gjwQm4LyTzWjc9dU8PcCH3aB91pump",
-      "description": "C@T celebrates the little symbol that connects us all. Born for National Punctuation Day and built for the Solana commun"
+      "url": "https://dexscreener.com/solana/cscpttdsdskxhcivryvcpfhtt9a3uni8tbsfqpdxpump",
+      "tokenAddress": "CsCPttDSDsKxhCiVrYvCpFHtT9A3Uni8tbSfqpDXpump",
+      "description": "Super Agency unites Super Inu, Bonk, Wif, Floki, and Stupid Inu in a pixel arcade world filled with heroic memes, epic m"
     },
     {
       "url": "https://dexscreener.com/solana/5oyf9ag7rkow6k9ydkzv2yup7xajqkxm6qnouysppump",
@@ -54,19 +59,14 @@
       "description": "Call Me Anisom"
     },
     {
+      "url": "https://dexscreener.com/solana/bz8pkwus4tjbot2xhrcwg3o6pk8xkvmnewvqmyyfpump",
+      "tokenAddress": "BZ8pkWUs4TjboT2xHRCwg3o6PK8xkvmNewvqMyyfpump",
+      "description": "Memecoins that fund real-world goals."
+    },
+    {
       "url": "https://dexscreener.com/solana/cnwxkgcbotcfhjsngkpmqecpckza19mvpmk5phjrpump",
       "tokenAddress": "CNWXKgcbotCfhjSNgKPmqEcpCKZA19mvpmk5PHjRpump",
       "description": "$AGENCY unites five fearless anime agents on Solana, blending neon energy, bold teamwork, and playful chaos into a commu"
-    },
-    {
-      "url": "https://dexscreener.com/solana/baqdcvarx7bcs73o6pvexwncpnhuw8z11zaw2mjepump",
-      "tokenAddress": "BaqDcVARx7Bcs73o6pvexwNcpnHuW8z11zaw2Mjepump",
-      "description": "Tiny paws. Sharp katana. A samurai cat standing strong against all odds. \u2694\ufe0f\ud83d\udc31"
-    },
-    {
-      "url": "https://dexscreener.com/solana/d9my25ye86da3vsgjuol69kihgwalxpd1mf8evxupump",
-      "tokenAddress": "D9MY25yE86DA3VSgjuoL69KihGWaLXpd1MF8EvXupump",
-      "description": "discat brings wild feline energy, meme chaos, and unstoppable vibes straight to the blockchain."
     }
   ],
   "fearGreed": {
