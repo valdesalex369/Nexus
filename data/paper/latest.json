@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-06T14:13:23.283343+00:00",
+  "at": "2026-10-06T19:35:59.452541+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 86131.0,
-      "changePct": -0.5831360291790629,
+      "price": 85559.0,
+      "changePct": -0.2079191942866326,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2709.64,
-      "changePct": -0.6814887434712379,
+      "price": 2689.39,
+      "changePct": -0.732010704205389,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 120.67,
-      "changePct": -0.3036423490060047,
+      "price": 120.6,
+      "changePct": 0.44696674708260165,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 783.28,
-      "changePct": -1.1823643031200766,
+      "price": 779.33,
+      "changePct": -0.9181401958406419,
       "source": "CoinGecko"
     }
   ],
@@ -34,9 +34,9 @@
       "description": "Every coin you launch mints you an engine NFT that keeps 20% of that coin's fees forever."
     },
     {
-      "url": "https://dexscreener.com/solana/asywkgztjd2vsijyf7dsjs6lfyvmfz6ojevoebvupump",
-      "tokenAddress": "AsyWkgzTJD2VsiJYf7DSjs6LFyvMFZ6ojeVoEBvupump",
-      "description": "Cali holding a sword, standing strong against FUD. Small paws, fearless heart. \u2694\ufe0f\ud83d\udc36"
+      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
+      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
     },
     {
       "url": "https://dexscreener.com/solana/azpz5zxzl4qtw6gjwqm4lytzwjc9du8pcch3ab91pump",
@@ -49,24 +49,24 @@
       "description": "A cat found a computer. The computer was warm. The rest is internet history."
     },
     {
+      "url": "https://dexscreener.com/solana/d8gnqana7i5cmpkgduyhxx8smnveypzbqrxh6qiapump",
+      "tokenAddress": "D8GnQAnA7i5cmpkgDUyhxx8SmnveypZBQRXh6qiapump",
+      "description": "Call Me Anisom"
+    },
+    {
       "url": "https://dexscreener.com/solana/cnwxkgcbotcfhjsngkpmqecpckza19mvpmk5phjrpump",
       "tokenAddress": "CNWXKgcbotCfhjSNgKPmqEcpCKZA19mvpmk5PHjRpump",
       "description": "$AGENCY unites five fearless anime agents on Solana, blending neon energy, bold teamwork, and playful chaos into a commu"
     },
     {
-      "url": "https://dexscreener.com/solana/fkppa1nis6rrs5hexv5eiadwcpm7pyrfvloxlm28pump",
-      "tokenAddress": "FKpPA1niS6rrs5HeXv5eiaDWcpM7pyRFvLoxLM28pump",
-      "description": "Grow value over months through measured, data-backed decisions and patient pacing"
+      "url": "https://dexscreener.com/solana/baqdcvarx7bcs73o6pvexwncpnhuw8z11zaw2mjepump",
+      "tokenAddress": "BaqDcVARx7Bcs73o6pvexwNcpnHuW8z11zaw2Mjepump",
+      "description": "Tiny paws. Sharp katana. A samurai cat standing strong against all odds. \u2694\ufe0f\ud83d\udc31"
     },
     {
-      "url": "https://dexscreener.com/solana/9xkzy4kahczagjpjtz1ptqgpb3ciseobrx7tcqhepump",
-      "tokenAddress": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
-      "description": "Gomo not a Fomo"
-    },
-    {
-      "url": "https://dexscreener.com/solana/d8gnqana7i5cmpkgduyhxx8smnveypzbqrxh6qiapump",
-      "tokenAddress": "D8GnQAnA7i5cmpkgDUyhxx8SmnveypZBQRXh6qiapump",
-      "description": "Call Me Anisom"
+      "url": "https://dexscreener.com/solana/d9my25ye86da3vsgjuol69kihgwalxpd1mf8evxupump",
+      "tokenAddress": "D9MY25yE86DA3VSgjuoL69KihGWaLXpd1MF8EvXupump",
+      "description": "discat brings wild feline energy, meme chaos, and unstoppable vibes straight to the blockchain."
     }
   ],
   "fearGreed": {
