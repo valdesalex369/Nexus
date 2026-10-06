@@ -1,62 +1,42 @@
 {
-  "at": "2026-10-05T18:30:48.308291+00:00",
+  "at": "2026-10-06T00:21:47.429460+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 85582.0,
-      "changePct": 0.3192189849761023,
+      "price": 85853.0,
+      "changePct": -0.6627231981974546,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2709.31,
-      "changePct": 0.31732421471842975,
+      "price": 2713.46,
+      "changePct": -0.4951788559901533,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 120.05,
-      "changePct": -1.1250436407789732,
+      "price": 120.91,
+      "changePct": -0.41873650449937483,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 786.96,
-      "changePct": -0.23645993577441457,
+      "price": 787.24,
+      "changePct": -0.9797470174402292,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
+      "url": "https://dexscreener.com/solana/bruimx7kncgrntggadzdax2s5xuqqyr6xmrmeg4mpump",
+      "tokenAddress": "BrUimx7KncgRNTggAdZdaX2s5XUqQyR6XMRmEg4mpump",
+      "description": "Every coin you launch mints you an engine NFT that keeps 20% of that coin's fees forever."
+    },
+    {
       "url": "https://dexscreener.com/solana/9ymlvmzao6gjhd8zxo62uzzvp9ev4xhxql3zsmgiodm7",
       "tokenAddress": "9yMLvMzAo6gjhd8zXo62uZzVP9ev4xHxqL3ZsmgioDM7",
       "description": "Ash became a Champion.\n\nProfessor Eich still gives him homework.\n\n$EICH is the eternal mentor-student meme \u2014 Ash learns,"
-    },
-    {
-      "url": "https://dexscreener.com/solana/8nkp4jkesntdgu3pisjdtdnsrtbt8ychhw8bu14wpump",
-      "tokenAddress": "8nKp4JkesNtDgu3PiSjdTdNSrtBt8YCHhW8BU14wpump",
-      "description": "Baton Rogue. The same baton puppy, now in a little bandit mask. Everyone said \"pass the baton\". He heard something else."
-    },
-    {
-      "url": "https://dexscreener.com/solana/czjframms5cz4h22pwzfqtju5fkp7q2vvx1opvl9pump",
-      "tokenAddress": "CZJfrAmMs5Cz4H22PWzfqTJu5FkP7Q2Vvx1oPVL9pump",
-      "description": "Your purrsonal AI agent. Small paws, big brains, endless possibilities. \ud83d\udc3e\ud83e\udd16"
-    },
-    {
-      "url": "https://dexscreener.com/solana/gbduyigirxhr146n8d5hemgcscu8yuw8oybkjhuapump",
-      "tokenAddress": "GbdUYiGiRxhr146N8d5hemgcscU8YUW8oYbKJhuApump",
-      "description": "PvP, X profile fees, ai launches made simple"
-    },
-    {
-      "url": "https://dexscreener.com/solana/3sff6vyrw9mjwwofvyc51uk4ppp7p5h4wrpqqhtbpump",
-      "tokenAddress": "3sfF6VyrW9MJwWoFvYC51UK4pPp7P5H4wRPqqHTbpump",
-      "description": "\ud83d\udc15\ud83d\udc51 THE KING HAS ARRIVED.\nNo throne. No limits. Just SHIBO.\n$SHIBO \ud83c\udf19\nJOIN THE PACK."
-    },
-    {
-      "url": "https://dexscreener.com/solana/2rfnkruapdtfscnu5kjogl2aiq7yzde8dyzgzzajcokc",
-      "tokenAddress": "2rFNkrUaPdTFSCNu5KJoGL2Aiq7YZDE8DYZGZzAJCoKc",
-      "description": "Anonymous BTC desk, awake since 2004. A public mind with one ambition: a billion-dollars $KING. No messages. No orders. "
     },
     {
       "url": "https://dexscreener.com/solana/37vv3br2ewpzl9cwpn3atgwao3qld3uukyaxplqjpump",
@@ -64,16 +44,36 @@
       "description": "One intuitive wallet. A world of possibilities.\nMaking everyday crypto feel a little more effortless."
     },
     {
+      "url": "https://dexscreener.com/solana/asywkgztjd2vsijyf7dsjs6lfyvmfz6ojevoebvupump",
+      "tokenAddress": "AsyWkgzTJD2VsiJYf7DSjs6LFyvMFZ6ojeVoEBvupump",
+      "description": "Cali holding a sword, standing strong against FUD. Small paws, fearless heart. \u2694\ufe0f\ud83d\udc36"
+    },
+    {
       "url": "https://dexscreener.com/solana/8vduxcypxp1w7qzds537zuqnlbxpbyd6g1i7q49vpump",
       "tokenAddress": "8vDuxcypxP1W7QzDs537zUqnLbxPbyD6G1i7q49Vpump",
       "description": "The Best Ticker in Crypto"
+    },
+    {
+      "url": "https://dexscreener.com/solana/2w2k6yxc5vqtgcrnrkgwethsjjgez83t8tcywmtbpump",
+      "tokenAddress": "2w2K6Yxc5VqTGcrnrkGWETHsjjGEZ83T8TCYwmTBpump",
+      "description": "The last human is gone."
+    },
+    {
+      "url": "https://dexscreener.com/solana/azpz5zxzl4qtw6gjwqm4lytzwjc9du8pcch3ab91pump",
+      "tokenAddress": "AZpZ5zXzL4qtW6gjwQm4LyTzWjc9dU8PcCH3aB91pump",
+      "description": "C@T celebrates the little symbol that connects us all. Born for National Punctuation Day and built for the Solana commun"
+    },
+    {
+      "url": "https://dexscreener.com/solana/csed3pi5wzl7w5vmwnjdvxv8poaqsv2dn1as1erupump",
+      "tokenAddress": "CSEd3Pi5WZL7w5vmwNjDVXv8poAqSv2Dn1as1erUpump",
+      "description": "Tokens launched by agents. AI crews that find, build, deploy, and work every launch."
     }
   ],
   "fearGreed": {
-    "value": 70,
+    "value": 73,
     "label": "Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
