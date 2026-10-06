@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-06T00:21:47.429460+00:00",
+  "at": "2026-10-06T06:53:12.187773+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 85853.0,
-      "changePct": -0.6627231981974546,
+      "price": 85335.0,
+      "changePct": -0.8284152745133379,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2713.46,
-      "changePct": -0.4951788559901533,
+      "price": 2697.91,
+      "changePct": -0.6938607369037911,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 120.91,
-      "changePct": -0.41873650449937483,
+      "price": 119.82,
+      "changePct": -1.1283477432822726,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 787.24,
-      "changePct": -0.9797470174402292,
+      "price": 779.12,
+      "changePct": -1.7211528447333349,
       "source": "CoinGecko"
     }
   ],
@@ -39,9 +39,9 @@
       "description": "Ash became a Champion.\n\nProfessor Eich still gives him homework.\n\n$EICH is the eternal mentor-student meme \u2014 Ash learns,"
     },
     {
-      "url": "https://dexscreener.com/solana/37vv3br2ewpzl9cwpn3atgwao3qld3uukyaxplqjpump",
-      "tokenAddress": "37vV3bR2ewPZL9CWPn3atGWao3qLD3uUkYAxpLqJpump",
-      "description": "One intuitive wallet. A world of possibilities.\nMaking everyday crypto feel a little more effortless."
+      "url": "https://dexscreener.com/solana/49gr2vbv3igyyxxvthoozw2bcshhhaf3wjufgfqrpump",
+      "tokenAddress": "49gr2VBv3igYyXXVthoozw2bCsHhHaF3WJufgfQrpump",
+      "description": "Super Kitty"
     },
     {
       "url": "https://dexscreener.com/solana/asywkgztjd2vsijyf7dsjs6lfyvmfz6ojevoebvupump",
@@ -49,24 +49,24 @@
       "description": "Cali holding a sword, standing strong against FUD. Small paws, fearless heart. \u2694\ufe0f\ud83d\udc36"
     },
     {
-      "url": "https://dexscreener.com/solana/8vduxcypxp1w7qzds537zuqnlbxpbyd6g1i7q49vpump",
-      "tokenAddress": "8vDuxcypxP1W7QzDs537zUqnLbxPbyD6G1i7q49Vpump",
-      "description": "The Best Ticker in Crypto"
-    },
-    {
-      "url": "https://dexscreener.com/solana/2w2k6yxc5vqtgcrnrkgwethsjjgez83t8tcywmtbpump",
-      "tokenAddress": "2w2K6Yxc5VqTGcrnrkGWETHsjjGEZ83T8TCYwmTBpump",
-      "description": "The last human is gone."
-    },
-    {
       "url": "https://dexscreener.com/solana/azpz5zxzl4qtw6gjwqm4lytzwjc9du8pcch3ab91pump",
       "tokenAddress": "AZpZ5zXzL4qtW6gjwQm4LyTzWjc9dU8PcCH3aB91pump",
       "description": "C@T celebrates the little symbol that connects us all. Born for National Punctuation Day and built for the Solana commun"
     },
     {
-      "url": "https://dexscreener.com/solana/csed3pi5wzl7w5vmwnjdvxv8poaqsv2dn1as1erupump",
-      "tokenAddress": "CSEd3Pi5WZL7w5vmwNjDVXv8poAqSv2Dn1as1erUpump",
-      "description": "Tokens launched by agents. AI crews that find, build, deploy, and work every launch."
+      "url": "https://dexscreener.com/solana/5oyf9ag7rkow6k9ydkzv2yup7xajqkxm6qnouysppump",
+      "tokenAddress": "5oYF9aG7rkow6K9yDKzv2yup7xaJqkXm6QNoUYsppump",
+      "description": "A cat found a computer. The computer was warm. The rest is internet history."
+    },
+    {
+      "url": "https://dexscreener.com/solana/6iaj2oywqmid9neytcw1s7utg7e3jsk7ud5zjdqjpump",
+      "tokenAddress": "6iAj2oywQMiD9NeyTcW1S7UtG7e3jSK7Ud5ZJDqJpump",
+      "description": "The ticker is $HI (Hallow Inu)"
+    },
+    {
+      "url": "https://dexscreener.com/solana/cnwxkgcbotcfhjsngkpmqecpckza19mvpmk5phjrpump",
+      "tokenAddress": "CNWXKgcbotCfhjSNgKPmqEcpCKZA19mvpmk5PHjRpump",
+      "description": "$AGENCY unites five fearless anime agents on Solana, blending neon energy, bold teamwork, and playful chaos into a commu"
     }
   ],
   "fearGreed": {
