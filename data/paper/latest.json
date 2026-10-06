@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-06T06:53:12.187773+00:00",
+  "at": "2026-10-06T14:13:23.283343+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 85335.0,
-      "changePct": -0.8284152745133379,
+      "price": 86131.0,
+      "changePct": -0.5831360291790629,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2697.91,
-      "changePct": -0.6938607369037911,
+      "price": 2709.64,
+      "changePct": -0.6814887434712379,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 119.82,
-      "changePct": -1.1283477432822726,
+      "price": 120.67,
+      "changePct": -0.3036423490060047,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 779.12,
-      "changePct": -1.7211528447333349,
+      "price": 783.28,
+      "changePct": -1.1823643031200766,
       "source": "CoinGecko"
     }
   ],
@@ -32,16 +32,6 @@
       "url": "https://dexscreener.com/solana/bruimx7kncgrntggadzdax2s5xuqqyr6xmrmeg4mpump",
       "tokenAddress": "BrUimx7KncgRNTggAdZdaX2s5XUqQyR6XMRmEg4mpump",
       "description": "Every coin you launch mints you an engine NFT that keeps 20% of that coin's fees forever."
-    },
-    {
-      "url": "https://dexscreener.com/solana/9ymlvmzao6gjhd8zxo62uzzvp9ev4xhxql3zsmgiodm7",
-      "tokenAddress": "9yMLvMzAo6gjhd8zXo62uZzVP9ev4xHxqL3ZsmgioDM7",
-      "description": "Ash became a Champion.\n\nProfessor Eich still gives him homework.\n\n$EICH is the eternal mentor-student meme \u2014 Ash learns,"
-    },
-    {
-      "url": "https://dexscreener.com/solana/49gr2vbv3igyyxxvthoozw2bcshhhaf3wjufgfqrpump",
-      "tokenAddress": "49gr2VBv3igYyXXVthoozw2bCsHhHaF3WJufgfQrpump",
-      "description": "Super Kitty"
     },
     {
       "url": "https://dexscreener.com/solana/asywkgztjd2vsijyf7dsjs6lfyvmfz6ojevoebvupump",
@@ -59,14 +49,24 @@
       "description": "A cat found a computer. The computer was warm. The rest is internet history."
     },
     {
-      "url": "https://dexscreener.com/solana/6iaj2oywqmid9neytcw1s7utg7e3jsk7ud5zjdqjpump",
-      "tokenAddress": "6iAj2oywQMiD9NeyTcW1S7UtG7e3jSK7Ud5ZJDqJpump",
-      "description": "The ticker is $HI (Hallow Inu)"
-    },
-    {
       "url": "https://dexscreener.com/solana/cnwxkgcbotcfhjsngkpmqecpckza19mvpmk5phjrpump",
       "tokenAddress": "CNWXKgcbotCfhjSNgKPmqEcpCKZA19mvpmk5PHjRpump",
       "description": "$AGENCY unites five fearless anime agents on Solana, blending neon energy, bold teamwork, and playful chaos into a commu"
+    },
+    {
+      "url": "https://dexscreener.com/solana/fkppa1nis6rrs5hexv5eiadwcpm7pyrfvloxlm28pump",
+      "tokenAddress": "FKpPA1niS6rrs5HeXv5eiaDWcpM7pyRFvLoxLM28pump",
+      "description": "Grow value over months through measured, data-backed decisions and patient pacing"
+    },
+    {
+      "url": "https://dexscreener.com/solana/9xkzy4kahczagjpjtz1ptqgpb3ciseobrx7tcqhepump",
+      "tokenAddress": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
+      "description": "Gomo not a Fomo"
+    },
+    {
+      "url": "https://dexscreener.com/solana/d8gnqana7i5cmpkgduyhxx8smnveypzbqrxh6qiapump",
+      "tokenAddress": "D8GnQAnA7i5cmpkgDUyhxx8SmnveypZBQRXh6qiapump",
+      "description": "Call Me Anisom"
     }
   ],
   "fearGreed": {
