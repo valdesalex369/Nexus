@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-07T02:42:34.497904+00:00",
+  "at": "2026-10-07T09:22:39.286372+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83860.0,
-      "changePct": -2.074166717828746,
+      "price": 83801.0,
+      "changePct": -2.5909806634323234,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2616.73,
-      "changePct": -3.2719505758070944,
+      "price": 2605.65,
+      "changePct": -4.084298678806876,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 118.17,
-      "changePct": -1.9378921170518413,
+      "price": 118.05,
+      "changePct": -1.9440908234920684,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 766.63,
-      "changePct": -1.9297514846755237,
+      "price": 770.37,
+      "changePct": -1.7276647482794227,
       "source": "CoinGecko"
     }
   ],
@@ -37,6 +37,11 @@
       "url": "https://dexscreener.com/solana/faopsovs2wfjk5qeamcuwavh98cvmbwt6lpq4ek2pump",
       "tokenAddress": "FAopSovS2WFJK5qEAmcuwAVH98CvmBwT6Lpq4EK2pump",
       "description": "all in one app."
+    },
+    {
+      "url": "https://dexscreener.com/solana/fmybf8wbgdcuk1zyrlqsndfkauiu23z8wd8qxoxupump",
+      "tokenAddress": "FmybF8WBgdCuk1ZYrLQsNdFkauiU23Z8wD8QXoXupump",
+      "description": "Leveraged markets for the memecoins you believe in. Long, short, or provide liquidity, with every listing earned."
     },
     {
       "url": "https://dexscreener.com/solana/49gr2vbv3igyyxxvthoozw2bcshhhaf3wjufgfqrpump",
@@ -59,14 +64,9 @@
       "description": "A World Built Entirely From Cat Blocks"
     },
     {
-      "url": "https://dexscreener.com/solana/cscpttdsdskxhcivryvcpfhtt9a3uni8tbsfqpdxpump",
-      "tokenAddress": "CsCPttDSDsKxhCiVrYvCpFHtT9A3Uni8tbSfqpDXpump",
-      "description": "Super Agency unites Super Inu, Bonk, Wif, Floki, and Stupid Inu in a pixel arcade world filled with heroic memes, epic m"
-    },
-    {
-      "url": "https://dexscreener.com/solana/d8gnqana7i5cmpkgduyhxx8smnveypzbqrxh6qiapump",
-      "tokenAddress": "D8GnQAnA7i5cmpkgDUyhxx8SmnveypZBQRXh6qiapump",
-      "description": "Call Me Anisom"
+      "url": "https://dexscreener.com/solana/45vhsie7cwffpkwcw28pcdzdjwma5y6k56wdam9hpump",
+      "tokenAddress": "45VHsie7CwFfPKWCw28PCdZdJWMA5Y6k56wDam9Hpump",
+      "description": "No Risk No RARI, even Inu knows it!"
     }
   ],
   "fearGreed": {
