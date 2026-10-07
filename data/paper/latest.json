@@ -1,42 +1,52 @@
 {
-  "at": "2026-10-06T23:18:31.374064+00:00",
+  "at": "2026-10-07T02:42:34.497904+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 85491.0,
-      "changePct": -0.43340232482423097,
+      "price": 83860.0,
+      "changePct": -2.074166717828746,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2697.64,
-      "changePct": -0.5968798907845668,
+      "price": 2616.73,
+      "changePct": -3.2719505758070944,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 120.71,
-      "changePct": -0.09759784458495721,
+      "price": 118.17,
+      "changePct": -1.9378921170518413,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 779.24,
-      "changePct": -1.1089888177324894,
+      "price": 766.63,
+      "changePct": -1.9297514846755237,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/j9qzfhtlynmf3tzyvhbaf96rh3yktoelaavmzz66pump",
+      "tokenAddress": "J9qzFhTLYnmf3tZYvHBaF96rH3YKToELAAVMzz66pump",
+      "description": "Sand Witch Kitten. The same tiny sand kitten doing the same big desert stretch, with one change: a small black witch hat"
+    },
+    {
+      "url": "https://dexscreener.com/solana/faopsovs2wfjk5qeamcuwavh98cvmbwt6lpq4ek2pump",
+      "tokenAddress": "FAopSovS2WFJK5qEAmcuwAVH98CvmBwT6Lpq4EK2pump",
+      "description": "all in one app."
+    },
     {
       "url": "https://dexscreener.com/solana/49gr2vbv3igyyxxvthoozw2bcshhhaf3wjufgfqrpump",
       "tokenAddress": "49gr2VBv3igYyXXVthoozw2bCsHhHaF3WJufgfQrpump",
       "description": "Super Kitty"
     },
     {
-      "url": "https://dexscreener.com/solana/j9qzfhtlynmf3tzyvhbaf96rh3yktoelaavmzz66pump",
-      "tokenAddress": "J9qzFhTLYnmf3tZYvHBaF96rH3YKToELAAVMzz66pump",
-      "description": "Sand Witch Kitten. The same tiny sand kitten doing the same big desert stretch, with one change: a small black witch hat"
+      "url": "https://dexscreener.com/solana/8ere7rkkoigyjtcyqdfwmpnna8caky14xe6ryjjhadkp",
+      "tokenAddress": "8erE7RkkoiGYJtCyQdfwMpnNA8cAkY14Xe6RYjjHAdKP",
+      "description": "We wait patiently all day for the market to reach the absolute highest top, ape in with max leverage, watch our portfoli"
     },
     {
       "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
@@ -44,33 +54,23 @@
       "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
     },
     {
+      "url": "https://dexscreener.com/solana/adpn2aqzy5rhkbc7bnqwfhtffeyky4drhuqg887cpump",
+      "tokenAddress": "ADPN2aqzY5RhkBC7bNQWFhTFFEYKY4drHUQG887Cpump",
+      "description": "A World Built Entirely From Cat Blocks"
+    },
+    {
       "url": "https://dexscreener.com/solana/cscpttdsdskxhcivryvcpfhtt9a3uni8tbsfqpdxpump",
       "tokenAddress": "CsCPttDSDsKxhCiVrYvCpFHtT9A3Uni8tbSfqpDXpump",
       "description": "Super Agency unites Super Inu, Bonk, Wif, Floki, and Stupid Inu in a pixel arcade world filled with heroic memes, epic m"
     },
     {
-      "url": "https://dexscreener.com/solana/5oyf9ag7rkow6k9ydkzv2yup7xajqkxm6qnouysppump",
-      "tokenAddress": "5oYF9aG7rkow6K9yDKzv2yup7xaJqkXm6QNoUYsppump",
-      "description": "A cat found a computer. The computer was warm. The rest is internet history."
-    },
-    {
       "url": "https://dexscreener.com/solana/d8gnqana7i5cmpkgduyhxx8smnveypzbqrxh6qiapump",
       "tokenAddress": "D8GnQAnA7i5cmpkgDUyhxx8SmnveypZBQRXh6qiapump",
       "description": "Call Me Anisom"
-    },
-    {
-      "url": "https://dexscreener.com/solana/bz8pkwus4tjbot2xhrcwg3o6pk8xkvmnewvqmyyfpump",
-      "tokenAddress": "BZ8pkWUs4TjboT2xHRCwg3o6PK8xkvmNewvqMyyfpump",
-      "description": "Memecoins that fund real-world goals."
-    },
-    {
-      "url": "https://dexscreener.com/solana/cnwxkgcbotcfhjsngkpmqecpckza19mvpmk5phjrpump",
-      "tokenAddress": "CNWXKgcbotCfhjSNgKPmqEcpCKZA19mvpmk5PHjRpump",
-      "description": "$AGENCY unites five fearless anime agents on Solana, blending neon energy, bold teamwork, and playful chaos into a commu"
     }
   ],
   "fearGreed": {
-    "value": 73,
+    "value": 71,
     "label": "Greed"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
