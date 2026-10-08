@@ -1,38 +1,33 @@
 {
-  "at": "2026-10-08T01:58:16.355519+00:00",
+  "at": "2026-10-08T09:01:43.621206+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83130.0,
-      "changePct": -2.0258756668188713,
+      "price": 82799.0,
+      "changePct": -1.3721845061261704,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2579.22,
-      "changePct": -3.5263485723957535,
+      "price": 2557.81,
+      "changePct": -2.004424960832439,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 116.11,
-      "changePct": -2.885046072298489,
+      "price": 114.83,
+      "changePct": -2.8654446665834903,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 772.22,
-      "changePct": -0.1859885924634167,
+      "price": 766.74,
+      "changePct": -0.7449988662812419,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/fmybf8wbgdcuk1zyrlqsndfkauiu23z8wd8qxoxupump",
-      "tokenAddress": "FmybF8WBgdCuk1ZYrLQsNdFkauiU23Z8wD8QXoXupump",
-      "description": "Leveraged markets for the memecoins you believe in. Long, short, or provide liquidity, with every listing earned."
-    },
     {
       "url": "https://dexscreener.com/solana/dwcxyhecsvzwgakdkpetzlfvbahutpgpzhbu4iempump",
       "tokenAddress": "DwcXyhEcSvzWgakDKpetZLFvbAHutpGpzhbU4iempump",
@@ -44,19 +39,19 @@
       "description": "The meme that pumps for Halloween!"
     },
     {
-      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
-      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
-    },
-    {
       "url": "https://dexscreener.com/solana/f6edrhrzxgmkbabhshdanqx26xlhg6nca83wwuqfpump",
       "tokenAddress": "F6EDRhRzXGmkBabhSHdAnqx26XLhG6NCa83wwuqFpump",
       "description": "ECSTASY"
     },
     {
-      "url": "https://dexscreener.com/solana/9xkzy4kahczagjpjtz1ptqgpb3ciseobrx7tcqhepump",
-      "tokenAddress": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
-      "description": "Gomo not a Fomo"
+      "url": "https://dexscreener.com/solana/5tcju6ynxhq5zra6tgndr6f7tk42mpufmee31csfpump",
+      "tokenAddress": "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump",
+      "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/7fxxzrh3sotcto3qduvjfv6jyr3doprd8vpdeqiupump",
+      "tokenAddress": "7fxxzRh3Sotcto3qduvjFv6jyR3doPRd8vpDeQiUpump",
+      "description": "Organisme is an AI launchpad and AI trading experience for connected token communities. One parent signal can become a l"
     },
     {
       "url": "https://dexscreener.com/solana/h74cymxgmkyhyusrszt6rjb4nyp2u72vw8bs5huapump",
@@ -64,9 +59,14 @@
       "description": "Life is short, you should learn to laugh a little."
     },
     {
-      "url": "https://dexscreener.com/solana/651d7ymtz9aspt6ru3mex27xitqqkyjlycfhsbfdpump",
-      "tokenAddress": "651d7ymtZ9aspt6RU3mEx27xitQQKYJLYcfhsbFdpump",
-      "description": "Launch any coin paired with a Roblox map. Fees go to Creators of the map."
+      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
+      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
+    },
+    {
+      "url": "https://dexscreener.com/solana/9xkzy4kahczagjpjtz1ptqgpb3ciseobrx7tcqhepump",
+      "tokenAddress": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
+      "description": "Gomo not a Fomo"
     }
   ],
   "fearGreed": {
