@@ -1,42 +1,52 @@
 {
-  "at": "2026-10-08T16:31:27.852366+00:00",
+  "at": "2026-10-08T21:32:11.011235+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81315.0,
-      "changePct": -2.6459607115570423,
+      "price": 81652.0,
+      "changePct": -1.9556080497037327,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2430.51,
-      "changePct": -5.427133457077402,
+      "price": 2474.33,
+      "changePct": -3.6516743589479455,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 108.76,
-      "changePct": -6.991790759273268,
+      "price": 110.02,
+      "changePct": -5.012444017313077,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 732.72,
-      "changePct": -4.927766829868543,
+      "price": 733.7,
+      "changePct": -4.67471939094299,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/dwcxyhecsvzwgakdkpetzlfvbahutpgpzhbu4iempump",
-      "tokenAddress": "DwcXyhEcSvzWgakDKpetZLFvbAHutpGpzhbU4iempump",
-      "description": "BULLCRAFT, full browser voxel game built for the herd. Mine, build, craft and dig for gold built on minecraft"
+      "url": "https://dexscreener.com/solana/8zcmwpw3mtc5upnczf7u4hmvrnto71syu11bdiafpump",
+      "tokenAddress": "8ZCmwpW3MtC5UpNcZf7U4HMvRNTo71syU11BDiAFpump",
+      "description": "Meet Gary, the Internet\u2019s most famous and adorable adventure cat"
+    },
+    {
+      "url": "https://dexscreener.com/solana/cmchvr99axrldqb7jatftsbwg3dnxqq4spctemt7pump",
+      "tokenAddress": "CmCHvr99aXrLDQB7jAtFtsBwg3DnXqq4spcTEMt7pump",
+      "description": "Owl Nighter. The same great grey owl in the same ink drawing, with one change: a steaming cup of coffee. Eyes wide open,"
     },
     {
       "url": "https://dexscreener.com/solana/5tcju6ynxhq5zra6tgndr6f7tk42mpufmee31csfpump",
       "tokenAddress": "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump",
       "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/9s6tpxbg3cgjqk1nd1snwrmxwbykm8jyaq8c9vrapump",
+      "tokenAddress": "9s6tPxbG3CGJQK1nD1SnwrmxWbYkm8jYaQ8c9vrApump",
+      "description": "Superintelligence meets steel. Wise eyes, sharp sword, golden aura. \ud83e\udd89\u2694\ufe0f"
     },
     {
       "url": "https://dexscreener.com/solana/f6edrhrzxgmkbabhshdanqx26xlhg6nca83wwuqfpump",
@@ -49,24 +59,14 @@
       "description": "Organisme is an AI launchpad and AI trading experience for connected token communities. One parent signal can become a l"
     },
     {
-      "url": "https://dexscreener.com/solana/h74cymxgmkyhyusrszt6rjb4nyp2u72vw8bs5huapump",
-      "tokenAddress": "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump",
-      "description": "Life is short, you should learn to laugh a little."
-    },
-    {
       "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
       "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
       "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
     },
     {
-      "url": "https://dexscreener.com/solana/651d7ymtz9aspt6ru3mex27xitqqkyjlycfhsbfdpump",
-      "tokenAddress": "651d7ymtZ9aspt6RU3mEx27xitQQKYJLYcfhsbFdpump",
-      "description": "Launch any coin paired with a Roblox map. Fees go to Creators of the map."
-    },
-    {
-      "url": "https://dexscreener.com/solana/9xkzy4kahczagjpjtz1ptqgpb3ciseobrx7tcqhepump",
-      "tokenAddress": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
-      "description": "Gomo not a Fomo"
+      "url": "https://dexscreener.com/solana/4sn5ek6kwnh39pgausxz29ytcrbqvwh9bacunp4cpump",
+      "tokenAddress": "4sN5ek6KwNH39pgAusxz29YtcRBqvWH9baCUnP4cpump",
+      "description": "A cat beyond certainty, roaming through waves of infinite possibility. Nine lives, countless realities. $Schrodinger"
     }
   ],
   "fearGreed": {
