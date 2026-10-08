@@ -1,38 +1,33 @@
 {
-  "at": "2026-10-07T22:00:42.155183+00:00",
+  "at": "2026-10-08T01:58:16.355519+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83111.0,
-      "changePct": -2.9085205262924814,
+      "price": 83130.0,
+      "changePct": -2.0258756668188713,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2566.64,
-      "changePct": -4.865975941887242,
+      "price": 2579.22,
+      "changePct": -3.5263485723957535,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 115.33,
-      "changePct": -4.693612177656539,
+      "price": 116.11,
+      "changePct": -2.885046072298489,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 769.02,
-      "changePct": -1.372409820833617,
+      "price": 772.22,
+      "changePct": -0.1859885924634167,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/faopsovs2wfjk5qeamcuwavh98cvmbwt6lpq4ek2pump",
-      "tokenAddress": "FAopSovS2WFJK5qEAmcuwAVH98CvmBwT6Lpq4EK2pump",
-      "description": "all in one app."
-    },
     {
       "url": "https://dexscreener.com/solana/fmybf8wbgdcuk1zyrlqsndfkauiu23z8wd8qxoxupump",
       "tokenAddress": "FmybF8WBgdCuk1ZYrLQsNdFkauiU23Z8wD8QXoXupump",
@@ -44,33 +39,38 @@
       "description": "BULLCRAFT, full browser voxel game built for the herd. Mine, build, craft and dig for gold built on minecraft"
     },
     {
-      "url": "https://dexscreener.com/solana/8ere7rkkoigyjtcyqdfwmpnna8caky14xe6ryjjhadkp",
-      "tokenAddress": "8erE7RkkoiGYJtCyQdfwMpnNA8cAkY14Xe6RYjjHAdKP",
-      "description": "We wait patiently all day for the market to reach the absolute highest top, ape in with max leverage, watch our portfoli"
-    },
-    {
       "url": "https://dexscreener.com/solana/5gefefpx1mds6zjb1apymz6fctcinjphturz9bvfpump",
       "tokenAddress": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
       "description": "The meme that pumps for Halloween!"
     },
     {
-      "url": "https://dexscreener.com/solana/adpn2aqzy5rhkbc7bnqwfhtffeyky4drhuqg887cpump",
-      "tokenAddress": "ADPN2aqzY5RhkBC7bNQWFhTFFEYKY4drHUQG887Cpump",
-      "description": "A World Built Entirely From Cat Blocks"
-    },
-    {
-      "url": "https://dexscreener.com/solana/45vhsie7cwffpkwcw28pcdzdjwma5y6k56wdam9hpump",
-      "tokenAddress": "45VHsie7CwFfPKWCw28PCdZdJWMA5Y6k56wDam9Hpump",
-      "description": "No Risk No RARI, even Inu knows it!"
-    },
-    {
       "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
       "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
       "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
+    },
+    {
+      "url": "https://dexscreener.com/solana/f6edrhrzxgmkbabhshdanqx26xlhg6nca83wwuqfpump",
+      "tokenAddress": "F6EDRhRzXGmkBabhSHdAnqx26XLhG6NCa83wwuqFpump",
+      "description": "ECSTASY"
+    },
+    {
+      "url": "https://dexscreener.com/solana/9xkzy4kahczagjpjtz1ptqgpb3ciseobrx7tcqhepump",
+      "tokenAddress": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
+      "description": "Gomo not a Fomo"
+    },
+    {
+      "url": "https://dexscreener.com/solana/h74cymxgmkyhyusrszt6rjb4nyp2u72vw8bs5huapump",
+      "tokenAddress": "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump",
+      "description": "Life is short, you should learn to laugh a little."
+    },
+    {
+      "url": "https://dexscreener.com/solana/651d7ymtz9aspt6ru3mex27xitqqkyjlycfhsbfdpump",
+      "tokenAddress": "651d7ymtZ9aspt6RU3mEx27xitQQKYJLYcfhsbFdpump",
+      "description": "Launch any coin paired with a Roblox map. Fees go to Creators of the map."
     }
   ],
   "fearGreed": {
-    "value": 71,
+    "value": 64,
     "label": "Greed"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
