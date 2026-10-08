@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-08T09:01:43.621206+00:00",
+  "at": "2026-10-08T16:31:27.852366+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82799.0,
-      "changePct": -1.3721845061261704,
+      "price": 81315.0,
+      "changePct": -2.6459607115570423,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2557.81,
-      "changePct": -2.004424960832439,
+      "price": 2430.51,
+      "changePct": -5.427133457077402,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 114.83,
-      "changePct": -2.8654446665834903,
+      "price": 108.76,
+      "changePct": -6.991790759273268,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 766.74,
-      "changePct": -0.7449988662812419,
+      "price": 732.72,
+      "changePct": -4.927766829868543,
       "source": "CoinGecko"
     }
   ],
@@ -34,19 +34,14 @@
       "description": "BULLCRAFT, full browser voxel game built for the herd. Mine, build, craft and dig for gold built on minecraft"
     },
     {
-      "url": "https://dexscreener.com/solana/5gefefpx1mds6zjb1apymz6fctcinjphturz9bvfpump",
-      "tokenAddress": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
-      "description": "The meme that pumps for Halloween!"
+      "url": "https://dexscreener.com/solana/5tcju6ynxhq5zra6tgndr6f7tk42mpufmee31csfpump",
+      "tokenAddress": "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/f6edrhrzxgmkbabhshdanqx26xlhg6nca83wwuqfpump",
       "tokenAddress": "F6EDRhRzXGmkBabhSHdAnqx26XLhG6NCa83wwuqFpump",
       "description": "ECSTASY"
-    },
-    {
-      "url": "https://dexscreener.com/solana/5tcju6ynxhq5zra6tgndr6f7tk42mpufmee31csfpump",
-      "tokenAddress": "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump",
-      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/7fxxzrh3sotcto3qduvjfv6jyr3doprd8vpdeqiupump",
@@ -62,6 +57,11 @@
       "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
       "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
       "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
+    },
+    {
+      "url": "https://dexscreener.com/solana/651d7ymtz9aspt6ru3mex27xitqqkyjlycfhsbfdpump",
+      "tokenAddress": "651d7ymtZ9aspt6RU3mEx27xitQQKYJLYcfhsbFdpump",
+      "description": "Launch any coin paired with a Roblox map. Fees go to Creators of the map."
     },
     {
       "url": "https://dexscreener.com/solana/9xkzy4kahczagjpjtz1ptqgpb3ciseobrx7tcqhepump",
