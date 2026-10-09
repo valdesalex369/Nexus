@@ -1,47 +1,37 @@
 {
-  "at": "2026-10-09T15:19:37.997453+00:00",
+  "at": "2026-10-09T20:20:08.401640+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82832.0,
-      "changePct": 1.1212453194559378,
+      "price": 82357.0,
+      "changePct": 0.7047910375346446,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2485.22,
-      "changePct": -0.45044033893102836,
+      "price": 2477.6,
+      "changePct": 0.35501311991688217,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 109.56,
-      "changePct": -0.9942330373164652,
+      "price": 108.92,
+      "changePct": -0.4628231543338664,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 737.79,
-      "changePct": -0.958832656386763,
+      "price": 738.78,
+      "changePct": 0.9353820794411702,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/8zcmwpw3mtc5upnczf7u4hmvrnto71syu11bdiafpump",
-      "tokenAddress": "8ZCmwpW3MtC5UpNcZf7U4HMvRNTo71syU11BDiAFpump",
-      "description": "Meet Gary, the Internet\u2019s most famous and adorable adventure cat"
-    },
-    {
-      "url": "https://dexscreener.com/solana/cmchvr99axrldqb7jatftsbwg3dnxqq4spctemt7pump",
-      "tokenAddress": "CmCHvr99aXrLDQB7jAtFtsBwg3DnXqq4spcTEMt7pump",
-      "description": "Owl Nighter. The same great grey owl in the same ink drawing, with one change: a steaming cup of coffee. Eyes wide open,"
-    },
-    {
-      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
-      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
+      "url": "https://dexscreener.com/solana/48himqx34gdckqemjdqgw4etpydo3xccdhnxmdncpump",
+      "tokenAddress": "48HimqX34gdcKQeMJdqgW4etPyDo3xCcdHNXMDnCpump",
+      "description": "Say $HI to heaven's goodest boy\nHe was too pure for heaven's waiting list, so he wagged his way down to Solana. One tiny"
     },
     {
       "url": "https://dexscreener.com/solana/8dxqvuopcdvilvujtcpweqkkzb43arp6e1axzsee5btq",
@@ -49,9 +39,9 @@
       "description": "meme + coin = moin.\n\nmemecoins were never about the 'tek' or a new useless launchpad, they were about memes!\n\nthe thesis"
     },
     {
-      "url": "https://dexscreener.com/solana/9s6tpxbg3cgjqk1nd1snwrmxwbykm8jyaq8c9vrapump",
-      "tokenAddress": "9s6tPxbG3CGJQK1nD1SnwrmxWbYkm8jYaQ8c9vrApump",
-      "description": "Superintelligence meets steel. Wise eyes, sharp sword, golden aura. \ud83e\udd89\u2694\ufe0f"
+      "url": "https://dexscreener.com/solana/7sszwpvlhpmizsgd8rbyebjua8vathwats4upjb4pump",
+      "tokenAddress": "7SsZWPvLHpMizSGD8RByEbjUA8VatHWAts4UpjB4pump",
+      "description": "A golden Q. Infinite possibilities. Take the quantum leap. \u269b\ufe0f\ud83d\ude80"
     },
     {
       "url": "https://dexscreener.com/solana/cpgbvnbjmdhl6bvkdyoa8pqsgo6lumpmk1m8yd9gpump",
@@ -64,16 +54,26 @@
       "description": "A meme with a soft body and a sharp mind, living on the Solana network.\n\nSlime started as a small experiment: a characte"
     },
     {
+      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
+      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
+    },
+    {
       "url": "https://dexscreener.com/solana/4sn5ek6kwnh39pgausxz29ytcrbqvwh9bacunp4cpump",
       "tokenAddress": "4sN5ek6KwNH39pgAusxz29YtcRBqvWH9baCUnP4cpump",
       "description": "A cat beyond certainty, roaming through waves of infinite possibility. Nine lives, countless realities. $Schrodinger"
+    },
+    {
+      "url": "https://dexscreener.com/solana/ddclyo8t6gniuljypsahqasc1vitamypwkevwfqypump",
+      "tokenAddress": "DdcLYo8T6gniuLjYPsAHqASC1ViTaMyPwKEVWFqYpump",
+      "description": "MogCat"
     }
   ],
   "fearGreed": {
     "value": 59,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
