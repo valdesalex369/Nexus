@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-09T08:01:25.848344+00:00",
+  "at": "2026-10-09T15:19:37.997453+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82568.0,
-      "changePct": -0.47358459133412634,
+      "price": 82832.0,
+      "changePct": 1.1212453194559378,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2501.78,
-      "changePct": -2.491537949668098,
+      "price": 2485.22,
+      "changePct": -0.45044033893102836,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 110.57,
-      "changePct": -3.76674740559658,
+      "price": 109.56,
+      "changePct": -0.9942330373164652,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 744.58,
-      "changePct": -3.051148886146831,
+      "price": 737.79,
+      "changePct": -0.958832656386763,
       "source": "CoinGecko"
     }
   ],
@@ -44,6 +44,11 @@
       "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
     },
     {
+      "url": "https://dexscreener.com/solana/8dxqvuopcdvilvujtcpweqkkzb43arp6e1axzsee5btq",
+      "tokenAddress": "8DXqVUopcdviLvujTcpwEqkKzB43Arp6E1axzsEE5Btq",
+      "description": "meme + coin = moin.\n\nmemecoins were never about the 'tek' or a new useless launchpad, they were about memes!\n\nthe thesis"
+    },
+    {
       "url": "https://dexscreener.com/solana/9s6tpxbg3cgjqk1nd1snwrmxwbykm8jyaq8c9vrapump",
       "tokenAddress": "9s6tPxbG3CGJQK1nD1SnwrmxWbYkm8jYaQ8c9vrApump",
       "description": "Superintelligence meets steel. Wise eyes, sharp sword, golden aura. \ud83e\udd89\u2694\ufe0f"
@@ -54,19 +59,14 @@
       "description": "Study Facebook"
     },
     {
+      "url": "https://dexscreener.com/solana/b4kxjbunhfj1smvsyjark1ucxiiwvxypmlqfrz6zpump",
+      "tokenAddress": "B4kxjbuNHFj1smvSYJark1ucXiiWVXYPmLqfrZ6zpump",
+      "description": "A meme with a soft body and a sharp mind, living on the Solana network.\n\nSlime started as a small experiment: a characte"
+    },
+    {
       "url": "https://dexscreener.com/solana/4sn5ek6kwnh39pgausxz29ytcrbqvwh9bacunp4cpump",
       "tokenAddress": "4sN5ek6KwNH39pgAusxz29YtcRBqvWH9baCUnP4cpump",
       "description": "A cat beyond certainty, roaming through waves of infinite possibility. Nine lives, countless realities. $Schrodinger"
-    },
-    {
-      "url": "https://dexscreener.com/solana/f6edrhrzxgmkbabhshdanqx26xlhg6nca83wwuqfpump",
-      "tokenAddress": "F6EDRhRzXGmkBabhSHdAnqx26XLhG6NCa83wwuqFpump",
-      "description": "ECSTASY"
-    },
-    {
-      "url": "https://dexscreener.com/solana/9lta1qupts9p9meg3dmpyxhbozdgzs2a6y4hvlwk7jpm",
-      "tokenAddress": "9LTa1qUpTS9p9mEG3dMPYXhboZDGZS2a6Y4hVLWK7JPm",
-      "description": "\ufe0e\ufe0e\u2800"
     }
   ],
   "fearGreed": {
