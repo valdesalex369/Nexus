@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-09T01:28:26.627085+00:00",
+  "at": "2026-10-09T08:01:25.848344+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81687.0,
-      "changePct": -1.8038083312518636,
+      "price": 82568.0,
+      "changePct": -0.47358459133412634,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2473.28,
-      "changePct": -4.015318892370982,
+      "price": 2501.78,
+      "changePct": -2.491537949668098,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 109.07,
-      "changePct": -6.230352602777055,
+      "price": 110.57,
+      "changePct": -3.76674740559658,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 734.34,
-      "changePct": -5.004010167925064,
+      "price": 744.58,
+      "changePct": -3.051148886146831,
       "source": "CoinGecko"
     }
   ],
@@ -44,19 +44,9 @@
       "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
     },
     {
-      "url": "https://dexscreener.com/solana/5tcju6ynxhq5zra6tgndr6f7tk42mpufmee31csfpump",
-      "tokenAddress": "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/9s6tpxbg3cgjqk1nd1snwrmxwbykm8jyaq8c9vrapump",
       "tokenAddress": "9s6tPxbG3CGJQK1nD1SnwrmxWbYkm8jYaQ8c9vrApump",
       "description": "Superintelligence meets steel. Wise eyes, sharp sword, golden aura. \ud83e\udd89\u2694\ufe0f"
-    },
-    {
-      "url": "https://dexscreener.com/solana/7fxxzrh3sotcto3qduvjfv6jyr3doprd8vpdeqiupump",
-      "tokenAddress": "7fxxzRh3Sotcto3qduvjFv6jyR3doPRd8vpDeQiUpump",
-      "description": "Organisme is an AI launchpad and AI trading experience for connected token communities. One parent signal can become a l"
     },
     {
       "url": "https://dexscreener.com/solana/cpgbvnbjmdhl6bvkdyoa8pqsgo6lumpmk1m8yd9gpump",
@@ -64,9 +54,19 @@
       "description": "Study Facebook"
     },
     {
+      "url": "https://dexscreener.com/solana/4sn5ek6kwnh39pgausxz29ytcrbqvwh9bacunp4cpump",
+      "tokenAddress": "4sN5ek6KwNH39pgAusxz29YtcRBqvWH9baCUnP4cpump",
+      "description": "A cat beyond certainty, roaming through waves of infinite possibility. Nine lives, countless realities. $Schrodinger"
+    },
+    {
       "url": "https://dexscreener.com/solana/f6edrhrzxgmkbabhshdanqx26xlhg6nca83wwuqfpump",
       "tokenAddress": "F6EDRhRzXGmkBabhSHdAnqx26XLhG6NCa83wwuqFpump",
       "description": "ECSTASY"
+    },
+    {
+      "url": "https://dexscreener.com/solana/9lta1qupts9p9meg3dmpyxhbozdgzs2a6y4hvlwk7jpm",
+      "tokenAddress": "9LTa1qUpTS9p9mEG3dMPYXhboZDGZS2a6Y4hVLWK7JPm",
+      "description": "\ufe0e\ufe0e\u2800"
     }
   ],
   "fearGreed": {
