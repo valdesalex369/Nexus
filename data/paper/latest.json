@@ -1,33 +1,38 @@
 {
-  "at": "2026-10-09T20:20:08.401640+00:00",
+  "at": "2026-10-10T00:20:02.420166+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82357.0,
-      "changePct": 0.7047910375346446,
+      "price": 82560.0,
+      "changePct": 1.0434247516414041,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2477.6,
-      "changePct": 0.35501311991688217,
+      "price": 2487.71,
+      "changePct": 0.5061470858752922,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 108.92,
-      "changePct": -0.4628231543338664,
+      "price": 109.11,
+      "changePct": -0.0030532569584609255,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 738.78,
-      "changePct": 0.9353820794411702,
+      "price": 742.53,
+      "changePct": 0.9231985878019457,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/bqaeesowpwex8km8gcporcbulkq4a7eqceh3f2qzpump",
+      "tokenAddress": "BQAeeSowpwEx8Km8GcporcbuLKq4a7EQceH3F2qZpump",
+      "description": "launch coins with quantum compute. born on a qubit."
+    },
     {
       "url": "https://dexscreener.com/solana/48himqx34gdckqemjdqgw4etpydo3xccdhnxmdncpump",
       "tokenAddress": "48HimqX34gdcKQeMJdqgW4etPyDo3xCcdHNXMDnCpump",
@@ -44,9 +49,14 @@
       "description": "A golden Q. Infinite possibilities. Take the quantum leap. \u269b\ufe0f\ud83d\ude80"
     },
     {
-      "url": "https://dexscreener.com/solana/cpgbvnbjmdhl6bvkdyoa8pqsgo6lumpmk1m8yd9gpump",
-      "tokenAddress": "CPgBvNBjmDHL6bvKDyoA8PqSgo6LUMpmk1M8yD9Gpump",
-      "description": "Study Facebook"
+      "url": "https://dexscreener.com/solana/4ridxzw79vkk4ftxoss3k72dpf4x1rk32ycji2mfpump",
+      "tokenAddress": "4riDXZW79vkk4ftXoSS3K72dpF4x1RK32ycji2mFpump",
+      "description": "storage wars, but onchain. trading fees from $UNITS buy real assets (sol, btc, gold, tokenized stocks and more) and pack"
+    },
+    {
+      "url": "https://dexscreener.com/solana/7ms3up5vh4gd5ja3xjczyt2kvwbhlnanjrn17wfpump",
+      "tokenAddress": "7mS3UP5vh4GD5jA3XjCZyT2KVwBhLNanjRn17Wfpump",
+      "description": "q/acc | Quantum Accelerationism\nExploring quantum computing and crypto through interactive experiments and live Solana m"
     },
     {
       "url": "https://dexscreener.com/solana/b4kxjbunhfj1smvsyjark1ucxiiwvxypmlqfrz6zpump",
@@ -57,20 +67,10 @@
       "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
       "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
       "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
-    },
-    {
-      "url": "https://dexscreener.com/solana/4sn5ek6kwnh39pgausxz29ytcrbqvwh9bacunp4cpump",
-      "tokenAddress": "4sN5ek6KwNH39pgAusxz29YtcRBqvWH9baCUnP4cpump",
-      "description": "A cat beyond certainty, roaming through waves of infinite possibility. Nine lives, countless realities. $Schrodinger"
-    },
-    {
-      "url": "https://dexscreener.com/solana/ddclyo8t6gniuljypsahqasc1vitamypwkevwfqypump",
-      "tokenAddress": "DdcLYo8T6gniuLjYPsAHqASC1ViTaMyPwKEVWFqYpump",
-      "description": "MogCat"
     }
   ],
   "fearGreed": {
-    "value": 59,
+    "value": 64,
     "label": "Greed"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
