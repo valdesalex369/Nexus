@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-10T13:04:53.706117+00:00",
+  "at": "2026-10-10T17:52:34.521430+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82760.0,
-      "changePct": -0.28146864135028293,
+      "price": 83076.0,
+      "changePct": 0.505280234087381,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2494.96,
-      "changePct": -0.07441060007635689,
+      "price": 2507.23,
+      "changePct": 0.8670835191330479,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 109.69,
-      "changePct": -0.739548397157376,
+      "price": 110.06,
+      "changePct": 0.3334188999768885,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 748.1,
-      "changePct": 0.8706415046871674,
+      "price": 749.93,
+      "changePct": 1.2686360121567084,
       "source": "CoinGecko"
     }
   ],
@@ -44,16 +44,6 @@
       "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
     },
     {
-      "url": "https://dexscreener.com/solana/8dxqvuopcdvilvujtcpweqkkzb43arp6e1axzsee5btq",
-      "tokenAddress": "8DXqVUopcdviLvujTcpwEqkKzB43Arp6E1axzsEE5Btq",
-      "description": "meme + coin = moin.\n\nmemecoins were never about the 'tek' or a new useless launchpad, they were about memes!\n\nthe thesis"
-    },
-    {
-      "url": "https://dexscreener.com/solana/7sszwpvlhpmizsgd8rbyebjua8vathwats4upjb4pump",
-      "tokenAddress": "7SsZWPvLHpMizSGD8RByEbjUA8VatHWAts4UpjB4pump",
-      "description": "A golden Q. Infinite possibilities. Take the quantum leap. \u269b\ufe0f\ud83d\ude80"
-    },
-    {
       "url": "https://dexscreener.com/solana/cb4f3ttuckrtsjxfycvsurlyhedkdkkpcm1mewbvpump",
       "tokenAddress": "CB4f3tTUckrtSJxfyCvsURLYhedkdkKPCm1mewbVpump",
       "description": "Your friendly guide to AI, memes, and the onchain world.\nA clear mind in a world that never stands still."
@@ -67,13 +57,23 @@
       "url": "https://dexscreener.com/solana/5hz8atwnftspms61u3iy4jvvhx7puootpctsztdkpump",
       "tokenAddress": "5hz8ATWNFTSpmS61U3iy4jvVHx7puooTPCtsztdKpump",
       "description": "The quantum dog got an upgrade. \ud83d\udc15\u269b\ufe0f Super Quantum Inu ($SQI). Same inu. Super rank."
+    },
+    {
+      "url": "https://dexscreener.com/solana/4ridxzw79vkk4ftxoss3k72dpf4x1rk32ycji2mfpump",
+      "tokenAddress": "4riDXZW79vkk4ftXoSS3K72dpF4x1RK32ycji2mFpump",
+      "description": "storage wars, but onchain. trading fees from $UNITS buy real assets (sol, btc, gold, tokenized stocks and more) and pack"
+    },
+    {
+      "url": "https://dexscreener.com/solana/fv8fzqvgdm2jxl8mzmnefac24rdhzpr5w8zfydexpump",
+      "tokenAddress": "FV8fzQvgDM2jxL8mzmneFAC24rDhzPR5W8ZFydeXpump",
+      "description": "brigitte"
     }
   ],
   "fearGreed": {
     "value": 64,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
