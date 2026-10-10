@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-10T00:20:02.420166+00:00",
+  "at": "2026-10-10T06:24:44.761462+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82560.0,
-      "changePct": 1.0434247516414041,
+      "price": 82713.0,
+      "changePct": 0.40970663380637035,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2487.71,
-      "changePct": 0.5061470858752922,
+      "price": 2494.36,
+      "changePct": -0.009973843531428645,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 109.11,
-      "changePct": -0.0030532569584609255,
+      "price": 109.81,
+      "changePct": -0.5108176139344764,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 742.53,
-      "changePct": 0.9231985878019457,
+      "price": 748.45,
+      "changePct": 0.8162377076350233,
       "source": "CoinGecko"
     }
   ],
@@ -39,9 +39,9 @@
       "description": "Say $HI to heaven's goodest boy\nHe was too pure for heaven's waiting list, so he wagged his way down to Solana. One tiny"
     },
     {
-      "url": "https://dexscreener.com/solana/8dxqvuopcdvilvujtcpweqkkzb43arp6e1axzsee5btq",
-      "tokenAddress": "8DXqVUopcdviLvujTcpwEqkKzB43Arp6E1axzsEE5Btq",
-      "description": "meme + coin = moin.\n\nmemecoins were never about the 'tek' or a new useless launchpad, they were about memes!\n\nthe thesis"
+      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
+      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
     },
     {
       "url": "https://dexscreener.com/solana/7sszwpvlhpmizsgd8rbyebjua8vathwats4upjb4pump",
@@ -49,24 +49,24 @@
       "description": "A golden Q. Infinite possibilities. Take the quantum leap. \u269b\ufe0f\ud83d\ude80"
     },
     {
-      "url": "https://dexscreener.com/solana/4ridxzw79vkk4ftxoss3k72dpf4x1rk32ycji2mfpump",
-      "tokenAddress": "4riDXZW79vkk4ftXoSS3K72dpF4x1RK32ycji2mFpump",
-      "description": "storage wars, but onchain. trading fees from $UNITS buy real assets (sol, btc, gold, tokenized stocks and more) and pack"
-    },
-    {
       "url": "https://dexscreener.com/solana/7ms3up5vh4gd5ja3xjczyt2kvwbhlnanjrn17wfpump",
       "tokenAddress": "7mS3UP5vh4GD5jA3XjCZyT2KVwBhLNanjRn17Wfpump",
       "description": "q/acc | Quantum Accelerationism\nExploring quantum computing and crypto through interactive experiments and live Solana m"
     },
     {
-      "url": "https://dexscreener.com/solana/b4kxjbunhfj1smvsyjark1ucxiiwvxypmlqfrz6zpump",
-      "tokenAddress": "B4kxjbuNHFj1smvSYJark1ucXiiWVXYPmLqfrZ6zpump",
-      "description": "A meme with a soft body and a sharp mind, living on the Solana network.\n\nSlime started as a small experiment: a characte"
+      "url": "https://dexscreener.com/solana/5hz8atwnftspms61u3iy4jvvhx7puootpctsztdkpump",
+      "tokenAddress": "5hz8ATWNFTSpmS61U3iy4jvVHx7puooTPCtsztdKpump",
+      "description": "The quantum dog got an upgrade. \ud83d\udc15\u269b\ufe0f Super Quantum Inu ($SQI). Same inu. Super rank."
     },
     {
-      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
-      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
+      "url": "https://dexscreener.com/solana/4ridxzw79vkk4ftxoss3k72dpf4x1rk32ycji2mfpump",
+      "tokenAddress": "4riDXZW79vkk4ftXoSS3K72dpF4x1RK32ycji2mFpump",
+      "description": "storage wars, but onchain. trading fees from $UNITS buy real assets (sol, btc, gold, tokenized stocks and more) and pack"
+    },
+    {
+      "url": "https://dexscreener.com/solana/cb4f3ttuckrtsjxfycvsurlyhedkdkkpcm1mewbvpump",
+      "tokenAddress": "CB4f3tTUckrtSJxfyCvsURLYhedkdkKPCm1mewbVpump",
+      "description": "Your friendly guide to AI, memes, and the onchain world.\nA clear mind in a world that never stands still."
     }
   ],
   "fearGreed": {
