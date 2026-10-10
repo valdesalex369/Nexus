@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-10T17:52:34.521430+00:00",
+  "at": "2026-10-10T21:47:07.291115+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83076.0,
-      "changePct": 0.505280234087381,
+      "price": 83008.0,
+      "changePct": 0.6457110992989401,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2507.23,
-      "changePct": 0.8670835191330479,
+      "price": 2506.96,
+      "changePct": 0.9864869673341157,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 110.06,
-      "changePct": 0.3334188999768885,
+      "price": 110.2,
+      "changePct": 1.092522096079664,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 749.93,
-      "changePct": 1.2686360121567084,
+      "price": 750.09,
+      "changePct": 1.0952954285291316,
       "source": "CoinGecko"
     }
   ],
@@ -32,11 +32,6 @@
       "url": "https://dexscreener.com/solana/bqaeesowpwex8km8gcporcbulkq4a7eqceh3f2qzpump",
       "tokenAddress": "BQAeeSowpwEx8Km8GcporcbuLKq4a7EQceH3F2qZpump",
       "description": "launch coins with quantum compute. born on a qubit."
-    },
-    {
-      "url": "https://dexscreener.com/solana/48himqx34gdckqemjdqgw4etpydo3xccdhnxmdncpump",
-      "tokenAddress": "48HimqX34gdcKQeMJdqgW4etPyDo3xCcdHNXMDnCpump",
-      "description": "Say $HI to heaven's goodest boy\nHe was too pure for heaven's waiting list, so he wagged his way down to Solana. One tiny"
     },
     {
       "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
@@ -49,24 +44,29 @@
       "description": "Your friendly guide to AI, memes, and the onchain world.\nA clear mind in a world that never stands still."
     },
     {
-      "url": "https://dexscreener.com/solana/7ms3up5vh4gd5ja3xjczyt2kvwbhlnanjrn17wfpump",
-      "tokenAddress": "7mS3UP5vh4GD5jA3XjCZyT2KVwBhLNanjRn17Wfpump",
-      "description": "q/acc | Quantum Accelerationism\nExploring quantum computing and crypto through interactive experiments and live Solana m"
-    },
-    {
       "url": "https://dexscreener.com/solana/5hz8atwnftspms61u3iy4jvvhx7puootpctsztdkpump",
       "tokenAddress": "5hz8ATWNFTSpmS61U3iy4jvVHx7puooTPCtsztdKpump",
       "description": "The quantum dog got an upgrade. \ud83d\udc15\u269b\ufe0f Super Quantum Inu ($SQI). Same inu. Super rank."
     },
     {
-      "url": "https://dexscreener.com/solana/4ridxzw79vkk4ftxoss3k72dpf4x1rk32ycji2mfpump",
-      "tokenAddress": "4riDXZW79vkk4ftXoSS3K72dpF4x1RK32ycji2mFpump",
-      "description": "storage wars, but onchain. trading fees from $UNITS buy real assets (sol, btc, gold, tokenized stocks and more) and pack"
-    },
-    {
       "url": "https://dexscreener.com/solana/fv8fzqvgdm2jxl8mzmnefac24rdhzpr5w8zfydexpump",
       "tokenAddress": "FV8fzQvgDM2jxL8mzmneFAC24rDhzPR5W8ZFydeXpump",
       "description": "brigitte"
+    },
+    {
+      "url": "https://dexscreener.com/solana/dlvhcfhzjpdj62ev853ynz8asmpfk5ksibm78fjjpump",
+      "tokenAddress": "DLVhcFhzJpDj62EV853YNz8ASmPFK5kSiBM78FJjpump",
+      "description": "Inspired by Altai. Reimagined through quantum imagination. Qiger is the quantum tiger on Solana\u2014where a real tiger\u2019s sto"
+    },
+    {
+      "url": "https://dexscreener.com/solana/8dakjpofytmqafy4m2vteuo6svt65ztmzsgnfb1ppump",
+      "tokenAddress": "8DAkjpoFytMqAFY4m2vTEUo6sVT65ZtMZSgNFB1Ppump",
+      "description": "KILOS is the new shop-currency token for the Pepe Escobar game, launching alongside its latest update. Built for purchas"
+    },
+    {
+      "url": "https://dexscreener.com/solana/8dxqvuopcdvilvujtcpweqkkzb43arp6e1axzsee5btq",
+      "tokenAddress": "8DXqVUopcdviLvujTcpwEqkKzB43Arp6E1axzsEE5Btq",
+      "description": "meme + coin = moin.\n\nmemecoins were never about the 'tek' or a new useless launchpad, they were about memes!\n\nthe thesis"
     }
   ],
   "fearGreed": {
