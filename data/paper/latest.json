@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-11T07:14:47.600035+00:00",
+  "at": "2026-10-11T14:10:21.240906+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83064.0,
-      "changePct": 0.5639683414303381,
+      "price": 83005.0,
+      "changePct": 0.35164456439702585,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2503.01,
-      "changePct": 0.4802407998361097,
+      "price": 2499.65,
+      "changePct": 0.17229213208717625,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 109.64,
-      "changePct": -0.14318450934230528,
+      "price": 109.33,
+      "changePct": -0.32526237906641087,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 747.94,
-      "changePct": 0.06851973411525357,
+      "price": 748.47,
+      "changePct": -0.14903490433946004,
       "source": "CoinGecko"
     }
   ],
@@ -32,11 +32,6 @@
       "url": "https://dexscreener.com/solana/3y9qz7tr3wud1zdsrjwe2unadxeszebo2xacpw7vpump",
       "tokenAddress": "3Y9QZ7TR3WUD1ZDsrjWe2uNAdXESZEBo2XacPw7Vpump",
       "description": "Super Market Inu. The same superhero shiba, with one change: he does the weekly shop, and his cart is full of green cand"
-    },
-    {
-      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
-      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
     },
     {
       "url": "https://dexscreener.com/solana/fv8fzqvgdm2jxl8mzmnefac24rdhzpr5w8zfydexpump",
@@ -54,19 +49,24 @@
       "description": "KILOS is the new shop-currency token for the Pepe Escobar game, launching alongside its latest update. Built for purchas"
     },
     {
-      "url": "https://dexscreener.com/solana/8dxqvuopcdvilvujtcpweqkkzb43arp6e1axzsee5btq",
-      "tokenAddress": "8DXqVUopcdviLvujTcpwEqkKzB43Arp6E1axzsEE5Btq",
-      "description": "meme + coin = moin.\n\nmemecoins were never about the 'tek' or a new useless launchpad, they were about memes!\n\nthe thesis"
-    },
-    {
-      "url": "https://dexscreener.com/solana/9xkzy4kahczagjpjtz1ptqgpb3ciseobrx7tcqhepump",
-      "tokenAddress": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
-      "description": "Gomo not a Fomo"
+      "url": "https://dexscreener.com/solana/6v9cyvwhjxjkteuzdjnmpd6v7xpektpcxnz123x4hgy8",
+      "tokenAddress": "6V9cyvwHJXjkteUzdjNmpd6V7XpeKTpCXnz123X4hgy8",
+      "description": "Old $TRUMP ran to $80B FDV then nuked its holders \n\nNow the real $TRUMP is here. \n\nCult community, cult conviction, new "
     },
     {
       "url": "https://dexscreener.com/solana/cnqzsadulochrprewndzak5ktr7ezwr1mjsqudqpump",
       "tokenAddress": "CNqZsaduLochRpREwNdzak5Ktr7eZwR1MjsQudQpump",
       "description": "Pump.Fun Coin was made for the underdogs. 20% of the supply has been sent to Alon and Noah, the co-founders of the amazi"
+    },
+    {
+      "url": "https://dexscreener.com/solana/8yebtpv58fh6tnzuaihmk1lixsgc1jsn7dayboirpump",
+      "tokenAddress": "8YeBTPV58fH6tnzUAihMK1LixsGc1jsN7DAyBoiRpump",
+      "description": "\ud83c\udff4\u200d\u2620\ufe0f $ZHUNT \u2014 The hunt begins in silence."
+    },
+    {
+      "url": "https://dexscreener.com/solana/9qj3gamubev7qjklkknwstpgfrn9nsrrcxmghyyvpump",
+      "tokenAddress": "9QJ3gaMubEV7QjKLkkNWsTpgFrN9nSRRCxmGHYYVpump",
+      "description": ""
     }
   ],
   "fearGreed": {
