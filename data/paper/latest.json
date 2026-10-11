@@ -1,37 +1,37 @@
 {
-  "at": "2026-10-10T21:47:07.291115+00:00",
+  "at": "2026-10-11T01:01:30.800083+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83008.0,
-      "changePct": 0.6457110992989401,
+      "price": 82879.0,
+      "changePct": 0.4601306055228665,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2506.96,
-      "changePct": 0.9864869673341157,
+      "price": 2502.1,
+      "changePct": 0.6055781276742358,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 110.2,
-      "changePct": 1.092522096079664,
+      "price": 109.83,
+      "changePct": 0.4674504847804847,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 750.09,
-      "changePct": 1.0952954285291316,
+      "price": 747.07,
+      "changePct": 0.6428323476350535,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/bqaeesowpwex8km8gcporcbulkq4a7eqceh3f2qzpump",
-      "tokenAddress": "BQAeeSowpwEx8Km8GcporcbuLKq4a7EQceH3F2qZpump",
-      "description": "launch coins with quantum compute. born on a qubit."
+      "url": "https://dexscreener.com/solana/3y9qz7tr3wud1zdsrjwe2unadxeszebo2xacpw7vpump",
+      "tokenAddress": "3Y9QZ7TR3WUD1ZDsrjWe2uNAdXESZEBo2XacPw7Vpump",
+      "description": "Super Market Inu. The same superhero shiba, with one change: he does the weekly shop, and his cart is full of green cand"
     },
     {
       "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
@@ -70,7 +70,7 @@
     }
   ],
   "fearGreed": {
-    "value": 64,
+    "value": 61,
     "label": "Greed"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
