@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-11T01:01:30.800083+00:00",
+  "at": "2026-10-11T07:14:47.600035+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82879.0,
-      "changePct": 0.4601306055228665,
+      "price": 83064.0,
+      "changePct": 0.5639683414303381,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2502.1,
-      "changePct": 0.6055781276742358,
+      "price": 2503.01,
+      "changePct": 0.4802407998361097,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 109.83,
-      "changePct": 0.4674504847804847,
+      "price": 109.64,
+      "changePct": -0.14318450934230528,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 747.07,
-      "changePct": 0.6428323476350535,
+      "price": 747.94,
+      "changePct": 0.06851973411525357,
       "source": "CoinGecko"
     }
   ],
@@ -37,16 +37,6 @@
       "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
       "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
       "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
-    },
-    {
-      "url": "https://dexscreener.com/solana/cb4f3ttuckrtsjxfycvsurlyhedkdkkpcm1mewbvpump",
-      "tokenAddress": "CB4f3tTUckrtSJxfyCvsURLYhedkdkKPCm1mewbVpump",
-      "description": "Your friendly guide to AI, memes, and the onchain world.\nA clear mind in a world that never stands still."
-    },
-    {
-      "url": "https://dexscreener.com/solana/5hz8atwnftspms61u3iy4jvvhx7puootpctsztdkpump",
-      "tokenAddress": "5hz8ATWNFTSpmS61U3iy4jvVHx7puooTPCtsztdKpump",
-      "description": "The quantum dog got an upgrade. \ud83d\udc15\u269b\ufe0f Super Quantum Inu ($SQI). Same inu. Super rank."
     },
     {
       "url": "https://dexscreener.com/solana/fv8fzqvgdm2jxl8mzmnefac24rdhzpr5w8zfydexpump",
@@ -67,6 +57,16 @@
       "url": "https://dexscreener.com/solana/8dxqvuopcdvilvujtcpweqkkzb43arp6e1axzsee5btq",
       "tokenAddress": "8DXqVUopcdviLvujTcpwEqkKzB43Arp6E1axzsEE5Btq",
       "description": "meme + coin = moin.\n\nmemecoins were never about the 'tek' or a new useless launchpad, they were about memes!\n\nthe thesis"
+    },
+    {
+      "url": "https://dexscreener.com/solana/9xkzy4kahczagjpjtz1ptqgpb3ciseobrx7tcqhepump",
+      "tokenAddress": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
+      "description": "Gomo not a Fomo"
+    },
+    {
+      "url": "https://dexscreener.com/solana/cnqzsadulochrprewndzak5ktr7ezwr1mjsqudqpump",
+      "tokenAddress": "CNqZsaduLochRpREwNdzak5Ktr7eZwR1MjsQudQpump",
+      "description": "Pump.Fun Coin was made for the underdogs. 20% of the supply has been sent to Alon and Noah, the co-founders of the amazi"
     }
   ],
   "fearGreed": {
