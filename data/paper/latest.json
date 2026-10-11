@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-11T18:57:10.822100+00:00",
+  "at": "2026-10-11T22:56:49.374386+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83546.0,
-      "changePct": 0.7070863035771028,
+      "price": 83580.0,
+      "changePct": 0.6957699934460091,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2530.29,
-      "changePct": 0.8357097782315283,
+      "price": 2531.74,
+      "changePct": 1.0560784340999203,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 111.39,
-      "changePct": 1.088001061572139,
+      "price": 111.05,
+      "changePct": 0.6258213548775916,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 751.81,
-      "changePct": 0.32446968223491246,
+      "price": 752.56,
+      "changePct": 0.27599772127110633,
       "source": "CoinGecko"
     }
   ],
@@ -34,14 +34,19 @@
       "description": "Super Market Inu. The same superhero shiba, with one change: he does the weekly shop, and his cart is full of green cand"
     },
     {
+      "url": "https://dexscreener.com/solana/5xsd95df7g3274rahvehzcurpsuoyu9ippdims6xpump",
+      "tokenAddress": "5xSd95Df7g3274RahvehZcuRPsuoYu9ippdiMS6xpump",
+      "description": "Claudia Phil"
+    },
+    {
       "url": "https://dexscreener.com/solana/8yebtpv58fh6tnzuaihmk1lixsgc1jsn7dayboirpump",
       "tokenAddress": "8YeBTPV58fH6tnzUAihMK1LixsGc1jsN7DAyBoiRpump",
       "description": "\ud83c\udff4\u200d\u2620\ufe0f $ZHUNT \u2014 The hunt begins in silence."
     },
     {
-      "url": "https://dexscreener.com/solana/8dakjpofytmqafy4m2vteuo6svt65ztmzsgnfb1ppump",
-      "tokenAddress": "8DAkjpoFytMqAFY4m2vTEUo6sVT65ZtMZSgNFB1Ppump",
-      "description": "KILOS is the new shop-currency token for the Pepe Escobar game, launching alongside its latest update. Built for purchas"
+      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
+      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
     },
     {
       "url": "https://dexscreener.com/solana/3qmx2zffxfbjyprwcynggxnizeafnnbrimhpqzcjpump",
@@ -54,19 +59,14 @@
       "description": "Gomo not a Fomo"
     },
     {
-      "url": "https://dexscreener.com/solana/6v9cyvwhjxjkteuzdjnmpd6v7xpektpcxnz123x4hgy8",
-      "tokenAddress": "6V9cyvwHJXjkteUzdjNmpd6V7XpeKTpCXnz123X4hgy8",
-      "description": "Old $TRUMP ran to $80B FDV then nuked its holders \n\nNow the real $TRUMP is here. \n\nCult community, cult conviction, new "
+      "url": "https://dexscreener.com/solana/dqf2t2fyomgyv9xgpw33vmfomxdaxbxt75ddxman833t",
+      "tokenAddress": "Dqf2t2FyomGyv9XGPw33vMfomxdaXbxt75DDXmAn833T",
+      "description": "The cat that grabbed the baton and ran straight into Solana."
     },
     {
-      "url": "https://dexscreener.com/solana/9qj3gamubev7qjklkknwstpgfrn9nsrrcxmghyyvpump",
-      "tokenAddress": "9QJ3gaMubEV7QjKLkkNWsTpgFrN9nSRRCxmGHYYVpump",
-      "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/fr28jewz2msscklahzus2nckrwqbptx2eydytsvvpump",
-      "tokenAddress": "Fr28jEWz2msSCKLaHzus2nCKrwqbpTx2EyDYtsVVpump",
-      "description": "Check the twitter link. Anons are already literally making over 100x on their entry lol.\n\nWhen you joining us, anons?"
+      "url": "https://dexscreener.com/solana/cnvq6v525mx4fsnnywxvaih2wboemvdjxphujkpqpump",
+      "tokenAddress": "CnvQ6v525Mx4FSNNYwXVaiH2wboEMVdjxPhUjkpqpump",
+      "description": "Dogeus Maximus. - The Doge Father."
     }
   ],
   "fearGreed": {
