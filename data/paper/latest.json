@@ -1,37 +1,37 @@
 {
-  "at": "2026-10-11T22:56:49.374386+00:00",
+  "at": "2026-10-12T02:26:19.693539+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83580.0,
-      "changePct": 0.6957699934460091,
+      "price": 83788.0,
+      "changePct": 0.9514886398132673,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2531.74,
-      "changePct": 1.0560784340999203,
+      "price": 2551.4,
+      "changePct": 1.71204120418127,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 111.05,
-      "changePct": 0.6258213548775916,
+      "price": 111.82,
+      "changePct": 1.636105711515989,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 752.56,
-      "changePct": 0.27599772127110633,
+      "price": 753.51,
+      "changePct": 0.7203479076313344,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/3y9qz7tr3wud1zdsrjwe2unadxeszebo2xacpw7vpump",
-      "tokenAddress": "3Y9QZ7TR3WUD1ZDsrjWe2uNAdXESZEBo2XacPw7Vpump",
-      "description": "Super Market Inu. The same superhero shiba, with one change: he does the weekly shop, and his cart is full of green cand"
+      "url": "https://dexscreener.com/solana/8pgyhckvsujezhkv7klwmacnmsjle1ybrm1zvdvapump",
+      "tokenAddress": "8PGyHCKvSUjezHkV7KLwMacnmSJLe1YbRM1zvDVApump",
+      "description": "Your average chinese man"
     },
     {
       "url": "https://dexscreener.com/solana/5xsd95df7g3274rahvehzcurpsuoyu9ippdims6xpump",
@@ -59,18 +59,18 @@
       "description": "Gomo not a Fomo"
     },
     {
-      "url": "https://dexscreener.com/solana/dqf2t2fyomgyv9xgpw33vmfomxdaxbxt75ddxman833t",
-      "tokenAddress": "Dqf2t2FyomGyv9XGPw33vMfomxdaXbxt75DDXmAn833T",
-      "description": "The cat that grabbed the baton and ran straight into Solana."
+      "url": "https://dexscreener.com/solana/7qb9shkcd6rfeso3xhwjarbrlgxg6mzf6wzzmagqpump",
+      "tokenAddress": "7qb9SHKCD6rFEso3xHWjARbrLgxg6MZF6wZZMAGqpump",
+      "description": "Claudia\u2019s boyfriend. Chrome muscles, digital soul, heart locked on her."
     },
     {
-      "url": "https://dexscreener.com/solana/cnvq6v525mx4fsnnywxvaih2wboemvdjxphujkpqpump",
-      "tokenAddress": "CnvQ6v525Mx4FSNNYwXVaiH2wboEMVdjxPhUjkpqpump",
-      "description": "Dogeus Maximus. - The Doge Father."
+      "url": "https://dexscreener.com/solana/6kdpqm4bvddtakjtyfdibckbii8q8bieeyxxm6knpump",
+      "tokenAddress": "6KDpQM4BVDdtAkjtyFDiBCkbii8q8BieEyXXm6kNpump",
+      "description": "Launch coins on pumpfun with fees redirected to any telegram username."
     }
   ],
   "fearGreed": {
-    "value": 61,
+    "value": 69,
     "label": "Greed"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
