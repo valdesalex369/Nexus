@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-12T02:26:19.693539+00:00",
+  "at": "2026-10-12T09:47:48.231145+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83788.0,
-      "changePct": 0.9514886398132673,
+      "price": 83295.0,
+      "changePct": 0.41927411348536325,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2551.4,
-      "changePct": 1.71204120418127,
+      "price": 2549.0,
+      "changePct": 2.0052032458813476,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 111.82,
-      "changePct": 1.636105711515989,
+      "price": 111.31,
+      "changePct": 1.899350825019223,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 753.51,
-      "changePct": 0.7203479076313344,
+      "price": 749.2,
+      "changePct": 0.32661191847539905,
       "source": "CoinGecko"
     }
   ],
@@ -39,9 +39,9 @@
       "description": "Claudia Phil"
     },
     {
-      "url": "https://dexscreener.com/solana/8yebtpv58fh6tnzuaihmk1lixsgc1jsn7dayboirpump",
-      "tokenAddress": "8YeBTPV58fH6tnzUAihMK1LixsGc1jsN7DAyBoiRpump",
-      "description": "\ud83c\udff4\u200d\u2620\ufe0f $ZHUNT \u2014 The hunt begins in silence."
+      "url": "https://dexscreener.com/solana/7wsrd9ixyphvquonudew2tqasud7joxy2fnngtqppump",
+      "tokenAddress": "7WSRd9ixYPhvqUoNUDew2tqasuD7JoXY2FNngtqppump",
+      "description": "Cat89 brings together cat lovers, meme makers, and curious minds through a shared spirit of adventure. Pack your bags an"
     },
     {
       "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
@@ -59,14 +59,14 @@
       "description": "Gomo not a Fomo"
     },
     {
+      "url": "https://dexscreener.com/solana/8yebtpv58fh6tnzuaihmk1lixsgc1jsn7dayboirpump",
+      "tokenAddress": "8YeBTPV58fH6tnzUAihMK1LixsGc1jsN7DAyBoiRpump",
+      "description": "\ud83c\udff4\u200d\u2620\ufe0f $ZHUNT \u2014 The hunt begins in silence."
+    },
+    {
       "url": "https://dexscreener.com/solana/7qb9shkcd6rfeso3xhwjarbrlgxg6mzf6wzzmagqpump",
       "tokenAddress": "7qb9SHKCD6rFEso3xHWjARbrLgxg6MZF6wZZMAGqpump",
       "description": "Claudia\u2019s boyfriend. Chrome muscles, digital soul, heart locked on her."
-    },
-    {
-      "url": "https://dexscreener.com/solana/6kdpqm4bvddtakjtyfdibckbii8q8bieeyxxm6knpump",
-      "tokenAddress": "6KDpQM4BVDdtAkjtyFDiBCkbii8q8BieEyXXm6kNpump",
-      "description": "Launch coins on pumpfun with fees redirected to any telegram username."
     }
   ],
   "fearGreed": {
