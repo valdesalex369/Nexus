@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-13T02:02:28.135746+00:00",
+  "at": "2026-10-13T09:27:49.657208+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82357.0,
-      "changePct": -1.584229469149252,
+      "price": 83420.0,
+      "changePct": 0.036237532637091216,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2461.25,
-      "changePct": -3.24079736610092,
+      "price": 2509.05,
+      "changePct": -1.6849986233472465,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 105.24,
-      "changePct": -5.729896677980566,
+      "price": 107.3,
+      "changePct": -3.8679787338935485,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 735.61,
-      "changePct": -2.229053696523114,
+      "price": 741.05,
+      "changePct": -1.2304173287407645,
       "source": "CoinGecko"
     }
   ],
@@ -39,14 +39,14 @@
       "description": "The People's Airdrop - AIRFROG"
     },
     {
-      "url": "https://dexscreener.com/solana/8kkhddwrx3ny9gtgnxcpp2b9nmcofwzxdyzzrxwrpump",
-      "tokenAddress": "8KKHDdWRX3NY9gTgnxCPp2b9nMCofwzxdYzZrXwrpump",
-      "description": "The fat wizard cat"
+      "url": "https://dexscreener.com/solana/5gefefpx1mds6zjb1apymz6fctcinjphturz9bvfpump",
+      "tokenAddress": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
+      "description": "The meme that pumps for Halloween!"
     },
     {
-      "url": "https://dexscreener.com/solana/7wsrd9ixyphvquonudew2tqasud7joxy2fnngtqppump",
-      "tokenAddress": "7WSRd9ixYPhvqUoNUDew2tqasuD7JoXY2FNngtqppump",
-      "description": "Cat89 brings together cat lovers, meme makers, and curious minds through a shared spirit of adventure. Pack your bags an"
+      "url": "https://dexscreener.com/solana/49pu6entpyc3zkhgcruzcsbzgvadix5mup2ovzrgpump",
+      "tokenAddress": "49PU6ENTpYc3zkhgCruzCSBzgVAdix5muP2oVzRGpump",
+      "description": "The market just shifted to extreme fear \n\nThe black bear is here."
     },
     {
       "url": "https://dexscreener.com/solana/ejgeypufzgt8fiytvzslm57rspe94kqfial1jzvgpump",
@@ -59,14 +59,14 @@
       "description": "Bumo-chan"
     },
     {
-      "url": "https://dexscreener.com/solana/8ubf4s7gmndqeb1kef8gu2tpibrjo3zqsbf9ueysmw4q",
-      "tokenAddress": "8ubf4S7gMNDqeb1Kef8gU2TPibRjo3zQsBF9uEYsmW4Q",
-      "description": "Starknet Gorillas Assemble\n\nHold & Earn $STRK rewards"
+      "url": "https://dexscreener.com/solana/gbmfpnmsavwc5uhcqhbufrsldtggjiaxub7ukq2hpump",
+      "tokenAddress": "GbMfpnmsavwc5uHCqhbuFrSLdtggJiAxub7UKQ2hpump",
+      "description": "We knew him as Walter Jr. We remember him as RJ Mitte.\n\n$WALTJR is an independent fan-led tribute inspired by his life, "
     },
     {
-      "url": "https://dexscreener.com/solana/5hj1tfxkrqjyscscifwesbn5yra1hzvg57i9ev69pump",
-      "tokenAddress": "5Hj1TFxkRqJySCscifWesBN5YrA1HZvG57i9Ev69pump",
-      "description": "Catch Monsters. Build Your Legacy. Earn Rewards. Discover a new generation of monster-catching MMO, where every creature"
+      "url": "https://dexscreener.com/solana/5tcju6ynxhq5zra6tgndr6f7tk42mpufmee31csfpump",
+      "tokenAddress": "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump",
+      "description": ""
     }
   ],
   "fearGreed": {
