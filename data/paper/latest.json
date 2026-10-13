@@ -1,47 +1,47 @@
 {
-  "at": "2026-10-12T19:49:06.570724+00:00",
+  "at": "2026-10-13T02:02:28.135746+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82682.0,
-      "changePct": -1.1495347418403576,
+      "price": 82357.0,
+      "changePct": -1.584229469149252,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2515.38,
-      "changePct": -0.7684573708791448,
+      "price": 2461.25,
+      "changePct": -3.24079736610092,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 108.07,
-      "changePct": -2.964954219813006,
+      "price": 105.24,
+      "changePct": -5.729896677980566,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 745.42,
-      "changePct": -0.942278031262162,
+      "price": 735.61,
+      "changePct": -2.229053696523114,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/8pgyhckvsujezhkv7klwmacnmsjle1ybrm1zvdvapump",
-      "tokenAddress": "8PGyHCKvSUjezHkV7KLwMacnmSJLe1YbRM1zvDVApump",
-      "description": "Your average chinese man"
-    },
-    {
-      "url": "https://dexscreener.com/solana/5xsd95df7g3274rahvehzcurpsuoyu9ippdims6xpump",
-      "tokenAddress": "5xSd95Df7g3274RahvehZcuRPsuoYu9ippdiMS6xpump",
-      "description": "Claudia Phil"
+      "url": "https://dexscreener.com/solana/7jnwx4me9zgejmwy7zardg2lyjvs1wxd6dz1jvsfpump",
+      "tokenAddress": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
+      "description": "Everyone is launching a reserve. Humphrey was born with one. He is a one-humped camel, a grumpy old chairman in round go"
     },
     {
       "url": "https://dexscreener.com/solana/2zumlmnuvatfddbwzzxfp3hdbwwobiyshh3facuypump",
       "tokenAddress": "2ZUMLMnuVatFdDBWZZXfP3HDbwWoBiyshH3fACUypump",
       "description": "The People's Airdrop - AIRFROG"
+    },
+    {
+      "url": "https://dexscreener.com/solana/8kkhddwrx3ny9gtgnxcpp2b9nmcofwzxdyzzrxwrpump",
+      "tokenAddress": "8KKHDdWRX3NY9gTgnxCPp2b9nMCofwzxdYzZrXwrpump",
+      "description": "The fat wizard cat"
     },
     {
       "url": "https://dexscreener.com/solana/7wsrd9ixyphvquonudew2tqasud7joxy2fnngtqppump",
@@ -54,23 +54,23 @@
       "description": "The world\u2019s first memecoin designed to autonomously deepen its own token liquidity."
     },
     {
-      "url": "https://dexscreener.com/solana/8ubf4s7gmndqeb1kef8gu2tpibrjo3zqsbf9ueysmw4q",
-      "tokenAddress": "8ubf4S7gMNDqeb1Kef8gU2TPibRjo3zQsBF9uEYsmW4Q",
-      "description": "Starknet Gorillas Assemble\n\nHold & Earn $STRK rewards"
-    },
-    {
       "url": "https://dexscreener.com/solana/7yg2ut3ksh7wwmapaasaku6sbbakrtzf2eyqjzzzpump",
       "tokenAddress": "7yg2UT3Ksh7wwmAPAasaKU6SBbakRtzf2eYqjZZzpump",
       "description": "Bumo-chan"
     },
     {
-      "url": "https://dexscreener.com/solana/a8juizlzjgaskxe74evdsphcuw4hvhpbvrydhadzpump",
-      "tokenAddress": "A8JUiZLzjGAsKxE74evdspHcuW4hvhPbvryDhaDZpump",
-      "description": "TikTok of MemeCoins \u2694\ufe0f\n\nPick a side. Trade the battle. Win the round.\nSupport your favorite memecoin with animated gifts"
+      "url": "https://dexscreener.com/solana/8ubf4s7gmndqeb1kef8gu2tpibrjo3zqsbf9ueysmw4q",
+      "tokenAddress": "8ubf4S7gMNDqeb1Kef8gU2TPibRjo3zQsBF9uEYsmW4Q",
+      "description": "Starknet Gorillas Assemble\n\nHold & Earn $STRK rewards"
+    },
+    {
+      "url": "https://dexscreener.com/solana/5hj1tfxkrqjyscscifwesbn5yra1hzvg57i9ev69pump",
+      "tokenAddress": "5Hj1TFxkRqJySCscifWesBN5YrA1HZvG57i9Ev69pump",
+      "description": "Catch Monsters. Build Your Legacy. Earn Rewards. Discover a new generation of monster-catching MMO, where every creature"
     }
   ],
   "fearGreed": {
-    "value": 69,
+    "value": 57,
     "label": "Greed"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
