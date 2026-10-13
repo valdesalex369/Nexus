@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-13T17:08:48.869155+00:00",
+  "at": "2026-10-13T21:51:50.769037+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83219.0,
-      "changePct": 0.8692203256902592,
+      "price": 83451.0,
+      "changePct": 1.0590049208549586,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2507.76,
-      "changePct": -0.2602431194555581,
+      "price": 2510.77,
+      "changePct": 0.8004662064661789,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 107.32,
-      "changePct": -0.5274496300402881,
+      "price": 107.14,
+      "changePct": 0.226790033474584,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 742.8,
-      "changePct": -0.29589394087638327,
+      "price": 742.25,
+      "changePct": 0.09510628476174827,
       "source": "CoinGecko"
     }
   ],
@@ -34,29 +34,24 @@
       "description": "Everyone is launching a reserve. Humphrey was born with one. He is a one-humped camel, a grumpy old chairman in round go"
     },
     {
-      "url": "https://dexscreener.com/solana/7yg2ut3ksh7wwmapaasaku6sbbakrtzf2eyqjzzzpump",
-      "tokenAddress": "7yg2UT3Ksh7wwmAPAasaKU6SBbakRtzf2eYqjZZzpump",
-      "description": "Bumo-chan"
-    },
-    {
       "url": "https://dexscreener.com/solana/49pu6entpyc3zkhgcruzcsbzgvadix5mup2ovzrgpump",
       "tokenAddress": "49PU6ENTpYc3zkhgCruzCSBzgVAdix5muP2oVzRGpump",
       "description": "The market just shifted to extreme fear \n\nThe black bear is here."
     },
     {
-      "url": "https://dexscreener.com/solana/ejgeypufzgt8fiytvzslm57rspe94kqfial1jzvgpump",
-      "tokenAddress": "EJgeypUfZGt8FiYTVZSLm57rsPE94kqfiaL1jzVGpump",
-      "description": "The world\u2019s first memecoin designed to autonomously deepen its own token liquidity."
+      "url": "https://dexscreener.com/solana/7yg2ut3ksh7wwmapaasaku6sbbakrtzf2eyqjzzzpump",
+      "tokenAddress": "7yg2UT3Ksh7wwmAPAasaKU6SBbakRtzf2eYqjZZzpump",
+      "description": "Bumo-chan"
+    },
+    {
+      "url": "https://dexscreener.com/solana/5gefefpx1mds6zjb1apymz6fctcinjphturz9bvfpump",
+      "tokenAddress": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
+      "description": "The meme that pumps for Halloween!"
     },
     {
       "url": "https://dexscreener.com/solana/gbmfpnmsavwc5uhcqhbufrsldtggjiaxub7ukq2hpump",
       "tokenAddress": "GbMfpnmsavwc5uHCqhbuFrSLdtggJiAxub7UKQ2hpump",
       "description": "We knew him as Walter Jr. We remember him as RJ Mitte.\n\n$WALTJR is an independent fan-led tribute inspired by his life, "
-    },
-    {
-      "url": "https://dexscreener.com/solana/8kkhddwrx3ny9gtgnxcpp2b9nmcofwzxdyzzrxwrpump",
-      "tokenAddress": "8KKHDdWRX3NY9gTgnxCPp2b9nMCofwzxdYzZrXwrpump",
-      "description": "The fat wizard cat"
     },
     {
       "url": "https://dexscreener.com/solana/gu5nkuvlzmjqxjkuho5dg4d1owchpcsqnharrjyqpump",
@@ -67,13 +62,18 @@
       "url": "https://dexscreener.com/solana/5tcju6ynxhq5zra6tgndr6f7tk42mpufmee31csfpump",
       "tokenAddress": "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump",
       "description": "SwordCat \u2694\ufe0f\ud83d\udc31\n\nThe cat with a sword that took over social media. SwordCat went viral across X and beyond, pulling in mill"
+    },
+    {
+      "url": "https://dexscreener.com/solana/9xkzy4kahczagjpjtz1ptqgpb3ciseobrx7tcqhepump",
+      "tokenAddress": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
+      "description": "Gomo not a Fomo"
     }
   ],
   "fearGreed": {
     "value": 57,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
