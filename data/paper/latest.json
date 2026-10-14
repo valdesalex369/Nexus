@@ -1,37 +1,37 @@
 {
-  "at": "2026-10-14T06:14:01.234226+00:00",
+  "at": "2026-10-14T12:05:13.136993+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83346.0,
-      "changePct": -0.27264264577290387,
+      "price": 83443.0,
+      "changePct": 0.2793033834614591,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2501.77,
-      "changePct": -1.0134065141202582,
+      "price": 2505.03,
+      "changePct": 0.30529169880082246,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 107.08,
-      "changePct": -1.164673309642598,
+      "price": 107.29,
+      "changePct": 1.1728134446685952,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 742.19,
-      "changePct": -0.34639504609186833,
+      "price": 742.43,
+      "changePct": 0.5536999438608251,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/5gefefpx1mds6zjb1apymz6fctcinjphturz9bvfpump",
-      "tokenAddress": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
-      "description": "The meme that pumps for Halloween!"
+      "url": "https://dexscreener.com/solana/7jnwx4me9zgejmwy7zardg2lyjvs1wxd6dz1jvsfpump",
+      "tokenAddress": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
+      "description": "Everyone is launching a reserve. Humphrey was born with one. He is a one-humped camel, a grumpy old chairman in round go"
     },
     {
       "url": "https://dexscreener.com/solana/gzbtotcv7tpvquqqgjkkstyd4yk7nq7ggttqljwtpump",
@@ -39,14 +39,14 @@
       "description": "Hydra AI is bringing a whole new vibe to the digital workspace. Think AI agents, a 3D virtual office, task automation, a"
     },
     {
+      "url": "https://dexscreener.com/solana/5gefefpx1mds6zjb1apymz6fctcinjphturz9bvfpump",
+      "tokenAddress": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
+      "description": "The meme that pumps for Halloween!"
+    },
+    {
       "url": "https://dexscreener.com/solana/7yg2ut3ksh7wwmapaasaku6sbbakrtzf2eyqjzzzpump",
       "tokenAddress": "7yg2UT3Ksh7wwmAPAasaKU6SBbakRtzf2eYqjZZzpump",
       "description": "Bumo-chan"
-    },
-    {
-      "url": "https://dexscreener.com/solana/gu5nkuvlzmjqxjkuho5dg4d1owchpcsqnharrjyqpump",
-      "tokenAddress": "GU5NkUVLzmJQxJKuho5dG4d1owChpcSQnhARrjYQpump",
-      "description": "The alter ego of Elon Musk"
     },
     {
       "url": "https://dexscreener.com/solana/xtogpwjiagvkemc5gr1auxkh77w3vkgsqn1nxjejfht",
@@ -64,16 +64,16 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/dnmszbsmjhfh8st9zhp4vabw9kfdfsntygwnt9rnpump",
-      "tokenAddress": "DnMszBSMJhfh8St9Zhp4vABw9KFdFsNtyGWnt9rNpump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/fvse99ekoity8wv34v2rpwvnxnrle7o9gyknd4hddtjq",
+      "tokenAddress": "FvSE99EkoiTY8Wv34V2RpWVNxnrLe7o9gyKnd4HddtjQ",
+      "description": "A fleet of AI agents hunting dips in starlight & waves in spacetime. Every discovery proven."
     }
   ],
   "fearGreed": {
     "value": 62,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
