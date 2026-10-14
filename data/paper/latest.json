@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-14T20:46:37.385152+00:00",
+  "at": "2026-10-14T23:56:39.892902+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81730.0,
-      "changePct": -1.8669057276338146,
+      "price": 81540.0,
+      "changePct": -1.864685188334329,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2419.35,
-      "changePct": -3.5834889719358545,
+      "price": 2416.97,
+      "changePct": -3.1848741881124103,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.89,
-      "changePct": -2.970910373071144,
+      "price": 104.05,
+      "changePct": -2.505392897474708,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 728.6,
-      "changePct": -1.852649296046348,
+      "price": 729.41,
+      "changePct": -1.5792276505728366,
       "source": "CoinGecko"
     }
   ],
@@ -64,9 +64,9 @@
       "description": "Gomo not a Fomo"
     },
     {
-      "url": "https://dexscreener.com/solana/fvse99ekoity8wv34v2rpwvnxnrle7o9gyknd4hddtjq",
-      "tokenAddress": "FvSE99EkoiTY8Wv34V2RpWVNxnrLe7o9gyKnd4HddtjQ",
-      "description": "A fleet of AI agents hunting dips in starlight & waves in spacetime. Every discovery proven."
+      "url": "https://dexscreener.com/solana/enatbbo1azwmuxa5ph1gn4uggpitzzmagbjplwgjpump",
+      "tokenAddress": "EnAtbbo1AZWmuXA5PH1Gn4UgGpiTzzmaGbJpLWgjpump",
+      "description": "Cate Pepe"
     }
   ],
   "fearGreed": {
