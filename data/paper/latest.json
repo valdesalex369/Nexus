@@ -1,37 +1,42 @@
 {
-  "at": "2026-10-15T09:27:53.171615+00:00",
+  "at": "2026-10-15T14:26:00.049974+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81206.0,
-      "changePct": -2.4720202713079193,
+      "price": 81185.0,
+      "changePct": -0.9869793147311727,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2371.24,
-      "changePct": -5.14036300959604,
+      "price": 2370.43,
+      "changePct": -2.5686400518990524,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 102.89,
-      "changePct": -3.618014676123644,
+      "price": 103.08,
+      "changePct": -1.096702177094331,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 722.29,
-      "changePct": -2.49857874461359,
+      "price": 722.14,
+      "changePct": -1.4909291484913165,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/7jnwx4me9zgejmwy7zardg2lyjvs1wxd6dz1jvsfpump",
-      "tokenAddress": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
-      "description": "Everyone is launching a reserve. Humphrey was born with one. He is a one-humped camel, a grumpy old chairman in round go"
+      "url": "https://dexscreener.com/solana/3ec7grdgkgqphc9ipjxxchoeysee2xabqhzusstfpump",
+      "tokenAddress": "3EC7gRDGKgqPHc9ipJxxChoeyseE2xAbQHZUSSTfpump",
+      "description": "Preparing digital ownership for the quantum era.\nSycamore brings research, experimentation, and practical tools together"
+    },
+    {
+      "url": "https://dexscreener.com/solana/4jjqjdryd7xlcfmvirsz4gvtgu6gpzgbvaxn3rq9pump",
+      "tokenAddress": "4jjQjDRYd7xLcFMViRsz4GvtgU6gPZgbVaxN3Rq9pump",
+      "description": "$PONK \u2014 Pepe Bonk The unholy (and glorious) fusion of the two greatest memes to ever hit crypto. Pepe the Frog\u2019s chaotic"
     },
     {
       "url": "https://dexscreener.com/solana/enatbbo1azwmuxa5ph1gn4uggpitzzmagbjplwgjpump",
@@ -44,9 +49,9 @@
       "description": "A near dark reality"
     },
     {
-      "url": "https://dexscreener.com/solana/dutcpngjk2qachfikazkqpcgljykczrendj4bdy3pump",
-      "tokenAddress": "DutcPngjK2QaChfiKAZKQpcGLJYkCZrenDJ4bdY3pump",
-      "description": "Angry Kitten"
+      "url": "https://dexscreener.com/solana/67yvfqsvday1c7ycbjp528rb9bgtdjg4ta7tmjvwpump",
+      "tokenAddress": "67YVFQSVdAY1C7YcBjP528rB9BgtDJg4tA7tMjVWpump",
+      "description": "For all dog lovers to finally come together, as one."
     },
     {
       "url": "https://dexscreener.com/solana/9xkzy4kahczagjpjtz1ptqgpb3ciseobrx7tcqhepump",
@@ -54,19 +59,14 @@
       "description": "Gomo not a Fomo"
     },
     {
-      "url": "https://dexscreener.com/solana/37kvsz4ht3hfxc9fhtpxphgtqeyapxtyc3sf5gt2pump",
-      "tokenAddress": "37KvSZ4ht3hFXc9fhTpXpHGtqeyaPXTyC3SF5Gt2pump",
-      "description": "Pepe + Doge = PEGE"
+      "url": "https://dexscreener.com/solana/gnzzaabhtnysrebrrz2qgfmgru6n8wdz4w3gjxgqeqsm",
+      "tokenAddress": "GnZzaABHtnysrEbRRz2qGfMGrU6n8WdZ4W3GjxGqeqSm",
+      "description": "$PUMPKINCAT, Following the cat meta, but with a pumpkin twist. \n\nThe perfect mix of cat culture and pumpkin season."
     },
     {
       "url": "https://dexscreener.com/solana/f4dfnxrph4zdqxqfpchm4dqyk8s8tfqnut8v95xpump",
       "tokenAddress": "F4dfnxRpH4ZDqXqfPcHm4Dqyk8s8TfqNuT8V95xpump",
       "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/34fph3wnfmy19u1xe3gjmpmh7mrvgqgykubxpmrqpump",
-      "tokenAddress": "34fph3wNfMY19U1Xe3gJmPMh7mRvGqgyKUbXpMrqpump",
-      "description": "Solana is known as Solara in Mandarin."
     }
   ],
   "fearGreed": {
