@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-15T04:44:30.556896+00:00",
+  "at": "2026-10-15T09:27:53.171615+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81492.0,
-      "changePct": -2.7617962154977724,
+      "price": 81206.0,
+      "changePct": -2.4720202713079193,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2381.31,
-      "changePct": -5.414888722792565,
+      "price": 2371.24,
+      "changePct": -5.14036300959604,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.99,
-      "changePct": -3.7105553980303707,
+      "price": 102.89,
+      "changePct": -3.618014676123644,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 722.49,
-      "changePct": -3.0126823903365607,
+      "price": 722.29,
+      "changePct": -2.49857874461359,
       "source": "CoinGecko"
     }
   ],
@@ -34,14 +34,14 @@
       "description": "Everyone is launching a reserve. Humphrey was born with one. He is a one-humped camel, a grumpy old chairman in round go"
     },
     {
-      "url": "https://dexscreener.com/solana/g7iitrjd6nnxgxt27emifxfgidkn2thc4pahk1ropump",
-      "tokenAddress": "G7iitrjD6NNxGXt27eMifxfGiDkn2tHc4PAHk1ropump",
-      "description": "A near dark reality"
-    },
-    {
       "url": "https://dexscreener.com/solana/enatbbo1azwmuxa5ph1gn4uggpitzzmagbjplwgjpump",
       "tokenAddress": "EnAtbbo1AZWmuXA5PH1Gn4UgGpiTzzmaGbJpLWgjpump",
       "description": "Cate Pepe"
+    },
+    {
+      "url": "https://dexscreener.com/solana/g7iitrjd6nnxgxt27emifxfgidkn2thc4pahk1ropump",
+      "tokenAddress": "G7iitrjD6NNxGXt27eMifxfGiDkn2tHc4PAHk1ropump",
+      "description": "A near dark reality"
     },
     {
       "url": "https://dexscreener.com/solana/dutcpngjk2qachfikazkqpcgljykczrendj4bdy3pump",
