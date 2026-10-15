@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-15T18:41:23.725066+00:00",
+  "at": "2026-10-15T21:49:32.387003+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82184.0,
-      "changePct": 0.7541703962185595,
+      "price": 82155.0,
+      "changePct": 0.36194179179255154,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2442.24,
-      "changePct": 0.778545815465805,
+      "price": 2455.21,
+      "changePct": 1.3285183058602263,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 105.51,
-      "changePct": 1.4799320776380267,
+      "price": 105.79,
+      "changePct": 0.9828420032489549,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 732.88,
-      "changePct": 0.6536948637758343,
+      "price": 730.03,
+      "changePct": 0.009992010127882311,
       "source": "CoinGecko"
     }
   ],
@@ -44,6 +44,11 @@
       "description": "Cate Pepe"
     },
     {
+      "url": "https://dexscreener.com/solana/h2pkmdkuio79yzzj5crf6fqf6xeq6amptsvvgg9wpump",
+      "tokenAddress": "H2pkmDKUio79yzzj5cRF6fqf6Xeq6AmpTsVVGG9wpump",
+      "description": "Elon Musk\u2019s original Tesla Roadster, casually cruising through space."
+    },
+    {
       "url": "https://dexscreener.com/solana/67yvfqsvday1c7ycbjp528rb9bgtdjg4ta7tmjvwpump",
       "tokenAddress": "67YVFQSVdAY1C7YcBjP528rB9BgtDJg4tA7tMjVWpump",
       "description": "For all dog lovers to finally come together, as one."
@@ -59,14 +64,9 @@
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     },
     {
-      "url": "https://dexscreener.com/solana/tth5rjwvxcfbdjd3x2anbxtydjtrcfa9ty4qpmupump",
-      "tokenAddress": "ttH5rJWVxCFBdjd3x2AnBxtYDJtRCFa9ty4QpmUpump",
-      "description": "$ROULANA is the coin of Roulana: live multiplayer European roulette on Solana, played with real USDC at one 3D table. Ev"
-    },
-    {
-      "url": "https://dexscreener.com/solana/4qh8a5gxvrmzgprfjxasc6u9haoezkeuqxy2dpb7pump",
-      "tokenAddress": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
-      "description": "Token based on Grok's Official Mascot \ud83d\udc7d | Named & Confirmed by Grok Himself 4/17/2025 \ud83d\udc9a Groklet is described as a curiou"
+      "url": "https://dexscreener.com/solana/aeqqtu9iymvzwja8ub9xtqan1awyw3uyuepjxve9pump",
+      "tokenAddress": "AEqqTu9iYMvzWJa8Ub9XtQaN1awYw3uyUEPJxVe9pump",
+      "description": "Why do almost all tokens fail?\n\nLet\u2019s be honest. Most tokens don\u2019t fail because the meme is bad or the project lacks pot"
     }
   ],
   "fearGreed": {
