@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-14T23:56:39.892902+00:00",
+  "at": "2026-10-15T04:44:30.556896+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81540.0,
-      "changePct": -1.864685188334329,
+      "price": 81492.0,
+      "changePct": -2.7617962154977724,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2416.97,
-      "changePct": -3.1848741881124103,
+      "price": 2381.31,
+      "changePct": -5.414888722792565,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 104.05,
-      "changePct": -2.505392897474708,
+      "price": 103.99,
+      "changePct": -3.7105553980303707,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 729.41,
-      "changePct": -1.5792276505728366,
+      "price": 722.49,
+      "changePct": -3.0126823903365607,
       "source": "CoinGecko"
     }
   ],
@@ -34,24 +34,14 @@
       "description": "Everyone is launching a reserve. Humphrey was born with one. He is a one-humped camel, a grumpy old chairman in round go"
     },
     {
-      "url": "https://dexscreener.com/solana/gzbtotcv7tpvquqqgjkkstyd4yk7nq7ggttqljwtpump",
-      "tokenAddress": "GZBTotcV7TPvquqQgjKKStyd4yk7nQ7gGttqLjwtpump",
-      "description": "Hydra AI is bringing a whole new vibe to the digital workspace. Think AI agents, a 3D virtual office, task automation, a"
-    },
-    {
-      "url": "https://dexscreener.com/solana/5gefefpx1mds6zjb1apymz6fctcinjphturz9bvfpump",
-      "tokenAddress": "5GefefPX1mDs6ZJB1apYmz6fCTCiNJpHturZ9bvFpump",
-      "description": "The meme that pumps for Halloween!"
-    },
-    {
       "url": "https://dexscreener.com/solana/g7iitrjd6nnxgxt27emifxfgidkn2thc4pahk1ropump",
       "tokenAddress": "G7iitrjD6NNxGXt27eMifxfGiDkn2tHc4PAHk1ropump",
       "description": "A near dark reality"
     },
     {
-      "url": "https://dexscreener.com/solana/xtogpwjiagvkemc5gr1auxkh77w3vkgsqn1nxjejfht",
-      "tokenAddress": "XtogpWjiAgvkemc5gr1auxkh77w3vKgSQN1nxJeJfHt",
-      "description": "A movement for the American people. XTO is the first crypto coin that pays you $USO (US Oil Fund), every hour, so every "
+      "url": "https://dexscreener.com/solana/enatbbo1azwmuxa5ph1gn4uggpitzzmagbjplwgjpump",
+      "tokenAddress": "EnAtbbo1AZWmuXA5PH1Gn4UgGpiTzzmaGbJpLWgjpump",
+      "description": "Cate Pepe"
     },
     {
       "url": "https://dexscreener.com/solana/dutcpngjk2qachfikazkqpcgljykczrendj4bdy3pump",
@@ -64,14 +54,24 @@
       "description": "Gomo not a Fomo"
     },
     {
-      "url": "https://dexscreener.com/solana/enatbbo1azwmuxa5ph1gn4uggpitzzmagbjplwgjpump",
-      "tokenAddress": "EnAtbbo1AZWmuXA5PH1Gn4UgGpiTzzmaGbJpLWgjpump",
-      "description": "Cate Pepe"
+      "url": "https://dexscreener.com/solana/37kvsz4ht3hfxc9fhtpxphgtqeyapxtyc3sf5gt2pump",
+      "tokenAddress": "37KvSZ4ht3hFXc9fhTpXpHGtqeyaPXTyC3SF5Gt2pump",
+      "description": "Pepe + Doge = PEGE"
+    },
+    {
+      "url": "https://dexscreener.com/solana/f4dfnxrph4zdqxqfpchm4dqyk8s8tfqnut8v95xpump",
+      "tokenAddress": "F4dfnxRpH4ZDqXqfPcHm4Dqyk8s8TfqNuT8V95xpump",
+      "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/34fph3wnfmy19u1xe3gjmpmh7mrvgqgykubxpmrqpump",
+      "tokenAddress": "34fph3wNfMY19U1Xe3gJmPMh7mRvGqgyKUbXpMrqpump",
+      "description": "Solana is known as Solara in Mandarin."
     }
   ],
   "fearGreed": {
-    "value": 62,
-    "label": "Greed"
+    "value": 53,
+    "label": "Neutral"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
