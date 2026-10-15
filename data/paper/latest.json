@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-15T14:26:00.049974+00:00",
+  "at": "2026-10-15T18:41:23.725066+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81185.0,
-      "changePct": -0.9869793147311727,
+      "price": 82184.0,
+      "changePct": 0.7541703962185595,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2370.43,
-      "changePct": -2.5686400518990524,
+      "price": 2442.24,
+      "changePct": 0.778545815465805,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.08,
-      "changePct": -1.096702177094331,
+      "price": 105.51,
+      "changePct": 1.4799320776380267,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 722.14,
-      "changePct": -1.4909291484913165,
+      "price": 732.88,
+      "changePct": 0.6536948637758343,
       "source": "CoinGecko"
     }
   ],
@@ -44,19 +44,9 @@
       "description": "Cate Pepe"
     },
     {
-      "url": "https://dexscreener.com/solana/g7iitrjd6nnxgxt27emifxfgidkn2thc4pahk1ropump",
-      "tokenAddress": "G7iitrjD6NNxGXt27eMifxfGiDkn2tHc4PAHk1ropump",
-      "description": "A near dark reality"
-    },
-    {
       "url": "https://dexscreener.com/solana/67yvfqsvday1c7ycbjp528rb9bgtdjg4ta7tmjvwpump",
       "tokenAddress": "67YVFQSVdAY1C7YcBjP528rB9BgtDJg4tA7tMjVWpump",
       "description": "For all dog lovers to finally come together, as one."
-    },
-    {
-      "url": "https://dexscreener.com/solana/9xkzy4kahczagjpjtz1ptqgpb3ciseobrx7tcqhepump",
-      "tokenAddress": "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump",
-      "description": "Gomo not a Fomo"
     },
     {
       "url": "https://dexscreener.com/solana/gnzzaabhtnysrebrrz2qgfmgru6n8wdz4w3gjxgqeqsm",
@@ -64,16 +54,26 @@
       "description": "$PUMPKINCAT, Following the cat meta, but with a pumpkin twist. \n\nThe perfect mix of cat culture and pumpkin season."
     },
     {
-      "url": "https://dexscreener.com/solana/f4dfnxrph4zdqxqfpchm4dqyk8s8tfqnut8v95xpump",
-      "tokenAddress": "F4dfnxRpH4ZDqXqfPcHm4Dqyk8s8TfqNuT8V95xpump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
+      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
+    },
+    {
+      "url": "https://dexscreener.com/solana/tth5rjwvxcfbdjd3x2anbxtydjtrcfa9ty4qpmupump",
+      "tokenAddress": "ttH5rJWVxCFBdjd3x2AnBxtYDJtRCFa9ty4QpmUpump",
+      "description": "$ROULANA is the coin of Roulana: live multiplayer European roulette on Solana, played with real USDC at one 3D table. Ev"
+    },
+    {
+      "url": "https://dexscreener.com/solana/4qh8a5gxvrmzgprfjxasc6u9haoezkeuqxy2dpb7pump",
+      "tokenAddress": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
+      "description": "Token based on Grok's Official Mascot \ud83d\udc7d | Named & Confirmed by Grok Himself 4/17/2025 \ud83d\udc9a Groklet is described as a curiou"
     }
   ],
   "fearGreed": {
     "value": 53,
     "label": "Neutral"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
