@@ -1,37 +1,37 @@
 {
-  "at": "2026-10-16T18:49:24.554976+00:00",
+  "at": "2026-10-16T22:06:26.328305+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81009.0,
-      "changePct": -1.5186003438917768,
+      "price": 81658.0,
+      "changePct": -0.9593846563273051,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2402.96,
-      "changePct": -1.8297578182675185,
+      "price": 2418.16,
+      "changePct": -1.8011946408108257,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.1,
-      "changePct": -2.5371350252954747,
+      "price": 104.34,
+      "changePct": -1.6529528205743689,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 719.53,
-      "changePct": -1.8047466931794158,
+      "price": 721.7,
+      "changePct": -1.207129890089937,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/d61ptatqr93axxvvu7ax5tw6c3a4vhffppmfcnsypump",
-      "tokenAddress": "D61pTaTqR93axxVvu7AX5TW6c3a4vhffPPMfCnsYpump",
-      "description": "Who gave this owl the audacity to become the entire logo? One pink bird, one whole circle, absolutely no room for humili"
+      "url": "https://dexscreener.com/solana/2e3zqia8jwedjjveuqzv9x1q3aqrrapql8uyebxvpump",
+      "tokenAddress": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
+      "description": "Prompt to launch. The era of launchbots are here."
     },
     {
       "url": "https://dexscreener.com/solana/g3nkprk3bvrndplcbtg53sibytphwdqitrnaiuq9pump",
@@ -44,11 +44,6 @@
       "description": "Audacity Roadster"
     },
     {
-      "url": "https://dexscreener.com/solana/h2pkmdkuio79yzzj5crf6fqf6xeq6amptsvvgg9wpump",
-      "tokenAddress": "H2pkmDKUio79yzzj5cRF6fqf6Xeq6AmpTsVVGG9wpump",
-      "description": "Elon Musk\u2019s original Tesla Roadster, casually cruising through space."
-    },
-    {
       "url": "https://dexscreener.com/solana/5e8gpzhqxlkfvu6gb87ajlzmosqnbjbhqupxvcczpump",
       "tokenAddress": "5e8GPzhqxLKFVU6gb87aJLZMoSQnbjBhQupXvCCZpump",
       "description": "Faster than a speeding bullet. Stronger than gravity."
@@ -59,14 +54,19 @@
       "description": "illusion"
     },
     {
+      "url": "https://dexscreener.com/solana/npd9vif19c2oy1jhhrrajsspmu9tjqtibfxoz4qcxph",
+      "tokenAddress": "nPD9vif19C2oY1jhHRrAJSSpMu9tJQtibfxoZ4qcxph",
+      "description": "Launch and trade tokens paired with stocks, crypto, stablecoins & more."
+    },
+    {
       "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
       "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     },
     {
-      "url": "https://dexscreener.com/solana/hlsh9nsmpnnnmgau97z3uwsufps6sxbpdkyihyjcpump",
-      "tokenAddress": "HLSh9nsmPnNNmGau97z3uwsuFPS6sXBpdkYiHYJcpump",
-      "description": "Akita Inu"
+      "url": "https://dexscreener.com/solana/gr6qkxu7khfxvswyutqnlds958e76dpjeqpqnug9pump",
+      "tokenAddress": "GR6QkXU7KhFxVsWYutqnLDS958e76dPjeQPQNUG9pump",
+      "description": "$FARTSLA is fair-launched on Pumpfun, and it\u2019s the first electric car with real emissions. Zero emissions. Almost."
     }
   ],
   "fearGreed": {
