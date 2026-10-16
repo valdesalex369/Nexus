@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-16T05:06:39.752200+00:00",
+  "at": "2026-10-16T09:52:52.771428+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82296.0,
-      "changePct": 0.9885487046744927,
+      "price": 82067.0,
+      "changePct": 0.9900531230679952,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2451.47,
-      "changePct": 3.1129951004401946,
+      "price": 2451.77,
+      "changePct": 3.300748654133666,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 106.32,
-      "changePct": 2.6904321395635185,
+      "price": 106.41,
+      "changePct": 3.2120537177028785,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 730.81,
-      "changePct": 1.2614534597088576,
+      "price": 730.45,
+      "changePct": 1.0946555679462848,
       "source": "CoinGecko"
     }
   ],
@@ -34,14 +34,14 @@
       "description": "Who gave this owl the audacity to become the entire logo? One pink bird, one whole circle, absolutely no room for humili"
     },
     {
-      "url": "https://dexscreener.com/solana/3ec7grdgkgqphc9ipjxxchoeysee2xabqhzusstfpump",
-      "tokenAddress": "3EC7gRDGKgqPHc9ipJxxChoeyseE2xAbQHZUSSTfpump",
-      "description": "Preparing digital ownership for the quantum era.\nSycamore brings research, experimentation, and practical tools together"
-    },
-    {
       "url": "https://dexscreener.com/solana/h2pkmdkuio79yzzj5crf6fqf6xeq6amptsvvgg9wpump",
       "tokenAddress": "H2pkmDKUio79yzzj5cRF6fqf6Xeq6AmpTsVVGG9wpump",
       "description": "Elon Musk\u2019s original Tesla Roadster, casually cruising through space."
+    },
+    {
+      "url": "https://dexscreener.com/solana/3ec7grdgkgqphc9ipjxxchoeysee2xabqhzusstfpump",
+      "tokenAddress": "3EC7gRDGKgqPHc9ipJxxChoeyseE2xAbQHZUSSTfpump",
+      "description": "Preparing digital ownership for the quantum era.\nSycamore brings research, experimentation, and practical tools together"
     },
     {
       "url": "https://dexscreener.com/solana/4jjqjdryd7xlcfmvirsz4gvtgu6gpzgbvaxn3rq9pump",
@@ -59,14 +59,14 @@
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     },
     {
-      "url": "https://dexscreener.com/solana/hlsh9nsmpnnnmgau97z3uwsufps6sxbpdkyihyjcpump",
-      "tokenAddress": "HLSh9nsmPnNNmGau97z3uwsuFPS6sXBpdkYiHYJcpump",
-      "description": "Akita Inu"
-    },
-    {
       "url": "https://dexscreener.com/solana/gnzzaabhtnysrebrrz2qgfmgru6n8wdz4w3gjxgqeqsm",
       "tokenAddress": "GnZzaABHtnysrEbRRz2qGfMGrU6n8WdZ4W3GjxGqeqSm",
       "description": "$PUMPKINCAT, Following the cat meta, but with a pumpkin twist. \n\nThe perfect mix of cat culture and pumpkin season."
+    },
+    {
+      "url": "https://dexscreener.com/solana/hlsh9nsmpnnnmgau97z3uwsufps6sxbpdkyihyjcpump",
+      "tokenAddress": "HLSh9nsmPnNNmGau97z3uwsuFPS6sXBpdkYiHYJcpump",
+      "description": "Akita Inu"
     }
   ],
   "fearGreed": {
