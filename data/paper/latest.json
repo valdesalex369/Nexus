@@ -1,52 +1,52 @@
 {
-  "at": "2026-10-15T21:49:32.387003+00:00",
+  "at": "2026-10-16T00:25:41.567523+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82155.0,
-      "changePct": 0.36194179179255154,
+      "price": 82195.0,
+      "changePct": 0.6209772454840685,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2455.21,
-      "changePct": 1.3285183058602263,
+      "price": 2440.5,
+      "changePct": 0.6553590607686244,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 105.79,
-      "changePct": 0.9828420032489549,
+      "price": 105.32,
+      "changePct": 0.9499093560352007,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 730.03,
-      "changePct": 0.009992010127882311,
+      "price": 729.02,
+      "changePct": -0.16097139136425911,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/d61ptatqr93axxvvu7ax5tw6c3a4vhffppmfcnsypump",
+      "tokenAddress": "D61pTaTqR93axxVvu7AX5TW6c3a4vhffPPMfCnsYpump",
+      "description": "Who gave this owl the audacity to become the entire logo? One pink bird, one whole circle, absolutely no room for humili"
+    },
     {
       "url": "https://dexscreener.com/solana/3ec7grdgkgqphc9ipjxxchoeysee2xabqhzusstfpump",
       "tokenAddress": "3EC7gRDGKgqPHc9ipJxxChoeyseE2xAbQHZUSSTfpump",
       "description": "Preparing digital ownership for the quantum era.\nSycamore brings research, experimentation, and practical tools together"
     },
     {
-      "url": "https://dexscreener.com/solana/4jjqjdryd7xlcfmvirsz4gvtgu6gpzgbvaxn3rq9pump",
-      "tokenAddress": "4jjQjDRYd7xLcFMViRsz4GvtgU6gPZgbVaxN3Rq9pump",
-      "description": "$PONK \u2014 Pepe Bonk The unholy (and glorious) fusion of the two greatest memes to ever hit crypto. Pepe the Frog\u2019s chaotic"
-    },
-    {
-      "url": "https://dexscreener.com/solana/enatbbo1azwmuxa5ph1gn4uggpitzzmagbjplwgjpump",
-      "tokenAddress": "EnAtbbo1AZWmuXA5PH1Gn4UgGpiTzzmaGbJpLWgjpump",
-      "description": "Cate Pepe"
-    },
-    {
       "url": "https://dexscreener.com/solana/h2pkmdkuio79yzzj5crf6fqf6xeq6amptsvvgg9wpump",
       "tokenAddress": "H2pkmDKUio79yzzj5cRF6fqf6Xeq6AmpTsVVGG9wpump",
       "description": "Elon Musk\u2019s original Tesla Roadster, casually cruising through space."
+    },
+    {
+      "url": "https://dexscreener.com/solana/4jjqjdryd7xlcfmvirsz4gvtgu6gpzgbvaxn3rq9pump",
+      "tokenAddress": "4jjQjDRYd7xLcFMViRsz4GvtgU6gPZgbVaxN3Rq9pump",
+      "description": "$PONK \u2014 Pepe Bonk The unholy (and glorious) fusion of the two greatest memes to ever hit crypto. Pepe the Frog\u2019s chaotic"
     },
     {
       "url": "https://dexscreener.com/solana/67yvfqsvday1c7ycbjp528rb9bgtdjg4ta7tmjvwpump",
@@ -70,8 +70,8 @@
     }
   ],
   "fearGreed": {
-    "value": 53,
-    "label": "Neutral"
+    "value": 63,
+    "label": "Greed"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
