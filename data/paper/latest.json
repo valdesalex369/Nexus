@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-16T00:25:41.567523+00:00",
+  "at": "2026-10-16T05:06:39.752200+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82195.0,
-      "changePct": 0.6209772454840685,
+      "price": 82296.0,
+      "changePct": 0.9885487046744927,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2440.5,
-      "changePct": 0.6553590607686244,
+      "price": 2451.47,
+      "changePct": 3.1129951004401946,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 105.32,
-      "changePct": 0.9499093560352007,
+      "price": 106.32,
+      "changePct": 2.6904321395635185,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 729.02,
-      "changePct": -0.16097139136425911,
+      "price": 730.81,
+      "changePct": 1.2614534597088576,
       "source": "CoinGecko"
     }
   ],
@@ -54,19 +54,19 @@
       "description": "For all dog lovers to finally come together, as one."
     },
     {
-      "url": "https://dexscreener.com/solana/gnzzaabhtnysrebrrz2qgfmgru6n8wdz4w3gjxgqeqsm",
-      "tokenAddress": "GnZzaABHtnysrEbRRz2qGfMGrU6n8WdZ4W3GjxGqeqSm",
-      "description": "$PUMPKINCAT, Following the cat meta, but with a pumpkin twist. \n\nThe perfect mix of cat culture and pumpkin season."
-    },
-    {
       "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
       "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     },
     {
-      "url": "https://dexscreener.com/solana/aeqqtu9iymvzwja8ub9xtqan1awyw3uyuepjxve9pump",
-      "tokenAddress": "AEqqTu9iYMvzWJa8Ub9XtQaN1awYw3uyUEPJxVe9pump",
-      "description": "Why do almost all tokens fail?\n\nLet\u2019s be honest. Most tokens don\u2019t fail because the meme is bad or the project lacks pot"
+      "url": "https://dexscreener.com/solana/hlsh9nsmpnnnmgau97z3uwsufps6sxbpdkyihyjcpump",
+      "tokenAddress": "HLSh9nsmPnNNmGau97z3uwsuFPS6sXBpdkYiHYJcpump",
+      "description": "Akita Inu"
+    },
+    {
+      "url": "https://dexscreener.com/solana/gnzzaabhtnysrebrrz2qgfmgru6n8wdz4w3gjxgqeqsm",
+      "tokenAddress": "GnZzaABHtnysrEbRRz2qGfMGrU6n8WdZ4W3GjxGqeqSm",
+      "description": "$PUMPKINCAT, Following the cat meta, but with a pumpkin twist. \n\nThe perfect mix of cat culture and pumpkin season."
     }
   ],
   "fearGreed": {
