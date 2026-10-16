@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-16T14:53:30.228083+00:00",
+  "at": "2026-10-16T18:49:24.554976+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82255.0,
-      "changePct": 0.7281939483733637,
+      "price": 81009.0,
+      "changePct": -1.5186003438917768,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2471.13,
-      "changePct": 3.529387798700065,
+      "price": 2402.96,
+      "changePct": -1.8297578182675185,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 106.21,
-      "changePct": 1.8951380478626163,
+      "price": 103.1,
+      "changePct": -2.5371350252954747,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 729.4,
-      "changePct": 0.2581032088082904,
+      "price": 719.53,
+      "changePct": -1.8047466931794158,
       "source": "CoinGecko"
     }
   ],
@@ -32,6 +32,11 @@
       "url": "https://dexscreener.com/solana/d61ptatqr93axxvvu7ax5tw6c3a4vhffppmfcnsypump",
       "tokenAddress": "D61pTaTqR93axxVvu7AX5TW6c3a4vhffPPMfCnsYpump",
       "description": "Who gave this owl the audacity to become the entire logo? One pink bird, one whole circle, absolutely no room for humili"
+    },
+    {
+      "url": "https://dexscreener.com/solana/g3nkprk3bvrndplcbtg53sibytphwdqitrnaiuq9pump",
+      "tokenAddress": "G3NKPRK3BVrNDPLCbtG53SibytphwDqiTrnaiUq9pump",
+      "description": "Uniting the Tesla \u00d7 SpaceX narrative behind Elon's next-gen Roadster."
     },
     {
       "url": "https://dexscreener.com/solana/3xmzhi86jtudye7buut9tdbpzlebk9nbca44jhrdpump",
@@ -44,6 +49,16 @@
       "description": "Elon Musk\u2019s original Tesla Roadster, casually cruising through space."
     },
     {
+      "url": "https://dexscreener.com/solana/5e8gpzhqxlkfvu6gb87ajlzmosqnbjbhqupxvcczpump",
+      "tokenAddress": "5e8GPzhqxLKFVU6gb87aJLZMoSQnbjBhQupXvCCZpump",
+      "description": "Faster than a speeding bullet. Stronger than gravity."
+    },
+    {
+      "url": "https://dexscreener.com/solana/cpdbvrkdqnnbzdclcmpto1u84ep8frfdft84lme6pump",
+      "tokenAddress": "CpdbvrkDQNNbZdcLCMpto1U84ep8FrFdfT84Lme6pump",
+      "description": "illusion"
+    },
+    {
       "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
       "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
@@ -52,28 +67,13 @@
       "url": "https://dexscreener.com/solana/hlsh9nsmpnnnmgau97z3uwsufps6sxbpdkyihyjcpump",
       "tokenAddress": "HLSh9nsmPnNNmGau97z3uwsuFPS6sXBpdkYiHYJcpump",
       "description": "Akita Inu"
-    },
-    {
-      "url": "https://dexscreener.com/solana/3vmebljaawx7mahtmt6sk5ddzfwxwlmvebwvuptapump",
-      "tokenAddress": "3vMEBLJAAwx7MaHTmT6Sk5ddZfWXwLmVeBWVUpTapump",
-      "description": "The OG Telsa Roadster paired with TSLA and SPCX"
-    },
-    {
-      "url": "https://dexscreener.com/solana/aeqqtu9iymvzwja8ub9xtqan1awyw3uyuepjxve9pump",
-      "tokenAddress": "AEqqTu9iYMvzWJa8Ub9XtQaN1awYw3uyUEPJxVe9pump",
-      "description": "Why do almost all tokens fail?\n\nLet\u2019s be honest. Most tokens don\u2019t fail because the meme is bad or the project lacks pot"
-    },
-    {
-      "url": "https://dexscreener.com/solana/tth5rjwvxcfbdjd3x2anbxtydjtrcfa9ty4qpmupump",
-      "tokenAddress": "ttH5rJWVxCFBdjd3x2AnBxtYDJtRCFa9ty4QpmUpump",
-      "description": "$ROULANA is the coin of Roulana: live multiplayer European roulette on Solana, played with real USDC at one 3D table. Ev"
     }
   ],
   "fearGreed": {
     "value": 63,
     "label": "Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
