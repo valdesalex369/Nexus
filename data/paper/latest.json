@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-17T13:15:15.797145+00:00",
+  "at": "2026-10-17T16:39:35.383549+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81396.0,
-      "changePct": -0.6847598090656346,
+      "price": 81187.0,
+      "changePct": -0.37651432537679286,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2420.52,
-      "changePct": -1.6813263700563927,
+      "price": 2403.66,
+      "changePct": -1.4333206814933084,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.82,
-      "changePct": -1.5727492904457525,
+      "price": 103.28,
+      "changePct": -1.1236804327358285,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 718.38,
-      "changePct": -1.214306746408625,
+      "price": 714.11,
+      "changePct": -1.4875370555654652,
       "source": "CoinGecko"
     }
   ],
@@ -39,24 +39,19 @@
       "description": "Uniting the Tesla \u00d7 SpaceX narrative behind Elon's next-gen Roadster."
     },
     {
-      "url": "https://dexscreener.com/solana/5e8gpzhqxlkfvu6gb87ajlzmosqnbjbhqupxvcczpump",
-      "tokenAddress": "5e8GPzhqxLKFVU6gb87aJLZMoSQnbjBhQupXvCCZpump",
-      "description": "Faster than a speeding bullet. Stronger than gravity."
-    },
-    {
-      "url": "https://dexscreener.com/solana/3xmzhi86jtudye7buut9tdbpzlebk9nbca44jhrdpump",
-      "tokenAddress": "3xmzHi86JTUdye7bUuT9TdBPZLeBK9nBCA44JHRdpump",
-      "description": "Audacity Roadster"
-    },
-    {
-      "url": "https://dexscreener.com/solana/cpdbvrkdqnnbzdclcmpto1u84ep8frfdft84lme6pump",
-      "tokenAddress": "CpdbvrkDQNNbZdcLCMpto1U84ep8FrFdfT84Lme6pump",
-      "description": "illusion"
-    },
-    {
       "url": "https://dexscreener.com/solana/npd9vif19c2oy1jhhrrajsspmu9tjqtibfxoz4qcxph",
       "tokenAddress": "nPD9vif19C2oY1jhHRrAJSSpMu9tJQtibfxoZ4qcxph",
       "description": "Launch and trade tokens paired with stocks, crypto, stablecoins & more."
+    },
+    {
+      "url": "https://dexscreener.com/solana/4jjqjdryd7xlcfmvirsz4gvtgu6gpzgbvaxn3rq9pump",
+      "tokenAddress": "4jjQjDRYd7xLcFMViRsz4GvtgU6gPZgbVaxN3Rq9pump",
+      "description": "$PONK \u2014 Pepe Bonk The unholy (and glorious) fusion of the two greatest memes to ever hit crypto. Pepe the Frog\u2019s chaotic"
+    },
+    {
+      "url": "https://dexscreener.com/solana/2y1su9ntrrfmi3ebdzpcucbrqkta94h6cljkiylxjxoz",
+      "tokenAddress": "2Y1SU9ntRrfMi3EbDzPcUCBRqkTa94h6CLJKiyLxjxoz",
+      "description": "The iconic Pumpfun pill gets a spooky makeover! Halloween colors meet Pumpfun culture, bringing pumpkins, pumps, and pur"
     },
     {
       "url": "https://dexscreener.com/solana/gr6qkxu7khfxvswyutqnlds958e76dpjeqpqnug9pump",
@@ -64,9 +59,14 @@
       "description": "$FARTSLA is fair-launched on Pumpfun, and it\u2019s the first electric car with real emissions. Zero emissions. Almost."
     },
     {
-      "url": "https://dexscreener.com/solana/4jjqjdryd7xlcfmvirsz4gvtgu6gpzgbvaxn3rq9pump",
-      "tokenAddress": "4jjQjDRYd7xLcFMViRsz4GvtgU6gPZgbVaxN3Rq9pump",
-      "description": "$PONK \u2014 Pepe Bonk The unholy (and glorious) fusion of the two greatest memes to ever hit crypto. Pepe the Frog\u2019s chaotic"
+      "url": "https://dexscreener.com/solana/7npvxgxddkgthszcwov5mcp5opna4utpzrpynxdxpump",
+      "tokenAddress": "7NPvxgxdDKgTHSzcWoV5mCp5opNA4uTpzrPynXDXpump",
+      "description": "Professor Inu"
+    },
+    {
+      "url": "https://dexscreener.com/solana/satozgjkh4eid9eqzyxwncnvn5aszrwzloubmx1shi1",
+      "tokenAddress": "SAtoZGJkh4Eid9EQZYXWnCNVn5asZrWZLouBMX1SHi1",
+      "description": ""
     }
   ],
   "fearGreed": {
