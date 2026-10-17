@@ -1,52 +1,37 @@
 {
-  "at": "2026-10-17T18:51:56.906412+00:00",
+  "at": "2026-10-17T21:29:07.824072+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81476.0,
-      "changePct": 0.5061230458153457,
+      "price": 81289.0,
+      "changePct": -0.46958706612120915,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2416.06,
-      "changePct": 0.4853227539113094,
+      "price": 2408.5,
+      "changePct": -0.350863619723396,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.88,
-      "changePct": 0.8518938479304652,
+      "price": 103.19,
+      "changePct": -1.0520398524349324,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 715.39,
-      "changePct": -0.5890628830691776,
+      "price": 717.3,
+      "changePct": -0.6565245669800334,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/2e3zqia8jwedjjveuqzv9x1q3aqrrapql8uyebxvpump",
-      "tokenAddress": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
-      "description": "Prompt to launch. The era of launchbots are here."
-    },
-    {
       "url": "https://dexscreener.com/solana/7npvxgxddkgthszcwov5mcp5opna4utpzrpynxdxpump",
       "tokenAddress": "7NPvxgxdDKgTHSzcWoV5mCp5opNA4uTpzrPynXDXpump",
       "description": "Professor Inu"
-    },
-    {
-      "url": "https://dexscreener.com/solana/npd9vif19c2oy1jhhrrajsspmu9tjqtibfxoz4qcxph",
-      "tokenAddress": "nPD9vif19C2oY1jhHRrAJSSpMu9tJQtibfxoZ4qcxph",
-      "description": "Launch and trade tokens paired with stocks, crypto, stablecoins & more."
-    },
-    {
-      "url": "https://dexscreener.com/solana/4jjqjdryd7xlcfmvirsz4gvtgu6gpzgbvaxn3rq9pump",
-      "tokenAddress": "4jjQjDRYd7xLcFMViRsz4GvtgU6gPZgbVaxN3Rq9pump",
-      "description": "$PONK \u2014 Pepe Bonk The unholy (and glorious) fusion of the two greatest memes to ever hit crypto. Pepe the Frog\u2019s chaotic"
     },
     {
       "url": "https://dexscreener.com/solana/2y1su9ntrrfmi3ebdzpcucbrqkta94h6cljkiylxjxoz",
@@ -54,9 +39,24 @@
       "description": "The iconic Pumpfun pill gets a spooky makeover! Halloween colors meet Pumpfun culture, bringing pumpkins, pumps, and pur"
     },
     {
+      "url": "https://dexscreener.com/solana/4jjqjdryd7xlcfmvirsz4gvtgu6gpzgbvaxn3rq9pump",
+      "tokenAddress": "4jjQjDRYd7xLcFMViRsz4GvtgU6gPZgbVaxN3Rq9pump",
+      "description": "$PONK \u2014 Pepe Bonk The unholy (and glorious) fusion of the two greatest memes to ever hit crypto. Pepe the Frog\u2019s chaotic"
+    },
+    {
       "url": "https://dexscreener.com/solana/satozgjkh4eid9eqzyxwncnvn5aszrwzloubmx1shi1",
       "tokenAddress": "SAtoZGJkh4Eid9EQZYXWnCNVn5asZrWZLouBMX1SHi1",
       "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/crp1ceevfn9stca6rsu9sxaypjimxaps3wam2cifkfog",
+      "tokenAddress": "Crp1ceeVfN9STCA6rSu9sxAYpjimXApS3wam2cifkfog",
+      "description": "VOLLEY is the official token of volley (dot) fun, a launchpad on Solana and Robinhood Chain. Launch coins in minutes, tr"
+    },
+    {
+      "url": "https://dexscreener.com/solana/bg35zgnesosw36cqv58kmahu82wfywzenyorniwmvent",
+      "tokenAddress": "BG35ZgNeSoSw36cQv58kMahU82wfYwzeNYoRNiwMVent",
+      "description": "Ventrion allows anyone to tokenize their existing or future Venture. This is the coin funding that mission."
     },
     {
       "url": "https://dexscreener.com/solana/ggdt9qlfxumcfxghq82tx2onjepl5ss3xpxxiushpump",
@@ -73,7 +73,7 @@
     "value": 55,
     "label": "Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
