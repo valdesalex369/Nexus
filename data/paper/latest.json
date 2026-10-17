@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-17T16:39:35.383549+00:00",
+  "at": "2026-10-17T18:51:56.906412+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81187.0,
-      "changePct": -0.37651432537679286,
+      "price": 81476.0,
+      "changePct": 0.5061230458153457,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2403.66,
-      "changePct": -1.4333206814933084,
+      "price": 2416.06,
+      "changePct": 0.4853227539113094,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.28,
-      "changePct": -1.1236804327358285,
+      "price": 103.88,
+      "changePct": 0.8518938479304652,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 714.11,
-      "changePct": -1.4875370555654652,
+      "price": 715.39,
+      "changePct": -0.5890628830691776,
       "source": "CoinGecko"
     }
   ],
@@ -34,9 +34,9 @@
       "description": "Prompt to launch. The era of launchbots are here."
     },
     {
-      "url": "https://dexscreener.com/solana/g3nkprk3bvrndplcbtg53sibytphwdqitrnaiuq9pump",
-      "tokenAddress": "G3NKPRK3BVrNDPLCbtG53SibytphwDqiTrnaiUq9pump",
-      "description": "Uniting the Tesla \u00d7 SpaceX narrative behind Elon's next-gen Roadster."
+      "url": "https://dexscreener.com/solana/7npvxgxddkgthszcwov5mcp5opna4utpzrpynxdxpump",
+      "tokenAddress": "7NPvxgxdDKgTHSzcWoV5mCp5opNA4uTpzrPynXDXpump",
+      "description": "Professor Inu"
     },
     {
       "url": "https://dexscreener.com/solana/npd9vif19c2oy1jhhrrajsspmu9tjqtibfxoz4qcxph",
@@ -54,26 +54,26 @@
       "description": "The iconic Pumpfun pill gets a spooky makeover! Halloween colors meet Pumpfun culture, bringing pumpkins, pumps, and pur"
     },
     {
-      "url": "https://dexscreener.com/solana/gr6qkxu7khfxvswyutqnlds958e76dpjeqpqnug9pump",
-      "tokenAddress": "GR6QkXU7KhFxVsWYutqnLDS958e76dPjeQPQNUG9pump",
-      "description": "$FARTSLA is fair-launched on Pumpfun, and it\u2019s the first electric car with real emissions. Zero emissions. Almost."
-    },
-    {
-      "url": "https://dexscreener.com/solana/7npvxgxddkgthszcwov5mcp5opna4utpzrpynxdxpump",
-      "tokenAddress": "7NPvxgxdDKgTHSzcWoV5mCp5opNA4uTpzrPynXDXpump",
-      "description": "Professor Inu"
-    },
-    {
       "url": "https://dexscreener.com/solana/satozgjkh4eid9eqzyxwncnvn5aszrwzloubmx1shi1",
       "tokenAddress": "SAtoZGJkh4Eid9EQZYXWnCNVn5asZrWZLouBMX1SHi1",
       "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/ggdt9qlfxumcfxghq82tx2onjepl5ss3xpxxiushpump",
+      "tokenAddress": "GgDt9qLFxumCfXGHq82Tx2onjepL5SS3xpXXiUshpump",
+      "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/jr963c1euwryk7tyaxii7mryjqr1zjhvyzuygvypump",
+      "tokenAddress": "jr963C1eUWRYk7TYAxii7MRyJqr1zJhVyZuYgVYpump",
+      "description": "Buy 7 or 30 days of a Meteora fee position's income and claim what actually comes in. Holding $CUTS opens the Pro Desk, "
     }
   ],
   "fearGreed": {
     "value": 55,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
