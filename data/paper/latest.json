@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-17T05:01:49.366720+00:00",
+  "at": "2026-10-17T09:24:51.597093+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81438.0,
-      "changePct": -0.8359264165093755,
+      "price": 81615.0,
+      "changePct": -0.5669902824133763,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2423.08,
-      "changePct": -0.955125769346207,
+      "price": 2432.4,
+      "changePct": -0.7890672266669162,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 104.64,
-      "changePct": -1.0987260509772767,
+      "price": 104.91,
+      "changePct": -1.5753199274475747,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 721.37,
-      "changePct": -1.121494348486534,
+      "price": 721.65,
+      "changePct": -1.1340423089537124,
       "source": "CoinGecko"
     }
   ],
@@ -59,14 +59,14 @@
       "description": "Launch and trade tokens paired with stocks, crypto, stablecoins & more."
     },
     {
-      "url": "https://dexscreener.com/solana/satozgjkh4eid9eqzyxwncnvn5aszrwzloubmx1shi1",
-      "tokenAddress": "SAtoZGJkh4Eid9EQZYXWnCNVn5asZrWZLouBMX1SHi1",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/4jjqjdryd7xlcfmvirsz4gvtgu6gpzgbvaxn3rq9pump",
       "tokenAddress": "4jjQjDRYd7xLcFMViRsz4GvtgU6gPZgbVaxN3Rq9pump",
       "description": "$PONK \u2014 Pepe Bonk The unholy (and glorious) fusion of the two greatest memes to ever hit crypto. Pepe the Frog\u2019s chaotic"
+    },
+    {
+      "url": "https://dexscreener.com/solana/gr6qkxu7khfxvswyutqnlds958e76dpjeqpqnug9pump",
+      "tokenAddress": "GR6QkXU7KhFxVsWYutqnLDS958e76dPjeQPQNUG9pump",
+      "description": "$FARTSLA is fair-launched on Pumpfun, and it\u2019s the first electric car with real emissions. Zero emissions. Almost."
     }
   ],
   "fearGreed": {
