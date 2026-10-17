@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-16T22:06:26.328305+00:00",
+  "at": "2026-10-17T00:31:10.898479+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81658.0,
-      "changePct": -0.9593846563273051,
+      "price": 81485.0,
+      "changePct": -0.9896201756336298,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2418.16,
-      "changePct": -1.8011946408108257,
+      "price": 2418.19,
+      "changePct": -0.9542669403890628,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 104.34,
-      "changePct": -1.6529528205743689,
+      "price": 104.26,
+      "changePct": -1.0675342779096848,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 721.7,
-      "changePct": -1.207129890089937,
+      "price": 719.08,
+      "changePct": -1.390890367457049,
       "source": "CoinGecko"
     }
   ],
@@ -39,14 +39,14 @@
       "description": "Uniting the Tesla \u00d7 SpaceX narrative behind Elon's next-gen Roadster."
     },
     {
-      "url": "https://dexscreener.com/solana/3xmzhi86jtudye7buut9tdbpzlebk9nbca44jhrdpump",
-      "tokenAddress": "3xmzHi86JTUdye7bUuT9TdBPZLeBK9nBCA44JHRdpump",
-      "description": "Audacity Roadster"
-    },
-    {
       "url": "https://dexscreener.com/solana/5e8gpzhqxlkfvu6gb87ajlzmosqnbjbhqupxvcczpump",
       "tokenAddress": "5e8GPzhqxLKFVU6gb87aJLZMoSQnbjBhQupXvCCZpump",
       "description": "Faster than a speeding bullet. Stronger than gravity."
+    },
+    {
+      "url": "https://dexscreener.com/solana/3xmzhi86jtudye7buut9tdbpzlebk9nbca44jhrdpump",
+      "tokenAddress": "3xmzHi86JTUdye7bUuT9TdBPZLeBK9nBCA44JHRdpump",
+      "description": "Audacity Roadster"
     },
     {
       "url": "https://dexscreener.com/solana/cpdbvrkdqnnbzdclcmpto1u84ep8frfdft84lme6pump",
@@ -59,18 +59,18 @@
       "description": "Launch and trade tokens paired with stocks, crypto, stablecoins & more."
     },
     {
-      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
-      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
-    },
-    {
       "url": "https://dexscreener.com/solana/gr6qkxu7khfxvswyutqnlds958e76dpjeqpqnug9pump",
       "tokenAddress": "GR6QkXU7KhFxVsWYutqnLDS958e76dPjeQPQNUG9pump",
       "description": "$FARTSLA is fair-launched on Pumpfun, and it\u2019s the first electric car with real emissions. Zero emissions. Almost."
+    },
+    {
+      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
+      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     }
   ],
   "fearGreed": {
-    "value": 63,
+    "value": 55,
     "label": "Greed"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
