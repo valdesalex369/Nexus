@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-17T00:31:10.898479+00:00",
+  "at": "2026-10-17T05:01:49.366720+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81485.0,
-      "changePct": -0.9896201756336298,
+      "price": 81438.0,
+      "changePct": -0.8359264165093755,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2418.19,
-      "changePct": -0.9542669403890628,
+      "price": 2423.08,
+      "changePct": -0.955125769346207,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 104.26,
-      "changePct": -1.0675342779096848,
+      "price": 104.64,
+      "changePct": -1.0987260509772767,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 719.08,
-      "changePct": -1.390890367457049,
+      "price": 721.37,
+      "changePct": -1.121494348486534,
       "source": "CoinGecko"
     }
   ],
@@ -59,14 +59,14 @@
       "description": "Launch and trade tokens paired with stocks, crypto, stablecoins & more."
     },
     {
-      "url": "https://dexscreener.com/solana/gr6qkxu7khfxvswyutqnlds958e76dpjeqpqnug9pump",
-      "tokenAddress": "GR6QkXU7KhFxVsWYutqnLDS958e76dPjeQPQNUG9pump",
-      "description": "$FARTSLA is fair-launched on Pumpfun, and it\u2019s the first electric car with real emissions. Zero emissions. Almost."
+      "url": "https://dexscreener.com/solana/satozgjkh4eid9eqzyxwncnvn5aszrwzloubmx1shi1",
+      "tokenAddress": "SAtoZGJkh4Eid9EQZYXWnCNVn5asZrWZLouBMX1SHi1",
+      "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
-      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
+      "url": "https://dexscreener.com/solana/4jjqjdryd7xlcfmvirsz4gvtgu6gpzgbvaxn3rq9pump",
+      "tokenAddress": "4jjQjDRYd7xLcFMViRsz4GvtgU6gPZgbVaxN3Rq9pump",
+      "description": "$PONK \u2014 Pepe Bonk The unholy (and glorious) fusion of the two greatest memes to ever hit crypto. Pepe the Frog\u2019s chaotic"
     }
   ],
   "fearGreed": {
