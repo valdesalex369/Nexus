@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-17T09:24:51.597093+00:00",
+  "at": "2026-10-17T13:15:15.797145+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81615.0,
-      "changePct": -0.5669902824133763,
+      "price": 81396.0,
+      "changePct": -0.6847598090656346,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2432.4,
-      "changePct": -0.7890672266669162,
+      "price": 2420.52,
+      "changePct": -1.6813263700563927,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 104.91,
-      "changePct": -1.5753199274475747,
+      "price": 103.82,
+      "changePct": -1.5727492904457525,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 721.65,
-      "changePct": -1.1340423089537124,
+      "price": 718.38,
+      "changePct": -1.214306746408625,
       "source": "CoinGecko"
     }
   ],
@@ -59,14 +59,14 @@
       "description": "Launch and trade tokens paired with stocks, crypto, stablecoins & more."
     },
     {
-      "url": "https://dexscreener.com/solana/4jjqjdryd7xlcfmvirsz4gvtgu6gpzgbvaxn3rq9pump",
-      "tokenAddress": "4jjQjDRYd7xLcFMViRsz4GvtgU6gPZgbVaxN3Rq9pump",
-      "description": "$PONK \u2014 Pepe Bonk The unholy (and glorious) fusion of the two greatest memes to ever hit crypto. Pepe the Frog\u2019s chaotic"
-    },
-    {
       "url": "https://dexscreener.com/solana/gr6qkxu7khfxvswyutqnlds958e76dpjeqpqnug9pump",
       "tokenAddress": "GR6QkXU7KhFxVsWYutqnLDS958e76dPjeQPQNUG9pump",
       "description": "$FARTSLA is fair-launched on Pumpfun, and it\u2019s the first electric car with real emissions. Zero emissions. Almost."
+    },
+    {
+      "url": "https://dexscreener.com/solana/4jjqjdryd7xlcfmvirsz4gvtgu6gpzgbvaxn3rq9pump",
+      "tokenAddress": "4jjQjDRYd7xLcFMViRsz4GvtgU6gPZgbVaxN3Rq9pump",
+      "description": "$PONK \u2014 Pepe Bonk The unholy (and glorious) fusion of the two greatest memes to ever hit crypto. Pepe the Frog\u2019s chaotic"
     }
   ],
   "fearGreed": {
