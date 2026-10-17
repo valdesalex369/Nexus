@@ -1,42 +1,52 @@
 {
-  "at": "2026-10-17T21:29:07.824072+00:00",
+  "at": "2026-10-17T23:27:51.454318+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81289.0,
-      "changePct": -0.46958706612120915,
+      "price": 81213.0,
+      "changePct": -0.5004586375927812,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2408.5,
-      "changePct": -0.350863619723396,
+      "price": 2392.08,
+      "changePct": -1.2278865743306369,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.19,
-      "changePct": -1.0520398524349324,
+      "price": 103.04,
+      "changePct": -1.1422651103497723,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 717.3,
-      "changePct": -0.6565245669800334,
+      "price": 715.63,
+      "changePct": -0.8115961865548804,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/3nxfwmhmfqg8njfw5ag1ti2xacdczwz24e9skyk1pump",
+      "tokenAddress": "3NxfWMHmfQg8NJFW5AG1ti2xACdczWz24e9SKyk1pump",
+      "description": "Every coin you launch mints you an engine NFT that keeps 20% of that coin's fees forever."
+    },
+    {
+      "url": "https://dexscreener.com/solana/6o2oemwr9geem5acoi793f1xuqp4uoccmbrw2mzopump",
+      "tokenAddress": "6o2oeMWR9GeEm5acoi793f1XUQp4uoCcMBrw2mZopump",
+      "description": "Le Chaton Fat is a 9 fig meme \n\nJust needs to be done right"
+    },
     {
       "url": "https://dexscreener.com/solana/7npvxgxddkgthszcwov5mcp5opna4utpzrpynxdxpump",
       "tokenAddress": "7NPvxgxdDKgTHSzcWoV5mCp5opNA4uTpzrPynXDXpump",
       "description": "Professor Inu"
     },
     {
-      "url": "https://dexscreener.com/solana/2y1su9ntrrfmi3ebdzpcucbrqkta94h6cljkiylxjxoz",
-      "tokenAddress": "2Y1SU9ntRrfMi3EbDzPcUCBRqkTa94h6CLJKiyLxjxoz",
-      "description": "The iconic Pumpfun pill gets a spooky makeover! Halloween colors meet Pumpfun culture, bringing pumpkins, pumps, and pur"
+      "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
+      "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+      "description": "Glitch is a flamingo who found an ATM that never stops paying. Now everyone wants in. Infinite Money Glitch ($GLITCH) is"
     },
     {
       "url": "https://dexscreener.com/solana/4jjqjdryd7xlcfmvirsz4gvtgu6gpzgbvaxn3rq9pump",
@@ -57,16 +67,6 @@
       "url": "https://dexscreener.com/solana/bg35zgnesosw36cqv58kmahu82wfywzenyorniwmvent",
       "tokenAddress": "BG35ZgNeSoSw36cQv58kMahU82wfYwzeNYoRNiwMVent",
       "description": "Ventrion allows anyone to tokenize their existing or future Venture. This is the coin funding that mission."
-    },
-    {
-      "url": "https://dexscreener.com/solana/ggdt9qlfxumcfxghq82tx2onjepl5ss3xpxxiushpump",
-      "tokenAddress": "GgDt9qLFxumCfXGHq82Tx2onjepL5SS3xpXXiUshpump",
-      "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/jr963c1euwryk7tyaxii7mryjqr1zjhvyzuygvypump",
-      "tokenAddress": "jr963C1eUWRYk7TYAxii7MRyJqr1zJhVyZuYgVYpump",
-      "description": "Buy 7 or 30 days of a Meteora fee position's income and claim what actually comes in. Holding $CUTS opens the Pro Desk, "
     }
   ],
   "fearGreed": {
