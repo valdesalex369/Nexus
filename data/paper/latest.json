@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-18T06:37:25.508836+00:00",
+  "at": "2026-10-18T11:45:18.471698+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81688.0,
-      "changePct": 0.2352516603675398,
+      "price": 81957.0,
+      "changePct": 0.5854313844564478,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2412.42,
-      "changePct": -0.6857013905011206,
+      "price": 2414.13,
+      "changePct": -0.7398223617265193,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.68,
-      "changePct": -1.0319835892612148,
+      "price": 103.85,
+      "changePct": -0.7277462599021375,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 720.87,
-      "changePct": 0.004230282112110445,
+      "price": 722.17,
+      "changePct": 0.2259012688639375,
       "source": "CoinGecko"
     }
   ],
@@ -34,19 +34,9 @@
       "description": "Every coin you launch mints you an engine NFT that keeps 20% of that coin's fees forever."
     },
     {
-      "url": "https://dexscreener.com/solana/6o2oemwr9geem5acoi793f1xuqp4uoccmbrw2mzopump",
-      "tokenAddress": "6o2oeMWR9GeEm5acoi793f1XUQp4uoCcMBrw2mZopump",
-      "description": "Le Chaton Fat is a 9 fig meme \n\nJust needs to be done right"
-    },
-    {
-      "url": "https://dexscreener.com/solana/5x6qqvprpd1psftttje6sjffsqra21h1j3gzlmo2pump",
-      "tokenAddress": "5x6QQvpRpd1PsFTTTJe6sJFFSqrA21H1j3GZLmo2pump",
-      "description": "Everyone came for the movie\u2014Farting Tesla Roadster brought the special effects. \ud83d\ude97\ud83d\udca8\ud83c\udf7f"
-    },
-    {
-      "url": "https://dexscreener.com/solana/3t4bsglnaq1bhbp7ceftvzedrwmyjtuvc3ucter7pump",
-      "tokenAddress": "3t4BsgLNAQ1bHbP7CEFtvZeDrWMYJtuvC3Ucter7pump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/3a3qjns31yza6ung91zpopd7j3p1bdfbtj4anfappump",
+      "tokenAddress": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+      "description": "imanuel mucron"
     },
     {
       "url": "https://dexscreener.com/solana/7iym9cjpkknylvjfq4pyyjubk83dnqxtpdrrdf77pump",
@@ -54,19 +44,29 @@
       "description": "$IMOLEST \u2014 One More Thing\u2026\n\nThe forbidden Apple product.\n\nSteve Jobs gave the world Apple. Epstein gave the world a scan"
     },
     {
+      "url": "https://dexscreener.com/solana/3zxtzoumrxqaqs2cdrjnbvebf1tb12d5fwwmfa2npump",
+      "tokenAddress": "3zxtzoumrXqaqS2CDRjnbVEbf1tb12d5fWwMfa2Npump",
+      "description": "where every meow is a meme, every paw brings chaos, and cuteness rules the internet! \ud83d\ude39"
+    },
+    {
+      "url": "https://dexscreener.com/solana/6o2oemwr9geem5acoi793f1xuqp4uoccmbrw2mzopump",
+      "tokenAddress": "6o2oeMWR9GeEm5acoi793f1XUQp4uoCcMBrw2mZopump",
+      "description": "Le Chaton Fat is a 9 fig meme \n\nJust needs to be done right"
+    },
+    {
+      "url": "https://dexscreener.com/solana/3t4bsglnaq1bhbp7ceftvzedrwmyjtuvc3ucter7pump",
+      "tokenAddress": "3t4BsgLNAQ1bHbP7CEFtvZeDrWMYJtuvC3Ucter7pump",
+      "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/5x6qqvprpd1psftttje6sjffsqra21h1j3gzlmo2pump",
+      "tokenAddress": "5x6QQvpRpd1PsFTTTJe6sJFFSqrA21H1j3GZLmo2pump",
+      "description": "Everyone came for the movie\u2014Farting Tesla Roadster brought the special effects. \ud83d\ude97\ud83d\udca8\ud83c\udf7f"
+    },
+    {
       "url": "https://dexscreener.com/solana/dfbjcolnaf75gakpwb4c3tfymhcxmashiuwm3dhnpump",
       "tokenAddress": "DfBJCoLnaF75GaKPWB4c3TFyMHcXmAShiuWm3dHNpump",
       "description": "Koinu: The Final Inu, In the beginning, there was the dog.\nThen came the Inu\u2014Shiba, Doge, Kishu, and a thousand others t"
-    },
-    {
-      "url": "https://dexscreener.com/solana/7npvxgxddkgthszcwov5mcp5opna4utpzrpynxdxpump",
-      "tokenAddress": "7NPvxgxdDKgTHSzcWoV5mCp5opNA4uTpzrPynXDXpump",
-      "description": "Professor Inu"
-    },
-    {
-      "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
-      "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-      "description": "Glitch is a flamingo who found an ATM that never stops paying. Now everyone wants in. Infinite Money Glitch ($GLITCH) is"
     }
   ],
   "fearGreed": {
