@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-18T01:33:37.367590+00:00",
+  "at": "2026-10-18T06:37:25.508836+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81528.0,
-      "changePct": 0.0902477682992775,
+      "price": 81688.0,
+      "changePct": 0.2352516603675398,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2405.27,
-      "changePct": -0.5555147736684746,
+      "price": 2412.42,
+      "changePct": -0.6857013905011206,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.55,
-      "changePct": -0.8660568420025985,
+      "price": 103.68,
+      "changePct": -1.0319835892612148,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 718.63,
-      "changePct": -0.12759081991272878,
+      "price": 720.87,
+      "changePct": 0.004230282112110445,
       "source": "CoinGecko"
     }
   ],
@@ -34,14 +34,19 @@
       "description": "Every coin you launch mints you an engine NFT that keeps 20% of that coin's fees forever."
     },
     {
+      "url": "https://dexscreener.com/solana/6o2oemwr9geem5acoi793f1xuqp4uoccmbrw2mzopump",
+      "tokenAddress": "6o2oeMWR9GeEm5acoi793f1XUQp4uoCcMBrw2mZopump",
+      "description": "Le Chaton Fat is a 9 fig meme \n\nJust needs to be done right"
+    },
+    {
       "url": "https://dexscreener.com/solana/5x6qqvprpd1psftttje6sjffsqra21h1j3gzlmo2pump",
       "tokenAddress": "5x6QQvpRpd1PsFTTTJe6sJFFSqrA21H1j3GZLmo2pump",
       "description": "Everyone came for the movie\u2014Farting Tesla Roadster brought the special effects. \ud83d\ude97\ud83d\udca8\ud83c\udf7f"
     },
     {
-      "url": "https://dexscreener.com/solana/6o2oemwr9geem5acoi793f1xuqp4uoccmbrw2mzopump",
-      "tokenAddress": "6o2oeMWR9GeEm5acoi793f1XUQp4uoCcMBrw2mZopump",
-      "description": "Le Chaton Fat is a 9 fig meme \n\nJust needs to be done right"
+      "url": "https://dexscreener.com/solana/3t4bsglnaq1bhbp7ceftvzedrwmyjtuvc3ucter7pump",
+      "tokenAddress": "3t4BsgLNAQ1bHbP7CEFtvZeDrWMYJtuvC3Ucter7pump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/7iym9cjpkknylvjfq4pyyjubk83dnqxtpdrrdf77pump",
@@ -62,18 +67,13 @@
       "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
       "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
       "description": "Glitch is a flamingo who found an ATM that never stops paying. Now everyone wants in. Infinite Money Glitch ($GLITCH) is"
-    },
-    {
-      "url": "https://dexscreener.com/solana/4jjqjdryd7xlcfmvirsz4gvtgu6gpzgbvaxn3rq9pump",
-      "tokenAddress": "4jjQjDRYd7xLcFMViRsz4GvtgU6gPZgbVaxN3Rq9pump",
-      "description": "$PONK \u2014 Pepe Bonk The unholy (and glorious) fusion of the two greatest memes to ever hit crypto. Pepe the Frog\u2019s chaotic"
     }
   ],
   "fearGreed": {
     "value": 53,
     "label": "Neutral"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
