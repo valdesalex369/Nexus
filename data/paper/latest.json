@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-18T15:54:14.560042+00:00",
+  "at": "2026-10-18T18:39:42.703750+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81050.0,
-      "changePct": -0.2783817805248434,
+      "price": 81041.0,
+      "changePct": -0.53963204488393,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2375.51,
-      "changePct": -1.3054924187432937,
+      "price": 2359.81,
+      "changePct": -2.3234426205543173,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 102.01,
-      "changePct": -1.424779991930378,
+      "price": 102.0,
+      "changePct": -1.808780532457475,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 711.56,
-      "changePct": -0.5028838197899846,
+      "price": 710.71,
+      "changePct": -0.6030421206801703,
       "source": "CoinGecko"
     }
   ],
@@ -32,6 +32,11 @@
       "url": "https://dexscreener.com/solana/3nxfwmhmfqg8njfw5ag1ti2xacdczwz24e9skyk1pump",
       "tokenAddress": "3NxfWMHmfQg8NJFW5AG1ti2xACdczWz24e9SKyk1pump",
       "description": "Every coin you launch mints you an engine NFT that keeps 20% of that coin's fees forever."
+    },
+    {
+      "url": "https://dexscreener.com/solana/6ymzv1ngnqwbeocyfcnkmdqgr3enu3lrdpz3tjrvpump",
+      "tokenAddress": "6yMZv1NgnQWBeocyfCNKmdqGr3Enu3Lrdpz3TJRvpump",
+      "description": "Four wheels. One frozen pond. Zero good ideas. A ginger kitten lines up his next kickflip. The ice is already cracking u"
     },
     {
       "url": "https://dexscreener.com/solana/3a3qjns31yza6ung91zpopd7j3p1bdfbtj4anfappump",
@@ -62,11 +67,6 @@
       "url": "https://dexscreener.com/solana/3t4bsglnaq1bhbp7ceftvzedrwmyjtuvc3ucter7pump",
       "tokenAddress": "3t4BsgLNAQ1bHbP7CEFtvZeDrWMYJtuvC3Ucter7pump",
       "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/dfbjcolnaf75gakpwb4c3tfymhcxmashiuwm3dhnpump",
-      "tokenAddress": "DfBJCoLnaF75GaKPWB4c3TFyMHcXmAShiuWm3dHNpump",
-      "description": "Koinu: The Final Inu, In the beginning, there was the dog.\nThen came the Inu\u2014Shiba, Doge, Kishu, and a thousand others t"
     }
   ],
   "fearGreed": {
