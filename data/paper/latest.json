@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-17T23:27:51.454318+00:00",
+  "at": "2026-10-18T01:33:37.367590+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81213.0,
-      "changePct": -0.5004586375927812,
+      "price": 81528.0,
+      "changePct": 0.0902477682992775,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2392.08,
-      "changePct": -1.2278865743306369,
+      "price": 2405.27,
+      "changePct": -0.5555147736684746,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.04,
-      "changePct": -1.1422651103497723,
+      "price": 103.55,
+      "changePct": -0.8660568420025985,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 715.63,
-      "changePct": -0.8115961865548804,
+      "price": 718.63,
+      "changePct": -0.12759081991272878,
       "source": "CoinGecko"
     }
   ],
@@ -34,9 +34,24 @@
       "description": "Every coin you launch mints you an engine NFT that keeps 20% of that coin's fees forever."
     },
     {
+      "url": "https://dexscreener.com/solana/5x6qqvprpd1psftttje6sjffsqra21h1j3gzlmo2pump",
+      "tokenAddress": "5x6QQvpRpd1PsFTTTJe6sJFFSqrA21H1j3GZLmo2pump",
+      "description": "Everyone came for the movie\u2014Farting Tesla Roadster brought the special effects. \ud83d\ude97\ud83d\udca8\ud83c\udf7f"
+    },
+    {
       "url": "https://dexscreener.com/solana/6o2oemwr9geem5acoi793f1xuqp4uoccmbrw2mzopump",
       "tokenAddress": "6o2oeMWR9GeEm5acoi793f1XUQp4uoCcMBrw2mZopump",
       "description": "Le Chaton Fat is a 9 fig meme \n\nJust needs to be done right"
+    },
+    {
+      "url": "https://dexscreener.com/solana/7iym9cjpkknylvjfq4pyyjubk83dnqxtpdrrdf77pump",
+      "tokenAddress": "7iYM9cjpKKNyLvJfq4pYyjubk83dnqxtPDrRdf77pump",
+      "description": "$IMOLEST \u2014 One More Thing\u2026\n\nThe forbidden Apple product.\n\nSteve Jobs gave the world Apple. Epstein gave the world a scan"
+    },
+    {
+      "url": "https://dexscreener.com/solana/dfbjcolnaf75gakpwb4c3tfymhcxmashiuwm3dhnpump",
+      "tokenAddress": "DfBJCoLnaF75GaKPWB4c3TFyMHcXmAShiuWm3dHNpump",
+      "description": "Koinu: The Final Inu, In the beginning, there was the dog.\nThen came the Inu\u2014Shiba, Doge, Kishu, and a thousand others t"
     },
     {
       "url": "https://dexscreener.com/solana/7npvxgxddkgthszcwov5mcp5opna4utpzrpynxdxpump",
@@ -52,26 +67,11 @@
       "url": "https://dexscreener.com/solana/4jjqjdryd7xlcfmvirsz4gvtgu6gpzgbvaxn3rq9pump",
       "tokenAddress": "4jjQjDRYd7xLcFMViRsz4GvtgU6gPZgbVaxN3Rq9pump",
       "description": "$PONK \u2014 Pepe Bonk The unholy (and glorious) fusion of the two greatest memes to ever hit crypto. Pepe the Frog\u2019s chaotic"
-    },
-    {
-      "url": "https://dexscreener.com/solana/satozgjkh4eid9eqzyxwncnvn5aszrwzloubmx1shi1",
-      "tokenAddress": "SAtoZGJkh4Eid9EQZYXWnCNVn5asZrWZLouBMX1SHi1",
-      "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/crp1ceevfn9stca6rsu9sxaypjimxaps3wam2cifkfog",
-      "tokenAddress": "Crp1ceeVfN9STCA6rSu9sxAYpjimXApS3wam2cifkfog",
-      "description": "VOLLEY is the official token of volley (dot) fun, a launchpad on Solana and Robinhood Chain. Launch coins in minutes, tr"
-    },
-    {
-      "url": "https://dexscreener.com/solana/bg35zgnesosw36cqv58kmahu82wfywzenyorniwmvent",
-      "tokenAddress": "BG35ZgNeSoSw36cQv58kMahU82wfYwzeNYoRNiwMVent",
-      "description": "Ventrion allows anyone to tokenize their existing or future Venture. This is the coin funding that mission."
     }
   ],
   "fearGreed": {
-    "value": 55,
-    "label": "Greed"
+    "value": 53,
+    "label": "Neutral"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
