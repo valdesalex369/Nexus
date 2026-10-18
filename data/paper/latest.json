@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-18T11:45:18.471698+00:00",
+  "at": "2026-10-18T15:54:14.560042+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81957.0,
-      "changePct": 0.5854313844564478,
+      "price": 81050.0,
+      "changePct": -0.2783817805248434,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2414.13,
-      "changePct": -0.7398223617265193,
+      "price": 2375.51,
+      "changePct": -1.3054924187432937,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.85,
-      "changePct": -0.7277462599021375,
+      "price": 102.01,
+      "changePct": -1.424779991930378,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 722.17,
-      "changePct": 0.2259012688639375,
+      "price": 711.56,
+      "changePct": -0.5028838197899846,
       "source": "CoinGecko"
     }
   ],
@@ -54,14 +54,14 @@
       "description": "Le Chaton Fat is a 9 fig meme \n\nJust needs to be done right"
     },
     {
-      "url": "https://dexscreener.com/solana/3t4bsglnaq1bhbp7ceftvzedrwmyjtuvc3ucter7pump",
-      "tokenAddress": "3t4BsgLNAQ1bHbP7CEFtvZeDrWMYJtuvC3Ucter7pump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/5x6qqvprpd1psftttje6sjffsqra21h1j3gzlmo2pump",
       "tokenAddress": "5x6QQvpRpd1PsFTTTJe6sJFFSqrA21H1j3GZLmo2pump",
       "description": "Everyone came for the movie\u2014Farting Tesla Roadster brought the special effects. \ud83d\ude97\ud83d\udca8\ud83c\udf7f"
+    },
+    {
+      "url": "https://dexscreener.com/solana/3t4bsglnaq1bhbp7ceftvzedrwmyjtuvc3ucter7pump",
+      "tokenAddress": "3t4BsgLNAQ1bHbP7CEFtvZeDrWMYJtuvC3Ucter7pump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/dfbjcolnaf75gakpwb4c3tfymhcxmashiuwm3dhnpump",
@@ -73,7 +73,7 @@
     "value": 53,
     "label": "Neutral"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
