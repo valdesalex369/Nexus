@@ -1,42 +1,47 @@
 {
-  "at": "2026-10-19T15:39:24.513048+00:00",
+  "at": "2026-10-19T20:43:36.529887+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82133.0,
-      "changePct": 1.372064995960864,
+      "price": 81949.0,
+      "changePct": 1.4621535198329156,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2404.56,
-      "changePct": 1.3233551839438034,
+      "price": 2400.57,
+      "changePct": 2.4539064861917526,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 104.47,
-      "changePct": 2.5611415205240045,
+      "price": 104.49,
+      "changePct": 3.658239513891459,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 726.46,
-      "changePct": 1.961972326434123,
+      "price": 727.71,
+      "changePct": 2.974248035272208,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/6ymzv1ngnqwbeocyfcnkmdqgr3enu3lrdpz3tjrvpump",
-      "tokenAddress": "6yMZv1NgnQWBeocyfCNKmdqGr3Enu3Lrdpz3TJRvpump",
-      "description": "Four wheels. One frozen pond. Zero good ideas. A ginger kitten lines up his next kickflip. The ice is already cracking u"
-    },
-    {
       "url": "https://dexscreener.com/solana/ekosqw4ojfbxmej4qrnbh1qugfrtc3eok6nwnfkdpump",
       "tokenAddress": "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
       "description": "Every coin gets one AI founder"
+    },
+    {
+      "url": "https://dexscreener.com/solana/3qsd27nb3zyrmqbhlzh4pdeycadqeltjgyy2fp4apump",
+      "tokenAddress": "3qSd27nb3zyRmqbhLzH4PdeYcADqeLtjgYy2Fp4Apump",
+      "description": "\ud83d\udc15\ud83d\ude80 ELONDOG \u2014 A NEW ADVENTURE BEGINS.\n\nA fearless cyber Doge. A Cybertruck. One destination: MARS. \ud83d\udd34\n\nInspired by Elon\u2019s "
+    },
+    {
+      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
+      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
     },
     {
       "url": "https://dexscreener.com/solana/gapbqwldpjsxgr9jxxg1ajlnthuxg58dm2xukbi8pump",
@@ -44,9 +49,9 @@
       "description": "Avengers-level protests in France, live and unhinged."
     },
     {
-      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
-      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
+      "url": "https://dexscreener.com/solana/5rqqbqssa5fo2znzmudv3vgd6ukfe7k7wafys9n9pump",
+      "tokenAddress": "5rqqBQSsA5fo2znzmudV3vGD6uKfe7K7wafYS9N9pump",
+      "description": "The first ever vending machine that pays you."
     },
     {
       "url": "https://dexscreener.com/solana/4ewkxtsrpvxmahm8ecrddfk3gjr2f2jgtmqqqwnqpump",
@@ -62,11 +67,6 @@
       "url": "https://dexscreener.com/solana/3rsfvix6buops8n3fdg1pkdczirntxkjpgjjzouzpump",
       "tokenAddress": "3rSfVix6BUoPS8n3fdG1pKdcziRNtxkjpgjJzoUZpump",
       "description": "Sixteen traders work the Vox floor. Each reads one live market and shouts every trade it prints on Pacifica. Point at an"
-    },
-    {
-      "url": "https://dexscreener.com/solana/4qh8a5gxvrmzgprfjxasc6u9haoezkeuqxy2dpb7pump",
-      "tokenAddress": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
-      "description": "Token based on Grok's Official Mascot \ud83d\udc7d | Named & Confirmed by Grok Himself 4/17/2025 \ud83d\udc9a Groklet is described as a curiou"
     }
   ],
   "fearGreed": {
