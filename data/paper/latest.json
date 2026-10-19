@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-19T07:49:59.735773+00:00",
+  "at": "2026-10-19T15:39:24.513048+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82681.0,
-      "changePct": 1.3202726427290974,
+      "price": 82133.0,
+      "changePct": 1.372064995960864,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2430.64,
-      "changePct": 0.9637525227180954,
+      "price": 2404.56,
+      "changePct": 1.3233551839438034,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 105.53,
-      "changePct": 2.2744811272303056,
+      "price": 104.47,
+      "changePct": 2.5611415205240045,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 726.55,
-      "changePct": 0.884261400089881,
+      "price": 726.46,
+      "changePct": 1.961972326434123,
       "source": "CoinGecko"
     }
   ],
@@ -39,34 +39,34 @@
       "description": "Every coin gets one AI founder"
     },
     {
-      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
-      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
-    },
-    {
-      "url": "https://dexscreener.com/solana/6azcefnhapdhghhhh4nard3jxgdhng54fxjpe3napump",
-      "tokenAddress": "6AZCEfnhaPDHghHhH4nArD3jXgdHnG54FXJPE3nApump",
-      "description": "sir"
-    },
-    {
-      "url": "https://dexscreener.com/solana/3zxtzoumrxqaqs2cdrjnbvebf1tb12d5fwwmfa2npump",
-      "tokenAddress": "3zxtzoumrXqaqS2CDRjnbVEbf1tb12d5fWwMfa2Npump",
-      "description": "where every meow is a meme, every paw brings chaos, and cuteness rules the internet! \ud83d\ude39"
-    },
-    {
-      "url": "https://dexscreener.com/solana/3a3qjns31yza6ung91zpopd7j3p1bdfbtj4anfappump",
-      "tokenAddress": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
-      "description": "imanuel mucron"
-    },
-    {
       "url": "https://dexscreener.com/solana/gapbqwldpjsxgr9jxxg1ajlnthuxg58dm2xukbi8pump",
       "tokenAddress": "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump",
       "description": "Avengers-level protests in France, live and unhinged."
     },
     {
+      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
+      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
+    },
+    {
       "url": "https://dexscreener.com/solana/4ewkxtsrpvxmahm8ecrddfk3gjr2f2jgtmqqqwnqpump",
       "tokenAddress": "4EwkXtSRpVxMAHM8ecRDdfK3gjR2F2JgTmqqqwNQpump",
       "description": "In the dark underworld of crypto, where most traders get rekt and disappear\u2026 there is only one organization that never l"
+    },
+    {
+      "url": "https://dexscreener.com/solana/9mbi6hl2omjfeq5jindldf7zeamxvusbssu3knm9pump",
+      "tokenAddress": "9mBi6hL2omjfeQ5JiNdLDf7zEAmXVuSBsSU3kNm9pump",
+      "description": "Echo reads Solana wallet behavior and scores it: who is accumulating, which traders the market follows, and where smart "
+    },
+    {
+      "url": "https://dexscreener.com/solana/3rsfvix6buops8n3fdg1pkdczirntxkjpgjjzouzpump",
+      "tokenAddress": "3rSfVix6BUoPS8n3fdG1pKdcziRNtxkjpgjJzoUZpump",
+      "description": "Sixteen traders work the Vox floor. Each reads one live market and shouts every trade it prints on Pacifica. Point at an"
+    },
+    {
+      "url": "https://dexscreener.com/solana/4qh8a5gxvrmzgprfjxasc6u9haoezkeuqxy2dpb7pump",
+      "tokenAddress": "4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump",
+      "description": "Token based on Grok's Official Mascot \ud83d\udc7d | Named & Confirmed by Grok Himself 4/17/2025 \ud83d\udc9a Groklet is described as a curiou"
     }
   ],
   "fearGreed": {
