@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-19T01:46:36.140149+00:00",
+  "at": "2026-10-19T07:49:59.735773+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82444.0,
-      "changePct": 0.8358646647359618,
+      "price": 82681.0,
+      "changePct": 1.3202726427290974,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2425.04,
-      "changePct": 0.3806293512770569,
+      "price": 2430.64,
+      "changePct": 0.9637525227180954,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 104.77,
-      "changePct": 0.6924751817031407,
+      "price": 105.53,
+      "changePct": 2.2744811272303056,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 725.55,
-      "changePct": 0.66492244560876,
+      "price": 726.55,
+      "changePct": 0.884261400089881,
       "source": "CoinGecko"
     }
   ],
@@ -37,6 +37,11 @@
       "url": "https://dexscreener.com/solana/ekosqw4ojfbxmej4qrnbh1qugfrtc3eok6nwnfkdpump",
       "tokenAddress": "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
       "description": "Every coin gets one AI founder"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
+      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
     },
     {
       "url": "https://dexscreener.com/solana/6azcefnhapdhghhhh4nard3jxgdhng54fxjpe3napump",
@@ -54,19 +59,14 @@
       "description": "imanuel mucron"
     },
     {
-      "url": "https://dexscreener.com/solana/3t4bsglnaq1bhbp7ceftvzedrwmyjtuvc3ucter7pump",
-      "tokenAddress": "3t4BsgLNAQ1bHbP7CEFtvZeDrWMYJtuvC3Ucter7pump",
-      "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
-      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
-    },
-    {
       "url": "https://dexscreener.com/solana/gapbqwldpjsxgr9jxxg1ajlnthuxg58dm2xukbi8pump",
       "tokenAddress": "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump",
       "description": "Avengers-level protests in France, live and unhinged."
+    },
+    {
+      "url": "https://dexscreener.com/solana/4ewkxtsrpvxmahm8ecrddfk3gjr2f2jgtmqqqwnqpump",
+      "tokenAddress": "4EwkXtSRpVxMAHM8ecRDdfK3gjR2F2JgTmqqqwNQpump",
+      "description": "In the dark underworld of crypto, where most traders get rekt and disappear\u2026 there is only one organization that never l"
     }
   ],
   "fearGreed": {
