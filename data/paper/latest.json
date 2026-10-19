@@ -1,37 +1,37 @@
 {
-  "at": "2026-10-19T20:43:36.529887+00:00",
+  "at": "2026-10-19T23:57:44.284726+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81949.0,
-      "changePct": 1.4621535198329156,
+      "price": 81902.0,
+      "changePct": -0.11986658563714328,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2400.57,
-      "changePct": 2.4539064861917526,
+      "price": 2406.14,
+      "changePct": -0.11559931876705776,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 104.49,
-      "changePct": 3.658239513891459,
+      "price": 104.97,
+      "changePct": 0.8676273173941667,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 727.71,
-      "changePct": 2.974248035272208,
+      "price": 730.96,
+      "changePct": 1.1752850958418977,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/ekosqw4ojfbxmej4qrnbh1qugfrtc3eok6nwnfkdpump",
-      "tokenAddress": "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
-      "description": "Every coin gets one AI founder"
+      "url": "https://dexscreener.com/solana/aclefat6yx7tpc8tafagpfzbvw42aowmixejakn1pump",
+      "tokenAddress": "AcLEFAt6YX7tpC8tafagpfZbVw42aowmiXEJaKN1pump",
+      "description": "Kim is dying"
     },
     {
       "url": "https://dexscreener.com/solana/3qsd27nb3zyrmqbhlzh4pdeycadqeltjgyy2fp4apump",
@@ -39,14 +39,9 @@
       "description": "\ud83d\udc15\ud83d\ude80 ELONDOG \u2014 A NEW ADVENTURE BEGINS.\n\nA fearless cyber Doge. A Cybertruck. One destination: MARS. \ud83d\udd34\n\nInspired by Elon\u2019s "
     },
     {
-      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
-      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
-    },
-    {
-      "url": "https://dexscreener.com/solana/gapbqwldpjsxgr9jxxg1ajlnthuxg58dm2xukbi8pump",
-      "tokenAddress": "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump",
-      "description": "Avengers-level protests in France, live and unhinged."
+      "url": "https://dexscreener.com/solana/ekosqw4ojfbxmej4qrnbh1qugfrtc3eok6nwnfkdpump",
+      "tokenAddress": "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
+      "description": "Every coin gets one AI founder"
     },
     {
       "url": "https://dexscreener.com/solana/5rqqbqssa5fo2znzmudv3vgd6ukfe7k7wafys9n9pump",
@@ -67,6 +62,11 @@
       "url": "https://dexscreener.com/solana/3rsfvix6buops8n3fdg1pkdczirntxkjpgjjzouzpump",
       "tokenAddress": "3rSfVix6BUoPS8n3fdG1pKdcziRNtxkjpgjJzoUZpump",
       "description": "Sixteen traders work the Vox floor. Each reads one live market and shouts every trade it prints on Pacifica. Point at an"
+    },
+    {
+      "url": "https://dexscreener.com/solana/ducyudof7nnt2vpqhqa8dbz4kf524fdf8iadqmsupump",
+      "tokenAddress": "DUcYuDof7Nnt2vpqHQA8dbz4kf524fDf8iAdQmsUpump",
+      "description": "broom cat"
     }
   ],
   "fearGreed": {
