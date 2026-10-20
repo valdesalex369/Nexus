@@ -1,33 +1,38 @@
 {
-  "at": "2026-10-20T15:07:45.999343+00:00",
+  "at": "2026-10-20T19:18:29.587740+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82962.0,
-      "changePct": 0.9480846617986445,
+      "price": 82486.0,
+      "changePct": 0.7765090076762172,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2459.66,
-      "changePct": 2.203518111533673,
+      "price": 2434.6,
+      "changePct": 1.5566059503557514,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 106.96,
-      "changePct": 2.231833985540952,
+      "price": 105.79,
+      "changePct": 1.7930578125475964,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 736.49,
-      "changePct": 1.386218209639215,
+      "price": 737.16,
+      "changePct": 1.511034976895162,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
+      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
+    },
     {
       "url": "https://dexscreener.com/solana/ehpugw1ghe46beysaa7chvozhwyometbp1ak1q7jpump",
       "tokenAddress": "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
@@ -57,11 +62,6 @@
       "url": "https://dexscreener.com/solana/dz4dzflbmthsz9skld8oao4gmt4sm8bqsupsjrbzpump",
       "tokenAddress": "DZ4DzfLBMthSZ9SkLd8oAo4gmT4sm8BQSUpSJrbzpump",
       "description": "Create a community token and pair it with SOL, stablecoins, or tokenized real-world assets. One fair launch flow, from b"
-    },
-    {
-      "url": "https://dexscreener.com/solana/5rqqbqssa5fo2znzmudv3vgd6ukfe7k7wafys9n9pump",
-      "tokenAddress": "5rqqBQSsA5fo2znzmudV3vGD6uKfe7K7wafYS9N9pump",
-      "description": "The first ever vending machine that pays you."
     },
     {
       "url": "https://dexscreener.com/solana/7xbdvqzzfywpbz7vshzwzwd7ms1sg9f9uq8yihqapump",
