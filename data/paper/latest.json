@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-20T04:54:58.048464+00:00",
+  "at": "2026-10-20T10:06:44.717872+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81984.0,
-      "changePct": -0.9247985674135817,
+      "price": 81470.0,
+      "changePct": -1.5958834189181488,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2408.96,
-      "changePct": -0.787473364924386,
+      "price": 2383.95,
+      "changePct": -2.119924325513857,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 105.07,
-      "changePct": -0.5774739993697021,
+      "price": 103.96,
+      "changePct": -1.4139223131173833,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 730.48,
-      "changePct": 0.33052456255665563,
+      "price": 727.5,
+      "changePct": 0.22258405790407543,
       "source": "CoinGecko"
     }
   ],
@@ -39,19 +39,9 @@
       "description": "10,000x on solana. moon or dust.\n\ndust your dead bags and give them one last shot. get dusted? you get ASH, pays you USD"
     },
     {
-      "url": "https://dexscreener.com/solana/3qsd27nb3zyrmqbhlzh4pdeycadqeltjgyy2fp4apump",
-      "tokenAddress": "3qSd27nb3zyRmqbhLzH4PdeYcADqeLtjgYy2Fp4Apump",
-      "description": "\ud83d\udc15\ud83d\ude80 ELONDOG \u2014 A NEW ADVENTURE BEGINS.\n\nA fearless cyber Doge. A Cybertruck. One destination: MARS. \ud83d\udd34\n\nInspired by Elon\u2019s "
-    },
-    {
       "url": "https://dexscreener.com/solana/ekosqw4ojfbxmej4qrnbh1qugfrtc3eok6nwnfkdpump",
       "tokenAddress": "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
       "description": "Every coin gets one AI founder"
-    },
-    {
-      "url": "https://dexscreener.com/solana/5rqqbqssa5fo2znzmudv3vgd6ukfe7k7wafys9n9pump",
-      "tokenAddress": "5rqqBQSsA5fo2znzmudV3vGD6uKfe7K7wafYS9N9pump",
-      "description": "The first ever vending machine that pays you."
     },
     {
       "url": "https://dexscreener.com/solana/cv37zbhxdgza5cgeppjhshexz9jpslncwuaqrbgcpump",
@@ -64,9 +54,19 @@
       "description": "Create a community token and pair it with SOL, stablecoins, or tokenized real-world assets. One fair launch flow, from b"
     },
     {
+      "url": "https://dexscreener.com/solana/5rqqbqssa5fo2znzmudv3vgd6ukfe7k7wafys9n9pump",
+      "tokenAddress": "5rqqBQSsA5fo2znzmudV3vGD6uKfe7K7wafYS9N9pump",
+      "description": "The first ever vending machine that pays you."
+    },
+    {
       "url": "https://dexscreener.com/solana/ducyudof7nnt2vpqhqa8dbz4kf524fdf8iadqmsupump",
       "tokenAddress": "DUcYuDof7Nnt2vpqHQA8dbz4kf524fDf8iAdQmsUpump",
       "description": "broom cat"
+    },
+    {
+      "url": "https://dexscreener.com/solana/z1yjh3v5cvxk4hkusjbtjbbcn9qy8surnrb5t3kpump",
+      "tokenAddress": "z1YjH3V5CVxK4HkUSJbTJbbCN9qY8SURNrB5T3kpump",
+      "description": "Privacy-first agents built on Solana"
     }
   ],
   "fearGreed": {
