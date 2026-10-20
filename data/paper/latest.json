@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-19T23:57:44.284726+00:00",
+  "at": "2026-10-20T04:54:58.048464+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81902.0,
-      "changePct": -0.11986658563714328,
+      "price": 81984.0,
+      "changePct": -0.9247985674135817,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2406.14,
-      "changePct": -0.11559931876705776,
+      "price": 2408.96,
+      "changePct": -0.787473364924386,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 104.97,
-      "changePct": 0.8676273173941667,
+      "price": 105.07,
+      "changePct": -0.5774739993697021,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 730.96,
-      "changePct": 1.1752850958418977,
+      "price": 730.48,
+      "changePct": 0.33052456255665563,
       "source": "CoinGecko"
     }
   ],
@@ -32,6 +32,11 @@
       "url": "https://dexscreener.com/solana/aclefat6yx7tpc8tafagpfzbvw42aowmixejakn1pump",
       "tokenAddress": "AcLEFAt6YX7tpC8tafagpfZbVw42aowmiXEJaKN1pump",
       "description": "Kim is dying"
+    },
+    {
+      "url": "https://dexscreener.com/solana/5org5hza3tq3ps5lhyzqfzkjhokhf73awc1vzzcmpump",
+      "tokenAddress": "5org5Hza3TQ3ps5LHYzQfZkJhokHF73AWc1vZZcmpump",
+      "description": "10,000x on solana. moon or dust.\n\ndust your dead bags and give them one last shot. get dusted? you get ASH, pays you USD"
     },
     {
       "url": "https://dexscreener.com/solana/3qsd27nb3zyrmqbhlzh4pdeycadqeltjgyy2fp4apump",
@@ -49,19 +54,14 @@
       "description": "The first ever vending machine that pays you."
     },
     {
-      "url": "https://dexscreener.com/solana/4ewkxtsrpvxmahm8ecrddfk3gjr2f2jgtmqqqwnqpump",
-      "tokenAddress": "4EwkXtSRpVxMAHM8ecRDdfK3gjR2F2JgTmqqqwNQpump",
-      "description": "In the dark underworld of crypto, where most traders get rekt and disappear\u2026 there is only one organization that never l"
+      "url": "https://dexscreener.com/solana/cv37zbhxdgza5cgeppjhshexz9jpslncwuaqrbgcpump",
+      "tokenAddress": "Cv37ZBhXDgza5cgePpjHshEXz9JPsLNcwUAQrBgcpump",
+      "description": "Monero dog meme from an OG Monero Website. Real lore."
     },
     {
-      "url": "https://dexscreener.com/solana/9mbi6hl2omjfeq5jindldf7zeamxvusbssu3knm9pump",
-      "tokenAddress": "9mBi6hL2omjfeQ5JiNdLDf7zEAmXVuSBsSU3kNm9pump",
-      "description": "Echo reads Solana wallet behavior and scores it: who is accumulating, which traders the market follows, and where smart "
-    },
-    {
-      "url": "https://dexscreener.com/solana/3rsfvix6buops8n3fdg1pkdczirntxkjpgjjzouzpump",
-      "tokenAddress": "3rSfVix6BUoPS8n3fdG1pKdcziRNtxkjpgjJzoUZpump",
-      "description": "Sixteen traders work the Vox floor. Each reads one live market and shouts every trade it prints on Pacifica. Point at an"
+      "url": "https://dexscreener.com/solana/dz4dzflbmthsz9skld8oao4gmt4sm8bqsupsjrbzpump",
+      "tokenAddress": "DZ4DzfLBMthSZ9SkLd8oAo4gmT4sm8BQSUpSJrbzpump",
+      "description": "Create a community token and pair it with SOL, stablecoins, or tokenized real-world assets. One fair launch flow, from b"
     },
     {
       "url": "https://dexscreener.com/solana/ducyudof7nnt2vpqhqa8dbz4kf524fdf8iadqmsupump",
@@ -70,10 +70,10 @@
     }
   ],
   "fearGreed": {
-    "value": 59,
+    "value": 55,
     "label": "Greed"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
