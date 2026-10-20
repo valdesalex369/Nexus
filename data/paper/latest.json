@@ -1,33 +1,38 @@
 {
-  "at": "2026-10-20T10:06:44.717872+00:00",
+  "at": "2026-10-20T15:07:45.999343+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81470.0,
-      "changePct": -1.5958834189181488,
+      "price": 82962.0,
+      "changePct": 0.9480846617986445,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2383.95,
-      "changePct": -2.119924325513857,
+      "price": 2459.66,
+      "changePct": 2.203518111533673,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.96,
-      "changePct": -1.4139223131173833,
+      "price": 106.96,
+      "changePct": 2.231833985540952,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 727.5,
-      "changePct": 0.22258405790407543,
+      "price": 736.49,
+      "changePct": 1.386218209639215,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/ehpugw1ghe46beysaa7chvozhwyometbp1ak1q7jpump",
+      "tokenAddress": "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
+      "description": "He got his hands on the money. Now he won't let go. A tiny capuchin with a firm grip and absolutely no plans to share."
+    },
     {
       "url": "https://dexscreener.com/solana/aclefat6yx7tpc8tafagpfzbvw42aowmixejakn1pump",
       "tokenAddress": "AcLEFAt6YX7tpC8tafagpfZbVw42aowmiXEJaKN1pump",
@@ -59,21 +64,16 @@
       "description": "The first ever vending machine that pays you."
     },
     {
-      "url": "https://dexscreener.com/solana/ducyudof7nnt2vpqhqa8dbz4kf524fdf8iadqmsupump",
-      "tokenAddress": "DUcYuDof7Nnt2vpqHQA8dbz4kf524fDf8iAdQmsUpump",
-      "description": "broom cat"
-    },
-    {
-      "url": "https://dexscreener.com/solana/z1yjh3v5cvxk4hkusjbtjbbcn9qy8surnrb5t3kpump",
-      "tokenAddress": "z1YjH3V5CVxK4HkUSJbTJbbCN9qY8SURNrB5T3kpump",
-      "description": "Privacy-first agents built on Solana"
+      "url": "https://dexscreener.com/solana/7xbdvqzzfywpbz7vshzwzwd7ms1sg9f9uq8yihqapump",
+      "tokenAddress": "7XBdVqzZFYwpBz7VshzWZWd7ms1sG9f9UQ8YiHqapump",
+      "description": "super pika"
     }
   ],
   "fearGreed": {
     "value": 55,
     "label": "Greed"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
