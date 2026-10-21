@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-21T06:04:07.858469+00:00",
+  "at": "2026-10-21T11:54:34.304531+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82594.0,
-      "changePct": 1.195006846905041,
+      "price": 83470.0,
+      "changePct": 2.4656406003184514,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2436.91,
-      "changePct": 1.8569553964050876,
+      "price": 2468.0,
+      "changePct": 3.5367809157863674,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 105.62,
-      "changePct": 1.2562928312278727,
+      "price": 106.87,
+      "changePct": 2.722154635410905,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 742.24,
-      "changePct": 1.8923339304985576,
+      "price": 746.36,
+      "changePct": 2.5073111111017226,
       "source": "CoinGecko"
     }
   ],
@@ -54,11 +54,6 @@
       "description": "super pika"
     },
     {
-      "url": "https://dexscreener.com/solana/bdxflfcbde8yvpbvvmmgtduqcdesaqvum5xlxguc2s5t",
-      "tokenAddress": "BdXfLfcbDE8YvpbvvmmGTduqcDesaQVUm5xLxgUc2S5t",
-      "description": "viral meme. 10M+ views. we\u2019re all texcat.\neverything is fine.\u2122"
-    },
-    {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
@@ -67,6 +62,11 @@
       "url": "https://dexscreener.com/solana/wsb2aewvqrtz3dcufa6yd89aw3qu1gjlscujlnyfery",
       "tokenAddress": "WSb2aEwVqrtZ3DCufa6yd89Aw3qU1GJLScuJLNYFERY",
       "description": "Stablecoin FX at the Pyth rate."
+    },
+    {
+      "url": "https://dexscreener.com/solana/amus3kcheipzwtzmefruzw6dr9ymykswu8rgboaupump",
+      "tokenAddress": "AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump",
+      "description": "KIMCHI BOSS"
     }
   ],
   "fearGreed": {
