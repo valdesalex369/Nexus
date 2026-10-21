@@ -1,47 +1,52 @@
 {
-  "at": "2026-10-21T11:54:34.304531+00:00",
+  "at": "2026-10-21T17:15:29.986196+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 83470.0,
-      "changePct": 2.4656406003184514,
+      "price": 84347.0,
+      "changePct": 1.9632441898968838,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2468.0,
-      "changePct": 3.5367809157863674,
+      "price": 2502.89,
+      "changePct": 2.181344324229368,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 106.87,
-      "changePct": 2.722154635410905,
+      "price": 107.92,
+      "changePct": 1.4123054985669132,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 746.36,
-      "changePct": 2.5073111111017226,
+      "price": 748.81,
+      "changePct": 1.7042243558735288,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
-      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
-    },
     {
       "url": "https://dexscreener.com/solana/7thgkgtk1rp1utlpwuzeuu9vakedtmozzuyps6rgpump",
       "tokenAddress": "7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump",
       "description": "Kimchi Official Coin"
     },
     {
-      "url": "https://dexscreener.com/solana/ehpugw1ghe46beysaa7chvozhwyometbp1ak1q7jpump",
-      "tokenAddress": "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
-      "description": "He got his hands on the money. Now he won't let go. A tiny capuchin with a firm grip and absolutely no plans to share."
+      "url": "https://dexscreener.com/solana/3jee9dctw17ncgzeks5zapv4qgqtjp6tjahgkndcpump",
+      "tokenAddress": "3JEe9dCTw17NCGzeKS5ZApv4qGQTjp6TJahGkndcpump",
+      "description": "Aura President."
+    },
+    {
+      "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
+      "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+      "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
+    },
+    {
+      "url": "https://dexscreener.com/solana/52ziihpfjboadzvtyczfixdpuumgd9b5ysgz6hxapump",
+      "tokenAddress": "52ziiHpfjBoaDZvTYczFiXdpuUMGD9B5YSGz6Hxapump",
+      "description": "KimchiWeen paired with Kimchi! 15% supply sent to Kimchi"
     },
     {
       "url": "https://dexscreener.com/solana/4woperxtkhjzaansywo9bvvycgj7q7uxj38q6eocpump",
@@ -49,9 +54,9 @@
       "description": "Pok\u00e9mon nostalgia meets meme coin madness. Welcome to Pokecity! \u26a1"
     },
     {
-      "url": "https://dexscreener.com/solana/7xbdvqzzfywpbz7vshzwzwd7ms1sg9f9uq8yihqapump",
-      "tokenAddress": "7XBdVqzZFYwpBz7VshzWZWd7ms1sG9f9UQ8YiHqapump",
-      "description": "super pika"
+      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
+      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
@@ -59,14 +64,9 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/wsb2aewvqrtz3dcufa6yd89aw3qu1gjlscujlnyfery",
-      "tokenAddress": "WSb2aEwVqrtZ3DCufa6yd89Aw3qU1GJLScuJLNYFERY",
-      "description": "Stablecoin FX at the Pyth rate."
-    },
-    {
-      "url": "https://dexscreener.com/solana/amus3kcheipzwtzmefruzw6dr9ymykswu8rgboaupump",
-      "tokenAddress": "AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump",
-      "description": "KIMCHI BOSS"
+      "url": "https://dexscreener.com/solana/ac4upaytpinppwxq7cqtznrvtph3yec9md8ojlo4pump",
+      "tokenAddress": "Ac4UPAYTpiNPpwXQ7cqTZnRVtPH3yeC9md8oJLo4pump",
+      "description": "chud cat"
     }
   ],
   "fearGreed": {
