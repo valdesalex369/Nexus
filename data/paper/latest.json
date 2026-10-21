@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-21T01:01:55.454785+00:00",
+  "at": "2026-10-21T06:04:07.858469+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82967.0,
-      "changePct": 1.634135758923816,
+      "price": 82594.0,
+      "changePct": 1.195006846905041,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2451.19,
-      "changePct": 2.2368127947529755,
+      "price": 2436.91,
+      "changePct": 1.8569553964050876,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 106.56,
-      "changePct": 1.8668534950249924,
+      "price": 105.62,
+      "changePct": 1.2562928312278727,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 742.61,
-      "changePct": 1.907181969342183,
+      "price": 742.24,
+      "changePct": 1.8923339304985576,
       "source": "CoinGecko"
     }
   ],
@@ -44,19 +44,9 @@
       "description": "He got his hands on the money. Now he won't let go. A tiny capuchin with a firm grip and absolutely no plans to share."
     },
     {
-      "url": "https://dexscreener.com/solana/5org5hza3tq3ps5lhyzqfzkjhokhf73awc1vzzcmpump",
-      "tokenAddress": "5org5Hza3TQ3ps5LHYzQfZkJhokHF73AWc1vZZcmpump",
-      "description": "10,000x on solana. moon or dust.\n\ndust your dead bags and give them one last shot. get dusted? you get ASH, pays you USD"
-    },
-    {
-      "url": "https://dexscreener.com/solana/cv37zbhxdgza5cgeppjhshexz9jpslncwuaqrbgcpump",
-      "tokenAddress": "Cv37ZBhXDgza5cgePpjHshEXz9JPsLNcwUAQrBgcpump",
-      "description": "Monero dog meme from an OG Monero Website. Real lore."
-    },
-    {
-      "url": "https://dexscreener.com/solana/dz4dzflbmthsz9skld8oao4gmt4sm8bqsupsjrbzpump",
-      "tokenAddress": "DZ4DzfLBMthSZ9SkLd8oAo4gmT4sm8BQSUpSJrbzpump",
-      "description": "Create a community token and pair it with SOL, stablecoins, or tokenized real-world assets. One fair launch flow, from b"
+      "url": "https://dexscreener.com/solana/4woperxtkhjzaansywo9bvvycgj7q7uxj38q6eocpump",
+      "tokenAddress": "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump",
+      "description": "Pok\u00e9mon nostalgia meets meme coin madness. Welcome to Pokecity! \u26a1"
     },
     {
       "url": "https://dexscreener.com/solana/7xbdvqzzfywpbz7vshzwzwd7ms1sg9f9uq8yihqapump",
@@ -64,9 +54,19 @@
       "description": "super pika"
     },
     {
-      "url": "https://dexscreener.com/solana/4woperxtkhjzaansywo9bvvycgj7q7uxj38q6eocpump",
-      "tokenAddress": "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump",
-      "description": "Pok\u00e9mon nostalgia meets meme coin madness. Welcome to Pokecity! \u26a1"
+      "url": "https://dexscreener.com/solana/bdxflfcbde8yvpbvvmmgtduqcdesaqvum5xlxguc2s5t",
+      "tokenAddress": "BdXfLfcbDE8YvpbvvmmGTduqcDesaQVUm5xLxgUc2S5t",
+      "description": "viral meme. 10M+ views. we\u2019re all texcat.\neverything is fine.\u2122"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
+      "url": "https://dexscreener.com/solana/wsb2aewvqrtz3dcufa6yd89aw3qu1gjlscujlnyfery",
+      "tokenAddress": "WSb2aEwVqrtZ3DCufa6yd89Aw3qU1GJLScuJLNYFERY",
+      "description": "Stablecoin FX at the Pyth rate."
     }
   ],
   "fearGreed": {
