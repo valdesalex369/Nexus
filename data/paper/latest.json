@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-21T17:15:29.986196+00:00",
+  "at": "2026-10-21T20:54:25.415709+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84347.0,
-      "changePct": 1.9632441898968838,
+      "price": 84681.0,
+      "changePct": 2.388726842341009,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2502.89,
-      "changePct": 2.181344324229368,
+      "price": 2492.3,
+      "changePct": 1.9784981142698128,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 107.92,
-      "changePct": 1.4123054985669132,
+      "price": 108.13,
+      "changePct": 1.5372221801526311,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 748.81,
-      "changePct": 1.7042243558735288,
+      "price": 749.14,
+      "changePct": 1.3630293330474623,
       "source": "CoinGecko"
     }
   ],
@@ -32,6 +32,11 @@
       "url": "https://dexscreener.com/solana/7thgkgtk1rp1utlpwuzeuu9vakedtmozzuyps6rgpump",
       "tokenAddress": "7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump",
       "description": "Kimchi Official Coin"
+    },
+    {
+      "url": "https://dexscreener.com/solana/gne7e774tkgyxmmzp36ofhnurruz15h4e1le1xekpump",
+      "tokenAddress": "GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump",
+      "description": "Kimchi-inspired. Bull-built. Private jets, heavy wrists, unlimited aura."
     },
     {
       "url": "https://dexscreener.com/solana/3jee9dctw17ncgzeks5zapv4qgqtjp6tjahgkndcpump",
@@ -54,19 +59,14 @@
       "description": "Pok\u00e9mon nostalgia meets meme coin madness. Welcome to Pokecity! \u26a1"
     },
     {
-      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
-      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
-    },
-    {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/ac4upaytpinppwxq7cqtznrvtph3yec9md8ojlo4pump",
-      "tokenAddress": "Ac4UPAYTpiNPpwXQ7cqTZnRVtPH3yeC9md8oJLo4pump",
-      "description": "chud cat"
+      "url": "https://dexscreener.com/solana/f9yz51qzpvs5fwdqgmt8wgewhjg2e5ydwlvsjsrgpump",
+      "tokenAddress": "F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump",
+      "description": "Private payments on Solana. Shield SOL or USDC once, then pay anyone from a shared pool using zero-knowledge proofs."
     }
   ],
   "fearGreed": {
