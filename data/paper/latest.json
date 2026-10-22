@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-21T20:54:25.415709+00:00",
+  "at": "2026-10-22T00:00:59.186087+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 84681.0,
-      "changePct": 2.388726842341009,
+      "price": 84041.0,
+      "changePct": 1.3226779490037208,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2492.3,
-      "changePct": 1.9784981142698128,
+      "price": 2471.18,
+      "changePct": 1.0091020268176938,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 108.13,
-      "changePct": 1.5372221801526311,
+      "price": 106.83,
+      "changePct": 0.4145217381573298,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 749.14,
-      "changePct": 1.3630293330474623,
+      "price": 745.76,
+      "changePct": 0.6780529394389662,
       "source": "CoinGecko"
     }
   ],
@@ -32,6 +32,11 @@
       "url": "https://dexscreener.com/solana/7thgkgtk1rp1utlpwuzeuu9vakedtmozzuyps6rgpump",
       "tokenAddress": "7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump",
       "description": "Kimchi Official Coin"
+    },
+    {
+      "url": "https://dexscreener.com/solana/ehpugw1ghe46beysaa7chvozhwyometbp1ak1q7jpump",
+      "tokenAddress": "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
+      "description": "He got his hands on the money. Now he won't let go. A tiny capuchin with a firm grip and absolutely no plans to share."
     },
     {
       "url": "https://dexscreener.com/solana/gne7e774tkgyxmmzp36ofhnurruz15h4e1le1xekpump",
@@ -62,15 +67,10 @@
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
-      "url": "https://dexscreener.com/solana/f9yz51qzpvs5fwdqgmt8wgewhjg2e5ydwlvsjsrgpump",
-      "tokenAddress": "F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump",
-      "description": "Private payments on Solana. Shield SOL or USDC once, then pay anyone from a shared pool using zero-knowledge proofs."
     }
   ],
   "fearGreed": {
-    "value": 63,
+    "value": 68,
     "label": "Greed"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
