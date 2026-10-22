@@ -1,47 +1,42 @@
 {
-  "at": "2026-10-22T19:32:19.289084+00:00",
+  "at": "2026-10-22T22:46:43.272692+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81415.0,
-      "changePct": -3.61461681979022,
+      "price": 81230.0,
+      "changePct": -3.8218273764899875,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2388.98,
-      "changePct": -4.316954096480522,
+      "price": 2382.09,
+      "changePct": -4.109390074943766,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.7,
-      "changePct": -4.019314521928561,
+      "price": 103.27,
+      "changePct": -3.8731244949694683,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 732.05,
-      "changePct": -2.201050696541232,
+      "price": 730.35,
+      "changePct": -2.410061832984409,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/ehpugw1ghe46beysaa7chvozhwyometbp1ak1q7jpump",
-      "tokenAddress": "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
-      "description": "He got his hands on the money. Now he won't let go. A tiny capuchin with a firm grip and absolutely no plans to share."
-    },
-    {
-      "url": "https://dexscreener.com/solana/gne7e774tkgyxmmzp36ofhnurruz15h4e1le1xekpump",
-      "tokenAddress": "GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump",
-      "description": "Kimchi-inspired. Bull-built. Private jets, heavy wrists, unlimited aura."
-    },
-    {
       "url": "https://dexscreener.com/solana/hfwddm3mlb8qjw9jtrkv7sybmu5fdx3lrqwa2d9rpump",
       "tokenAddress": "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump",
       "description": "Banks get hacked. Exchanges get hacked. Your favourite celebrity\u2019s account gets hacked every Tuesday. Everything is gett"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hkh5uh37fyrhrbdpcmpcotcfbyrldy65rfzj9avzpump",
+      "tokenAddress": "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/hx4cdzzrjfcneqzcls8sr4uwprh5nvvre4pf9fugpump",
@@ -49,9 +44,19 @@
       "description": "Every token\nwears a mask.\nNOOX looks behind it.\nA trading agent for DEX tokens. It scouts new launches on pumpfun and De"
     },
     {
+      "url": "https://dexscreener.com/solana/egrk1fbhfrkozdw8q74lbsyh9buy8vwrjiys7jfxpump",
+      "tokenAddress": "EGRk1fBHfRKozDW8q74LBsyh9buY8vwrJiyS7jFxpump",
+      "description": ""
+    },
+    {
       "url": "https://dexscreener.com/solana/4krfcf31xnirqseavbj579r9fyfaqmbycxezi49gpump",
       "tokenAddress": "4krFcF31xNiRQseavbJ579r9fYfaqmbycXEZi49gpump",
       "description": "Monero Inu \ud83d\udc15 The community mascot for Monero\u2019s privacy-first spirit. Stay masked."
+    },
+    {
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
       "url": "https://dexscreener.com/solana/51gmle2ldtvc6wgn9ei2gfoagnudz5vdu8hbfvuwpump",
@@ -59,14 +64,9 @@
       "description": "Pointless Coin"
     },
     {
-      "url": "https://dexscreener.com/solana/f9yz51qzpvs5fwdqgmt8wgewhjg2e5ydwlvsjsrgpump",
-      "tokenAddress": "F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump",
-      "description": "Private payments on Solana. Shield SOL or USDC once, then pay anyone from a shared pool using zero-knowledge proofs."
-    },
-    {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+      "url": "https://dexscreener.com/solana/hqaut1abzq6wkerpcyd7yhndcxgu6bixejnkejunpump",
+      "tokenAddress": "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump",
+      "description": "The Perpetual Trading Protocol Built for Memecoin Traders.\nLong & Short Memecoins up to 1000x \u2022 Stake $VIRTUAL \u2022 Earn US"
     }
   ],
   "fearGreed": {
