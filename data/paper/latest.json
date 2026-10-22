@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-22T15:22:28.743050+00:00",
+  "at": "2026-10-22T19:32:19.289084+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81611.0,
-      "changePct": -3.304645806566834,
+      "price": 81415.0,
+      "changePct": -3.61461681979022,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2399.92,
-      "changePct": -3.94282189247707,
+      "price": 2388.98,
+      "changePct": -4.316954096480522,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 104.54,
-      "changePct": -3.1084992970707885,
+      "price": 103.7,
+      "changePct": -4.019314521928561,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 731.32,
-      "changePct": -2.1553113049595307,
+      "price": 732.05,
+      "changePct": -2.201050696541232,
       "source": "CoinGecko"
     }
   ],
@@ -39,14 +39,9 @@
       "description": "Kimchi-inspired. Bull-built. Private jets, heavy wrists, unlimited aura."
     },
     {
-      "url": "https://dexscreener.com/solana/52ziihpfjboadzvtyczfixdpuumgd9b5ysgz6hxapump",
-      "tokenAddress": "52ziiHpfjBoaDZvTYczFiXdpuUMGD9B5YSGz6Hxapump",
-      "description": "KimchiWeen paired with Kimchi! 15% supply sent to Kimchi"
-    },
-    {
-      "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
-      "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-      "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
+      "url": "https://dexscreener.com/solana/hfwddm3mlb8qjw9jtrkv7sybmu5fdx3lrqwa2d9rpump",
+      "tokenAddress": "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump",
+      "description": "Banks get hacked. Exchanges get hacked. Your favourite celebrity\u2019s account gets hacked every Tuesday. Everything is gett"
     },
     {
       "url": "https://dexscreener.com/solana/hx4cdzzrjfcneqzcls8sr4uwprh5nvvre4pf9fugpump",
@@ -54,14 +49,19 @@
       "description": "Every token\nwears a mask.\nNOOX looks behind it.\nA trading agent for DEX tokens. It scouts new launches on pumpfun and De"
     },
     {
-      "url": "https://dexscreener.com/solana/f9yz51qzpvs5fwdqgmt8wgewhjg2e5ydwlvsjsrgpump",
-      "tokenAddress": "F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump",
-      "description": "Private payments on Solana. Shield SOL or USDC once, then pay anyone from a shared pool using zero-knowledge proofs."
+      "url": "https://dexscreener.com/solana/4krfcf31xnirqseavbj579r9fyfaqmbycxezi49gpump",
+      "tokenAddress": "4krFcF31xNiRQseavbJ579r9fYfaqmbycXEZi49gpump",
+      "description": "Monero Inu \ud83d\udc15 The community mascot for Monero\u2019s privacy-first spirit. Stay masked."
     },
     {
       "url": "https://dexscreener.com/solana/51gmle2ldtvc6wgn9ei2gfoagnudz5vdu8hbfvuwpump",
       "tokenAddress": "51GmLE2LDtVC6WgN9ei2GfoAgNuDz5vdU8HbfVuwpump",
       "description": "Pointless Coin"
+    },
+    {
+      "url": "https://dexscreener.com/solana/f9yz51qzpvs5fwdqgmt8wgewhjg2e5ydwlvsjsrgpump",
+      "tokenAddress": "F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump",
+      "description": "Private payments on Solana. Shield SOL or USDC once, then pay anyone from a shared pool using zero-knowledge proofs."
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
