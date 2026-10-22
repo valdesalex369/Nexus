@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-22T10:14:25.263929+00:00",
+  "at": "2026-10-22T15:22:28.743050+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81953.0,
-      "changePct": -1.5617799310880787,
+      "price": 81611.0,
+      "changePct": -3.304645806566834,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2406.92,
-      "changePct": -1.682381354263249,
+      "price": 2399.92,
+      "changePct": -3.94282189247707,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 104.42,
-      "changePct": -1.596455637688239,
+      "price": 104.54,
+      "changePct": -3.1084992970707885,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 734.32,
-      "changePct": -1.4928481605670219,
+      "price": 731.32,
+      "changePct": -2.1553113049595307,
       "source": "CoinGecko"
     }
   ],
@@ -39,9 +39,9 @@
       "description": "Kimchi-inspired. Bull-built. Private jets, heavy wrists, unlimited aura."
     },
     {
-      "url": "https://dexscreener.com/solana/3jee9dctw17ncgzeks5zapv4qgqtjp6tjahgkndcpump",
-      "tokenAddress": "3JEe9dCTw17NCGzeKS5ZApv4qGQTjp6TJahGkndcpump",
-      "description": "Aura President."
+      "url": "https://dexscreener.com/solana/52ziihpfjboadzvtyczfixdpuumgd9b5ysgz6hxapump",
+      "tokenAddress": "52ziiHpfjBoaDZvTYczFiXdpuUMGD9B5YSGz6Hxapump",
+      "description": "KimchiWeen paired with Kimchi! 15% supply sent to Kimchi"
     },
     {
       "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
@@ -49,14 +49,14 @@
       "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
     },
     {
-      "url": "https://dexscreener.com/solana/52ziihpfjboadzvtyczfixdpuumgd9b5ysgz6hxapump",
-      "tokenAddress": "52ziiHpfjBoaDZvTYczFiXdpuUMGD9B5YSGz6Hxapump",
-      "description": "KimchiWeen paired with Kimchi! 15% supply sent to Kimchi"
-    },
-    {
       "url": "https://dexscreener.com/solana/hx4cdzzrjfcneqzcls8sr4uwprh5nvvre4pf9fugpump",
       "tokenAddress": "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump",
       "description": "Every token\nwears a mask.\nNOOX looks behind it.\nA trading agent for DEX tokens. It scouts new launches on pumpfun and De"
+    },
+    {
+      "url": "https://dexscreener.com/solana/f9yz51qzpvs5fwdqgmt8wgewhjg2e5ydwlvsjsrgpump",
+      "tokenAddress": "F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump",
+      "description": "Private payments on Solana. Shield SOL or USDC once, then pay anyone from a shared pool using zero-knowledge proofs."
     },
     {
       "url": "https://dexscreener.com/solana/51gmle2ldtvc6wgn9ei2gfoagnudz5vdu8hbfvuwpump",
@@ -64,9 +64,9 @@
       "description": "Pointless Coin"
     },
     {
-      "url": "https://dexscreener.com/solana/f9yz51qzpvs5fwdqgmt8wgewhjg2e5ydwlvsjsrgpump",
-      "tokenAddress": "F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump",
-      "description": "Private payments on Solana. Shield SOL or USDC once, then pay anyone from a shared pool using zero-knowledge proofs."
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     }
   ],
   "fearGreed": {
