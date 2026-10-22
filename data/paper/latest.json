@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-22T04:53:15.495718+00:00",
+  "at": "2026-10-22T10:14:25.263929+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 82765.0,
-      "changePct": 0.08175564673399587,
+      "price": 81953.0,
+      "changePct": -1.5617799310880787,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2440.6,
-      "changePct": -0.029372317553152987,
+      "price": 2406.92,
+      "changePct": -1.682381354263249,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 105.24,
-      "changePct": -0.4376387895322984,
+      "price": 104.42,
+      "changePct": -1.596455637688239,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 739.53,
-      "changePct": -0.21097966151294797,
+      "price": 734.32,
+      "changePct": -1.4928481605670219,
       "source": "CoinGecko"
     }
   ],
@@ -54,19 +54,19 @@
       "description": "KimchiWeen paired with Kimchi! 15% supply sent to Kimchi"
     },
     {
-      "url": "https://dexscreener.com/solana/51gmle2ldtvc6wgn9ei2gfoagnudz5vdu8hbfvuwpump",
-      "tokenAddress": "51GmLE2LDtVC6WgN9ei2GfoAgNuDz5vdU8HbfVuwpump",
-      "description": "Pointless Coin"
-    },
-    {
       "url": "https://dexscreener.com/solana/hx4cdzzrjfcneqzcls8sr4uwprh5nvvre4pf9fugpump",
       "tokenAddress": "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump",
       "description": "Every token\nwears a mask.\nNOOX looks behind it.\nA trading agent for DEX tokens. It scouts new launches on pumpfun and De"
     },
     {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+      "url": "https://dexscreener.com/solana/51gmle2ldtvc6wgn9ei2gfoagnudz5vdu8hbfvuwpump",
+      "tokenAddress": "51GmLE2LDtVC6WgN9ei2GfoAgNuDz5vdU8HbfVuwpump",
+      "description": "Pointless Coin"
+    },
+    {
+      "url": "https://dexscreener.com/solana/f9yz51qzpvs5fwdqgmt8wgewhjg2e5ydwlvsjsrgpump",
+      "tokenAddress": "F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump",
+      "description": "Private payments on Solana. Shield SOL or USDC once, then pay anyone from a shared pool using zero-knowledge proofs."
     }
   ],
   "fearGreed": {
