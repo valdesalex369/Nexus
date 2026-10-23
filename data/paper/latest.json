@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-23T20:30:01.585108+00:00",
+  "at": "2026-10-23T23:33:02.648351+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81304.0,
-      "changePct": 0.042934981731541755,
+      "price": 80829.0,
+      "changePct": -0.5051078050050372,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2394.72,
-      "changePct": 0.5292298717000983,
+      "price": 2374.21,
+      "changePct": -0.27752040375739706,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.49,
-      "changePct": 0.1651572112986889,
+      "price": 102.48,
+      "changePct": -0.7025925006263769,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 741.01,
-      "changePct": 1.5004696488077678,
+      "price": 736.36,
+      "changePct": 0.8360890197638036,
       "source": "CoinGecko"
     }
   ],
@@ -41,12 +41,12 @@
     {
       "url": "https://dexscreener.com/solana/cbkg5w7v7w2j2sumecnyn825cbvwvxwasfhduvtnpump",
       "tokenAddress": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
-      "description": "They dropped an exploit that allows you to drain money from anyone."
+      "description": "Next steps for PHP-UP-2026 focus on community stewardship rather than a product roadmap. The community intends to keep m"
     },
     {
-      "url": "https://dexscreener.com/solana/hkh5uh37fyrhrbdpcmpcotcfbyrldy65rfzj9avzpump",
-      "tokenAddress": "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/26aawi1szsnr8raumc3hdvkbke6rj1dyakqgrhxopump",
+      "tokenAddress": "26Aawi1sZSNR8Raumc3hdvKbke6RJ1dYaKqgrHXopump",
+      "description": "The coin is officially called \"You Missed Coin\" so ticker should be BITCHES"
     },
     {
       "url": "https://dexscreener.com/solana/2hpywv4sydobymiecpqvi1adtdsm4xehbkebdbqmpump",
@@ -54,14 +54,14 @@
       "description": "zonki spends way too much time on crypto twitter.\nhe finds random coins at 2am, forgets about them by lunch, then someho"
     },
     {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
       "url": "https://dexscreener.com/solana/cy7qknonqesuuafcvsywroqrhd4vu7jrcoeurxyxpump",
       "tokenAddress": "Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump",
       "description": "McRib had its moment. McNugget is the next golden signal. \ud83c\udf57\ud83d\udcc8"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
       "url": "https://dexscreener.com/solana/f9yz51qzpvs5fwdqgmt8wgewhjg2e5ydwlvsjsrgpump",
@@ -73,7 +73,7 @@
     "value": 50,
     "label": "Neutral"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
