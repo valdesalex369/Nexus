@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-23T06:32:15.948338+00:00",
+  "at": "2026-10-23T12:10:46.567310+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81769.0,
-      "changePct": -0.9284070858721383,
+      "price": 81515.0,
+      "changePct": -0.23563975755582847,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2403.09,
-      "changePct": -1.2068485858497566,
+      "price": 2394.99,
+      "changePct": -0.16057707540281602,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 104.39,
-      "changePct": -0.19236172015027694,
+      "price": 104.25,
+      "changePct": 0.03447063910965755,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 743.02,
-      "changePct": 0.6509546908447006,
+      "price": 745.89,
+      "changePct": 1.8267669252475316,
       "source": "CoinGecko"
     }
   ],
@@ -34,9 +34,19 @@
       "description": "Banks get hacked. Exchanges get hacked. Your favourite celebrity\u2019s account gets hacked every Tuesday. Everything is gett"
     },
     {
+      "url": "https://dexscreener.com/solana/2jsj9dzlqwai3q1dhyjcpf5gveg81hbtry8eem3fpump",
+      "tokenAddress": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
+      "description": "The everything platform for Solana & Robinhood degens. Launch tokens via ARCTIS native, Raydium, Meteora, PumpFun or Rob"
+    },
+    {
       "url": "https://dexscreener.com/solana/hkh5uh37fyrhrbdpcmpcotcfbyrldy65rfzj9avzpump",
       "tokenAddress": "HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump",
       "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/2hpywv4sydobymiecpqvi1adtdsm4xehbkebdbqmpump",
+      "tokenAddress": "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump",
+      "description": "zonki spends way too much time on crypto twitter.\nhe finds random coins at 2am, forgets about them by lunch, then someho"
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
@@ -49,31 +59,21 @@
       "description": "The Perpetual Trading Protocol Built for Memecoin Traders.\nLong & Short Memecoins up to 1000x \u2022 Stake $VIRTUAL \u2022 Earn US"
     },
     {
-      "url": "https://dexscreener.com/solana/2hpywv4sydobymiecpqvi1adtdsm4xehbkebdbqmpump",
-      "tokenAddress": "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump",
-      "description": "zonki spends way too much time on crypto twitter.\nhe finds random coins at 2am, forgets about them by lunch, then someho"
+      "url": "https://dexscreener.com/solana/f9yz51qzpvs5fwdqgmt8wgewhjg2e5ydwlvsjsrgpump",
+      "tokenAddress": "F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump",
+      "description": "Private payments on Solana. Shield SOL or USDC once, then pay anyone from a shared pool using zero-knowledge proofs."
     },
     {
       "url": "https://dexscreener.com/solana/egrk1fbhfrkozdw8q74lbsyh9buy8vwrjiys7jfxpump",
       "tokenAddress": "EGRk1fBHfRKozDW8q74LBsyh9buY8vwrJiyS7jFxpump",
       "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/4krfcf31xnirqseavbj579r9fyfaqmbycxezi49gpump",
-      "tokenAddress": "4krFcF31xNiRQseavbJ579r9fYfaqmbycXEZi49gpump",
-      "description": "Monero Inu \ud83d\udc15 The community mascot for Monero\u2019s privacy-first spirit. Stay masked."
-    },
-    {
-      "url": "https://dexscreener.com/solana/9rher8cvhz92bksnrwodi2qkcnxyyghjazcsjgqppump",
-      "tokenAddress": "9RhEr8CvHZ92bKsnrwodi2qkcNxYyghjAzCSJgQPpump",
-      "description": "Trench Gang"
     }
   ],
   "fearGreed": {
     "value": 50,
     "label": "Neutral"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
