@@ -1,42 +1,52 @@
 {
-  "at": "2026-10-23T12:10:46.567310+00:00",
+  "at": "2026-10-23T17:12:43.048808+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81515.0,
-      "changePct": -0.23563975755582847,
+      "price": 81659.0,
+      "changePct": 0.6525152146585039,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2394.99,
-      "changePct": -0.16057707540281602,
+      "price": 2406.03,
+      "changePct": 1.3005226534686918,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 104.25,
-      "changePct": 0.03447063910965755,
+      "price": 104.5,
+      "changePct": 0.9707364793632508,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 745.89,
-      "changePct": 1.8267669252475316,
+      "price": 746.5,
+      "changePct": 2.70187534195237,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/6lggcwcuhdvcipzntqwrb4mrtspygngbux1df7lypump",
+      "tokenAddress": "6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump",
+      "description": "Long-Haired Dachshund \ud83d\udc51\ud83d\udc3e\nKING of the side eye \ud83d\udc40"
+    },
+    {
+      "url": "https://dexscreener.com/solana/2jsj9dzlqwai3q1dhyjcpf5gveg81hbtry8eem3fpump",
+      "tokenAddress": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
+      "description": "The everything platform for Solana & Robinhood degens. Launch tokens via ARCTIS native, Raydium, Meteora, PumpFun or Rob"
+    },
     {
       "url": "https://dexscreener.com/solana/hfwddm3mlb8qjw9jtrkv7sybmu5fdx3lrqwa2d9rpump",
       "tokenAddress": "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump",
       "description": "Banks get hacked. Exchanges get hacked. Your favourite celebrity\u2019s account gets hacked every Tuesday. Everything is gett"
     },
     {
-      "url": "https://dexscreener.com/solana/2jsj9dzlqwai3q1dhyjcpf5gveg81hbtry8eem3fpump",
-      "tokenAddress": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
-      "description": "The everything platform for Solana & Robinhood degens. Launch tokens via ARCTIS native, Raydium, Meteora, PumpFun or Rob"
+      "url": "https://dexscreener.com/solana/cbkg5w7v7w2j2sumecnyn825cbvwvxwasfhduvtnpump",
+      "tokenAddress": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
+      "description": "They dropped an exploit that allows you to drain money from anyone."
     },
     {
       "url": "https://dexscreener.com/solana/hkh5uh37fyrhrbdpcmpcotcfbyrldy65rfzj9avzpump",
@@ -54,19 +64,9 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/hqaut1abzq6wkerpcyd7yhndcxgu6bixejnkejunpump",
-      "tokenAddress": "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump",
-      "description": "The Perpetual Trading Protocol Built for Memecoin Traders.\nLong & Short Memecoins up to 1000x \u2022 Stake $VIRTUAL \u2022 Earn US"
-    },
-    {
       "url": "https://dexscreener.com/solana/f9yz51qzpvs5fwdqgmt8wgewhjg2e5ydwlvsjsrgpump",
       "tokenAddress": "F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump",
       "description": "Private payments on Solana. Shield SOL or USDC once, then pay anyone from a shared pool using zero-knowledge proofs."
-    },
-    {
-      "url": "https://dexscreener.com/solana/egrk1fbhfrkozdw8q74lbsyh9buy8vwrjiys7jfxpump",
-      "tokenAddress": "EGRk1fBHfRKozDW8q74LBsyh9buY8vwrJiyS7jFxpump",
-      "description": ""
     }
   ],
   "fearGreed": {
