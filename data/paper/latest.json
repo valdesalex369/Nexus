@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-23T17:12:43.048808+00:00",
+  "at": "2026-10-23T20:30:01.585108+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81659.0,
-      "changePct": 0.6525152146585039,
+      "price": 81304.0,
+      "changePct": 0.042934981731541755,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2406.03,
-      "changePct": 1.3005226534686918,
+      "price": 2394.72,
+      "changePct": 0.5292298717000983,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 104.5,
-      "changePct": 0.9707364793632508,
+      "price": 103.49,
+      "changePct": 0.1651572112986889,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 746.5,
-      "changePct": 2.70187534195237,
+      "price": 741.01,
+      "changePct": 1.5004696488077678,
       "source": "CoinGecko"
     }
   ],
@@ -37,11 +37,6 @@
       "url": "https://dexscreener.com/solana/2jsj9dzlqwai3q1dhyjcpf5gveg81hbtry8eem3fpump",
       "tokenAddress": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
       "description": "The everything platform for Solana & Robinhood degens. Launch tokens via ARCTIS native, Raydium, Meteora, PumpFun or Rob"
-    },
-    {
-      "url": "https://dexscreener.com/solana/hfwddm3mlb8qjw9jtrkv7sybmu5fdx3lrqwa2d9rpump",
-      "tokenAddress": "HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump",
-      "description": "Banks get hacked. Exchanges get hacked. Your favourite celebrity\u2019s account gets hacked every Tuesday. Everything is gett"
     },
     {
       "url": "https://dexscreener.com/solana/cbkg5w7v7w2j2sumecnyn825cbvwvxwasfhduvtnpump",
@@ -62,6 +57,11 @@
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
+      "url": "https://dexscreener.com/solana/cy7qknonqesuuafcvsywroqrhd4vu7jrcoeurxyxpump",
+      "tokenAddress": "Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump",
+      "description": "McRib had its moment. McNugget is the next golden signal. \ud83c\udf57\ud83d\udcc8"
     },
     {
       "url": "https://dexscreener.com/solana/f9yz51qzpvs5fwdqgmt8wgewhjg2e5ydwlvsjsrgpump",
