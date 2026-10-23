@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-22T22:46:43.272692+00:00",
+  "at": "2026-10-23T01:32:52.393977+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81230.0,
-      "changePct": -3.8218273764899875,
+      "price": 81355.0,
+      "changePct": -3.3612775754450603,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2382.09,
-      "changePct": -4.109390074943766,
+      "price": 2388.16,
+      "changePct": -3.4883166764514586,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.27,
-      "changePct": -3.8731244949694683,
+      "price": 103.87,
+      "changePct": -3.066433659973061,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 730.35,
-      "changePct": -2.410061832984409,
+      "price": 731.72,
+      "changePct": -2.219095863536626,
       "source": "CoinGecko"
     }
   ],
@@ -59,19 +59,19 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/51gmle2ldtvc6wgn9ei2gfoagnudz5vdu8hbfvuwpump",
-      "tokenAddress": "51GmLE2LDtVC6WgN9ei2GfoAgNuDz5vdU8HbfVuwpump",
-      "description": "Pointless Coin"
-    },
-    {
       "url": "https://dexscreener.com/solana/hqaut1abzq6wkerpcyd7yhndcxgu6bixejnkejunpump",
       "tokenAddress": "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump",
       "description": "The Perpetual Trading Protocol Built for Memecoin Traders.\nLong & Short Memecoins up to 1000x \u2022 Stake $VIRTUAL \u2022 Earn US"
+    },
+    {
+      "url": "https://dexscreener.com/solana/9rher8cvhz92bksnrwodi2qkcnxyyghjazcsjgqppump",
+      "tokenAddress": "9RhEr8CvHZ92bKsnrwodi2qkcNxYyghjAzCSJgQPpump",
+      "description": "Trench Gang"
     }
   ],
   "fearGreed": {
-    "value": 68,
-    "label": "Greed"
+    "value": 50,
+    "label": "Neutral"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
