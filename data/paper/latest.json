@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-23T01:32:52.393977+00:00",
+  "at": "2026-10-23T06:32:15.948338+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81355.0,
-      "changePct": -3.3612775754450603,
+      "price": 81769.0,
+      "changePct": -0.9284070858721383,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2388.16,
-      "changePct": -3.4883166764514586,
+      "price": 2403.09,
+      "changePct": -1.2068485858497566,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 103.87,
-      "changePct": -3.066433659973061,
+      "price": 104.39,
+      "changePct": -0.19236172015027694,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 731.72,
-      "changePct": -2.219095863536626,
+      "price": 743.02,
+      "changePct": 0.6509546908447006,
       "source": "CoinGecko"
     }
   ],
@@ -39,9 +39,19 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/hx4cdzzrjfcneqzcls8sr4uwprh5nvvre4pf9fugpump",
-      "tokenAddress": "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump",
-      "description": "Every token\nwears a mask.\nNOOX looks behind it.\nA trading agent for DEX tokens. It scouts new launches on pumpfun and De"
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hqaut1abzq6wkerpcyd7yhndcxgu6bixejnkejunpump",
+      "tokenAddress": "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump",
+      "description": "The Perpetual Trading Protocol Built for Memecoin Traders.\nLong & Short Memecoins up to 1000x \u2022 Stake $VIRTUAL \u2022 Earn US"
+    },
+    {
+      "url": "https://dexscreener.com/solana/2hpywv4sydobymiecpqvi1adtdsm4xehbkebdbqmpump",
+      "tokenAddress": "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump",
+      "description": "zonki spends way too much time on crypto twitter.\nhe finds random coins at 2am, forgets about them by lunch, then someho"
     },
     {
       "url": "https://dexscreener.com/solana/egrk1fbhfrkozdw8q74lbsyh9buy8vwrjiys7jfxpump",
@@ -52,16 +62,6 @@
       "url": "https://dexscreener.com/solana/4krfcf31xnirqseavbj579r9fyfaqmbycxezi49gpump",
       "tokenAddress": "4krFcF31xNiRQseavbJ579r9fYfaqmbycXEZi49gpump",
       "description": "Monero Inu \ud83d\udc15 The community mascot for Monero\u2019s privacy-first spirit. Stay masked."
-    },
-    {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
-      "url": "https://dexscreener.com/solana/hqaut1abzq6wkerpcyd7yhndcxgu6bixejnkejunpump",
-      "tokenAddress": "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump",
-      "description": "The Perpetual Trading Protocol Built for Memecoin Traders.\nLong & Short Memecoins up to 1000x \u2022 Stake $VIRTUAL \u2022 Earn US"
     },
     {
       "url": "https://dexscreener.com/solana/9rher8cvhz92bksnrwodi2qkcnxyyghjazcsjgqppump",
