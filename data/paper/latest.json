@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-24T21:37:53.921119+00:00",
+  "at": "2026-10-24T23:45:43.786430+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80349.0,
-      "changePct": -1.1749703884811902,
+      "price": 80770.0,
+      "changePct": -0.12842948354537603,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2337.96,
-      "changePct": -2.4920664307028937,
+      "price": 2355.18,
+      "changePct": -0.9625697530672896,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.31,
-      "changePct": -2.292122150668134,
+      "price": 102.32,
+      "changePct": -0.16668844893363532,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 732.46,
-      "changePct": -1.0847096471826574,
+      "price": 738.05,
+      "changePct": 0.11523128581554408,
       "source": "CoinGecko"
     }
   ],
@@ -34,9 +34,19 @@
       "description": "Swordope brings fearless energy and a blade for every battle."
     },
     {
+      "url": "https://dexscreener.com/solana/h7vzncbyndk5ikbs9krdj2tx8cur1wxedv19zgkwpump",
+      "tokenAddress": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
+      "description": "The axe weighs more than the entire knight. A tiny kitten chose the biggest battleaxe in the armoury. Now every swing co"
+    },
+    {
       "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
       "tokenAddress": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
       "description": "The Official Fomo Mascot.\n\nNovember 15."
+    },
+    {
+      "url": "https://dexscreener.com/solana/hcjvgxvgvwsmzml5ztttkrrmhchv93pcp8duxg85pump",
+      "tokenAddress": "HcJvgxvgvWsMZmL5ZtTtkrRmHCHV93PcP8duxg85pump",
+      "description": "The forest is gone. The servers are humming. And the wolves want answers.\n\nGoogle illegally cleared a Finnish forest for"
     },
     {
       "url": "https://dexscreener.com/solana/2mrt8hizpkykdyuhn2uycnkxgbgnzsumvxqmuwskpump",
@@ -57,16 +67,6 @@
       "url": "https://dexscreener.com/solana/1hy4vvrmw6ifkzwbagpkurtqn6koklbqxjdgbsxpump",
       "tokenAddress": "1hy4VvRmw6iFkZwBAgpkuRTQn6KokLbqxjDGBSxpump",
       "description": "Some heroes arrive on horseback. This one arrived fully illuminated."
-    },
-    {
-      "url": "https://dexscreener.com/solana/2ztzpzwuh2ffbvy6rdsidvtq6hxvezpzmxuslqd7pump",
-      "tokenAddress": "2ZTZPzwUH2fFBVy6rDSidVtq6hXVeZPZmxUSLqd7pump",
-      "description": "This graphic of privacy coins outperforming memecoins is going viral."
-    },
-    {
-      "url": "https://dexscreener.com/solana/cbtbay45tfp8lbk2ovjks7wthxnka19mbgbgazadpump",
-      "tokenAddress": "CbTbAY45Tfp8Lbk2ovjkS7wthxNka19MbGbGAZAdpump",
-      "description": "The viral moustache baby, reimagined as an Inu. Born looking employed."
     }
   ],
   "fearGreed": {
