@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-24T07:20:09.272530+00:00",
+  "at": "2026-10-24T12:14:16.239463+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80805.0,
-      "changePct": -1.0261311245210991,
+      "price": 80548.0,
+      "changePct": -1.1454507007057386,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2380.53,
-      "changePct": -0.8544078709601154,
+      "price": 2363.49,
+      "changePct": -1.2593525646317405,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 102.25,
-      "changePct": -2.0572255242565274,
+      "price": 101.31,
+      "changePct": -2.7963758759213975,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 737.83,
-      "changePct": -0.7760587006881411,
+      "price": 730.73,
+      "changePct": -2.029204637369505,
       "source": "CoinGecko"
     }
   ],
@@ -34,19 +34,14 @@
       "description": "Long-Haired Dachshund \ud83d\udc51\ud83d\udc3e\nKING of the side eye \ud83d\udc40"
     },
     {
-      "url": "https://dexscreener.com/solana/2jsj9dzlqwai3q1dhyjcpf5gveg81hbtry8eem3fpump",
-      "tokenAddress": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
-      "description": "The everything platform for Solana & Robinhood degens. Launch tokens via ARCTIS native, Raydium, Meteora, PumpFun or Rob"
+      "url": "https://dexscreener.com/solana/3yyqfkpaob7szucyk59dgvhpzk1ln9odkmjc1uy3pump",
+      "tokenAddress": "3YYqFkPaob7SzUCyk59DGVhPZK1LN9odKMJc1uy3pump",
+      "description": "Trump Coin"
     },
     {
       "url": "https://dexscreener.com/solana/26aawi1szsnr8raumc3hdvkbke6rj1dyakqgrhxopump",
       "tokenAddress": "26Aawi1sZSNR8Raumc3hdvKbke6RJ1dYaKqgrHXopump",
       "description": "The coin is officially called \"You Missed Coin\" so ticker should be BITCHES"
-    },
-    {
-      "url": "https://dexscreener.com/solana/3yyqfkpaob7szucyk59dgvhpzk1ln9odkmjc1uy3pump",
-      "tokenAddress": "3YYqFkPaob7SzUCyk59DGVhPZK1LN9odKMJc1uy3pump",
-      "description": "Trump Coin"
     },
     {
       "url": "https://dexscreener.com/solana/cy7qknonqesuuafcvsywroqrhd4vu7jrcoeurxyxpump",
@@ -62,6 +57,11 @@
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
+      "url": "https://dexscreener.com/solana/9rher8cvhz92bksnrwodi2qkcnxyyghjazcsjgqppump",
+      "tokenAddress": "9RhEr8CvHZ92bKsnrwodi2qkcNxYyghjAzCSJgQPpump",
+      "description": "Trench Gang"
     },
     {
       "url": "https://dexscreener.com/solana/f9yz51qzpvs5fwdqgmt8wgewhjg2e5ydwlvsjsrgpump",
