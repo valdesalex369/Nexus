@@ -1,37 +1,42 @@
 {
-  "at": "2026-10-24T12:14:16.239463+00:00",
+  "at": "2026-10-24T16:04:03.708083+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80548.0,
-      "changePct": -1.1454507007057386,
+      "price": 79732.0,
+      "changePct": -2.258380593484061,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2363.49,
-      "changePct": -1.2593525646317405,
+      "price": 2303.79,
+      "changePct": -4.148740858301429,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.31,
-      "changePct": -2.7963758759213975,
+      "price": 99.71,
+      "changePct": -4.667743765956998,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 730.73,
-      "changePct": -2.029204637369505,
+      "price": 720.73,
+      "changePct": -3.5306729761242948,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/6lggcwcuhdvcipzntqwrb4mrtspygngbux1df7lypump",
-      "tokenAddress": "6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump",
-      "description": "Long-Haired Dachshund \ud83d\udc51\ud83d\udc3e\nKING of the side eye \ud83d\udc40"
+      "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
+      "tokenAddress": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
+      "description": "The Official Fomo Mascot.\n\nNovember 15."
+    },
+    {
+      "url": "https://dexscreener.com/solana/2mrt8hizpkykdyuhn2uycnkxgbgnzsumvxqmuwskpump",
+      "tokenAddress": "2mrT8hizpKykdYUHN2uYcNkxGbGnZSumvXQMuwSkpump",
+      "description": "KABOSU \u2014 The original Shiba Inu behind $DOGE. The iconic meme that started it all, now connected to Dogecoin co-founder "
     },
     {
       "url": "https://dexscreener.com/solana/3yyqfkpaob7szucyk59dgvhpzk1ln9odkmjc1uy3pump",
@@ -44,14 +49,14 @@
       "description": "The coin is officially called \"You Missed Coin\" so ticker should be BITCHES"
     },
     {
-      "url": "https://dexscreener.com/solana/cy7qknonqesuuafcvsywroqrhd4vu7jrcoeurxyxpump",
-      "tokenAddress": "Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump",
-      "description": "McRib had its moment. McNugget is the next golden signal. \ud83c\udf57\ud83d\udcc8"
+      "url": "https://dexscreener.com/solana/4ipcoj37nxnxs66sr9mvytz6vwudqsxyfld4vye6pump",
+      "tokenAddress": "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump",
+      "description": "GrandDacityCoin is Live On Solana."
     },
     {
-      "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
-      "tokenAddress": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
-      "description": "The Official Fomo Mascot.\n\nNovember 15."
+      "url": "https://dexscreener.com/solana/2ztzpzwuh2ffbvy6rdsidvtq6hxvezpzmxuslqd7pump",
+      "tokenAddress": "2ZTZPzwUH2fFBVy6rDSidVtq6hXVeZPZmxUSLqd7pump",
+      "description": "This graphic of privacy coins outperforming memecoins is going viral."
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
@@ -59,14 +64,9 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/9rher8cvhz92bksnrwodi2qkcnxyyghjazcsjgqppump",
-      "tokenAddress": "9RhEr8CvHZ92bKsnrwodi2qkcNxYyghjAzCSJgQPpump",
-      "description": "Trench Gang"
-    },
-    {
-      "url": "https://dexscreener.com/solana/f9yz51qzpvs5fwdqgmt8wgewhjg2e5ydwlvsjsrgpump",
-      "tokenAddress": "F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump",
-      "description": "Private payments on Solana. Shield SOL or USDC once, then pay anyone from a shared pool using zero-knowledge proofs."
+      "url": "https://dexscreener.com/solana/cbtbay45tfp8lbk2ovjks7wthxnka19mbgbgazadpump",
+      "tokenAddress": "CbTbAY45Tfp8Lbk2ovjkS7wthxNka19MbGbGAZAdpump",
+      "description": "The viral moustache baby, reimagined as an Inu. Born looking employed."
     }
   ],
   "fearGreed": {
