@@ -1,33 +1,38 @@
 {
-  "at": "2026-10-24T18:48:38.141468+00:00",
+  "at": "2026-10-24T21:37:53.921119+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80308.0,
-      "changePct": -1.292785466832936,
+      "price": 80349.0,
+      "changePct": -1.1749703884811902,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2331.82,
-      "changePct": -2.782032240201556,
+      "price": 2337.96,
+      "changePct": -2.4920664307028937,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.01,
-      "changePct": -2.8486185692990063,
+      "price": 101.31,
+      "changePct": -2.292122150668134,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 727.32,
-      "changePct": -2.0627267634902484,
+      "price": 732.46,
+      "changePct": -1.0847096471826574,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/3svjz7bft9fxir49nzc7udbmlgzrljy7xbzdkhefpump",
+      "tokenAddress": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
+      "description": "Swordope brings fearless energy and a blade for every battle."
+    },
     {
       "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
       "tokenAddress": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
@@ -44,24 +49,19 @@
       "description": "Trump Coin"
     },
     {
-      "url": "https://dexscreener.com/solana/26aawi1szsnr8raumc3hdvkbke6rj1dyakqgrhxopump",
-      "tokenAddress": "26Aawi1sZSNR8Raumc3hdvKbke6RJ1dYaKqgrHXopump",
-      "description": "The coin is officially called \"You Missed Coin\" so ticker should be BITCHES"
-    },
-    {
       "url": "https://dexscreener.com/solana/4ipcoj37nxnxs66sr9mvytz6vwudqsxyfld4vye6pump",
       "tokenAddress": "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump",
       "description": "GrandDacityCoin is Live On Solana."
     },
     {
-      "url": "https://dexscreener.com/solana/2ztzpzwuh2ffbvy6rdsidvtq6hxvezpzmxuslqd7pump",
-      "tokenAddress": "2ZTZPzwUH2fFBVy6rDSidVtq6hXVeZPZmxUSLqd7pump",
-      "description": "This graphic of privacy coins outperforming memecoins is going viral."
-    },
-    {
       "url": "https://dexscreener.com/solana/1hy4vvrmw6ifkzwbagpkurtqn6koklbqxjdgbsxpump",
       "tokenAddress": "1hy4VvRmw6iFkZwBAgpkuRTQn6KokLbqxjDGBSxpump",
       "description": "Some heroes arrive on horseback. This one arrived fully illuminated."
+    },
+    {
+      "url": "https://dexscreener.com/solana/2ztzpzwuh2ffbvy6rdsidvtq6hxvezpzmxuslqd7pump",
+      "tokenAddress": "2ZTZPzwUH2fFBVy6rDSidVtq6hXVeZPZmxUSLqd7pump",
+      "description": "This graphic of privacy coins outperforming memecoins is going viral."
     },
     {
       "url": "https://dexscreener.com/solana/cbtbay45tfp8lbk2ovjks7wthxnka19mbgbgazadpump",
