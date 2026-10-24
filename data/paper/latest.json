@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-24T02:00:17.427722+00:00",
+  "at": "2026-10-24T07:20:09.272530+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80870.0,
-      "changePct": -0.47740877699812984,
+      "price": 80805.0,
+      "changePct": -1.0261311245210991,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2380.24,
-      "changePct": -0.3966669659230867,
+      "price": 2380.53,
+      "changePct": -0.8544078709601154,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 102.54,
-      "changePct": -1.3051134351859877,
+      "price": 102.25,
+      "changePct": -2.0572255242565274,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 739.04,
-      "changePct": 0.8869467459554936,
+      "price": 737.83,
+      "changePct": -0.7760587006881411,
       "source": "CoinGecko"
     }
   ],
@@ -39,24 +39,24 @@
       "description": "The everything platform for Solana & Robinhood degens. Launch tokens via ARCTIS native, Raydium, Meteora, PumpFun or Rob"
     },
     {
-      "url": "https://dexscreener.com/solana/cbkg5w7v7w2j2sumecnyn825cbvwvxwasfhduvtnpump",
-      "tokenAddress": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
-      "description": "Next steps for PHP-UP-2026 focus on community stewardship rather than a product roadmap. The community intends to keep m"
-    },
-    {
       "url": "https://dexscreener.com/solana/26aawi1szsnr8raumc3hdvkbke6rj1dyakqgrhxopump",
       "tokenAddress": "26Aawi1sZSNR8Raumc3hdvKbke6RJ1dYaKqgrHXopump",
       "description": "The coin is officially called \"You Missed Coin\" so ticker should be BITCHES"
     },
     {
-      "url": "https://dexscreener.com/solana/2hpywv4sydobymiecpqvi1adtdsm4xehbkebdbqmpump",
-      "tokenAddress": "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump",
-      "description": "zonki spends way too much time on crypto twitter.\nhe finds random coins at 2am, forgets about them by lunch, then someho"
+      "url": "https://dexscreener.com/solana/3yyqfkpaob7szucyk59dgvhpzk1ln9odkmjc1uy3pump",
+      "tokenAddress": "3YYqFkPaob7SzUCyk59DGVhPZK1LN9odKMJc1uy3pump",
+      "description": "Trump Coin"
     },
     {
       "url": "https://dexscreener.com/solana/cy7qknonqesuuafcvsywroqrhd4vu7jrcoeurxyxpump",
       "tokenAddress": "Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump",
       "description": "McRib had its moment. McNugget is the next golden signal. \ud83c\udf57\ud83d\udcc8"
+    },
+    {
+      "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
+      "tokenAddress": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
+      "description": "The Official Fomo Mascot.\n\nNovember 15."
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
