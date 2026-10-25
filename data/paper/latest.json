@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-25T17:53:12.379074+00:00",
+  "at": "2026-10-25T20:54:11.633640+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80724.0,
-      "changePct": 0.6670729852704845,
+      "price": 80363.0,
+      "changePct": -0.15397807445910427,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2354.87,
-      "changePct": 1.42704742374937,
+      "price": 2343.3,
+      "changePct": -0.12287242300547851,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.79,
-      "changePct": 1.3694595119362651,
+      "price": 101.45,
+      "changePct": -0.04364046086609161,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 742.27,
-      "changePct": 2.373069661248711,
+      "price": 739.51,
+      "changePct": 0.9021637776062102,
       "source": "CoinGecko"
     }
   ],
@@ -34,14 +34,14 @@
       "description": "The axe weighs more than the entire knight. A tiny kitten chose the biggest battleaxe in the armoury. Now every swing co"
     },
     {
-      "url": "https://dexscreener.com/solana/3svjz7bft9fxir49nzc7udbmlgzrljy7xbzdkhefpump",
-      "tokenAddress": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
-      "description": "Swordope brings fearless energy and a blade for every battle."
-    },
-    {
       "url": "https://dexscreener.com/solana/hcjvgxvgvwsmzml5ztttkrrmhchv93pcp8duxg85pump",
       "tokenAddress": "HcJvgxvgvWsMZmL5ZtTtkrRmHCHV93PcP8duxg85pump",
       "description": "The forest is gone. The servers are humming. And the wolves want answers.\n\nGoogle illegally cleared a Finnish forest for"
+    },
+    {
+      "url": "https://dexscreener.com/solana/8thz69jp2erzuhvj4g5rcwkffsqafp5mqsaoqreapump",
+      "tokenAddress": "8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump",
+      "description": "In a world driven by opportunity, who you know can be just as important as what you know. Behind every successful busine"
     },
     {
       "url": "https://dexscreener.com/solana/3kpyr7um657bbcw64glhqpjfpybyjeivhu4ed3cnpump",
@@ -54,11 +54,6 @@
       "description": "Gene-spliced. Battle-tested. Very good boy."
     },
     {
-      "url": "https://dexscreener.com/solana/c5xph2yl6gmdxmulgxjbkgpmudffyi5fqkbnhvl6pump",
-      "tokenAddress": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
-      "description": "Big Titty Coin that rewards BTC just for holding, the perfect normie meme"
-    },
-    {
       "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
       "tokenAddress": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
       "description": "The Official Fomo Mascot.\n\nNovember 15."
@@ -67,13 +62,18 @@
       "url": "https://dexscreener.com/solana/gkrpmrvhndyubghfqw5f58kfvkbtf6tbmwqethgnpump",
       "tokenAddress": "GkrpmRvhNdyubgHfqW5f58kfvkBtF6TbmwQEtHGnpump",
       "description": "Stay Chunkee. Soft body, hard chain \u2014 Leonida\u2019s wetland boss trading stress for sunset."
+    },
+    {
+      "url": "https://dexscreener.com/solana/efmzfcstz5oxorwlhblcpzkeplz91bg5knrgagixpump",
+      "tokenAddress": "EfMZfcStz5oxorWLhBLcPzkePLz91BG5knrGAGiXpump",
+      "description": "Pablo the Race Cat"
     }
   ],
   "fearGreed": {
     "value": 54,
     "label": "Neutral"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
