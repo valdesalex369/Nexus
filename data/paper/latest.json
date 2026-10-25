@@ -1,47 +1,42 @@
 {
-  "at": "2026-10-24T23:45:43.786430+00:00",
+  "at": "2026-10-25T04:46:13.810381+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80770.0,
-      "changePct": -0.12842948354537603,
+      "price": 80855.0,
+      "changePct": 0.06185131208444135,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2355.18,
-      "changePct": -0.9625697530672896,
+      "price": 2366.59,
+      "changePct": -0.5836797131261254,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 102.32,
-      "changePct": -0.16668844893363532,
+      "price": 102.57,
+      "changePct": -0.06423407533183939,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 738.05,
-      "changePct": 0.11523128581554408,
+      "price": 747.47,
+      "changePct": 1.0865149779134369,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/3svjz7bft9fxir49nzc7udbmlgzrljy7xbzdkhefpump",
-      "tokenAddress": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
-      "description": "Swordope brings fearless energy and a blade for every battle."
-    },
     {
       "url": "https://dexscreener.com/solana/h7vzncbyndk5ikbs9krdj2tx8cur1wxedv19zgkwpump",
       "tokenAddress": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
       "description": "The axe weighs more than the entire knight. A tiny kitten chose the biggest battleaxe in the armoury. Now every swing co"
     },
     {
-      "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
-      "tokenAddress": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
-      "description": "The Official Fomo Mascot.\n\nNovember 15."
+      "url": "https://dexscreener.com/solana/3svjz7bft9fxir49nzc7udbmlgzrljy7xbzdkhefpump",
+      "tokenAddress": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
+      "description": "Swordope brings fearless energy and a blade for every battle."
     },
     {
       "url": "https://dexscreener.com/solana/hcjvgxvgvwsmzml5ztttkrrmhchv93pcp8duxg85pump",
@@ -49,14 +44,9 @@
       "description": "The forest is gone. The servers are humming. And the wolves want answers.\n\nGoogle illegally cleared a Finnish forest for"
     },
     {
-      "url": "https://dexscreener.com/solana/2mrt8hizpkykdyuhn2uycnkxgbgnzsumvxqmuwskpump",
-      "tokenAddress": "2mrT8hizpKykdYUHN2uYcNkxGbGnZSumvXQMuwSkpump",
-      "description": "KABOSU \u2014 The original Shiba Inu behind $DOGE. The iconic meme that started it all, now connected to Dogecoin co-founder "
-    },
-    {
-      "url": "https://dexscreener.com/solana/3yyqfkpaob7szucyk59dgvhpzk1ln9odkmjc1uy3pump",
-      "tokenAddress": "3YYqFkPaob7SzUCyk59DGVhPZK1LN9odKMJc1uy3pump",
-      "description": "Trump Coin"
+      "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
+      "tokenAddress": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
+      "description": "The Official Fomo Mascot.\n\nNovember 15."
     },
     {
       "url": "https://dexscreener.com/solana/4ipcoj37nxnxs66sr9mvytz6vwudqsxyfld4vye6pump",
@@ -67,13 +57,23 @@
       "url": "https://dexscreener.com/solana/1hy4vvrmw6ifkzwbagpkurtqn6koklbqxjdgbsxpump",
       "tokenAddress": "1hy4VvRmw6iFkZwBAgpkuRTQn6KokLbqxjDGBSxpump",
       "description": "Some heroes arrive on horseback. This one arrived fully illuminated."
+    },
+    {
+      "url": "https://dexscreener.com/solana/3kpyr7um657bbcw64glhqpjfpybyjeivhu4ed3cnpump",
+      "tokenAddress": "3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump",
+      "description": "Maya The Samoyed - $MAYA Born in Germany. Raised by Lingli Ye. Destined to farm memes across every timeline."
+    },
+    {
+      "url": "https://dexscreener.com/solana/2ztzpzwuh2ffbvy6rdsidvtq6hxvezpzmxuslqd7pump",
+      "tokenAddress": "2ZTZPzwUH2fFBVy6rDSidVtq6hXVeZPZmxUSLqd7pump",
+      "description": "This graphic of privacy coins outperforming memecoins is going viral."
     }
   ],
   "fearGreed": {
-    "value": 51,
+    "value": 54,
     "label": "Neutral"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
