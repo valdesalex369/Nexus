@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-25T09:50:27.275702+00:00",
+  "at": "2026-10-25T14:24:19.817777+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80224.0,
-      "changePct": -0.2835510971526659,
+      "price": 80245.0,
+      "changePct": -0.04923542441931858,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2325.94,
-      "changePct": -1.3929520799087654,
+      "price": 2330.06,
+      "changePct": -0.7178078030361429,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 100.78,
-      "changePct": -0.37158824168742083,
+      "price": 100.67,
+      "changePct": 0.005327835670201627,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 736.47,
-      "changePct": 0.7928820136205201,
+      "price": 737.28,
+      "changePct": 1.1669762765362381,
       "source": "CoinGecko"
     }
   ],
@@ -39,19 +39,14 @@
       "description": "The axe weighs more than the entire knight. A tiny kitten chose the biggest battleaxe in the armoury. Now every swing co"
     },
     {
-      "url": "https://dexscreener.com/solana/hcjvgxvgvwsmzml5ztttkrrmhchv93pcp8duxg85pump",
-      "tokenAddress": "HcJvgxvgvWsMZmL5ZtTtkrRmHCHV93PcP8duxg85pump",
-      "description": "The forest is gone. The servers are humming. And the wolves want answers.\n\nGoogle illegally cleared a Finnish forest for"
-    },
-    {
       "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
       "tokenAddress": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
       "description": "The Official Fomo Mascot.\n\nNovember 15."
     },
     {
-      "url": "https://dexscreener.com/solana/4ipcoj37nxnxs66sr9mvytz6vwudqsxyfld4vye6pump",
-      "tokenAddress": "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump",
-      "description": "GrandDacityCoin is Live On Solana."
+      "url": "https://dexscreener.com/solana/hcjvgxvgvwsmzml5ztttkrrmhchv93pcp8duxg85pump",
+      "tokenAddress": "HcJvgxvgvWsMZmL5ZtTtkrRmHCHV93PcP8duxg85pump",
+      "description": "The forest is gone. The servers are humming. And the wolves want answers.\n\nGoogle illegally cleared a Finnish forest for"
     },
     {
       "url": "https://dexscreener.com/solana/3kpyr7um657bbcw64glhqpjfpybyjeivhu4ed3cnpump",
@@ -59,21 +54,26 @@
       "description": "Maya The Samoyed - $MAYA Born in Germany. Raised by Lingli Ye. Destined to farm memes across every timeline."
     },
     {
-      "url": "https://dexscreener.com/solana/1hy4vvrmw6ifkzwbagpkurtqn6koklbqxjdgbsxpump",
-      "tokenAddress": "1hy4VvRmw6iFkZwBAgpkuRTQn6KokLbqxjDGBSxpump",
-      "description": "Some heroes arrive on horseback. This one arrived fully illuminated."
+      "url": "https://dexscreener.com/solana/4ipcoj37nxnxs66sr9mvytz6vwudqsxyfld4vye6pump",
+      "tokenAddress": "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump",
+      "description": "GrandDacityCoin is Live On Solana."
     },
     {
       "url": "https://dexscreener.com/solana/hff4rkdzsaoyhkz4dgeqepgmhcbtvffcoalxbjqpump",
       "tokenAddress": "hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump",
       "description": "Gene-spliced. Battle-tested. Very good boy."
+    },
+    {
+      "url": "https://dexscreener.com/solana/1hy4vvrmw6ifkzwbagpkurtqn6koklbqxjdgbsxpump",
+      "tokenAddress": "1hy4VvRmw6iFkZwBAgpkuRTQn6KokLbqxjDGBSxpump",
+      "description": "Some heroes arrive on horseback. This one arrived fully illuminated."
     }
   ],
   "fearGreed": {
     "value": 54,
     "label": "Neutral"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
