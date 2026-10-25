@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-25T20:54:11.633640+00:00",
+  "at": "2026-10-25T23:17:44.537669+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80363.0,
-      "changePct": -0.15397807445910427,
+      "price": 80349.0,
+      "changePct": -0.20827984375008157,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2343.3,
-      "changePct": -0.12287242300547851,
+      "price": 2337.35,
+      "changePct": -0.19481001877558246,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.45,
-      "changePct": -0.04364046086609161,
+      "price": 101.53,
+      "changePct": 0.03445824370828939,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 739.51,
-      "changePct": 0.9021637776062102,
+      "price": 740.05,
+      "changePct": 0.6751378015491886,
       "source": "CoinGecko"
     }
   ],
@@ -49,14 +49,14 @@
       "description": "Maya The Samoyed - $MAYA Born in Germany. Raised by Lingli Ye. Destined to farm memes across every timeline."
     },
     {
-      "url": "https://dexscreener.com/solana/hff4rkdzsaoyhkz4dgeqepgmhcbtvffcoalxbjqpump",
-      "tokenAddress": "hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump",
-      "description": "Gene-spliced. Battle-tested. Very good boy."
-    },
-    {
       "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
       "tokenAddress": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
       "description": "The Official Fomo Mascot.\n\nNovember 15."
+    },
+    {
+      "url": "https://dexscreener.com/solana/9dgb9twswluqu85reo2knozkkkme9nb9yvfjykqopump",
+      "tokenAddress": "9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump",
+      "description": "Big curves. Fast cars. Five-star trouble. GTA just got a new meaning."
     },
     {
       "url": "https://dexscreener.com/solana/gkrpmrvhndyubghfqw5f58kfvkbtf6tbmwqethgnpump",
@@ -64,16 +64,16 @@
       "description": "Stay Chunkee. Soft body, hard chain \u2014 Leonida\u2019s wetland boss trading stress for sunset."
     },
     {
-      "url": "https://dexscreener.com/solana/efmzfcstz5oxorwlhblcpzkeplz91bg5knrgagixpump",
-      "tokenAddress": "EfMZfcStz5oxorWLhBLcPzkePLz91BG5knrGAGiXpump",
-      "description": "Pablo the Race Cat"
+      "url": "https://dexscreener.com/solana/gcn58whb85wj2kt3vwsmnus8yhltqngcfgup77akpump",
+      "tokenAddress": "GCN58WHB85WJ2kt3vwsmNUs8yhLTQNGcFguP77AKpump",
+      "description": ""
     }
   ],
   "fearGreed": {
     "value": 54,
     "label": "Neutral"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
