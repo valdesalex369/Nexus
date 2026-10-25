@@ -1,42 +1,42 @@
 {
-  "at": "2026-10-25T04:46:13.810381+00:00",
+  "at": "2026-10-25T09:50:27.275702+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80855.0,
-      "changePct": 0.06185131208444135,
+      "price": 80224.0,
+      "changePct": -0.2835510971526659,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2366.59,
-      "changePct": -0.5836797131261254,
+      "price": 2325.94,
+      "changePct": -1.3929520799087654,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 102.57,
-      "changePct": -0.06423407533183939,
+      "price": 100.78,
+      "changePct": -0.37158824168742083,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 747.47,
-      "changePct": 1.0865149779134369,
+      "price": 736.47,
+      "changePct": 0.7928820136205201,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/h7vzncbyndk5ikbs9krdj2tx8cur1wxedv19zgkwpump",
-      "tokenAddress": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
-      "description": "The axe weighs more than the entire knight. A tiny kitten chose the biggest battleaxe in the armoury. Now every swing co"
-    },
-    {
       "url": "https://dexscreener.com/solana/3svjz7bft9fxir49nzc7udbmlgzrljy7xbzdkhefpump",
       "tokenAddress": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
       "description": "Swordope brings fearless energy and a blade for every battle."
+    },
+    {
+      "url": "https://dexscreener.com/solana/h7vzncbyndk5ikbs9krdj2tx8cur1wxedv19zgkwpump",
+      "tokenAddress": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
+      "description": "The axe weighs more than the entire knight. A tiny kitten chose the biggest battleaxe in the armoury. Now every swing co"
     },
     {
       "url": "https://dexscreener.com/solana/hcjvgxvgvwsmzml5ztttkrrmhchv93pcp8duxg85pump",
@@ -54,26 +54,26 @@
       "description": "GrandDacityCoin is Live On Solana."
     },
     {
-      "url": "https://dexscreener.com/solana/1hy4vvrmw6ifkzwbagpkurtqn6koklbqxjdgbsxpump",
-      "tokenAddress": "1hy4VvRmw6iFkZwBAgpkuRTQn6KokLbqxjDGBSxpump",
-      "description": "Some heroes arrive on horseback. This one arrived fully illuminated."
-    },
-    {
       "url": "https://dexscreener.com/solana/3kpyr7um657bbcw64glhqpjfpybyjeivhu4ed3cnpump",
       "tokenAddress": "3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump",
       "description": "Maya The Samoyed - $MAYA Born in Germany. Raised by Lingli Ye. Destined to farm memes across every timeline."
     },
     {
-      "url": "https://dexscreener.com/solana/2ztzpzwuh2ffbvy6rdsidvtq6hxvezpzmxuslqd7pump",
-      "tokenAddress": "2ZTZPzwUH2fFBVy6rDSidVtq6hXVeZPZmxUSLqd7pump",
-      "description": "This graphic of privacy coins outperforming memecoins is going viral."
+      "url": "https://dexscreener.com/solana/1hy4vvrmw6ifkzwbagpkurtqn6koklbqxjdgbsxpump",
+      "tokenAddress": "1hy4VvRmw6iFkZwBAgpkuRTQn6KokLbqxjDGBSxpump",
+      "description": "Some heroes arrive on horseback. This one arrived fully illuminated."
+    },
+    {
+      "url": "https://dexscreener.com/solana/hff4rkdzsaoyhkz4dgeqepgmhcbtvffcoalxbjqpump",
+      "tokenAddress": "hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump",
+      "description": "Gene-spliced. Battle-tested. Very good boy."
     }
   ],
   "fearGreed": {
     "value": 54,
     "label": "Neutral"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
