@@ -1,47 +1,42 @@
 {
-  "at": "2026-10-26T01:46:43.987834+00:00",
+  "at": "2026-10-26T07:50:19.096930+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 79580.0,
-      "changePct": -1.489065182419849,
+      "price": 80056.0,
+      "changePct": -0.6979039030070243,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2305.5,
-      "changePct": -2.256921477297759,
+      "price": 2319.62,
+      "changePct": -1.156078975254319,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 100.7,
-      "changePct": -1.6320439284762998,
+      "price": 100.64,
+      "changePct": -1.014904402746441,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 736.32,
-      "changePct": -0.8128372533889939,
+      "price": 738.9,
+      "changePct": -0.7254722546005884,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
+      "url": "https://dexscreener.com/solana/h7vzncbyndk5ikbs9krdj2tx8cur1wxedv19zgkwpump",
+      "tokenAddress": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
+      "description": "The axe weighs more than the entire knight. A tiny kitten chose the biggest battleaxe in the armoury. Now every swing co"
+    },
+    {
       "url": "https://dexscreener.com/solana/c4bdpk4bqaccsg5vvpzximdr48gpaqyffq5iymsrpump",
       "tokenAddress": "C4BdpK4bQAcCsg5vvpzXimdR48GPaQyffQ5iyMsRpump",
       "description": "Trust in Trump for bold leadership and a stronger future for America."
-    },
-    {
-      "url": "https://dexscreener.com/solana/9dgb9twswluqu85reo2knozkkkme9nb9yvfjykqopump",
-      "tokenAddress": "9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump",
-      "description": "Big curves. Fast cars. Five-star trouble. GTA just got a new meaning."
-    },
-    {
-      "url": "https://dexscreener.com/solana/3p4lakkccsibf5nuyyqlu8mjpfxstqjmk2lyubm3pump",
-      "tokenAddress": "3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump",
-      "description": "Los Santos\u2019 favorite good boy. Green collar, big bark, GTA attitude."
     },
     {
       "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
@@ -49,9 +44,19 @@
       "description": "The Official Fomo Mascot.\n\nNovember 15."
     },
     {
-      "url": "https://dexscreener.com/solana/gkrpmrvhndyubghfqw5f58kfvkbtf6tbmwqethgnpump",
-      "tokenAddress": "GkrpmRvhNdyubgHfqW5f58kfvkBtF6TbmwQEtHGnpump",
-      "description": "Stay Chunkee. Soft body, hard chain \u2014 Leonida\u2019s wetland boss trading stress for sunset."
+      "url": "https://dexscreener.com/solana/abp2bt8ovfyyy8etnqmjaurdxgk3tykt2jpmgqzspump",
+      "tokenAddress": "ABp2bT8ovFYYY8etNQmJauRDXgk3tYkt2jpmGqZSpump",
+      "description": "GIGATITS on Solana"
+    },
+    {
+      "url": "https://dexscreener.com/solana/3p4lakkccsibf5nuyyqlu8mjpfxstqjmk2lyubm3pump",
+      "tokenAddress": "3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump",
+      "description": "Los Santos\u2019 favorite good boy. Green collar, big bark, GTA attitude."
+    },
+    {
+      "url": "https://dexscreener.com/solana/9dgb9twswluqu85reo2knozkkkme9nb9yvfjykqopump",
+      "tokenAddress": "9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump",
+      "description": "Big curves. Fast cars. Five-star trouble. GTA just got a new meaning."
     },
     {
       "url": "https://dexscreener.com/solana/gcn58whb85wj2kt3vwsmnus8yhltqngcfgup77akpump",
@@ -62,11 +67,6 @@
       "url": "https://dexscreener.com/solana/bhpgfjftwhmvrufp7hjxwtmecmgjskr6hpcxhd4fpump",
       "tokenAddress": "BhPGFJfTWhmVRUFp7HJXwTMecMGJsKR6hpCxhd4Fpump",
       "description": "Pretty. Unreal. Massive. Pair."
-    },
-    {
-      "url": "https://dexscreener.com/solana/csovxrtem6g4jcvgtctb3xwycoaupjeafputr6zrpump",
-      "tokenAddress": "CsovxRtEM6g4jcVGtcTB3xwycoAuPjEafpUTR6zrpump",
-      "description": "Hellcat"
     }
   ],
   "fearGreed": {
