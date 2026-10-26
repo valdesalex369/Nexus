@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-26T07:50:19.096930+00:00",
+  "at": "2026-10-26T15:13:24.533688+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80056.0,
-      "changePct": -0.6979039030070243,
+      "price": 80399.0,
+      "changePct": -0.25764425606648905,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2319.62,
-      "changePct": -1.156078975254319,
+      "price": 2327.95,
+      "changePct": -0.5631623336504571,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 100.64,
-      "changePct": -1.014904402746441,
+      "price": 102.16,
+      "changePct": 0.6529076406576239,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 738.9,
-      "changePct": -0.7254722546005884,
+      "price": 744.22,
+      "changePct": 0.44382477581914526,
       "source": "CoinGecko"
     }
   ],
@@ -39,14 +39,14 @@
       "description": "Trust in Trump for bold leadership and a stronger future for America."
     },
     {
+      "url": "https://dexscreener.com/solana/vfck39chflox74ws4yziok61tage1qtqb3tma7rpump",
+      "tokenAddress": "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump",
+      "description": "Anthropic IPO"
+    },
+    {
       "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
       "tokenAddress": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
       "description": "The Official Fomo Mascot.\n\nNovember 15."
-    },
-    {
-      "url": "https://dexscreener.com/solana/abp2bt8ovfyyy8etnqmjaurdxgk3tykt2jpmgqzspump",
-      "tokenAddress": "ABp2bT8ovFYYY8etNQmJauRDXgk3tYkt2jpmGqZSpump",
-      "description": "GIGATITS on Solana"
     },
     {
       "url": "https://dexscreener.com/solana/3p4lakkccsibf5nuyyqlu8mjpfxstqjmk2lyubm3pump",
@@ -54,26 +54,26 @@
       "description": "Los Santos\u2019 favorite good boy. Green collar, big bark, GTA attitude."
     },
     {
+      "url": "https://dexscreener.com/solana/abp2bt8ovfyyy8etnqmjaurdxgk3tykt2jpmgqzspump",
+      "tokenAddress": "ABp2bT8ovFYYY8etNQmJauRDXgk3tYkt2jpmGqZSpump",
+      "description": "GIGATITS on Solana"
+    },
+    {
       "url": "https://dexscreener.com/solana/9dgb9twswluqu85reo2knozkkkme9nb9yvfjykqopump",
       "tokenAddress": "9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump",
       "description": "Big curves. Fast cars. Five-star trouble. GTA just got a new meaning."
     },
     {
-      "url": "https://dexscreener.com/solana/gcn58whb85wj2kt3vwsmnus8yhltqngcfgup77akpump",
-      "tokenAddress": "GCN58WHB85WJ2kt3vwsmNUs8yhLTQNGcFguP77AKpump",
+      "url": "https://dexscreener.com/solana/jvtvuduufx3hl3fa87ya77ydgn5iqoydedalfnopump",
+      "tokenAddress": "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump",
       "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/bhpgfjftwhmvrufp7hjxwtmecmgjskr6hpcxhd4fpump",
-      "tokenAddress": "BhPGFJfTWhmVRUFp7HJXwTMecMGJsKR6hpCxhd4Fpump",
-      "description": "Pretty. Unreal. Massive. Pair."
     }
   ],
   "fearGreed": {
     "value": 50,
     "label": "Neutral"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
