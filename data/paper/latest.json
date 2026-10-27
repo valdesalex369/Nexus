@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-27T16:02:27.426999+00:00",
+  "at": "2026-10-27T20:43:43.976194+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80473.0,
-      "changePct": 0.19115899257269314,
+      "price": 80564.0,
+      "changePct": 1.0161134056032992,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2344.23,
-      "changePct": 0.8689660720159809,
+      "price": 2338.63,
+      "changePct": 1.3776328690997854,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 100.85,
-      "changePct": -0.8640602715060952,
+      "price": 100.83,
+      "changePct": 0.6879442826584806,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 749.66,
-      "changePct": 0.9423126499927692,
+      "price": 746.08,
+      "changePct": 0.7698949558708977,
       "source": "CoinGecko"
     }
   ],
@@ -39,16 +39,6 @@
       "description": "TRUMP 2028 \u2014 TOKENIZED SUPER PAC on Solana.\nRed hat. Stars and stripes. The timeline\u2019s 2028 meme."
     },
     {
-      "url": "https://dexscreener.com/solana/dtbatqsrazrrvp37utmqh7tnxl1mt2qrjtj7pb9rpump",
-      "tokenAddress": "DtBatQsrazRRVp37UTMQH7TnXL1mT2qrJTj7PB9Rpump",
-      "description": "Last year I  was live for months and ran Wifmas to 5 million market cap\n\nThe trenches have been dead lately and its the "
-    },
-    {
-      "url": "https://dexscreener.com/solana/2qpopqqchgtdbgdsxxfrzw1irs3cgbkmmwsmapz4pump",
-      "tokenAddress": "2qPoPQQCHGtDbgdSxXfrzW1iRS3cGbKmMWSMapZ4pump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
       "tokenAddress": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
       "description": "The Official Fomo Mascot.\n\nNovember 15."
@@ -59,14 +49,24 @@
       "description": "Big energy, bold memes, and maximum internet chaos. Laugh More, Meme Harder."
     },
     {
-      "url": "https://dexscreener.com/solana/42nvgmxdteyhld1qjuetyexenlpcgozslfqpqnsdpump",
-      "tokenAddress": "42nvgmxdtEyHLD1qJUeTyexenLpCGoZsLfQPQnsdpump",
+      "url": "https://dexscreener.com/solana/2qpopqqchgtdbgdsxxfrzw1irs3cgbkmmwsmapz4pump",
+      "tokenAddress": "2qPoPQQCHGtDbgdSxXfrzW1iRS3cGbKmMWSMapZ4pump",
       "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/3ym6w93hmuzshrmsgvpr2cw4wvubvkscht1541i6pump",
+      "tokenAddress": "3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump",
+      "description": "Donald Trump Just post about SI on his social"
     },
     {
       "url": "https://dexscreener.com/solana/8u6rw9wvtpb9shnuo1heskblrgxwlsczcd2rsdyfpump",
       "tokenAddress": "8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump",
       "description": "No eyes. No identity. Pink knit hat. \u2588\u2588\u2588WIF \u2014 Blind Ape Wif Hat."
+    },
+    {
+      "url": "https://dexscreener.com/solana/9v4airx4vt45adfg3qqg9pxx68lkx9big4giyeujpump",
+      "tokenAddress": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
+      "description": "From sunset speedboat rides with Jason and Lucia to drive-in movie nights and unexpected bowling victories, this little "
     }
   ],
   "fearGreed": {
