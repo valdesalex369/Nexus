@@ -1,42 +1,57 @@
 {
-  "at": "2026-10-27T05:10:11.887821+00:00",
+  "at": "2026-10-27T10:37:39.195603+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 79712.0,
-      "changePct": -0.3481496153295461,
+      "price": 79552.0,
+      "changePct": -0.9715128856961134,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2312.34,
-      "changePct": -0.3204528302511259,
+      "price": 2302.42,
+      "changePct": -1.179029770473861,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 100.13,
-      "changePct": -1.0901991618856184,
+      "price": 99.57,
+      "changePct": -1.8813834013919364,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 736.68,
-      "changePct": -0.5956449667904857,
+      "price": 735.67,
+      "changePct": -0.2850309028273327,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/27qg7ecngfmbthfqeqxts4qjfnvu6gxf8w1ahjijpump",
+      "tokenAddress": "27Qg7EcnGfmbthfQeQXTs4qjfnvU6gXf8W1ahJiJpump",
+      "description": "Built to get Elon Musk elected president in 2028."
+    },
     {
       "url": "https://dexscreener.com/solana/vfck39chflox74ws4yziok61tage1qtqb3tma7rpump",
       "tokenAddress": "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump",
       "description": "Anthropic IPO"
     },
     {
-      "url": "https://dexscreener.com/solana/27qg7ecngfmbthfqeqxts4qjfnvu6gxf8w1ahjijpump",
-      "tokenAddress": "27Qg7EcnGfmbthfQeQXTs4qjfnvU6gXf8W1ahJiJpump",
-      "description": "Built to get Elon Musk elected president in 2028."
+      "url": "https://dexscreener.com/solana/6zmfmxjovo7ivtrypsp7ysphm5tcbv4sh5twsdgapump",
+      "tokenAddress": "6zMfMXjovo7ivtrypSP7YspHm5TcbV4Sh5TwSDgapump",
+      "description": "TRUMP 2028 \u2014 TOKENIZED SUPER PAC on Solana.\nRed hat. Stars and stripes. The timeline\u2019s 2028 meme."
+    },
+    {
+      "url": "https://dexscreener.com/solana/dtbatqsrazrrvp37utmqh7tnxl1mt2qrjtj7pb9rpump",
+      "tokenAddress": "DtBatQsrazRRVp37UTMQH7TnXL1mT2qrJTj7PB9Rpump",
+      "description": "Last year I  was live for months and ran Wifmas to 5 million market cap\n\nThe trenches have been dead lately and its the "
+    },
+    {
+      "url": "https://dexscreener.com/solana/2qpopqqchgtdbgdsxxfrzw1irs3cgbkmmwsmapz4pump",
+      "tokenAddress": "2qPoPQQCHGtDbgdSxXfrzW1iRS3cGbKmMWSMapZ4pump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
@@ -49,23 +64,8 @@
       "description": "Big energy, bold memes, and maximum internet chaos. Laugh More, Meme Harder."
     },
     {
-      "url": "https://dexscreener.com/solana/dtbatqsrazrrvp37utmqh7tnxl1mt2qrjtj7pb9rpump",
-      "tokenAddress": "DtBatQsrazRRVp37UTMQH7TnXL1mT2qrJTj7PB9Rpump",
-      "description": "Last year I  was live for months and ran Wifmas to 5 million market cap\n\nThe trenches have been dead lately and its the "
-    },
-    {
       "url": "https://dexscreener.com/solana/42nvgmxdteyhld1qjuetyexenlpcgozslfqpqnsdpump",
       "tokenAddress": "42nvgmxdtEyHLD1qJUeTyexenLpCGoZsLfQPQnsdpump",
-      "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
-      "url": "https://dexscreener.com/solana/jvtvuduufx3hl3fa87ya77ydgn5iqoydedalfnopump",
-      "tokenAddress": "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump",
       "description": ""
     }
   ],
