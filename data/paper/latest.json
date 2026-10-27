@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-27T10:37:39.195603+00:00",
+  "at": "2026-10-27T16:02:27.426999+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 79552.0,
-      "changePct": -0.9715128856961134,
+      "price": 80473.0,
+      "changePct": 0.19115899257269314,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2302.42,
-      "changePct": -1.179029770473861,
+      "price": 2344.23,
+      "changePct": 0.8689660720159809,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 99.57,
-      "changePct": -1.8813834013919364,
+      "price": 100.85,
+      "changePct": -0.8640602715060952,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 735.67,
-      "changePct": -0.2850309028273327,
+      "price": 749.66,
+      "changePct": 0.9423126499927692,
       "source": "CoinGecko"
     }
   ],
@@ -32,11 +32,6 @@
       "url": "https://dexscreener.com/solana/27qg7ecngfmbthfqeqxts4qjfnvu6gxf8w1ahjijpump",
       "tokenAddress": "27Qg7EcnGfmbthfQeQXTs4qjfnvU6gXf8W1ahJiJpump",
       "description": "Built to get Elon Musk elected president in 2028."
-    },
-    {
-      "url": "https://dexscreener.com/solana/vfck39chflox74ws4yziok61tage1qtqb3tma7rpump",
-      "tokenAddress": "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump",
-      "description": "Anthropic IPO"
     },
     {
       "url": "https://dexscreener.com/solana/6zmfmxjovo7ivtrypsp7ysphm5tcbv4sh5twsdgapump",
@@ -67,13 +62,18 @@
       "url": "https://dexscreener.com/solana/42nvgmxdteyhld1qjuetyexenlpcgozslfqpqnsdpump",
       "tokenAddress": "42nvgmxdtEyHLD1qJUeTyexenLpCGoZsLfQPQnsdpump",
       "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/8u6rw9wvtpb9shnuo1heskblrgxwlsczcd2rsdyfpump",
+      "tokenAddress": "8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump",
+      "description": "No eyes. No identity. Pink knit hat. \u2588\u2588\u2588WIF \u2014 Blind Ape Wif Hat."
     }
   ],
   "fearGreed": {
     "value": 48,
     "label": "Neutral"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
