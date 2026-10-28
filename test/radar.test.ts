@@ -96,6 +96,10 @@ describe('Opportunity Radar vertical slice', () => {
     assert.equal(snapshot.dataMode, 'FIXTURE');
     assert.equal(snapshot.live, false);
     assert.equal(snapshot.realityDelta.status, 'BASELINE');
+    assert.equal(snapshot.signalGate.decision, 'RESEARCH_ONLY');
+    assert.ok(snapshot.signalGate.reasons.includes('UNVALIDATED_ECONOMICS'));
+    assert.ok(snapshot.signalGate.reasons.includes('FIXTURE_NOT_LIVE'));
+    assert.equal(snapshot.signalGate.externalActionAllowed, false);
     const observed = snapshot.claims.find((claim) => claim.classification === 'OBSERVED');
     assert.deepEqual(observed?.provenance, [snapshot.sourceEvent.source.id]);
     assert.ok(snapshot.claims.some((claim) => claim.classification === 'UNKNOWN'));
@@ -118,6 +122,9 @@ describe('Opportunity Radar vertical slice', () => {
     assert.equal(latest.runId, snapshot.runId);
     const repeat = await runRadar({ fixtureRaw, fixtureEndpoint: 'https://www.federalregister.gov/api/v1/documents.json?fixture=1', now, outputDir, dbPath });
     assert.equal(repeat.realityDelta.status, 'UNCHANGED');
+    assert.equal(repeat.signalGate.decision, 'SUPPRESS');
+    assert.ok(repeat.signalGate.reasons.includes('UNCHANGED_EVENT'));
+    assert.equal(repeat.ledger.verified, true);
     assert.equal(repeat.realityDelta.previousDocumentNumber, snapshot.sourceEvent.document.document_number);
   });
 
@@ -142,6 +149,7 @@ describe('Opportunity Radar vertical slice', () => {
       const state = await response.json() as RadarSnapshot;
       assert.equal(state.dataMode, 'FIXTURE');
       assert.equal(state.ledger.verified, true);
+      assert.equal(state.signalGate.decision, 'RESEARCH_ONLY');
     } finally {
       await new Promise<void>((resolve, reject) => server.close((error) => error ? reject(error) : resolve()));
     }

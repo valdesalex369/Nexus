@@ -42,6 +42,8 @@ async function main(): Promise<void> {
     document: snapshot.sourceEvent.document.document_number,
     opportunityScore: snapshot.opportunities[0]?.score,
     actionStatus: snapshot.action.status,
+    signalDecision: snapshot.signalGate.decision,
+    signalReasons: snapshot.signalGate.reasons,
     ledgerVerified: snapshot.ledger.verified,
     ledgerHead: snapshot.ledger.headHash,
   };

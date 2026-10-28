@@ -1,6 +1,7 @@
 import type { Claim, Source } from '../discovery/types.ts';
 import type { ActionProposal, Ruling } from '../policy/index.ts';
 import type { ScoredOpportunity } from '../wayfinder/index.ts';
+import type { SignalGateResult } from './signal-gate.ts';
 
 export type RadarMode = 'LIVE' | 'FIXTURE';
 export type RadarActionStatus = 'VERIFIED' | 'HUMAN_GATE' | 'DENIED';
@@ -126,6 +127,7 @@ export interface RadarSnapshot {
   opportunities: ScoredOpportunity[];
   scenarioAssumptions: ScenarioAssumptions;
   deliberation: Deliberation;
+  signalGate: SignalGateResult;
   action: ActionOutcome;
   ledger: {
     verified: boolean;
