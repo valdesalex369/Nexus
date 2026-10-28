@@ -1,37 +1,37 @@
 {
-  "at": "2026-10-28T05:46:34.387294+00:00",
+  "at": "2026-10-28T12:59:39.316125+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80850.0,
-      "changePct": 1.3192993954698025,
+      "price": 80651.0,
+      "changePct": 0.4414008052962895,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2350.05,
-      "changePct": 1.7244008301048719,
+      "price": 2336.83,
+      "changePct": 0.11070845217712583,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.75,
-      "changePct": 1.776155289308903,
+      "price": 101.42,
+      "changePct": 0.5394894580202347,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 744.3,
-      "changePct": 0.9794831691083342,
+      "price": 754.29,
+      "changePct": 1.6359280597126373,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/6zmfmxjovo7ivtrypsp7ysphm5tcbv4sh5twsdgapump",
-      "tokenAddress": "6zMfMXjovo7ivtrypSP7YspHm5TcbV4Sh5TwSDgapump",
-      "description": "TRUMP 2028 \u2014 TOKENIZED SUPER PAC on Solana.\nRed hat. Stars and stripes. The timeline\u2019s 2028 meme."
+      "url": "https://dexscreener.com/solana/azdhikmyj6ibsejv7ejml9sfnmuimvwdrkxteu2zpump",
+      "tokenAddress": "AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump",
+      "description": "They said pump coins are backed by nothing but belief. We turned that into Something."
     },
     {
       "url": "https://dexscreener.com/solana/2nppkzfcydzlqhxjjdfja1iv2v4zqv9k6z8qsiytpump",
@@ -39,19 +39,9 @@
       "description": "Frongus Maximus, the battlefield\u2019s boldest frog, is marching straight into meme history."
     },
     {
-      "url": "https://dexscreener.com/solana/azdhikmyj6ibsejv7ejml9sfnmuimvwdrkxteu2zpump",
-      "tokenAddress": "AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump",
-      "description": "They said pump coins are backed by nothing but belief. We turned that into Something."
-    },
-    {
       "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
       "tokenAddress": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
       "description": "The Official Fomo Mascot.\n\nNovember 15."
-    },
-    {
-      "url": "https://dexscreener.com/solana/exd37vzjge3gueot1yatczfhtejluetqui4fevrepump",
-      "tokenAddress": "ExD37VZjge3GUEot1yAtCZfhtEJLUetqui4FeVRepump",
-      "description": "Retarded Bitcoin ($RTC) \ud83d\udfe0\n\nBitcoin had a whitepaper. We have a Wojak in an orange beanie.\n\nBuying tops. Selling bottoms."
     },
     {
       "url": "https://dexscreener.com/solana/3ym6w93hmuzshrmsgvpr2cw4wvubvkscht1541i6pump",
@@ -59,14 +49,24 @@
       "description": "Donald Trump Just post about SI on his social"
     },
     {
-      "url": "https://dexscreener.com/solana/2qpopqqchgtdbgdsxxfrzw1irs3cgbkmmwsmapz4pump",
-      "tokenAddress": "2qPoPQQCHGtDbgdSxXfrzW1iRS3cGbKmMWSMapZ4pump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/69y6d9xqkkdypvesdikaqpu9z5fxzy8lb7pthqkmpump",
+      "tokenAddress": "69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump",
+      "description": "Start from a contract address. Rapport brings holders, deployer activity, revenue and risk signals into one report, with"
+    },
+    {
+      "url": "https://dexscreener.com/solana/9pq7alabhdg2ttns22cm6kuyszvczplfe368hwuypump",
+      "tokenAddress": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+      "description": "IT'S\nLITERALLY\nJUST A DOG\nWIF A JOB."
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
+      "url": "https://dexscreener.com/solana/9ugqesc5sh9gbjvlr7juf7pyy9tdzhiv7kcdym7wpump",
+      "tokenAddress": "9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump",
+      "description": "gently used joystick"
     }
   ],
   "fearGreed": {
