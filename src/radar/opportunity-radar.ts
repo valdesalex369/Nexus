@@ -6,6 +6,7 @@ import { Ledger } from '../ledger/index.ts';
 import { Policy, type ActionProposal, type Ruling } from '../policy/index.ts';
 import { rank, type Opportunity } from '../wayfinder/index.ts';
 import { BusAdapter } from './bus-adapter.ts';
+import { evaluateSignal } from './signal-gate.ts';
 import { fetchFederalRegisterEvent, parseFederalRegisterPayload } from './federal-register.ts';
 import type {
   ActionOutcome, BusMessage, Deliberation, DeliberationPosition, RadarActionStatus,
@@ -276,6 +277,29 @@ export async function runRadar(options: RunRadarOptions = {}): Promise<RadarSnap
     const { opportunity, assumptions } = buildOpportunity(sourceEvent);
     const opportunities = rank([opportunity]);
     const top = opportunities[0]!;
+    const signalGate = evaluateSignal({
+      asOf: generatedAt,
+      mode: sourceEvent.mode,
+      delta: realityDelta.status,
+      sourceId: sourceEvent.source.id,
+      sourceUrl: sourceEvent.source.url ?? null,
+      sourceSha256: sourceEvent.source.sha256,
+      publishedOn: sourceEvent.document.publication_date,
+      observedClaimProvenances: claims.filter((claim) => claim.classification === 'OBSERVED')
+        .map((claim) => claim.provenance),
+      independentSourceIds: [], // One government feed; never manufacture independent corroboration.
+      validatedBuyerEvidenceRefs: [], // Experimental economics, not observed buyer demand.
+      unknownClaims: claims.filter((claim) => claim.classification === 'UNKNOWN').length,
+      opportunityScore: top.score,
+      opportunityVeto: Boolean(top.veto),
+      economicsAreExperimental: assumptions.label === 'EXPERIMENT_PRIOR_NOT_FORECAST',
+    });
+    ledger.append({
+      runId, kind: 'evaluation', actor: 'stem.signal-gate',
+      task: 'separate research observations from actionable alerts',
+      payload: signalGate,
+      evidence: { sourceId: sourceEvent.source.id, delta: realityDelta.status, score: top.score },
+    });
     ledger.append({
       runId, kind: 'decision', actor: 'wayfinder', task: 'rank bounded research opportunity',
       payload: { opportunityId: opportunity.id, rank: top.rank, score: top.score, veto: top.veto },
@@ -315,7 +339,7 @@ export async function runRadar(options: RunRadarOptions = {}): Promise<RadarSnap
       const brief = {
         schemaVersion: 'nexus.opportunity-brief.v0', runId, generatedAt,
         source: sourceEvent, claims, uncertainties, opportunity: top,
-        assumptions, deliberation,
+        assumptions, deliberation, signalGate,
       };
       const encoded = `${JSON.stringify(brief, null, 2)}\n`;
       ledger.append({
@@ -356,6 +380,7 @@ export async function runRadar(options: RunRadarOptions = {}): Promise<RadarSnap
         uncertainties: uncertainties.length,
         opportunities: opportunities.length,
         actionStatus: action.status,
+        signalDecision: signalGate.decision,
       },
       evidence: { sourceSha256: sourceEvent.source.sha256, action: action.evidence },
     });
@@ -376,6 +401,7 @@ export async function runRadar(options: RunRadarOptions = {}): Promise<RadarSnap
       opportunities,
       scenarioAssumptions: assumptions,
       deliberation,
+      signalGate,
       action,
       ledger: {
         verified: true,
