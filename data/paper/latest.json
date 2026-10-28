@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-28T12:59:39.316125+00:00",
+  "at": "2026-10-28T18:52:16.924061+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80651.0,
-      "changePct": 0.4414008052962895,
+      "price": 81021.0,
+      "changePct": 0.5936162428305927,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2336.83,
-      "changePct": 0.11070845217712583,
+      "price": 2355.4,
+      "changePct": 0.5487174755688723,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.42,
-      "changePct": 0.5394894580202347,
+      "price": 102.16,
+      "changePct": 1.297507090993422,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 754.29,
-      "changePct": 1.6359280597126373,
+      "price": 750.81,
+      "changePct": 0.25274170363192927,
       "source": "CoinGecko"
     }
   ],
@@ -39,14 +39,14 @@
       "description": "Frongus Maximus, the battlefield\u2019s boldest frog, is marching straight into meme history."
     },
     {
+      "url": "https://dexscreener.com/solana/fexgegqevm5vzurqyc7qsmklqwspvv1acb9bblvcpump",
+      "tokenAddress": "FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump",
+      "description": "The first dual-market launchpad."
+    },
+    {
       "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
       "tokenAddress": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
       "description": "The Official Fomo Mascot.\n\nNovember 15."
-    },
-    {
-      "url": "https://dexscreener.com/solana/3ym6w93hmuzshrmsgvpr2cw4wvubvkscht1541i6pump",
-      "tokenAddress": "3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump",
-      "description": "Donald Trump Just post about SI on his social"
     },
     {
       "url": "https://dexscreener.com/solana/69y6d9xqkkdypvesdikaqpu9z5fxzy8lb7pthqkmpump",
@@ -59,14 +59,14 @@
       "description": "IT'S\nLITERALLY\nJUST A DOG\nWIF A JOB."
     },
     {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
       "url": "https://dexscreener.com/solana/9ugqesc5sh9gbjvlr7juf7pyy9tdzhiv7kcdym7wpump",
       "tokenAddress": "9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump",
       "description": "gently used joystick"
+    },
+    {
+      "url": "https://dexscreener.com/solana/gf74fbfcaeljuiuwkpriubvmqttvnyzmoo6knyyqnyk6",
+      "tokenAddress": "GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6",
+      "description": "STONKLANA SZN."
     }
   ],
   "fearGreed": {
