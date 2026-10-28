@@ -1,38 +1,33 @@
 {
-  "at": "2026-10-28T00:05:00.928835+00:00",
+  "at": "2026-10-28T05:46:34.387294+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80743.0,
-      "changePct": 0.8254625302464849,
+      "price": 80850.0,
+      "changePct": 1.3192993954698025,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2345.08,
-      "changePct": 1.0095370737506526,
+      "price": 2350.05,
+      "changePct": 1.7244008301048719,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 101.1,
-      "changePct": 0.2718620010241498,
+      "price": 101.75,
+      "changePct": 1.776155289308903,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 743.51,
-      "changePct": 0.1190020483214502,
+      "price": 744.3,
+      "changePct": 0.9794831691083342,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/27qg7ecngfmbthfqeqxts4qjfnvu6gxf8w1ahjijpump",
-      "tokenAddress": "27Qg7EcnGfmbthfQeQXTs4qjfnvU6gXf8W1ahJiJpump",
-      "description": "Built to get Elon Musk elected president in 2028."
-    },
     {
       "url": "https://dexscreener.com/solana/6zmfmxjovo7ivtrypsp7ysphm5tcbv4sh5twsdgapump",
       "tokenAddress": "6zMfMXjovo7ivtrypSP7YspHm5TcbV4Sh5TwSDgapump",
@@ -44,14 +39,19 @@
       "description": "Frongus Maximus, the battlefield\u2019s boldest frog, is marching straight into meme history."
     },
     {
-      "url": "https://dexscreener.com/solana/exd37vzjge3gueot1yatczfhtejluetqui4fevrepump",
-      "tokenAddress": "ExD37VZjge3GUEot1yAtCZfhtEJLUetqui4FeVRepump",
-      "description": "Retarded Bitcoin ($RTC) \ud83d\udfe0\n\nBitcoin had a whitepaper. We have a Wojak in an orange beanie.\n\nBuying tops. Selling bottoms."
+      "url": "https://dexscreener.com/solana/azdhikmyj6ibsejv7ejml9sfnmuimvwdrkxteu2zpump",
+      "tokenAddress": "AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump",
+      "description": "They said pump coins are backed by nothing but belief. We turned that into Something."
     },
     {
       "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
       "tokenAddress": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
       "description": "The Official Fomo Mascot.\n\nNovember 15."
+    },
+    {
+      "url": "https://dexscreener.com/solana/exd37vzjge3gueot1yatczfhtejluetqui4fevrepump",
+      "tokenAddress": "ExD37VZjge3GUEot1yAtCZfhtEJLUetqui4FeVRepump",
+      "description": "Retarded Bitcoin ($RTC) \ud83d\udfe0\n\nBitcoin had a whitepaper. We have a Wojak in an orange beanie.\n\nBuying tops. Selling bottoms."
     },
     {
       "url": "https://dexscreener.com/solana/3ym6w93hmuzshrmsgvpr2cw4wvubvkscht1541i6pump",
@@ -64,9 +64,9 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/9v4airx4vt45adfg3qqg9pxx68lkx9big4giyeujpump",
-      "tokenAddress": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
-      "description": "From sunset speedboat rides with Jason and Lucia to drive-in movie nights and unexpected bowling victories, this little "
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     }
   ],
   "fearGreed": {
