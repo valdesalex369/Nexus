@@ -1,38 +1,33 @@
 {
-  "at": "2026-10-28T23:14:42.322473+00:00",
+  "at": "2026-10-29T02:30:37.921345+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81238.0,
-      "changePct": 0.5057047209014242,
+      "price": 79863.0,
+      "changePct": -1.1999377632146435,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2358.75,
-      "changePct": 0.44010882247103605,
+      "price": 2302.96,
+      "changePct": -2.155535040365159,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 102.37,
-      "changePct": 1.1516146648112964,
+      "price": 99.55,
+      "changePct": -1.8869223833529996,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 756.66,
-      "changePct": 1.6528229785086612,
+      "price": 746.43,
+      "changePct": 0.33126717768823305,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/azdhikmyj6ibsejv7ejml9sfnmuimvwdrkxteu2zpump",
-      "tokenAddress": "AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump",
-      "description": "They said pump coins are backed by nothing but belief. We turned that into Something."
-    },
     {
       "url": "https://dexscreener.com/solana/fexgegqevm5vzurqyc7qsmklqwspvv1acb9bblvcpump",
       "tokenAddress": "FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump",
@@ -64,16 +59,21 @@
       "description": "STONKLANA SZN."
     },
     {
-      "url": "https://dexscreener.com/solana/nxpqz4f7ux8vph5nfu25rep6kx9gr1u6fmj36rjpump",
-      "tokenAddress": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
-      "description": "Dacity Coin is the fictional cryptocurrency featured in GTA 6, powered by AudaCity."
+      "url": "https://dexscreener.com/solana/25xyntzwgpubujgjptjgv5qkd3kfp9n5tkkrzavipump",
+      "tokenAddress": "25XYntzwGpubUjgJPTJgv5qKd3Kfp9n5tKKRZAVipump",
+      "description": "shibana"
+    },
+    {
+      "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
+      "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+      "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
     }
   ],
   "fearGreed": {
     "value": 51,
     "label": "Neutral"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
