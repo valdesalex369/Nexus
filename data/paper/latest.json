@@ -1,37 +1,52 @@
 {
-  "at": "2026-10-29T16:10:42.357238+00:00",
+  "at": "2026-10-29T21:10:58.325210+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 81792.0,
-      "changePct": 1.6495093792418605,
+      "price": 79038.0,
+      "changePct": -2.7167087841126967,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2370.72,
-      "changePct": 1.7096726641005193,
+      "price": 2259.11,
+      "changePct": -4.250784179490808,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 102.79,
-      "changePct": 1.8701122893946918,
+      "price": 96.24,
+      "changePct": -6.0877454582509625,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 751.09,
-      "changePct": 0.28450999178882475,
+      "price": 704.56,
+      "changePct": -6.791796111232371,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
+      "url": "https://dexscreener.com/solana/gjknjsrim5ats4yhwjyregt3irsxuvcw1dafjph8pump",
+      "tokenAddress": "GJKnJsRiM5ATS4yhwjYRegT3iRsXUvcW1dafJPh8pump",
+      "description": "@tetsuo confirmed \u201cAgenC\u201d as the name for Super Intelligent Beauty."
+    },
+    {
+      "url": "https://dexscreener.com/solana/anvla6ekiaq4nstd2sg3szhfvksewfngccn12uqwpump",
+      "tokenAddress": "ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump",
+      "description": "The Financial Operating System\n\nFrom market discovery to on-chain action in one workspace."
+    },
+    {
       "url": "https://dexscreener.com/solana/8zmqkceqftmjazaxua6fddpwbqjoloewarg4uybnpump",
       "tokenAddress": "8zMqKceqftmjAZaxua6FddpWbQjoLoeWArg4UYBNpump",
       "description": "PHONK\u2122\nCreated by MXZI, ATLXS and ALZEEZ. A music-powered memecoin building a private dashboard for holders."
+    },
+    {
+      "url": "https://dexscreener.com/solana/5c5k1zetdvgof5qrcyrbvmivlhkjzs8rkh8ul2pwpump",
+      "tokenAddress": "5C5K1ZetdvGoF5QRcyRbVMiVLhkJzS8RkH8UL2pwpump",
+      "description": "Nothing scary About PEPEween! APE AWAY!"
     },
     {
       "url": "https://dexscreener.com/solana/dyw5fdnv91eknnimg4tgcu1zrzjuxbpsliezih6pump",
@@ -49,31 +64,16 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/gydpvgkppv8a4ggqqaqsyqjxtqn4s6ym9gkxjnn3mfun",
-      "tokenAddress": "GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun",
-      "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/25xyntzwgpubujgjptjgv5qkd3kfp9n5tkkrzavipump",
-      "tokenAddress": "25XYntzwGpubUjgJPTJgv5qKd3Kfp9n5tKKRZAVipump",
-      "description": "shibana"
-    },
-    {
       "url": "https://dexscreener.com/solana/a6pm7bxywyiuxaeprmhvul4ty2jyvf8n46vxz15hpump",
       "tokenAddress": "A6PM7bxyWYiUxaEpRMHvuL4tY2jYVf8N46vXZ15Hpump",
       "description": "Ocean Drive Shiba. $VI \u00b7 Solana. Welcome to Vice City."
-    },
-    {
-      "url": "https://dexscreener.com/solana/5wsjhxt5nw5jquvupxunnyszf3wowcfggk9lmcscjzy8",
-      "tokenAddress": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
-      "description": "that shit stank"
     }
   ],
   "fearGreed": {
     "value": 51,
     "label": "Neutral"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
