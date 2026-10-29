@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-29T02:30:37.921345+00:00",
+  "at": "2026-10-29T08:56:29.712025+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 79863.0,
-      "changePct": -1.1999377632146435,
+      "price": 79797.0,
+      "changePct": -1.968184771600949,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2302.96,
-      "changePct": -2.155535040365159,
+      "price": 2310.22,
+      "changePct": -2.5067757769810246,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 99.55,
-      "changePct": -1.8869223833529996,
+      "price": 99.82,
+      "changePct": -2.716457364734375,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 746.43,
-      "changePct": 0.33126717768823305,
+      "price": 749.45,
+      "changePct": -0.08300628588506838,
       "source": "CoinGecko"
     }
   ],
@@ -49,14 +49,14 @@
       "description": "One clever cat. A whole lot of bot energy."
     },
     {
-      "url": "https://dexscreener.com/solana/69y6d9xqkkdypvesdikaqpu9z5fxzy8lb7pthqkmpump",
-      "tokenAddress": "69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump",
-      "description": "Start from a contract address. Rapport brings holders, deployer activity, revenue and risk signals into one report, with"
-    },
-    {
       "url": "https://dexscreener.com/solana/gf74fbfcaeljuiuwkpriubvmqttvnyzmoo6knyyqnyk6",
       "tokenAddress": "GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6",
       "description": "STONKLANA SZN."
+    },
+    {
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
       "url": "https://dexscreener.com/solana/25xyntzwgpubujgjptjgv5qkd3kfp9n5tkkrzavipump",
