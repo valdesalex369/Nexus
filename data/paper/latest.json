@@ -1,47 +1,37 @@
 {
-  "at": "2026-10-29T08:56:29.712025+00:00",
+  "at": "2026-10-29T16:10:42.357238+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 79797.0,
-      "changePct": -1.968184771600949,
+      "price": 81792.0,
+      "changePct": 1.6495093792418605,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2310.22,
-      "changePct": -2.5067757769810246,
+      "price": 2370.72,
+      "changePct": 1.7096726641005193,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 99.82,
-      "changePct": -2.716457364734375,
+      "price": 102.79,
+      "changePct": 1.8701122893946918,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 749.45,
-      "changePct": -0.08300628588506838,
+      "price": 751.09,
+      "changePct": 0.28450999178882475,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/fexgegqevm5vzurqyc7qsmklqwspvv1acb9bblvcpump",
-      "tokenAddress": "FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump",
-      "description": "The first dual-market launchpad."
-    },
-    {
       "url": "https://dexscreener.com/solana/8zmqkceqftmjazaxua6fddpwbqjoloewarg4uybnpump",
       "tokenAddress": "8zMqKceqftmjAZaxua6FddpWbQjoLoeWArg4UYBNpump",
       "description": "PHONK\u2122\nCreated by MXZI, ATLXS and ALZEEZ. A music-powered memecoin building a private dashboard for holders."
-    },
-    {
-      "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
-      "tokenAddress": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
-      "description": "The Official Fomo Mascot.\n\nNovember 15."
     },
     {
       "url": "https://dexscreener.com/solana/dyw5fdnv91eknnimg4tgcu1zrzjuxbpsliezih6pump",
@@ -49,9 +39,9 @@
       "description": "One clever cat. A whole lot of bot energy."
     },
     {
-      "url": "https://dexscreener.com/solana/gf74fbfcaeljuiuwkpriubvmqttvnyzmoo6knyyqnyk6",
-      "tokenAddress": "GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6",
-      "description": "STONKLANA SZN."
+      "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
+      "tokenAddress": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
+      "description": "The Official Fomo Mascot.\n\nNovember 15."
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
@@ -59,21 +49,31 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
+      "url": "https://dexscreener.com/solana/gydpvgkppv8a4ggqqaqsyqjxtqn4s6ym9gkxjnn3mfun",
+      "tokenAddress": "GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun",
+      "description": ""
+    },
+    {
       "url": "https://dexscreener.com/solana/25xyntzwgpubujgjptjgv5qkd3kfp9n5tkkrzavipump",
       "tokenAddress": "25XYntzwGpubUjgJPTJgv5qKd3Kfp9n5tKKRZAVipump",
       "description": "shibana"
     },
     {
-      "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
-      "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-      "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
+      "url": "https://dexscreener.com/solana/a6pm7bxywyiuxaeprmhvul4ty2jyvf8n46vxz15hpump",
+      "tokenAddress": "A6PM7bxyWYiUxaEpRMHvuL4tY2jYVf8N46vXZ15Hpump",
+      "description": "Ocean Drive Shiba. $VI \u00b7 Solana. Welcome to Vice City."
+    },
+    {
+      "url": "https://dexscreener.com/solana/5wsjhxt5nw5jquvupxunnyszf3wowcfggk9lmcscjzy8",
+      "tokenAddress": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+      "description": "that shit stank"
     }
   ],
   "fearGreed": {
     "value": 51,
     "label": "Neutral"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
