@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-30T01:05:39.189708+00:00",
+  "at": "2026-10-30T07:11:12.727567+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76950.0,
-      "changePct": -4.937430500578251,
+      "price": 78431.0,
+      "changePct": -1.7976976061754,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2213.49,
-      "changePct": -5.7365187457623295,
+      "price": 2248.87,
+      "changePct": -2.6536864495360706,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 94.5,
-      "changePct": -7.039058492457608,
+      "price": 97.99,
+      "changePct": -1.921457452409614,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 693.93,
-      "changePct": -7.992944332981146,
+      "price": 714.54,
+      "changePct": -4.961613054192787,
       "source": "CoinGecko"
     }
   ],
@@ -39,14 +39,19 @@
       "description": "@tetsuo confirmed \u201cAgenC\u201d as the name for Super Intelligent Beauty."
     },
     {
-      "url": "https://dexscreener.com/solana/5c5k1zetdvgof5qrcyrbvmivlhkjzs8rkh8ul2pwpump",
-      "tokenAddress": "5C5K1ZetdvGoF5QRcyRbVMiVLhkJzS8RkH8UL2pwpump",
-      "description": "Nothing scary About PEPEween! APE AWAY!"
+      "url": "https://dexscreener.com/solana/3apvr1xphympi9dn3rpqu4hwvpmcqdvwxet1rdcdpump",
+      "tokenAddress": "3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump",
+      "description": "With her mint-green hair and bold personality, Hyper-Chan brings fresh energy to Solana."
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
+      "url": "https://dexscreener.com/solana/j3reuwckntcjp1zhn7wvbfxhtdntkhxozqwwawxwpump",
+      "tokenAddress": "J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump",
+      "description": "Foxii Big eyes. Long noodle. Zero thoughts. Just oranges."
     },
     {
       "url": "https://dexscreener.com/solana/a6pm7bxywyiuxaeprmhvul4ty2jyvf8n46vxz15hpump",
@@ -59,14 +64,9 @@
       "description": "Owner of the project"
     },
     {
-      "url": "https://dexscreener.com/solana/5wsjhxt5nw5jquvupxunnyszf3wowcfggk9lmcscjzy8",
-      "tokenAddress": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
-      "description": "that shit stank"
-    },
-    {
-      "url": "https://dexscreener.com/solana/4hshfbfikumvzw7ygidtab17b63mzbkkhadfkxhkpump",
-      "tokenAddress": "4HSHFbFiKuMvZW7yGiDTab17B63MzBkkhadFKxhkpump",
-      "description": "stay calm"
+      "url": "https://dexscreener.com/solana/fdwcosavnvmifb812ajjp3gg7ez9c4bpgcny6fdqpump",
+      "tokenAddress": "FDwCosavNvMiFB812ajJp3gG7eZ9c4bpgcnY6fDQpump",
+      "description": "Every pump, a pitbull dumped it. Every rug, a rat pulled it.\n\nI strike when the chart bleeds red.\n\nYour night shift is o"
     }
   ],
   "fearGreed": {
