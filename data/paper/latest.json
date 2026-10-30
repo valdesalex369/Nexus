@@ -1,62 +1,47 @@
 {
-  "at": "2026-10-29T21:10:58.325210+00:00",
+  "at": "2026-10-30T01:05:39.189708+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 79038.0,
-      "changePct": -2.7167087841126967,
+      "price": 76950.0,
+      "changePct": -4.937430500578251,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2259.11,
-      "changePct": -4.250784179490808,
+      "price": 2213.49,
+      "changePct": -5.7365187457623295,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 96.24,
-      "changePct": -6.0877454582509625,
+      "price": 94.5,
+      "changePct": -7.039058492457608,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 704.56,
-      "changePct": -6.791796111232371,
+      "price": 693.93,
+      "changePct": -7.992944332981146,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/gjknjsrim5ats4yhwjyregt3irsxuvcw1dafjph8pump",
-      "tokenAddress": "GJKnJsRiM5ATS4yhwjYRegT3iRsXUvcW1dafJPh8pump",
-      "description": "@tetsuo confirmed \u201cAgenC\u201d as the name for Super Intelligent Beauty."
-    },
     {
       "url": "https://dexscreener.com/solana/anvla6ekiaq4nstd2sg3szhfvksewfngccn12uqwpump",
       "tokenAddress": "ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump",
       "description": "The Financial Operating System\n\nFrom market discovery to on-chain action in one workspace."
     },
     {
-      "url": "https://dexscreener.com/solana/8zmqkceqftmjazaxua6fddpwbqjoloewarg4uybnpump",
-      "tokenAddress": "8zMqKceqftmjAZaxua6FddpWbQjoLoeWArg4UYBNpump",
-      "description": "PHONK\u2122\nCreated by MXZI, ATLXS and ALZEEZ. A music-powered memecoin building a private dashboard for holders."
+      "url": "https://dexscreener.com/solana/gjknjsrim5ats4yhwjyregt3irsxuvcw1dafjph8pump",
+      "tokenAddress": "GJKnJsRiM5ATS4yhwjYRegT3iRsXUvcW1dafJPh8pump",
+      "description": "@tetsuo confirmed \u201cAgenC\u201d as the name for Super Intelligent Beauty."
     },
     {
       "url": "https://dexscreener.com/solana/5c5k1zetdvgof5qrcyrbvmivlhkjzs8rkh8ul2pwpump",
       "tokenAddress": "5C5K1ZetdvGoF5QRcyRbVMiVLhkJzS8RkH8UL2pwpump",
       "description": "Nothing scary About PEPEween! APE AWAY!"
-    },
-    {
-      "url": "https://dexscreener.com/solana/dyw5fdnv91eknnimg4tgcu1zrzjuxbpsliezih6pump",
-      "tokenAddress": "dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump",
-      "description": "One clever cat. A whole lot of bot energy."
-    },
-    {
-      "url": "https://dexscreener.com/solana/ca8q2mkywznunqymf6pxyxapzsmse2eg9p7hhmw5pump",
-      "tokenAddress": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
-      "description": "The Official Fomo Mascot.\n\nNovember 15."
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
@@ -67,11 +52,26 @@
       "url": "https://dexscreener.com/solana/a6pm7bxywyiuxaeprmhvul4ty2jyvf8n46vxz15hpump",
       "tokenAddress": "A6PM7bxyWYiUxaEpRMHvuL4tY2jYVf8N46vXZ15Hpump",
       "description": "Ocean Drive Shiba. $VI \u00b7 Solana. Welcome to Vice City."
+    },
+    {
+      "url": "https://dexscreener.com/solana/gydpvgkppv8a4ggqqaqsyqjxtqn4s6ym9gkxjnn3mfun",
+      "tokenAddress": "GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun",
+      "description": "Owner of the project"
+    },
+    {
+      "url": "https://dexscreener.com/solana/5wsjhxt5nw5jquvupxunnyszf3wowcfggk9lmcscjzy8",
+      "tokenAddress": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
+      "description": "that shit stank"
+    },
+    {
+      "url": "https://dexscreener.com/solana/4hshfbfikumvzw7ygidtab17b63mzbkkhadfkxhkpump",
+      "tokenAddress": "4HSHFbFiKuMvZW7yGiDTab17B63MzBkkhadFKxhkpump",
+      "description": "stay calm"
     }
   ],
   "fearGreed": {
-    "value": 51,
-    "label": "Neutral"
+    "value": 30,
+    "label": "Fear"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
