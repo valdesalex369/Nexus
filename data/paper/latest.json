@@ -1,33 +1,43 @@
 {
-  "at": "2026-10-30T19:43:48.419609+00:00",
+  "at": "2026-10-30T23:17:11.788995+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76542.0,
-      "changePct": -5.267634512182706,
+      "price": 77022.0,
+      "changePct": -2.18055804320611,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2230.73,
-      "changePct": -4.437483072201599,
+      "price": 2236.92,
+      "changePct": -1.2598863402829195,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 94.42,
-      "changePct": -5.664257420774059,
+      "price": 95.87,
+      "changePct": -0.6405289832204286,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 697.51,
-      "changePct": -6.297071718812922,
+      "price": 701.28,
+      "changePct": -0.4694874327821773,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/3qjbr3lfzeakvs6qxur2qz1rfusxzatwvmjbgb5dpump",
+      "tokenAddress": "3qjBR3LfzEAKVS6QXuR2QZ1RFUsXzATWvmjbGB5Dpump",
+      "description": "Jason Duval is one of the two main protagonists in Grand Theft Auto VI, alongside Lucia Caminos, and is set to appear in"
+    },
+    {
+      "url": "https://dexscreener.com/solana/a75xx6seftamwduv9kgwb2gcjxuahxozccucys9jpump",
+      "tokenAddress": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
+      "description": "It's $HELL, the dog of $AMD - official partner of Rockstar Games."
+    },
     {
       "url": "https://dexscreener.com/solana/3apvr1xphympi9dn3rpqu4hwvpmcqdvwxet1rdcdpump",
       "tokenAddress": "3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump",
@@ -49,24 +59,14 @@
       "description": "IT'S\nLITERALLY\nJUST A DOG\nWIF A JOB."
     },
     {
-      "url": "https://dexscreener.com/solana/fdwcosavnvmifb812ajjp3gg7ez9c4bpgcny6fdqpump",
-      "tokenAddress": "FDwCosavNvMiFB812ajJp3gG7eZ9c4bpgcnY6fDQpump",
-      "description": "Every pump, a pitbull dumped it. Every rug, a rat pulled it.\n\nI strike when the chart bleeds red.\n\nYour night shift is o"
-    },
-    {
       "url": "https://dexscreener.com/solana/4hshfbfikumvzw7ygidtab17b63mzbkkhadfkxhkpump",
       "tokenAddress": "4HSHFbFiKuMvZW7yGiDTab17B63MzBkkhadFKxhkpump",
       "description": "stay calm"
     },
     {
-      "url": "https://dexscreener.com/solana/2gtbp2gwh46rqexzabsyrdr3294slwcp2rsqwds6sim1",
-      "tokenAddress": "2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1",
-      "description": "Trade cat trends."
-    },
-    {
-      "url": "https://dexscreener.com/solana/5wsjhxt5nw5jquvupxunnyszf3wowcfggk9lmcscjzy8",
-      "tokenAddress": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
-      "description": "that shit stank"
+      "url": "https://dexscreener.com/solana/eyqygbhzjp7ebm4fsn8devctnksavpad1bt57xbfpump",
+      "tokenAddress": "EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump",
+      "description": "Broke after the hot wallet got cooked. Parody meme"
     }
   ],
   "fearGreed": {
