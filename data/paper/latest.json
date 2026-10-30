@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-30T07:11:12.727567+00:00",
+  "at": "2026-10-30T14:15:41.448628+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 78431.0,
-      "changePct": -1.7976976061754,
+      "price": 76834.0,
+      "changePct": -4.38035632011053,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2248.87,
-      "changePct": -2.6536864495360706,
+      "price": 2214.7,
+      "changePct": -4.810562440223981,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 97.99,
-      "changePct": -1.921457452409614,
+      "price": 94.41,
+      "changePct": -6.197883819736304,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 714.54,
-      "changePct": -4.961613054192787,
+      "price": 695.21,
+      "changePct": -6.481923340776417,
       "source": "CoinGecko"
     }
   ],
@@ -44,14 +44,14 @@
       "description": "With her mint-green hair and bold personality, Hyper-Chan brings fresh energy to Solana."
     },
     {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
       "url": "https://dexscreener.com/solana/j3reuwckntcjp1zhn7wvbfxhtdntkhxozqwwawxwpump",
       "tokenAddress": "J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump",
       "description": "Foxii Big eyes. Long noodle. Zero thoughts. Just oranges."
+    },
+    {
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
       "url": "https://dexscreener.com/solana/a6pm7bxywyiuxaeprmhvul4ty2jyvf8n46vxz15hpump",
