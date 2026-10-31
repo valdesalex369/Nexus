@@ -1,29 +1,29 @@
 {
-  "at": "2026-10-31T15:21:27.423095+00:00",
+  "at": "2026-10-31T19:34:00.193731+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77360.0,
-      "changePct": -0.6838939427566468,
+      "price": 77495.0,
+      "changePct": 1.3046954963768942,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2247.35,
-      "changePct": -0.3920620148735303,
+      "price": 2252.6,
+      "changePct": 1.196181249474672,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 95.8,
-      "changePct": 0.12171379966742796,
+      "price": 95.85,
+      "changePct": 1.6940789941413175,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 706.89,
-      "changePct": 0.30013796321244773,
+      "price": 706.13,
+      "changePct": 1.4111714289564976,
       "source": "CoinGecko"
     }
   ],
@@ -39,9 +39,9 @@
       "description": "The Super Intelligent Beauty"
     },
     {
-      "url": "https://dexscreener.com/solana/a75xx6seftamwduv9kgwb2gcjxuahxozccucys9jpump",
-      "tokenAddress": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "description": "It's $HELL, the dog of $AMD - official partner of Rockstar Games, Xbox, and Playstation."
+      "url": "https://dexscreener.com/solana/fdkdpz11gstoflaniddrhxrse4apzyssflfqq9ykpump",
+      "tokenAddress": "FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump",
+      "description": "Super Intelligence Satellite is launching into deep space from a lunar mass driver to unlock petawatt-scale power on the"
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
@@ -49,14 +49,14 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
+      "url": "https://dexscreener.com/solana/a75xx6seftamwduv9kgwb2gcjxuahxozccucys9jpump",
+      "tokenAddress": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
+      "description": "It's $HELL, the dog of $AMD - official partner of Rockstar Games, Xbox, and Playstation."
+    },
+    {
       "url": "https://dexscreener.com/solana/fwatmyiekhruj1yutcmvg1njrhzwwqhwjr11pbympump",
       "tokenAddress": "FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump",
       "description": "Trade memes, hedge your exposure with leverage"
-    },
-    {
-      "url": "https://dexscreener.com/solana/9pq7alabhdg2ttns22cm6kuyszvczplfe368hwuypump",
-      "tokenAddress": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
-      "description": "IT'S\nLITERALLY\nJUST A DOG\nWIF A JOB."
     },
     {
       "url": "https://dexscreener.com/solana/3qjbr3lfzeakvs6qxur2qz1rfusxzatwvmjbgb5dpump",
