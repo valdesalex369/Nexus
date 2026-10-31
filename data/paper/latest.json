@@ -1,47 +1,42 @@
 {
-  "at": "2026-10-31T02:44:38.367930+00:00",
+  "at": "2026-10-31T08:57:39.650489+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77353.0,
-      "changePct": -0.03411002766527783,
-      "source": "CoinGecko"
+      "price": 77358.0,
+      "changePct": -0.85,
+      "source": "Binance"
     },
     {
       "symbol": "ETH",
-      "price": 2244.24,
-      "changePct": 1.4364250951804138,
-      "source": "CoinGecko"
-    },
-    {
-      "symbol": "SOL",
-      "price": 96.86,
-      "changePct": 1.6600547544950057,
-      "source": "CoinGecko"
+      "price": 2241.44,
+      "changePct": 0.537,
+      "source": "Binance"
     },
     {
       "symbol": "BNB",
-      "price": 704.4,
-      "changePct": -1.2133874521759922,
-      "source": "CoinGecko"
+      "price": 700.74,
+      "changePct": -0.713,
+      "source": "Binance"
+    },
+    {
+      "symbol": "SOL",
+      "price": 95.35,
+      "changePct": -2.125,
+      "source": "Binance"
     }
   ],
   "memes": [
     {
+      "url": "https://dexscreener.com/solana/eyqygbhzjp7ebm4fsn8devctnksavpad1bt57xbfpump",
+      "tokenAddress": "EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump",
+      "description": "Broke after the hot wallet got cooked. Parody meme"
+    },
+    {
       "url": "https://dexscreener.com/solana/ddg8rjv3tvicqkrqed2qzq4meae1uqxgeiosbnpapump",
       "tokenAddress": "DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump",
       "description": "The Super Intelligent Beauty"
-    },
-    {
-      "url": "https://dexscreener.com/solana/3qjbr3lfzeakvs6qxur2qz1rfusxzatwvmjbgb5dpump",
-      "tokenAddress": "3qjBR3LfzEAKVS6QXuR2QZ1RFUsXzATWvmjbGB5Dpump",
-      "description": "Jason Duval is one of the two main protagonists in Grand Theft Auto VI, alongside Lucia Caminos, and is set to appear in"
-    },
-    {
-      "url": "https://dexscreener.com/solana/3apvr1xphympi9dn3rpqu4hwvpmcqdvwxet1rdcdpump",
-      "tokenAddress": "3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump",
-      "description": "With her mint-green hair and bold personality, Hyper-Chan brings fresh energy to Solana."
     },
     {
       "url": "https://dexscreener.com/solana/a75xx6seftamwduv9kgwb2gcjxuahxozccucys9jpump",
@@ -49,33 +44,36 @@
       "description": "It's $HELL, the dog of $AMD - official partner of Rockstar Games, Xbox, and Playstation."
     },
     {
-      "url": "https://dexscreener.com/solana/j3reuwckntcjp1zhn7wvbfxhtdntkhxozqwwawxwpump",
-      "tokenAddress": "J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump",
-      "description": "Foxii Big eyes. Long noodle. Zero thoughts. Just oranges."
-    },
-    {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/eyqygbhzjp7ebm4fsn8devctnksavpad1bt57xbfpump",
-      "tokenAddress": "EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump",
-      "description": "Broke after the hot wallet got cooked. Parody meme"
-    },
-    {
       "url": "https://dexscreener.com/solana/9pq7alabhdg2ttns22cm6kuyszvczplfe368hwuypump",
       "tokenAddress": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
       "description": "IT'S\nLITERALLY\nJUST A DOG\nWIF A JOB."
+    },
+    {
+      "url": "https://dexscreener.com/solana/3qjbr3lfzeakvs6qxur2qz1rfusxzatwvmjbgb5dpump",
+      "tokenAddress": "3qjBR3LfzEAKVS6QXuR2QZ1RFUsXzATWvmjbGB5Dpump",
+      "description": "Jason Duval is one of the two main protagonists in Grand Theft Auto VI, alongside Lucia Caminos, and is set to appear in"
+    },
+    {
+      "url": "https://dexscreener.com/solana/fwatmyiekhruj1yutcmvg1njrhzwwqhwjr11pbympump",
+      "tokenAddress": "FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump",
+      "description": "Trade memes, hedge your exposure with leverage"
+    },
+    {
+      "url": "https://dexscreener.com/solana/2gtbp2gwh46rqexzabsyrdr3294slwcp2rsqwds6sim1",
+      "tokenAddress": "2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1",
+      "description": "Trade cat trends."
     }
   ],
   "fearGreed": {
     "value": 30,
     "label": "Fear"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
-  "errors": [
-    "binance: HTTP 451"
-  ]
+  "errors": []
 }
