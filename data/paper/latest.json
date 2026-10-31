@@ -1,30 +1,30 @@
 {
-  "at": "2026-10-31T08:57:39.650489+00:00",
+  "at": "2026-10-31T15:21:27.423095+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77358.0,
-      "changePct": -0.85,
-      "source": "Binance"
+      "price": 77360.0,
+      "changePct": -0.6838939427566468,
+      "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2241.44,
-      "changePct": 0.537,
-      "source": "Binance"
-    },
-    {
-      "symbol": "BNB",
-      "price": 700.74,
-      "changePct": -0.713,
-      "source": "Binance"
+      "price": 2247.35,
+      "changePct": -0.3920620148735303,
+      "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 95.35,
-      "changePct": -2.125,
-      "source": "Binance"
+      "price": 95.8,
+      "changePct": 0.12171379966742796,
+      "source": "CoinGecko"
+    },
+    {
+      "symbol": "BNB",
+      "price": 706.89,
+      "changePct": 0.30013796321244773,
+      "source": "CoinGecko"
     }
   ],
   "memes": [
@@ -49,6 +49,11 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
+      "url": "https://dexscreener.com/solana/fwatmyiekhruj1yutcmvg1njrhzwwqhwjr11pbympump",
+      "tokenAddress": "FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump",
+      "description": "Trade memes, hedge your exposure with leverage"
+    },
+    {
       "url": "https://dexscreener.com/solana/9pq7alabhdg2ttns22cm6kuyszvczplfe368hwuypump",
       "tokenAddress": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
       "description": "IT'S\nLITERALLY\nJUST A DOG\nWIF A JOB."
@@ -59,21 +64,18 @@
       "description": "Jason Duval is one of the two main protagonists in Grand Theft Auto VI, alongside Lucia Caminos, and is set to appear in"
     },
     {
-      "url": "https://dexscreener.com/solana/fwatmyiekhruj1yutcmvg1njrhzwwqhwjr11pbympump",
-      "tokenAddress": "FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump",
-      "description": "Trade memes, hedge your exposure with leverage"
-    },
-    {
-      "url": "https://dexscreener.com/solana/2gtbp2gwh46rqexzabsyrdr3294slwcp2rsqwds6sim1",
-      "tokenAddress": "2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1",
-      "description": "Trade cat trends."
+      "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
+      "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+      "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
     }
   ],
   "fearGreed": {
     "value": 30,
     "label": "Fear"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
-  "errors": []
+  "errors": [
+    "binance: HTTP 451"
+  ]
 }
