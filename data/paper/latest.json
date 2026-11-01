@@ -1,38 +1,33 @@
 {
-  "at": "2026-11-01T02:15:14.922119+00:00",
+  "at": "2026-11-01T09:46:38.818886+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77670.0,
-      "changePct": 0.46490922989268463,
+      "price": 77977.0,
+      "changePct": 0.7994926744595253,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2266.44,
-      "changePct": 1.0029164690406325,
+      "price": 2269.56,
+      "changePct": 1.2123892798890183,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 95.53,
-      "changePct": -1.0815999658489999,
+      "price": 95.43,
+      "changePct": 0.05227955665096529,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 702.75,
-      "changePct": -0.2232520542411942,
+      "price": 710.7,
+      "changePct": 1.23449201112579,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/eyqygbhzjp7ebm4fsn8devctnksavpad1bt57xbfpump",
-      "tokenAddress": "EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump",
-      "description": "Broke after the hot wallet got cooked. Parody meme"
-    },
     {
       "url": "https://dexscreener.com/solana/fdkdpz11gstoflaniddrhxrse4apzyssflfqq9ykpump",
       "tokenAddress": "FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump",
@@ -67,6 +62,11 @@
       "url": "https://dexscreener.com/solana/57yqjbgde32zmcqzbivhjcxmnmly5iw2mwrtcpywpump",
       "tokenAddress": "57YQJbgdE32ZMCQzBivhjcXmnMLY5iw2MwrtcPYWpump",
       "description": "\ud83d\udeab\ud83e\udd5c $NNN No Nut November\n\n30 days. Zero nuts. One mission.\n\nThe ultimate November challenge has officially hit Solana. On"
+    },
+    {
+      "url": "https://dexscreener.com/solana/3qjbr3lfzeakvs6qxur2qz1rfusxzatwvmjbgb5dpump",
+      "tokenAddress": "3qjBR3LfzEAKVS6QXuR2QZ1RFUsXzATWvmjbGB5Dpump",
+      "description": "Jason Duval is one of the two main protagonists in Grand Theft Auto VI, alongside Lucia Caminos, and is set to appear in"
     }
   ],
   "fearGreed": {
