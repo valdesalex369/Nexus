@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-02T07:42:24.514839+00:00",
+  "at": "2026-11-02T17:27:33.175340+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 78019.0,
-      "changePct": 0.2823662859974832,
+      "price": 77208.0,
+      "changePct": -1.083801837727664,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2278.71,
-      "changePct": 0.5563162547778224,
+      "price": 2261.01,
+      "changePct": -0.24045259049554468,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 94.18,
-      "changePct": -1.2513608236451828,
+      "price": 92.71,
+      "changePct": -2.074972936702969,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 706.17,
-      "changePct": 0.22829381061781817,
+      "price": 700.12,
+      "changePct": -1.5901440657371462,
       "source": "CoinGecko"
     }
   ],
@@ -39,9 +39,9 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/a75xx6seftamwduv9kgwb2gcjxuahxozccucys9jpump",
-      "tokenAddress": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "description": "It's $HELL, the dog of $AMD - official partner of Rockstar Games, Xbox, and Playstation."
+      "url": "https://dexscreener.com/solana/8kuqg3wivdtl85vedw2jemsxjyt6eeeybatj4dtqpump",
+      "tokenAddress": "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
@@ -49,31 +49,31 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
-      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
+      "url": "https://dexscreener.com/solana/a75xx6seftamwduv9kgwb2gcjxuahxozccucys9jpump",
+      "tokenAddress": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
+      "description": "It's $HELL, the dog of $AMD - official partner of Rockstar Games, Xbox, and Playstation."
     },
     {
-      "url": "https://dexscreener.com/solana/7hjmnrspgoawymsmnrzswecju9bxbkpwpmf85p8upump",
-      "tokenAddress": "7hjmNRSPGoawymsMnrzSwECJu9bxbkPwpmf85P8Upump",
-      "description": "A space-born memecoin coming to you\nDaily manga & animations.\n\nSee you, space cowboy. \ud83c\udf0c"
+      "url": "https://dexscreener.com/solana/scgbbnswnekytgfhgyehhxpmin7xdxswfgg9jgfstnk",
+      "tokenAddress": "SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK",
+      "description": "The Japanese Icon. Airing every other Tuesday."
     },
     {
-      "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
-      "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-      "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
+      "url": "https://dexscreener.com/solana/9qt8k685hrae4k11dhgxirdtpfaaimextyfwt8cppump",
+      "tokenAddress": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
+      "description": "$DIGS is the native token of AiDiglet \u2014 a Telegram tap-to-mine game with 2,000+ active players, in-game $DIGS mined via "
     },
     {
-      "url": "https://dexscreener.com/solana/7sgu7h7zp2xt1axqrzjcwmrzyvip3ml1fh7vhixdpump",
-      "tokenAddress": "7sgu7H7zP2xt1AXqRzjcWMrZYvip3ML1fH7vhixDpump",
-      "description": "$TIND is the community token for TIND Gear, \n\nBuilt by a local dev in the pacific NW of TIND GEAR, a hands-on ecommerce "
+      "url": "https://dexscreener.com/solana/gd52vfopzdad4hinpg4unjtdgss4wim3mqs8j1czpump",
+      "tokenAddress": "GD52VfoPZdad4hiNPg4UnjtDGsS4WiM3mqS8j1czpump",
+      "description": "WORLD WAR 3"
     }
   ],
   "fearGreed": {
     "value": 37,
     "label": "Fear"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
