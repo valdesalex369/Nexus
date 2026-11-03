@@ -1,38 +1,33 @@
 {
-  "at": "2026-11-02T17:27:33.175340+00:00",
+  "at": "2026-11-03T00:02:57.276334+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 77208.0,
-      "changePct": -1.083801837727664,
+      "price": 76711.0,
+      "changePct": -2.059826588017959,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2261.01,
-      "changePct": -0.24045259049554468,
+      "price": 2250.47,
+      "changePct": -1.2192797127327684,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 92.71,
-      "changePct": -2.074972936702969,
+      "price": 91.9,
+      "changePct": -2.8692849314911433,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 700.12,
-      "changePct": -1.5901440657371462,
+      "price": 698.2,
+      "changePct": -1.9742450788677726,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/8s4bnqezth1jp7mku747umr7ackcqdiv47fdqyndpump",
-      "tokenAddress": "8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump",
-      "description": "Anakin Skywalker is becoming a symbol of right-wing extremism"
-    },
     {
       "url": "https://dexscreener.com/solana/exxzybtt3jwu5muxuw2f4toybtldfwthsjyacn6xpump",
       "tokenAddress": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
@@ -41,7 +36,12 @@
     {
       "url": "https://dexscreener.com/solana/8kuqg3wivdtl85vedw2jemsxjyt6eeeybatj4dtqpump",
       "tokenAddress": "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump",
-      "description": ""
+      "description": "GTA6DOG"
+    },
+    {
+      "url": "https://dexscreener.com/solana/fjpkugnf5zbpdev18gt8fjctxh3mkrfkoeyekgyr1win",
+      "tokenAddress": "FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win",
+      "description": "1WIN Token (1WIN) is a utility token of the 1win ecosystem, issued on Solana under the SPL standard. 1win is a global di"
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
@@ -49,9 +49,9 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/a75xx6seftamwduv9kgwb2gcjxuahxozccucys9jpump",
-      "tokenAddress": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "description": "It's $HELL, the dog of $AMD - official partner of Rockstar Games, Xbox, and Playstation."
+      "url": "https://dexscreener.com/solana/ei19qkvbm3ammyrvenlqkspb1esmeuq6mrqdywzvpump",
+      "tokenAddress": "Ei19qkvBM3amMyrveNLqKSPB1ESMEUQ6MrqDYwZVpump",
+      "description": "A stair-climbing pup. One step short of legendary."
     },
     {
       "url": "https://dexscreener.com/solana/scgbbnswnekytgfhgyehhxpmin7xdxswfgg9jgfstnk",
@@ -59,18 +59,18 @@
       "description": "The Japanese Icon. Airing every other Tuesday."
     },
     {
+      "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
+      "tokenAddress": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+      "description": "The team describes WASTED as GA's iconic death screen, and its fan-made site, which says it is not affiliated with Rocks"
+    },
+    {
       "url": "https://dexscreener.com/solana/9qt8k685hrae4k11dhgxirdtpfaaimextyfwt8cppump",
       "tokenAddress": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
       "description": "$DIGS is the native token of AiDiglet \u2014 a Telegram tap-to-mine game with 2,000+ active players, in-game $DIGS mined via "
-    },
-    {
-      "url": "https://dexscreener.com/solana/gd52vfopzdad4hinpg4unjtdgss4wim3mqs8j1czpump",
-      "tokenAddress": "GD52VfoPZdad4hiNPg4UnjtDGsS4WiM3mqS8j1czpump",
-      "description": "WORLD WAR 3"
     }
   ],
   "fearGreed": {
-    "value": 37,
+    "value": 26,
     "label": "Fear"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
