@@ -1,37 +1,37 @@
 {
-  "at": "2026-11-03T00:02:57.276334+00:00",
+  "at": "2026-11-03T06:52:32.096079+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76711.0,
-      "changePct": -2.059826588017959,
+      "price": 76439.0,
+      "changePct": -2.1641610643719087,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2250.47,
-      "changePct": -1.2192797127327684,
+      "price": 2242.68,
+      "changePct": -1.8070499992182996,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 91.9,
-      "changePct": -2.8692849314911433,
+      "price": 91.36,
+      "changePct": -3.1867819298821356,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 698.2,
-      "changePct": -1.9742450788677726,
+      "price": 692.37,
+      "changePct": -2.2306683089739607,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/exxzybtt3jwu5muxuw2f4toybtldfwthsjyacn6xpump",
-      "tokenAddress": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/31syoqwfhx3i9usfnoxtjfp4zwja8f8uprmxymfdpump",
+      "tokenAddress": "31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump",
+      "description": "Dedicated to civilizational acceleration toward Kardashev Type II."
     },
     {
       "url": "https://dexscreener.com/solana/8kuqg3wivdtl85vedw2jemsxjyt6eeeybatj4dtqpump",
@@ -64,9 +64,9 @@
       "description": "The team describes WASTED as GA's iconic death screen, and its fan-made site, which says it is not affiliated with Rocks"
     },
     {
-      "url": "https://dexscreener.com/solana/9qt8k685hrae4k11dhgxirdtpfaaimextyfwt8cppump",
-      "tokenAddress": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-      "description": "$DIGS is the native token of AiDiglet \u2014 a Telegram tap-to-mine game with 2,000+ active players, in-game $DIGS mined via "
+      "url": "https://dexscreener.com/solana/8ougdpdyxvacsjszpcvzuxqoyizamc2z22fsdrz3pump",
+      "tokenAddress": "8oUGdPdyxVaCSJSZpcVZuxqoyiZAmc2Z22FsDRZ3pump",
+      "description": "Every cop from Los Santos to Vice City to Leonida is on your tail \u2014 and you're still flooring it."
     }
   ],
   "fearGreed": {
