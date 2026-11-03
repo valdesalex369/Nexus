@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-03T06:52:32.096079+00:00",
+  "at": "2026-11-03T15:12:13.891088+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76439.0,
-      "changePct": -2.1641610643719087,
+      "price": 77310.0,
+      "changePct": -0.8514159279959178,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2242.68,
-      "changePct": -1.8070499992182996,
+      "price": 2287.15,
+      "changePct": -0.3625705889936593,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 91.36,
-      "changePct": -3.1867819298821356,
+      "price": 93.23,
+      "changePct": -1.505647134986755,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 692.37,
-      "changePct": -2.2306683089739607,
+      "price": 698.6,
+      "changePct": -0.869802425823286,
       "source": "CoinGecko"
     }
   ],
@@ -32,6 +32,16 @@
       "url": "https://dexscreener.com/solana/31syoqwfhx3i9usfnoxtjfp4zwja8f8uprmxymfdpump",
       "tokenAddress": "31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump",
       "description": "Dedicated to civilizational acceleration toward Kardashev Type II."
+    },
+    {
+      "url": "https://dexscreener.com/solana/8muc9ddhqwfapcvmeebnqcg89bliwi12t2ktbtzvpump",
+      "tokenAddress": "8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump",
+      "description": "All bags packed. Passenger name: blank. A headless suit handled everyone's luggage and nobody's paperwork. Check-in has "
+    },
+    {
+      "url": "https://dexscreener.com/solana/nxpqz4f7ux8vph5nfu25rep6kx9gr1u6fmj36rjpump",
+      "tokenAddress": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+      "description": "Dacity Coin is the fictional cryptocurrency featured in GTA 6, powered by AudaCity."
     },
     {
       "url": "https://dexscreener.com/solana/8kuqg3wivdtl85vedw2jemsxjyt6eeeybatj4dtqpump",
@@ -54,19 +64,9 @@
       "description": "A stair-climbing pup. One step short of legendary."
     },
     {
-      "url": "https://dexscreener.com/solana/scgbbnswnekytgfhgyehhxpmin7xdxswfgg9jgfstnk",
-      "tokenAddress": "SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK",
-      "description": "The Japanese Icon. Airing every other Tuesday."
-    },
-    {
       "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
       "tokenAddress": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
       "description": "The team describes WASTED as GA's iconic death screen, and its fan-made site, which says it is not affiliated with Rocks"
-    },
-    {
-      "url": "https://dexscreener.com/solana/8ougdpdyxvacsjszpcvzuxqoyizamc2z22fsdrz3pump",
-      "tokenAddress": "8oUGdPdyxVaCSJSZpcVZuxqoyiZAmc2Z22FsDRZ3pump",
-      "description": "Every cop from Los Santos to Vice City to Leonida is on your tail \u2014 and you're still flooring it."
     }
   ],
   "fearGreed": {
