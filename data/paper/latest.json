@@ -1,38 +1,33 @@
 {
-  "at": "2026-11-04T01:25:08.485736+00:00",
+  "at": "2026-11-04T08:04:02.502672+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76894.0,
-      "changePct": -0.3561503406835473,
+      "price": 78125.0,
+      "changePct": 1.943123533904725,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2262.77,
-      "changePct": 0.15008136227016844,
+      "price": 2302.69,
+      "changePct": 2.250458103745496,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 91.85,
-      "changePct": -0.6071846650749683,
+      "price": 92.99,
+      "changePct": 1.3191808693720812,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 693.85,
-      "changePct": -0.7935331351333973,
+      "price": 702.75,
+      "changePct": 1.4838235826449233,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/31syoqwfhx3i9usfnoxtjfp4zwja8f8uprmxymfdpump",
-      "tokenAddress": "31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump",
-      "description": "Dedicated to civilizational acceleration toward Kardashev Type II."
-    },
     {
       "url": "https://dexscreener.com/solana/8muc9ddhqwfapcvmeebnqcg89bliwi12t2ktbtzvpump",
       "tokenAddress": "8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump",
@@ -59,21 +54,26 @@
       "description": "Big Titty Coin that rewards BTC just for holding, the perfect normie meme"
     },
     {
+      "url": "https://dexscreener.com/solana/4bcbx4hb1xpmc5mlhsfyheghc5fb9afu7thlgxihpump",
+      "tokenAddress": "4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump",
+      "description": "The chart is red, the exchange is down, the group chat is on fire. Cotton and Ash are lying on the floor watching it lik"
+    },
+    {
+      "url": "https://dexscreener.com/solana/fpwwsqlnrjttmdm41exkvbmhbdkndwrf9rwhl57xpump",
+      "tokenAddress": "FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump",
+      "description": "Ocean Drive Shiba. $VI \u00b7 Solana. Welcome to Vice City."
+    },
+    {
       "url": "https://dexscreener.com/solana/fk5tp4zw7ujwzaz3tgej5ncqge5lfufo7m6zh6yqpump",
       "tokenAddress": "FK5tP4Zw7ujWzaz3TgeJ5NcqGe5LFufo7m6zH6YQpump",
       "description": "5 STARS"
-    },
-    {
-      "url": "https://dexscreener.com/solana/8ougdpdyxvacsjszpcvzuxqoyizamc2z22fsdrz3pump",
-      "tokenAddress": "8oUGdPdyxVaCSJSZpcVZuxqoyiZAmc2Z22FsDRZ3pump",
-      "description": "Every cop from Los Santos to Vice City to Leonida is on your tail \u2014 and you're still flooring it."
     }
   ],
   "fearGreed": {
     "value": 34,
     "label": "Fear"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
