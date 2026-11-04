@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-04T16:20:43.669123+00:00",
+  "at": "2026-11-04T22:14:11.176037+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80603.0,
-      "changePct": 4.065747642321415,
+      "price": 80372.0,
+      "changePct": 3.364070476206929,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2440.07,
-      "changePct": 6.614487119288589,
+      "price": 2421.47,
+      "changePct": 5.652197925393731,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 97.14,
-      "changePct": 4.316131007860131,
+      "price": 95.05,
+      "changePct": 1.6163543880287476,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 718.48,
-      "changePct": 2.86982966936399,
+      "price": 718.74,
+      "changePct": 2.6617633678186072,
       "source": "CoinGecko"
     }
   ],
@@ -39,14 +39,14 @@
       "description": "The best trading bot on Solana."
     },
     {
-      "url": "https://dexscreener.com/solana/fk5tp4zw7ujwzaz3tgej5ncqge5lfufo7m6zh6yqpump",
-      "tokenAddress": "FK5tP4Zw7ujWzaz3TgeJ5NcqGe5LFufo7m6zH6YQpump",
-      "description": "5 STARS"
+      "url": "https://dexscreener.com/solana/9pq7alabhdg2ttns22cm6kuyszvczplfe368hwuypump",
+      "tokenAddress": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+      "description": "IT'S\nLITERALLY\nJUST A DOG\nWIF A JOB."
     },
     {
-      "url": "https://dexscreener.com/solana/c5xph2yl6gmdxmulgxjbkgpmudffyi5fqkbnhvl6pump",
-      "tokenAddress": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
-      "description": "Big Titty Coin that rewards BTC just for holding, the perfect normie meme"
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
       "url": "https://dexscreener.com/solana/fpwwsqlnrjttmdm41exkvbmhbdkndwrf9rwhl57xpump",
@@ -54,19 +54,19 @@
       "description": "Ocean Drive Shiba. $VI \u00b7 Solana. Welcome to Vice City."
     },
     {
+      "url": "https://dexscreener.com/solana/7f8bkfhpadgmenkayeva99waqo86lpxdkslqxpm7pump",
+      "tokenAddress": "7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump",
+      "description": ""
+    },
+    {
       "url": "https://dexscreener.com/solana/4bcbx4hb1xpmc5mlhsfyheghc5fb9afu7thlgxihpump",
       "tokenAddress": "4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump",
       "description": "The chart is red, the exchange is down, the group chat is on fire. Cotton and Ash are lying on the floor watching it lik"
     },
     {
-      "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
-      "tokenAddress": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "description": "The team describes WASTED as GA's iconic death screen, and its fan-made site, which says it is not affiliated with Rocks"
-    },
-    {
-      "url": "https://dexscreener.com/solana/2gtbp2gwh46rqexzabsyrdr3294slwcp2rsqwds6sim1",
-      "tokenAddress": "2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1",
-      "description": "Trade cat trends."
+      "url": "https://dexscreener.com/solana/fk5tp4zw7ujwzaz3tgej5ncqge5lfufo7m6zh6yqpump",
+      "tokenAddress": "FK5tP4Zw7ujWzaz3TgeJ5NcqGe5LFufo7m6zH6YQpump",
+      "description": "5 STARS"
     }
   ],
   "fearGreed": {
