@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-05T02:34:04.850456+00:00",
+  "at": "2026-11-05T09:51:50.612552+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80590.0,
-      "changePct": 5.113085704177622,
+      "price": 80309.0,
+      "changePct": 2.498239222332747,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2427.19,
-      "changePct": 7.663121099990073,
+      "price": 2413.51,
+      "changePct": 4.076842251021584,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 96.09,
-      "changePct": 5.144644496540335,
+      "price": 96.59,
+      "changePct": 3.8348360307985865,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 717.48,
-      "changePct": 4.0103691160427415,
+      "price": 714.76,
+      "changePct": 1.9431210245775459,
       "source": "CoinGecko"
     }
   ],
@@ -54,19 +54,19 @@
       "description": "IT'S\nLITERALLY\nJUST A DOG\nWIF A JOB."
     },
     {
-      "url": "https://dexscreener.com/solana/a75xx6seftamwduv9kgwb2gcjxuahxozccucys9jpump",
-      "tokenAddress": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "description": "It's $HELL, the dog of $AMD - official partner of Rockstar Games, Xbox, and Playstation."
-    },
-    {
       "url": "https://dexscreener.com/solana/7f8bkfhpadgmenkayeva99waqo86lpxdkslqxpm7pump",
       "tokenAddress": "7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump",
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/fpwwsqlnrjttmdm41exkvbmhbdkndwrf9rwhl57xpump",
-      "tokenAddress": "FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump",
-      "description": "Ocean Drive Shiba. $VI \u00b7 Solana. Welcome to Vice City."
+      "url": "https://dexscreener.com/solana/a75xx6seftamwduv9kgwb2gcjxuahxozccucys9jpump",
+      "tokenAddress": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
+      "description": "It's $HELL, the dog of $AMD - official partner of Rockstar Games, Xbox, and Playstation."
+    },
+    {
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     }
   ],
   "fearGreed": {
