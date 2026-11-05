@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-05T09:51:50.612552+00:00",
+  "at": "2026-11-05T18:02:28.422823+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 80309.0,
-      "changePct": 2.498239222332747,
+      "price": 75860.0,
+      "changePct": -5.7123516482179735,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2413.51,
-      "changePct": 4.076842251021584,
+      "price": 2252.73,
+      "changePct": -7.125567966216972,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 96.59,
-      "changePct": 3.8348360307985865,
+      "price": 89.09,
+      "changePct": -6.969320154067852,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 714.76,
-      "changePct": 1.9431210245775459,
+      "price": 690.87,
+      "changePct": -3.5519868096574716,
       "source": "CoinGecko"
     }
   ],
@@ -44,14 +44,19 @@
       "description": "GTA6DOG"
     },
     {
-      "url": "https://dexscreener.com/solana/3vajh3wxe3eulsxfsacikyocnzyhuj3kpsofhyagpump",
-      "tokenAddress": "3vajh3wXe3EuLSXfSaCikyoCnzyhUJ3KPSoFhyAgpump",
-      "description": "The best trading bot on Solana."
+      "url": "https://dexscreener.com/solana/gywksn2ah7dqlypezajezmfxuu2h4nwfgvgjhfydvegn",
+      "tokenAddress": "GyWkSn2ah7dqLyPeZAjEZmfxuU2H4nwfGvgJhfYDVegn",
+      "description": "The bull market has a mascot problem. Everyone claims it. Almost nobody builds it. \n\nBUL is the fix: a community token w"
     },
     {
-      "url": "https://dexscreener.com/solana/9pq7alabhdg2ttns22cm6kuyszvczplfe368hwuypump",
-      "tokenAddress": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
-      "description": "IT'S\nLITERALLY\nJUST A DOG\nWIF A JOB."
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
+      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
     },
     {
       "url": "https://dexscreener.com/solana/7f8bkfhpadgmenkayeva99waqo86lpxdkslqxpm7pump",
@@ -62,18 +67,13 @@
       "url": "https://dexscreener.com/solana/a75xx6seftamwduv9kgwb2gcjxuahxozccucys9jpump",
       "tokenAddress": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
       "description": "It's $HELL, the dog of $AMD - official partner of Rockstar Games, Xbox, and Playstation."
-    },
-    {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     }
   ],
   "fearGreed": {
     "value": 50,
     "label": "Neutral"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
