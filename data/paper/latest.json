@@ -1,37 +1,37 @@
 {
-  "at": "2026-11-06T18:30:15.017308+00:00",
+  "at": "2026-11-06T23:31:56.042898+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 75718.0,
-      "changePct": -0.524518560882869,
+      "price": 75848.0,
+      "changePct": 0.09208698412929252,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2223.78,
-      "changePct": -1.307987605874301,
+      "price": 2236.05,
+      "changePct": 0.3859462675687842,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 90.17,
-      "changePct": 0.7734687016994217,
+      "price": 90.06,
+      "changePct": 1.239824316268543,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 694.22,
-      "changePct": 0.2574560653941953,
+      "price": 692.72,
+      "changePct": 0.7489295774639877,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/8uqdy5shmvwuwshea5b3zuuavnumjslpxdf19mxcpump",
-      "tokenAddress": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
-      "description": "COGE = Commission on Government Efficiency"
+      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
+      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
+      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
     },
     {
       "url": "https://dexscreener.com/solana/oczhh8hnebcpipegdecp3f45pqaam7nh7p6ekrppump",
@@ -49,14 +49,9 @@
       "description": "GTA6 runner"
     },
     {
-      "url": "https://dexscreener.com/solana/dnerjkigs1xz5rcbdtu9a2acxvskscmnsihwy9yypump",
-      "tokenAddress": "DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump",
-      "description": "\ud83e\udee7 Bubbles is the social and copy trading terminal for crypto. We track the most profitable traders and KOLs across the w"
-    },
-    {
-      "url": "https://dexscreener.com/solana/fv1nju3zea5vrwaqadypnyvwaqvvnmfmgtgpae4ykp2e",
-      "tokenAddress": "Fv1nJu3zeA5vrwaqAdypNyvwAQVVNmfMgTGPAE4YKp2e",
-      "description": "The streets of Vice City are about to come alive again, and $RICO is ready to become part of the next big GTA story.\n\nGT"
+      "url": "https://dexscreener.com/solana/dktoflm6bhb54gqy5yfswqjqmgizqakjzkqj1ltopump",
+      "tokenAddress": "DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump",
+      "description": "Paper hands fold. Diamond hands hold. Meet $HODL: a little sparkle, a lot of conviction, and a community that knows the "
     },
     {
       "url": "https://dexscreener.com/solana/2d88ntw3nd7ggyrxpzvsd9jkyn9yn3qm8cvyprhlpump",
@@ -67,6 +62,11 @@
       "url": "https://dexscreener.com/solana/8jaj3rxyumksyikz2exx4eedh1qwuptexmqmnsyapump",
       "tokenAddress": "8jaj3rXyuMKsyiKz2eXX4eEDh1qWuptEXmqmnsyapump",
       "description": "Two well-known holders in pump fund both have a steak in this coin one holding 16% the other holding 13%. This is part o"
+    },
+    {
+      "url": "https://dexscreener.com/solana/4an9uwptnfffcfzr4n9kavk3jylmmacewf3axv6zpump",
+      "tokenAddress": "4AN9uwPTNFfFCFzR4n9KaVk3JyLmMACewf3aXV6Zpump",
+      "description": "1513: Niccol\u00f2 Machiavelli wrote the rules of power.\n\n2026: The prince enters the Solana trenches for the first time.\n\n50"
     }
   ],
   "fearGreed": {
