@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-06T11:34:04.319318+00:00",
+  "at": "2026-11-06T18:30:15.017308+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 76021.0,
-      "changePct": -5.29171162178179,
+      "price": 75718.0,
+      "changePct": -0.524518560882869,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2238.38,
-      "changePct": -7.444700990108958,
+      "price": 2223.78,
+      "changePct": -1.307987605874301,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 90.29,
-      "changePct": -6.49527636029807,
+      "price": 90.17,
+      "changePct": 0.7734687016994217,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 695.07,
-      "changePct": -2.944927313562677,
+      "price": 694.22,
+      "changePct": 0.2574560653941953,
       "source": "CoinGecko"
     }
   ],
@@ -34,9 +34,9 @@
       "description": "COGE = Commission on Government Efficiency"
     },
     {
-      "url": "https://dexscreener.com/solana/gywksn2ah7dqlypezajezmfxuu2h4nwfgvgjhfydvegn",
-      "tokenAddress": "GyWkSn2ah7dqLyPeZAjEZmfxuU2H4nwfGvgJhfYDVegn",
-      "description": "The bull market has a mascot problem. Everyone claims it. Almost nobody builds it. \n\nBUL is the fix: a community token w"
+      "url": "https://dexscreener.com/solana/oczhh8hnebcpipegdecp3f45pqaam7nh7p6ekrppump",
+      "tokenAddress": "oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump",
+      "description": "THE SKYLINE HAS A MAIN CHARACTER."
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
@@ -49,16 +49,6 @@
       "description": "GTA6 runner"
     },
     {
-      "url": "https://dexscreener.com/solana/oczhh8hnebcpipegdecp3f45pqaam7nh7p6ekrppump",
-      "tokenAddress": "oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump",
-      "description": "THE SKYLINE HAS A MAIN CHARACTER."
-    },
-    {
-      "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
-      "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-      "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
-    },
-    {
       "url": "https://dexscreener.com/solana/dnerjkigs1xz5rcbdtu9a2acxvskscmnsihwy9yypump",
       "tokenAddress": "DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump",
       "description": "\ud83e\udee7 Bubbles is the social and copy trading terminal for crypto. We track the most profitable traders and KOLs across the w"
@@ -67,13 +57,23 @@
       "url": "https://dexscreener.com/solana/fv1nju3zea5vrwaqadypnyvwaqvvnmfmgtgpae4ykp2e",
       "tokenAddress": "Fv1nJu3zeA5vrwaqAdypNyvwAQVVNmfMgTGPAE4YKp2e",
       "description": "The streets of Vice City are about to come alive again, and $RICO is ready to become part of the next big GTA story.\n\nGT"
+    },
+    {
+      "url": "https://dexscreener.com/solana/2d88ntw3nd7ggyrxpzvsd9jkyn9yn3qm8cvyprhlpump",
+      "tokenAddress": "2D88NTW3ND7gGYRXpZvsD9jkYn9yN3Qm8CVyprHLpump",
+      "description": "POMBERT"
+    },
+    {
+      "url": "https://dexscreener.com/solana/8jaj3rxyumksyikz2exx4eedh1qwuptexmqmnsyapump",
+      "tokenAddress": "8jaj3rXyuMKsyiKz2eXX4eEDh1qWuptEXmqmnsyapump",
+      "description": "Two well-known holders in pump fund both have a steak in this coin one holding 16% the other holding 13%. This is part o"
     }
   ],
   "fearGreed": {
     "value": 28,
     "label": "Fear"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
