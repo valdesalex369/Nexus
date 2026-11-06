@@ -1,43 +1,33 @@
 {
-  "at": "2026-11-05T23:39:51.319208+00:00",
+  "at": "2026-11-06T03:40:50.532307+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 75859.0,
-      "changePct": -5.839959140737466,
+      "price": 75787.0,
+      "changePct": -6.039233106079429,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2232.19,
-      "changePct": -7.9920602128745815,
+      "price": 2229.4,
+      "changePct": -8.298599140818231,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 89.2,
-      "changePct": -6.778406298847458,
+      "price": 89.76,
+      "changePct": -7.358152570044471,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 688.28,
-      "changePct": -4.295562353338843,
+      "price": 692.26,
+      "changePct": -3.4113380558614272,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/9mwrj77gdz7w4rwhf6styxdzmyrmyf39l4go1mxepump",
-      "tokenAddress": "9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump",
-      "description": "He won the vote. The floor won the gavel. A cheerful wooden candidate delivers his victory speech, then drops himself li"
-    },
-    {
-      "url": "https://dexscreener.com/solana/9y1f6dz6hpjzdyzdyuugwmbkuipsyu7wptqtqu4tpump",
-      "tokenAddress": "9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump",
-      "description": "Democat, people's purr-sident, here to rally every paw to the polls and lead Democrats to victory."
-    },
     {
       "url": "https://dexscreener.com/solana/8uqdy5shmvwuwshea5b3zuuavnumjslpxdf19mxcpump",
       "tokenAddress": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
@@ -59,6 +49,11 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
+      "url": "https://dexscreener.com/solana/519amdtbqcpvk8ctycg2i9kjqh62zskt5uvfn71upump",
+      "tokenAddress": "519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump",
+      "description": "GTA6 runner"
+    },
+    {
       "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
       "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
       "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
@@ -67,11 +62,16 @@
       "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
       "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
       "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
+    },
+    {
+      "url": "https://dexscreener.com/solana/dnerjkigs1xz5rcbdtu9a2acxvskscmnsihwy9yypump",
+      "tokenAddress": "DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump",
+      "description": "\ud83e\udee7 Bubbles is the social and copy trading terminal for crypto. We track the most profitable traders and KOLs across the w"
     }
   ],
   "fearGreed": {
-    "value": 50,
-    "label": "Neutral"
+    "value": 28,
+    "label": "Fear"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
