@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-06T03:40:50.532307+00:00",
+  "at": "2026-11-06T11:34:04.319318+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 75787.0,
-      "changePct": -6.039233106079429,
+      "price": 76021.0,
+      "changePct": -5.29171162178179,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2229.4,
-      "changePct": -8.298599140818231,
+      "price": 2238.38,
+      "changePct": -7.444700990108958,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 89.76,
-      "changePct": -7.358152570044471,
+      "price": 90.29,
+      "changePct": -6.49527636029807,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 692.26,
-      "changePct": -3.4113380558614272,
+      "price": 695.07,
+      "changePct": -2.944927313562677,
       "source": "CoinGecko"
     }
   ],
@@ -32,11 +32,6 @@
       "url": "https://dexscreener.com/solana/8uqdy5shmvwuwshea5b3zuuavnumjslpxdf19mxcpump",
       "tokenAddress": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
       "description": "COGE = Commission on Government Efficiency"
-    },
-    {
-      "url": "https://dexscreener.com/solana/8kuqg3wivdtl85vedw2jemsxjyt6eeeybatj4dtqpump",
-      "tokenAddress": "8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump",
-      "description": "GTA6DOG"
     },
     {
       "url": "https://dexscreener.com/solana/gywksn2ah7dqlypezajezmfxuu2h4nwfgvgjhfydvegn",
@@ -54,9 +49,9 @@
       "description": "GTA6 runner"
     },
     {
-      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
-      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
+      "url": "https://dexscreener.com/solana/oczhh8hnebcpipegdecp3f45pqaam7nh7p6ekrppump",
+      "tokenAddress": "oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump",
+      "description": "THE SKYLINE HAS A MAIN CHARACTER."
     },
     {
       "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
@@ -67,6 +62,11 @@
       "url": "https://dexscreener.com/solana/dnerjkigs1xz5rcbdtu9a2acxvskscmnsihwy9yypump",
       "tokenAddress": "DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump",
       "description": "\ud83e\udee7 Bubbles is the social and copy trading terminal for crypto. We track the most profitable traders and KOLs across the w"
+    },
+    {
+      "url": "https://dexscreener.com/solana/fv1nju3zea5vrwaqadypnyvwaqvvnmfmgtgpae4ykp2e",
+      "tokenAddress": "Fv1nJu3zeA5vrwaqAdypNyvwAQVVNmfMgTGPAE4YKp2e",
+      "description": "The streets of Vice City are about to come alive again, and $RICO is ready to become part of the next big GTA story.\n\nGT"
     }
   ],
   "fearGreed": {
