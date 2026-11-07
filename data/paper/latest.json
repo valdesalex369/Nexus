@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-06T23:31:56.042898+00:00",
+  "at": "2026-11-07T03:14:40.628632+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 75848.0,
-      "changePct": 0.09208698412929252,
+      "price": 76013.0,
+      "changePct": 0.030132548320276023,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2236.05,
-      "changePct": 0.3859462675687842,
+      "price": 2246.65,
+      "changePct": 0.4355941203825611,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 90.06,
-      "changePct": 1.239824316268543,
+      "price": 90.37,
+      "changePct": 0.3559770701923762,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 692.72,
-      "changePct": 0.7489295774639877,
+      "price": 694.52,
+      "changePct": 0.07567042022143206,
       "source": "CoinGecko"
     }
   ],
@@ -34,19 +34,14 @@
       "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
     },
     {
+      "url": "https://dexscreener.com/solana/4an9uwptnfffcfzr4n9kavk3jylmmacewf3axv6zpump",
+      "tokenAddress": "4AN9uwPTNFfFCFzR4n9KaVk3JyLmMACewf3aXV6Zpump",
+      "description": "1513: Niccol\u00f2 Machiavelli wrote the rules of power.\n\n2026: The prince enters the Solana trenches for the first time.\n\n50"
+    },
+    {
       "url": "https://dexscreener.com/solana/oczhh8hnebcpipegdecp3f45pqaam7nh7p6ekrppump",
       "tokenAddress": "oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump",
       "description": "THE SKYLINE HAS A MAIN CHARACTER."
-    },
-    {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
-      "url": "https://dexscreener.com/solana/519amdtbqcpvk8ctycg2i9kjqh62zskt5uvfn71upump",
-      "tokenAddress": "519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump",
-      "description": "GTA6 runner"
     },
     {
       "url": "https://dexscreener.com/solana/dktoflm6bhb54gqy5yfswqjqmgizqakjzkqj1ltopump",
@@ -54,24 +49,29 @@
       "description": "Paper hands fold. Diamond hands hold. Meet $HODL: a little sparkle, a lot of conviction, and a community that knows the "
     },
     {
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
+      "url": "https://dexscreener.com/solana/fzmsx4uug8jhsrxvyt1xntk6qfxo7ky4zgwpifkzpump",
+      "tokenAddress": "FzmSx4UuG8Jhsrxvyt1xNtk6qFxo7KY4zGwPifKZpump",
+      "description": "When the heat shows up in GTA, the screen doesn't say sorry \u2014 it says BUSTED."
+    },
+    {
+      "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
+      "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+      "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
+    },
+    {
       "url": "https://dexscreener.com/solana/2d88ntw3nd7ggyrxpzvsd9jkyn9yn3qm8cvyprhlpump",
       "tokenAddress": "2D88NTW3ND7gGYRXpZvsD9jkYn9yN3Qm8CVyprHLpump",
       "description": "POMBERT"
-    },
-    {
-      "url": "https://dexscreener.com/solana/8jaj3rxyumksyikz2exx4eedh1qwuptexmqmnsyapump",
-      "tokenAddress": "8jaj3rXyuMKsyiKz2eXX4eEDh1qWuptEXmqmnsyapump",
-      "description": "Two well-known holders in pump fund both have a steak in this coin one holding 16% the other holding 13%. This is part o"
-    },
-    {
-      "url": "https://dexscreener.com/solana/4an9uwptnfffcfzr4n9kavk3jylmmacewf3axv6zpump",
-      "tokenAddress": "4AN9uwPTNFfFCFzR4n9KaVk3JyLmMACewf3aXV6Zpump",
-      "description": "1513: Niccol\u00f2 Machiavelli wrote the rules of power.\n\n2026: The prince enters the Solana trenches for the first time.\n\n50"
     }
   ],
   "fearGreed": {
-    "value": 28,
-    "label": "Fear"
+    "value": 25,
+    "label": "Extreme Fear"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
