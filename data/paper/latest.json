@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-07T10:26:52.688739+00:00",
+  "at": "2026-11-07T16:38:11.818398+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 75964.0,
-      "changePct": -0.06897105040778082,
+      "price": 75702.0,
+      "changePct": -0.06549161554677183,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2243.55,
-      "changePct": 0.44269783188027556,
+      "price": 2233.58,
+      "changePct": 0.2321798955672123,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 89.89,
-      "changePct": -0.10994117867598718,
+      "price": 89.55,
+      "changePct": -0.9729534824959825,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 694.35,
-      "changePct": 0.3066721136268107,
+      "price": 693.54,
+      "changePct": -0.2383322763969533,
       "source": "CoinGecko"
     }
   ],
@@ -54,14 +54,14 @@
       "description": "When the heat shows up in GTA, the screen doesn't say sorry \u2014 it says BUSTED."
     },
     {
+      "url": "https://dexscreener.com/solana/4hqprjsrs8pjdwa2b3mbamnnxtxuej9l6affnrgipump",
+      "tokenAddress": "4HqpRjsRS8pjdWa2B3mBAmNNxTXUeJ9L6AfFnRgipump",
+      "description": "HOPE"
+    },
+    {
       "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
       "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
       "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
-    },
-    {
-      "url": "https://dexscreener.com/solana/2d88ntw3nd7ggyrxpzvsd9jkyn9yn3qm8cvyprhlpump",
-      "tokenAddress": "2D88NTW3ND7gGYRXpZvsD9jkYn9yN3Qm8CVyprHLpump",
-      "description": "POMBERT"
     },
     {
       "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
@@ -73,7 +73,7 @@
     "value": 25,
     "label": "Extreme Fear"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
