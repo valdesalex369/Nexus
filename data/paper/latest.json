@@ -1,43 +1,33 @@
 {
-  "at": "2026-11-07T16:38:11.818398+00:00",
+  "at": "2026-11-07T20:31:51.016143+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 75702.0,
-      "changePct": -0.06549161554677183,
+      "price": 75711.0,
+      "changePct": -0.021370938387590306,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2233.58,
-      "changePct": 0.2321798955672123,
+      "price": 2230.71,
+      "changePct": 0.06262196596251224,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 89.55,
-      "changePct": -0.9729534824959825,
+      "price": 89.48,
+      "changePct": -0.2867731995610074,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 693.54,
-      "changePct": -0.2383322763969533,
+      "price": 696.07,
+      "changePct": 0.5300989636532176,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/hmyd9tosnuxunhmq7pxmoeprvblbbja3jbfydq6upump",
-      "tokenAddress": "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump",
-      "description": "Developed by @yhbryankimiq the World's Highest IQ Record Holder, in cooperation with World Memory Championships, under a"
-    },
-    {
-      "url": "https://dexscreener.com/solana/4an9uwptnfffcfzr4n9kavk3jylmmacewf3axv6zpump",
-      "tokenAddress": "4AN9uwPTNFfFCFzR4n9KaVk3JyLmMACewf3aXV6Zpump",
-      "description": "1513: Niccol\u00f2 Machiavelli wrote the rules of power.\n\n2026: The prince enters the Solana trenches for the first time.\n\n50"
-    },
     {
       "url": "https://dexscreener.com/solana/dktoflm6bhb54gqy5yfswqjqmgizqakjzkqj1ltopump",
       "tokenAddress": "DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump",
@@ -49,14 +39,14 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/fzmsx4uug8jhsrxvyt1xntk6qfxo7ky4zgwpifkzpump",
-      "tokenAddress": "FzmSx4UuG8Jhsrxvyt1xNtk6qFxo7KY4zGwPifKZpump",
-      "description": "When the heat shows up in GTA, the screen doesn't say sorry \u2014 it says BUSTED."
-    },
-    {
       "url": "https://dexscreener.com/solana/4hqprjsrs8pjdwa2b3mbamnnxtxuej9l6affnrgipump",
       "tokenAddress": "4HqpRjsRS8pjdWa2B3mBAmNNxTXUeJ9L6AfFnRgipump",
       "description": "HOPE"
+    },
+    {
+      "url": "https://dexscreener.com/solana/fzmsx4uug8jhsrxvyt1xntk6qfxo7ky4zgwpifkzpump",
+      "tokenAddress": "FzmSx4UuG8Jhsrxvyt1xNtk6qFxo7KY4zGwPifKZpump",
+      "description": "When the heat shows up in GTA, the screen doesn't say sorry \u2014 it says BUSTED."
     },
     {
       "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
@@ -67,13 +57,23 @@
       "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
       "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
+    },
+    {
+      "url": "https://dexscreener.com/solana/4an9uwptnfffcfzr4n9kavk3jylmmacewf3axv6zpump",
+      "tokenAddress": "4AN9uwPTNFfFCFzR4n9KaVk3JyLmMACewf3aXV6Zpump",
+      "description": "1513: Niccol\u00f2 Machiavelli wrote the rules of power.\n\n2026: The prince enters the Solana trenches for the first time.\n\n50"
+    },
+    {
+      "url": "https://dexscreener.com/solana/eyq6cne3bbq7sgrslpbxfmqndtyjd7tsyujvrifnawba",
+      "tokenAddress": "EYQ6cNe3bBQ7SGRSLpbxfMQNDTYJD7TsYUJVRifNaWBA",
+      "description": "In 2021, Shiba Inu branded itself as the Doge Killer and went on to touch a $50B market cap.\n\nRyoshi, the creator of Shi"
     }
   ],
   "fearGreed": {
     "value": 25,
     "label": "Extreme Fear"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
