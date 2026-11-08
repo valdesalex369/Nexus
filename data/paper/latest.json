@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-08T06:06:55.081943+00:00",
+  "at": "2026-11-08T13:28:59.008924+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 75724.0,
-      "changePct": -0.3132641698886236,
+      "price": 75979.0,
+      "changePct": 0.1993619907243423,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2231.82,
-      "changePct": -0.6416304695479372,
+      "price": 2239.2,
+      "changePct": -0.05736912164351129,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 89.1,
-      "changePct": -1.2322412438100077,
+      "price": 89.56,
+      "changePct": -0.2725535703693526,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 695.98,
-      "changePct": 0.17271654885080112,
+      "price": 697.98,
+      "changePct": 0.496538172740696,
       "source": "CoinGecko"
     }
   ],
@@ -32,11 +32,6 @@
       "url": "https://dexscreener.com/solana/bwh8q5etupwekj2jedkbmxmqwy4fysoj8lewe3rfpump",
       "tokenAddress": "BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump",
       "description": "Alice hugged a microchip and forgot to let go. Every holder is a transistor. Together, we're the processor. Thousands of"
-    },
-    {
-      "url": "https://dexscreener.com/solana/fevrmdx2adu5227ihmkci8ylqgeaeemyrcuk3fuepump",
-      "tokenAddress": "FevRmdX2AdU5227ihMKCi8YLQgeaEEmyrcUk3FUEpump",
-      "description": "$Job Coin"
     },
     {
       "url": "https://dexscreener.com/solana/8uqdy5shmvwuwshea5b3zuuavnumjslpxdf19mxcpump",
@@ -49,6 +44,11 @@
       "description": "It's $HELL, the dog of $AMD - official partner of Rockstar Games, Xbox, and Playstation."
     },
     {
+      "url": "https://dexscreener.com/solana/hxayq3ch4fpye3gravaadvbx4b1xyx87myagwgdipump",
+      "tokenAddress": "HxAyQ3CH4fpYE3gRAvaaDvbx4b1XyX87MyAGwgdipump",
+      "description": "Mission Passed, Respect +"
+    },
+    {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
@@ -59,9 +59,9 @@
       "description": "HOPE"
     },
     {
-      "url": "https://dexscreener.com/solana/hxayq3ch4fpye3gravaadvbx4b1xyx87myagwgdipump",
-      "tokenAddress": "HxAyQ3CH4fpYE3gRAvaaDvbx4b1XyX87MyAGwgdipump",
-      "description": "Mission Passed, Respect +"
+      "url": "https://dexscreener.com/solana/fevrmdx2adu5227ihmkci8ylqgeaeemyrcuk3fuepump",
+      "tokenAddress": "FevRmdX2AdU5227ihMKCi8YLQgeaEEmyrcUk3FUEpump",
+      "description": "$Job Coin"
     },
     {
       "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
@@ -73,7 +73,7 @@
     "value": 28,
     "label": "Fear"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
