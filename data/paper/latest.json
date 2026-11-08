@@ -1,38 +1,33 @@
 {
-  "at": "2026-11-08T18:30:50.039096+00:00",
+  "at": "2026-11-08T22:30:15.591025+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 75854.0,
-      "changePct": 0.13990152934262207,
+      "price": 74428.0,
+      "changePct": -1.6283692845903128,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2232.2,
-      "changePct": -0.12189012959050677,
+      "price": 2124.49,
+      "changePct": -4.766142856614076,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 89.55,
-      "changePct": -0.19024371372133414,
+      "price": 86.2,
+      "changePct": -3.35551589725904,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 696.47,
-      "changePct": 0.13827898726038249,
+      "price": 683.97,
+      "changePct": -1.5977551983702611,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/bwh8q5etupwekj2jedkbmxmqwy4fysoj8lewe3rfpump",
-      "tokenAddress": "BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump",
-      "description": "Alice hugged a microchip and forgot to let go. Every holder is a transistor. Together, we're the processor. Thousands of"
-    },
     {
       "url": "https://dexscreener.com/solana/awabbnovuwq22b8y5netlne2uefk8uayefws7vt7pump",
       "tokenAddress": "AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump",
@@ -49,14 +44,14 @@
       "description": "COGE = Commission on Government Efficiency"
     },
     {
-      "url": "https://dexscreener.com/solana/a75xx6seftamwduv9kgwb2gcjxuahxozccucys9jpump",
-      "tokenAddress": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "description": "It's $HELL, the dog of $AMD - official partner of Rockstar Games, Xbox, and Playstation."
-    },
-    {
       "url": "https://dexscreener.com/solana/483nprwomsogqgrojshwiepmbkpre7zrdy4f8ynspump",
       "tokenAddress": "483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump",
       "description": "Same alley. Same chaos. One more run."
+    },
+    {
+      "url": "https://dexscreener.com/solana/a75xx6seftamwduv9kgwb2gcjxuahxozccucys9jpump",
+      "tokenAddress": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
+      "description": "It's $HELL, the dog of $AMD - official partner of Rockstar Games, Xbox, and Playstation."
     },
     {
       "url": "https://dexscreener.com/solana/hxayq3ch4fpye3gravaadvbx4b1xyx87myagwgdipump",
@@ -67,13 +62,18 @@
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
+      "url": "https://dexscreener.com/solana/2hhh7lwfnhrxqmrsoxz6ri7gdmrysj4e8qsra9krpump",
+      "tokenAddress": "2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump",
+      "description": "forg"
     }
   ],
   "fearGreed": {
     "value": 28,
     "label": "Fear"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
