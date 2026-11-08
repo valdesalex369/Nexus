@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-08T13:28:59.008924+00:00",
+  "at": "2026-11-08T18:30:50.039096+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 75979.0,
-      "changePct": 0.1993619907243423,
+      "price": 75854.0,
+      "changePct": 0.13990152934262207,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2239.2,
-      "changePct": -0.05736912164351129,
+      "price": 2232.2,
+      "changePct": -0.12189012959050677,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 89.56,
-      "changePct": -0.2725535703693526,
+      "price": 89.55,
+      "changePct": -0.19024371372133414,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 697.98,
-      "changePct": 0.496538172740696,
+      "price": 696.47,
+      "changePct": 0.13827898726038249,
       "source": "CoinGecko"
     }
   ],
@@ -32,6 +32,16 @@
       "url": "https://dexscreener.com/solana/bwh8q5etupwekj2jedkbmxmqwy4fysoj8lewe3rfpump",
       "tokenAddress": "BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump",
       "description": "Alice hugged a microchip and forgot to let go. Every holder is a transistor. Together, we're the processor. Thousands of"
+    },
+    {
+      "url": "https://dexscreener.com/solana/awabbnovuwq22b8y5netlne2uefk8uayefws7vt7pump",
+      "tokenAddress": "AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump",
+      "description": "Multichain token launchpad inspired by the ancient Greek origins of Elysium."
+    },
+    {
+      "url": "https://dexscreener.com/solana/dddfdjgrem6pybkeib8nqkz3rhgg9q1zkk58svchpump",
+      "tokenAddress": "DDDfDJGreM6pYbKEiB8NqkZ3RhgG9Q1zKK58SvcHpump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/8uqdy5shmvwuwshea5b3zuuavnumjslpxdf19mxcpump",
@@ -44,6 +54,11 @@
       "description": "It's $HELL, the dog of $AMD - official partner of Rockstar Games, Xbox, and Playstation."
     },
     {
+      "url": "https://dexscreener.com/solana/483nprwomsogqgrojshwiepmbkpre7zrdy4f8ynspump",
+      "tokenAddress": "483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump",
+      "description": "Same alley. Same chaos. One more run."
+    },
+    {
       "url": "https://dexscreener.com/solana/hxayq3ch4fpye3gravaadvbx4b1xyx87myagwgdipump",
       "tokenAddress": "HxAyQ3CH4fpYE3gRAvaaDvbx4b1XyX87MyAGwgdipump",
       "description": "Mission Passed, Respect +"
@@ -52,21 +67,6 @@
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
-      "url": "https://dexscreener.com/solana/4hqprjsrs8pjdwa2b3mbamnnxtxuej9l6affnrgipump",
-      "tokenAddress": "4HqpRjsRS8pjdWa2B3mBAmNNxTXUeJ9L6AfFnRgipump",
-      "description": "HOPE"
-    },
-    {
-      "url": "https://dexscreener.com/solana/fevrmdx2adu5227ihmkci8ylqgeaeemyrcuk3fuepump",
-      "tokenAddress": "FevRmdX2AdU5227ihMKCi8YLQgeaEEmyrcUk3FUEpump",
-      "description": "$Job Coin"
-    },
-    {
-      "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
-      "tokenAddress": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "description": "The team describes WASTED as GA's iconic death screen, and its fan-made site, which says it is not affiliated with Rocks"
     }
   ],
   "fearGreed": {
