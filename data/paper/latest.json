@@ -1,42 +1,42 @@
 {
-  "at": "2026-11-09T02:00:20.035760+00:00",
+  "at": "2026-11-09T09:51:28.742598+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 75129.0,
-      "changePct": -0.7118606575669626,
+      "price": 74154.0,
+      "changePct": -2.257035534712752,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2142.38,
-      "changePct": -4.004553706084398,
+      "price": 2105.76,
+      "changePct": -5.7988868734646575,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 87.82,
-      "changePct": -1.366991224830024,
+      "price": 86.47,
+      "changePct": -3.0606976147185065,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 688.24,
-      "changePct": -0.8904684839570595,
+      "price": 680.63,
+      "changePct": -2.4055895031271413,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/awabbnovuwq22b8y5netlne2uefk8uayefws7vt7pump",
-      "tokenAddress": "AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump",
-      "description": "Multichain token launchpad inspired by the ancient Greek origins of Elysium."
-    },
-    {
       "url": "https://dexscreener.com/solana/dddfdjgrem6pybkeib8nqkz3rhgg9q1zkk58svchpump",
       "tokenAddress": "DDDfDJGreM6pYbKEiB8NqkZ3RhgG9Q1zKK58SvcHpump",
       "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/awabbnovuwq22b8y5netlne2uefk8uayefws7vt7pump",
+      "tokenAddress": "AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump",
+      "description": "Multichain token launchpad inspired by the ancient Greek origins of Elysium."
     },
     {
       "url": "https://dexscreener.com/solana/483nprwomsogqgrojshwiepmbkpre7zrdy4f8ynspump",
@@ -44,19 +44,14 @@
       "description": "Same alley. Same chaos. One more run."
     },
     {
-      "url": "https://dexscreener.com/solana/a75xx6seftamwduv9kgwb2gcjxuahxozccucys9jpump",
-      "tokenAddress": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-      "description": "It's $HELL, the dog of $AMD - official partner of Rockstar Games, Xbox, and Playstation."
-    },
-    {
-      "url": "https://dexscreener.com/solana/hxayq3ch4fpye3gravaadvbx4b1xyx87myagwgdipump",
-      "tokenAddress": "HxAyQ3CH4fpYE3gRAvaaDvbx4b1XyX87MyAGwgdipump",
-      "description": "Mission Passed, Respect +"
-    },
-    {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
+      "url": "https://dexscreener.com/solana/h2zviwa4dwxhd3bctarcuduqtwtqfvrbmkqmrwbmpump",
+      "tokenAddress": "H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump",
+      "description": "Vice City runs on greed. BAWSAQ gives it a ticker."
     },
     {
       "url": "https://dexscreener.com/solana/2hhh7lwfnhrxqmrsoxz6ri7gdmrysj4e8qsra9krpump",
@@ -64,9 +59,14 @@
       "description": "forg"
     },
     {
-      "url": "https://dexscreener.com/solana/h2zviwa4dwxhd3bctarcuduqtwtqfvrbmkqmrwbmpump",
-      "tokenAddress": "H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump",
-      "description": "Vice City runs on greed. BAWSAQ gives it a ticker."
+      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
+      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
+    },
+    {
+      "url": "https://dexscreener.com/solana/3mbjfj3afu2vyxr9paf4s1daveo4ww48y7e8q53dzbju",
+      "tokenAddress": "3MBJfJ3AFU2vyXr9PaF4S1DaVeo4wW48y7E8q53DZbjU",
+      "description": "UPPIN is a Solana launchpad on Raydium LaunchLab that opens two markets on every new coin from its first trade. Spot tra"
     }
   ],
   "fearGreed": {
