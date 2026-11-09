@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-09T09:51:28.742598+00:00",
+  "at": "2026-11-09T20:47:05.451689+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 74154.0,
-      "changePct": -2.257035534712752,
+      "price": 74695.0,
+      "changePct": -1.4068972053713416,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2105.76,
-      "changePct": -5.7988868734646575,
+      "price": 2124.46,
+      "changePct": -4.560631536158343,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 86.47,
-      "changePct": -3.0606976147185065,
+      "price": 86.52,
+      "changePct": -3.088290848868626,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 680.63,
-      "changePct": -2.4055895031271413,
+      "price": 688.38,
+      "changePct": -1.2000011263219021,
       "source": "CoinGecko"
     }
   ],
@@ -31,22 +31,7 @@
     {
       "url": "https://dexscreener.com/solana/dddfdjgrem6pybkeib8nqkz3rhgg9q1zkk58svchpump",
       "tokenAddress": "DDDfDJGreM6pYbKEiB8NqkZ3RhgG9Q1zKK58SvcHpump",
-      "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/awabbnovuwq22b8y5netlne2uefk8uayefws7vt7pump",
-      "tokenAddress": "AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump",
-      "description": "Multichain token launchpad inspired by the ancient Greek origins of Elysium."
-    },
-    {
-      "url": "https://dexscreener.com/solana/483nprwomsogqgrojshwiepmbkpre7zrdy4f8ynspump",
-      "tokenAddress": "483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump",
-      "description": "Same alley. Same chaos. One more run."
-    },
-    {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+      "description": "GTA6 Main Character"
     },
     {
       "url": "https://dexscreener.com/solana/h2zviwa4dwxhd3bctarcuduqtwtqfvrbmkqmrwbmpump",
@@ -54,9 +39,19 @@
       "description": "Vice City runs on greed. BAWSAQ gives it a ticker."
     },
     {
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
       "url": "https://dexscreener.com/solana/2hhh7lwfnhrxqmrsoxz6ri7gdmrysj4e8qsra9krpump",
       "tokenAddress": "2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump",
       "description": "forg"
+    },
+    {
+      "url": "https://dexscreener.com/solana/fnxvzo25dgerp4tw49f4ahg9xac5qw1fer9f7ezk9cts",
+      "tokenAddress": "FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs",
+      "description": "The world\u2019s second exchange rates, traded on Solana."
     },
     {
       "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
@@ -64,9 +59,14 @@
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     },
     {
-      "url": "https://dexscreener.com/solana/3mbjfj3afu2vyxr9paf4s1daveo4ww48y7e8q53dzbju",
-      "tokenAddress": "3MBJfJ3AFU2vyXr9PaF4S1DaVeo4wW48y7E8q53DZbjU",
-      "description": "UPPIN is a Solana launchpad on Raydium LaunchLab that opens two markets on every new coin from its first trade. Spot tra"
+      "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
+      "tokenAddress": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+      "description": "The team describes WASTED as GA's iconic death screen, and its fan-made site, which says it is not affiliated with Rocks"
+    },
+    {
+      "url": "https://dexscreener.com/solana/7v8loultahg3ht43yyqvkdf3ld3stdudbzav5otqpump",
+      "tokenAddress": "7v8LoULtAhg3hT43YYQvKdF3LD3stdudBZAv5oTqpump",
+      "description": "Miles Bron the HODL Whale"
     }
   ],
   "fearGreed": {
