@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-08T22:30:15.591025+00:00",
+  "at": "2026-11-09T02:00:20.035760+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 74428.0,
-      "changePct": -1.6283692845903128,
+      "price": 75129.0,
+      "changePct": -0.7118606575669626,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2124.49,
-      "changePct": -4.766142856614076,
+      "price": 2142.38,
+      "changePct": -4.004553706084398,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 86.2,
-      "changePct": -3.35551589725904,
+      "price": 87.82,
+      "changePct": -1.366991224830024,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 683.97,
-      "changePct": -1.5977551983702611,
+      "price": 688.24,
+      "changePct": -0.8904684839570595,
       "source": "CoinGecko"
     }
   ],
@@ -37,11 +37,6 @@
       "url": "https://dexscreener.com/solana/dddfdjgrem6pybkeib8nqkz3rhgg9q1zkk58svchpump",
       "tokenAddress": "DDDfDJGreM6pYbKEiB8NqkZ3RhgG9Q1zKK58SvcHpump",
       "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/8uqdy5shmvwuwshea5b3zuuavnumjslpxdf19mxcpump",
-      "tokenAddress": "8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
-      "description": "COGE = Commission on Government Efficiency"
     },
     {
       "url": "https://dexscreener.com/solana/483nprwomsogqgrojshwiepmbkpre7zrdy4f8ynspump",
@@ -67,10 +62,15 @@
       "url": "https://dexscreener.com/solana/2hhh7lwfnhrxqmrsoxz6ri7gdmrysj4e8qsra9krpump",
       "tokenAddress": "2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump",
       "description": "forg"
+    },
+    {
+      "url": "https://dexscreener.com/solana/h2zviwa4dwxhd3bctarcuduqtwtqfvrbmkqmrwbmpump",
+      "tokenAddress": "H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump",
+      "description": "Vice City runs on greed. BAWSAQ gives it a ticker."
     }
   ],
   "fearGreed": {
-    "value": 28,
+    "value": 29,
     "label": "Fear"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
