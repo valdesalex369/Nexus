@@ -1,38 +1,33 @@
 {
-  "at": "2026-11-10T03:35:37.317007+00:00",
+  "at": "2026-11-10T11:48:58.359997+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 74522.0,
-      "changePct": -0.6246295691410162,
+      "price": 74312.0,
+      "changePct": -0.21312701629814748,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2114.73,
-      "changePct": -1.3355311425981682,
+      "price": 2091.59,
+      "changePct": -1.2869559130506865,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 85.65,
-      "changePct": -2.449953421698293,
+      "price": 84.58,
+      "changePct": -1.8812714972988271,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 687.87,
-      "changePct": -0.03994228684372855,
+      "price": 687.8,
+      "changePct": 0.60272115316611,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/dddfdjgrem6pybkeib8nqkz3rhgg9q1zkk58svchpump",
-      "tokenAddress": "DDDfDJGreM6pYbKEiB8NqkZ3RhgG9Q1zKK58SvcHpump",
-      "description": "GTA6 Main Character"
-    },
     {
       "url": "https://dexscreener.com/solana/baftasb1hvqbn5723w72wlcxu7yassgmvxqxjjajpump",
       "tokenAddress": "BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump",
@@ -44,9 +39,19 @@
       "description": "Maya The Samoyed - $MAYA Born in Germany. Raised by Lingli Ye. Destined to farm memes across every timeline."
     },
     {
+      "url": "https://dexscreener.com/solana/hoqjaoes6yfl8yeshgfenwvkt7lrapy97zdg9hmbu4ep",
+      "tokenAddress": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
+      "description": "Old-school Thug Life, reborn in Vice City. Every holder is a shareholder. Every shareholder is a soldier."
+    },
+    {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
+      "url": "https://dexscreener.com/solana/34dxeu2ttetbsb1tqgjm7izgvyttkqkccoinwdpdpump",
+      "tokenAddress": "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump",
+      "description": "Meet Big Guy - the dog of Kodak Black. Got his pets from Jason Duval at the start of the GTA 6 trailer."
     },
     {
       "url": "https://dexscreener.com/solana/2hhh7lwfnhrxqmrsoxz6ri7gdmrysj4e8qsra9krpump",
@@ -59,14 +64,9 @@
       "description": "The world\u2019s second exchange rates, traded on Solana."
     },
     {
-      "url": "https://dexscreener.com/solana/hoqjaoes6yfl8yeshgfenwvkt7lrapy97zdg9hmbu4ep",
-      "tokenAddress": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
-      "description": "Old-school Thug Life, reborn in Vice City. Every holder is a shareholder. Every shareholder is a soldier."
-    },
-    {
-      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
-      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
+      "url": "https://dexscreener.com/solana/ejv8tgqfn6gtyn8z6kgybenpbvymogmudfxira2fpump",
+      "tokenAddress": "EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump",
+      "description": "GRAND THEFT APES\n\nGTA RUNNER"
     }
   ],
   "fearGreed": {
