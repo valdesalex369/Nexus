@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-09T20:47:05.451689+00:00",
+  "at": "2026-11-10T03:35:37.317007+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 74695.0,
-      "changePct": -1.4068972053713416,
+      "price": 74522.0,
+      "changePct": -0.6246295691410162,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2124.46,
-      "changePct": -4.560631536158343,
+      "price": 2114.73,
+      "changePct": -1.3355311425981682,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 86.52,
-      "changePct": -3.088290848868626,
+      "price": 85.65,
+      "changePct": -2.449953421698293,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 688.38,
-      "changePct": -1.2000011263219021,
+      "price": 687.87,
+      "changePct": -0.03994228684372855,
       "source": "CoinGecko"
     }
   ],
@@ -34,9 +34,14 @@
       "description": "GTA6 Main Character"
     },
     {
-      "url": "https://dexscreener.com/solana/h2zviwa4dwxhd3bctarcuduqtwtqfvrbmkqmrwbmpump",
-      "tokenAddress": "H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump",
-      "description": "Vice City runs on greed. BAWSAQ gives it a ticker."
+      "url": "https://dexscreener.com/solana/baftasb1hvqbn5723w72wlcxu7yassgmvxqxjjajpump",
+      "tokenAddress": "BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump",
+      "description": "Cute cats. Viral memes. Infinite purrs. OnlyCats turns every whisker into legendary crypto-powered fun."
+    },
+    {
+      "url": "https://dexscreener.com/solana/hqzzhbxwm17vny29uj4cgcznuwo9o8vluwsn4rh8pump",
+      "tokenAddress": "HqZZhbXWm17vnY29uj4cgczNUWo9o8VLUWsN4RH8pump",
+      "description": "Maya The Samoyed - $MAYA Born in Germany. Raised by Lingli Ye. Destined to farm memes across every timeline."
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
@@ -54,23 +59,18 @@
       "description": "The world\u2019s second exchange rates, traded on Solana."
     },
     {
+      "url": "https://dexscreener.com/solana/hoqjaoes6yfl8yeshgfenwvkt7lrapy97zdg9hmbu4ep",
+      "tokenAddress": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
+      "description": "Old-school Thug Life, reborn in Vice City. Every holder is a shareholder. Every shareholder is a soldier."
+    },
+    {
       "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
       "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
-    },
-    {
-      "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
-      "tokenAddress": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "description": "The team describes WASTED as GA's iconic death screen, and its fan-made site, which says it is not affiliated with Rocks"
-    },
-    {
-      "url": "https://dexscreener.com/solana/7v8loultahg3ht43yyqvkdf3ld3stdudbzav5otqpump",
-      "tokenAddress": "7v8LoULtAhg3hT43YYQvKdF3LD3stdudBZAv5oTqpump",
-      "description": "Miles Bron the HODL Whale"
     }
   ],
   "fearGreed": {
-    "value": 29,
+    "value": 32,
     "label": "Fear"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
