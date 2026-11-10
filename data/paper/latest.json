@@ -1,33 +1,43 @@
 {
-  "at": "2026-11-10T11:48:58.359997+00:00",
+  "at": "2026-11-10T19:46:11.902764+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 74312.0,
-      "changePct": -0.21312701629814748,
+      "price": 73314.0,
+      "changePct": -2.2401606759749213,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2091.59,
-      "changePct": -1.2869559130506865,
+      "price": 2038.68,
+      "changePct": -4.491615745513867,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 84.58,
-      "changePct": -1.8812714972988271,
+      "price": 82.53,
+      "changePct": -4.899707315208246,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 687.8,
-      "changePct": 0.60272115316611,
+      "price": 673.35,
+      "changePct": -2.2174064402692384,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/ejv8tgqfn6gtyn8z6kgybenpbvymogmudfxira2fpump",
+      "tokenAddress": "EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump",
+      "description": "GRAND THEFT APES\n\nGTA RUNNER"
+    },
+    {
+      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
+      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
+    },
     {
       "url": "https://dexscreener.com/solana/baftasb1hvqbn5723w72wlcxu7yassgmvxqxjjajpump",
       "tokenAddress": "BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump",
@@ -44,29 +54,19 @@
       "description": "Old-school Thug Life, reborn in Vice City. Every holder is a shareholder. Every shareholder is a soldier."
     },
     {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
       "url": "https://dexscreener.com/solana/34dxeu2ttetbsb1tqgjm7izgvyttkqkccoinwdpdpump",
       "tokenAddress": "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump",
       "description": "Meet Big Guy - the dog of Kodak Black. Got his pets from Jason Duval at the start of the GTA 6 trailer."
     },
     {
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
       "url": "https://dexscreener.com/solana/2hhh7lwfnhrxqmrsoxz6ri7gdmrysj4e8qsra9krpump",
       "tokenAddress": "2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump",
       "description": "forg"
-    },
-    {
-      "url": "https://dexscreener.com/solana/fnxvzo25dgerp4tw49f4ahg9xac5qw1fer9f7ezk9cts",
-      "tokenAddress": "FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs",
-      "description": "The world\u2019s second exchange rates, traded on Solana."
-    },
-    {
-      "url": "https://dexscreener.com/solana/ejv8tgqfn6gtyn8z6kgybenpbvymogmudfxira2fpump",
-      "tokenAddress": "EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump",
-      "description": "GRAND THEFT APES\n\nGTA RUNNER"
     }
   ],
   "fearGreed": {
