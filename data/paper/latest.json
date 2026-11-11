@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-10T19:46:11.902764+00:00",
+  "at": "2026-11-11T00:40:33.328659+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 73314.0,
-      "changePct": -2.2401606759749213,
+      "price": 73671.0,
+      "changePct": -1.7648816686444992,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2038.68,
-      "changePct": -4.491615745513867,
+      "price": 2054.95,
+      "changePct": -3.261482555494171,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 82.53,
-      "changePct": -4.899707315208246,
+      "price": 83.52,
+      "changePct": -3.3052006946199577,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 673.35,
-      "changePct": -2.2174064402692384,
+      "price": 680.71,
+      "changePct": -1.2152976172825907,
       "source": "CoinGecko"
     }
   ],
@@ -34,24 +34,19 @@
       "description": "GRAND THEFT APES\n\nGTA RUNNER"
     },
     {
+      "url": "https://dexscreener.com/solana/8ylbup74rnfmjsrs8bgfebvyoto8uiejpb71h3zgpump",
+      "tokenAddress": "8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump",
+      "description": ""
+    },
+    {
       "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
       "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     },
     {
-      "url": "https://dexscreener.com/solana/baftasb1hvqbn5723w72wlcxu7yassgmvxqxjjajpump",
-      "tokenAddress": "BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump",
-      "description": "Cute cats. Viral memes. Infinite purrs. OnlyCats turns every whisker into legendary crypto-powered fun."
-    },
-    {
-      "url": "https://dexscreener.com/solana/hqzzhbxwm17vny29uj4cgcznuwo9o8vluwsn4rh8pump",
-      "tokenAddress": "HqZZhbXWm17vnY29uj4cgczNUWo9o8VLUWsN4RH8pump",
-      "description": "Maya The Samoyed - $MAYA Born in Germany. Raised by Lingli Ye. Destined to farm memes across every timeline."
-    },
-    {
-      "url": "https://dexscreener.com/solana/hoqjaoes6yfl8yeshgfenwvkt7lrapy97zdg9hmbu4ep",
-      "tokenAddress": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
-      "description": "Old-school Thug Life, reborn in Vice City. Every holder is a shareholder. Every shareholder is a soldier."
+      "url": "https://dexscreener.com/solana/5tbxkpvh716zsxhnzsr8i1px7e6uuj46jnbldychpump",
+      "tokenAddress": "5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump",
+      "description": "There's a meme coin in GTA 6 called \"Dacity Coin\" in the new leak."
     },
     {
       "url": "https://dexscreener.com/solana/34dxeu2ttetbsb1tqgjm7izgvyttkqkccoinwdpdpump",
@@ -67,10 +62,15 @@
       "url": "https://dexscreener.com/solana/2hhh7lwfnhrxqmrsoxz6ri7gdmrysj4e8qsra9krpump",
       "tokenAddress": "2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump",
       "description": "forg"
+    },
+    {
+      "url": "https://dexscreener.com/solana/jbue4nzu4rm4ej5aslzeczlhvnwpfrmhn9oplxcvpump",
+      "tokenAddress": "JBUe4NZu4rm4Ej5AsLZECZLHvnWpFRmhn9oPLXCVpump",
+      "description": "Mubbo is a cat that crawled into a GPU box. It reads which GPUs are free on Solana and what an hour costs anywhere, then"
     }
   ],
   "fearGreed": {
-    "value": 32,
+    "value": 29,
     "label": "Fear"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
