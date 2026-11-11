@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-11T00:40:33.328659+00:00",
+  "at": "2026-11-11T07:13:04.401499+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 73671.0,
-      "changePct": -1.7648816686444992,
+      "price": 73554.0,
+      "changePct": -1.40032025835393,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2054.95,
-      "changePct": -3.261482555494171,
+      "price": 2054.23,
+      "changePct": -2.8661762705477676,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 83.52,
-      "changePct": -3.3052006946199577,
+      "price": 82.49,
+      "changePct": -4.118571200805428,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 680.71,
-      "changePct": -1.2152976172825907,
+      "price": 677.01,
+      "changePct": -1.75226072155484,
       "source": "CoinGecko"
     }
   ],
@@ -39,6 +39,11 @@
       "description": ""
     },
     {
+      "url": "https://dexscreener.com/solana/ghtnattcpfz8mrtmqieyueob283eugqd1d1fysnhpump",
+      "tokenAddress": "GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump",
+      "description": "See what anyone can read about it. Shield SOL, USDC or USDT in a shared privacy pool, then split it back out to fresh wa"
+    },
+    {
       "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
       "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
@@ -49,24 +54,19 @@
       "description": "There's a meme coin in GTA 6 called \"Dacity Coin\" in the new leak."
     },
     {
-      "url": "https://dexscreener.com/solana/34dxeu2ttetbsb1tqgjm7izgvyttkqkccoinwdpdpump",
-      "tokenAddress": "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump",
-      "description": "Meet Big Guy - the dog of Kodak Black. Got his pets from Jason Duval at the start of the GTA 6 trailer."
-    },
-    {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
+      "url": "https://dexscreener.com/solana/hg3w7gdpviz5urucnnk6ewxlzstmvwx6uxled6pbpump",
+      "tokenAddress": "Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump",
+      "description": "the zen master cat who said \"ni hao\" to Ansem and became his pfp. Vibe shift confirmed. \ud83d\udc31\ud83c\udc04\ufe0f"
+    },
+    {
       "url": "https://dexscreener.com/solana/2hhh7lwfnhrxqmrsoxz6ri7gdmrysj4e8qsra9krpump",
       "tokenAddress": "2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump",
       "description": "forg"
-    },
-    {
-      "url": "https://dexscreener.com/solana/jbue4nzu4rm4ej5aslzeczlhvnwpfrmhn9oplxcvpump",
-      "tokenAddress": "JBUe4NZu4rm4Ej5AsLZECZLHvnWpFRmhn9oPLXCVpump",
-      "description": "Mubbo is a cat that crawled into a GPU box. It reads which GPUs are free on Solana and what an hour costs anywhere, then"
     }
   ],
   "fearGreed": {
