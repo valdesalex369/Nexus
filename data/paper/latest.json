@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-11T15:23:26.809191+00:00",
+  "at": "2026-11-11T22:17:59.119891+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 73496.0,
-      "changePct": -1.3101995042332382,
+      "price": 74404.0,
+      "changePct": 0.698521507627088,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2054.69,
-      "changePct": -1.0510276840438926,
+      "price": 2071.43,
+      "changePct": 0.6893060769779432,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 83.82,
-      "changePct": -0.5271961832074139,
+      "price": 84.61,
+      "changePct": 1.4600836377898894,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 679.74,
-      "changePct": -1.2272500840473817,
+      "price": 685.07,
+      "changePct": 0.932654832866275,
       "source": "CoinGecko"
     }
   ],
@@ -44,14 +44,14 @@
       "description": "ni hao dog"
     },
     {
-      "url": "https://dexscreener.com/solana/ejv8tgqfn6gtyn8z6kgybenpbvymogmudfxira2fpump",
-      "tokenAddress": "EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump",
-      "description": "GRAND THEFT APES\n\nGTA RUNNER"
+      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
+      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     },
     {
-      "url": "https://dexscreener.com/solana/5tbxkpvh716zsxhnzsr8i1px7e6uuj46jnbldychpump",
-      "tokenAddress": "5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump",
-      "description": "There's a meme coin in GTA 6 called \"Dacity Coin\" in the new leak."
+      "url": "https://dexscreener.com/solana/34dxeu2ttetbsb1tqgjm7izgvyttkqkccoinwdpdpump",
+      "tokenAddress": "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump",
+      "description": "Meet Big Guy - the dog of Kodak Black. Got his pets from Jason Duval at the start of the GTA 6 trailer."
     },
     {
       "url": "https://dexscreener.com/solana/hg3w7gdpviz5urucnnk6ewxlzstmvwx6uxled6pbpump",
@@ -59,21 +59,21 @@
       "description": "the zen master cat who said \"ni hao\" to Ansem and became his pfp. Vibe shift confirmed. \ud83d\udc31\ud83c\udc04\ufe0f"
     },
     {
-      "url": "https://dexscreener.com/solana/9vzerdnl1x6ejetdqrnh5bycdmk1y8slags1ybzgpump",
-      "tokenAddress": "9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
+      "url": "https://dexscreener.com/solana/9vzerdnl1x6ejetdqrnh5bycdmk1y8slags1ybzgpump",
+      "tokenAddress": "9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump",
+      "description": ""
     }
   ],
   "fearGreed": {
     "value": 29,
     "label": "Fear"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
