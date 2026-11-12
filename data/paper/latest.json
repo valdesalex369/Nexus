@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-12T11:53:43.080737+00:00",
+  "at": "2026-11-12T19:57:40.535851+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 72876.0,
-      "changePct": -1.4705078029982297,
+      "price": 71619.0,
+      "changePct": -3.636413496678792,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2022.5,
-      "changePct": -1.6742663752586997,
+      "price": 2014.25,
+      "changePct": -2.926460542347503,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 82.44,
-      "changePct": -1.8823758288763763,
+      "price": 81.61,
+      "changePct": -3.573430990743954,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 664.25,
-      "changePct": -2.490884561178008,
+      "price": 655.08,
+      "changePct": -4.429750438945756,
       "source": "CoinGecko"
     }
   ],
@@ -39,14 +39,19 @@
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     },
     {
+      "url": "https://dexscreener.com/solana/4fp2grqs3wypszse2dwavzqkajrbphcxyvstvt83pump",
+      "tokenAddress": "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump",
+      "description": "He is starting the financial crisis because he was horny."
+    },
+    {
+      "url": "https://dexscreener.com/solana/13cb7sgfxqrtmdu1jnanytntmqtbmh55qwxxzdwbmoon",
+      "tokenAddress": "13Cb7SGfxqrtMDU1JNANyTnTmQtbmH55QWXXzdwBmoon",
+      "description": "ZAGL is the utility token powering the za.gl platform \u2014 the first fully tokenized real-world business"
+    },
+    {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
-      "url": "https://dexscreener.com/solana/34dxeu2ttetbsb1tqgjm7izgvyttkqkccoinwdpdpump",
-      "tokenAddress": "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump",
-      "description": "Meet Big Guy - the dog of Kodak Black. Got his pets from Jason Duval at the start of the GTA 6 trailer."
     },
     {
       "url": "https://dexscreener.com/solana/8aavuqpjcqpvcuutxybtvvgbexzjskzonv1sexpbpump",
@@ -54,19 +59,14 @@
       "description": "A legendary warlord. Reborn as a Shiba. Same pride, new paws."
     },
     {
-      "url": "https://dexscreener.com/solana/89irvodvpd8turrmyhgpfe58edneaspsdevu5aumpump",
-      "tokenAddress": "89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump",
-      "description": "The only coin that brings luck"
+      "url": "https://dexscreener.com/solana/8p7gco3fwj55lfqbhkbd8hcpw3ack98pgk7lsd6upump",
+      "tokenAddress": "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
+      "description": "The Shitcoin of all Shitcoins."
     },
     {
-      "url": "https://dexscreener.com/solana/fkc9fkhk1k8fsptkkcjfgkpeb4waa3dsprxhmwvvpump",
-      "tokenAddress": "Fkc9FKhK1K8FSPtKkcjfGkpeb4waa3DspRXHmwvvpump",
-      "description": "ape hao"
-    },
-    {
-      "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
-      "tokenAddress": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "description": "The team describes WASTED as GA's iconic death screen, and its fan-made site, which says it is not affiliated with Rocks"
+      "url": "https://dexscreener.com/solana/awuucexwrcvbixzmy5sqfney7hf6j8aeidubv5hhpump",
+      "tokenAddress": "AWuUCEXwrCvbixzMY5sQfNEY7hf6j8aeiDubv5Hhpump",
+      "description": "jjaemu"
     }
   ],
   "fearGreed": {
