@@ -1,37 +1,37 @@
 {
-  "at": "2026-11-11T22:17:59.119891+00:00",
+  "at": "2026-11-12T03:23:57.061952+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 74404.0,
-      "changePct": 0.698521507627088,
+      "price": 73721.0,
+      "changePct": -0.005042827204757069,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2071.43,
-      "changePct": 0.6893060769779432,
+      "price": 2050.78,
+      "changePct": -0.5719598643268853,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 84.61,
-      "changePct": 1.4600836377898894,
+      "price": 83.11,
+      "changePct": -0.41816933073294155,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 685.07,
-      "changePct": 0.932654832866275,
+      "price": 678.37,
+      "changePct": -0.6718523298523609,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/8ylbup74rnfmjsrs8bgfebvyoto8uiejpb71h3zgpump",
-      "tokenAddress": "8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/ajfnmpif4vtkeqewtwbuarib5zkkbxcs594uyrmhpump",
+      "tokenAddress": "AJFnmpiF4VTKeqEWtwBUarib5zKKbXcs594UyrMHpump",
+      "description": "Ansem is back again for making memes great again."
     },
     {
       "url": "https://dexscreener.com/solana/ghtnattcpfz8mrtmqieyueob283eugqd1d1fysnhpump",
@@ -49,19 +49,19 @@
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     },
     {
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
       "url": "https://dexscreener.com/solana/34dxeu2ttetbsb1tqgjm7izgvyttkqkccoinwdpdpump",
       "tokenAddress": "34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump",
       "description": "Meet Big Guy - the dog of Kodak Black. Got his pets from Jason Duval at the start of the GTA 6 trailer."
     },
     {
-      "url": "https://dexscreener.com/solana/hg3w7gdpviz5urucnnk6ewxlzstmvwx6uxled6pbpump",
-      "tokenAddress": "Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump",
-      "description": "the zen master cat who said \"ni hao\" to Ansem and became his pfp. Vibe shift confirmed. \ud83d\udc31\ud83c\udc04\ufe0f"
-    },
-    {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+      "url": "https://dexscreener.com/solana/8aavuqpjcqpvcuutxybtvvgbexzjskzonv1sexpbpump",
+      "tokenAddress": "8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump",
+      "description": "A legendary warlord. Reborn as a Shiba. Same pride, new paws."
     },
     {
       "url": "https://dexscreener.com/solana/9vzerdnl1x6ejetdqrnh5bycdmk1y8slags1ybzgpump",
@@ -70,10 +70,10 @@
     }
   ],
   "fearGreed": {
-    "value": 29,
+    "value": 28,
     "label": "Fear"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
