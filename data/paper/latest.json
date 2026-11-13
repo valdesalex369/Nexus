@@ -1,57 +1,37 @@
 {
-  "at": "2026-11-13T01:07:14.974412+00:00",
+  "at": "2026-11-13T08:01:52.612136+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 70737.0,
-      "changePct": -4.155439691573574,
+      "price": 68547.0,
+      "changePct": -6.8227323955512595,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2003.49,
-      "changePct": -2.46892345378984,
+      "price": 1933.94,
+      "changePct": -5.617930669299952,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 81.17,
-      "changePct": -2.5649088994137026,
+      "price": 79.72,
+      "changePct": -3.8499679091614802,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 653.59,
-      "changePct": -3.820939151911476,
+      "price": 629.6,
+      "changePct": -6.504527072169103,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/ajfnmpif4vtkeqewtwbuarib5zkkbxcs594uyrmhpump",
-      "tokenAddress": "AJFnmpiF4VTKeqEWtwBUarib5zKKbXcs594UyrMHpump",
-      "description": "Ansem is back again for making memes great again."
-    },
-    {
       "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
       "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
-    },
-    {
-      "url": "https://dexscreener.com/solana/4fp2grqs3wypszse2dwavzqkajrbphcxyvstvt83pump",
-      "tokenAddress": "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump",
-      "description": "He is starting the financial crisis because he was horny."
-    },
-    {
-      "url": "https://dexscreener.com/solana/13cb7sgfxqrtmdu1jnanytntmqtbmh55qwxxzdwbmoon",
-      "tokenAddress": "13Cb7SGfxqrtMDU1JNANyTnTmQtbmH55QWXXzdwBmoon",
-      "description": "ZAGL is the utility token powering the za.gl platform \u2014 the first fully tokenized real-world business"
-    },
-    {
-      "url": "https://dexscreener.com/solana/8aavuqpjcqpvcuutxybtvvgbexzjskzonv1sexpbpump",
-      "tokenAddress": "8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump",
-      "description": "A legendary warlord. Reborn as a Shiba. Same pride, new paws."
     },
     {
       "url": "https://dexscreener.com/solana/ttwocsxkgj4npqeuzbafzlxefzvdlytublsnnjgew9v",
@@ -59,14 +39,34 @@
       "description": "The digital currency coming to Vice City on November 19."
     },
     {
-      "url": "https://dexscreener.com/solana/8p7gco3fwj55lfqbhkbd8hcpw3ack98pgk7lsd6upump",
-      "tokenAddress": "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
-      "description": "The Shitcoin of all Shitcoins."
+      "url": "https://dexscreener.com/solana/4fp2grqs3wypszse2dwavzqkajrbphcxyvstvt83pump",
+      "tokenAddress": "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump",
+      "description": "He is starting the financial crisis because he was horny."
+    },
+    {
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
       "url": "https://dexscreener.com/solana/d7myad7k3aqjpg4uxjucml51edhresjxkjuynsxcpump",
       "tokenAddress": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
       "description": "Christmax, otherwise known as Christmas Maxxing."
+    },
+    {
+      "url": "https://dexscreener.com/solana/awuucexwrcvbixzmy5sqfney7hf6j8aeidubv5hhpump",
+      "tokenAddress": "AWuUCEXwrCvbixzMY5sQfNEY7hf6j8aeiDubv5Hhpump",
+      "description": "jjaemu"
+    },
+    {
+      "url": "https://dexscreener.com/solana/8p7gco3fwj55lfqbhkbd8hcpw3ack98pgk7lsd6upump",
+      "tokenAddress": "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
+      "description": "The Shitcoin of all Shitcoins."
+    },
+    {
+      "url": "https://dexscreener.com/solana/57t5rglmkcnrlikmihyqnggxp2nt1bke3knffx98kddz",
+      "tokenAddress": "57t5RgLMkCNrLiKMihYQNGGxp2Nt1bkE3kNFfX98kDdz",
+      "description": "ni hao bear  $BEARHAO \n\nMy vibe gonna leave a mark i promise you that"
     }
   ],
   "fearGreed": {
