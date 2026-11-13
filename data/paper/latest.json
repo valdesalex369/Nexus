@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-12T19:57:40.535851+00:00",
+  "at": "2026-11-13T01:07:14.974412+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 71619.0,
-      "changePct": -3.636413496678792,
+      "price": 70737.0,
+      "changePct": -4.155439691573574,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 2014.25,
-      "changePct": -2.926460542347503,
+      "price": 2003.49,
+      "changePct": -2.46892345378984,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 81.61,
-      "changePct": -3.573430990743954,
+      "price": 81.17,
+      "changePct": -2.5649088994137026,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 655.08,
-      "changePct": -4.429750438945756,
+      "price": 653.59,
+      "changePct": -3.820939151911476,
       "source": "CoinGecko"
     }
   ],
@@ -49,14 +49,14 @@
       "description": "ZAGL is the utility token powering the za.gl platform \u2014 the first fully tokenized real-world business"
     },
     {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
       "url": "https://dexscreener.com/solana/8aavuqpjcqpvcuutxybtvvgbexzjskzonv1sexpbpump",
       "tokenAddress": "8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump",
       "description": "A legendary warlord. Reborn as a Shiba. Same pride, new paws."
+    },
+    {
+      "url": "https://dexscreener.com/solana/ttwocsxkgj4npqeuzbafzlxefzvdlytublsnnjgew9v",
+      "tokenAddress": "ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v",
+      "description": "The digital currency coming to Vice City on November 19."
     },
     {
       "url": "https://dexscreener.com/solana/8p7gco3fwj55lfqbhkbd8hcpw3ack98pgk7lsd6upump",
@@ -64,14 +64,14 @@
       "description": "The Shitcoin of all Shitcoins."
     },
     {
-      "url": "https://dexscreener.com/solana/awuucexwrcvbixzmy5sqfney7hf6j8aeidubv5hhpump",
-      "tokenAddress": "AWuUCEXwrCvbixzMY5sQfNEY7hf6j8aeiDubv5Hhpump",
-      "description": "jjaemu"
+      "url": "https://dexscreener.com/solana/d7myad7k3aqjpg4uxjucml51edhresjxkjuynsxcpump",
+      "tokenAddress": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
+      "description": "Christmax, otherwise known as Christmas Maxxing."
     }
   ],
   "fearGreed": {
-    "value": 28,
-    "label": "Fear"
+    "value": 20,
+    "label": "Extreme Fear"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
