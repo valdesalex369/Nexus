@@ -1,33 +1,38 @@
 {
-  "at": "2026-11-13T16:28:19.722698+00:00",
+  "at": "2026-11-13T22:12:53.038358+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 68639.0,
-      "changePct": -4.398239628541398,
+      "price": 68218.0,
+      "changePct": -4.502386133609193,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1926.8,
-      "changePct": -4.284490499018006,
+      "price": 1922.71,
+      "changePct": -4.488650411428871,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 79.6,
-      "changePct": -2.472123427225092,
+      "price": 78.27,
+      "changePct": -3.8619649861459546,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 631.67,
-      "changePct": -3.9421317262777498,
+      "price": 629.91,
+      "changePct": -3.5809138311414337,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/9j41toneswga3hzjyfyiwkc9jmm8domdp3qebym1pump",
+      "tokenAddress": "9J41toneswGA3hZJyfYiWkC9jMm8doMDP3QEBYM1pump",
+      "description": "Ni gghao Cat"
+    },
     {
       "url": "https://dexscreener.com/solana/fpxcxfcqhc5ysjcysggzc2avixqldmb1fyy59nmtpump",
       "tokenAddress": "FPXcxfcqHC5YsjcYSGgzC2aVixQLDMB1FYY59nmTpump",
@@ -44,29 +49,24 @@
       "description": "Christmax, otherwise known as Christmas Maxxing."
     },
     {
+      "url": "https://dexscreener.com/solana/hwya5cpqiqwlnjfjvrdf9o8ahaupnpmra3vfqrczpump",
+      "tokenAddress": "HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump",
+      "description": "Brews tea, waits patiently, then sends it."
+    },
+    {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/4fp2grqs3wypszse2dwavzqkajrbphcxyvstvt83pump",
-      "tokenAddress": "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump",
-      "description": "He is starting the financial crisis because he was horny."
-    },
-    {
-      "url": "https://dexscreener.com/solana/awuucexwrcvbixzmy5sqfney7hf6j8aeidubv5hhpump",
-      "tokenAddress": "AWuUCEXwrCvbixzMY5sQfNEY7hf6j8aeiDubv5Hhpump",
-      "description": "jjaemu"
+      "url": "https://dexscreener.com/solana/belvqe2tk7fvvg6epvguzuwhsi95xpl7mqjm3nanpump",
+      "tokenAddress": "BeLVQE2tK7fVvg6EpVgUzUWhSi95XpL7mqJM3nANpump",
+      "description": "Five-star chaos. Wanted level maxed. Every cop from Los Santos to Vice City to Leonida is on your tail \u2014 and you're stil"
     },
     {
       "url": "https://dexscreener.com/solana/2qccwbzl7ygovuqvxmxokjr8azohegmtt4vj2ygspump",
       "tokenAddress": "2QCcwbZL7YgovUqvXmxoKJR8AZoHeGMtt4vj2YGSpump",
       "description": "The moon isn\u2019t safe anymore, but it\u2019ll come fast."
-    },
-    {
-      "url": "https://dexscreener.com/solana/belvqe2tk7fvvg6epvguzuwhsi95xpl7mqjm3nanpump",
-      "tokenAddress": "BeLVQE2tK7fVvg6EpVgUzUWhSi95XpL7mqJM3nANpump",
-      "description": "Five-star chaos. Wanted level maxed. Every cop from Los Santos to Vice City to Leonida is on your tail \u2014 and you're stil"
     }
   ],
   "fearGreed": {
