@@ -1,37 +1,37 @@
 {
-  "at": "2026-11-13T08:01:52.612136+00:00",
+  "at": "2026-11-13T16:28:19.722698+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 68547.0,
-      "changePct": -6.8227323955512595,
+      "price": 68639.0,
+      "changePct": -4.398239628541398,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1933.94,
-      "changePct": -5.617930669299952,
+      "price": 1926.8,
+      "changePct": -4.284490499018006,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 79.72,
-      "changePct": -3.8499679091614802,
+      "price": 79.6,
+      "changePct": -2.472123427225092,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 629.6,
-      "changePct": -6.504527072169103,
+      "price": 631.67,
+      "changePct": -3.9421317262777498,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
-      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
+      "url": "https://dexscreener.com/solana/fpxcxfcqhc5ysjcysggzc2avixqldmb1fyy59nmtpump",
+      "tokenAddress": "FPXcxfcqHC5YsjcYSGgzC2aVixQLDMB1FYY59nmTpump",
+      "description": "Millions of traders\nThousands of tokens \nBut what if they all choose ONE?"
     },
     {
       "url": "https://dexscreener.com/solana/ttwocsxkgj4npqeuzbafzlxefzvdlytublsnnjgew9v",
@@ -39,9 +39,9 @@
       "description": "The digital currency coming to Vice City on November 19."
     },
     {
-      "url": "https://dexscreener.com/solana/4fp2grqs3wypszse2dwavzqkajrbphcxyvstvt83pump",
-      "tokenAddress": "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump",
-      "description": "He is starting the financial crisis because he was horny."
+      "url": "https://dexscreener.com/solana/d7myad7k3aqjpg4uxjucml51edhresjxkjuynsxcpump",
+      "tokenAddress": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
+      "description": "Christmax, otherwise known as Christmas Maxxing."
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
@@ -49,9 +49,9 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/d7myad7k3aqjpg4uxjucml51edhresjxkjuynsxcpump",
-      "tokenAddress": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
-      "description": "Christmax, otherwise known as Christmas Maxxing."
+      "url": "https://dexscreener.com/solana/4fp2grqs3wypszse2dwavzqkajrbphcxyvstvt83pump",
+      "tokenAddress": "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump",
+      "description": "He is starting the financial crisis because he was horny."
     },
     {
       "url": "https://dexscreener.com/solana/awuucexwrcvbixzmy5sqfney7hf6j8aeidubv5hhpump",
@@ -59,14 +59,14 @@
       "description": "jjaemu"
     },
     {
-      "url": "https://dexscreener.com/solana/8p7gco3fwj55lfqbhkbd8hcpw3ack98pgk7lsd6upump",
-      "tokenAddress": "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
-      "description": "The Shitcoin of all Shitcoins."
+      "url": "https://dexscreener.com/solana/2qccwbzl7ygovuqvxmxokjr8azohegmtt4vj2ygspump",
+      "tokenAddress": "2QCcwbZL7YgovUqvXmxoKJR8AZoHeGMtt4vj2YGSpump",
+      "description": "The moon isn\u2019t safe anymore, but it\u2019ll come fast."
     },
     {
-      "url": "https://dexscreener.com/solana/57t5rglmkcnrlikmihyqnggxp2nt1bke3knffx98kddz",
-      "tokenAddress": "57t5RgLMkCNrLiKMihYQNGGxp2Nt1bkE3kNFfX98kDdz",
-      "description": "ni hao bear  $BEARHAO \n\nMy vibe gonna leave a mark i promise you that"
+      "url": "https://dexscreener.com/solana/belvqe2tk7fvvg6epvguzuwhsi95xpl7mqjm3nanpump",
+      "tokenAddress": "BeLVQE2tK7fVvg6EpVgUzUWhSi95XpL7mqJM3nANpump",
+      "description": "Five-star chaos. Wanted level maxed. Every cop from Los Santos to Vice City to Leonida is on your tail \u2014 and you're stil"
     }
   ],
   "fearGreed": {
