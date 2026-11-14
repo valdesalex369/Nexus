@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-14T16:07:48.409727+00:00",
+  "at": "2026-11-14T20:44:40.335317+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 65479.0,
-      "changePct": -4.491390389082079,
+      "price": 65444.0,
+      "changePct": -4.94931563037556,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1831.51,
-      "changePct": -5.026536846483192,
+      "price": 1820.44,
+      "changePct": -6.437635975401561,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 73.39,
-      "changePct": -8.046591130503236,
+      "price": 71.53,
+      "changePct": -10.648282578138227,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 594.59,
-      "changePct": -5.864922094158393,
+      "price": 586.48,
+      "changePct": -7.9381686036541055,
       "source": "CoinGecko"
     }
   ],
@@ -39,11 +39,6 @@
       "description": "BLACKOUT"
     },
     {
-      "url": "https://dexscreener.com/solana/9j41toneswga3hzjyfyiwkc9jmm8domdp3qebym1pump",
-      "tokenAddress": "9J41toneswGA3hZJyfYiWkC9jMm8doMDP3QEBYM1pump",
-      "description": "Ni gghao Cat"
-    },
-    {
       "url": "https://dexscreener.com/solana/cmf39v6xdhnwf4c7vmwyacbzgjx8k3ztvj4geuf4pump",
       "tokenAddress": "Cmf39V6XDhnWf4C7VMwyACBZgJX8K3ztVJ4GeUF4pump",
       "description": "$COA is the utility token behind MyPeptideTesting, a real analytical lab that tests peptides for identity, purity, poten"
@@ -54,19 +49,24 @@
       "description": "Christmax, otherwise known as Christmas Maxxing."
     },
     {
-      "url": "https://dexscreener.com/solana/hwya5cpqiqwlnjfjvrdf9o8ahaupnpmra3vfqrczpump",
-      "tokenAddress": "HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump",
-      "description": "Brews tea, waits patiently, then sends it."
-    },
-    {
-      "url": "https://dexscreener.com/solana/belvqe2tk7fvvg6epvguzuwhsi95xpl7mqjm3nanpump",
-      "tokenAddress": "BeLVQE2tK7fVvg6EpVgUzUWhSi95XpL7mqJM3nANpump",
-      "description": "Five-star chaos. Wanted level maxed. Every cop from Los Santos to Vice City to Leonida is on your tail \u2014 and you're stil"
-    },
-    {
       "url": "https://dexscreener.com/solana/dwsuttnjsjg5mkhgspevvt8xbrtvyqblzdxqxm2upump",
       "tokenAddress": "DWsutTNJSjG5mkhGsPevvT8xbRtVYQBLZdxqxm2Upump",
       "description": "Read the market in plain words.\nAstralis checks trend, momentum, volatility, liquidity and order flow, then tells you wh"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
+      "url": "https://dexscreener.com/solana/m7sihqeawime1zpbzjhbwkjbbhuaczx5fhvgonupump",
+      "tokenAddress": "m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump",
+      "description": "Peace Frog by Matt Furie. Fees to SAVE THE FROGS! via @donatedotgg"
+    },
+    {
+      "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
+      "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+      "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
     }
   ],
   "fearGreed": {
