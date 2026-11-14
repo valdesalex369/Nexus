@@ -1,42 +1,57 @@
 {
-  "at": "2026-11-13T22:12:53.038358+00:00",
+  "at": "2026-11-14T02:29:35.927383+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 68218.0,
-      "changePct": -4.502386133609193,
-      "source": "CoinGecko"
+      "price": 67063.13,
+      "changePct": -4.98,
+      "source": "Binance"
     },
     {
       "symbol": "ETH",
-      "price": 1922.71,
-      "changePct": -4.488650411428871,
-      "source": "CoinGecko"
-    },
-    {
-      "symbol": "SOL",
-      "price": 78.27,
-      "changePct": -3.8619649861459546,
-      "source": "CoinGecko"
+      "price": 1881.76,
+      "changePct": -5.998,
+      "source": "Binance"
     },
     {
       "symbol": "BNB",
-      "price": 629.91,
-      "changePct": -3.5809138311414337,
-      "source": "CoinGecko"
+      "price": 619.54,
+      "changePct": -4.718,
+      "source": "Binance"
+    },
+    {
+      "symbol": "SOL",
+      "price": 75.2,
+      "changePct": -7.011,
+      "source": "Binance"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/b2ypp21vqbesj2jtnuhpujeut61kvrxz2x5gsdcupump",
+      "tokenAddress": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
+      "description": ""
+    },
     {
       "url": "https://dexscreener.com/solana/9j41toneswga3hzjyfyiwkc9jmm8domdp3qebym1pump",
       "tokenAddress": "9J41toneswGA3hZJyfYiWkC9jMm8doMDP3QEBYM1pump",
       "description": "Ni gghao Cat"
     },
     {
+      "url": "https://dexscreener.com/solana/hjwmayjf5h6ezuntbpk4uq9dfp4p5clnjzcpzvkhpump",
+      "tokenAddress": "HJWMayjf5H6EzuNTbpk4uq9Dfp4P5CLnjZCpZvKHpump",
+      "description": "BLACKOUT"
+    },
+    {
       "url": "https://dexscreener.com/solana/fpxcxfcqhc5ysjcysggzc2avixqldmb1fyy59nmtpump",
       "tokenAddress": "FPXcxfcqHC5YsjcYSGgzC2aVixQLDMB1FYY59nmTpump",
       "description": "Millions of traders\nThousands of tokens \nBut what if they all choose ONE?"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
       "url": "https://dexscreener.com/solana/ttwocsxkgj4npqeuzbafzlxefzvdlytublsnnjgew9v",
@@ -52,30 +67,13 @@
       "url": "https://dexscreener.com/solana/hwya5cpqiqwlnjfjvrdf9o8ahaupnpmra3vfqrczpump",
       "tokenAddress": "HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump",
       "description": "Brews tea, waits patiently, then sends it."
-    },
-    {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
-      "url": "https://dexscreener.com/solana/belvqe2tk7fvvg6epvguzuwhsi95xpl7mqjm3nanpump",
-      "tokenAddress": "BeLVQE2tK7fVvg6EpVgUzUWhSi95XpL7mqJM3nANpump",
-      "description": "Five-star chaos. Wanted level maxed. Every cop from Los Santos to Vice City to Leonida is on your tail \u2014 and you're stil"
-    },
-    {
-      "url": "https://dexscreener.com/solana/2qccwbzl7ygovuqvxmxokjr8azohegmtt4vj2ygspump",
-      "tokenAddress": "2QCcwbZL7YgovUqvXmxoKJR8AZoHeGMtt4vj2YGSpump",
-      "description": "The moon isn\u2019t safe anymore, but it\u2019ll come fast."
     }
   ],
   "fearGreed": {
-    "value": 20,
+    "value": 13,
     "label": "Extreme Fear"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
-  "errors": [
-    "binance: HTTP 451"
-  ]
+  "errors": []
 }
