@@ -1,47 +1,37 @@
 {
-  "at": "2026-11-15T00:25:15.643941+00:00",
+  "at": "2026-11-15T07:14:18.720229+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 64071.0,
-      "changePct": -6.188045152228883,
+      "price": 64377.0,
+      "changePct": -4.397654737818532,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1761.62,
-      "changePct": -8.878663961735175,
+      "price": 1790.24,
+      "changePct": -5.8741948845889365,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 70.21,
-      "changePct": -10.435645464552042,
+      "price": 70.3,
+      "changePct": -6.883635329172674,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 581.29,
-      "changePct": -7.889165251687152,
+      "price": 589.62,
+      "changePct": -4.607865998242933,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/b2ypp21vqbesj2jtnuhpujeut61kvrxz2x5gsdcupump",
-      "tokenAddress": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/fltitwvbbrzqjkwqaqafpx4pvzuimfwx2qi2467zpump",
       "tokenAddress": "FLTiTwvbBRZqjkwqAqAfpX4pVZuimFwx2Qi2467zpump",
       "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/cmf39v6xdhnwf4c7vmwyacbzgjx8k3ztvj4geuf4pump",
-      "tokenAddress": "Cmf39V6XDhnWf4C7VMwyACBZgJX8K3ztVJ4GeUF4pump",
-      "description": "$COA is the utility token behind MyPeptideTesting, a real analytical lab that tests peptides for identity, purity, poten"
     },
     {
       "url": "https://dexscreener.com/solana/fl3lnvezttn7uvcpytrlyaysqujtznskjde4p1hspump",
@@ -54,19 +44,29 @@
       "description": "Christmax, otherwise known as Christmas Maxxing."
     },
     {
-      "url": "https://dexscreener.com/solana/dwsuttnjsjg5mkhgspevvt8xbrtvyqblzdxqxm2upump",
-      "tokenAddress": "DWsutTNJSjG5mkhGsPevvT8xbRtVYQBLZdxqxm2Upump",
-      "description": "Read the market in plain words.\nAstralis checks trend, momentum, volatility, liquidity and order flow, then tells you wh"
-    },
-    {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
-      "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-      "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
+      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
+      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
+    },
+    {
+      "url": "https://dexscreener.com/solana/arokanvdakyidzjaeqyt48ksmntmjlwzo9f3nfagpump",
+      "tokenAddress": "ArokAnvdAKYidzJaEqYT48kSmnTMJLWzo9F3nFAgpump",
+      "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/avrspy1rpa9ivfxyhc5d5jqw6ou5tjgqzdsw2e5upump",
+      "tokenAddress": "AvRSpY1rPA9iVFxYHc5D5JQW6oU5tjGQZdsW2e5upump",
+      "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/8655ltfvozxlsjwrzcmwvek13s5gvn49uxfhycyzpump",
+      "tokenAddress": "8655LtfvozXLSJWrzcmwVeK13s5Gvn49UXFHYcYzpump",
+      "description": "Pumpfuns new name"
     }
   ],
   "fearGreed": {
