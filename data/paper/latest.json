@@ -1,42 +1,42 @@
 {
-  "at": "2026-11-15T07:14:18.720229+00:00",
+  "at": "2026-11-15T14:50:48.175812+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 64377.0,
-      "changePct": -4.397654737818532,
+      "price": 64731.0,
+      "changePct": -1.862505631340578,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1790.24,
-      "changePct": -5.8741948845889365,
+      "price": 1804.0,
+      "changePct": -2.638449086228591,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 70.3,
-      "changePct": -6.883635329172674,
+      "price": 71.29,
+      "changePct": -3.7639722154154813,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 589.62,
-      "changePct": -4.607865998242933,
+      "price": 589.38,
+      "changePct": -1.5986877610674293,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/fltitwvbbrzqjkwqaqafpx4pvzuimfwx2qi2467zpump",
-      "tokenAddress": "FLTiTwvbBRZqjkwqAqAfpX4pVZuimFwx2Qi2467zpump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/fl3lnvezttn7uvcpytrlyaysqujtznskjde4p1hspump",
       "tokenAddress": "FL3LnVeZTtn7uvcpytRLyAYsqUJtznskjdE4p1HSpump",
       "description": "Useless Market"
+    },
+    {
+      "url": "https://dexscreener.com/solana/fltitwvbbrzqjkwqaqafpx4pvzuimfwx2qi2467zpump",
+      "tokenAddress": "FLTiTwvbBRZqjkwqAqAfpX4pVZuimFwx2Qi2467zpump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/d7myad7k3aqjpg4uxjucml51edhresjxkjuynsxcpump",
@@ -49,19 +49,19 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
+      "url": "https://dexscreener.com/solana/9qt8k685hrae4k11dhgxirdtpfaaimextyfwt8cppump",
+      "tokenAddress": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
+      "description": "$DIGS is the native token of AiDiglet \u2014 a Telegram tap-to-mine game with 2,000+ active players, in-game $DIGS mined via "
+    },
+    {
+      "url": "https://dexscreener.com/solana/dskm3d518bbaqshskqaqzcg1xmrf81ufb6a1eavhstnk",
+      "tokenAddress": "DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK",
+      "description": "the one coin for all of gta"
+    },
+    {
       "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
       "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
-    },
-    {
-      "url": "https://dexscreener.com/solana/arokanvdakyidzjaeqyt48ksmntmjlwzo9f3nfagpump",
-      "tokenAddress": "ArokAnvdAKYidzJaEqYT48kSmnTMJLWzo9F3nFAgpump",
-      "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/avrspy1rpa9ivfxyhc5d5jqw6ou5tjgqzdsw2e5upump",
-      "tokenAddress": "AvRSpY1rPA9iVFxYHc5D5JQW6oU5tjGQZdsW2e5upump",
-      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/8655ltfvozxlsjwrzcmwvek13s5gvn49uxfhycyzpump",
