@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-15T14:50:48.175812+00:00",
+  "at": "2026-11-15T20:24:38.669035+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 64731.0,
-      "changePct": -1.862505631340578,
+      "price": 64761.0,
+      "changePct": -1.1610762383617361,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1804.0,
-      "changePct": -2.638449086228591,
+      "price": 1819.98,
+      "changePct": -0.29301500499988103,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 71.29,
-      "changePct": -3.7639722154154813,
+      "price": 71.4,
+      "changePct": -0.7249610828139171,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 589.38,
-      "changePct": -1.5986877610674293,
+      "price": 590.99,
+      "changePct": 0.6532232477231884,
       "source": "CoinGecko"
     }
   ],
@@ -32,6 +32,11 @@
       "url": "https://dexscreener.com/solana/fl3lnvezttn7uvcpytrlyaysqujtznskjde4p1hspump",
       "tokenAddress": "FL3LnVeZTtn7uvcpytRLyAYsqUJtznskjdE4p1HSpump",
       "description": "Useless Market"
+    },
+    {
+      "url": "https://dexscreener.com/solana/3gn46gsmauqsphxty3oasjfyabp9rbzvor7x8ar1pump",
+      "tokenAddress": "3GN46GsmAUQSpHXtY3oasJFYAbp9RBzVoR7X8ar1pump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/fltitwvbbrzqjkwqaqafpx4pvzuimfwx2qi2467zpump",
@@ -44,14 +49,14 @@
       "description": "Christmax, otherwise known as Christmas Maxxing."
     },
     {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
       "url": "https://dexscreener.com/solana/9qt8k685hrae4k11dhgxirdtpfaaimextyfwt8cppump",
       "tokenAddress": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
       "description": "$DIGS is the native token of AiDiglet \u2014 a Telegram tap-to-mine game with 2,000+ active players, in-game $DIGS mined via "
+    },
+    {
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
       "url": "https://dexscreener.com/solana/dskm3d518bbaqshskqaqzcg1xmrf81ufb6a1eavhstnk",
@@ -59,14 +64,9 @@
       "description": "the one coin for all of gta"
     },
     {
-      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
-      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
-    },
-    {
-      "url": "https://dexscreener.com/solana/8655ltfvozxlsjwrzcmwvek13s5gvn49uxfhycyzpump",
-      "tokenAddress": "8655LtfvozXLSJWrzcmwVeK13s5Gvn49UXFHYcYzpump",
-      "description": "Pumpfuns new name"
+      "url": "https://dexscreener.com/solana/7jgdrehmtagj6evkrhmiadssinsve5w6qfgccud5pump",
+      "tokenAddress": "7jGdREhmTaGj6EVkrhmiadSSiNSvE5w6qfGccud5pump",
+      "description": "High above the Eastern Sea, an old Shiba monk sat in silence for a thousand winters, searching for the one word that cou"
     }
   ],
   "fearGreed": {
