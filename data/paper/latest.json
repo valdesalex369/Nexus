@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-14T20:44:40.335317+00:00",
+  "at": "2026-11-15T00:25:15.643941+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 65444.0,
-      "changePct": -4.94931563037556,
+      "price": 64071.0,
+      "changePct": -6.188045152228883,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1820.44,
-      "changePct": -6.437635975401561,
+      "price": 1761.62,
+      "changePct": -8.878663961735175,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 71.53,
-      "changePct": -10.648282578138227,
+      "price": 70.21,
+      "changePct": -10.435645464552042,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 586.48,
-      "changePct": -7.9381686036541055,
+      "price": 581.29,
+      "changePct": -7.889165251687152,
       "source": "CoinGecko"
     }
   ],
@@ -34,14 +34,19 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/hjwmayjf5h6ezuntbpk4uq9dfp4p5clnjzcpzvkhpump",
-      "tokenAddress": "HJWMayjf5H6EzuNTbpk4uq9Dfp4P5CLnjZCpZvKHpump",
-      "description": "BLACKOUT"
+      "url": "https://dexscreener.com/solana/fltitwvbbrzqjkwqaqafpx4pvzuimfwx2qi2467zpump",
+      "tokenAddress": "FLTiTwvbBRZqjkwqAqAfpX4pVZuimFwx2Qi2467zpump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/cmf39v6xdhnwf4c7vmwyacbzgjx8k3ztvj4geuf4pump",
       "tokenAddress": "Cmf39V6XDhnWf4C7VMwyACBZgJX8K3ztVJ4GeUF4pump",
       "description": "$COA is the utility token behind MyPeptideTesting, a real analytical lab that tests peptides for identity, purity, poten"
+    },
+    {
+      "url": "https://dexscreener.com/solana/fl3lnvezttn7uvcpytrlyaysqujtznskjde4p1hspump",
+      "tokenAddress": "FL3LnVeZTtn7uvcpytRLyAYsqUJtznskjdE4p1HSpump",
+      "description": "Useless Market"
     },
     {
       "url": "https://dexscreener.com/solana/d7myad7k3aqjpg4uxjucml51edhresjxkjuynsxcpump",
@@ -59,18 +64,13 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/m7sihqeawime1zpbzjhbwkjbbhuaczx5fhvgonupump",
-      "tokenAddress": "m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump",
-      "description": "Peace Frog by Matt Furie. Fees to SAVE THE FROGS! via @donatedotgg"
-    },
-    {
       "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
       "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
       "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
     }
   ],
   "fearGreed": {
-    "value": 13,
+    "value": 10,
     "label": "Extreme Fear"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
