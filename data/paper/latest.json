@@ -1,33 +1,38 @@
 {
-  "at": "2026-11-16T00:24:01.640028+00:00",
+  "at": "2026-11-16T07:19:44.487706+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 64969.0,
-      "changePct": 1.4058650396959593,
+      "price": 64499.0,
+      "changePct": 0.05485047485599208,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1823.58,
-      "changePct": 3.518247942861632,
+      "price": 1808.88,
+      "changePct": 0.7577072769668834,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 72.11,
-      "changePct": 2.713316149514234,
+      "price": 70.8,
+      "changePct": 0.4778358670811423,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 594.53,
-      "changePct": 2.2602822700457317,
+      "price": 590.9,
+      "changePct": 0.08783257618766593,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
+      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
+    },
     {
       "url": "https://dexscreener.com/solana/3gn46gsmauqsphxty3oasjfyabp9rbzvor7x8ar1pump",
       "tokenAddress": "3GN46GsmAUQSpHXtY3oasJFYAbp9RBzVoR7X8ar1pump",
@@ -39,14 +44,19 @@
       "description": "Christmax, otherwise known as Christmas Maxxing."
     },
     {
-      "url": "https://dexscreener.com/solana/9qt8k685hrae4k11dhgxirdtpfaaimextyfwt8cppump",
-      "tokenAddress": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-      "description": "$DIGS is the native token of AiDiglet \u2014 a Telegram tap-to-mine game with 2,000+ active players, in-game $DIGS mined via "
+      "url": "https://dexscreener.com/solana/2nuas6gfrm5rbupbn7svhka8t33srskpxgqiuvzlpump",
+      "tokenAddress": "2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
+      "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
+      "tokenAddress": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+      "description": "The team describes WASTED as GA's iconic death screen, and its fan-made site, which says it is not affiliated with Rocks"
     },
     {
       "url": "https://dexscreener.com/solana/dskm3d518bbaqshskqaqzcg1xmrf81ufb6a1eavhstnk",
@@ -57,16 +67,6 @@
       "url": "https://dexscreener.com/solana/7jgdrehmtagj6evkrhmiadssinsve5w6qfgccud5pump",
       "tokenAddress": "7jGdREhmTaGj6EVkrhmiadSSiNSvE5w6qfGccud5pump",
       "description": "High above the Eastern Sea, an old Shiba monk sat in silence for a thousand winters, searching for the one word that cou"
-    },
-    {
-      "url": "https://dexscreener.com/solana/fs1pbmzkp2qw1atc64golamhstecaos9ot8bgpgdpump",
-      "tokenAddress": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
-      "description": "Socks, a Solana-powered spending platform designed to bring crypto assets into everyday payments.\n\nFund your Socks card "
-    },
-    {
-      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
-      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     }
   ],
   "fearGreed": {
