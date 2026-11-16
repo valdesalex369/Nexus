@@ -1,46 +1,36 @@
 {
-  "at": "2026-11-15T20:24:38.669035+00:00",
+  "at": "2026-11-16T00:24:01.640028+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 64761.0,
-      "changePct": -1.1610762383617361,
+      "price": 64969.0,
+      "changePct": 1.4058650396959593,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1819.98,
-      "changePct": -0.29301500499988103,
+      "price": 1823.58,
+      "changePct": 3.518247942861632,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 71.4,
-      "changePct": -0.7249610828139171,
+      "price": 72.11,
+      "changePct": 2.713316149514234,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 590.99,
-      "changePct": 0.6532232477231884,
+      "price": 594.53,
+      "changePct": 2.2602822700457317,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/fl3lnvezttn7uvcpytrlyaysqujtznskjde4p1hspump",
-      "tokenAddress": "FL3LnVeZTtn7uvcpytRLyAYsqUJtznskjdE4p1HSpump",
-      "description": "Useless Market"
-    },
-    {
       "url": "https://dexscreener.com/solana/3gn46gsmauqsphxty3oasjfyabp9rbzvor7x8ar1pump",
       "tokenAddress": "3GN46GsmAUQSpHXtY3oasJFYAbp9RBzVoR7X8ar1pump",
-      "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/fltitwvbbrzqjkwqaqafpx4pvzuimfwx2qi2467zpump",
-      "tokenAddress": "FLTiTwvbBRZqjkwqAqAfpX4pVZuimFwx2Qi2467zpump",
       "description": ""
     },
     {
@@ -67,13 +57,23 @@
       "url": "https://dexscreener.com/solana/7jgdrehmtagj6evkrhmiadssinsve5w6qfgccud5pump",
       "tokenAddress": "7jGdREhmTaGj6EVkrhmiadSSiNSvE5w6qfGccud5pump",
       "description": "High above the Eastern Sea, an old Shiba monk sat in silence for a thousand winters, searching for the one word that cou"
+    },
+    {
+      "url": "https://dexscreener.com/solana/fs1pbmzkp2qw1atc64golamhstecaos9ot8bgpgdpump",
+      "tokenAddress": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
+      "description": "Socks, a Solana-powered spending platform designed to bring crypto assets into everyday payments.\n\nFund your Socks card "
+    },
+    {
+      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
+      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     }
   ],
   "fearGreed": {
     "value": 10,
     "label": "Extreme Fear"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
