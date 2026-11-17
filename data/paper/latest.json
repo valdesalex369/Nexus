@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-17T01:05:37.674825+00:00",
+  "at": "2026-11-17T09:14:29.680467+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 64552.0,
-      "changePct": -0.3932075453135149,
+      "price": 64234.0,
+      "changePct": 0.0680542374184907,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1812.06,
-      "changePct": 0.07289949440164745,
+      "price": 1813.43,
+      "changePct": 1.064263218240458,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 71.39,
-      "changePct": -0.5187485131863502,
+      "price": 72.2,
+      "changePct": 2.3065226745199023,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 589.88,
-      "changePct": -0.5832686922798741,
+      "price": 589.78,
+      "changePct": 0.41822701573014176,
       "source": "CoinGecko"
     }
   ],
@@ -39,24 +39,9 @@
       "description": "IT'S\nLITERALLY\nJUST A DOG\nWIF A JOB."
     },
     {
-      "url": "https://dexscreener.com/solana/2nuas6gfrm5rbupbn7svhka8t33srskpxgqiuvzlpump",
-      "tokenAddress": "2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump",
-      "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/2cmcmex3eqo86turve5dghp5gznwqq6crqm22uezpump",
-      "tokenAddress": "2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump",
-      "description": "Neon nights, palm trees, and missions that always pass. Built for the players waiting on Leonida"
-    },
-    {
-      "url": "https://dexscreener.com/solana/fjbyuwahirmtlnextdj1hzhkhjjzmtbzjl27s2nvpump",
-      "tokenAddress": "FJbyUWahiRMtLnExTDJ1HzhKHjJzMTbZJL27S2NVpump",
-      "description": "GXTMzEtbjGH3U1uvv6d7YGKdiVciXfwa6ncmFs4WVr2K"
-    },
-    {
-      "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
-      "tokenAddress": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "description": "The team describes WASTED as GA's iconic death screen, and its fan-made site, which says it is not affiliated with Rocks"
+      "url": "https://dexscreener.com/solana/3yjhj9s9mukehr7b7qhmiufh5fsuz97eb5j8srjdpump",
+      "tokenAddress": "3yjHj9s9MukEHr7b7qhMiUfH5fSUz97Eb5J8SRjdpump",
+      "description": "Vice Inu"
     },
     {
       "url": "https://dexscreener.com/solana/brf3sxrk8bdxmbzdjfkyehbymqbvf8843ctemcd4pump",
@@ -64,16 +49,31 @@
       "description": "\ud83c\uddfa\ud83c\uddf8 COGE \u2014 Commission on Government Efficiency \ud83d\udc08\u200d\u2b1b\u2699\ufe0f\n\nDOGE opened the door. COGE took the spotlight.\n\nA new cat has enter"
     },
     {
-      "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
-      "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-      "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
+      "url": "https://dexscreener.com/solana/2cmcmex3eqo86turve5dghp5gznwqq6crqm22uezpump",
+      "tokenAddress": "2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump",
+      "description": "Neon nights, palm trees, and missions that always pass. Built for the players waiting on Leonida"
+    },
+    {
+      "url": "https://dexscreener.com/solana/2nwgu4fqn2axs5pp5v3f3sh54qarp9jepqfjm58gpump",
+      "tokenAddress": "2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump",
+      "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/fjbyuwahirmtlnextdj1hzhkhjjzmtbzjl27s2nvpump",
+      "tokenAddress": "FJbyUWahiRMtLnExTDJ1HzhKHjJzMTbZJL27S2NVpump",
+      "description": "GXTMzEtbjGH3U1uvv6d7YGKdiVciXfwa6ncmFs4WVr2K"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     }
   ],
   "fearGreed": {
     "value": 12,
     "label": "Extreme Fear"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
