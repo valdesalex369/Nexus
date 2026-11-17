@@ -1,42 +1,42 @@
 {
-  "at": "2026-11-16T17:28:32.691495+00:00",
+  "at": "2026-11-17T01:05:37.674825+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 65031.0,
-      "changePct": 0.29676601788323037,
+      "price": 64552.0,
+      "changePct": -0.3932075453135149,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1832.27,
-      "changePct": 0.8990064121186097,
+      "price": 1812.06,
+      "changePct": 0.07289949440164745,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 71.74,
-      "changePct": 0.5879387694622386,
+      "price": 71.39,
+      "changePct": -0.5187485131863502,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 591.45,
-      "changePct": -0.014235768966224733,
+      "price": 589.88,
+      "changePct": -0.5832686922798741,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/3gn46gsmauqsphxty3oasjfyabp9rbzvor7x8ar1pump",
-      "tokenAddress": "3GN46GsmAUQSpHXtY3oasJFYAbp9RBzVoR7X8ar1pump",
+      "url": "https://dexscreener.com/solana/d9ecoqzeaytcrf1kqfsprnpophibjuvjcmrhxhubpump",
+      "tokenAddress": "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump",
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
-      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
+      "url": "https://dexscreener.com/solana/9pq7alabhdg2ttns22cm6kuyszvczplfe368hwuypump",
+      "tokenAddress": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+      "description": "IT'S\nLITERALLY\nJUST A DOG\nWIF A JOB."
     },
     {
       "url": "https://dexscreener.com/solana/2nuas6gfrm5rbupbn7svhka8t33srskpxgqiuvzlpump",
@@ -44,9 +44,14 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+      "url": "https://dexscreener.com/solana/2cmcmex3eqo86turve5dghp5gznwqq6crqm22uezpump",
+      "tokenAddress": "2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump",
+      "description": "Neon nights, palm trees, and missions that always pass. Built for the players waiting on Leonida"
+    },
+    {
+      "url": "https://dexscreener.com/solana/fjbyuwahirmtlnextdj1hzhkhjjzmtbzjl27s2nvpump",
+      "tokenAddress": "FJbyUWahiRMtLnExTDJ1HzhKHjJzMTbZJL27S2NVpump",
+      "description": "GXTMzEtbjGH3U1uvv6d7YGKdiVciXfwa6ncmFs4WVr2K"
     },
     {
       "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
@@ -54,26 +59,21 @@
       "description": "The team describes WASTED as GA's iconic death screen, and its fan-made site, which says it is not affiliated with Rocks"
     },
     {
-      "url": "https://dexscreener.com/solana/7jgdrehmtagj6evkrhmiadssinsve5w6qfgccud5pump",
-      "tokenAddress": "7jGdREhmTaGj6EVkrhmiadSSiNSvE5w6qfGccud5pump",
-      "description": "High above the Eastern Sea, an old Shiba monk sat in silence for a thousand winters, searching for the one word that cou"
+      "url": "https://dexscreener.com/solana/brf3sxrk8bdxmbzdjfkyehbymqbvf8843ctemcd4pump",
+      "tokenAddress": "BRf3SXRk8BdXmBZDJfKyEhbYmqBVf8843ctEMcD4pump",
+      "description": "\ud83c\uddfa\ud83c\uddf8 COGE \u2014 Commission on Government Efficiency \ud83d\udc08\u200d\u2b1b\u2699\ufe0f\n\nDOGE opened the door. COGE took the spotlight.\n\nA new cat has enter"
     },
     {
-      "url": "https://dexscreener.com/solana/barobvavawpxpjahlsvrdln2spvjqdfyx4by2r5kpump",
-      "tokenAddress": "BARobVaVawPxpjaHLsvrdLn2SpVJQDFYx4BY2R5Kpump",
-      "description": "Mission Passed, Respect+ CTO\n\nGTA\u2019s most iconic meme"
-    },
-    {
-      "url": "https://dexscreener.com/solana/g9zmir6uh66y7vipkxay7mya9jje4t1yghevumgdpump",
-      "tokenAddress": "G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump",
-      "description": "This is Good To Ape."
+      "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
+      "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+      "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
     }
   ],
   "fearGreed": {
-    "value": 10,
+    "value": 12,
     "label": "Extreme Fear"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
