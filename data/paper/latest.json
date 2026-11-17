@@ -1,52 +1,47 @@
 {
-  "at": "2026-11-17T09:14:29.680467+00:00",
+  "at": "2026-11-17T18:38:57.145405+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 64234.0,
-      "changePct": 0.0680542374184907,
+      "price": 63786.0,
+      "changePct": -1.4946595417904562,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1813.43,
-      "changePct": 1.064263218240458,
+      "price": 1794.52,
+      "changePct": -1.02646079276596,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 72.2,
-      "changePct": 2.3065226745199023,
+      "price": 72.57,
+      "changePct": 2.207215084916999,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 589.78,
-      "changePct": 0.41822701573014176,
+      "price": 587.75,
+      "changePct": -0.1644503171025775,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/2fcsqrrhvgsfyxjwh32xw873vyqbz9jmmyxqyspgntuz",
+      "tokenAddress": "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ",
+      "description": "$LUCIA \u2014 The First Female Protagonist \ud83d\udc9c\ud83d\udd25\n\nMeet Lucia, the badass queen with fearless energy and unstoppable attitude.\n\nA"
+    },
     {
       "url": "https://dexscreener.com/solana/d9ecoqzeaytcrf1kqfsprnpophibjuvjcmrhxhubpump",
       "tokenAddress": "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump",
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/9pq7alabhdg2ttns22cm6kuyszvczplfe368hwuypump",
-      "tokenAddress": "9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
-      "description": "IT'S\nLITERALLY\nJUST A DOG\nWIF A JOB."
-    },
-    {
-      "url": "https://dexscreener.com/solana/3yjhj9s9mukehr7b7qhmiufh5fsuz97eb5j8srjdpump",
-      "tokenAddress": "3yjHj9s9MukEHr7b7qhMiUfH5fSUz97Eb5J8SRjdpump",
-      "description": "Vice Inu"
-    },
-    {
-      "url": "https://dexscreener.com/solana/brf3sxrk8bdxmbzdjfkyehbymqbvf8843ctemcd4pump",
-      "tokenAddress": "BRf3SXRk8BdXmBZDJfKyEhbYmqBVf8843ctEMcD4pump",
-      "description": "\ud83c\uddfa\ud83c\uddf8 COGE \u2014 Commission on Government Efficiency \ud83d\udc08\u200d\u2b1b\u2699\ufe0f\n\nDOGE opened the door. COGE took the spotlight.\n\nA new cat has enter"
+      "url": "https://dexscreener.com/solana/9qt8k685hrae4k11dhgxirdtpfaaimextyfwt8cppump",
+      "tokenAddress": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
+      "description": "$DIGS is the native token of AiDiglet \u2014 a Telegram tap-to-mine game with 2,000+ active players, in-game $DIGS mined via "
     },
     {
       "url": "https://dexscreener.com/solana/2cmcmex3eqo86turve5dghp5gznwqq6crqm22uezpump",
@@ -57,6 +52,11 @@
       "url": "https://dexscreener.com/solana/2nwgu4fqn2axs5pp5v3f3sh54qarp9jepqfjm58gpump",
       "tokenAddress": "2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump",
       "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/9k2nqjursh9p2zbnwxne3qrwyilocrwzfodm3vdxpump",
+      "tokenAddress": "9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump",
+      "description": "H2E P2E"
     },
     {
       "url": "https://dexscreener.com/solana/fjbyuwahirmtlnextdj1hzhkhjjzmtbzjl27s2nvpump",
@@ -73,7 +73,7 @@
     "value": 12,
     "label": "Extreme Fear"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
