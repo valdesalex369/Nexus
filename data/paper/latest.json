@@ -1,52 +1,57 @@
 {
-  "at": "2026-11-18T01:19:32.460162+00:00",
+  "at": "2026-11-18T09:12:24.408889+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 64573.0,
-      "changePct": -0.08655637233457911,
+      "price": 64667.0,
+      "changePct": 0.7426936504117723,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1814.59,
-      "changePct": -0.19328585642388488,
+      "price": 1811.3,
+      "changePct": -0.028756513351696,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 74.73,
-      "changePct": 4.222251181909209,
+      "price": 74.81,
+      "changePct": 3.6895175600235897,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 594.58,
-      "changePct": 0.5827518084036454,
+      "price": 591.57,
+      "changePct": 0.3451508631769569,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/2fcsqrrhvgsfyxjwh32xw873vyqbz9jmmyxqyspgntuz",
-      "tokenAddress": "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ",
-      "description": "$LUCIA \u2014 The First Female Protagonist \ud83d\udc9c\ud83d\udd25\n\nMeet Lucia, the badass queen with fearless energy and unstoppable attitude.\n\nA"
-    },
     {
       "url": "https://dexscreener.com/solana/bssmla6un8fzj8qukv4kwc5lxr7ab3tautcwvayjpump",
       "tokenAddress": "BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump",
       "description": "Jason & Lucia ($JALU) is an independent fan-made meme community celebrating the GTA VI duo through original romantic fan"
     },
     {
+      "url": "https://dexscreener.com/solana/2fcsqrrhvgsfyxjwh32xw873vyqbz9jmmyxqyspgntuz",
+      "tokenAddress": "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ",
+      "description": "$LUCIA \u2014 The First Female Protagonist \ud83d\udc9c\ud83d\udd25\n\nMeet Lucia, the badass queen with fearless energy and unstoppable attitude.\n\nA"
+    },
+    {
+      "url": "https://dexscreener.com/solana/7kbfymfgae8mmkeunersom59tvpihzz76jp7rslrpump",
+      "tokenAddress": "7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump",
+      "description": "The crew that survives the trenches. Chasing pumps, dodging rugs, living the vice-city life. Fan-made meme coin, not aff"
+    },
+    {
+      "url": "https://dexscreener.com/solana/6wiacq8oqiupffedu4ouauynckxcch581hampvrxpump",
+      "tokenAddress": "6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump",
+      "description": "BUILT FOR CHAOS.\nHUNTED BY THE CITY.\nBACKED BY THE CREW."
+    },
+    {
       "url": "https://dexscreener.com/solana/6mjdb45kzriv6cpw6oadjzgw1rujmpa185dhcvzzpump",
       "tokenAddress": "6MjDb45kzriv6cpW6oaDjZGw1rujmpA185dHcvZzpump",
       "description": "Meet the Gecko Mascot bringing goofy dino energy to Solana. The ticker is $REX. The vibes are prehistoric."
-    },
-    {
-      "url": "https://dexscreener.com/solana/9k2nqjursh9p2zbnwxne3qrwyilocrwzfodm3vdxpump",
-      "tokenAddress": "9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump",
-      "description": "H2E P2E"
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
@@ -57,11 +62,6 @@
       "url": "https://dexscreener.com/solana/9qt8k685hrae4k11dhgxirdtpfaaimextyfwt8cppump",
       "tokenAddress": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
       "description": "$DIGS is the native token of AiDiglet \u2014 a Telegram tap-to-mine game with 2,000+ active players, in-game $DIGS mined via "
-    },
-    {
-      "url": "https://dexscreener.com/solana/6wiacq8oqiupffedu4ouauynckxcch581hampvrxpump",
-      "tokenAddress": "6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump",
-      "description": "BUILT FOR CHAOS.\nHUNTED BY THE CITY.\nBACKED BY THE CREW."
     },
     {
       "url": "https://dexscreener.com/solana/a4zqmt7zfc2mm8fzddqeqcs5blfifa9xhdajthc3lzbm",
