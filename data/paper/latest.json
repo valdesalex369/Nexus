@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-18T09:12:24.408889+00:00",
+  "at": "2026-11-18T18:09:56.974300+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 64667.0,
-      "changePct": 0.7426936504117723,
+      "price": 63111.0,
+      "changePct": -1.0350390010204713,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1811.3,
-      "changePct": -0.028756513351696,
+      "price": 1767.13,
+      "changePct": -1.1157680214712802,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 74.81,
-      "changePct": 3.6895175600235897,
+      "price": 73.38,
+      "changePct": 1.3945310101384687,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 591.57,
-      "changePct": 0.3451508631769569,
+      "price": 582.73,
+      "changePct": -0.6729508453764491,
       "source": "CoinGecko"
     }
   ],
@@ -34,9 +34,14 @@
       "description": "Jason & Lucia ($JALU) is an independent fan-made meme community celebrating the GTA VI duo through original romantic fan"
     },
     {
-      "url": "https://dexscreener.com/solana/2fcsqrrhvgsfyxjwh32xw873vyqbz9jmmyxqyspgntuz",
-      "tokenAddress": "2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ",
-      "description": "$LUCIA \u2014 The First Female Protagonist \ud83d\udc9c\ud83d\udd25\n\nMeet Lucia, the badass queen with fearless energy and unstoppable attitude.\n\nA"
+      "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
+      "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+      "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hoqjaoes6yfl8yeshgfenwvkt7lrapy97zdg9hmbu4ep",
+      "tokenAddress": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
+      "description": "Old-school Thug Life, reborn in Vice City. Every holder is a shareholder. Every shareholder is a soldier."
     },
     {
       "url": "https://dexscreener.com/solana/7kbfymfgae8mmkeunersom59tvpihzz76jp7rslrpump",
@@ -54,26 +59,21 @@
       "description": "Meet the Gecko Mascot bringing goofy dino energy to Solana. The ticker is $REX. The vibes are prehistoric."
     },
     {
+      "url": "https://dexscreener.com/solana/9rbkkz2bdqbvgzmrhy6d7ptq2ge91gkpeye4y9pppump",
+      "tokenAddress": "9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump",
+      "description": "State of Leonida"
+    },
+    {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
-      "url": "https://dexscreener.com/solana/9qt8k685hrae4k11dhgxirdtpfaaimextyfwt8cppump",
-      "tokenAddress": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-      "description": "$DIGS is the native token of AiDiglet \u2014 a Telegram tap-to-mine game with 2,000+ active players, in-game $DIGS mined via "
-    },
-    {
-      "url": "https://dexscreener.com/solana/a4zqmt7zfc2mm8fzddqeqcs5blfifa9xhdajthc3lzbm",
-      "tokenAddress": "A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm",
-      "description": "Hey, I am Grokia. Powered by Grok."
     }
   ],
   "fearGreed": {
     "value": 11,
     "label": "Extreme Fear"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
