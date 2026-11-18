@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-17T18:38:57.145405+00:00",
+  "at": "2026-11-18T01:19:32.460162+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 63786.0,
-      "changePct": -1.4946595417904562,
+      "price": 64573.0,
+      "changePct": -0.08655637233457911,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1794.52,
-      "changePct": -1.02646079276596,
+      "price": 1814.59,
+      "changePct": -0.19328585642388488,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 72.57,
-      "changePct": 2.207215084916999,
+      "price": 74.73,
+      "changePct": 4.222251181909209,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 587.75,
-      "changePct": -0.1644503171025775,
+      "price": 594.58,
+      "changePct": 0.5827518084036454,
       "source": "CoinGecko"
     }
   ],
@@ -34,24 +34,14 @@
       "description": "$LUCIA \u2014 The First Female Protagonist \ud83d\udc9c\ud83d\udd25\n\nMeet Lucia, the badass queen with fearless energy and unstoppable attitude.\n\nA"
     },
     {
-      "url": "https://dexscreener.com/solana/d9ecoqzeaytcrf1kqfsprnpophibjuvjcmrhxhubpump",
-      "tokenAddress": "D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/bssmla6un8fzj8qukv4kwc5lxr7ab3tautcwvayjpump",
+      "tokenAddress": "BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump",
+      "description": "Jason & Lucia ($JALU) is an independent fan-made meme community celebrating the GTA VI duo through original romantic fan"
     },
     {
-      "url": "https://dexscreener.com/solana/9qt8k685hrae4k11dhgxirdtpfaaimextyfwt8cppump",
-      "tokenAddress": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-      "description": "$DIGS is the native token of AiDiglet \u2014 a Telegram tap-to-mine game with 2,000+ active players, in-game $DIGS mined via "
-    },
-    {
-      "url": "https://dexscreener.com/solana/2cmcmex3eqo86turve5dghp5gznwqq6crqm22uezpump",
-      "tokenAddress": "2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump",
-      "description": "Neon nights, palm trees, and missions that always pass. Built for the players waiting on Leonida"
-    },
-    {
-      "url": "https://dexscreener.com/solana/2nwgu4fqn2axs5pp5v3f3sh54qarp9jepqfjm58gpump",
-      "tokenAddress": "2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/6mjdb45kzriv6cpw6oadjzgw1rujmpa185dhcvzzpump",
+      "tokenAddress": "6MjDb45kzriv6cpW6oaDjZGw1rujmpA185dHcvZzpump",
+      "description": "Meet the Gecko Mascot bringing goofy dino energy to Solana. The ticker is $REX. The vibes are prehistoric."
     },
     {
       "url": "https://dexscreener.com/solana/9k2nqjursh9p2zbnwxne3qrwyilocrwzfodm3vdxpump",
@@ -59,21 +49,31 @@
       "description": "H2E P2E"
     },
     {
-      "url": "https://dexscreener.com/solana/fjbyuwahirmtlnextdj1hzhkhjjzmtbzjl27s2nvpump",
-      "tokenAddress": "FJbyUWahiRMtLnExTDJ1HzhKHjJzMTbZJL27S2NVpump",
-      "description": "GXTMzEtbjGH3U1uvv6d7YGKdiVciXfwa6ncmFs4WVr2K"
-    },
-    {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
+      "url": "https://dexscreener.com/solana/9qt8k685hrae4k11dhgxirdtpfaaimextyfwt8cppump",
+      "tokenAddress": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
+      "description": "$DIGS is the native token of AiDiglet \u2014 a Telegram tap-to-mine game with 2,000+ active players, in-game $DIGS mined via "
+    },
+    {
+      "url": "https://dexscreener.com/solana/6wiacq8oqiupffedu4ouauynckxcch581hampvrxpump",
+      "tokenAddress": "6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump",
+      "description": "BUILT FOR CHAOS.\nHUNTED BY THE CITY.\nBACKED BY THE CREW."
+    },
+    {
+      "url": "https://dexscreener.com/solana/a4zqmt7zfc2mm8fzddqeqcs5blfifa9xhdajthc3lzbm",
+      "tokenAddress": "A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm",
+      "description": "Hey, I am Grokia. Powered by Grok."
     }
   ],
   "fearGreed": {
-    "value": 12,
+    "value": 11,
     "label": "Extreme Fear"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
