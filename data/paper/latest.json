@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-19T00:25:45.909481+00:00",
+  "at": "2026-11-19T07:58:13.549127+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 62625.0,
-      "changePct": -3.2669260556824216,
+      "price": 63669.0,
+      "changePct": -1.8165325344607852,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1768.33,
-      "changePct": -2.7187993061939255,
+      "price": 1802.41,
+      "changePct": -0.7968252881895652,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 73.19,
-      "changePct": -2.5801860975952304,
+      "price": 74.85,
+      "changePct": -0.4204106278980213,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 579.77,
-      "changePct": -2.805685748459751,
+      "price": 589.22,
+      "changePct": -0.7172915827522708,
       "source": "CoinGecko"
     }
   ],
@@ -39,19 +39,19 @@
       "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
     },
     {
-      "url": "https://dexscreener.com/solana/7kbfymfgae8mmkeunersom59tvpihzz76jp7rslrpump",
-      "tokenAddress": "7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump",
-      "description": "The crew that survives the trenches. Chasing pumps, dodging rugs, living the vice-city life. Fan-made meme coin, not aff"
-    },
-    {
-      "url": "https://dexscreener.com/solana/6wiacq8oqiupffedu4ouauynckxcch581hampvrxpump",
-      "tokenAddress": "6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump",
-      "description": "BUILT FOR CHAOS.\nHUNTED BY THE CITY.\nBACKED BY THE CREW."
-    },
-    {
       "url": "https://dexscreener.com/solana/9rbkkz2bdqbvgzmrhy6d7ptq2ge91gkpeye4y9pppump",
       "tokenAddress": "9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump",
       "description": "State of Leonida"
+    },
+    {
+      "url": "https://dexscreener.com/solana/8cnvwzjlrpqazvn6lszkzmxjxkmmy2btq4q3nn4fpump",
+      "tokenAddress": "8CnvwZJLRpQazvn6LszkzmXJxkmMY2bTQ4Q3NN4fpump",
+      "description": "Nine lives, one stolen helicopter, and a city full of bad decisions\u2014Grand Theft Alleycat takes the getaway airborne. \ud83d\ude81\ud83d\udc08"
+    },
+    {
+      "url": "https://dexscreener.com/solana/ektfn4pb7k3nxzxsbzkn3aa4mgbsdtnifj3g2rsvpump",
+      "tokenAddress": "EkTfN4Pb7K3NXzxsbzkn3AA4MGbsdTniFJ3G2RsVpump",
+      "description": "One scene, one unforgettable look, and suddenly Mandy is all anyone can talk about. Mission three put her on the map; th"
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
@@ -59,14 +59,14 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
+      "url": "https://dexscreener.com/solana/ejrz94zr4a2scs8ldvraqih2xuxae2ydrequnkmpump",
+      "tokenAddress": "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump",
+      "description": ""
+    },
+    {
       "url": "https://dexscreener.com/solana/hoqjaoes6yfl8yeshgfenwvkt7lrapy97zdg9hmbu4ep",
       "tokenAddress": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
       "description": "Old-school Thug Life, reborn in Vice City. Every holder is a shareholder. Every shareholder is a soldier."
-    },
-    {
-      "url": "https://dexscreener.com/solana/hricrxbn3qxc3sn5vltnhaezogryea5ztatxqdfkstnk",
-      "tokenAddress": "HricrxBN3QXC3SN5VLtNhaEzoGrYea5ZtaTxQDfKSTNK",
-      "description": "A Virtual Inu from Vice City"
     }
   ],
   "fearGreed": {
