@@ -1,47 +1,42 @@
 {
-  "at": "2026-11-18T18:09:56.974300+00:00",
+  "at": "2026-11-19T00:25:45.909481+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 63111.0,
-      "changePct": -1.0350390010204713,
+      "price": 62625.0,
+      "changePct": -3.2669260556824216,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1767.13,
-      "changePct": -1.1157680214712802,
+      "price": 1768.33,
+      "changePct": -2.7187993061939255,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 73.38,
-      "changePct": 1.3945310101384687,
+      "price": 73.19,
+      "changePct": -2.5801860975952304,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 582.73,
-      "changePct": -0.6729508453764491,
+      "price": 579.77,
+      "changePct": -2.805685748459751,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/bssmla6un8fzj8qukv4kwc5lxr7ab3tautcwvayjpump",
-      "tokenAddress": "BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump",
-      "description": "Jason & Lucia ($JALU) is an independent fan-made meme community celebrating the GTA VI duo through original romantic fan"
+      "url": "https://dexscreener.com/solana/a4jxnwk1rdrdth6hmdasi45c89n1aguthivaqptvpump",
+      "tokenAddress": "A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump",
+      "description": "GTA SEASON"
     },
     {
       "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
       "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
       "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
-    },
-    {
-      "url": "https://dexscreener.com/solana/hoqjaoes6yfl8yeshgfenwvkt7lrapy97zdg9hmbu4ep",
-      "tokenAddress": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
-      "description": "Old-school Thug Life, reborn in Vice City. Every holder is a shareholder. Every shareholder is a soldier."
     },
     {
       "url": "https://dexscreener.com/solana/7kbfymfgae8mmkeunersom59tvpihzz76jp7rslrpump",
@@ -54,11 +49,6 @@
       "description": "BUILT FOR CHAOS.\nHUNTED BY THE CITY.\nBACKED BY THE CREW."
     },
     {
-      "url": "https://dexscreener.com/solana/6mjdb45kzriv6cpw6oadjzgw1rujmpa185dhcvzzpump",
-      "tokenAddress": "6MjDb45kzriv6cpW6oaDjZGw1rujmpA185dHcvZzpump",
-      "description": "Meet the Gecko Mascot bringing goofy dino energy to Solana. The ticker is $REX. The vibes are prehistoric."
-    },
-    {
       "url": "https://dexscreener.com/solana/9rbkkz2bdqbvgzmrhy6d7ptq2ge91gkpeye4y9pppump",
       "tokenAddress": "9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump",
       "description": "State of Leonida"
@@ -67,10 +57,20 @@
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hoqjaoes6yfl8yeshgfenwvkt7lrapy97zdg9hmbu4ep",
+      "tokenAddress": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
+      "description": "Old-school Thug Life, reborn in Vice City. Every holder is a shareholder. Every shareholder is a soldier."
+    },
+    {
+      "url": "https://dexscreener.com/solana/hricrxbn3qxc3sn5vltnhaezogryea5ztatxqdfkstnk",
+      "tokenAddress": "HricrxBN3QXC3SN5VLtNhaEzoGrYea5ZtaTxQDfKSTNK",
+      "description": "A Virtual Inu from Vice City"
     }
   ],
   "fearGreed": {
-    "value": 11,
+    "value": 10,
     "label": "Extreme Fear"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
