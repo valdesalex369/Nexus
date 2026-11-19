@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-19T07:58:13.549127+00:00",
+  "at": "2026-11-19T17:24:04.470862+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 63669.0,
-      "changePct": -1.8165325344607852,
+      "price": 62559.0,
+      "changePct": -0.611462711474424,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1802.41,
-      "changePct": -0.7968252881895652,
+      "price": 1762.39,
+      "changePct": -0.08203591496519735,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 74.85,
-      "changePct": -0.4204106278980213,
+      "price": 73.25,
+      "changePct": -0.25449210389099997,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 589.22,
-      "changePct": -0.7172915827522708,
+      "price": 583.06,
+      "changePct": 0.09969270433134397,
       "source": "CoinGecko"
     }
   ],
@@ -34,29 +34,9 @@
       "description": "GTA SEASON"
     },
     {
-      "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
-      "tokenAddress": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-      "description": "Meet $GLITCH \u2014 the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringi"
-    },
-    {
-      "url": "https://dexscreener.com/solana/9rbkkz2bdqbvgzmrhy6d7ptq2ge91gkpeye4y9pppump",
-      "tokenAddress": "9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump",
-      "description": "State of Leonida"
-    },
-    {
       "url": "https://dexscreener.com/solana/8cnvwzjlrpqazvn6lszkzmxjxkmmy2btq4q3nn4fpump",
       "tokenAddress": "8CnvwZJLRpQazvn6LszkzmXJxkmMY2bTQ4Q3NN4fpump",
       "description": "Nine lives, one stolen helicopter, and a city full of bad decisions\u2014Grand Theft Alleycat takes the getaway airborne. \ud83d\ude81\ud83d\udc08"
-    },
-    {
-      "url": "https://dexscreener.com/solana/ektfn4pb7k3nxzxsbzkn3aa4mgbsdtnifj3g2rsvpump",
-      "tokenAddress": "EkTfN4Pb7K3NXzxsbzkn3AA4MGbsdTniFJ3G2RsVpump",
-      "description": "One scene, one unforgettable look, and suddenly Mandy is all anyone can talk about. Mission three put her on the map; th"
-    },
-    {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
       "url": "https://dexscreener.com/solana/ejrz94zr4a2scs8ldvraqih2xuxae2ydrequnkmpump",
@@ -64,9 +44,29 @@
       "description": ""
     },
     {
+      "url": "https://dexscreener.com/solana/ektfn4pb7k3nxzxsbzkn3aa4mgbsdtnifj3g2rsvpump",
+      "tokenAddress": "EkTfN4Pb7K3NXzxsbzkn3AA4MGbsdTniFJ3G2RsVpump",
+      "description": "One scene, one unforgettable look, and suddenly Mandy is all anyone can talk about. Mission three put her on the map; th"
+    },
+    {
       "url": "https://dexscreener.com/solana/hoqjaoes6yfl8yeshgfenwvkt7lrapy97zdg9hmbu4ep",
       "tokenAddress": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
       "description": "Old-school Thug Life, reborn in Vice City. Every holder is a shareholder. Every shareholder is a soldier."
+    },
+    {
+      "url": "https://dexscreener.com/solana/9qt8k685hrae4k11dhgxirdtpfaaimextyfwt8cppump",
+      "tokenAddress": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
+      "description": "$DIGS is the native token of AiDiglet \u2014 a Telegram tap-to-mine game with 2,000+ active players, in-game $DIGS mined via "
+    },
+    {
+      "url": "https://dexscreener.com/solana/qdstbqffet4yrpqfu7edcc9e6u7nhrbz15eqy8jpump",
+      "tokenAddress": "QDsTBqfFEt4yrpqfU7edcc9E6u7nHrbz15eqY8jpump",
+      "description": "The first gacha on a bonding curve. Every pull moves the price, every piece is a weighted share of the reserve."
+    },
+    {
+      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
+      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     }
   ],
   "fearGreed": {
