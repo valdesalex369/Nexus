@@ -1,37 +1,47 @@
 {
-  "at": "2026-11-19T17:24:04.470862+00:00",
+  "at": "2026-11-19T23:52:52.341894+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 62559.0,
-      "changePct": -0.611462711474424,
+      "price": 61898.0,
+      "changePct": -2.0325497197738214,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1762.39,
-      "changePct": -0.08203591496519735,
+      "price": 1754.72,
+      "changePct": -1.4317979690878144,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 73.25,
-      "changePct": -0.25449210389099997,
+      "price": 73.09,
+      "changePct": -0.9790016509605579,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 583.06,
-      "changePct": 0.09969270433134397,
+      "price": 579.3,
+      "changePct": -0.6453787311753713,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
+      "url": "https://dexscreener.com/solana/frxgextcxlpqychrq5sanfuwae2vselbigdde7k4s1m",
+      "tokenAddress": "fRxGeXTCXLPQyChrq5sanfUWAe2vseLBiGdDE7k4S1M",
+      "description": "The settlement layer for superintelligence."
+    },
+    {
       "url": "https://dexscreener.com/solana/a4jxnwk1rdrdth6hmdasi45c89n1aguthivaqptvpump",
       "tokenAddress": "A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump",
       "description": "GTA SEASON"
+    },
+    {
+      "url": "https://dexscreener.com/solana/7bciddgle5am8he2pigt9jsqkmc1hspxyxn6gkhepump",
+      "tokenAddress": "7bCiddGLe5aM8HE2pigT9jsqkmC1HSPxyXN6GkHEpump",
+      "description": "OFFICIALGTA brings Jason and Lucia together beside a monumental VI: two injured action leads, one last escape through th"
     },
     {
       "url": "https://dexscreener.com/solana/8cnvwzjlrpqazvn6lszkzmxjxkmmy2btq4q3nn4fpump",
@@ -49,24 +59,14 @@
       "description": "One scene, one unforgettable look, and suddenly Mandy is all anyone can talk about. Mission three put her on the map; th"
     },
     {
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
       "url": "https://dexscreener.com/solana/hoqjaoes6yfl8yeshgfenwvkt7lrapy97zdg9hmbu4ep",
       "tokenAddress": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
       "description": "Old-school Thug Life, reborn in Vice City. Every holder is a shareholder. Every shareholder is a soldier."
-    },
-    {
-      "url": "https://dexscreener.com/solana/9qt8k685hrae4k11dhgxirdtpfaaimextyfwt8cppump",
-      "tokenAddress": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-      "description": "$DIGS is the native token of AiDiglet \u2014 a Telegram tap-to-mine game with 2,000+ active players, in-game $DIGS mined via "
-    },
-    {
-      "url": "https://dexscreener.com/solana/qdstbqffet4yrpqfu7edcc9e6u7nhrbz15eqy8jpump",
-      "tokenAddress": "QDsTBqfFEt4yrpqfU7edcc9E6u7nHrbz15eqY8jpump",
-      "description": "The first gacha on a bonding curve. Every pull moves the price, every piece is a weighted share of the reserve."
-    },
-    {
-      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
-      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     }
   ],
   "fearGreed": {
