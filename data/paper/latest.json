@@ -1,43 +1,33 @@
 {
-  "at": "2026-11-20T16:23:23.717382+00:00",
+  "at": "2026-11-20T22:49:26.743259+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 59351.0,
-      "changePct": -5.921311293566203,
+      "price": 58929.0,
+      "changePct": -5.351659303841057,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1643.45,
-      "changePct": -7.5123406708824305,
+      "price": 1616.42,
+      "changePct": -8.36489975739556,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 68.71,
-      "changePct": -6.60725540948993,
+      "price": 68.96,
+      "changePct": -5.784600306153345,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 547.84,
-      "changePct": -6.5912749424640955,
+      "price": 539.34,
+      "changePct": -7.175552575287873,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/frxgextcxlpqychrq5sanfuwae2vselbigdde7k4s1m",
-      "tokenAddress": "fRxGeXTCXLPQyChrq5sanfUWAe2vseLBiGdDE7k4S1M",
-      "description": "The settlement layer for superintelligence."
-    },
-    {
-      "url": "https://dexscreener.com/solana/7bciddgle5am8he2pigt9jsqkmc1hspxyxn6gkhepump",
-      "tokenAddress": "7bCiddGLe5aM8HE2pigT9jsqkmC1HSPxyXN6GkHEpump",
-      "description": "OFFICIALGTA brings Jason and Lucia together beside a monumental VI: two injured action leads, one last escape through th"
-    },
     {
       "url": "https://dexscreener.com/solana/hf2rbprfnbk9txggl2cyzfeksgirzh5hkcnglentpump",
       "tokenAddress": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump",
@@ -49,14 +39,14 @@
       "description": "Apple AI Agent"
     },
     {
+      "url": "https://dexscreener.com/solana/cufphqswgdk3vp3fx7cishvctdgqnefusyrfviabpump",
+      "tokenAddress": "CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump",
+      "description": "Don't have a cow, man. Just hold $BTC \ud83d\udfe0\ud83d\udef9 The most mischievous coin on the timeline."
+    },
+    {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
-      "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
-      "tokenAddress": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "description": "The team describes WASTED as GA's iconic death screen, and its fan-made site, which says it is not affiliated with Rocks"
     },
     {
       "url": "https://dexscreener.com/solana/hoqjaoes6yfl8yeshgfenwvkt7lrapy97zdg9hmbu4ep",
@@ -64,9 +54,19 @@
       "description": "Old-school Thug Life, reborn in Vice City. Every holder is a shareholder. Every shareholder is a soldier."
     },
     {
-      "url": "https://dexscreener.com/solana/8s65ief6sqlbqcaxcsqwjenvavsbrniuub9xgehhpump",
-      "tokenAddress": "8s65iEf6SQLbQcAxCsqWJenvAVsbrNiUUb9XgeHhpump",
-      "description": "GameStop"
+      "url": "https://dexscreener.com/solana/5kqi4kdq56h9ufhq14jxtmy189zpyxaydxcq4qhvdthw",
+      "tokenAddress": "5kqi4kDq56H9UfHq14jXtmy189zpyxaYdXCQ4qHvDtHW",
+      "description": "\u2694\ufe0f Crypto of Thrones is a medieval strategy RPG on Solana. Build your kingdom, hunt monsters, clear dungeons, forge gear"
+    },
+    {
+      "url": "https://dexscreener.com/solana/cmf39v6xdhnwf4c7vmwyacbzgjx8k3ztvj4geuf4pump",
+      "tokenAddress": "Cmf39V6XDhnWf4C7VMwyACBZgJX8K3ztVJ4GeUF4pump",
+      "description": "$COA is the utility token behind MyPeptideTesting, a real analytical lab that tests peptides for identity, purity, poten"
+    },
+    {
+      "url": "https://dexscreener.com/solana/fvzqgqrmr4uh1fif6dewmwbj1p4yuzcu8dcw4efopump",
+      "tokenAddress": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+      "description": "Horse doge on Solana, paired to USDC because horses live in stables. Grassroots, community run. Creator fees go to Billy"
     }
   ],
   "fearGreed": {
