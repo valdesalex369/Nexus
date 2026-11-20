@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-19T23:52:52.341894+00:00",
+  "at": "2026-11-20T07:21:29.727060+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 61898.0,
-      "changePct": -2.0325497197738214,
+      "price": 61885.0,
+      "changePct": -2.607526411599485,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1754.72,
-      "changePct": -1.4317979690878144,
+      "price": 1746.28,
+      "changePct": -3.052085169196905,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 73.09,
-      "changePct": -0.9790016509605579,
+      "price": 72.64,
+      "changePct": -2.9040925986600183,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 579.3,
-      "changePct": -0.6453787311753713,
+      "price": 572.03,
+      "changePct": -2.7454995088253864,
       "source": "CoinGecko"
     }
   ],
@@ -34,29 +34,24 @@
       "description": "The settlement layer for superintelligence."
     },
     {
-      "url": "https://dexscreener.com/solana/a4jxnwk1rdrdth6hmdasi45c89n1aguthivaqptvpump",
-      "tokenAddress": "A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump",
-      "description": "GTA SEASON"
-    },
-    {
       "url": "https://dexscreener.com/solana/7bciddgle5am8he2pigt9jsqkmc1hspxyxn6gkhepump",
       "tokenAddress": "7bCiddGLe5aM8HE2pigT9jsqkmC1HSPxyXN6GkHEpump",
       "description": "OFFICIALGTA brings Jason and Lucia together beside a monumental VI: two injured action leads, one last escape through th"
     },
     {
-      "url": "https://dexscreener.com/solana/8cnvwzjlrpqazvn6lszkzmxjxkmmy2btq4q3nn4fpump",
-      "tokenAddress": "8CnvwZJLRpQazvn6LszkzmXJxkmMY2bTQ4Q3NN4fpump",
-      "description": "Nine lives, one stolen helicopter, and a city full of bad decisions\u2014Grand Theft Alleycat takes the getaway airborne. \ud83d\ude81\ud83d\udc08"
+      "url": "https://dexscreener.com/solana/hf2rbprfnbk9txggl2cyzfeksgirzh5hkcnglentpump",
+      "tokenAddress": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump",
+      "description": "Loosy, jet-ski dog in GTA VI"
     },
     {
-      "url": "https://dexscreener.com/solana/ejrz94zr4a2scs8ldvraqih2xuxae2ydrequnkmpump",
-      "tokenAddress": "ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/44dzspnjutuytkelafydwcpe82set12hzkrmgk1spump",
+      "tokenAddress": "44DZsPNJUtUyTkELAFYdwCpe82sEt12HZKrMgK1Spump",
+      "description": "Apple AI Agent"
     },
     {
-      "url": "https://dexscreener.com/solana/ektfn4pb7k3nxzxsbzkn3aa4mgbsdtnifj3g2rsvpump",
-      "tokenAddress": "EkTfN4Pb7K3NXzxsbzkn3AA4MGbsdTniFJ3G2RsVpump",
-      "description": "One scene, one unforgettable look, and suddenly Mandy is all anyone can talk about. Mission three put her on the map; th"
+      "url": "https://dexscreener.com/solana/hoqjaoes6yfl8yeshgfenwvkt7lrapy97zdg9hmbu4ep",
+      "tokenAddress": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
+      "description": "Old-school Thug Life, reborn in Vice City. Every holder is a shareholder. Every shareholder is a soldier."
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
@@ -64,13 +59,18 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/hoqjaoes6yfl8yeshgfenwvkt7lrapy97zdg9hmbu4ep",
-      "tokenAddress": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
-      "description": "Old-school Thug Life, reborn in Vice City. Every holder is a shareholder. Every shareholder is a soldier."
+      "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
+      "tokenAddress": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+      "description": "The team describes WASTED as GA's iconic death screen, and its fan-made site, which says it is not affiliated with Rocks"
+    },
+    {
+      "url": "https://dexscreener.com/solana/8s65ief6sqlbqcaxcsqwjenvavsbrniuub9xgehhpump",
+      "tokenAddress": "8s65iEf6SQLbQcAxCsqWJenvAVsbrNiUUb9XgeHhpump",
+      "description": "GameStop"
     }
   ],
   "fearGreed": {
-    "value": 10,
+    "value": 12,
     "label": "Extreme Fear"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
