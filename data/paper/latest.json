@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-20T07:21:29.727060+00:00",
+  "at": "2026-11-20T16:23:23.717382+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 61885.0,
-      "changePct": -2.607526411599485,
+      "price": 59351.0,
+      "changePct": -5.921311293566203,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1746.28,
-      "changePct": -3.052085169196905,
+      "price": 1643.45,
+      "changePct": -7.5123406708824305,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 72.64,
-      "changePct": -2.9040925986600183,
+      "price": 68.71,
+      "changePct": -6.60725540948993,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 572.03,
-      "changePct": -2.7454995088253864,
+      "price": 547.84,
+      "changePct": -6.5912749424640955,
       "source": "CoinGecko"
     }
   ],
@@ -49,11 +49,6 @@
       "description": "Apple AI Agent"
     },
     {
-      "url": "https://dexscreener.com/solana/hoqjaoes6yfl8yeshgfenwvkt7lrapy97zdg9hmbu4ep",
-      "tokenAddress": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
-      "description": "Old-school Thug Life, reborn in Vice City. Every holder is a shareholder. Every shareholder is a soldier."
-    },
-    {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
@@ -62,6 +57,11 @@
       "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
       "tokenAddress": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
       "description": "The team describes WASTED as GA's iconic death screen, and its fan-made site, which says it is not affiliated with Rocks"
+    },
+    {
+      "url": "https://dexscreener.com/solana/hoqjaoes6yfl8yeshgfenwvkt7lrapy97zdg9hmbu4ep",
+      "tokenAddress": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
+      "description": "Old-school Thug Life, reborn in Vice City. Every holder is a shareholder. Every shareholder is a soldier."
     },
     {
       "url": "https://dexscreener.com/solana/8s65ief6sqlbqcaxcsqwjenvavsbrniuub9xgehhpump",
