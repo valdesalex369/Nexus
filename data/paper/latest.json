@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-21T12:41:55.340463+00:00",
+  "at": "2026-11-21T19:49:27.816096+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 58832.0,
-      "changePct": -4.348725729182397,
+      "price": 60269.0,
+      "changePct": 2.982508221695312,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1665.78,
-      "changePct": -4.127971144851306,
+      "price": 1685.19,
+      "changePct": 4.772872995386547,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 69.37,
-      "changePct": -2.4669605322986383,
+      "price": 70.59,
+      "changePct": 3.508827288805897,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 535.32,
-      "changePct": -5.690023634691679,
+      "price": 549.2,
+      "changePct": 2.6122511379735243,
       "source": "CoinGecko"
     }
   ],
@@ -32,6 +32,21 @@
       "url": "https://dexscreener.com/solana/dkhsz1kjd2fua8sgke6phhhycdxyscbdvn7mafigpump",
       "tokenAddress": "DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump",
       "description": ""
+    },
+    {
+      "url": "https://dexscreener.com/solana/fn95ntgxwpajxc4n5y9rvkuq1nwzbjbnjzpvvnrlpump",
+      "tokenAddress": "Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump",
+      "description": "Same alley. Same chaos. One more run."
+    },
+    {
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
+      "url": "https://dexscreener.com/solana/d7myad7k3aqjpg4uxjucml51edhresjxkjuynsxcpump",
+      "tokenAddress": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
+      "description": "Christmax, otherwise known as Christmas Maxxing."
     },
     {
       "url": "https://dexscreener.com/solana/cufphqswgdk3vp3fx7cishvctdgqnefusyrfviabpump",
@@ -49,31 +64,16 @@
       "description": "Maya The Samoyed - $MAYA Born in Germany. Raised by Lingli Ye. Destined to farm memes across every timeline."
     },
     {
-      "url": "https://dexscreener.com/solana/d7myad7k3aqjpg4uxjucml51edhresjxkjuynsxcpump",
-      "tokenAddress": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
-      "description": "Christmax, otherwise known as Christmas Maxxing."
-    },
-    {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
-      "url": "https://dexscreener.com/solana/5kqi4kdq56h9ufhq14jxtmy189zpyxaydxcq4qhvdthw",
-      "tokenAddress": "5kqi4kDq56H9UfHq14jXtmy189zpyxaYdXCQ4qHvDtHW",
-      "description": "\u2694\ufe0f Crypto of Thrones is a medieval strategy RPG on Solana. Build your kingdom, hunt monsters, clear dungeons, forge gear"
-    },
-    {
-      "url": "https://dexscreener.com/solana/9qt8k685hrae4k11dhgxirdtpfaaimextyfwt8cppump",
-      "tokenAddress": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-      "description": "$DIGS is the in-game and staking token of AiDiglet, a Telegram mini-app where players tap-to-mine across 100 depth layer"
+      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
+      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     }
   ],
   "fearGreed": {
     "value": 12,
     "label": "Extreme Fear"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
