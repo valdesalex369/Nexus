@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-21T03:59:56.878024+00:00",
+  "at": "2026-11-21T12:41:55.340463+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 56690.0,
-      "changePct": -8.703822258420688,
+      "price": 58832.0,
+      "changePct": -4.348725729182397,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1570.82,
-      "changePct": -9.992036909696598,
+      "price": 1665.78,
+      "changePct": -4.127971144851306,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 66.2,
-      "changePct": -9.128845652157672,
+      "price": 69.37,
+      "changePct": -2.4669605322986383,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 517.51,
-      "changePct": -9.956255858933943,
+      "price": 535.32,
+      "changePct": -5.690023634691679,
       "source": "CoinGecko"
     }
   ],
@@ -39,6 +39,16 @@
       "description": "Don't have a cow, man. Just hold $BTC \ud83d\udfe0\ud83d\udef9 The most mischievous coin on the timeline."
     },
     {
+      "url": "https://dexscreener.com/solana/2tngn4b7xaogsksyvttq5bfadm4z4xcsnuyrwgifpump",
+      "tokenAddress": "2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump",
+      "description": "No empty promises \u2014 just freedom, creativity and people who build together."
+    },
+    {
+      "url": "https://dexscreener.com/solana/fjkt1lxbwbptrt9badeb6wr2ql5lzzjff5sx8rxnpump",
+      "tokenAddress": "FJKt1LxbWBpTRt9BaDEB6Wr2qL5LZzjFF5sx8rXnpump",
+      "description": "Maya The Samoyed - $MAYA Born in Germany. Raised by Lingli Ye. Destined to farm memes across every timeline."
+    },
+    {
       "url": "https://dexscreener.com/solana/d7myad7k3aqjpg4uxjucml51edhresjxkjuynsxcpump",
       "tokenAddress": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
       "description": "Christmax, otherwise known as Christmas Maxxing."
@@ -49,24 +59,14 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/hoqjaoes6yfl8yeshgfenwvkt7lrapy97zdg9hmbu4ep",
-      "tokenAddress": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
-      "description": "Old-school Thug Life, reborn in Vice City. Every holder is a shareholder. Every shareholder is a soldier."
-    },
-    {
       "url": "https://dexscreener.com/solana/5kqi4kdq56h9ufhq14jxtmy189zpyxaydxcq4qhvdthw",
       "tokenAddress": "5kqi4kDq56H9UfHq14jXtmy189zpyxaYdXCQ4qHvDtHW",
       "description": "\u2694\ufe0f Crypto of Thrones is a medieval strategy RPG on Solana. Build your kingdom, hunt monsters, clear dungeons, forge gear"
     },
     {
-      "url": "https://dexscreener.com/solana/7i8axjbdkgjgpro4ex5adkuax55xed5hrgoww1g9pump",
-      "tokenAddress": "7i8AXjBdKGjGpRo4Ex5aDKUaX55xed5Hrgoww1G9pump",
-      "description": "A project can fail like any company.\nIt can never be a scam"
-    },
-    {
-      "url": "https://dexscreener.com/solana/b6u62xc4nd9rx9udejyrazvdllprnjyf4fbmf2pdpump",
-      "tokenAddress": "B6u62Xc4nD9Rx9uDEJyRaZvDLLPRNJyF4Fbmf2PDpump",
-      "description": "Memecoin dedicated to Russell Brand and everyone around the world who is willing to stand up to corporate and political "
+      "url": "https://dexscreener.com/solana/9qt8k685hrae4k11dhgxirdtpfaaimextyfwt8cppump",
+      "tokenAddress": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
+      "description": "$DIGS is the in-game and staking token of AiDiglet, a Telegram mini-app where players tap-to-mine across 100 depth layer"
     }
   ],
   "fearGreed": {
