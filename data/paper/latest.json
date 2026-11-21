@@ -1,47 +1,47 @@
 {
-  "at": "2026-11-20T22:49:26.743259+00:00",
+  "at": "2026-11-21T03:59:56.878024+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 58929.0,
-      "changePct": -5.351659303841057,
+      "price": 56690.0,
+      "changePct": -8.703822258420688,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1616.42,
-      "changePct": -8.36489975739556,
+      "price": 1570.82,
+      "changePct": -9.992036909696598,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 68.96,
-      "changePct": -5.784600306153345,
+      "price": 66.2,
+      "changePct": -9.128845652157672,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 539.34,
-      "changePct": -7.175552575287873,
+      "price": 517.51,
+      "changePct": -9.956255858933943,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/hf2rbprfnbk9txggl2cyzfeksgirzh5hkcnglentpump",
-      "tokenAddress": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump",
-      "description": "Loosy, jet-ski dog in GTA VI"
-    },
-    {
-      "url": "https://dexscreener.com/solana/44dzspnjutuytkelafydwcpe82set12hzkrmgk1spump",
-      "tokenAddress": "44DZsPNJUtUyTkELAFYdwCpe82sEt12HZKrMgK1Spump",
-      "description": "Apple AI Agent"
+      "url": "https://dexscreener.com/solana/dkhsz1kjd2fua8sgke6phhhycdxyscbdvn7mafigpump",
+      "tokenAddress": "DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/cufphqswgdk3vp3fx7cishvctdgqnefusyrfviabpump",
       "tokenAddress": "CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump",
       "description": "Don't have a cow, man. Just hold $BTC \ud83d\udfe0\ud83d\udef9 The most mischievous coin on the timeline."
+    },
+    {
+      "url": "https://dexscreener.com/solana/d7myad7k3aqjpg4uxjucml51edhresjxkjuynsxcpump",
+      "tokenAddress": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
+      "description": "Christmax, otherwise known as Christmas Maxxing."
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
@@ -59,14 +59,14 @@
       "description": "\u2694\ufe0f Crypto of Thrones is a medieval strategy RPG on Solana. Build your kingdom, hunt monsters, clear dungeons, forge gear"
     },
     {
-      "url": "https://dexscreener.com/solana/cmf39v6xdhnwf4c7vmwyacbzgjx8k3ztvj4geuf4pump",
-      "tokenAddress": "Cmf39V6XDhnWf4C7VMwyACBZgJX8K3ztVJ4GeUF4pump",
-      "description": "$COA is the utility token behind MyPeptideTesting, a real analytical lab that tests peptides for identity, purity, poten"
+      "url": "https://dexscreener.com/solana/7i8axjbdkgjgpro4ex5adkuax55xed5hrgoww1g9pump",
+      "tokenAddress": "7i8AXjBdKGjGpRo4Ex5aDKUaX55xed5Hrgoww1G9pump",
+      "description": "A project can fail like any company.\nIt can never be a scam"
     },
     {
-      "url": "https://dexscreener.com/solana/fvzqgqrmr4uh1fif6dewmwbj1p4yuzcu8dcw4efopump",
-      "tokenAddress": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
-      "description": "Horse doge on Solana, paired to USDC because horses live in stables. Grassroots, community run. Creator fees go to Billy"
+      "url": "https://dexscreener.com/solana/b6u62xc4nd9rx9udejyrazvdllprnjyf4fbmf2pdpump",
+      "tokenAddress": "B6u62Xc4nD9Rx9uDEJyRaZvDLLPRNJyF4Fbmf2PDpump",
+      "description": "Memecoin dedicated to Russell Brand and everyone around the world who is willing to stand up to corporate and political "
     }
   ],
   "fearGreed": {
