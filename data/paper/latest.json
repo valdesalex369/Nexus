@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-22T15:41:47.441467+00:00",
+  "at": "2026-11-22T21:18:38.596317+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 60776.0,
-      "changePct": 1.6466227978263088,
+      "price": 60907.0,
+      "changePct": 0.9134581136839172,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1714.84,
-      "changePct": 2.151118514262127,
+      "price": 1722.16,
+      "changePct": 2.2498848564109477,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 70.31,
-      "changePct": 0.0035785119648057456,
+      "price": 70.2,
+      "changePct": -0.38446065198204527,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 556.3,
-      "changePct": 2.020182215664677,
+      "price": 557.55,
+      "changePct": 1.5373187158416006,
       "source": "CoinGecko"
     }
   ],
@@ -31,7 +31,7 @@
     {
       "url": "https://dexscreener.com/solana/6re3wndymkkquontjfxd2me6vuqjan45ehvctl3kpump",
       "tokenAddress": "6RE3WnDYmkKquontjFXD2me6vuqjan45EHVCtL3kpump",
-      "description": ""
+      "description": "Mike Dyson"
     },
     {
       "url": "https://dexscreener.com/solana/3n6mp8yquvdfetyuyjs72s4mrrgquky34gvyzd5kpump",
@@ -39,24 +39,14 @@
       "description": "A frog, a stone \u20bf, and a mountain with no top. One must imagine Pepe happy."
     },
     {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
       "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
       "tokenAddress": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
       "description": "The team describes WASTED as GA's iconic death screen, and its fan-made site, which says it is not affiliated with Rocks"
     },
     {
-      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
-      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
-    },
-    {
-      "url": "https://dexscreener.com/solana/8s11pkgqt4zzdz7oo84hk5t9hg1evdgajcg4w7lpump",
-      "tokenAddress": "8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump",
-      "description": "BLOB ($BLOB) turns AI\u2019s enormous appetite into a tiny, lovable orange pet with an impossible food bill. Big companies fe"
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
       "url": "https://dexscreener.com/solana/3b7wvfrxraomuq4j6jwjzrl5mym3km3qzfx5dqcopump",
@@ -67,6 +57,16 @@
       "url": "https://dexscreener.com/solana/eov9jqyi57tqjyqbwldxvarypeu82fsp8sdnkbfmpump",
       "tokenAddress": "EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump",
       "description": "Get busted. Get paid. 1000x perps on Solana. Losers earn xBUST."
+    },
+    {
+      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
+      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
+    },
+    {
+      "url": "https://dexscreener.com/solana/5qap7okuqkffwwo5daeqdottsblmpdbqtxekcdatpump",
+      "tokenAddress": "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
+      "description": ""
     }
   ],
   "fearGreed": {
