@@ -1,0 +1,147 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: #1a1a2e;
+  color: #fff;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar-title {
+  font-size: 1.4rem;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}
+
+.sidebar-link {
+  display: block;
+  padding: 10px 12px;
+  color: #94a3b8;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.sidebar-link:hover,
+.sidebar-link.active {
+  background: #16213e;
+  color: #fff;
+}
+
+.main-content {
+  flex: 1;
+  padding: 32px;
+  background: #0f0f23;
+  color: #e2e8f0;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.card {
+  background: #1a1a2e;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.card h3 {
+  margin: 0 0 8px;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+.stat {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.tab-bar {
+  display: flex;
+  gap: 8px;
+  margin: 20px 0 16px;
+}
+
+.tab {
+  padding: 8px 16px;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  background: transparent;
+  color: #94a3b8;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tab:hover,
+.tab-active {
+  background: #1a1a2e;
+  color: #fff;
+  border-color: #6366f1;
+}
+
+.seo-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.seo-form textarea,
+.seo-form input {
+  background: #1a1a2e;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  color: #e2e8f0;
+  padding: 12px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  align-self: flex-start;
+  transition: opacity 0.2s;
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.error-box {
+  padding: 12px;
+  background: #7f1d1d;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.result-box {
+  background: #1a1a2e;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.result-box pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 12px 0 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
