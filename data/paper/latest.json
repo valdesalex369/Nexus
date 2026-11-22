@@ -1,37 +1,37 @@
 {
-  "at": "2026-11-22T07:29:52.935223+00:00",
+  "at": "2026-11-22T15:41:47.441467+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 59027.0,
-      "changePct": 1.6255858345995036,
+      "price": 60776.0,
+      "changePct": 1.6466227978263088,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1661.09,
-      "changePct": 1.8003768197873158,
+      "price": 1714.84,
+      "changePct": 2.151118514262127,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 69.16,
-      "changePct": 1.9175077423170244,
+      "price": 70.31,
+      "changePct": 0.0035785119648057456,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 539.09,
-      "changePct": 2.46128124528294,
+      "price": 556.3,
+      "changePct": 2.020182215664677,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/fn95ntgxwpajxc4n5y9rvkuq1nwzbjbnjzpvvnrlpump",
-      "tokenAddress": "Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump",
-      "description": "Same alley. Same chaos. One more run."
+      "url": "https://dexscreener.com/solana/6re3wndymkkquontjfxd2me6vuqjan45ehvctl3kpump",
+      "tokenAddress": "6RE3WnDYmkKquontjFXD2me6vuqjan45EHVCtL3kpump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/3n6mp8yquvdfetyuyjs72s4mrrgquky34gvyzd5kpump",
@@ -44,6 +44,11 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
+      "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
+      "tokenAddress": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+      "description": "The team describes WASTED as GA's iconic death screen, and its fan-made site, which says it is not affiliated with Rocks"
+    },
+    {
       "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
       "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
@@ -54,19 +59,14 @@
       "description": "BLOB ($BLOB) turns AI\u2019s enormous appetite into a tiny, lovable orange pet with an impossible food bill. Big companies fe"
     },
     {
-      "url": "https://dexscreener.com/solana/9uvrm2lpvdar7sxnta6npcsafblm9ivhedpxvqbcpump",
-      "tokenAddress": "9UvRm2LpvDaR7SXnta6npCSafBLm9ivHEDPxvQBCpump",
-      "description": "Making Biscuits ($BISCUITS) \ud83c\udf6a Every cat owner knows the knead. Soft paws, slow blinks, and a cat making biscuits on your"
+      "url": "https://dexscreener.com/solana/3b7wvfrxraomuq4j6jwjzrl5mym3km3qzfx5dqcopump",
+      "tokenAddress": "3b7WvfRxRaoMuq4j6JWJzrL5mym3Km3QzfX5dqCopump",
+      "description": "bigfoot files are being released by donald trump"
     },
     {
-      "url": "https://dexscreener.com/solana/4ye6y6vaic8cypdfw2f9pclhxkysbtsmv84g8x7spump",
-      "tokenAddress": "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
-      "description": "greg"
-    },
-    {
-      "url": "https://dexscreener.com/solana/9kaqr3dordz4vwim3igaora9amolcuhpp6wulhpepump",
-      "tokenAddress": "9kaQR3dorDz4vwim3iGaoRa9amoLcUHPp6wuLHpEpump",
-      "description": "These Karens illegally detained me for riding a scooter on the sidewalk, we captured it all on video, now they are going"
+      "url": "https://dexscreener.com/solana/eov9jqyi57tqjyqbwldxvarypeu82fsp8sdnkbfmpump",
+      "tokenAddress": "EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump",
+      "description": "Get busted. Get paid. 1000x perps on Solana. Losers earn xBUST."
     }
   ],
   "fearGreed": {
