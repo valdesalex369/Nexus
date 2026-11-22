@@ -1,0 +1,11 @@
+node_modules/
+dist/
+data/
+.env
+*.js
+*.d.ts
+*.js.map
+*.d.ts.map
+!jest.config.js
+__pycache__/
+*.pyc
