@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-21T19:49:27.816096+00:00",
+  "at": "2026-11-22T00:21:38.656760+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 60269.0,
-      "changePct": 2.982508221695312,
+      "price": 60237.0,
+      "changePct": 2.317231630757389,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1685.19,
-      "changePct": 4.772872995386547,
+      "price": 1682.44,
+      "changePct": 3.854233729502899,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 70.59,
-      "changePct": 3.508827288805897,
+      "price": 70.31,
+      "changePct": 2.209907082336698,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 549.2,
-      "changePct": 2.6122511379735243,
+      "price": 548.47,
+      "changePct": 1.6699491662016015,
       "source": "CoinGecko"
     }
   ],
@@ -39,21 +39,6 @@
       "description": "Same alley. Same chaos. One more run."
     },
     {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
-      "url": "https://dexscreener.com/solana/d7myad7k3aqjpg4uxjucml51edhresjxkjuynsxcpump",
-      "tokenAddress": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
-      "description": "Christmax, otherwise known as Christmas Maxxing."
-    },
-    {
-      "url": "https://dexscreener.com/solana/cufphqswgdk3vp3fx7cishvctdgqnefusyrfviabpump",
-      "tokenAddress": "CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump",
-      "description": "Don't have a cow, man. Just hold $BTC \ud83d\udfe0\ud83d\udef9 The most mischievous coin on the timeline."
-    },
-    {
       "url": "https://dexscreener.com/solana/2tngn4b7xaogsksyvttq5bfadm4z4xcsnuyrwgifpump",
       "tokenAddress": "2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump",
       "description": "No empty promises \u2014 just freedom, creativity and people who build together."
@@ -64,13 +49,28 @@
       "description": "Maya The Samoyed - $MAYA Born in Germany. Raised by Lingli Ye. Destined to farm memes across every timeline."
     },
     {
+      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
+      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+    },
+    {
       "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
       "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
+    },
+    {
+      "url": "https://dexscreener.com/solana/d7myad7k3aqjpg4uxjucml51edhresjxkjuynsxcpump",
+      "tokenAddress": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
+      "description": "Christmax, otherwise known as Christmas Maxxing."
+    },
+    {
+      "url": "https://dexscreener.com/solana/eov9jqyi57tqjyqbwldxvarypeu82fsp8sdnkbfmpump",
+      "tokenAddress": "EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump",
+      "description": "Get busted. Get paid. 1000x perps on Solana. Losers earn xBUST."
     }
   ],
   "fearGreed": {
-    "value": 12,
+    "value": 11,
     "label": "Extreme Fear"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
