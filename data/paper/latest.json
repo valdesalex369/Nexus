@@ -1,33 +1,38 @@
 {
-  "at": "2026-11-22T21:18:38.596317+00:00",
+  "at": "2026-11-23T01:59:06.037050+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 60907.0,
-      "changePct": 0.9134581136839172,
+      "price": 60770.0,
+      "changePct": 1.2293140723891893,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1722.16,
-      "changePct": 2.2498848564109477,
+      "price": 1708.83,
+      "changePct": 1.4533636026241767,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 70.2,
-      "changePct": -0.38446065198204527,
+      "price": 70.32,
+      "changePct": 0.117135479765213,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 557.55,
-      "changePct": 1.5373187158416006,
+      "price": 554.95,
+      "changePct": 1.0604677241267362,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/e9rwkjvhhmxqkxfrer7li8yy46rvcwiwhokvqae9pump",
+      "tokenAddress": "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump",
+      "description": ""
+    },
     {
       "url": "https://dexscreener.com/solana/6re3wndymkkquontjfxd2me6vuqjan45ehvctl3kpump",
       "tokenAddress": "6RE3WnDYmkKquontjFXD2me6vuqjan45EHVCtL3kpump",
@@ -39,9 +44,19 @@
       "description": "A frog, a stone \u20bf, and a mountain with no top. One must imagine Pepe happy."
     },
     {
+      "url": "https://dexscreener.com/solana/3bcj4sscfbxdmrwcuducycwxmjmy4m2ecctvxu86pump",
+      "tokenAddress": "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump",
+      "description": "Tesla FSD v15 is gta in real life"
+    },
+    {
+      "url": "https://dexscreener.com/solana/baksqrynzwadyacdmsg3j5r8a4ctvj1u7keyyjq7pump",
+      "tokenAddress": "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump",
+      "description": ""
+    },
+    {
       "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
       "tokenAddress": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "description": "The team describes WASTED as GA's iconic death screen, and its fan-made site, which says it is not affiliated with Rocks"
+      "description": "One of gaming\u2019s most iconic death screens, now owned by the community.\n\nFrom market crashes and rug pulls to missed oppo"
     },
     {
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
@@ -49,24 +64,9 @@
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
     },
     {
-      "url": "https://dexscreener.com/solana/3b7wvfrxraomuq4j6jwjzrl5mym3km3qzfx5dqcopump",
-      "tokenAddress": "3b7WvfRxRaoMuq4j6JWJzrL5mym3Km3QzfX5dqCopump",
-      "description": "bigfoot files are being released by donald trump"
-    },
-    {
-      "url": "https://dexscreener.com/solana/eov9jqyi57tqjyqbwldxvarypeu82fsp8sdnkbfmpump",
-      "tokenAddress": "EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump",
-      "description": "Get busted. Get paid. 1000x perps on Solana. Losers earn xBUST."
-    },
-    {
-      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
-      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
-    },
-    {
-      "url": "https://dexscreener.com/solana/5qap7okuqkffwwo5daeqdottsblmpdbqtxekcdatpump",
-      "tokenAddress": "5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/5eilc9r79pkjquifvywdxjytgnrjtpzot8mr7z4ppump",
+      "tokenAddress": "5eiLc9r79PkJquiFvYWdXJYtGNRjTpzot8MR7Z4Ppump",
+      "description": "The official wojak coin"
     }
   ],
   "fearGreed": {
