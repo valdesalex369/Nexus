@@ -1,47 +1,37 @@
 {
-  "at": "2026-11-23T10:49:46.156095+00:00",
+  "at": "2026-11-23T22:40:54.247358+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 61306.0,
-      "changePct": 0.8652320457837466,
+      "price": 61128.0,
+      "changePct": 0.5673286622781595,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1721.11,
-      "changePct": 0.7337763172725572,
+      "price": 1710.38,
+      "changePct": -0.11631419239239461,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 72.23,
-      "changePct": 2.471359898864453,
+      "price": 71.99,
+      "changePct": 2.7873957883931255,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 555.86,
-      "changePct": 0.73738680774547,
+      "price": 555.78,
+      "changePct": 0.16329290400406132,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/e9rwkjvhhmxqkxfrer7li8yy46rvcwiwhokvqae9pump",
-      "tokenAddress": "E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump",
+      "url": "https://dexscreener.com/solana/hkima2mkqhu2cjfz4kbmru5gbgcausnqptpu8cfmpump",
+      "tokenAddress": "HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump",
       "description": ""
-    },
-    {
-      "url": "https://dexscreener.com/solana/6re3wndymkkquontjfxd2me6vuqjan45ehvctl3kpump",
-      "tokenAddress": "6RE3WnDYmkKquontjFXD2me6vuqjan45EHVCtL3kpump",
-      "description": "Mike Dyson"
-    },
-    {
-      "url": "https://dexscreener.com/solana/3bcj4sscfbxdmrwcuducycwxmjmy4m2ecctvxu86pump",
-      "tokenAddress": "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump",
-      "description": "Tesla FSD v15 is gta in real life"
     },
     {
       "url": "https://dexscreener.com/solana/7cfiqdt46zs7oohwlfilsasqklmibtokh9dbinsspump",
@@ -54,19 +44,29 @@
       "description": "We pump together."
     },
     {
+      "url": "https://dexscreener.com/solana/3bcj4sscfbxdmrwcuducycwxmjmy4m2ecctvxu86pump",
+      "tokenAddress": "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump",
+      "description": "Tesla FSD v15 is gta in real life"
+    },
+    {
       "url": "https://dexscreener.com/solana/baksqrynzwadyacdmsg3j5r8a4ctvj1u7keyyjq7pump",
       "tokenAddress": "BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump",
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
-      "tokenAddress": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-      "description": "One of gaming\u2019s most iconic death screens, now owned by the community.\n\nFrom market crashes and rug pulls to missed oppo"
+      "url": "https://dexscreener.com/solana/ghweb3fsfqdbnbt9qxvu7kxkuh1cx7kfk5nvdkgapump",
+      "tokenAddress": "GHWEB3FsfqDbNBt9QxVU7kXkUh1cX7kFk5NVDkgApump",
+      "description": "\ud83e\uddb8\u200d\u2640\ufe0f SUPER CLAUDIA INU ($SCINU) \u26a1\n\nSHE HAS ARRIVED. THE MEME UNIVERSE HAS A NEW HERO.\n\nNot just another INU. A SUPER INU"
     },
     {
-      "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
-      "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-      "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
+      "url": "https://dexscreener.com/solana/b34nxkzcgsjb9chlushprpxle3wfswyet8cqkzzmpump",
+      "tokenAddress": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+      "description": "Let's show some love for Fiona"
+    },
+    {
+      "url": "https://dexscreener.com/solana/3umhfkimhyphcklxtbf8aabie8r5hxn86qebaovtpump",
+      "tokenAddress": "3umHFkiMHyphCkLxtbf8Aabie8r5hxn86QeBAovTpump",
+      "description": "HUSS is the official coin of the Larpniverse \u2014 born from the viral \u201cHUSS HUSS!\u201d chant. It\u2019s the sound of pure hustle: ru"
     }
   ],
   "fearGreed": {
