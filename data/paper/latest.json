@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-23T01:59:06.037050+00:00",
+  "at": "2026-11-23T10:49:46.156095+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 60770.0,
-      "changePct": 1.2293140723891893,
+      "price": 61306.0,
+      "changePct": 0.8652320457837466,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1708.83,
-      "changePct": 1.4533636026241767,
+      "price": 1721.11,
+      "changePct": 0.7337763172725572,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 70.32,
-      "changePct": 0.117135479765213,
+      "price": 72.23,
+      "changePct": 2.471359898864453,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 554.95,
-      "changePct": 1.0604677241267362,
+      "price": 555.86,
+      "changePct": 0.73738680774547,
       "source": "CoinGecko"
     }
   ],
@@ -39,14 +39,19 @@
       "description": "Mike Dyson"
     },
     {
-      "url": "https://dexscreener.com/solana/3n6mp8yquvdfetyuyjs72s4mrrgquky34gvyzd5kpump",
-      "tokenAddress": "3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump",
-      "description": "A frog, a stone \u20bf, and a mountain with no top. One must imagine Pepe happy."
-    },
-    {
       "url": "https://dexscreener.com/solana/3bcj4sscfbxdmrwcuducycwxmjmy4m2ecctvxu86pump",
       "tokenAddress": "3BcJ4SSCfbxDMrWcUDucyCWxMjmy4M2ECCtvxu86pump",
       "description": "Tesla FSD v15 is gta in real life"
+    },
+    {
+      "url": "https://dexscreener.com/solana/7cfiqdt46zs7oohwlfilsasqklmibtokh9dbinsspump",
+      "tokenAddress": "7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump",
+      "description": "Umbra Cash is a next-gen wallet layer on Solana"
+    },
+    {
+      "url": "https://dexscreener.com/solana/93uamrbderkbuh8msjnf1wdtxyveud1cs9bchn1apump",
+      "tokenAddress": "93uamrbDerKbUh8MSjNF1wDtxYvEUD1CS9BcHn1apump",
+      "description": "We pump together."
     },
     {
       "url": "https://dexscreener.com/solana/baksqrynzwadyacdmsg3j5r8a4ctvj1u7keyyjq7pump",
@@ -62,11 +67,6 @@
       "url": "https://dexscreener.com/solana/hsprhxbrgivaqdrf3tnknuzztax9juspgmfdakk6pump",
       "tokenAddress": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
       "description": "The most anticipated game in history. One cat. Nine lives. Zero concerns. $GATO"
-    },
-    {
-      "url": "https://dexscreener.com/solana/5eilc9r79pkjquifvywdxjytgnrjtpzot8mr7z4ppump",
-      "tokenAddress": "5eiLc9r79PkJquiFvYWdXJYtGNRjTpzot8MR7Z4Ppump",
-      "description": "The official wojak coin"
     }
   ],
   "fearGreed": {
