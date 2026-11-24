@@ -13,7 +13,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Test paper-scout freshness gate
+        run: python -m unittest discover -s tests -p "test_paper_signal_gate.py"
       - run: python src/nexus/paper_scout.py
+      - name: Verify current paper snapshot
+        run: python src/nexus/paper_signal_gate.py data/paper/latest.json
       - name: commit tape
         run: |
           git config user.name orbital-scout

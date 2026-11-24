@@ -12,6 +12,8 @@ from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
+from paper_signal_gate import evaluate_snapshot
+
 OUT = Path("data/paper/latest.json")
 UA = {"User-Agent": "ORBITAL-paper-scout/1.1"}
 
@@ -175,6 +177,7 @@ def main() -> None:
         "liveOrders": False,
         "errors": errors,
     }
+    payload["quality"] = evaluate_snapshot(payload)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2) + "\n")
     print(json.dumps(payload))
