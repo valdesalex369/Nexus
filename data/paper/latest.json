@@ -1,42 +1,42 @@
 {
-  "at": "2026-11-25T13:00:09.530480+00:00",
+  "at": "2026-11-25T22:34:50.820159+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 58641.0,
-      "changePct": -2.870262173155256,
+      "price": 60106.0,
+      "changePct": 0.23881934839556843,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1646.12,
-      "changePct": -3.228863962299966,
+      "price": 1683.74,
+      "changePct": 0.02630101229967424,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 67.78,
-      "changePct": -3.998066944646281,
+      "price": 70.42,
+      "changePct": 0.9881162199278084,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 539.44,
-      "changePct": -2.0226726203686316,
+      "price": 551.79,
+      "changePct": 0.43323879427072454,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/d7myad7k3aqjpg4uxjucml51edhresjxkjuynsxcpump",
-      "tokenAddress": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
-      "description": "Christmax, otherwise known as Christmas Maxxing."
+      "url": "https://dexscreener.com/solana/3gmfg4sfdjerdv8pacfrl2uupxegjtyljfry4hfypump",
+      "tokenAddress": "3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump",
+      "description": "Sixty-knot nor'easter winds can't ground a centennial turkey. A hundred years of stitched amber satin facing Sixth Avenu"
     },
     {
-      "url": "https://dexscreener.com/solana/gtdfjkk62dkwdbmmhh7s3fmmzvwirdgjtlg2pvhq43bt",
-      "tokenAddress": "GtDfJKk62DKwdBmmHh7s3fMmzvwirdgjtLg2PVHq43bt",
-      "description": "The yellow family keeps predicting the future. The Bureau of Predictions is on the case. $SIMPS on Solana. They saw it c"
+      "url": "https://dexscreener.com/solana/b34nxkzcgsjb9chlushprpxle3wfswyet8cqkzzmpump",
+      "tokenAddress": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+      "description": "Let's show some love for Fiona"
     },
     {
       "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
@@ -44,36 +44,36 @@
       "description": "One of gaming\u2019s most iconic death screens, now owned by the community.\n\nFrom market crashes and rug pulls to missed oppo"
     },
     {
+      "url": "https://dexscreener.com/solana/ccpn5rxtejbrqbtuhoxyimzorzsghbfpeyyqjsvtgs27",
+      "tokenAddress": "CcpN5RXTEjbRqbtuHoxyiMZorzsghbfpeyYQjSvTgS27",
+      "description": "Santa\u2019s house is open. A Christmas community on Solana. Explore, complete tasks & unwrap surprises."
+    },
+    {
       "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
       "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     },
     {
-      "url": "https://dexscreener.com/solana/giswwjhwrsud4afgshvtmt85ky14sy7lebfcpfofpump",
-      "tokenAddress": "GisWWjhwrSud4aFGSHvTMt85Ky14sY7LeBFCpfoFpump",
-      "description": "\u201cThat Really Rustled My Jimmies\u201d is an expression used to convey feelings of mild irritation, discomfort, or being sligh"
+      "url": "https://dexscreener.com/solana/67eh4f62kkz45wfgwmruu8gncfp9kn6ufcnvjwbgpump",
+      "tokenAddress": "67eH4F62kKZ45wfgWMRuu8GNCFP9kN6uFcNvJWBgpump",
+      "description": "Attempting to reach the highest liked post on X.\n\nAll donations to the WFP."
     },
     {
-      "url": "https://dexscreener.com/solana/dmfzuvtfeme697zfedqaxerd9mrbdes66v5wirvapump",
-      "tokenAddress": "DMFzUvtfEmE697ZfEDqAXErd9MrBDEs66V5WiRvApump",
-      "description": "Bold energy for the next wave of Web3."
+      "url": "https://dexscreener.com/solana/dc1vy25nn2u6cdyd9luamwmxrmh6pqqvd6brgamfpump",
+      "tokenAddress": "DC1vy25nn2U6CDYD9LuaMWmxrmH6PQQVd6BrgAMFpump",
+      "description": "In 2021, Shiba Inu branded itself as the Doge Killer and went on to touch a $50B market cap.\n\nNow in 2026, the narrative"
     },
     {
-      "url": "https://dexscreener.com/solana/8vwh6ntfczucztggenvarnrdfi6utetsbn3jftlxpump",
-      "tokenAddress": "8VWH6ntFczuCzTgGeNVarnRDfi6utetSBn3JfTLxpump",
-      "description": "pode was born in these conditions"
-    },
-    {
-      "url": "https://dexscreener.com/solana/436bcx8hf6erozlniyl8d75bvjbrvxjjtdrokwc2pump",
-      "tokenAddress": "436BcX8hF6ERozLniyL8d75bVJbRvxJJtdroKWC2pump",
-      "description": ""
+      "url": "https://dexscreener.com/solana/2ycl4vuvbbtzakphi9vtw2rmojtm5d79wgshlg6xpump",
+      "tokenAddress": "2YCL4VUVbBTZAKPHi9vTW2rmojTm5d79WGShLG6Xpump",
+      "description": "Remake of rw2c at your account is hacked through privy or cookies data from pump fun they won't admit it though"
     }
   ],
   "fearGreed": {
     "value": 13,
     "label": "Extreme Fear"
   },
-  "command": "Risk-off. Paper flat. Do not chase memes.",
+  "command": "Watch BTC ETH SOL. Paper only. You click live.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
