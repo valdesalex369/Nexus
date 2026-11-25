@@ -1,38 +1,33 @@
 {
-  "at": "2026-11-25T02:48:25.342372+00:00",
+  "at": "2026-11-25T13:00:09.530480+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 59202.0,
-      "changePct": -1.7832835599102883,
+      "price": 58641.0,
+      "changePct": -2.870262173155256,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1656.09,
-      "changePct": -1.884592167664056,
+      "price": 1646.12,
+      "changePct": -3.228863962299966,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 68.7,
-      "changePct": -3.2880457531848073,
+      "price": 67.78,
+      "changePct": -3.998066944646281,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 541.3,
-      "changePct": -1.7941407933395117,
+      "price": 539.44,
+      "changePct": -2.0226726203686316,
       "source": "CoinGecko"
     }
   ],
   "memes": [
-    {
-      "url": "https://dexscreener.com/solana/5ldowscyvd3a6zs4m8gcqg5nu16eltwrxhcifi1bpump",
-      "tokenAddress": "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump",
-      "description": "Kiss the ring. Hold the line. $DONJENSEN, the Don of Solana memes \ud83c\udf39"
-    },
     {
       "url": "https://dexscreener.com/solana/d7myad7k3aqjpg4uxjucml51edhresjxkjuynsxcpump",
       "tokenAddress": "D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump",
@@ -44,29 +39,34 @@
       "description": "The yellow family keeps predicting the future. The Bureau of Predictions is on the case. $SIMPS on Solana. They saw it c"
     },
     {
+      "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
+      "tokenAddress": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+      "description": "One of gaming\u2019s most iconic death screens, now owned by the community.\n\nFrom market crashes and rug pulls to missed oppo"
+    },
+    {
       "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
       "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     },
     {
-      "url": "https://dexscreener.com/solana/ersucqz65ma3mpyzmj82s4rr7un6vqmvjnyuofdbpump",
-      "tokenAddress": "ErSUCQz65MA3mPyzmJ82s4RR7uN6vQmVJnYuofDbpump",
-      "description": "M1STAKE ($M1S) is a Solana-based meme coin inspired by the M1STAKE gaming ecosystem, bringing together crypto culture, g"
-    },
-    {
-      "url": "https://dexscreener.com/solana/6nqccuxypcajncxk7gzvjcdwvqitgjrdg3k1no4jpump",
-      "tokenAddress": "6nQCcuXypcAjncXK7gzvJcdwvqitgJRdG3k1no4Jpump",
-      "description": "\ud83d\ude82 $CHUCHU \u2014 The wildest meme train on Solana. Powered by memes, fueled by community, and built for chaos. No brakes. Jus"
-    },
-    {
-      "url": "https://dexscreener.com/solana/96srdockwosrfhqpr8ynukvqwkwb9elrqaef14mnpump",
-      "tokenAddress": "96srDoCkWosrFHQpR8YnukVqWkWb9eLRQAef14mNpump",
-      "description": "BOWIE \u2014 Elon first dog \n\n$BOWIE brings back a piece of Elon Musk\u2019s early history, his beloved dog and companion during t"
+      "url": "https://dexscreener.com/solana/giswwjhwrsud4afgshvtmt85ky14sy7lebfcpfofpump",
+      "tokenAddress": "GisWWjhwrSud4aFGSHvTMt85Ky14sY7LeBFCpfoFpump",
+      "description": "\u201cThat Really Rustled My Jimmies\u201d is an expression used to convey feelings of mild irritation, discomfort, or being sligh"
     },
     {
       "url": "https://dexscreener.com/solana/dmfzuvtfeme697zfedqaxerd9mrbdes66v5wirvapump",
       "tokenAddress": "DMFzUvtfEmE697ZfEDqAXErd9MrBDEs66V5WiRvApump",
       "description": "Bold energy for the next wave of Web3."
+    },
+    {
+      "url": "https://dexscreener.com/solana/8vwh6ntfczucztggenvarnrdfi6utetsbn3jftlxpump",
+      "tokenAddress": "8VWH6ntFczuCzTgGeNVarnRDfi6utetSBn3JfTLxpump",
+      "description": "pode was born in these conditions"
+    },
+    {
+      "url": "https://dexscreener.com/solana/436bcx8hf6erozlniyl8d75bvjbrvxjjtdrokwc2pump",
+      "tokenAddress": "436BcX8hF6ERozLniyL8d75bVJbRvxJJtdroKWC2pump",
+      "description": ""
     }
   ],
   "fearGreed": {
