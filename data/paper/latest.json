@@ -1,47 +1,37 @@
 {
-  "at": "2026-11-24T18:21:34.379091+00:00",
+  "at": "2026-11-25T02:48:25.342372+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 60026.0,
-      "changePct": -2.372956747324286,
+      "price": 59202.0,
+      "changePct": -1.7832835599102883,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1683.48,
-      "changePct": -3.492970443125488,
+      "price": 1656.09,
+      "changePct": -1.884592167664056,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 69.62,
-      "changePct": -5.172265484324711,
+      "price": 68.7,
+      "changePct": -3.2880457531848073,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 550.32,
-      "changePct": -1.8532563695743651,
+      "price": 541.3,
+      "changePct": -1.7941407933395117,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/hkima2mkqhu2cjfz4kbmru5gbgcausnqptpu8cfmpump",
-      "tokenAddress": "HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump",
-      "description": ""
-    },
-    {
       "url": "https://dexscreener.com/solana/5ldowscyvd3a6zs4m8gcqg5nu16eltwrxhcifi1bpump",
       "tokenAddress": "5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump",
       "description": "Kiss the ring. Hold the line. $DONJENSEN, the Don of Solana memes \ud83c\udf39"
-    },
-    {
-      "url": "https://dexscreener.com/solana/7cfiqdt46zs7oohwlfilsasqklmibtokh9dbinsspump",
-      "tokenAddress": "7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump",
-      "description": "Umbra Cash is a next-gen wallet layer on Solana"
     },
     {
       "url": "https://dexscreener.com/solana/d7myad7k3aqjpg4uxjucml51edhresjxkjuynsxcpump",
@@ -49,28 +39,38 @@
       "description": "Christmax, otherwise known as Christmas Maxxing."
     },
     {
-      "url": "https://dexscreener.com/solana/ganjeasybm9k3tveeuc2pdyu1tjcpztmppoom92fpump",
-      "tokenAddress": "GaNJeASYBM9k3TvEeUC2Pdyu1TjcpzTmPpoom92fpump",
-      "description": "Horns polished, leather jacket zipped, he walked into the Solana County Fair and took the blue ribbon"
-    },
-    {
       "url": "https://dexscreener.com/solana/gtdfjkk62dkwdbmmhh7s3fmmzvwirdgjtlg2pvhq43bt",
       "tokenAddress": "GtDfJKk62DKwdBmmHh7s3fMmzvwirdgjtLg2PVHq43bt",
       "description": "The yellow family keeps predicting the future. The Bureau of Predictions is on the case. $SIMPS on Solana. They saw it c"
     },
     {
-      "url": "https://dexscreener.com/solana/ghweb3fsfqdbnbt9qxvu7kxkuh1cx7kfk5nvdkgapump",
-      "tokenAddress": "GHWEB3FsfqDbNBt9QxVU7kXkUh1cX7kFk5NVDkgApump",
-      "description": "\ud83e\uddb8\u200d\u2640\ufe0f SUPER CLAUDIA INU ($SCINU) \u26a1\n\nSHE HAS ARRIVED. THE MEME UNIVERSE HAS A NEW HERO.\n\nNot just another INU. A SUPER INU"
+      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
+      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     },
     {
-      "url": "https://dexscreener.com/solana/5st93zsnqvwxk22cj5mjbxcjunnb452h5unmrttspump",
-      "tokenAddress": "5St93zSNQvWxK22Cj5mJBXcjUNNB452h5uNmrttSpump",
-      "description": "Claudio is Claudia's boyfriend. Claudia, the AI pop star, lost her ex Cursor to a rocket."
+      "url": "https://dexscreener.com/solana/ersucqz65ma3mpyzmj82s4rr7un6vqmvjnyuofdbpump",
+      "tokenAddress": "ErSUCQz65MA3mPyzmJ82s4RR7uN6vQmVJnYuofDbpump",
+      "description": "M1STAKE ($M1S) is a Solana-based meme coin inspired by the M1STAKE gaming ecosystem, bringing together crypto culture, g"
+    },
+    {
+      "url": "https://dexscreener.com/solana/6nqccuxypcajncxk7gzvjcdwvqitgjrdg3k1no4jpump",
+      "tokenAddress": "6nQCcuXypcAjncXK7gzvJcdwvqitgJRdG3k1no4Jpump",
+      "description": "\ud83d\ude82 $CHUCHU \u2014 The wildest meme train on Solana. Powered by memes, fueled by community, and built for chaos. No brakes. Jus"
+    },
+    {
+      "url": "https://dexscreener.com/solana/96srdockwosrfhqpr8ynukvqwkwb9elrqaef14mnpump",
+      "tokenAddress": "96srDoCkWosrFHQpR8YnukVqWkWb9eLRQAef14mNpump",
+      "description": "BOWIE \u2014 Elon first dog \n\n$BOWIE brings back a piece of Elon Musk\u2019s early history, his beloved dog and companion during t"
+    },
+    {
+      "url": "https://dexscreener.com/solana/dmfzuvtfeme697zfedqaxerd9mrbdes66v5wirvapump",
+      "tokenAddress": "DMFzUvtfEmE697ZfEDqAXErd9MrBDEs66V5WiRvApump",
+      "description": "Bold energy for the next wave of Web3."
     }
   ],
   "fearGreed": {
-    "value": 11,
+    "value": 13,
     "label": "Extreme Fear"
   },
   "command": "Risk-off. Paper flat. Do not chase memes.",
