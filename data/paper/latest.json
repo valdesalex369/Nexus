@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-26T14:30:09.396822+00:00",
+  "at": "2026-11-26T23:20:55.596492+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 60728.0,
-      "changePct": 4.354733806987968,
+      "price": 60395.0,
+      "changePct": 0.31222848709893647,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1700.35,
-      "changePct": 4.015977386534418,
+      "price": 1685.44,
+      "changePct": -0.21086399296560882,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 71.26,
-      "changePct": 6.4093691549732466,
+      "price": 70.86,
+      "changePct": 0.5097983339076393,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 551.95,
-      "changePct": 3.347434305030762,
+      "price": 552.74,
+      "changePct": 0.20327077624049494,
       "source": "CoinGecko"
     }
   ],
@@ -32,11 +32,6 @@
       "url": "https://dexscreener.com/solana/cnozx9vzrftsczssxicm4ee86gtuf497g5t94ruvpump",
       "tokenAddress": "CnozX9VZrfTSCzssxicM4ee86GTuf497G5t94rUvpump",
       "description": "The legendary fearless feline and Death are coming to Fortnite Two iconic characters. One legendary crossover."
-    },
-    {
-      "url": "https://dexscreener.com/solana/3gmfg4sfdjerdv8pacfrl2uupxegjtyljfry4hfypump",
-      "tokenAddress": "3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump",
-      "description": "Sixty-knot nor'easter winds can't ground a centennial turkey. A hundred years of stitched amber satin facing Sixth Avenu"
     },
     {
       "url": "https://dexscreener.com/solana/6hs1aesk7ost5b1czlp1htrtawefr5wurfmhs4vppump",
@@ -49,14 +44,19 @@
       "description": "Universal Wealth. Equal Opportunity. Financial Freedom for All."
     },
     {
-      "url": "https://dexscreener.com/solana/9qt8k685hrae4k11dhgxirdtpfaaimextyfwt8cppump",
-      "tokenAddress": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-      "description": "$DIGS is the in-game and staking token of AiDiglet, a Telegram mini-app where players tap-to-mine across 100 depth layer"
+      "url": "https://dexscreener.com/solana/cvxq9qeriggtbmwyf8l1u7oqn9ev8a49n1dzne8cpump",
+      "tokenAddress": "CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump",
+      "description": "Cate Inu, the number 1 Cate pair this bull run. We love Cate, and we love Inu. Coded"
     },
     {
-      "url": "https://dexscreener.com/solana/b34nxkzcgsjb9chlushprpxle3wfswyet8cqkzzmpump",
-      "tokenAddress": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
-      "description": "Let's show some love for Fiona"
+      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
+      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
+    },
+    {
+      "url": "https://dexscreener.com/solana/6ppi7lfhkahhkqws3kt1zjcsgyqyk4uvpp3pe6xmpump",
+      "tokenAddress": "6ppi7LfHkAhHkQwS3kT1zjCsGYQyK4uvpp3pE6Xmpump",
+      "description": "What The Crab!"
     },
     {
       "url": "https://dexscreener.com/solana/ccpn5rxtejbrqbtuhoxyimzorzsghbfpeyyqjsvtgs27",
@@ -64,9 +64,9 @@
       "description": "Santa\u2019s house is open. A Christmas community on Solana. Explore, complete tasks & unwrap surprises."
     },
     {
-      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
-      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
+      "url": "https://dexscreener.com/solana/cerq2ognsjwvovvmjx8k1wul6qr75q1tesxjnqrcpump",
+      "tokenAddress": "CErq2oGNSJWVovVMjx8k1wuL6qR75q1teSxJNqrCpump",
+      "description": "If you love party, then you prolly know $JAZZ dogs"
     }
   ],
   "fearGreed": {
