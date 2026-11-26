@@ -1,42 +1,57 @@
 {
-  "at": "2026-11-25T22:34:50.820159+00:00",
+  "at": "2026-11-26T04:26:55.335908+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 60106.0,
-      "changePct": 0.23881934839556843,
+      "price": 60957.0,
+      "changePct": 2.8104839172968243,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1683.74,
-      "changePct": 0.02630101229967424,
+      "price": 1701.67,
+      "changePct": 2.319158694934837,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 70.42,
-      "changePct": 0.9881162199278084,
+      "price": 71.16,
+      "changePct": 2.818459170595279,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 551.79,
-      "changePct": 0.43323879427072454,
+      "price": 559.34,
+      "changePct": 2.9534019812515626,
       "source": "CoinGecko"
     }
   ],
   "memes": [
+    {
+      "url": "https://dexscreener.com/solana/cnozx9vzrftsczssxicm4ee86gtuf497g5t94ruvpump",
+      "tokenAddress": "CnozX9VZrfTSCzssxicM4ee86GTuf497G5t94rUvpump",
+      "description": "The legendary fearless feline and Death are coming to Fortnite Two iconic characters. One legendary crossover."
+    },
     {
       "url": "https://dexscreener.com/solana/3gmfg4sfdjerdv8pacfrl2uupxegjtyljfry4hfypump",
       "tokenAddress": "3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump",
       "description": "Sixty-knot nor'easter winds can't ground a centennial turkey. A hundred years of stitched amber satin facing Sixth Avenu"
     },
     {
+      "url": "https://dexscreener.com/solana/6hs1aesk7ost5b1czlp1htrtawefr5wurfmhs4vppump",
+      "tokenAddress": "6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump",
+      "description": "zero sells. zero fud. zero chill. one tattoo. babe."
+    },
+    {
       "url": "https://dexscreener.com/solana/b34nxkzcgsjb9chlushprpxle3wfswyet8cqkzzmpump",
       "tokenAddress": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
       "description": "Let's show some love for Fiona"
+    },
+    {
+      "url": "https://dexscreener.com/solana/bnw5jrpek5jvjhzuib9yrs2cmzt4blefqsrzdzsppump",
+      "tokenAddress": "Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump",
+      "description": "Universal Wealth. Equal Opportunity. Financial Freedom for All."
     },
     {
       "url": "https://dexscreener.com/solana/gexthzhgaswpaq7fi8qrhfubjpimunsyhjiaa7xzpump",
@@ -49,28 +64,13 @@
       "description": "Santa\u2019s house is open. A Christmas community on Solana. Explore, complete tasks & unwrap surprises."
     },
     {
-      "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
-      "tokenAddress": "DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-      "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
-    },
-    {
       "url": "https://dexscreener.com/solana/67eh4f62kkz45wfgwmruu8gncfp9kn6ufcnvjwbgpump",
       "tokenAddress": "67eH4F62kKZ45wfgWMRuu8GNCFP9kN6uFcNvJWBgpump",
       "description": "Attempting to reach the highest liked post on X.\n\nAll donations to the WFP."
-    },
-    {
-      "url": "https://dexscreener.com/solana/dc1vy25nn2u6cdyd9luamwmxrmh6pqqvd6brgamfpump",
-      "tokenAddress": "DC1vy25nn2U6CDYD9LuaMWmxrmH6PQQVd6BrgAMFpump",
-      "description": "In 2021, Shiba Inu branded itself as the Doge Killer and went on to touch a $50B market cap.\n\nNow in 2026, the narrative"
-    },
-    {
-      "url": "https://dexscreener.com/solana/2ycl4vuvbbtzakphi9vtw2rmojtm5d79wgshlg6xpump",
-      "tokenAddress": "2YCL4VUVbBTZAKPHi9vTW2rmojTm5d79WGShLG6Xpump",
-      "description": "Remake of rw2c at your account is hacked through privy or cookies data from pump fun they won't admit it though"
     }
   ],
   "fearGreed": {
-    "value": 13,
+    "value": 11,
     "label": "Extreme Fear"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
