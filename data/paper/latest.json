@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-27T05:23:39.351058+00:00",
+  "at": "2026-11-27T15:37:24.873757+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 61661.0,
-      "changePct": 1.22930993148534,
+      "price": 59858.0,
+      "changePct": -0.9842612687775769,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1742.91,
-      "changePct": 2.5865975247524253,
+      "price": 1664.6,
+      "changePct": -1.3480836493478188,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 73.15,
-      "changePct": 2.6748201179613003,
+      "price": 71.78,
+      "changePct": 1.5095701251812608,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 565.84,
-      "changePct": 1.0098988313939494,
+      "price": 551.95,
+      "changePct": 0.5296382040834932,
       "source": "CoinGecko"
     }
   ],
@@ -49,24 +49,24 @@
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     },
     {
-      "url": "https://dexscreener.com/solana/6ppi7lfhkahhkqws3kt1zjcsgyqyk4uvpp3pe6xmpump",
-      "tokenAddress": "6ppi7LfHkAhHkQwS3kT1zjCsGYQyK4uvpp3pE6Xmpump",
-      "description": "What The Crab!"
-    },
-    {
       "url": "https://dexscreener.com/solana/recrfwnxrbtudwdnvoknv5h4hlqubadzmjwkfshpump",
       "tokenAddress": "RecRFwNXRbTuDwDnvokNv5h4hLQubaDZMJwKfshpump",
       "description": "Official community coin of MOSTO, the memecoin terminal built by meme traders, for meme traders. We listen to our commun"
     },
     {
-      "url": "https://dexscreener.com/solana/cerq2ognsjwvovvmjx8k1wul6qr75q1tesxjnqrcpump",
-      "tokenAddress": "CErq2oGNSJWVovVMjx8k1wuL6qR75q1teSxJNqrCpump",
-      "description": "If you love party, then you prolly know $JAZZ dogs"
+      "url": "https://dexscreener.com/solana/aqmdzvntidbmq5sifezgnc8yddidp1slr6atbqqcs5s2",
+      "tokenAddress": "AqmdZvNtiDbMq5SifeZGNc8ydDidp1sLr6AtbqqCs5S2",
+      "description": "Launch it. Let it rip. No Rug"
     },
     {
-      "url": "https://dexscreener.com/solana/6is11v1kgpybgpdmkygbacbit62kqunsvnldnzdfpump",
-      "tokenAddress": "6is11V1KgpybgPdMkYGBacbiT62kqunsvnLDNzDfpump",
-      "description": "The most famous Japanese cat"
+      "url": "https://dexscreener.com/solana/gxpqzkap4exgqttx4sxfetv7nt1yzkezsakqos3hpump",
+      "tokenAddress": "GXpQZkap4ExgQTTX4SXfETV7nt1YZKEZSakqos3hpump",
+      "description": "Double the thrust from the launch pad to the nursery class! Every junior astronaut gets twin golden rockets for show-and"
+    },
+    {
+      "url": "https://dexscreener.com/solana/j25axttx91eg3mne6p2bp4qyvu7yydeefmryw3utpump",
+      "tokenAddress": "J25aXtTx91Eg3MNe6P2bP4Qyvu7yYDeEFmRyw3UTpump",
+      "description": "Santa season is coming!\n\nElon Musk already posted about it, and now $FLOKIMAS is ready to bring Christmas magic to the m"
     }
   ],
   "fearGreed": {
