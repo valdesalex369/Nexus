@@ -1,37 +1,47 @@
 {
-  "at": "2026-11-27T15:37:24.873757+00:00",
+  "at": "2026-11-27T23:44:59.434523+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 59858.0,
-      "changePct": -0.9842612687775769,
+      "price": 59788.0,
+      "changePct": -1.0145763605644893,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1664.6,
-      "changePct": -1.3480836493478188,
+      "price": 1658.94,
+      "changePct": -1.5403166128808092,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 71.78,
-      "changePct": 1.5095701251812608,
+      "price": 71.44,
+      "changePct": 0.6755669248664105,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 551.95,
-      "changePct": 0.5296382040834932,
+      "price": 553.59,
+      "changePct": 0.15084024279072478,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
+      "url": "https://dexscreener.com/solana/28fhud54demcvkruclzzlqkpuafz5trcuh8d2gfopump",
+      "tokenAddress": "28FHuD54DEmcVkrUCLZZLqKPUAFZ5TrCuH8d2gfopump",
+      "description": "bob says"
+    },
+    {
       "url": "https://dexscreener.com/solana/4obggxrmvyqpwzr12uzyabdnkgdywz2giy8enmd2pump",
       "tokenAddress": "4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump",
       "description": "he plugs the chimney and keeps rolling\ud83c\udf85"
+    },
+    {
+      "url": "https://dexscreener.com/solana/b9wbjdj4fbhmszmoxakjstawuepajukbysvnk5zapump",
+      "tokenAddress": "B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump",
+      "description": ""
     },
     {
       "url": "https://dexscreener.com/solana/4tpsvjdaqgdjb5tzgazedmvm2gk2xdvcg2lxpx8opump",
@@ -39,9 +49,9 @@
       "description": "Move tokens between blockchains in one simple step. Pick where they are and where they should go \u2014 we handle the rest in"
     },
     {
-      "url": "https://dexscreener.com/solana/cvxq9qeriggtbmwyf8l1u7oqn9ev8a49n1dzne8cpump",
-      "tokenAddress": "CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump",
-      "description": "Cate Inu, the number 1 Cate pair this bull run. We love Cate, and we love Inu. Coded"
+      "url": "https://dexscreener.com/solana/recrfwnxrbtudwdnvoknv5h4hlqubadzmjwkfshpump",
+      "tokenAddress": "RecRFwNXRbTuDwDnvokNv5h4hLQubaDZMJwKfshpump",
+      "description": "Official community coin of MOSTO, the memecoin terminal built by meme traders, for meme traders. We listen to our commun"
     },
     {
       "url": "https://dexscreener.com/solana/dtcicpcktkeah7tdeztym3hxeohaomibdyjhmyxzpump",
@@ -49,24 +59,14 @@
       "description": "Someone asked AI to build a game the entire crypto space would love. So it recreated the crypto world for us to own. \ud83e\ude99 B"
     },
     {
-      "url": "https://dexscreener.com/solana/recrfwnxrbtudwdnvoknv5h4hlqubadzmjwkfshpump",
-      "tokenAddress": "RecRFwNXRbTuDwDnvokNv5h4hLQubaDZMJwKfshpump",
-      "description": "Official community coin of MOSTO, the memecoin terminal built by meme traders, for meme traders. We listen to our commun"
+      "url": "https://dexscreener.com/solana/85cqsfgbi8mbzxipppbppxuv7j1ha8tbwhjf4gkw6mhg",
+      "tokenAddress": "85cQsFgbi8mBZxiPppbpPXuV7j1hA8tBwhjF4gKW6mHg",
+      "description": "Rizzmas is more than a memecoin, it\u2019s a year-round celebration tied to global cultural events, offering unmatched engage"
     },
     {
-      "url": "https://dexscreener.com/solana/aqmdzvntidbmq5sifezgnc8yddidp1slr6atbqqcs5s2",
-      "tokenAddress": "AqmdZvNtiDbMq5SifeZGNc8ydDidp1sLr6AtbqqCs5S2",
-      "description": "Launch it. Let it rip. No Rug"
-    },
-    {
-      "url": "https://dexscreener.com/solana/gxpqzkap4exgqttx4sxfetv7nt1yzkezsakqos3hpump",
-      "tokenAddress": "GXpQZkap4ExgQTTX4SXfETV7nt1YZKEZSakqos3hpump",
-      "description": "Double the thrust from the launch pad to the nursery class! Every junior astronaut gets twin golden rockets for show-and"
-    },
-    {
-      "url": "https://dexscreener.com/solana/j25axttx91eg3mne6p2bp4qyvu7yydeefmryw3utpump",
-      "tokenAddress": "J25aXtTx91Eg3MNe6P2bP4Qyvu7yYDeEFmRyw3UTpump",
-      "description": "Santa season is coming!\n\nElon Musk already posted about it, and now $FLOKIMAS is ready to bring Christmas magic to the m"
+      "url": "https://dexscreener.com/solana/5q6dkfforcgdqndgqnf7tpuacfnym8vm4k2nfb7fpump",
+      "tokenAddress": "5Q6DKFFoRCGdqNDGQNF7TPUacfNyM8VM4K2NfB7Fpump",
+      "description": "\ud83c\udf84 THE WAIT IS OVER.\n\nHalf Shiba. Half Machine. All Holiday Spirit.\n\nCYBERMAS has awakened. The cybersecurity Christmas m"
     }
   ],
   "fearGreed": {
