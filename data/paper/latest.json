@@ -1,47 +1,42 @@
 {
-  "at": "2026-11-26T23:20:55.596492+00:00",
+  "at": "2026-11-27T05:23:39.351058+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 60395.0,
-      "changePct": 0.31222848709893647,
+      "price": 61661.0,
+      "changePct": 1.22930993148534,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1685.44,
-      "changePct": -0.21086399296560882,
+      "price": 1742.91,
+      "changePct": 2.5865975247524253,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 70.86,
-      "changePct": 0.5097983339076393,
+      "price": 73.15,
+      "changePct": 2.6748201179613003,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 552.74,
-      "changePct": 0.20327077624049494,
+      "price": 565.84,
+      "changePct": 1.0098988313939494,
       "source": "CoinGecko"
     }
   ],
   "memes": [
     {
-      "url": "https://dexscreener.com/solana/cnozx9vzrftsczssxicm4ee86gtuf497g5t94ruvpump",
-      "tokenAddress": "CnozX9VZrfTSCzssxicM4ee86GTuf497G5t94rUvpump",
-      "description": "The legendary fearless feline and Death are coming to Fortnite Two iconic characters. One legendary crossover."
+      "url": "https://dexscreener.com/solana/4obggxrmvyqpwzr12uzyabdnkgdywz2giy8enmd2pump",
+      "tokenAddress": "4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump",
+      "description": "he plugs the chimney and keeps rolling\ud83c\udf85"
     },
     {
-      "url": "https://dexscreener.com/solana/6hs1aesk7ost5b1czlp1htrtawefr5wurfmhs4vppump",
-      "tokenAddress": "6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump",
-      "description": "zero sells. zero fud. zero chill. one tattoo. babe."
-    },
-    {
-      "url": "https://dexscreener.com/solana/bnw5jrpek5jvjhzuib9yrs2cmzt4blefqsrzdzsppump",
-      "tokenAddress": "Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump",
-      "description": "Universal Wealth. Equal Opportunity. Financial Freedom for All."
+      "url": "https://dexscreener.com/solana/4tpsvjdaqgdjb5tzgazedmvm2gk2xdvcg2lxpx8opump",
+      "tokenAddress": "4tPsVjDAqgDjb5TzGazEDMvM2GK2xDvCG2LxpX8opump",
+      "description": "Move tokens between blockchains in one simple step. Pick where they are and where they should go \u2014 we handle the rest in"
     },
     {
       "url": "https://dexscreener.com/solana/cvxq9qeriggtbmwyf8l1u7oqn9ev8a49n1dzne8cpump",
@@ -59,18 +54,23 @@
       "description": "What The Crab!"
     },
     {
-      "url": "https://dexscreener.com/solana/ccpn5rxtejbrqbtuhoxyimzorzsghbfpeyyqjsvtgs27",
-      "tokenAddress": "CcpN5RXTEjbRqbtuHoxyiMZorzsghbfpeyYQjSvTgS27",
-      "description": "Santa\u2019s house is open. A Christmas community on Solana. Explore, complete tasks & unwrap surprises."
+      "url": "https://dexscreener.com/solana/recrfwnxrbtudwdnvoknv5h4hlqubadzmjwkfshpump",
+      "tokenAddress": "RecRFwNXRbTuDwDnvokNv5h4hLQubaDZMJwKfshpump",
+      "description": "Official community coin of MOSTO, the memecoin terminal built by meme traders, for meme traders. We listen to our commun"
     },
     {
       "url": "https://dexscreener.com/solana/cerq2ognsjwvovvmjx8k1wul6qr75q1tesxjnqrcpump",
       "tokenAddress": "CErq2oGNSJWVovVMjx8k1wuL6qR75q1teSxJNqrCpump",
       "description": "If you love party, then you prolly know $JAZZ dogs"
+    },
+    {
+      "url": "https://dexscreener.com/solana/6is11v1kgpybgpdmkygbacbit62kqunsvnldnzdfpump",
+      "tokenAddress": "6is11V1KgpybgPdMkYGBacbiT62kqunsvnLDNzDfpump",
+      "description": "The most famous Japanese cat"
     }
   ],
   "fearGreed": {
-    "value": 11,
+    "value": 12,
     "label": "Extreme Fear"
   },
   "command": "Watch BTC ETH SOL. Paper only. You click live.",
