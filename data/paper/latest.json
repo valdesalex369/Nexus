@@ -1,29 +1,29 @@
 {
-  "at": "2026-11-27T23:44:59.434523+00:00",
+  "at": "2026-11-28T05:00:57.318918+00:00",
   "venue": "paper",
   "tape": [
     {
       "symbol": "BTC",
-      "price": 59788.0,
-      "changePct": -1.0145763605644893,
+      "price": 59945.0,
+      "changePct": -2.291696893135581,
       "source": "CoinGecko"
     },
     {
       "symbol": "ETH",
-      "price": 1658.94,
-      "changePct": -1.5403166128808092,
+      "price": 1661.79,
+      "changePct": -3.9559776852223942,
       "source": "CoinGecko"
     },
     {
       "symbol": "SOL",
-      "price": 71.44,
-      "changePct": 0.6755669248664105,
+      "price": 71.55,
+      "changePct": -1.5468701785386108,
       "source": "CoinGecko"
     },
     {
       "symbol": "BNB",
-      "price": 553.59,
-      "changePct": 0.15084024279072478,
+      "price": 554.31,
+      "changePct": -1.547271969105751,
       "source": "CoinGecko"
     }
   ],
@@ -34,9 +34,9 @@
       "description": "bob says"
     },
     {
-      "url": "https://dexscreener.com/solana/4obggxrmvyqpwzr12uzyabdnkgdywz2giy8enmd2pump",
-      "tokenAddress": "4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump",
-      "description": "he plugs the chimney and keeps rolling\ud83c\udf85"
+      "url": "https://dexscreener.com/solana/3wsqunarnsh5pyt6etkbq7uujdgkptfea2xfvdewpump",
+      "tokenAddress": "3WsqUNArNSh5pYt6eTKbQ7uUJDgkPtFEA2XFvdEWpump",
+      "description": "Every legend starts at zero."
     },
     {
       "url": "https://dexscreener.com/solana/b9wbjdj4fbhmszmoxakjstawuepajukbysvnk5zapump",
@@ -44,9 +44,9 @@
       "description": ""
     },
     {
-      "url": "https://dexscreener.com/solana/4tpsvjdaqgdjb5tzgazedmvm2gk2xdvcg2lxpx8opump",
-      "tokenAddress": "4tPsVjDAqgDjb5TzGazEDMvM2GK2xDvCG2LxpX8opump",
-      "description": "Move tokens between blockchains in one simple step. Pick where they are and where they should go \u2014 we handle the rest in"
+      "url": "https://dexscreener.com/solana/8n6wf11pluueuu8b1hbndjhtzyl4bbr8yrdps6znpump",
+      "tokenAddress": "8N6WF11pLUUeUu8b1HbnDJHTzyL4bbr8YRdPS6Znpump",
+      "description": "PrismeIce works like a prism for your crypto. Your deposit keeps earning, and a slice of the yield goes to real nature p"
     },
     {
       "url": "https://dexscreener.com/solana/recrfwnxrbtudwdnvoknv5h4hlqubadzmjwkfshpump",
@@ -70,10 +70,10 @@
     }
   ],
   "fearGreed": {
-    "value": 12,
+    "value": 10,
     "label": "Extreme Fear"
   },
-  "command": "Watch BTC ETH SOL. Paper only. You click live.",
+  "command": "Risk-off. Paper flat. Do not chase memes.",
   "liveOrders": false,
   "errors": [
     "binance: HTTP 451"
